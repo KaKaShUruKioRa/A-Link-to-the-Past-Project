@@ -1,0 +1,7 @@
+animation{
+  name = "ice_rod",
+  src_image = "items/inventory/ice_rod.png",
+  directions = {
+    { x = 16, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}

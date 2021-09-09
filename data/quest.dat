@@ -1,0 +1,16 @@
+quest{
+  solarus_version = "1.6",
+  write_dir = "A Link to the Past Project",
+  title = "A Link to the Past Project",
+  short_description = "",
+  long_description = [[
+Projet de refonte d'un A Link to the Past avec Solarus !]],
+  author = "KaKaShUruKioRa",
+  quest_version = "0.0.1",
+  release_date = "",
+  website = "www.solarus-games.org",
+  normal_quest_size = "320x240",
+  min_quest_size = "320x240",
+  max_quest_size = "320x240",
+}
+

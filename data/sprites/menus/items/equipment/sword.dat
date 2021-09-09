@@ -1,0 +1,10 @@
+animation{
+  name = "sword",
+  src_image = "items/equipment/sword.png",
+  directions = {
+    { x = 16, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 16, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 16, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 16, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}

@@ -1,0 +1,7 @@
+animation{
+  name = "statue",
+  src_image = "entities/statue.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21 },
+  },
+}

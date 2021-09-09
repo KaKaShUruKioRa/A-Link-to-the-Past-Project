@@ -1,0 +1,7 @@
+animation{
+  name = "magic_mirror",
+  src_image = "items/inventory/magic_mirror.png",
+  directions = {
+    { x = 16, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}

@@ -1,0 +1,36 @@
+animation{
+  name = "orange_lowered",
+  src_image = "entities/crystal_block.png",
+  frame_delay = 50,
+  frame_to_loop_on = 3,
+  directions = {
+    { x = 0, y = 16, frame_width = 16, frame_height = 16, origin_x = 0, origin_y = 0, num_frames = 4 },
+  },
+}
+animation{
+  name = "blue_lowered",
+  src_image = "entities/crystal_block.png",
+  frame_delay = 50,
+  frame_to_loop_on = 3,
+  directions = {
+    { x = 0, y = 48, frame_width = 16, frame_height = 16, origin_x = 0, origin_y = 0, num_frames = 4 },
+  },
+}
+animation{
+  name = "blue_raised",
+  src_image = "entities/crystal_block.png",
+  frame_delay = 50,
+  frame_to_loop_on = 3,
+  directions = {
+    { x = 0, y = 32, frame_width = 16, frame_height = 16, origin_x = 0, origin_y = 0, num_frames = 4 },
+  },
+}
+animation{
+  name = "orange_raised",
+  src_image = "entities/crystal_block.png",
+  frame_delay = 50,
+  frame_to_loop_on = 3,
+  directions = {
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 0, origin_y = 0, num_frames = 4 },
+  },
+}

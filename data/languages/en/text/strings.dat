@@ -1,0 +1,29 @@
+text{ key = "options_menu.back", value = "BACK" }
+text{ key = "options_menu.language", value = "LANGUAGE" }
+text{ key = "options_menu.music_volume", value = "MUSIC" }
+text{ key = "options_menu.sound_volume", value = "SOUND" }
+text{ key = "options_menu.title", value = "OPTIONS" }
+text{ key = "pause.commands.action", value = "Action" }
+text{ key = "pause.commands.action_to_configure", value = "Press Action to configure this command" }
+text{ key = "pause.commands.commands", value = "Commands" }
+text{ key = "pause.commands.down", value = "Down" }
+text{ key = "pause.commands.fullscreen", value = "Fullscreen" }
+text{ key = "pause.commands.item", value = "Use item" }
+text{ key = "pause.commands.joypad", value = "Joypad" }
+text{ key = "pause.commands.keyboard", value = "Keyboard" }
+text{ key = "pause.commands.left", value = "Left" }
+text{ key = "pause.commands.pause", value = "Pause" }
+text{ key = "pause.commands.press_new_key", value = "Press the new key" }
+text{ key = "pause.commands.right", value = "Right" }
+text{ key = "pause.commands.save", value = "Save" }
+text{ key = "pause.commands.sword", value = "Sword" }
+text{ key = "pause.commands.title", value = "COMMANDS" }
+text{ key = "pause.commands.up", value = "Up" }
+text{ key = "savegames_menu.cancel", value = "CANCEL" }
+text{ key = "savegames_menu.delete", value = "ERASE" }
+text{ key = "savegames_menu.delete_question", value = "ERASE?" }
+text{ key = "savegames_menu.load", value = "LOAD" }
+text{ key = "savegames_menu.no", value = "NO" }
+text{ key = "savegames_menu.options", value = "OPTIONS" }
+text{ key = "savegames_menu.title", value = "SELECT PLAYER" }
+text{ key = "savegames_menu.yes", value = "YES" }

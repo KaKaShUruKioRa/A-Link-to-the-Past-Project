@@ -1,0 +1,8 @@
+animation{
+  name = "default",
+  src_image = "menus/title_screen/small_shine.png",
+  frame_delay = 150,
+  directions = {
+    { x = 0, y = 0, frame_width = 15, frame_height = 15, origin_x = 8, origin_y = 8, num_frames = 4 },
+  },
+}

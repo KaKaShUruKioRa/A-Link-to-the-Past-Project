@@ -1,0 +1,12 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 512,
+  height = 512,
+  min_layer = 0,
+  max_layer = 2,
+  world = "Light Raven",
+  tileset = "out/outside_main",
+  music = "overworld",
+}
+

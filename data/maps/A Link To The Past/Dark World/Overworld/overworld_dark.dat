@@ -1,0 +1,11 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 4096,
+  height = 4096,
+  min_layer = 0,
+  max_layer = 2,
+  world = "Dark World",
+  tileset = "out/outside_main",
+}
+

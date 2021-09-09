@@ -1,0 +1,3 @@
+shader{
+  fragment_file = "fr_to_normal_colors.frag.glsl",
+}

@@ -1,0 +1,22 @@
+animation{
+  name = "invisible",
+  src_image = "menus/title_screen/triforce.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 176, frame_height = 160, origin_x = 0, origin_y = 0 },
+  },
+}
+animation{
+  name = "moving",
+  src_image = "menus/title_screen/triforce.png",
+  frame_delay = 75,
+  directions = {
+    { x = 0, y = 0, frame_width = 176, frame_height = 160, origin_x = 0, origin_y = 0, num_frames = 88, num_columns = 8 },
+  },
+}
+animation{
+  name = "static",
+  src_image = "menus/title_screen/triforce.png",
+  directions = {
+    { x = 1232, y = 1600, frame_width = 176, frame_height = 160, origin_x = 0, origin_y = 0 },
+  },
+}

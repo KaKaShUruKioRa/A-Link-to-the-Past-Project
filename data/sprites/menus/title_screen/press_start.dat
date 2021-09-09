@@ -1,0 +1,9 @@
+animation{
+  name = "default",
+  src_image = "menus/title_screen/press_start.png",
+  frame_delay = 500,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 84, frame_height = 9, origin_x = 0, origin_y = 0, num_frames = 2, num_columns = 1 },
+  },
+}

@@ -1,0 +1,7 @@
+animation{
+  name = "pendant_of_power",
+  src_image = "items/quest/pendants.png",
+  directions = {
+    { x = 16, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}

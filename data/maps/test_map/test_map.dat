@@ -1,0 +1,486 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  world = "test world",
+  floor = 1,
+  tileset = "dungeon/light_brown",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 40,
+  width = 240,
+  height = 160,
+  pattern = "floor_low.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 40,
+  width = 224,
+  height = 8,
+  pattern = "wall_border.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 48,
+  width = 8,
+  height = 144,
+  pattern = "wall_border.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 48,
+  width = 8,
+  height = 144,
+  pattern = "wall_border.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 192,
+  width = 224,
+  height = 8,
+  pattern = "wall_border.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 192,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 192,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 16,
+  width = 240,
+  height = 24,
+  pattern = "wall.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 40,
+  width = 24,
+  height = 160,
+  pattern = "wall.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 40,
+  width = 24,
+  height = 160,
+  pattern = "wall.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 200,
+  width = 240,
+  height = 24,
+  pattern = "wall.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 200,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 200,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 200,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 200,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "door.2",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 216,
+  width = 16,
+  height = 32,
+  pattern = "floor_low.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 224,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 224,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2-1",
+}
+
+wall{
+  layer = 0,
+  x = 152,
+  y = 200,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+destination{
+  name = "starting_destination",
+  layer = 0,
+  x = 160,
+  y = 213,
+  direction = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 88,
+  y = 61,
+  treasure_variant = 2,
+  sprite = "destructibles/stone_small_lw_1",
+  weight = 1,
+}
+
+destructible{
+  layer = 0,
+  x = 72,
+  y = 61,
+  sprite = "destructibles/bush_green",
+  can_be_cut = true,
+  can_explode = true,
+}
+
+destructible{
+  layer = 0,
+  x = 104,
+  y = 61,
+  treasure_variant = 3,
+  sprite = "destructibles/stone_small_lw_2",
+  weight = 2,
+}
+
+custom_entity{
+  layer = 0,
+  x = 48,
+  y = 197,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 56,
+  y = 61,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hammer_stake_yellow",
+  model = "hammer_stake",
+}
+
+pickable{
+  layer = 0,
+  x = 240,
+  y = 141,
+  treasure_name = "consumables/fairy",
+}
+
+pickable{
+  layer = 0,
+  x = 224,
+  y = 61,
+  treasure_name = "inventory/ocarina",
+}
+
+pickable{
+  layer = 0,
+  x = 232,
+  y = 77,
+  treasure_name = "inventory/bombs",
+}
+
+pickable{
+  layer = 0,
+  x = 216,
+  y = 77,
+  treasure_name = "inventory/boomerang",
+}
+
+pickable{
+  layer = 0,
+  x = 208,
+  y = 93,
+  treasure_name = "inventory/bottle_1",
+}
+
+pickable{
+  layer = 0,
+  x = 224,
+  y = 93,
+  treasure_name = "inventory/bottle_2",
+  treasure_variant = 2,
+}
+
+pickable{
+  layer = 0,
+  x = 240,
+  y = 93,
+  treasure_name = "inventory/bottle_3",
+  treasure_variant = 3,
+}
+
+pickable{
+  layer = 0,
+  x = 224,
+  y = 173,
+  treasure_name = "equipment/sword",
+}
+
+pickable{
+  name = "tunic",
+  layer = 0,
+  x = 224,
+  y = 141,
+  treasure_name = "equipment/tunic",
+  treasure_variant = 2,
+}
+
+pickable{
+  layer = 0,
+  x = 208,
+  y = 141,
+  treasure_name = "equipment/shield",
+  treasure_variant = 3,
+}
+
+pickable{
+  name = "heart",
+  layer = 0,
+  x = 216,
+  y = 157,
+  treasure_name = "consumables/heart_container",
+}
+
+pickable{
+  layer = 0,
+  x = 200,
+  y = 109,
+  treasure_name = "consumables/piece_of_heart",
+}
+
+pickable{
+  layer = 0,
+  x = 216,
+  y = 109,
+  treasure_name = "consumables/piece_of_heart",
+}
+
+pickable{
+  layer = 0,
+  x = 232,
+  y = 109,
+  treasure_name = "consumables/piece_of_heart",
+}
+
+pickable{
+  layer = 0,
+  x = 248,
+  y = 109,
+  treasure_name = "consumables/piece_of_heart",
+}
+
+pickable{
+  layer = 0,
+  x = 200,
+  y = 125,
+  treasure_name = "consumables/piece_of_heart",
+}
+
+pickable{
+  layer = 0,
+  x = 216,
+  y = 125,
+  treasure_name = "consumables/piece_of_heart",
+}
+
+pickable{
+  layer = 0,
+  x = 232,
+  y = 125,
+  treasure_name = "consumables/piece_of_heart",
+}
+
+pickable{
+  layer = 0,
+  x = 248,
+  y = 125,
+  treasure_name = "consumables/piece_of_heart",
+}
+
+pickable{
+  name = "tunic_2",
+  layer = 0,
+  x = 232,
+  y = 157,
+  treasure_name = "inventory/bow",
+  treasure_variant = 2,
+}
+
+pickable{
+  layer = 0,
+  x = 160,
+  y = 157,
+  treasure_name = "dungeons/big_key",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 216,
+  width = 32,
+  height = 8,
+  pattern = "door_top.2-1",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 16,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 224,
+  width = 320,
+  height = 16,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 16,
+  width = 16,
+  height = 208,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 304,
+  y = 16,
+  width = 16,
+  height = 208,
+  pattern = "ceiling.2",
+}
+

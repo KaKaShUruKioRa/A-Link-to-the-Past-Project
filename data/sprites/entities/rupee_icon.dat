@@ -1,0 +1,7 @@
+animation{
+  name = "green",
+  src_image = "entities/rupee_icon.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 8, frame_height = 8, origin_x = 0, origin_y = 0 },
+  },
+}
