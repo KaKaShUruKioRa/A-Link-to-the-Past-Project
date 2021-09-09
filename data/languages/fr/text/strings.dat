@@ -1,0 +1,29 @@
+text{ key = "options_menu.back", value = "RETOUR" }
+text{ key = "options_menu.language", value = "LANGUE" }
+text{ key = "options_menu.music_volume", value = "MUSIQUE" }
+text{ key = "options_menu.sound_volume", value = "SON" }
+text{ key = "options_menu.title", value = "OPTIONS" }
+text{ key = "pause.commands.action", value = "Action" }
+text{ key = "pause.commands.action_to_configure", value = "Appuie sur Action pour changer cette commande" }
+text{ key = "pause.commands.commands", value = "Commandes" }
+text{ key = "pause.commands.down", value = "Bas" }
+text{ key = "pause.commands.fullscreen", value = "Plein écran" }
+text{ key = "pause.commands.item", value = "Utiliser objet" }
+text{ key = "pause.commands.joypad", value = "Joypad" }
+text{ key = "pause.commands.keyboard", value = "Clavier" }
+text{ key = "pause.commands.left", value = "Gauche" }
+text{ key = "pause.commands.pause", value = "Pause" }
+text{ key = "pause.commands.press_new_key", value = "Appuie sur la nouvelle touche" }
+text{ key = "pause.commands.right", value = "Droite" }
+text{ key = "pause.commands.save", value = "Sauvegarder" }
+text{ key = "pause.commands.sword", value = "Epée" }
+text{ key = "pause.commands.title", value = "COMMANDES" }
+text{ key = "pause.commands.up", value = "Haut" }
+text{ key = "savegames_menu.cancel", value = "ANNULER" }
+text{ key = "savegames_menu.delete", value = "EFFACER" }
+text{ key = "savegames_menu.delete_question", value = "EFFACER ?" }
+text{ key = "savegames_menu.load", value = "CHARGER" }
+text{ key = "savegames_menu.no", value = "NON" }
+text{ key = "savegames_menu.options", value = "OPTIONS" }
+text{ key = "savegames_menu.title", value = "ECRAN DE SELECTION" }
+text{ key = "savegames_menu.yes", value = "OUI" }

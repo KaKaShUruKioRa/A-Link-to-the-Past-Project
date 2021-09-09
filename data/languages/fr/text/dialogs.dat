@@ -1,284 +1,284 @@
 dialog{
   id = "Dungeon1.ArrowSecret",
   text = [[
-Looks like something...
-moved somewhere in the dungeon... 
+Il semblerait que quelque chose...
+ait bougé quelque part dans le donjon...
 ]],
 }
 
 dialog{
   id = "Dungeon1.GreatFairy.Ask",
   text = [[
-Hello young hero!
-         What is your visit worth to me?
-         $? I need care
-     $? Do you have something for me 
+         Bonjour jeune héros !
+        Que me vaut ta visite ?
+        $? J'ai besoin de soins
+    $? As-tu quelque chose pour moi ?
 ]],
 }
 
 dialog{
   id = "Dungeon1.GreatFairy.GiveItem",
   text = [[
-Here it is !
-It's a very powerful hammer,
-blessed by the fairies which gives it a
-immeasurable strength. 
+Le voici !
+C'est un marteau très puissant, 
+béni des fées qui lui confère une
+incommensurable force.
 ]],
 }
 
 dialog{
   id = "Dungeon1.GreatFairy.Heal",
   text = [[
-I will heal your wounds young hero ...
+Je vais panser tes blessures jeune héros...
 
-You really need it! 
+Tu en as bien besoin !
 ]],
 }
 
 dialog{
   id = "Dungeon1.GreatFairy.NoMoreItem",
   text = [[
-Sorry young hero,
-I unfortunately have nothing more to offer you.
-I can only wish you
-good fortune in your quest!
-Also, don't hesitate to come and see me,
-when you're hurt ...
+Désolé jeune héros,
+je n'ai malheureusement plus rien à t'offrir.
+Je ne peux que te souhaiter
+bonne fortune dans ta quête !
+Aussi, n'hésite pas à venir me voir,
+lorsque tu seras blessé...
 
-I will heal your wounds. 
+Je panserai tes blessures.
 ]],
 }
 
 dialog{
   id = "Dungeon1.GreatFairy.Search",
   text = [[
-It turns out that I keep a treasure
-in the fountain...
-just time for me
-to look for it... 
+Il s'avère que je garde un trésor
+dans la fontaine...
+juste le temps pour moi 
+de le rechercher...
 ]],
 }
 
 dialog{
   id = "Dungeon1.GreatFairy.UselessHeal",
   text = [[
-Come back to me when you have some
-really need young hero.
+Reviens me voir quand tu en aura 
+vraiment besoin jeune héros.
 
-So I'll be there to heal your wounds. 
+Alors je serai là pour panser tes blessures.
 ]],
 }
 
 dialog{
   id = "Indices.HelpCondamned",
   text = [[
-Hint :
+Indice :
 
-It is possible that some safes are
-definitively condemned by traps. 
+Il est possible que certains coffres soient
+définitivement condamnés par des pièges.
 ]],
 }
 
 dialog{
   id = "Indices.HelpFragile",
   text = [[
-Hint:
+Indice :
 
-If you find fragile areas maybe
-that with a little weight they can give way. 
+Si vous trouvez des zones fragiles peut-être
+qu'avec un peu poids celles-ci peuvent céder.
 ]],
 }
 
 dialog{
   id = "Indices.HelpGourou",
   text = [[
-Hint:
+Indice :
 
-Don't anger the Supreme Grand Chief.
-Take the time to think it over! 
+N'énervez pas le Grand Chef Suprême.
+Prenez le temps de la réflexion !
 ]],
 }
 
 dialog{
   id = "Indices.HelpLie",
   text = [[
-Hint:
+Indice :
 
-There are lies in this dungeon.
-All is not what it seems. 
+Il y a des mensonges dans ce donjon.
+Tout n'est pas ce qu'il semble être.
 ]],
 }
 
 dialog{
   id = "Indices.HelpLocked",
   text = [[
-Hint:
+Indice :
 
-If you're stuck push the block
-to where you can.
+Si vous êtes bloqué, poussez le bloc
+jusqu'au où vous le pouvez.
 ]],
 }
 
 dialog{
   id = "Indices.HelpMaxLife",
   text = [[
-Index :
+Indice :
 
-Does this dungeon seem extremely dangerous?
-Come back healthier...
+Ce donjon semble extrêmement dangereux ?
+Revenez en meilleur santé...
 ]],
 }
 
 dialog{
   id = "Indices.HelpTriforce",
   text = [[
-Hint:
+Indice :
 
-The triforce is waiting for something! 
+La triforce attend quelque chose !
 ]],
 }
 
 dialog{
   id = "Indices.HitHeart",
   text = [[
-Hint :
+Indice :
 
-Strike right in the heart! 
+Frappez en plein coeur !
 ]],
 }
 
 dialog{
   id = "Indices.IndiceQuestion",
   text = [[
-Do you want to activate this hint?
+Voulez-vous activer cet indice ?
 
-                    $? Yes
-                    $? No 
+                   $? Oui
+                   $? Non
 ]],
 }
 
 dialog{
   id = "Intro_World_Good.Cave_Sewer",
   text = [[
-Access to sewers:
+Accès aux égouts :
 
-Dangerous zone ! Do not enter without
-a guide.
+Zone Dangereuse ! Ne pas entrer sans
+un accompagnateur.
 ]],
 }
 
 dialog{
   id = "Intro_World_Good.House_Link",
   text = [[
-Link's House:
+Maison de Link :
 
-Push the door and enter. 
+Pousser la porte et entrer.
 ]],
 }
 
 dialog{
   id = "Intro_World_Good.NGuard",
   text = [[
-But where do you come from? 
+Mais d'où est-ce que tu arrives toi ?
 ]],
 }
 
 dialog{
   id = "Intro_World_Good.No_Trepassing",
   text = [[
-Sorry, but you can't pass!
+Désolé, mais vous ne pouvez pas passer !
 
-I can't tell you more!
-Please move on! 
+Je ne peux pas vous en dire plus ! 
+Veuillez circuler !
 ]],
 }
 
 dialog{
   id = "Intro_World_Good.Pulling_Guard",
   text = [[
-I finally managed to unlock this cave ...
+J'ai enfin réussi à débloquer cette grotte...
 
-Pfiou ... I can't take it anymore. 
+Pfiou... je n'en peux plus.
 ]],
 }
 
 dialog{
   id = "Intro_World_Good.SGuard",
   text = [[
-We were ordered
-to let people circulate
-$ 0
-$ 3 Please circulate now ... 
+On nous a donné l'ordre
+de laisser circulez les gens
+$0
+$3 Veuillez circulez maintenant...
 ]],
 }
 
 dialog{
   id = "NoBigKey",
   text = [[
-You can't open it ...
-You need the big key for that!
+Tu ne peux pas l'ouvrir...  
+Il te faut la grande clé pour ça !
 ]],
 }
 
 dialog{
   id = "NoRupees",
   text = [[
-You can't open it ...
-You need more Rubies for that!
+Tu ne peux pas l'ouvrir...  
+Il te faut plus de Rubis pour ça !
 ]],
 }
 
 dialog{
   id = "NoSmallKey",
   text = [[
-You can't open it ...
-You need a small key for that!
+Tu ne peux pas l'ouvrir...  
+Il te faut une petite clé pour ça !
 ]],
 }
 
 dialog{
   id = "World_Good.Guard",
   text = [[
-Ho ... the weather is nice now!
+Ho... il fait beau maintenant !
 
-I think I can relax from now on !
+Je pense pouvoir me détendre désormais !
 ]],
 }
 
 dialog{
   id = "World_Good.Sewer.EndGame",
   text = [[
-Congratulations to you !
-You have completed the game.
-You can continue walking around if you wish
-but there is not much more.
+Bravo à vous !
+Vous avez terminé le jeu.
+Vous pouvez continuer à vous balader si vous le 
+souhaitez mais il n'y a pas grand chose de plus.
 ]],
 }
 
 dialog{
   id = "World_Good.Sewer.RupeeDoor",
   text = [[
-Insert 20 Rupees by pulling the door!
+Insérez 20 Rubis en tirant la porte !
 
-Yes, that's it, pull the door! 
+Oui, c'est ça, tirez la porte !
 ]],
 }
 
 dialog{
   id = "_bush",
   text = [[
-You can lift the bushes,
-where to cut them well with your sword!
+Vous pouvez soulever les buissons,
+où bien les couper avec votre épée !
 ]],
 }
 
 dialog{
   id = "_crystal",
   text = [[
-Hit the cristal with your, 
-or something else !
-By doing this, you will raise the plots
-and lower others.
+Frapper le cristal avec votre épée, 
+ou autres choses !
+En faisant ça, vous relèverez les plots 
+et en abaisserez d'autres..
 ]],
 }
 
@@ -312,309 +312,309 @@ Prix : $v rubis.
 dialog{
   id = "_treasure.consumables/heart.1",
   text = [[
-You get a Heart!
+Vous obtenez un Coeur !
 
-It gives you back a heart. 
+Il vous rend un coeur.
 ]],
 }
 
 dialog{
   id = "_treasure.consumables/heart_container.1",
   text = [[
-You get a Heart Container!
+Vous obtenez un Conteneur de Coeur !
 
-It increases your heart total. 
+Il augmente votre total de coeur. 
 ]],
 }
 
 dialog{
   id = "_treasure.consumables/piece_of_heart.1",
   text = [[
-You get a Piece of Heart!
+Vous obtenez un Quart de Coeur !
 
-When you have gathered four
-you will get an additional Heart. 
+Lorsque vous en aurez rassemblé quatre
+vous obtiendrez un Coeur supplémentaire.
 ]],
 }
 
 dialog{
   id = "_treasure.consumables/rupee.1",
   text = [[
-You found a Green Ruby! 
+Tu as trouvé un Rubis Vert !
 ]],
 }
 
 dialog{
   id = "_treasure.consumables/rupee.2",
   text = [[
-You found a Blue Ruby!
+Tu as trouvé un Rubis Bleu !
 
-It is worth 5 Green Rubies! 
+Il vaut 5 Rubis Vert !
 ]],
 }
 
 dialog{
   id = "_treasure.consumables/rupee.3",
   text = [[
-You found a Red Ruby!
+Tu as trouvé un Rubis Rouge !
 
-It is worth 20 Red Rubies! 
+Il vaut 20 Rubis Rouge !
 ]],
 }
 
 dialog{
   id = "_treasure.consumables/rupee.4",
   text = [[
-You found 50 Rubies! 
+Tu as trouvé 50 Rubis !
 ]],
 }
 
 dialog{
   id = "_treasure.consumables/rupee.5",
   text = [[
-You found 100 Rubies! 
+Tu as trouvé 100 Rubis !
 ]],
 }
 
 dialog{
   id = "_treasure.consumables/rupee.6",
   text = [[
-You found 300 Rubies! 
+Tu as trouvé 300 Rubis !
 ]],
 }
 
 dialog{
   id = "_treasure.dungeons/big_key.1",
   text = [[
-You got the big key!
+Tu as obtenu la grande clé !
 
-With this you can open the big chest
-as well as the door of the Great Door of the Boss! 
+Avec celle-ci tu peux ouvrir le grand coffre
+ainsi que la porte du Grande Porte du Boss !
 ]],
 }
 
 dialog{
   id = "_treasure.dungeons/compass.1",
   text = [[
-You got the Dungeon Compass!
+Tu as obtenu la Bousole du donjon !
 
-Thanks to her you can know your position in
-the dungeon as well as the chest locations.
+Grâce à elle tu peux connaitre ta position dans
+le donjon ainsi que les emplacements de coffre.
 
 
-"Oh but that's awesome" you might say ...
-But in fact, well, it's broken so ...
-No compass? No compass! 
+"Oh mais c'est génial", me direz-vous...
+Mais en faite, bah elle est cassée donc...
+Pas de bousole ? Pas d'bousole !
 ]],
 }
 
 dialog{
   id = "_treasure.dungeons/map.1",
   text = [[
-You got the Dungeon Map!
+Tu as obtenu la Carte du donjon !
 
-Thanks to her you can know the distribution
-of the dungeon rooms.
+Grâce à elle tu peux connaitre la répartition
+des salles du donjon.
 
-But hey, this doesn't actually work,
-so bah ... get out of the way ....
+Mais bon, là ça marche pas en fait,
+donc bah... démerde toi....
 
-No, I'm kidding.
-If you're stuck go back to the theaters
-with big holes and looks for ... 
+Non en vrai, je déconne.
+Si t'es bloqué retourne vers les salles
+avec des grands trous et cherche...
 ]],
 }
 
 dialog{
   id = "_treasure.dungeons/small_key.1",
   text = [[
-You got a little key!
+Tu as obtenu une petite clé !
 
-You can open locked doors! 
+Tu peux ouvrir des portes fermées à clé !
 ]],
 }
 
 dialog{
   id = "_treasure.equipment/flippers.1",
   text = [[
-You found the Palms!
+Tu as trouvé les Palmes !
 
-You can now swim in deep water! 
+Tu peux maintenant nager en eau profonde !
 ]],
 }
 
 dialog{
   id = "_treasure.equipment/shield.1",
   text = [[
-You found
-a Shield of Shit!
+Tu as trouvé
+un Bouclier de Merde !
 
-Here you are ready to miss your dodges! 
+Te voici prêt à rater tes esquives !
 ]],
 }
 
 dialog{
   id = "_treasure.equipment/shield.2",
   text = [[
-You found
-a Shield of Shit!
+Tu as trouvé
+un Bouclier de Merde !
 
-Here you are ready to miss your dodges! 
+Te voici prêt à rater tes esquives !
 ]],
 }
 
 dialog{
   id = "_treasure.equipment/shield.3",
   text = [[
-You found
-a Shield of Shit!
+Tu as trouvé
+un Bouclier de Merde !
 
-Here you are ready to miss your dodges! 
+Te voici prêt à rater tes esquives !
 ]],
 }
 
 dialog{
   id = "_treasure.equipment/sword.1",
   text = [[
-You found a sword!
+Tu as trouvé un épée !
 
-With this one you will be able to defend yourself
-against monsters!
+Avec celle-ci tu vas pouvoir te défendre
+contre les monstres !
 
-And also be able to cut hedges.
-Great ! 
+Et aussi pouvoir tailler des haies.
+Super !
 ]],
 }
 
 dialog{
   id = "_treasure.equipment/sword.2",
   text = [[
-You found
-the Sword of Shit!
+Tu as trouvé
+l'Epée de Merde !
 
-Here you are, ready to cut some fucking bushes! 
+Te voici prêt à couper des putains de buisson !
 ]],
 }
 
 dialog{
   id = "_treasure.equipment/sword.3",
   text = [[
-You found
-the Sword of Shit!
+Tu as trouvé
+l'Epée de Merde !
 
-Here you are, ready to cut some fucking bushes! 
+Te voici prêt à couper des putains de buisson !
 ]],
 }
 
 dialog{
   id = "_treasure.inventory/bombs.1",
   text = [[
-You get a Bag of Bombs!
+Tu reçois un Sac de Bombes !
 
-You will be able to blow up a lot of things
-like enemies or walls ...
+Tu vas pouvoir faire exploser plein de choses
+comme des ennemies ou des murs...
 
-Be careful not to hurt yourself with this! 
+Fait attention à pas te blesser avec ça !
 ]],
 }
 
 dialog{
   id = "_treasure.inventory/bottle_1.1",
   text = [[
-You get an empty jar!
+Tu reçois un bocal vide !
 
-You can store things like ...
-water, bees, seeds, etc.
+Tu peux y stocker des choses comme...
+de l'eau, des abeilles, des graines, etc...
 
-But also potions and fairies!
+Mais aussi des potions et des fées !
 
 
 
-Ha ... and ... it doesn't work,
-so give up the idea of using it 
+Ha... et... il ne fonctionne pas, 
+donc abandonne l'idée de t'en servir
 ]],
 }
 
 dialog{
   id = "_treasure.inventory/bottle_2.1",
   text = [[
-You get an empty jar!
+Tu reçois un bocal vide !
 
-You can store things like ...
-water, bees, seeds, etc.
+Tu peux y stocker des choses comme...
+de l'eau, des abeilles, des graines, etc...
 
-But also potions and fairies! 
+Mais aussi des potions et des fées !
 ]],
 }
 
 dialog{
   id = "_treasure.inventory/bottle_3.1",
   text = [[
-You get an empty jar!
+Tu reçois un bocal vide !
 
-You can store things like ...
-water, bees, seeds, etc.
+Tu peux y stocker des choses comme...
+de l'eau, des abeilles, des graines, etc...
 
-But also potions and fairies! 
+Mais aussi des potions et des fées !
 ]],
 }
 
 dialog{
   id = "_treasure.inventory/bottle_4.1",
   text = [[
-You get an empty jar!
+Tu reçois un bocal vide !
 
-You can store things like ...
-water, bees, seeds, etc.
+Tu peux y stocker des choses comme...
+de l'eau, des abeilles, des graines, etc...
 
-But also potions and fairies! 
+Mais aussi des potions et des fées !
 ]],
 }
 
 dialog{
   id = "_treasure.inventory/bow.1",
   text = [[
-You get the bow!
-Well, with that you can shoot arrows.
-It is particularly effective against
-some enemies.
+Tu reçois l'arc !
+Et bien, avec ça tu peux tirer des flèches.
+C'est particulièrement efficace contre 
+certains ennemis.
 
-But it can also be used to trigger
-secret or non-secret switches. 
+Mais ça peut aussi permettre de déclencher 
+des interrupteurs secrets ou non secrets.
 ]],
 }
 
 dialog{
   id = "_treasure.inventory/hammer.1",
   text = [[
-You receive the blessed hammer of the fairies!
+Tu reçois le marteau béni des fées !
 
-You won't become a blacksmith with this ...
+Tu ne deviendras pas forgeron avec ça...
 
-Nevertheless you can use it to hit
-your enemies or lower plots!
-Some enemies can even be
-completely returned. 
+Néanmois tu peux t'en servir pour frapper 
+tes ennemis ou abaisser des plots !
+Certains ennemis peuvent même en être
+complétement retournés.
 ]],
 }
 
 dialog{
   id = "_treasure.inventory/lantern.1",
   text = [[
-You get the lantern!
+Tu reçois la lanterne !
 
-Thanks to this you will be able to light
-the very dark areas around you!
-Or light torches ... see ...
+Grâce à celle-ci tu vas pouvoir éclairer 
+les zones très sombre autour de toi !
+Ou bien allumer des torches... voir...
 
-SET ON FIRE !!!!!! 
+METTRE LE FEU !!!!!!
 ]],
 }
 
 dialog{
   id = "_treasure.quest/mushroom.1",
   text = [[
-But... !?
+Mais... !?
 ]],
 }
 
@@ -694,47 +694,47 @@ Que voulez-vous ?
 dialog{
   id = "on_look.cant_lift",
   text = [[
-You can't lift this!
+Tu ne peut pas soulever ça !
 
-You don't have what it takes for that! 
+Tu n'as pas ce qu'il faut pour ça !
 ]],
 }
 
 dialog{
   id = "on_looked.cant_cut",
   text = [[
-t would take enough to cut that ...
+Il faudrait de quoi couper ça...
 
-A sword for example? 
+Une épée par exemple ?
 ]],
 }
 
 dialog{
   id = "on_looked.cant_lift",
   text = [[
-It's too heavy...
+C'est trop lourd...
 
-You need special equipment
-to be able to lift that! 
+Il te faut un équipement spécial 
+pour pouvoir soulever ça !
 ]],
 }
 
 dialog{
   id = "on_looked.still_cant_lift",
   text = [[
-It's much too heavy ...
+C'est beaucoup trop lourd...
 
-You don't have the right equipment ...
-Upgrade your gear for that! 
+Tu n'as pas le bon équipement...
+Améliore ton équipement pour ça !
 ]],
 }
 
 dialog{
   id = "save_quit",
   text = [[
-            $? To continue
-           $? Save and exit
-          $? Quit without saving
+                 $? Continuer
+           $? Sauvegarder et quitter
+          $? Quitter sans sauvegarder
 ]],
 }
 

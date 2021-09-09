@@ -3,43 +3,39 @@ map{ id = "A Link To The Past/Light World/Overworld/Zone/desert_of_mystery", des
 map{ id = "A Link To The Past/Light World/Overworld/Zone/lost_wood", description = "Lost Wood" }
 map{ id = "A Link To The Past/Light World/Overworld/Zone/turtle_rock", description = "Turtle Rock" }
 map{ id = "A Link To The Past/Light World/Overworld/overworld_light", description = "Overworld Light" }
-map{ id = "Non_Playable Zone/blacksmiths_house_npz", description = "BlackSmiths House NPZ" }
-map{ id = "Non_Playable Zone/cemetery_npz", description = "Cemetery NPZ" }
-map{ id = "Non_Playable Zone/death_mountain_est_npz", description = "Death Mountain Est NPZ" }
-map{ id = "Non_Playable Zone/death_mountain_west_npz", description = "Death Mountain West NPZ" }
-map{ id = "Non_Playable Zone/desert_of_mystery_npz", description = "Deset of Mystery NPZ" }
-map{ id = "Non_Playable Zone/entrance_lost_wood_npz", description = "Entrance Lost Wood NPZ" }
-map{ id = "Non_Playable Zone/fortune_teller_npz", description = "Fortune Teller NPZ" }
-map{ id = "Non_Playable Zone/great_swamp_npz", description = "Great Swamp NPZ" }
-map{ id = "Non_Playable Zone/haunted_grove_npz", description = "Haunted Grove NPZ" }
-map{ id = "Non_Playable Zone/hyrule_castle_npz", description = "Hyrule Castle NPZ" }
-map{ id = "Non_Playable Zone/hyrule_forest_npz", description = "Hyrule Forest NPZ" }
-map{ id = "Non_Playable Zone/kakariko_village_npz", description = "Kakariko Village NPZ" }
-map{ id = "Non_Playable Zone/lake_hylia_npz", description = "Lake Hylia NPZ" }
-map{ id = "Non_Playable Zone/library_npz", description = "Library NPZ" }
-map{ id = "Non_Playable Zone/link_house_npz", description = "Link's House NPZ" }
-map{ id = "Non_Playable Zone/lost_wood_npz", description = "LostWood NPZ" }
-map{ id = "Non_Playable Zone/lumberjack_npz", description = "LumberJack NPZ" }
-map{ id = "Non_Playable Zone/lumberjack_south_npz", description = "LumberJack South NPZ" }
-map{ id = "Non_Playable Zone/maze_game_npz", description = "Maze Village NPZ" }
-map{ id = "Non_Playable Zone/sanctuary_npz", description = "Sanctuary NPZ" }
-map{ id = "Non_Playable Zone/turtle_rock_npz", description = "Turtle Rock NPZ" }
-map{ id = "Non_Playable Zone/waterfall_of_wishing_npz", description = "Waterfall of Wishing NPZ" }
+map{ id = "Autres/blue_print/first_map", description = "First map" }
+map{ id = "Autres/blue_print/inside_store", description = "Inside Store" }
+map{ id = "Autres/blue_print/outside_store", description = "Outside Store" }
+map{ id = "Autres/test_map/dungeon_entrance" }
+map{ id = "Autres/test_map/test_map", description = "A test map" }
+map{ id = "Non_Playable Zone/Light World/blacksmiths_house_npz", description = "BlackSmiths House NPZ" }
+map{ id = "Non_Playable Zone/Light World/cemetery_npz", description = "Cemetery NPZ" }
+map{ id = "Non_Playable Zone/Light World/death_mountain_est_npz", description = "Death Mountain Est NPZ" }
+map{ id = "Non_Playable Zone/Light World/death_mountain_west_npz", description = "Death Mountain West NPZ" }
+map{ id = "Non_Playable Zone/Light World/desert_of_mystery_npz", description = "Deset of Mystery NPZ" }
+map{ id = "Non_Playable Zone/Light World/entrance_lost_wood_npz", description = "Entrance Lost Wood NPZ" }
+map{ id = "Non_Playable Zone/Light World/fortune_teller_npz", description = "Fortune Teller NPZ" }
+map{ id = "Non_Playable Zone/Light World/great_swamp_npz", description = "Great Swamp NPZ" }
+map{ id = "Non_Playable Zone/Light World/haunted_grove_npz", description = "Haunted Grove NPZ" }
+map{ id = "Non_Playable Zone/Light World/hyrule_castle_npz", description = "Hyrule Castle NPZ" }
+map{ id = "Non_Playable Zone/Light World/hyrule_forest_npz", description = "Hyrule Forest NPZ" }
+map{ id = "Non_Playable Zone/Light World/kakariko_village_npz", description = "Kakariko Village NPZ" }
+map{ id = "Non_Playable Zone/Light World/lake_hylia_npz", description = "Lake Hylia NPZ" }
+map{ id = "Non_Playable Zone/Light World/library_npz", description = "Library NPZ" }
+map{ id = "Non_Playable Zone/Light World/link_house_npz", description = "Link's House NPZ" }
+map{ id = "Non_Playable Zone/Light World/lost_wood_npz", description = "LostWood NPZ" }
+map{ id = "Non_Playable Zone/Light World/lumberjack_npz", description = "LumberJack NPZ" }
+map{ id = "Non_Playable Zone/Light World/lumberjack_south_npz", description = "LumberJack South NPZ" }
+map{ id = "Non_Playable Zone/Light World/maze_game_npz", description = "Maze Village NPZ" }
+map{ id = "Non_Playable Zone/Light World/sanctuary_npz", description = "Sanctuary NPZ" }
+map{ id = "Non_Playable Zone/Light World/turtle_rock_npz", description = "Turtle Rock NPZ" }
+map{ id = "Non_Playable Zone/Light World/waterfall_of_wishing_npz", description = "Waterfall of Wishing NPZ" }
 map{ id = "examples/light_world/eastern_palace", description = "Eastern Palace" }
 map{ id = "examples/light_world/entrance_to_death_mountain", description = "Entrance to Death Mountain" }
 map{ id = "examples/light_world/entrance_to_zoras_river", description = "Entrance to Zoras River" }
 map{ id = "examples/light_world/fortune_teller", description = "Fortune Teller" }
 map{ id = "examples/light_world/hyrule_castle", description = "Hyrule Castle" }
-map{ id = "examples/light_world/kakariko_village", description = "Kakariko Village" }
 map{ id = "examples/light_world/links_yard", description = "Links Yard" }
-map{ id = "examples/light_world/lost_woods", description = "Lost Woods" }
-map{ id = "examples/light_world/lumberjacks_house", description = "Lumberjacks House" }
-map{ id = "examples/light_world/sw_entry_to_lost_woods", description = "SW Entry to Lost Woods" }
-map{ id = "first_map", description = "First map" }
-map{ id = "inside_store", description = "Inside Store" }
-map{ id = "outside_store", description = "Outside Store" }
-map{ id = "test_map/dungeon_entrance" }
-map{ id = "test_map/test_map", description = "A test map" }
 
 tileset{ id = "dungeon/blue", description = "Blue dungeon" }
 tileset{ id = "dungeon/brown", description = "Brown dungeon" }
@@ -615,6 +611,7 @@ entity{ id = "powder", description = "Powder" }
 entity{ id = "torch", description = "Torch" }
 
 language{ id = "en", description = "English" }
+language{ id = "fr", description = "Français" }
 
 font{ id = "alttp", description = "alttp" }
 font{ id = "green_digits", description = "Green digits" }
@@ -770,11 +767,36 @@ file{ path = "items/quest/pendant_of_courage.lua", author = "Mehdi Khelifi", lic
 file{ path = "items/quest/pendant_of_power.lua", author = "Mehdi Khelifi", license = "GPL v3" }
 file{ path = "items/quest/pendant_of_wisdom.lua", author = "Mehdi Khelifi", license = "GPL v3" }
 file{ path = "languages", license = "CC BY-SA 4.0" }
+file{ path = "languages/en", license = "CC BY-SA 4.0" }
+file{ path = "languages/en/images", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "languages/en/images/action_icon.png", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "languages/en/images/floors.png", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "languages/en/images/gameover_menu.png", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "languages/en/images/pause_icon.png", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "languages/en/images/pause_submenus.png", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "languages/en/images/sword_icon.png", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "languages/en/images/title_screen_initialization.png", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "languages/en/text", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "languages/en/text/dialogs.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "languages/en/text/strings.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "languages/fr", license = "CC BY-SA 4.0" }
+file{ path = "languages/fr/images", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "languages/fr/images/action_icon.png", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "languages/fr/images/floors.png", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "languages/fr/images/gameover_menu.png", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "languages/fr/images/pause_icon.png", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "languages/fr/images/pause_submenus.png", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "languages/fr/images/sword_icon.png", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "languages/fr/images/title_screen_initialization.png", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "languages/fr/text", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "languages/fr/text/dialogs.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "languages/fr/text/strings.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "logos", license = "Proprietary (Fair use)" }
 file{ path = "logos/logo.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "logos/logo_2x.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "main.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "maps", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Dark World/Overworld/overworld_dark.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Dark World/Overworld/overworld_dark.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Overworld/Zone/desert_of_mystery.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
@@ -785,52 +807,66 @@ file{ path = "maps/A Link To The Past/Light World/Overworld/Zone/turtle_rock.dat
 file{ path = "maps/A Link To The Past/Light World/Overworld/Zone/turtle_rock.lua", author = "KaKaShUruKiora", license = "GPL v3.0, CC-BY-CA" }
 file{ path = "maps/A Link To The Past/Light World/Overworld/overworld_light.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Overworld/overworld_light.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/Light World", author = "KaKaShUruKioRa", }
-file{ path = "maps/Non_Playable Zone/blacksmiths_house_npz.dat", author = "KaKaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/blacksmiths_house_npz.lua", author = "KaKaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/cemetery_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/cemetery_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/death_mountain_est_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/death_mountain_est_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/death_mountain_west_npz.dat", author = "KaKaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/death_mountain_west_npz.lua", author = "KaKaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/desert_of_mystery_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/desert_of_mystery_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/entrance_lost_wood_npz.dat", author = "KaKaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/entrance_lost_wood_npz.lua", author = "KaKaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/fortune_teller_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/fortune_teller_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/great_swamp_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/great_swamp_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/haunted_grove_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/haunted_grove_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/hyrule_castle_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/hyrule_castle_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/hyrule_forest_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/hyrule_forest_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/kakariko_village_npz.dat", author = "KaKaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/kakariko_village_npz.lua", author = "KaKaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/lake_hylia_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/lake_hylia_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/library_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/library_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/link_house_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/link_house_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/lost_wood_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/lost_wood_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/lumberjack_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/lumberjack_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/lumberjack_south_npz.dat", author = "KaKaShUruKioRa", license = "GPL 3.0, CC SA-BY 4.0" }
-file{ path = "maps/Non_Playable Zone/lumberjack_south_npz.lua", author = "KaKaShUruKioRa", license = "GPL 3.0, CC SA-BY 4.0" }
-file{ path = "maps/Non_Playable Zone/maze_game_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/maze_game_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/sanctuary_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/sanctuary_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/turtle_rock_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/turtle_rock_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/waterfall_of_wishing_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Non_Playable Zone/waterfall_of_wishing_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/examples", author = "FFomega", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Autres/blue_print", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Autres/blue_print/first_map.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "maps/Autres/blue_print/first_map.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "maps/Autres/blue_print/inside_store.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "maps/Autres/blue_print/inside_store.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "maps/Autres/blue_print/outside_store.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "maps/Autres/blue_print/outside_store.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "maps/Autres/test_map", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Autres/test_map/dungeon_entrance.dat", license = "CC BY-SA 4.0" }
+file{ path = "maps/Autres/test_map/dungeon_entrance.lua", license = "GPL v3" }
+file{ path = "maps/Autres/test_map/test_map.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
+file{ path = "maps/Autres/test_map/test_map.lua", author = "Mehdi Khelifi", license = "GPL v3" }
+file{ path = "maps/Non_Playable Zone", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Dark World", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/blacksmiths_house_npz.dat", author = "KaKaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/blacksmiths_house_npz.lua", author = "KaKaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/cemetery_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/cemetery_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/death_mountain_est_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/death_mountain_est_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/death_mountain_west_npz.dat", author = "KaKaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/death_mountain_west_npz.lua", author = "KaKaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/desert_of_mystery_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/desert_of_mystery_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/entrance_lost_wood_npz.dat", author = "KaKaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/entrance_lost_wood_npz.lua", author = "KaKaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/fortune_teller_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/fortune_teller_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/great_swamp_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/great_swamp_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/haunted_grove_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/haunted_grove_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/hyrule_castle_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/hyrule_castle_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/hyrule_forest_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/hyrule_forest_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/kakariko_village_npz.dat", author = "KaKaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/kakariko_village_npz.lua", author = "KaKaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/lake_hylia_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/lake_hylia_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/library_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/library_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/link_house_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/link_house_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/lost_wood_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/lost_wood_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/lumberjack_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/lumberjack_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/lumberjack_south_npz.dat", author = "KaKaShUruKioRa", license = "GPL 3.0, CC SA-BY 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/lumberjack_south_npz.lua", author = "KaKaShUruKioRa", license = "GPL 3.0, CC SA-BY 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/maze_game_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/maze_game_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/sanctuary_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/sanctuary_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/turtle_rock_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/turtle_rock_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/waterfall_of_wishing_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Non_Playable Zone/Light World/waterfall_of_wishing_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/examples", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/examples/light_world", author = "FFomega", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/examples/light_world/eastern_palace.dat", author = "FFomega", license = "CC BY-SA 4.0" }
 file{ path = "maps/examples/light_world/eastern_palace.lua", author = "FFomega", license = "GPL v3" }
@@ -842,25 +878,8 @@ file{ path = "maps/examples/light_world/fortune_teller.dat", author = "FFomega",
 file{ path = "maps/examples/light_world/fortune_teller.lua", author = "FFomega", license = "GPL v3" }
 file{ path = "maps/examples/light_world/hyrule_castle.dat", author = "FFomega", license = "CC BY-SA 4.0" }
 file{ path = "maps/examples/light_world/hyrule_castle.lua", author = "FFomega", license = "GPL v3" }
-file{ path = "maps/examples/light_world/kakariko_village.dat", author = "FFomega", license = "CC BY-SA 4.0" }
-file{ path = "maps/examples/light_world/kakariko_village.lua", author = "FFomega", license = "GPL v3" }
 file{ path = "maps/examples/light_world/links_yard.dat", author = "FFomega", license = "CC BY-SA 4.0" }
 file{ path = "maps/examples/light_world/links_yard.lua", author = "FFomega", license = "GPL v3" }
-file{ path = "maps/examples/light_world/lost_woods.dat", author = "FFomega", license = "CC BY-SA 4.0" }
-file{ path = "maps/examples/light_world/lost_woods.lua", author = "FFomega", license = "GPL v3" }
-file{ path = "maps/examples/light_world/lumberjacks_house.dat", author = "FFomega", license = "CC BY-SA 4.0" }
-file{ path = "maps/examples/light_world/lumberjacks_house.lua", author = "FFomega", license = "GPL v3" }
-file{ path = "maps/examples/light_world/sw_entry_to_lost_woods.dat", author = "FFomega", license = "CC BY-SA 4.0" }
-file{ path = "maps/examples/light_world/sw_entry_to_lost_woods.lua", author = "FFomega", license = "GPL v3" }
-file{ path = "maps/first_map.dat", author = "Christopho", license = "CC BY-SA 4.0" }
-file{ path = "maps/first_map.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "maps/inside_store.dat", author = "Christopho", license = "CC BY-SA 4.0" }
-file{ path = "maps/inside_store.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "maps/outside_store.dat", author = "Christopho", license = "CC BY-SA 4.0" }
-file{ path = "maps/outside_store.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "maps/test_map", author = "Mehdi Khelifi", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/test_map/test_map.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
-file{ path = "maps/test_map/test_map.lua", author = "Mehdi Khelifi", license = "GPL v3" }
 file{ path = "musics", license = "Proprietary (Fair use)" }
 file{ path = "musics/agahnim.it", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "musics/beginning.it", author = "Nintendo", license = "Proprietary (Fair use)" }
