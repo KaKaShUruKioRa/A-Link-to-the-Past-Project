@@ -72663,6 +72663,22 @@ border_set{
 }
 
 border_set{
+  id = "haut_de_montagne",
+  pattern_0 = "972",
+  pattern_1 = "978",
+  pattern_2 = "977",
+  pattern_3 = "959",
+  pattern_4 = "1043",
+  pattern_5 = "1042",
+  pattern_6 = "1045",
+  pattern_7 = "1044",
+  pattern_8 = "1043",
+  pattern_9 = "1045",
+  pattern_10 = "1045",
+  pattern_11 = "1044",
+}
+
+border_set{
   id = "shallow_water_to_any",
   pattern_0 = "256",
   pattern_1 = "258",

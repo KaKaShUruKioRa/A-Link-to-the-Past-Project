@@ -1,4 +1,5 @@
 map{ id = "A Link To The Past/Dark World/Overworld/overworld_dark", description = "Overworld Dark" }
+map{ id = "A Link To The Past/Light World/Overworld/Zone/blacksmiths_house", description = "BlackSwmiths House" }
 map{ id = "A Link To The Past/Light World/Overworld/Zone/desert_of_mystery", description = "Desert of Mistery" }
 map{ id = "A Link To The Past/Light World/Overworld/Zone/lost_wood", description = "Lost Wood" }
 map{ id = "A Link To The Past/Light World/Overworld/Zone/turtle_rock", description = "Turtle Rock" }
@@ -799,6 +800,8 @@ file{ path = "maps", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Dark World/Overworld/overworld_dark.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Dark World/Overworld/overworld_dark.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Overworld/Zone/blacksmiths_house.dat", author = "KaKaShUruKioRa", }
+file{ path = "maps/A Link To The Past/Light World/Overworld/Zone/blacksmiths_house.lua", author = "KaKaShUruKioRa", }
 file{ path = "maps/A Link To The Past/Light World/Overworld/Zone/desert_of_mystery.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Overworld/Zone/desert_of_mystery.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Overworld/Zone/lost_wood.dat", author = "KaKaShUruKioRa", license = "GPL V.3, CC-BY-SA 4.0" }
