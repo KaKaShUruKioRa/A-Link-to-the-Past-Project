@@ -4170,6 +4170,16 @@ tile_pattern{
 }
 
 tile_pattern{
+  id = "12",
+  ground = "wall",
+  default_layer = 0,
+  x = 336,
+  y = 120,
+  width = 16,
+  height = 8,
+}
+
+tile_pattern{
   id = "120",
   ground = "traversable",
   default_layer = 0,
@@ -12553,17 +12563,6 @@ tile_pattern{
 }
 
 tile_pattern{
-  id = "1331",
-  ground = "traversable",
-  default_layer = 1,
-  x = 328,
-  y = 176,
-  width = 32,
-  height = 24,
-  repeat_mode = "none",
-}
-
-tile_pattern{
   id = "13310",
   ground = "empty",
   default_layer = -1,
@@ -17725,12 +17724,11 @@ tile_pattern{
 tile_pattern{
   id = "1400",
   ground = "traversable",
-  default_layer = 0,
+  default_layer = 1,
   x = 320,
   y = 128,
   width = 48,
   height = 8,
-  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -17785,7 +17783,6 @@ tile_pattern{
   y = 168,
   width = 48,
   height = 8,
-  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -17812,13 +17809,12 @@ tile_pattern{
 
 tile_pattern{
   id = "1404",
-  ground = "traversable",
-  default_layer = 1,
+  ground = "wall",
+  default_layer = 0,
   x = 328,
   y = 136,
   width = 32,
   height = 8,
-  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -17829,18 +17825,16 @@ tile_pattern{
   y = 160,
   width = 32,
   height = 8,
-  repeat_mode = "none",
 }
 
 tile_pattern{
   id = "1406",
   ground = "traversable",
-  default_layer = 1,
+  default_layer = 0,
   x = 328,
   y = 144,
   width = 32,
   height = 16,
-  repeat_mode = "vertical",
 }
 
 tile_pattern{
@@ -17851,7 +17845,6 @@ tile_pattern{
   y = 136,
   width = 8,
   height = 8,
-  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -17862,7 +17855,6 @@ tile_pattern{
   y = 160,
   width = 8,
   height = 8,
-  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -17873,7 +17865,6 @@ tile_pattern{
   y = 160,
   width = 8,
   height = 8,
-  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -17884,7 +17875,6 @@ tile_pattern{
   y = 136,
   width = 8,
   height = 8,
-  repeat_mode = "none",
 }
 
 tile_pattern{
@@ -17895,7 +17885,6 @@ tile_pattern{
   y = 144,
   width = 8,
   height = 16,
-  repeat_mode = "vertical",
 }
 
 tile_pattern{
@@ -17906,7 +17895,6 @@ tile_pattern{
   y = 144,
   width = 8,
   height = 16,
-  repeat_mode = "vertical",
 }
 
 tile_pattern{
