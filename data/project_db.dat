@@ -66,6 +66,12 @@ sprite{ id = "destructibles/bush_green", description = "Bush (green)" }
 sprite{ id = "destructibles/bush_purple", description = "Bush (purple)" }
 sprite{ id = "destructibles/bush_yellow", description = "Bush (yellow)" }
 sprite{ id = "destructibles/grass_green", description = "Grass (green)" }
+sprite{ id = "destructibles/stone_big_dw_1", description = "Big Stone (level 1, dark world style)" }
+sprite{ id = "destructibles/stone_big_dw_2", description = "Big Stone (level 2, dark world style)" }
+sprite{ id = "destructibles/stone_big_lw_1", description = "Big Stone (level 1, light world style)" }
+sprite{ id = "destructibles/stone_big_lw_2", description = "Big Stone (level 2, light world style)" }
+sprite{ id = "destructibles/stone_explode_dw_1", description = "Exploding Stone (dark world style)" }
+sprite{ id = "destructibles/stone_explode_lw_1", description = "Exploding Stone (light world style)" }
 sprite{ id = "destructibles/stone_small_dw_1", description = "Stone (level 1, dark world style)" }
 sprite{ id = "destructibles/stone_small_dw_2", description = "Stone (level 2, dark world style)" }
 sprite{ id = "destructibles/stone_small_lw_1", description = "Stone (level 1, light world style)" }
@@ -205,7 +211,9 @@ sprite{ id = "entities/sign_brown", description = "Sign (brown)" }
 sprite{ id = "entities/sign_yellow", description = "Sign (yellow)" }
 sprite{ id = "entities/star", description = "Star" }
 sprite{ id = "entities/statue", description = "Statue" }
-sprite{ id = "entities/teletransporter", description = "Teletransporter" }
+sprite{ id = "entities/teletransporter_blue", description = "Teletransporter Blue" }
+sprite{ id = "entities/teletransporter_vortex", description = "Teletransporter Vortex" }
+sprite{ id = "entities/teletransporter_yellow", description = "Teletransporter Yellow" }
 sprite{ id = "entities/torch", description = "Torch" }
 sprite{ id = "hero/fire_rod", description = "Fire rod" }
 sprite{ id = "hero/ground1", description = "Grass under hero" }
@@ -1059,6 +1067,12 @@ file{ path = "sprites/destructibles/bush_yellow.dat", author = "Christopho", lic
 file{ path = "sprites/destructibles/grass.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/destructibles/grass_green.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/destructibles/stone.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/destructibles/stone_big_dw_1.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
+file{ path = "sprites/destructibles/stone_big_dw_2.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
+file{ path = "sprites/destructibles/stone_big_lw_1.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
+file{ path = "sprites/destructibles/stone_big_lw_2.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
+file{ path = "sprites/destructibles/stone_explode_dw_1.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
+file{ path = "sprites/destructibles/stone_explode_lw_1.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "sprites/destructibles/stone_small_dw_1.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/destructibles/stone_small_dw_2.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/destructibles/stone_small_lw_1.dat", author = "Christopho", license = "CC BY-SA 4.0" }
@@ -1316,8 +1330,8 @@ file{ path = "sprites/entities/star.dat", author = "Christopho", license = "CC B
 file{ path = "sprites/entities/star.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/entities/statue.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/statue.png", author = "Nintendo", license = "Proprietary (Fair use)" }
-file{ path = "sprites/entities/teletransporter.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/teletransporter.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/entities/teletransporter_blue.dat", author = "KaKaShUruKioRa", }
 file{ path = "sprites/entities/torch.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/torch.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/hero", license = "Mixed" }

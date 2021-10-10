@@ -1,8 +1,8 @@
 animation{
   name = "on_ground",
-  src_image = "destructibles/stone.png",
+  src_image = "destructibles/big_stone.png",
   directions = {
-    { x = 96, y = 0, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 40, frame_width = 32, frame_height = 40, origin_x = 8, origin_y = 13 },
   },
 }
 animation{
@@ -15,17 +15,17 @@ animation{
 }
 animation{
   name = "stopped",
-  src_image = "destructibles/stone.png",
+  src_image = "destructibles/big_stone.png",
   directions = {
-    { x = 96, y = 0, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 40, frame_width = 32, frame_height = 40, origin_x = 8, origin_y = 13 },
   },
 }
 animation{
   name = "walking",
-  src_image = "destructibles/stone.png",
+  src_image = "destructibles/big_stone.png",
   frame_delay = 100,
   frame_to_loop_on = 0,
   directions = {
-    { x = 96, y = 0, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 0, y = 40, frame_width = 32, frame_height = 40, origin_x = 8, origin_y = 13, num_frames = 3 },
   },
 }
