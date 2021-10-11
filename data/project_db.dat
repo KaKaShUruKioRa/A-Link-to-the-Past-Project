@@ -57,8 +57,10 @@ tileset{ id = "dungeon/yellow", description = "Yellow dungeon" }
 tileset{ id = "out/dark_overworld" }
 tileset{ id = "out/light_overworld", description = "Light OverWorld" }
 tileset{ id = "out/outside_buildings", description = "Outside buildings" }
-tileset{ id = "out/outside_darkworld_main", description = "out/outside_darkworld_main" }
-tileset{ id = "out/outside_lightworld_main", description = "out/outside_lightworld_main" }
+tileset{ id = "out/outside_darkworld_buildings", description = "Ouside DarkWorld Buildings" }
+tileset{ id = "out/outside_darkworld_main", description = "Outside DarkWorld Main" }
+tileset{ id = "out/outside_lightworld_buildings", description = "Outside LigthWorld Buildings" }
+tileset{ id = "out/outside_lightworld_main", description = "Outside LigthWorld Main" }
 tileset{ id = "out/outside_main", description = "Outside main" }
 tileset{ id = "out/outside_special", description = "Outside special" }
 
@@ -66,6 +68,7 @@ sprite{ id = "destructibles/bush_green", description = "Bush (green)" }
 sprite{ id = "destructibles/bush_purple", description = "Bush (purple)" }
 sprite{ id = "destructibles/bush_yellow", description = "Bush (yellow)" }
 sprite{ id = "destructibles/grass_green", description = "Grass (green)" }
+sprite{ id = "destructibles/grass_yellow", description = "Grass (yellow)" }
 sprite{ id = "destructibles/stone_big_dw_1", description = "Big Stone (level 1, dark world style)" }
 sprite{ id = "destructibles/stone_big_dw_2", description = "Big Stone (level 2, dark world style)" }
 sprite{ id = "destructibles/stone_big_lw_1", description = "Big Stone (level 1, light world style)" }
@@ -1066,6 +1069,7 @@ file{ path = "sprites/destructibles/bush_purple.dat", author = "Christopho", lic
 file{ path = "sprites/destructibles/bush_yellow.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/destructibles/grass.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/destructibles/grass_green.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/destructibles/grass_yellow.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "sprites/destructibles/stone.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/destructibles/stone_big_dw_1.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "sprites/destructibles/stone_big_dw_2.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
@@ -1692,12 +1696,15 @@ file{ path = "tilesets/out", author = "Nintendo, FFomega", license = "Mixed" }
 file{ path = "tilesets/out/dark_overworld.dat", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "tilesets/out/dark_overworld.tiles.png", author = "Nintendo, KaKaShUruKioRa", license = "Proprietary (Fair use)" }
 file{ path = "tilesets/out/light_overworld.dat", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "tilesets/out/light_overworld.tiles a.png", author = "Nintendo, KaKaShUruKioRa", license = "Proprietary (Fair use)" }
 file{ path = "tilesets/out/light_overworld.tiles.png", author = "Nintendo, KaKaShUruKioRa", license = "Proprietary (Fair use)" }
 file{ path = "tilesets/out/outside_buildings.dat", author = "FFomega, KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "tilesets/out/outside_buildings.tiles.png", author = "Nintendo, FFomega, KaKaShUruKioRa", license = "Proprietary (Fair use)" }
+file{ path = "tilesets/out/outside_darkworld_buildings.dat", author = "KaKaShUruKioRa", license = "GPL v3" }
+file{ path = "tilesets/out/outside_darkworld_buildings.tiles.png", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "tilesets/out/outside_darkworld_main.dat", author = "FFomega, KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "tilesets/out/outside_darkworld_main.tiles.png", author = "Nintendo, FFomega, KaKaShUruKioRa", license = "Proprietary (Fair use)" }
+file{ path = "tilesets/out/outside_lightworld_buildings.dat", author = "KaKaShUruKioRa", license = "GPL v3" }
+file{ path = "tilesets/out/outside_lightworld_buildings.tiles.png", author = "Nintendo, FFomega, KaKaShUruKioRa", license = "Proprietary (Fair use)" }
 file{ path = "tilesets/out/outside_lightworld_main.dat", author = "FFomega, KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "tilesets/out/outside_lightworld_main.tiles.png", author = "Nintendo, FFomega, KaKaShUruKioRa", license = "Proprietary (Fair use)" }
 file{ path = "tilesets/out/outside_main.dat", author = "FFomega, KaKaShUruKioRa", license = "GPL v3" }

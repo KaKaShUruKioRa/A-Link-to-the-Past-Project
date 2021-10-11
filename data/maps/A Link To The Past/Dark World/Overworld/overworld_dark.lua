@@ -1,4 +1,4 @@
--- Lua script of map A Link To The Past/Dark World/Overworld/.
+-- Lua script of map A Link To The Past/Light World/Overworld/.
 -- This script is executed every time the hero enters this map.
 
 -- Feel free to modify the code below.
