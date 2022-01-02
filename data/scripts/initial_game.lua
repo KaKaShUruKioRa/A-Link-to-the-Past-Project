@@ -14,14 +14,7 @@ function initial_game:initialize_new_savegame(game)
 
   -- You can modify this function to set the initial life and equipment
   -- and the starting location.
-  game:set_starting_location("A Link To The Past/Light World/Overworld/overworld_light", "starting_destination")
-
-  -- game:set_starting_location("Non_Playable Zone/desert_of_mystery_npz", "start_dest")
-  -- game:set_starting_location("A Link To The Past/Light World/Overworld/Zone/desert_of_mystery", "start_dest")
-
-  -- game:set_starting_location("A Link To The Past/Light World/Overworld/Zone/turtle_rock", "start_dest")
-  -- game:set_starting_location("Non_Playable Zone/turtle_rock", "start_dest")
-  -- game:set_starting_location("test_map/dungeon_entrance", "starting_destination")
+  game:set_starting_location("Non_Playable Zone/Light World/lost_wood_npz", "out_forest_tp_0")
 
   game:set_max_life(6)
   game:set_life(game:get_max_life())

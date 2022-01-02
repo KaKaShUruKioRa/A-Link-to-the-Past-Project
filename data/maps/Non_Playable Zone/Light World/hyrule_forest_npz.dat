@@ -13,6 +13,15 @@ properties{
 tile{
   layer = -9,
   x = 480,
+  y = 400,
+  width = 32,
+  height = 112,
+  pattern = "112",
+}
+
+tile{
+  layer = -9,
+  x = 480,
   y = 0,
   width = 32,
   height = 248,
@@ -116,15 +125,6 @@ tile{
   width = 32,
   height = 8,
   pattern = "1340",
-}
-
-tile{
-  layer = -9,
-  x = 480,
-  y = 400,
-  width = 80,
-  height = 296,
-  pattern = "112",
 }
 
 tile{
@@ -3600,5 +3600,53 @@ tile{
   width = 8,
   height = 48,
   pattern = "1452",
+}
+
+teletransporter{
+  name = "border_hyrule_forest_west",
+  layer = 7,
+  x = -8,
+  y = 0,
+  width = 8,
+  height = 512,
+  transition = "scrolling",
+  destination_map = "Non_Playable Zone/Light World/kakariko_village_npz",
+  destination = "_side",
+}
+
+teletransporter{
+  name = "border_hyrule_forest_south",
+  layer = 7,
+  x = 0,
+  y = 512,
+  width = 512,
+  height = 8,
+  transition = "scrolling",
+  destination_map = "Non_Playable Zone/Light World/blacksmiths_house_npz",
+  destination = "_side",
+}
+
+teletransporter{
+  name = "border_hyrule_forest_east",
+  layer = 7,
+  x = 512,
+  y = 0,
+  width = 8,
+  height = 512,
+  transition = "scrolling",
+  destination_map = "Non_Playable Zone/Light World/hyrule_castle_npz",
+  destination = "_side",
+}
+
+teletransporter{
+  name = "border_hyrule_forest_north",
+  layer = 7,
+  x = 0,
+  y = -8,
+  width = 512,
+  height = 8,
+  transition = "scrolling",
+  destination_map = "Non_Playable Zone/Light World/sanctuary_lake_npz",
+  destination = "_side",
 }
 

@@ -12107,6 +12107,42 @@ tile{
   pattern = "1951",
 }
 
+tile{
+  layer = 0,
+  x = 272,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "728",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "728",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "728",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "728",
+}
+
 jumper{
   layer = 0,
   x = 48,
@@ -12115,16 +12151,6 @@ jumper{
   height = 72,
   direction = 7,
   jump_length = 36,
-}
-
-destructible{
-  name = "Big_stone_deathmountain_entrance_109",
-  layer = 0,
-  x = 88,
-  y = 957,
-  sprite = "destructibles/stone_small_lw_2",
-  destruction_sound = "stone",
-  weight = 2,
 }
 
 destructible{
@@ -12145,56 +12171,6 @@ destructible{
   sprite = "destructibles/bush_yellow",
   destruction_sound = "bush",
   can_be_cut = true,
-}
-
-destructible{
-  name = "Big_stone_deathmountain_entrance_92",
-  layer = 0,
-  x = 88,
-  y = 957,
-  sprite = "destructibles/stone_small_lw_2",
-  destruction_sound = "stone",
-  weight = 2,
-}
-
-destructible{
-  name = "Big_stone_deathmountain_entrance_25",
-  layer = 0,
-  x = 328,
-  y = 93,
-  sprite = "destructibles/stone_small_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
-}
-
-destructible{
-  name = "Big_stone_deathmountain_entrance_26",
-  layer = 0,
-  x = 296,
-  y = 109,
-  sprite = "destructibles/stone_small_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
-}
-
-destructible{
-  name = "Big_stone_deathmountain_entrance_27",
-  layer = 0,
-  x = 312,
-  y = 109,
-  sprite = "destructibles/stone_small_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
-}
-
-destructible{
-  name = "Big_stone_deathmountain_entrance_28",
-  layer = 0,
-  x = 280,
-  y = 93,
-  sprite = "destructibles/stone_small_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
 }
 
 jumper{
@@ -12335,6 +12311,56 @@ jumper{
   height = 32,
   direction = 1,
   jump_length = 32,
+}
+
+destructible{
+  name = "stone_white_desert_0",
+  layer = 0,
+  x = 280,
+  y = 93,
+  sprite = "destructibles/stone_small_lw_1",
+  destruction_sound = "stone",
+  weight = 1,
+}
+
+destructible{
+  name = "stone_white_desert_1",
+  layer = 0,
+  x = 328,
+  y = 93,
+  sprite = "destructibles/stone_small_lw_1",
+  destruction_sound = "stone",
+  weight = 1,
+}
+
+destructible{
+  name = "stone_white_desert_2",
+  layer = 0,
+  x = 296,
+  y = 109,
+  sprite = "destructibles/stone_small_lw_1",
+  destruction_sound = "stone",
+  weight = 1,
+}
+
+destructible{
+  name = "stone_white_desert_3",
+  layer = 0,
+  x = 312,
+  y = 109,
+  sprite = "destructibles/stone_small_lw_1",
+  destruction_sound = "stone",
+  weight = 1,
+}
+
+destructible{
+  name = "Big_stone_desert_0",
+  layer = 0,
+  x = 712,
+  y = 109,
+  sprite = "destructibles/stone_big_lw_1",
+  destruction_sound = "stone",
+  weight = 1,
 }
 
 tile{
@@ -15703,6 +15729,15 @@ tile{
   pattern = "1259",
 }
 
+tile{
+  layer = 1,
+  x = 80,
+  y = 944,
+  width = 16,
+  height = 16,
+  pattern = "728",
+}
+
 jumper{
   layer = 1,
   x = 872,
@@ -15770,5 +15805,37 @@ jumper{
   height = 24,
   direction = 3,
   jump_length = 40,
+}
+
+teletransporter{
+  name = "wart_desert_0",
+  layer = 1,
+  x = 160,
+  y = 944,
+  width = 16,
+  height = 16,
+  destination_map = "A Link To The Past/Light World/Overworld/overworld_light",
+  sprite = "entities/teletransporter_yellow",
+  sound = "warp",
+}
+
+destructible{
+  name = "stone_black_desert_1",
+  layer = 1,
+  x = 88,
+  y = 957,
+  sprite = "destructibles/stone_small_lw_2",
+  destruction_sound = "stone",
+  weight = 2,
+}
+
+destructible{
+  name = "stone_black_desert_0",
+  layer = 1,
+  x = 168,
+  y = 957,
+  sprite = "destructibles/stone_small_lw_2",
+  destruction_sound = "stone",
+  weight = 2,
 }
 

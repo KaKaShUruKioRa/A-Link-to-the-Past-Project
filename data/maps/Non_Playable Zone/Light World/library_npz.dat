@@ -3,7 +3,7 @@ properties{
   y = 2560,
   width = 512,
   height = 512,
-  min_layer = -9,
+  min_layer = -4,
   max_layer = 7,
   world = "Light World",
   tileset = "out/outside_main",
@@ -13,9 +13,9 @@ properties{
 tile{
   layer = -4,
   x = 0,
-  y = -32,
+  y = 0,
   width = 512,
-  height = 544,
+  height = 504,
   pattern = "14667",
 }
 
@@ -49,9 +49,9 @@ tile{
 tile{
   layer = -4,
   x = 376,
-  y = -32,
+  y = 0,
   width = 16,
-  height = 80,
+  height = 48,
   pattern = "13892",
 }
 
@@ -112,18 +112,18 @@ tile{
 tile{
   layer = -3,
   x = 368,
-  y = -32,
+  y = 0,
   width = 8,
-  height = 48,
+  height = 16,
   pattern = "125",
 }
 
 tile{
   layer = -3,
   x = 392,
-  y = -32,
+  y = 0,
   width = 8,
-  height = 80,
+  height = 48,
   pattern = "121",
 }
 
@@ -5939,5 +5939,53 @@ tile{
   width = 96,
   height = 8,
   pattern = "1451",
+}
+
+teletransporter{
+  name = "border_library_south",
+  layer = 7,
+  x = 0,
+  y = 512,
+  width = 512,
+  height = 8,
+  transition = "scrolling",
+  destination_map = "Non_Playable Zone/Light World/desert_of_mystery_npz",
+  destination = "_side",
+}
+
+teletransporter{
+  name = "border_library_east",
+  layer = 7,
+  x = 512,
+  y = 0,
+  width = 8,
+  height = 512,
+  transition = "scrolling",
+  destination_map = "Non_Playable Zone/Light World/haunted_grove_npz",
+  destination = "_side",
+}
+
+teletransporter{
+  name = "border_library_north",
+  layer = 7,
+  x = 0,
+  y = -8,
+  width = 512,
+  height = 8,
+  transition = "scrolling",
+  destination_map = "Non_Playable Zone/Light World/kakariko_village_npz",
+  destination = "_side",
+}
+
+teletransporter{
+  name = "border_library_east_2",
+  layer = 7,
+  x = -8,
+  y = 0,
+  width = 8,
+  height = 512,
+  transition = "scrolling",
+  destination_map = "Non_Playable Zone/Light World/maze_game_npz",
+  destination = "_side",
 }
 

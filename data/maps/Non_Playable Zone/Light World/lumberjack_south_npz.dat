@@ -4,7 +4,7 @@ properties{
   width = 512,
   height = 512,
   min_layer = -4,
-  max_layer = 4,
+  max_layer = 7,
   world = "Light World",
   tileset = "out/outside_main",
 }
@@ -3987,8 +3987,17 @@ tile{
   pattern = "454",
 }
 
+tile{
+  layer = -3,
+  x = 384,
+  y = 224,
+  width = 32,
+  height = 32,
+  pattern = "1375",
+}
+
 destructible{
-  name = "sign_deathmountain_entrance_0",
+  name = "sign_lumberjack_south_0",
   layer = -2,
   x = 264,
   y = 205,
@@ -3997,11 +4006,11 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_0",
+  name = "big_stone_white_lumberjack_south_0",
   layer = -2,
   x = 392,
   y = 237,
-  sprite = "destructibles/stone_small_lw_1",
+  sprite = "destructibles/stone_big_lw_1",
   destruction_sound = "stone",
   weight = 1,
 }
@@ -6920,5 +6929,53 @@ tile{
   width = 48,
   height = 8,
   pattern = "1451",
+}
+
+teletransporter{
+  name = "border_lumberjack_south_west",
+  layer = 7,
+  x = -8,
+  y = 0,
+  width = 8,
+  height = 512,
+  transition = "scrolling",
+  destination_map = "Non_Playable Zone/Light World/lost_wood_npz",
+  destination = "_side",
+}
+
+teletransporter{
+  name = "border_lumberjack_south_south",
+  layer = 7,
+  x = 0,
+  y = 512,
+  width = 512,
+  height = 8,
+  transition = "scrolling",
+  destination_map = "Non_Playable Zone/Light World/sanctuary_lake_npz",
+  destination = "_side",
+}
+
+teletransporter{
+  name = "border_lumberjack_south_east",
+  layer = 7,
+  x = 512,
+  y = 0,
+  width = 8,
+  height = 512,
+  transition = "scrolling",
+  destination_map = "Non_Playable Zone/Light World/death_mountain_west_npz",
+  destination = "_side",
+}
+
+teletransporter{
+  name = "border_lumberjack_south_north",
+  layer = 7,
+  x = 0,
+  y = -8,
+  width = 512,
+  height = 8,
+  transition = "scrolling",
+  destination_map = "Non_Playable Zone/Light World/lumberjack_npz",
+  destination = "_side",
 }
 

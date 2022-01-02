@@ -4,7 +4,7 @@ properties{
   width = 1024,
   height = 1024,
   min_layer = -4,
-  max_layer = 6,
+  max_layer = 7,
   world = "Light World",
   tileset = "out/outside_lightworld_main",
   music = "lost_woods",
@@ -2911,35 +2911,35 @@ destination{
 }
 
 teletransporter{
-  name = "out_forest_tp_0",
+  name = "out_forest_tp_1",
   layer = -2,
   x = 88,
   y = 992,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/overworld_light",
+  destination_map = "Non_Playable Zone/Light World/entrance_lost_wood_npz",
   destination = "out_forest_dest_0",
-}
-
-teletransporter{
-  name = "out_forest_tp_1",
-  layer = -2,
-  x = 376,
-  y = 992,
-  width = 16,
-  height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/overworld_light",
-  destination = "out_forest_dest_1",
 }
 
 teletransporter{
   name = "out_forest_tp_2",
   layer = -2,
+  x = 376,
+  y = 992,
+  width = 16,
+  height = 16,
+  destination_map = "Non_Playable Zone/Light World/entrance_lost_wood_npz",
+  destination = "out_forest_dest_1",
+}
+
+teletransporter{
+  name = "out_forest_tp_3",
+  layer = -2,
   x = 904,
   y = 992,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/overworld_light",
+  destination_map = "Non_Playable Zone/Light World/fortune_teller_npz",
   destination = "out_forest_dest_2",
 }
 
@@ -7689,7 +7689,7 @@ tile{
   layer = 0,
   x = 912,
   y = 192,
-  width = 96,
+  width = 112,
   height = 16,
   pattern = "1529",
 }
@@ -15171,9 +15171,9 @@ tile{
 
 tile{
   layer = 5,
-  x = -56,
+  x = -8,
   y = 24,
-  width = 192,
+  width = 144,
   height = 48,
   pattern = "1455",
 }
@@ -15189,9 +15189,9 @@ tile{
 
 tile{
   layer = 5,
-  x = -56,
+  x = -8,
   y = 120,
-  width = 192,
+  width = 144,
   height = 48,
   pattern = "1455",
 }
@@ -17880,15 +17880,6 @@ tile{
 
 tile{
   layer = 5,
-  x = 968,
-  y = 888,
-  width = 96,
-  height = 48,
-  pattern = "1455",
-}
-
-tile{
-  layer = 5,
   x = 960,
   y = 888,
   width = 8,
@@ -17961,18 +17952,36 @@ tile{
 
 tile{
   layer = 5,
-  x = 944,
-  y = 928,
-  width = 96,
+  x = 920,
+  y = 976,
+  width = 144,
   height = 8,
   pattern = "1451",
 }
 
 tile{
   layer = 5,
-  x = 920,
-  y = 976,
-  width = 144,
+  x = 944,
+  y = 888,
+  width = 48,
+  height = 8,
+  pattern = "1453",
+}
+
+tile{
+  layer = 5,
+  x = 968,
+  y = 888,
+  width = 96,
+  height = 48,
+  pattern = "1455",
+}
+
+tile{
+  layer = 5,
+  x = 944,
+  y = 928,
+  width = 96,
   height = 8,
   pattern = "1451",
 }
@@ -17994,5 +18003,52 @@ tile{
   height = 1024,
   pattern = "10249",
   tileset = "out/outside_special",
+}
+
+teletransporter{
+  name = "border_lost_wood_south",
+  layer = 7,
+  x = 0,
+  y = 1024,
+  width = 512,
+  height = 8,
+  transition = "scrolling",
+  destination_map = "Non_Playable Zone/Light World/entrance_lost_wood_npz",
+  destination = "_side",
+}
+
+teletransporter{
+  name = "border_lost_wood_south_2",
+  layer = 7,
+  x = 512,
+  y = 1024,
+  width = 512,
+  height = 8,
+  transition = "scrolling",
+  destination_map = "Non_Playable Zone/Light World/fortune_teller_npz",
+  destination = "_side",
+}
+
+teletransporter{
+  name = "border_lost_wood_east_2",
+  layer = 7,
+  x = 1024,
+  y = 512,
+  width = 8,
+  height = 512,
+  transition = "scrolling",
+  destination_map = "Non_Playable Zone/Light World/lumberjack_south_npz",
+  destination = "_side",
+}
+
+teletransporter{
+  name = "out_forest_tp_4",
+  layer = 7,
+  x = 1024,
+  y = 120,
+  width = 8,
+  height = 64,
+  destination_map = "Non_Playable Zone/Light World/lumberjack_npz",
+  destination = "_side",
 }
 

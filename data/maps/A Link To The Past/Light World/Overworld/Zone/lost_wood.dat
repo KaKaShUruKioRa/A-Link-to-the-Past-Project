@@ -19252,15 +19252,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 968,
-  y = 888,
-  width = 96,
-  height = 48,
-  pattern = "1455",
-}
-
-tile{
-  layer = 1,
   x = 960,
   y = 888,
   width = 8,
@@ -19333,21 +19324,39 @@ tile{
 
 tile{
   layer = 1,
-  x = 944,
-  y = 928,
-  width = 96,
-  height = 8,
-  pattern = "1451",
-}
-
-tile{
-  layer = 1,
   x = 920,
   y = 976,
   width = 144,
   height = 8,
   pattern = "1451",
   tileset = "out/outside_main",
+}
+
+tile{
+  layer = 1,
+  x = 944,
+  y = 888,
+  width = 48,
+  height = 8,
+  pattern = "1453",
+}
+
+tile{
+  layer = 1,
+  x = 968,
+  y = 888,
+  width = 96,
+  height = 48,
+  pattern = "1455",
+}
+
+tile{
+  layer = 1,
+  x = 944,
+  y = 928,
+  width = 96,
+  height = 8,
+  pattern = "1451",
 }
 
 tile{

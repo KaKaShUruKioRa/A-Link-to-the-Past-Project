@@ -3,10 +3,10 @@ properties{
   y = 2560,
   width = 512,
   height = 512,
-  min_layer = -9,
+  min_layer = -4,
   max_layer = 7,
   world = "Light World",
-  tileset = "out/outside_main",
+  tileset = "out/outside_lightworld_main",
   music = "overworld",
 }
 
@@ -5400,5 +5400,53 @@ tile{
   width = 48,
   height = 8,
   pattern = "1451",
+}
+
+teletransporter{
+  name = "border_haunted_grove_west",
+  layer = 7,
+  x = -8,
+  y = 0,
+  width = 8,
+  height = 512,
+  transition = "scrolling",
+  destination_map = "Non_Playable Zone/Light World/library_npz",
+  destination = "_side",
+}
+
+teletransporter{
+  name = "border_haunted_grove_south",
+  layer = 7,
+  x = 0,
+  y = 512,
+  width = 512,
+  height = 8,
+  transition = "scrolling",
+  destination_map = "Non_Playable Zone/Light World/plain_of_ruins_north_npz",
+  destination = "_side",
+}
+
+teletransporter{
+  name = "border_haunted_grove_east",
+  layer = 7,
+  x = 512,
+  y = 0,
+  width = 8,
+  height = 512,
+  transition = "scrolling",
+  destination_map = "Non_Playable Zone/Light World/link_forest",
+  destination = "_side",
+}
+
+teletransporter{
+  name = "border_haunted_grove_north",
+  layer = 7,
+  x = 0,
+  y = -8,
+  width = 512,
+  height = 8,
+  transition = "scrolling",
+  destination_map = "Non_Playable Zone/Light World/blacksmiths_house_npz",
+  destination = "_side",
 }
 

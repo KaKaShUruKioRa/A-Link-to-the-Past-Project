@@ -1,0 +1,12 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 4096,
+  height = 4096,
+  min_layer = -8,
+  max_layer = 7,
+  world = "Light World",
+  tileset = "out/outside_lightworld_main",
+  music = "overworld",
+}
+
