@@ -1,4 +1,4 @@
--- Lua script of map Non_Playable Zone/entrance_lost_wood_npz.
+-- Lua script of map Archived/A Link to the Past/Secret Room/secret_room.
 -- This script is executed every time the hero enters this map.
 
 -- Feel free to modify the code below.

@@ -5780,8 +5780,16 @@ teletransporter{
   x = -8,
   y = 120,
   width = 8,
-  height = 72,
+  height = 80,
   destination_map = "Non_Playable Zone/Light World/lost_wood_npz",
   destination = "_side",
+}
+
+destination{
+  name = "dest_secret",
+  layer = 7,
+  x = 256,
+  y = 256,
+  direction = 3,
 }
 

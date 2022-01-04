@@ -12,9 +12,9 @@ properties{
 
 tile{
   layer = -4,
-  x = 8,
+  x = 0,
   y = 0,
-  width = 512,
+  width = 520,
   height = 488,
   pattern = "14667",
 }
@@ -5379,5 +5379,13 @@ teletransporter{
   transition = "scrolling",
   destination_map = "Non_Playable Zone/Light World/kakariko_village_npz",
   destination = "_side",
+}
+
+destination{
+  name = "dest_secret",
+  layer = 7,
+  x = 256,
+  y = 256,
+  direction = 3,
 }
 

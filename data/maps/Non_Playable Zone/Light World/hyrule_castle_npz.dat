@@ -19199,9 +19199,9 @@ tile{
 
 tile{
   layer = 4,
-  x = -80,
+  x = -32,
   y = 984,
-  width = 192,
+  width = 144,
   height = 48,
   pattern = "1455",
 }
@@ -19235,9 +19235,9 @@ tile{
 
 tile{
   layer = 4,
-  x = -608,
+  x = -32,
   y = 976,
-  width = 720,
+  width = 144,
   height = 8,
   pattern = "1451",
 }
@@ -19455,5 +19455,13 @@ teletransporter{
   transition = "scrolling",
   destination_map = "Non_Playable Zone/Light World/plain_of_rocks_npz",
   destination = "_side",
+}
+
+destination{
+  name = "dest_secret",
+  layer = 7,
+  x = 512,
+  y = 512,
+  direction = 3,
 }
 

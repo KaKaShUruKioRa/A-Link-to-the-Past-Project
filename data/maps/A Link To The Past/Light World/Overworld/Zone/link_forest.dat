@@ -3522,18 +3522,6 @@ destructible{
   weight = 1,
 }
 
-teletransporter{
-  name = "border_link_forest_west",
-  layer = -2,
-  x = -8,
-  y = 0,
-  width = 8,
-  height = 512,
-  transition = "scrolling",
-  destination_map = "Non_Playable Zone/Light World/haunted_grove_npz",
-  destination = "_side",
-}
-
 destructible{
   name = "bush_link_forest_1",
   layer = -2,
@@ -5925,5 +5913,25 @@ teletransporter{
   transition = "scrolling",
   destination_map = "Non_Playable Zone/Light World/hyrule_castle_npz",
   destination = "_side",
+}
+
+teletransporter{
+  name = "border_link_forest_west",
+  layer = 7,
+  x = -8,
+  y = 0,
+  width = 8,
+  height = 512,
+  transition = "scrolling",
+  destination_map = "Non_Playable Zone/Light World/haunted_grove_npz",
+  destination = "_side",
+}
+
+destination{
+  name = "dest_secret",
+  layer = 7,
+  x = 256,
+  y = 256,
+  direction = 3,
 }
 

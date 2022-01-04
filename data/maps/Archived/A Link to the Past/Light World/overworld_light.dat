@@ -209249,7 +209249,7 @@ tile{
   y = 2256,
   width = 8,
   height = 16,
-  pattern = "6198",
+  pattern = "25",
   tileset = "out/outside_lightworld_buildings",
 }
 
@@ -209279,7 +209279,7 @@ tile{
   y = 2256,
   width = 8,
   height = 16,
-  pattern = "6198",
+  pattern = "25",
   tileset = "out/outside_lightworld_buildings",
 }
 
@@ -209309,7 +209309,7 @@ tile{
   y = 2256,
   width = 8,
   height = 16,
-  pattern = "6198",
+  pattern = "25",
   tileset = "out/outside_lightworld_buildings",
 }
 
@@ -356756,5 +356756,13 @@ wall{
   stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
+}
+
+destination{
+  name = "dest_secret",
+  layer = 7,
+  x = 2048,
+  y = 2048,
+  direction = 3,
 }
 

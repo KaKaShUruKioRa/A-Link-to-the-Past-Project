@@ -7205,3 +7205,11 @@ teletransporter{
   destination = "_side",
 }
 
+destination{
+  name = "dest_secret",
+  layer = 7,
+  x = 256,
+  y = 256,
+  direction = 3,
+}
+

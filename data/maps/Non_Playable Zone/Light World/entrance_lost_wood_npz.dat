@@ -503,8 +503,8 @@ teletransporter{
   y = 352,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/overworld_light",
-  sprite = "entities/teletransporter_yellow",
+  destination_map = "",
+  sprite = "entities/teletransporter_blue",
   sound = "warp",
 }
 
@@ -538,13 +538,13 @@ destructible{
 }
 
 destructible{
-  name = "stone_black_entrance_lost_wood_0",
+  name = "stone_white_entrance_lost_wood_0",
   layer = -2,
   x = 376,
   y = 365,
-  sprite = "destructibles/stone_small_lw_2",
+  sprite = "destructibles/stone_small_lw_1",
   destruction_sound = "stone",
-  weight = 2,
+  weight = 1,
 }
 
 destructible{
@@ -2983,5 +2983,13 @@ teletransporter{
   height = 16,
   destination_map = "A Link To The Past/Light World/Overworld/overworld_light",
   destination = "in_forest_dest_1",
+}
+
+destination{
+  name = "dest_secret",
+  layer = 7,
+  x = 256,
+  y = 256,
+  direction = 3,
 }
 

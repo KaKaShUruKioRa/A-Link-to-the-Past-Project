@@ -24440,6 +24440,17 @@ tile_pattern{
 }
 
 tile_pattern{
+  id = "25",
+  ground = "wall",
+  default_layer = 0,
+  x = 568,
+  y = 24,
+  width = 8,
+  height = 16,
+  repeat_mode = "none",
+}
+
+tile_pattern{
   id = "264",
   ground = "wall",
   default_layer = 0,

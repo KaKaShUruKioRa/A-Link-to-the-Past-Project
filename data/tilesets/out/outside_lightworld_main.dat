@@ -429,7 +429,7 @@ tile_pattern{
 
 tile_pattern{
   id = "1025",
-  ground = "wall_top_left",
+  ground = "traversable",
   default_layer = 0,
   x = 56,
   y = 200,
@@ -440,7 +440,7 @@ tile_pattern{
 
 tile_pattern{
   id = "1026",
-  ground = "wall_top_right",
+  ground = "traversable",
   default_layer = 0,
   x = 72,
   y = 200,
@@ -451,7 +451,7 @@ tile_pattern{
 
 tile_pattern{
   id = "1027",
-  ground = "wall_bottom_right",
+  ground = "traversable",
   default_layer = 0,
   x = 72,
   y = 216,
@@ -462,7 +462,7 @@ tile_pattern{
 
 tile_pattern{
   id = "1028",
-  ground = "wall_bottom_left",
+  ground = "traversable",
   default_layer = 0,
   x = 56,
   y = 216,

@@ -6,7 +6,7 @@ properties{
   min_layer = -4,
   max_layer = 7,
   world = "Light World",
-  tileset = "out/outside_main",
+  tileset = "out/outside_lightworld_main",
   music = "overworld",
 }
 
@@ -2294,188 +2294,89 @@ tile{
   tileset = "out/outside_buildings",
 }
 
-destructible{
-  name = "bush_library_723",
-  layer = -2,
-  x = 72,
-  y = 157,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
+tile{
+  layer = -3,
+  x = 400,
+  y = 320,
+  width = 16,
+  height = 16,
+  pattern = "728",
+}
+
+tile{
+  layer = -3,
+  x = 64,
+  y = 80,
+  width = 16,
+  height = 80,
+  pattern = "1111",
+}
+
+tile{
+  layer = -3,
+  x = 80,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "1111",
+}
+
+tile{
+  layer = -3,
+  x = 416,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "1111",
+}
+
+tile{
+  layer = -3,
+  x = 320,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "1111",
+}
+
+tile{
+  layer = -3,
+  x = 320,
+  y = 416,
+  width = 16,
+  height = 16,
+  pattern = "1111",
+}
+
+tile{
+  layer = -3,
+  x = 288,
+  y = 304,
+  width = 16,
+  height = 16,
+  pattern = "1111",
+}
+
+tile{
+  layer = -3,
+  x = 304,
+  y = 256,
+  width = 16,
+  height = 64,
+  pattern = "1111",
+}
+
+tile{
+  layer = -3,
+  x = 64,
+  y = 240,
+  width = 32,
+  height = 32,
+  pattern = "1111",
 }
 
 destructible{
-  name = "bush_library_724",
-  layer = -2,
-  x = 88,
-  y = 157,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_library_725",
-  layer = -2,
-  x = 72,
-  y = 253,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_library_726",
-  layer = -2,
-  x = 88,
-  y = 253,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_library_727",
-  layer = -2,
-  x = 72,
-  y = 269,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_library_728",
-  layer = -2,
-  x = 88,
-  y = 269,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_library_739",
-  layer = -2,
-  x = 72,
-  y = 125,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_library_740",
-  layer = -2,
-  x = 72,
-  y = 141,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_library_741",
-  layer = -2,
-  x = 72,
-  y = 109,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_library_742",
-  layer = -2,
-  x = 72,
-  y = 93,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_library_745",
-  layer = -2,
-  x = 328,
-  y = 429,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_library_746",
-  layer = -2,
-  x = 328,
-  y = 237,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_library_747",
-  layer = -2,
-  x = 312,
-  y = 269,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_library_748",
-  layer = -2,
-  x = 312,
-  y = 285,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_library_749",
-  layer = -2,
-  x = 312,
-  y = 301,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_library_750",
-  layer = -2,
-  x = 312,
-  y = 317,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_library_751",
-  layer = -2,
-  x = 296,
-  y = 317,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_library_752",
-  layer = -2,
-  x = 424,
-  y = 157,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "Big_stone_deathmountain_entrance_132",
+  name = "stone_white_library_0",
   layer = -2,
   x = 408,
   y = 333,
@@ -2485,82 +2386,202 @@ destructible{
 }
 
 destructible{
-  name = "grass_library_1110",
+  name = "grass_library_0",
+  layer = -2,
+  x = 312,
+  y = 221,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "bush_library_0",
+  layer = -2,
+  x = 72,
+  y = 93,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_library_1",
+  layer = -2,
+  x = 72,
+  y = 109,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_library_2",
+  layer = -2,
+  x = 72,
+  y = 125,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_library_3",
+  layer = -2,
+  x = 72,
+  y = 141,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_library_4",
+  layer = -2,
+  x = 72,
+  y = 157,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_library_5",
+  layer = -2,
+  x = 88,
+  y = 157,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_library_6",
+  layer = -2,
+  x = 424,
+  y = 157,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_library_7",
   layer = -2,
   x = 328,
-  y = 333,
-  sprite = "destructibles/grass_green",
-  weight = -1,
+  y = 237,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
   can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
 }
 
 destructible{
-  name = "grass_library_1111",
+  name = "bush_library_8",
   layer = -2,
-  x = 296,
+  x = 72,
+  y = 253,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_library_9",
+  layer = -2,
+  x = 88,
+  y = 253,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_library_10",
+  layer = -2,
+  x = 72,
   y = 269,
-  sprite = "destructibles/grass_green",
-  weight = -1,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
   can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
 }
 
 destructible{
-  name = "grass_library_1112",
+  name = "bush_library_11",
   layer = -2,
-  x = 296,
-  y = 253,
-  sprite = "destructibles/grass_green",
-  weight = -1,
+  x = 88,
+  y = 269,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
   can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
 }
 
 destructible{
-  name = "grass_library_1113",
-  layer = -2,
-  x = 296,
-  y = 237,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_library_1114",
+  name = "bush_library_12",
   layer = -2,
   x = 312,
-  y = 253,
-  sprite = "destructibles/grass_green",
-  weight = -1,
+  y = 269,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
   can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
 }
 
 destructible{
-  name = "grass_library_1115",
+  name = "bush_library_13",
   layer = -2,
   x = 312,
-  y = 237,
-  sprite = "destructibles/grass_green",
-  weight = -1,
+  y = 285,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
   can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
 }
 
 destructible{
-  name = "grass_library_1116",
+  name = "bush_library_14",
   layer = -2,
-  x = 344,
-  y = 237,
+  x = 312,
+  y = 301,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_library_15",
+  layer = -2,
+  x = 296,
+  y = 317,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_library_16",
+  layer = -2,
+  x = 312,
+  y = 317,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_library_17",
+  layer = -2,
+  x = 328,
+  y = 429,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "grass_library_1",
+  layer = -2,
+  x = 328,
+  y = 221,
   sprite = "destructibles/grass_green",
   weight = -1,
   can_be_cut = true,
@@ -2569,7 +2590,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_library_1117",
+  name = "grass_library_2",
   layer = -2,
   x = 344,
   y = 221,
@@ -2581,19 +2602,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_library_1118",
-  layer = -2,
-  x = 360,
-  y = 237,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_library_1119",
+  name = "grass_library_3",
   layer = -2,
   x = 360,
   y = 221,
@@ -2605,19 +2614,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_library_1120",
-  layer = -2,
-  x = 376,
-  y = 237,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_library_1121",
+  name = "grass_library_4",
   layer = -2,
   x = 376,
   y = 221,
@@ -2629,19 +2626,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_library_1122",
-  layer = -2,
-  x = 392,
-  y = 237,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_library_1123",
+  name = "grass_library_5",
   layer = -2,
   x = 392,
   y = 221,
@@ -2653,19 +2638,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_library_1124",
-  layer = -2,
-  x = 408,
-  y = 237,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_library_1125",
+  name = "grass_library_6",
   layer = -2,
   x = 408,
   y = 221,
@@ -2677,7 +2650,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_library_1126",
+  name = "grass_library_7",
   layer = -2,
   x = 424,
   y = 221,
@@ -2689,10 +2662,10 @@ destructible{
 }
 
 destructible{
-  name = "grass_library_1127",
+  name = "grass_library_8",
   layer = -2,
-  x = 328,
-  y = 221,
+  x = 296,
+  y = 237,
   sprite = "destructibles/grass_green",
   weight = -1,
   can_be_cut = true,
@@ -2701,10 +2674,118 @@ destructible{
 }
 
 destructible{
-  name = "grass_library_1128",
+  name = "grass_library_9",
   layer = -2,
   x = 312,
-  y = 221,
+  y = 237,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_library_10",
+  layer = -2,
+  x = 344,
+  y = 237,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_library_11",
+  layer = -2,
+  x = 360,
+  y = 237,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_library_12",
+  layer = -2,
+  x = 376,
+  y = 237,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_library_13",
+  layer = -2,
+  x = 392,
+  y = 237,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_library_14",
+  layer = -2,
+  x = 408,
+  y = 237,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_library_15",
+  layer = -2,
+  x = 296,
+  y = 253,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_library_16",
+  layer = -2,
+  x = 312,
+  y = 253,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_library_17",
+  layer = -2,
+  x = 296,
+  y = 269,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_library_18",
+  layer = -2,
+  x = 328,
+  y = 333,
   sprite = "destructibles/grass_green",
   weight = -1,
   can_be_cut = true,
@@ -5349,6 +5430,15 @@ tile{
 
 tile{
   layer = 4,
+  x = 0,
+  y = 104,
+  width = 48,
+  height = 8,
+  pattern = "1453",
+}
+
+tile{
+  layer = 4,
   x = 288,
   y = 8,
   width = 48,
@@ -5987,5 +6077,13 @@ teletransporter{
   transition = "scrolling",
   destination_map = "Non_Playable Zone/Light World/maze_game_npz",
   destination = "_side",
+}
+
+destination{
+  name = "dest_secret",
+  layer = 7,
+  x = 256,
+  y = 256,
+  direction = 3,
 }
 
