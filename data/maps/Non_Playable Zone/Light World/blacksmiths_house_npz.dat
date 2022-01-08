@@ -3166,17 +3166,6 @@ destructible{
   can_be_cut = true,
 }
 
-destructible{
-  name = "hammer_stake_blacksmiths_0",
-  layer = -2,
-  x = 296,
-  y = 173,
-  sprite = "entities/hammer_stake_brown",
-  destruction_sound = "hammer_stake",
-  weight = -1,
-  damage_on_enemies = 0,
-}
-
 tile{
   layer = -1,
   x = 56,
@@ -5114,6 +5103,18 @@ tile{
   height = 24,
   pattern = "6004",
   tileset = "out/outside_buildings",
+}
+
+custom_entity{
+  name = "stake_hammer_blacksmiths_house_0",
+  layer = 0,
+  x = 296,
+  y = 173,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hammer_stake_brown",
+  model = "hammer_stake",
 }
 
 tile{

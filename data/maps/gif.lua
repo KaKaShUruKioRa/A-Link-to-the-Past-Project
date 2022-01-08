@@ -1,4 +1,4 @@
--- Lua script of map Non_Playable Zone/hyrule_castle_npz.
+-- Lua script of map gif.
 -- This script is executed every time the hero enters this map.
 
 -- Feel free to modify the code below.

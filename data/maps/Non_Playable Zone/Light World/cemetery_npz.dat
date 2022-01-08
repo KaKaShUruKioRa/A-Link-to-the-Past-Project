@@ -6712,7 +6712,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "Non_Playable Zone/Light World/wooden_bridge_north",
+  destination_map = "Non_Playable Zone/Light World/wooden_bridge_north_npz",
   destination = "_side",
 }
 

@@ -1,4 +1,4 @@
--- Lua script of map A Link To The Past/Light World/Overworld/Zone/turtle_rock.
+-- Lua script of map Non_Playable Zone/turtle_rock.
 -- This script is executed every time the hero enters this map.
 
 -- Feel free to modify the code below.

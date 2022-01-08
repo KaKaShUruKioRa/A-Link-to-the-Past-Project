@@ -12,19 +12,19 @@ properties{
 
 tile{
   layer = -4,
-  x = 0,
-  y = 0,
-  width = 1024,
-  height = 1024,
+  x = 24,
+  y = 104,
+  width = 1000,
+  height = 920,
   pattern = "129",
 }
 
 tile{
   layer = -4,
   x = 16,
-  y = 80,
+  y = 96,
   width = 1008,
-  height = 928,
+  height = 912,
   pattern = "4018",
 }
 
@@ -7116,6 +7116,42 @@ tile{
 
 tile{
   layer = 0,
+  x = 40,
+  y = 704,
+  width = 24,
+  height = 24,
+  pattern = "129",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 248,
+  width = 88,
+  height = 456,
+  pattern = "129",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 248,
+  width = 96,
+  height = 464,
+  pattern = "4018",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 712,
+  width = 16,
+  height = 16,
+  pattern = "4018",
+}
+
+tile{
+  layer = 0,
   x = 408,
   y = 72,
   width = 136,
@@ -7242,9 +7278,9 @@ tile{
 
 tile{
   layer = 0,
-  x = 24,
+  x = 8,
   y = 888,
-  width = 24,
+  width = 40,
   height = 80,
   pattern = "14667",
 }
@@ -8359,6 +8395,123 @@ tile{
 
 tile{
   layer = 1,
+  x = 48,
+  y = 704,
+  width = 8,
+  height = 8,
+  pattern = "116",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 992,
+  width = 176,
+  height = 16,
+  pattern = "67",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 960,
+  width = 16,
+  height = 16,
+  pattern = "68",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 976,
+  width = 8,
+  height = 8,
+  pattern = "454",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 960,
+  width = 8,
+  height = 8,
+  pattern = "454",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 1000,
+  width = 8,
+  height = 8,
+  pattern = "454",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 992,
+  width = 8,
+  height = 8,
+  pattern = "13986",
+}
+
+tile{
+  layer = 1,
+  x = 24,
+  y = 888,
+  width = 8,
+  height = 72,
+  pattern = "454",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 952,
+  width = 8,
+  height = 8,
+  pattern = "13985",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 976,
+  width = 16,
+  height = 16,
+  pattern = "68",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 992,
+  width = 8,
+  height = 8,
+  pattern = "454",
+}
+
+tile{
+  layer = 1,
+  x = 256,
+  y = 1000,
+  width = 16,
+  height = 8,
+  pattern = "454",
+}
+
+tile{
+  layer = 1,
+  x = 256,
+  y = 992,
+  width = 8,
+  height = 8,
+  pattern = "13985",
+}
+
+tile{
+  layer = 1,
   x = 736,
   y = 160,
   width = 48,
@@ -9457,15 +9610,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 48,
-  y = 704,
-  width = 8,
-  height = 8,
-  pattern = "116",
-}
-
-tile{
-  layer = 1,
   x = 56,
   y = 704,
   width = 8,
@@ -10294,8 +10438,9 @@ teletransporter{
   y = 944,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/overworld_light",
-  sprite = "entities/teletransporter_yellow",
+  destination_map = "Non_Playable Zone/Light World/desert_of_mystery_npz",
+  destination = "dest_secret",
+  sprite = "entities/teletransporter_blue",
   sound = "warp",
 }
 

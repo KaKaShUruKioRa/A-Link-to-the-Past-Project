@@ -2432,6 +2432,168 @@ tile{
 }
 
 tile{
+  layer = -3,
+  x = 896,
+  y = 160,
+  width = 64,
+  height = 32,
+  pattern = "1111",
+}
+
+tile{
+  layer = -3,
+  x = 960,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "1111",
+}
+
+tile{
+  layer = -3,
+  x = 832,
+  y = 96,
+  width = 32,
+  height = 32,
+  pattern = "1111",
+}
+
+tile{
+  layer = -3,
+  x = 448,
+  y = 96,
+  width = 32,
+  height = 32,
+  pattern = "1111",
+}
+
+tile{
+  layer = -3,
+  x = 560,
+  y = 336,
+  width = 16,
+  height = 16,
+  pattern = "1111",
+}
+
+tile{
+  layer = -3,
+  x = 528,
+  y = 368,
+  width = 32,
+  height = 16,
+  pattern = "1111",
+}
+
+tile{
+  layer = -3,
+  x = 752,
+  y = 512,
+  width = 48,
+  height = 16,
+  pattern = "1111",
+}
+
+tile{
+  layer = -3,
+  x = 752,
+  y = 544,
+  width = 48,
+  height = 16,
+  pattern = "1111",
+}
+
+tile{
+  layer = -3,
+  x = 784,
+  y = 528,
+  width = 16,
+  height = 16,
+  pattern = "1111",
+}
+
+tile{
+  layer = -3,
+  x = 752,
+  y = 528,
+  width = 16,
+  height = 16,
+  pattern = "1111",
+}
+
+tile{
+  layer = -3,
+  x = 864,
+  y = 912,
+  width = 16,
+  height = 16,
+  pattern = "1111",
+}
+
+tile{
+  layer = -3,
+  x = 640,
+  y = 848,
+  width = 16,
+  height = 16,
+  pattern = "1111",
+}
+
+tile{
+  layer = -3,
+  x = 608,
+  y = 880,
+  width = 32,
+  height = 16,
+  pattern = "1111",
+}
+
+tile{
+  layer = -3,
+  x = 352,
+  y = 960,
+  width = 16,
+  height = 16,
+  pattern = "1111",
+}
+
+tile{
+  layer = -3,
+  x = 448,
+  y = 752,
+  width = 16,
+  height = 16,
+  pattern = "1111",
+}
+
+tile{
+  layer = -3,
+  x = 160,
+  y = 800,
+  width = 16,
+  height = 16,
+  pattern = "1111",
+}
+
+tile{
+  layer = -3,
+  x = 96,
+  y = 576,
+  width = 32,
+  height = 32,
+  pattern = "1111",
+}
+
+tile{
+  layer = -3,
+  x = 240,
+  y = 896,
+  width = 16,
+  height = 16,
+  pattern = "1111",
+}
+
+tile{
   layer = -2,
   x = 112,
   y = 296,
@@ -2476,11 +2638,86 @@ tile{
   pattern = "1041",
 }
 
+teletransporter{
+  name = "tp_map_lost_wood_0",
+  layer = -2,
+  x = 160,
+  y = 152,
+  width = 16,
+  height = 16,
+  destination_map = "",
+}
+
+destination{
+  name = "dest_map_lost_wood_1",
+  layer = -2,
+  x = 96,
+  y = 989,
+  direction = 1,
+}
+
+destination{
+  name = "dest_map_lost_wood_2",
+  layer = -2,
+  x = 384,
+  y = 989,
+  direction = 1,
+}
+
+destination{
+  name = "dest_map_lost_wood_3",
+  layer = -2,
+  x = 912,
+  y = 989,
+  direction = 1,
+}
+
+teletransporter{
+  name = "tp_map_lost_wood_1",
+  layer = -2,
+  x = 88,
+  y = 992,
+  width = 16,
+  height = 16,
+  destination_map = "Non_Playable Zone/Light World/entrance_lost_wood_npz",
+  destination = "out_forest_dest_0",
+}
+
+teletransporter{
+  name = "tp_map_lost_wood_2",
+  layer = -2,
+  x = 376,
+  y = 992,
+  width = 16,
+  height = 16,
+  destination_map = "Non_Playable Zone/Light World/entrance_lost_wood_npz",
+  destination = "out_forest_dest_1",
+}
+
+teletransporter{
+  name = "tp_map_lost_wood_3",
+  layer = -2,
+  x = 904,
+  y = 992,
+  width = 16,
+  height = 16,
+  destination_map = "Non_Playable Zone/Light World/fortune_teller_npz",
+  destination = "out_forest_dest_2",
+}
+
+destination{
+  name = "dest_map_lost_wood_0",
+  layer = -2,
+  x = 168,
+  y = 181,
+  direction = 3,
+}
+
 destructible{
   name = "bush_forest_0",
   layer = -2,
-  x = 104,
-  y = 589,
+  x = 456,
+  y = 109,
   sprite = "destructibles/bush_green",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -2489,8 +2726,8 @@ destructible{
 destructible{
   name = "bush_forest_1",
   layer = -2,
-  x = 120,
-  y = 589,
+  x = 472,
+  y = 109,
   sprite = "destructibles/bush_green",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -2499,8 +2736,8 @@ destructible{
 destructible{
   name = "bush_forest_2",
   layer = -2,
-  x = 120,
-  y = 605,
+  x = 840,
+  y = 109,
   sprite = "destructibles/bush_green",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -2509,8 +2746,8 @@ destructible{
 destructible{
   name = "bush_forest_3",
   layer = -2,
-  x = 104,
-  y = 605,
+  x = 856,
+  y = 109,
   sprite = "destructibles/bush_green",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -2520,7 +2757,7 @@ destructible{
   name = "bush_forest_4",
   layer = -2,
   x = 456,
-  y = 109,
+  y = 125,
   sprite = "destructibles/bush_green",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -2530,7 +2767,7 @@ destructible{
   name = "bush_forest_5",
   layer = -2,
   x = 472,
-  y = 109,
+  y = 125,
   sprite = "destructibles/bush_green",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -2539,7 +2776,7 @@ destructible{
 destructible{
   name = "bush_forest_6",
   layer = -2,
-  x = 456,
+  x = 840,
   y = 125,
   sprite = "destructibles/bush_green",
   destruction_sound = "bush",
@@ -2549,7 +2786,7 @@ destructible{
 destructible{
   name = "bush_forest_7",
   layer = -2,
-  x = 472,
+  x = 856,
   y = 125,
   sprite = "destructibles/bush_green",
   destruction_sound = "bush",
@@ -2559,46 +2796,6 @@ destructible{
 destructible{
   name = "bush_forest_8",
   layer = -2,
-  x = 840,
-  y = 109,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_forest_9",
-  layer = -2,
-  x = 856,
-  y = 109,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_forest_10",
-  layer = -2,
-  x = 840,
-  y = 125,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_forest_11",
-  layer = -2,
-  x = 856,
-  y = 125,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_forest_12",
-  layer = -2,
   x = 904,
   y = 173,
   sprite = "destructibles/bush_green",
@@ -2607,7 +2804,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_forest_13",
+  name = "bush_forest_9",
   layer = -2,
   x = 920,
   y = 173,
@@ -2617,7 +2814,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_forest_14",
+  name = "bush_forest_10",
   layer = -2,
   x = 936,
   y = 173,
@@ -2627,10 +2824,50 @@ destructible{
 }
 
 destructible{
-  name = "bush_forest_15",
+  name = "bush_forest_11",
   layer = -2,
   x = 952,
   y = 173,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_forest_12",
+  layer = -2,
+  x = 904,
+  y = 189,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_forest_13",
+  layer = -2,
+  x = 920,
+  y = 189,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_forest_14",
+  layer = -2,
+  x = 936,
+  y = 189,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_forest_15",
+  layer = -2,
+  x = 952,
+  y = 189,
   sprite = "destructibles/bush_green",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -2649,8 +2886,8 @@ destructible{
 destructible{
   name = "bush_forest_17",
   layer = -2,
-  x = 952,
-  y = 189,
+  x = 568,
+  y = 349,
   sprite = "destructibles/bush_green",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -2659,8 +2896,8 @@ destructible{
 destructible{
   name = "bush_forest_18",
   layer = -2,
-  x = 936,
-  y = 189,
+  x = 536,
+  y = 381,
   sprite = "destructibles/bush_green",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -2669,8 +2906,8 @@ destructible{
 destructible{
   name = "bush_forest_19",
   layer = -2,
-  x = 920,
-  y = 189,
+  x = 552,
+  y = 381,
   sprite = "destructibles/bush_green",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -2679,8 +2916,58 @@ destructible{
 destructible{
   name = "bush_forest_20",
   layer = -2,
-  x = 904,
-  y = 189,
+  x = 760,
+  y = 525,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_forest_21",
+  layer = -2,
+  x = 776,
+  y = 525,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_forest_22",
+  layer = -2,
+  x = 792,
+  y = 525,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_forest_23",
+  layer = -2,
+  x = 760,
+  y = 541,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_forest_24",
+  layer = -2,
+  x = 792,
+  y = 541,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_forest_25",
+  layer = -2,
+  x = 760,
+  y = 557,
   sprite = "destructibles/bush_green",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -2689,8 +2976,8 @@ destructible{
 destructible{
   name = "bush_forest_26",
   layer = -2,
-  x = 760,
-  y = 525,
+  x = 776,
+  y = 557,
   sprite = "destructibles/bush_green",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -2699,8 +2986,8 @@ destructible{
 destructible{
   name = "bush_forest_27",
   layer = -2,
-  x = 776,
-  y = 525,
+  x = 792,
+  y = 557,
   sprite = "destructibles/bush_green",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -2709,8 +2996,8 @@ destructible{
 destructible{
   name = "bush_forest_28",
   layer = -2,
-  x = 792,
-  y = 525,
+  x = 104,
+  y = 589,
   sprite = "destructibles/bush_green",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -2719,8 +3006,8 @@ destructible{
 destructible{
   name = "bush_forest_29",
   layer = -2,
-  x = 792,
-  y = 541,
+  x = 120,
+  y = 589,
   sprite = "destructibles/bush_green",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -2729,8 +3016,8 @@ destructible{
 destructible{
   name = "bush_forest_30",
   layer = -2,
-  x = 792,
-  y = 557,
+  x = 104,
+  y = 605,
   sprite = "destructibles/bush_green",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -2739,8 +3026,8 @@ destructible{
 destructible{
   name = "bush_forest_31",
   layer = -2,
-  x = 776,
-  y = 557,
+  x = 120,
+  y = 605,
   sprite = "destructibles/bush_green",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -2749,8 +3036,8 @@ destructible{
 destructible{
   name = "bush_forest_32",
   layer = -2,
-  x = 760,
-  y = 557,
+  x = 456,
+  y = 765,
   sprite = "destructibles/bush_green",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -2759,8 +3046,8 @@ destructible{
 destructible{
   name = "bush_forest_33",
   layer = -2,
-  x = 760,
-  y = 541,
+  x = 168,
+  y = 813,
   sprite = "destructibles/bush_green",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -2779,7 +3066,7 @@ destructible{
 destructible{
   name = "bush_forest_35",
   layer = -2,
-  x = 632,
+  x = 616,
   y = 893,
   sprite = "destructibles/bush_green",
   destruction_sound = "bush",
@@ -2789,7 +3076,7 @@ destructible{
 destructible{
   name = "bush_forest_36",
   layer = -2,
-  x = 616,
+  x = 632,
   y = 893,
   sprite = "destructibles/bush_green",
   destruction_sound = "bush",
@@ -2799,8 +3086,8 @@ destructible{
 destructible{
   name = "bush_forest_37",
   layer = -2,
-  x = 872,
-  y = 925,
+  x = 248,
+  y = 909,
   sprite = "destructibles/bush_green",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -2809,8 +3096,8 @@ destructible{
 destructible{
   name = "bush_forest_38",
   layer = -2,
-  x = 456,
-  y = 765,
+  x = 872,
+  y = 925,
   sprite = "destructibles/bush_green",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -2824,131 +3111,6 @@ destructible{
   sprite = "destructibles/bush_green",
   destruction_sound = "bush",
   can_be_cut = true,
-}
-
-destructible{
-  name = "bush_forest_40",
-  layer = -2,
-  x = 248,
-  y = 909,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_forest_41",
-  layer = -2,
-  x = 168,
-  y = 813,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_forest_42",
-  layer = -2,
-  x = 568,
-  y = 349,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_forest_43",
-  layer = -2,
-  x = 552,
-  y = 381,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_forest_44",
-  layer = -2,
-  x = 536,
-  y = 381,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-teletransporter{
-  name = "in_mastersword_tp_0",
-  layer = -2,
-  x = 160,
-  y = 152,
-  width = 16,
-  height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/overworld_light",
-}
-
-destination{
-  name = "in_forest_dest_0",
-  layer = -2,
-  x = 96,
-  y = 989,
-  direction = 1,
-}
-
-destination{
-  name = "in_forest_dest_1",
-  layer = -2,
-  x = 384,
-  y = 989,
-  direction = 1,
-}
-
-destination{
-  name = "in_forest_dest_2",
-  layer = -2,
-  x = 912,
-  y = 989,
-  direction = 1,
-}
-
-teletransporter{
-  name = "out_forest_tp_1",
-  layer = -2,
-  x = 88,
-  y = 992,
-  width = 16,
-  height = 16,
-  destination_map = "Non_Playable Zone/Light World/entrance_lost_wood_npz",
-  destination = "out_forest_dest_0",
-}
-
-teletransporter{
-  name = "out_forest_tp_2",
-  layer = -2,
-  x = 376,
-  y = 992,
-  width = 16,
-  height = 16,
-  destination_map = "Non_Playable Zone/Light World/entrance_lost_wood_npz",
-  destination = "out_forest_dest_1",
-}
-
-teletransporter{
-  name = "out_forest_tp_3",
-  layer = -2,
-  x = 904,
-  y = 992,
-  width = 16,
-  height = 16,
-  destination_map = "Non_Playable Zone/Light World/fortune_teller_npz",
-  destination = "out_forest_dest_2",
-}
-
-destination{
-  name = "out_mastersword_dest_3",
-  layer = -2,
-  x = 168,
-  y = 181,
-  direction = 3,
 }
 
 tile{

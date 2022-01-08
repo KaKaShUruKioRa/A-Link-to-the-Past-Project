@@ -1,13 +1,13 @@
 properties{
   x = 1536,
-  y = 2048,
+  y = 1536,
   width = 1024,
   height = 1024,
   min_layer = 0,
-  max_layer = 1,
+  max_layer = 2,
   world = "Light World",
   tileset = "out/outside_lightworld_main",
-  music = "overworld",
+  music = "sanctuary",
 }
 
 tile{
@@ -17,160 +17,6 @@ tile{
   width = 1024,
   height = 1024,
   pattern = "112",
-}
-
-tile{
-  layer = 0,
-  x = -8,
-  y = 864,
-  width = 928,
-  height = 8,
-  pattern = "1340",
-}
-
-tile{
-  layer = 0,
-  x = 0,
-  y = 880,
-  width = 920,
-  height = 144,
-  pattern = "14667",
-}
-
-tile{
-  layer = 0,
-  x = -8,
-  y = 856,
-  width = 928,
-  height = 16,
-  pattern = "919",
-}
-
-tile{
-  layer = 0,
-  x = 104,
-  y = 752,
-  width = 808,
-  height = 16,
-  pattern = "14667",
-}
-
-tile{
-  layer = 0,
-  x = 112,
-  y = 800,
-  width = 800,
-  height = 8,
-  pattern = "1340",
-}
-
-tile{
-  layer = 0,
-  x = 112,
-  y = 800,
-  width = 800,
-  height = 16,
-  pattern = "918",
-}
-
-tile{
-  layer = 0,
-  x = 64,
-  y = 56,
-  width = 872,
-  height = 696,
-  pattern = "14667",
-}
-
-tile{
-  layer = 0,
-  x = 464,
-  y = 272,
-  width = 16,
-  height = 624,
-  pattern = "6478",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 0,
-  x = 464,
-  y = 560,
-  width = 8,
-  height = 152,
-  pattern = "454",
-}
-
-tile{
-  layer = 0,
-  x = 160,
-  y = 32,
-  width = 16,
-  height = 16,
-  pattern = "988",
-}
-
-tile{
-  layer = 0,
-  x = 184,
-  y = 1016,
-  width = 480,
-  height = 40,
-  pattern = "2202",
-}
-
-tile{
-  layer = 0,
-  x = -56,
-  y = 952,
-  width = 144,
-  height = 40,
-  pattern = "2202",
-}
-
-tile{
-  layer = 0,
-  x = -32,
-  y = 1000,
-  width = 144,
-  height = 40,
-  pattern = "2202",
-}
-
-tile{
-  layer = 0,
-  x = -32,
-  y = 904,
-  width = 48,
-  height = 40,
-  pattern = "2202",
-}
-
-tile{
-  layer = 0,
-  x = 208,
-  y = 1008,
-  width = 432,
-  height = 8,
-  pattern = "2203",
-}
-
-tile{
-  layer = 0,
-  x = -56,
-  y = 992,
-  width = 144,
-  height = 8,
-  pattern = "2203",
-}
-
-tile{
-  layer = 0,
-  x = -32,
-  y = 944,
-  width = 48,
-  height = 8,
-  pattern = "2203",
 }
 
 tile{
@@ -265,6 +111,24 @@ tile{
 
 tile{
   layer = 0,
+  x = -8,
+  y = 864,
+  width = 928,
+  height = 8,
+  pattern = "1340",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 800,
+  width = 800,
+  height = 8,
+  pattern = "1340",
+}
+
+tile{
+  layer = 0,
   x = 960,
   y = 752,
   width = 64,
@@ -283,11 +147,29 @@ tile{
 
 tile{
   layer = 0,
+  x = -8,
+  y = 848,
+  width = 16,
+  height = 8,
+  pattern = "1340",
+}
+
+tile{
+  layer = 0,
   x = 992,
   y = 944,
   width = 8,
   height = 80,
   pattern = "1340",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "988",
 }
 
 tile{
@@ -535,6 +417,15 @@ tile{
 
 tile{
   layer = 0,
+  x = -8,
+  y = 856,
+  width = 928,
+  height = 16,
+  pattern = "919",
+}
+
+tile{
+  layer = 0,
   x = 160,
   y = 16,
   width = 16,
@@ -547,6 +438,15 @@ tile{
   x = 960,
   y = 752,
   width = 64,
+  height = 16,
+  pattern = "918",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 800,
+  width = 800,
   height = 16,
   pattern = "918",
 }
@@ -873,6 +773,15 @@ tile{
   width = 16,
   height = 320,
   pattern = "920",
+}
+
+tile{
+  layer = 0,
+  x = -8,
+  y = 840,
+  width = 16,
+  height = 16,
+  pattern = "919",
 }
 
 tile{
@@ -1624,11 +1533,38 @@ tile{
 
 tile{
   layer = 0,
+  x = 0,
+  y = 880,
+  width = 920,
+  height = 144,
+  pattern = "14667",
+}
+
+tile{
+  layer = 0,
   x = 840,
   y = 976,
   width = 16,
   height = 48,
   pattern = "13892",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 56,
+  width = 872,
+  height = 696,
+  pattern = "14667",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 752,
+  width = 808,
+  height = 16,
+  pattern = "14667",
 }
 
 tile{
@@ -5632,6 +5568,16 @@ tile{
 
 tile{
   layer = 0,
+  x = 464,
+  y = 272,
+  width = 16,
+  height = 624,
+  pattern = "6478",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 0,
   x = 504,
   y = 504,
   width = 16,
@@ -9220,6 +9166,25 @@ tile{
 
 tile{
   layer = 0,
+  x = 464,
+  y = 736,
+  width = 8,
+  height = 160,
+  pattern = "6501",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 0,
+  x = 464,
+  y = 560,
+  width = 8,
+  height = 152,
+  pattern = "454",
+}
+
+tile{
+  layer = 0,
   x = 896,
   y = 160,
   width = 16,
@@ -9263,15 +9228,6 @@ tile{
   y = 232,
   width = 32,
   height = 48,
-  pattern = "14667",
-}
-
-tile{
-  layer = 0,
-  x = 480,
-  y = 616,
-  width = 64,
-  height = 16,
   pattern = "14667",
 }
 
@@ -13479,26 +13435,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 464,
-  y = 608,
-  width = 16,
-  height = 24,
-  pattern = "448",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 0,
-  x = 544,
-  y = 608,
-  width = 16,
-  height = 24,
-  pattern = "446",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 0,
   x = 360,
   y = 232,
   width = 32,
@@ -13611,1407 +13547,128 @@ tile{
 
 tile{
   layer = 0,
-  x = 704,
-  y = 192,
-  width = 32,
+  x = 480,
+  y = 632,
+  width = 64,
   height = 24,
-  pattern = "7809",
+  pattern = "4070",
   tileset = "out/outside_lightworld_buildings",
 }
 
 tile{
   layer = 0,
-  x = 208,
-  y = 968,
-  width = 432,
+  x = -32,
+  y = 904,
+  width = 48,
   height = 40,
   pattern = "2202",
 }
 
 tile{
   layer = 0,
-  x = -48,
-  y = 936,
-  width = 136,
-  height = 16,
-  pattern = "12842",
-  tileset = "out/outside_special",
+  x = -32,
+  y = 944,
+  width = 48,
+  height = 8,
+  pattern = "2203",
+}
+
+tile{
+  layer = 0,
+  x = -8,
+  y = 952,
+  width = 96,
+  height = 40,
+  pattern = "2202",
 }
 
 tile{
   layer = 0,
   x = 208,
-  y = 952,
+  y = 1008,
   width = 432,
-  height = 16,
-  pattern = "12842",
-  tileset = "out/outside_special",
+  height = 8,
+  pattern = "2203",
 }
 
 tile{
   layer = 0,
-  x = 464,
-  y = 736,
+  x = 640,
+  y = 968,
   width = 8,
-  height = 160,
-  pattern = "6501",
-  tileset = "out/outside_lightworld_buildings",
+  height = 40,
+  pattern = "2205",
 }
 
 tile{
-  layer = 0,
-  x = 344,
-  y = 320,
-  width = 48,
-  height = 16,
-  pattern = "12842",
-  tileset = "out/outside_special",
-}
-
-tile{
-  layer = 0,
-  x = 632,
-  y = 320,
-  width = 48,
-  height = 16,
-  pattern = "12842",
-  tileset = "out/outside_special",
-}
-
-destructible{
-  name = "bush_lumberjack_132",
-  layer = 0,
-  x = 104,
-  y = 93,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_189",
-  layer = 0,
-  x = 712,
-  y = 973,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_190",
-  layer = 0,
-  x = 728,
-  y = 973,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_191",
-  layer = 0,
-  x = 712,
-  y = 957,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_192",
-  layer = 0,
-  x = 728,
-  y = 957,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_193",
-  layer = 0,
-  x = 776,
-  y = 973,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_194",
-  layer = 0,
-  x = 792,
-  y = 973,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_195",
-  layer = 0,
-  x = 776,
-  y = 957,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_196",
-  layer = 0,
-  x = 792,
-  y = 957,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_197",
-  layer = 0,
-  x = 104,
-  y = 941,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_198",
-  layer = 0,
-  x = 184,
-  y = 989,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_199",
-  layer = 0,
-  x = 168,
-  y = 973,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_200",
-  layer = 0,
-  x = 184,
-  y = 973,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_201",
-  layer = 0,
-  x = 120,
-  y = 957,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_202",
-  layer = 0,
-  x = 152,
-  y = 957,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_203",
-  layer = 0,
-  x = 136,
-  y = 957,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_204",
-  layer = 0,
-  x = 88,
-  y = 925,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_205",
-  layer = 0,
-  x = 56,
-  y = 925,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_206",
-  layer = 0,
-  x = 72,
-  y = 925,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_216",
-  layer = 0,
-  x = 904,
-  y = 957,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_217",
-  layer = 0,
-  x = 904,
-  y = 925,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_218",
-  layer = 0,
-  x = 920,
-  y = 941,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_219",
-  layer = 0,
-  x = 936,
-  y = 957,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_331",
-  layer = 0,
-  x = 680,
-  y = 701,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_332",
-  layer = 0,
-  x = 680,
-  y = 685,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_333",
-  layer = 0,
-  x = 664,
-  y = 701,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_334",
-  layer = 0,
-  x = 664,
-  y = 685,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_335",
-  layer = 0,
-  x = 776,
-  y = 701,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_336",
-  layer = 0,
-  x = 776,
-  y = 685,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_337",
-  layer = 0,
-  x = 760,
-  y = 701,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_338",
-  layer = 0,
-  x = 760,
-  y = 685,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_339",
-  layer = 0,
-  x = 824,
-  y = 717,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_340",
-  layer = 0,
-  x = 824,
-  y = 701,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_341",
-  layer = 0,
-  x = 808,
-  y = 717,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_342",
-  layer = 0,
-  x = 792,
-  y = 685,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_343",
-  layer = 0,
-  x = 728,
-  y = 717,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_344",
-  layer = 0,
-  x = 728,
-  y = 701,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_345",
-  layer = 0,
-  x = 712,
-  y = 717,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_346",
-  layer = 0,
-  x = 696,
-  y = 685,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_347",
-  layer = 0,
-  x = 664,
-  y = 717,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_348",
-  layer = 0,
-  x = 760,
-  y = 717,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_349",
-  layer = 0,
-  x = 744,
-  y = 557,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_350",
-  layer = 0,
-  x = 712,
-  y = 541,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_351",
-  layer = 0,
-  x = 696,
-  y = 541,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_352",
-  layer = 0,
-  x = 680,
-  y = 541,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_353",
-  layer = 0,
-  x = 696,
-  y = 509,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_354",
-  layer = 0,
-  x = 680,
-  y = 509,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_355",
-  layer = 0,
-  x = 680,
-  y = 413,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_356",
-  layer = 0,
-  x = 696,
-  y = 413,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_357",
-  layer = 0,
-  x = 632,
-  y = 413,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_358",
-  layer = 0,
-  x = 616,
-  y = 413,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_359",
-  layer = 0,
-  x = 616,
-  y = 509,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_360",
-  layer = 0,
-  x = 632,
-  y = 509,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_361",
-  layer = 0,
-  x = 616,
-  y = 285,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_362",
-  layer = 0,
-  x = 616,
-  y = 301,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_363",
-  layer = 0,
-  x = 712,
-  y = 285,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_364",
-  layer = 0,
-  x = 728,
-  y = 285,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_365",
-  layer = 0,
-  x = 744,
-  y = 205,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_366",
-  layer = 0,
-  x = 744,
-  y = 221,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_367",
-  layer = 0,
-  x = 888,
-  y = 205,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_368",
-  layer = 0,
-  x = 936,
-  y = 205,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_369",
-  layer = 0,
-  x = 904,
-  y = 253,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_370",
-  layer = 0,
-  x = 872,
-  y = 253,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_371",
-  layer = 0,
-  x = 872,
-  y = 413,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_372",
-  layer = 0,
-  x = 904,
-  y = 429,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_373",
-  layer = 0,
-  x = 904,
-  y = 381,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_374",
-  layer = 0,
-  x = 904,
-  y = 477,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_375",
-  layer = 0,
-  x = 904,
-  y = 285,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_376",
-  layer = 0,
-  x = 872,
-  y = 285,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_377",
-  layer = 0,
-  x = 904,
-  y = 317,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_378",
-  layer = 0,
-  x = 872,
-  y = 317,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_379",
-  layer = 0,
-  x = 728,
-  y = 429,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_380",
-  layer = 0,
-  x = 728,
-  y = 413,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_381",
-  layer = 0,
-  x = 712,
-  y = 429,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_382",
-  layer = 0,
-  x = 712,
-  y = 413,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_383",
-  layer = 0,
-  x = 728,
-  y = 461,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_384",
-  layer = 0,
-  x = 728,
-  y = 445,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_385",
-  layer = 0,
-  x = 712,
-  y = 461,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_386",
-  layer = 0,
-  x = 712,
-  y = 445,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_387",
-  layer = 0,
-  x = 728,
-  y = 493,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_388",
-  layer = 0,
-  x = 728,
-  y = 477,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_389",
-  layer = 0,
-  x = 712,
-  y = 493,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_390",
-  layer = 0,
-  x = 712,
-  y = 477,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_391",
-  layer = 0,
-  x = 600,
-  y = 509,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_392",
-  layer = 0,
-  x = 600,
-  y = 493,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_393",
-  layer = 0,
-  x = 584,
-  y = 509,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_394",
-  layer = 0,
-  x = 584,
-  y = 493,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_395",
-  layer = 0,
-  x = 600,
-  y = 477,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_396",
-  layer = 0,
-  x = 600,
-  y = 461,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_397",
-  layer = 0,
-  x = 584,
-  y = 477,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_398",
-  layer = 0,
-  x = 584,
-  y = 461,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_399",
-  layer = 0,
-  x = 600,
-  y = 445,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_400",
-  layer = 0,
-  x = 600,
-  y = 429,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_401",
-  layer = 0,
-  x = 584,
-  y = 445,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_402",
-  layer = 0,
-  x = 584,
-  y = 429,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_403",
-  layer = 0,
-  x = 600,
-  y = 413,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_404",
-  layer = 0,
-  x = 584,
-  y = 413,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_405",
-  layer = 0,
-  x = 728,
-  y = 509,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_406",
-  layer = 0,
-  x = 712,
-  y = 509,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_407",
-  layer = 0,
-  x = 440,
-  y = 541,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_408",
-  layer = 0,
-  x = 424,
-  y = 541,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_409",
-  layer = 0,
-  x = 440,
-  y = 525,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_410",
-  layer = 0,
-  x = 424,
-  y = 525,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_411",
-  layer = 0,
-  x = 328,
-  y = 237,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_412",
-  layer = 0,
-  x = 312,
-  y = 237,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_413",
-  layer = 0,
-  x = 312,
-  y = 253,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_414",
-  layer = 0,
-  x = 296,
-  y = 253,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_415",
-  layer = 0,
-  x = 296,
-  y = 237,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_416",
-  layer = 0,
-  x = 328,
-  y = 253,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_417",
   layer = 0,
   x = 200,
-  y = 717,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
+  y = 968,
+  width = 8,
+  height = 40,
+  pattern = "2204",
 }
 
-destructible{
-  name = "bush_lumberjack_418",
+tile{
   layer = 0,
-  x = 248,
-  y = 733,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
+  x = 16,
+  y = 904,
+  width = 8,
+  height = 40,
+  pattern = "2205",
 }
 
-destructible{
-  name = "bush_lumberjack_419",
+tile{
   layer = 0,
-  x = 264,
-  y = 733,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
+  x = -8,
+  y = 992,
+  width = 96,
+  height = 8,
+  pattern = "2203",
 }
 
-destructible{
-  name = "bush_lumberjack_420",
+tile{
   layer = 0,
-  x = 280,
-  y = 733,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
+  x = 88,
+  y = 952,
+  width = 8,
+  height = 40,
+  pattern = "2205",
 }
 
-destructible{
-  name = "bush_lumberjack_421",
+tile{
   layer = 0,
-  x = 232,
-  y = 733,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
+  x = 16,
+  y = 1008,
+  width = 96,
+  height = 40,
+  pattern = "2202",
 }
 
-destructible{
-  name = "bush_lumberjack_422",
+tile{
   layer = 0,
-  x = 216,
-  y = 733,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
+  x = 112,
+  y = 1008,
+  width = 8,
+  height = 40,
+  pattern = "2205",
 }
 
-destructible{
-  name = "bush_lumberjack_423",
+teletransporter{
+  name = "tp_dungeon_hyrule_castle_3",
   layer = 0,
-  x = 232,
-  y = 717,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
+  x = 896,
+  y = 160,
+  width = 16,
+  height = 16,
+  destination_map = "A Link To The Past/Light World/Overworld/Zone/hyrule_castle",
+  destination = "dest_secret",
 }
 
 destructible{
-  name = "bush_lumberjack_424",
-  layer = 0,
-  x = 216,
-  y = 717,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_425",
-  layer = 0,
-  x = 120,
-  y = 157,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_426",
+  name = "bush_hyrule_castle_0",
   layer = 0,
   x = 104,
-  y = 157,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_427",
-  layer = 0,
-  x = 120,
-  y = 141,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_428",
-  layer = 0,
-  x = 104,
-  y = 141,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_429",
-  layer = 0,
-  x = 168,
-  y = 461,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_430",
-  layer = 0,
-  x = 168,
-  y = 477,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_431",
-  layer = 0,
-  x = 728,
-  y = 333,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_432",
-  layer = 0,
-  x = 728,
-  y = 317,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_433",
-  layer = 0,
-  x = 712,
-  y = 333,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_434",
-  layer = 0,
-  x = 712,
-  y = 317,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_435",
-  layer = 0,
-  x = 728,
-  y = 365,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_436",
-  layer = 0,
-  x = 728,
-  y = 349,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_437",
-  layer = 0,
-  x = 712,
-  y = 365,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_438",
-  layer = 0,
-  x = 712,
-  y = 349,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_439",
-  layer = 0,
-  x = 936,
-  y = 157,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_440",
-  layer = 0,
-  x = 872,
-  y = 173,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_441",
-  layer = 0,
-  x = 872,
   y = 93,
   sprite = "destructibles/bush_green",
   destruction_sound = "bush",
@@ -15019,7 +13676,7 @@ destructible{
 }
 
 destructible{
-  name = "sign_lumberjack_9",
+  name = "sign_hyrule_castle_0",
   layer = 0,
   x = 680,
   y = 973,
@@ -15030,8 +13687,8 @@ destructible{
 destructible{
   name = "Big_stone_hyrule_castle_0",
   layer = 0,
-  x = 936,
-  y = 669,
+  x = 136,
+  y = 141,
   sprite = "destructibles/stone_big_lw_1",
   weight = 1,
 }
@@ -15189,1602 +13846,6 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_11",
-  layer = 0,
-  x = 136,
-  y = 221,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_12",
-  layer = 0,
-  x = 152,
-  y = 221,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_13",
-  layer = 0,
-  x = 168,
-  y = 221,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_14",
-  layer = 0,
-  x = 136,
-  y = 237,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_15",
-  layer = 0,
-  x = 152,
-  y = 237,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_16",
-  layer = 0,
-  x = 168,
-  y = 237,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_17",
-  layer = 0,
-  x = 136,
-  y = 253,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_18",
-  layer = 0,
-  x = 152,
-  y = 253,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_19",
-  layer = 0,
-  x = 168,
-  y = 253,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_20",
-  layer = 0,
-  x = 184,
-  y = 205,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_21",
-  layer = 0,
-  x = 184,
-  y = 221,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_22",
-  layer = 0,
-  x = 184,
-  y = 237,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_23",
-  layer = 0,
-  x = 184,
-  y = 253,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_24",
-  layer = 0,
-  x = 120,
-  y = 269,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_25",
-  layer = 0,
-  x = 136,
-  y = 269,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_26",
-  layer = 0,
-  x = 152,
-  y = 269,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_27",
-  layer = 0,
-  x = 168,
-  y = 269,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_28",
-  layer = 0,
-  x = 184,
-  y = 269,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_29",
-  layer = 0,
-  x = 120,
-  y = 285,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_30",
-  layer = 0,
-  x = 136,
-  y = 285,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_31",
-  layer = 0,
-  x = 152,
-  y = 285,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_32",
-  layer = 0,
-  x = 168,
-  y = 285,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_33",
-  layer = 0,
-  x = 184,
-  y = 285,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_34",
-  layer = 0,
-  x = 120,
-  y = 301,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_35",
-  layer = 0,
-  x = 136,
-  y = 301,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_36",
-  layer = 0,
-  x = 152,
-  y = 301,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_37",
-  layer = 0,
-  x = 168,
-  y = 301,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_38",
-  layer = 0,
-  x = 184,
-  y = 301,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_39",
-  layer = 0,
-  x = 120,
-  y = 317,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_40",
-  layer = 0,
-  x = 136,
-  y = 317,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_41",
-  layer = 0,
-  x = 152,
-  y = 317,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_42",
-  layer = 0,
-  x = 168,
-  y = 317,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_43",
-  layer = 0,
-  x = 184,
-  y = 317,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_44",
-  layer = 0,
-  x = 120,
-  y = 333,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_45",
-  layer = 0,
-  x = 136,
-  y = 333,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_46",
-  layer = 0,
-  x = 152,
-  y = 333,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_47",
-  layer = 0,
-  x = 168,
-  y = 333,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_48",
-  layer = 0,
-  x = 184,
-  y = 333,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_49",
-  layer = 0,
-  x = 120,
-  y = 349,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_50",
-  layer = 0,
-  x = 136,
-  y = 349,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_51",
-  layer = 0,
-  x = 152,
-  y = 349,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_52",
-  layer = 0,
-  x = 168,
-  y = 349,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_53",
-  layer = 0,
-  x = 120,
-  y = 365,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_54",
-  layer = 0,
-  x = 136,
-  y = 365,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_55",
-  layer = 0,
-  x = 152,
-  y = 365,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_56",
-  layer = 0,
-  x = 168,
-  y = 365,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_57",
-  layer = 0,
-  x = 120,
-  y = 381,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_58",
-  layer = 0,
-  x = 136,
-  y = 381,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_59",
-  layer = 0,
-  x = 152,
-  y = 381,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_60",
-  layer = 0,
-  x = 136,
-  y = 397,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_61",
-  layer = 0,
-  x = 296,
-  y = 205,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_62",
-  layer = 0,
-  x = 312,
-  y = 205,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_63",
-  layer = 0,
-  x = 328,
-  y = 205,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_64",
-  layer = 0,
-  x = 296,
-  y = 221,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_65",
-  layer = 0,
-  x = 312,
-  y = 221,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_66",
-  layer = 0,
-  x = 328,
-  y = 221,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_67",
-  layer = 0,
-  x = 216,
-  y = 685,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_68",
-  layer = 0,
-  x = 232,
-  y = 685,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_69",
-  layer = 0,
-  x = 248,
-  y = 685,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_70",
-  layer = 0,
-  x = 216,
-  y = 701,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_71",
-  layer = 0,
-  x = 232,
-  y = 701,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_72",
-  layer = 0,
-  x = 248,
-  y = 701,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_73",
-  layer = 0,
-  x = 264,
-  y = 685,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_74",
-  layer = 0,
-  x = 280,
-  y = 685,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_75",
-  layer = 0,
-  x = 296,
-  y = 685,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_76",
-  layer = 0,
-  x = 264,
-  y = 701,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_77",
-  layer = 0,
-  x = 280,
-  y = 701,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_78",
-  layer = 0,
-  x = 296,
-  y = 701,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_79",
-  layer = 0,
-  x = 312,
-  y = 685,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_80",
-  layer = 0,
-  x = 328,
-  y = 685,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_81",
-  layer = 0,
-  x = 344,
-  y = 685,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_82",
-  layer = 0,
-  x = 312,
-  y = 701,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_83",
-  layer = 0,
-  x = 328,
-  y = 701,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_84",
-  layer = 0,
-  x = 344,
-  y = 701,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_85",
-  layer = 0,
-  x = 312,
-  y = 717,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_86",
-  layer = 0,
-  x = 328,
-  y = 717,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_87",
-  layer = 0,
-  x = 344,
-  y = 717,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_88",
-  layer = 0,
-  x = 360,
-  y = 717,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_89",
-  layer = 0,
-  x = 328,
-  y = 733,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_90",
-  layer = 0,
-  x = 344,
-  y = 733,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_91",
-  layer = 0,
-  x = 200,
-  y = 685,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_92",
-  layer = 0,
-  x = 360,
-  y = 685,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_93",
-  layer = 0,
-  x = 376,
-  y = 685,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_94",
-  layer = 0,
-  x = 376,
-  y = 701,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_95",
-  layer = 0,
-  x = 360,
-  y = 701,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_96",
-  layer = 0,
-  x = 744,
-  y = 237,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_97",
-  layer = 0,
-  x = 744,
-  y = 253,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_98",
-  layer = 0,
-  x = 744,
-  y = 269,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_99",
-  layer = 0,
-  x = 728,
-  y = 269,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_100",
-  layer = 0,
-  x = 728,
-  y = 301,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_101",
-  layer = 0,
-  x = 744,
-  y = 301,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_102",
-  layer = 0,
-  x = 744,
-  y = 317,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_103",
-  layer = 0,
-  x = 744,
-  y = 333,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_104",
-  layer = 0,
-  x = 744,
-  y = 349,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_273",
-  layer = 0,
-  x = 184,
-  y = 925,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_274",
-  layer = 0,
-  x = 200,
-  y = 925,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_275",
-  layer = 0,
-  x = 216,
-  y = 925,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_276",
-  layer = 0,
-  x = 184,
-  y = 941,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_277",
-  layer = 0,
-  x = 200,
-  y = 941,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_278",
-  layer = 0,
-  x = 216,
-  y = 941,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_279",
-  layer = 0,
-  x = 232,
-  y = 925,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_280",
-  layer = 0,
-  x = 248,
-  y = 925,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_281",
-  layer = 0,
-  x = 264,
-  y = 925,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_282",
-  layer = 0,
-  x = 232,
-  y = 941,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_283",
-  layer = 0,
-  x = 248,
-  y = 941,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_284",
-  layer = 0,
-  x = 264,
-  y = 941,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_285",
-  layer = 0,
-  x = 280,
-  y = 925,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_286",
-  layer = 0,
-  x = 296,
-  y = 925,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_287",
-  layer = 0,
-  x = 312,
-  y = 925,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_288",
-  layer = 0,
-  x = 280,
-  y = 941,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_289",
-  layer = 0,
-  x = 296,
-  y = 941,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_290",
-  layer = 0,
-  x = 312,
-  y = 941,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_291",
-  layer = 0,
-  x = 328,
-  y = 925,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_292",
-  layer = 0,
-  x = 344,
-  y = 925,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_293",
-  layer = 0,
-  x = 344,
-  y = 941,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_294",
-  layer = 0,
-  x = 328,
-  y = 941,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_295",
-  layer = 0,
-  x = 360,
-  y = 925,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_296",
-  layer = 0,
-  x = 376,
-  y = 925,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_297",
-  layer = 0,
-  x = 392,
-  y = 925,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_298",
-  layer = 0,
-  x = 360,
-  y = 941,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_299",
-  layer = 0,
-  x = 376,
-  y = 941,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_300",
-  layer = 0,
-  x = 392,
-  y = 941,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_301",
-  layer = 0,
-  x = 408,
-  y = 925,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_302",
-  layer = 0,
-  x = 424,
-  y = 925,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_303",
-  layer = 0,
-  x = 440,
-  y = 925,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_304",
-  layer = 0,
-  x = 408,
-  y = 941,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_305",
-  layer = 0,
-  x = 424,
-  y = 941,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_306",
-  layer = 0,
-  x = 440,
-  y = 941,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_307",
-  layer = 0,
-  x = 456,
-  y = 925,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_308",
-  layer = 0,
-  x = 472,
-  y = 925,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_310",
-  layer = 0,
-  x = 456,
-  y = 941,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_314",
-  layer = 0,
-  x = 472,
-  y = 909,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_315",
-  layer = 0,
-  x = 168,
-  y = 925,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
   name = "Big_stone_hyrule_castle_1",
   layer = 0,
   x = 104,
@@ -16796,14 +13857,84 @@ destructible{
 destructible{
   name = "Big_stone_hyrule_castle_2",
   layer = 0,
-  x = 136,
-  y = 141,
+  x = 936,
+  y = 669,
   sprite = "destructibles/stone_big_lw_1",
   weight = 1,
 }
 
 destructible{
-  name = "bush_hyrule_1",
+  name = "bush_hyrule_castle_1",
+  layer = 0,
+  x = 872,
+  y = 93,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_2",
+  layer = 0,
+  x = 104,
+  y = 141,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_3",
+  layer = 0,
+  x = 120,
+  y = 141,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_4",
+  layer = 0,
+  x = 936,
+  y = 157,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_5",
+  layer = 0,
+  x = 104,
+  y = 157,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_6",
+  layer = 0,
+  x = 120,
+  y = 157,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_7",
+  layer = 0,
+  x = 872,
+  y = 173,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_8",
   layer = 0,
   x = 904,
   y = 173,
@@ -16812,34 +13943,2981 @@ destructible{
   can_be_cut = true,
 }
 
-dynamic_tile{
-  name = "hyrule_gate",
+destructible{
+  name = "bush_hyrule_castle_9",
   layer = 0,
-  x = 480,
-  y = 632,
-  width = 64,
-  height = 24,
-  pattern = "4070",
-  tileset = "out/outside_lightworld_buildings",
+  x = 744,
+  y = 205,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
 }
 
-tile{
-  layer = 1,
-  x = 368,
-  y = 216,
-  width = 288,
-  height = 8,
-  pattern = "12573",
-  tileset = "out/outside_lightworld_buildings",
+destructible{
+  name = "bush_hyrule_castle_10",
+  layer = 0,
+  x = 888,
+  y = 205,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
 }
 
-tile{
-  layer = 1,
+destructible{
+  name = "bush_hyrule_castle_11",
+  layer = 0,
+  x = 936,
+  y = 205,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_12",
+  layer = 0,
+  x = 744,
+  y = 221,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_13",
+  layer = 0,
+  x = 296,
+  y = 237,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_14",
+  layer = 0,
+  x = 312,
+  y = 237,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_15",
+  layer = 0,
+  x = 328,
+  y = 237,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_16",
+  layer = 0,
+  x = 296,
+  y = 253,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_17",
+  layer = 0,
+  x = 312,
+  y = 253,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_18",
+  layer = 0,
+  x = 328,
+  y = 253,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_19",
+  layer = 0,
+  x = 872,
+  y = 253,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_20",
+  layer = 0,
+  x = 904,
+  y = 253,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_21",
+  layer = 0,
+  x = 616,
+  y = 285,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_22",
+  layer = 0,
+  x = 712,
+  y = 285,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_23",
+  layer = 0,
+  x = 728,
+  y = 285,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_24",
+  layer = 0,
+  x = 872,
+  y = 285,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_25",
+  layer = 0,
+  x = 904,
+  y = 285,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_26",
+  layer = 0,
+  x = 616,
+  y = 301,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_27",
+  layer = 0,
+  x = 712,
+  y = 317,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_28",
+  layer = 0,
+  x = 728,
+  y = 317,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_29",
+  layer = 0,
+  x = 872,
+  y = 317,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_30",
+  layer = 0,
+  x = 904,
+  y = 317,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_31",
+  layer = 0,
+  x = 712,
+  y = 333,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_32",
+  layer = 0,
+  x = 728,
+  y = 333,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_33",
+  layer = 0,
+  x = 712,
+  y = 349,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_34",
+  layer = 0,
+  x = 728,
+  y = 349,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_35",
+  layer = 0,
+  x = 712,
+  y = 365,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_36",
+  layer = 0,
+  x = 728,
+  y = 365,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_37",
+  layer = 0,
+  x = 904,
+  y = 381,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_38",
+  layer = 0,
+  x = 584,
+  y = 413,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_39",
+  layer = 0,
+  x = 600,
+  y = 413,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_40",
+  layer = 0,
+  x = 616,
+  y = 413,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_41",
+  layer = 0,
+  x = 632,
+  y = 413,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_42",
+  layer = 0,
+  x = 680,
+  y = 413,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_43",
+  layer = 0,
+  x = 696,
+  y = 413,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_44",
+  layer = 0,
+  x = 712,
+  y = 413,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_45",
+  layer = 0,
+  x = 728,
+  y = 413,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_46",
+  layer = 0,
+  x = 872,
+  y = 413,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_47",
+  layer = 0,
+  x = 584,
+  y = 429,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_48",
+  layer = 0,
+  x = 600,
+  y = 429,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_49",
+  layer = 0,
+  x = 712,
+  y = 429,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_50",
+  layer = 0,
+  x = 728,
+  y = 429,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_51",
+  layer = 0,
+  x = 904,
+  y = 429,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_52",
+  layer = 0,
+  x = 584,
+  y = 445,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_53",
+  layer = 0,
+  x = 600,
+  y = 445,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_54",
+  layer = 0,
+  x = 712,
+  y = 445,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_55",
+  layer = 0,
+  x = 728,
+  y = 445,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_56",
+  layer = 0,
+  x = 168,
+  y = 461,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_57",
+  layer = 0,
+  x = 584,
+  y = 461,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_58",
+  layer = 0,
+  x = 600,
+  y = 461,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_59",
+  layer = 0,
+  x = 712,
+  y = 461,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_60",
+  layer = 0,
+  x = 728,
+  y = 461,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_61",
+  layer = 0,
+  x = 168,
+  y = 477,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_62",
+  layer = 0,
+  x = 584,
+  y = 477,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_63",
+  layer = 0,
+  x = 600,
+  y = 477,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_64",
+  layer = 0,
+  x = 712,
+  y = 477,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_65",
+  layer = 0,
+  x = 728,
+  y = 477,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_66",
+  layer = 0,
+  x = 904,
+  y = 477,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_67",
+  layer = 0,
+  x = 584,
+  y = 493,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_68",
+  layer = 0,
+  x = 600,
+  y = 493,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_69",
+  layer = 0,
+  x = 712,
+  y = 493,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_70",
+  layer = 0,
+  x = 728,
+  y = 493,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_71",
+  layer = 0,
+  x = 584,
+  y = 509,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_72",
+  layer = 0,
+  x = 600,
+  y = 509,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_73",
+  layer = 0,
+  x = 616,
+  y = 509,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_74",
+  layer = 0,
+  x = 632,
+  y = 509,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_75",
+  layer = 0,
+  x = 680,
+  y = 509,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_76",
+  layer = 0,
+  x = 696,
+  y = 509,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_77",
+  layer = 0,
+  x = 712,
+  y = 509,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_78",
+  layer = 0,
+  x = 728,
+  y = 509,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_79",
+  layer = 0,
+  x = 424,
+  y = 525,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_80",
+  layer = 0,
+  x = 440,
+  y = 525,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_81",
+  layer = 0,
+  x = 424,
+  y = 541,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_82",
+  layer = 0,
+  x = 440,
+  y = 541,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_83",
+  layer = 0,
+  x = 680,
+  y = 541,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_84",
+  layer = 0,
+  x = 696,
+  y = 541,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_85",
+  layer = 0,
+  x = 712,
+  y = 541,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_86",
+  layer = 0,
+  x = 744,
+  y = 557,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_87",
+  layer = 0,
+  x = 664,
+  y = 685,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_88",
+  layer = 0,
+  x = 680,
+  y = 685,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_89",
+  layer = 0,
+  x = 696,
+  y = 685,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_90",
+  layer = 0,
+  x = 760,
+  y = 685,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_91",
+  layer = 0,
+  x = 776,
+  y = 685,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_92",
+  layer = 0,
+  x = 792,
+  y = 685,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_93",
+  layer = 0,
+  x = 664,
+  y = 701,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_94",
+  layer = 0,
+  x = 680,
+  y = 701,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_95",
+  layer = 0,
+  x = 728,
+  y = 701,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_96",
+  layer = 0,
+  x = 760,
+  y = 701,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_97",
+  layer = 0,
+  x = 776,
+  y = 701,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_98",
+  layer = 0,
+  x = 824,
+  y = 701,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_99",
+  layer = 0,
+  x = 200,
+  y = 717,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_100",
+  layer = 0,
+  x = 216,
+  y = 717,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_101",
+  layer = 0,
+  x = 232,
+  y = 717,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_102",
+  layer = 0,
+  x = 664,
+  y = 717,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_103",
+  layer = 0,
+  x = 712,
+  y = 717,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_104",
+  layer = 0,
+  x = 728,
+  y = 717,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_105",
+  layer = 0,
+  x = 760,
+  y = 717,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_106",
+  layer = 0,
+  x = 808,
+  y = 717,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_107",
+  layer = 0,
+  x = 824,
+  y = 717,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_108",
+  layer = 0,
+  x = 216,
+  y = 733,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_109",
+  layer = 0,
+  x = 232,
+  y = 733,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_110",
+  layer = 0,
+  x = 248,
+  y = 733,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_111",
+  layer = 0,
+  x = 264,
+  y = 733,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_112",
+  layer = 0,
+  x = 280,
+  y = 733,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_113",
+  layer = 0,
+  x = 56,
+  y = 925,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_114",
+  layer = 0,
+  x = 72,
+  y = 925,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_115",
+  layer = 0,
+  x = 88,
+  y = 925,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_116",
+  layer = 0,
+  x = 904,
+  y = 925,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_117",
+  layer = 0,
+  x = 104,
+  y = 941,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_118",
+  layer = 0,
+  x = 920,
+  y = 941,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_119",
+  layer = 0,
+  x = 120,
+  y = 957,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_120",
+  layer = 0,
+  x = 136,
+  y = 957,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_121",
+  layer = 0,
+  x = 152,
+  y = 957,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_122",
+  layer = 0,
+  x = 712,
+  y = 957,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_123",
+  layer = 0,
+  x = 728,
+  y = 957,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_124",
+  layer = 0,
+  x = 776,
+  y = 957,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_125",
+  layer = 0,
+  x = 792,
+  y = 957,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_126",
+  layer = 0,
+  x = 904,
+  y = 957,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_127",
+  layer = 0,
+  x = 936,
+  y = 957,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_128",
+  layer = 0,
+  x = 168,
+  y = 973,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_129",
+  layer = 0,
+  x = 184,
+  y = 973,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_130",
+  layer = 0,
+  x = 712,
+  y = 973,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_131",
+  layer = 0,
+  x = 728,
+  y = 973,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_132",
+  layer = 0,
+  x = 776,
+  y = 973,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_133",
+  layer = 0,
+  x = 792,
+  y = 973,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_hyrule_castle_134",
+  layer = 0,
+  x = 184,
+  y = 989,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "grass_hyrule_castle_11",
+  layer = 0,
+  x = 184,
+  y = 205,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_12",
+  layer = 0,
+  x = 296,
+  y = 205,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_13",
+  layer = 0,
+  x = 312,
+  y = 205,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_14",
+  layer = 0,
+  x = 328,
+  y = 205,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_15",
+  layer = 0,
+  x = 136,
+  y = 221,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_16",
+  layer = 0,
+  x = 152,
+  y = 221,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_17",
+  layer = 0,
+  x = 168,
+  y = 221,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_18",
+  layer = 0,
+  x = 184,
+  y = 221,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_19",
+  layer = 0,
+  x = 296,
+  y = 221,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_20",
+  layer = 0,
+  x = 312,
+  y = 221,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_21",
+  layer = 0,
+  x = 328,
+  y = 221,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_22",
+  layer = 0,
+  x = 136,
+  y = 237,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_23",
+  layer = 0,
+  x = 152,
+  y = 237,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_24",
+  layer = 0,
+  x = 168,
+  y = 237,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_25",
+  layer = 0,
+  x = 184,
+  y = 237,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_26",
+  layer = 0,
+  x = 744,
+  y = 237,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_27",
+  layer = 0,
+  x = 136,
+  y = 253,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_28",
+  layer = 0,
+  x = 152,
+  y = 253,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_29",
+  layer = 0,
+  x = 168,
+  y = 253,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_30",
+  layer = 0,
+  x = 184,
+  y = 253,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_31",
+  layer = 0,
+  x = 744,
+  y = 253,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_32",
+  layer = 0,
+  x = 120,
+  y = 269,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_33",
+  layer = 0,
+  x = 136,
+  y = 269,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_34",
+  layer = 0,
+  x = 152,
+  y = 269,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_35",
+  layer = 0,
+  x = 168,
+  y = 269,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_36",
+  layer = 0,
+  x = 184,
+  y = 269,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_37",
+  layer = 0,
+  x = 728,
+  y = 269,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_38",
+  layer = 0,
+  x = 744,
+  y = 269,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_39",
+  layer = 0,
+  x = 120,
+  y = 285,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_40",
+  layer = 0,
+  x = 136,
+  y = 285,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_41",
+  layer = 0,
+  x = 152,
+  y = 285,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_42",
+  layer = 0,
+  x = 168,
+  y = 285,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_43",
+  layer = 0,
+  x = 184,
+  y = 285,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_44",
+  layer = 0,
+  x = 120,
+  y = 301,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_45",
+  layer = 0,
+  x = 136,
+  y = 301,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_46",
+  layer = 0,
+  x = 152,
+  y = 301,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_47",
+  layer = 0,
+  x = 168,
+  y = 301,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_48",
+  layer = 0,
+  x = 184,
+  y = 301,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_49",
+  layer = 0,
+  x = 728,
+  y = 301,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_50",
+  layer = 0,
+  x = 744,
+  y = 301,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_51",
+  layer = 0,
+  x = 120,
+  y = 317,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_52",
+  layer = 0,
+  x = 136,
+  y = 317,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_53",
+  layer = 0,
+  x = 152,
+  y = 317,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_54",
+  layer = 0,
+  x = 168,
+  y = 317,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_55",
+  layer = 0,
+  x = 184,
+  y = 317,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_56",
+  layer = 0,
+  x = 744,
+  y = 317,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_57",
+  layer = 0,
+  x = 120,
+  y = 333,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_58",
+  layer = 0,
+  x = 136,
+  y = 333,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_59",
+  layer = 0,
+  x = 152,
+  y = 333,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_60",
+  layer = 0,
+  x = 168,
+  y = 333,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_61",
+  layer = 0,
+  x = 184,
+  y = 333,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_62",
+  layer = 0,
+  x = 744,
+  y = 333,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_63",
+  layer = 0,
+  x = 120,
+  y = 349,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_64",
+  layer = 0,
+  x = 136,
+  y = 349,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_65",
+  layer = 0,
+  x = 152,
+  y = 349,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_66",
+  layer = 0,
+  x = 168,
+  y = 349,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_67",
+  layer = 0,
+  x = 744,
+  y = 349,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_68",
+  layer = 0,
+  x = 120,
+  y = 365,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_69",
+  layer = 0,
+  x = 136,
+  y = 365,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_70",
+  layer = 0,
+  x = 152,
+  y = 365,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_71",
+  layer = 0,
+  x = 168,
+  y = 365,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_72",
+  layer = 0,
+  x = 120,
+  y = 381,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_73",
+  layer = 0,
+  x = 136,
+  y = 381,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_74",
+  layer = 0,
+  x = 152,
+  y = 381,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_75",
+  layer = 0,
+  x = 136,
+  y = 397,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_76",
+  layer = 0,
+  x = 200,
+  y = 685,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_77",
+  layer = 0,
+  x = 216,
+  y = 685,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_78",
+  layer = 0,
+  x = 232,
+  y = 685,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_79",
+  layer = 0,
+  x = 248,
+  y = 685,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_80",
+  layer = 0,
+  x = 264,
+  y = 685,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_81",
+  layer = 0,
+  x = 280,
+  y = 685,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_82",
+  layer = 0,
+  x = 296,
+  y = 685,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_83",
+  layer = 0,
+  x = 312,
+  y = 685,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_84",
+  layer = 0,
+  x = 328,
+  y = 685,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_85",
+  layer = 0,
+  x = 344,
+  y = 685,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_86",
+  layer = 0,
+  x = 360,
+  y = 685,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_87",
+  layer = 0,
+  x = 376,
+  y = 685,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_88",
+  layer = 0,
+  x = 216,
+  y = 701,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_89",
+  layer = 0,
+  x = 232,
+  y = 701,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_90",
+  layer = 0,
+  x = 248,
+  y = 701,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_91",
+  layer = 0,
+  x = 264,
+  y = 701,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_92",
+  layer = 0,
+  x = 280,
+  y = 701,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_93",
+  layer = 0,
+  x = 296,
+  y = 701,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_94",
+  layer = 0,
+  x = 312,
+  y = 701,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_95",
+  layer = 0,
+  x = 328,
+  y = 701,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_96",
+  layer = 0,
+  x = 344,
+  y = 701,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_97",
+  layer = 0,
+  x = 360,
+  y = 701,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_98",
+  layer = 0,
+  x = 376,
+  y = 701,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_99",
+  layer = 0,
+  x = 312,
+  y = 717,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_100",
+  layer = 0,
+  x = 328,
+  y = 717,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_101",
+  layer = 0,
+  x = 344,
+  y = 717,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_102",
+  layer = 0,
+  x = 360,
+  y = 717,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_103",
+  layer = 0,
+  x = 328,
+  y = 733,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_104",
+  layer = 0,
+  x = 344,
+  y = 733,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_105",
+  layer = 0,
+  x = 472,
+  y = 909,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_106",
+  layer = 0,
+  x = 168,
+  y = 925,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_107",
+  layer = 0,
+  x = 184,
+  y = 925,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_108",
+  layer = 0,
+  x = 168,
+  y = 925,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_109",
+  layer = 0,
+  x = 216,
+  y = 925,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_110",
+  layer = 0,
+  x = 200,
+  y = 925,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_111",
+  layer = 0,
+  x = 248,
+  y = 925,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_112",
+  layer = 0,
+  x = 232,
+  y = 925,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_113",
+  layer = 0,
+  x = 280,
+  y = 925,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_114",
+  layer = 0,
+  x = 264,
+  y = 925,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_115",
+  layer = 0,
+  x = 312,
+  y = 925,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_116",
+  layer = 0,
+  x = 296,
+  y = 925,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_117",
+  layer = 0,
+  x = 344,
+  y = 925,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_118",
+  layer = 0,
+  x = 328,
+  y = 925,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_119",
+  layer = 0,
+  x = 376,
+  y = 925,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_120",
+  layer = 0,
+  x = 360,
+  y = 925,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_121",
+  layer = 0,
+  x = 408,
+  y = 925,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_122",
+  layer = 0,
+  x = 392,
+  y = 925,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_123",
+  layer = 0,
+  x = 440,
+  y = 925,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_124",
+  layer = 0,
+  x = 424,
+  y = 925,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_125",
+  layer = 0,
+  x = 472,
+  y = 925,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_126",
+  layer = 0,
+  x = 456,
+  y = 925,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_127",
+  layer = 0,
+  x = 200,
+  y = 941,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_128",
+  layer = 0,
+  x = 184,
+  y = 941,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_129",
+  layer = 0,
+  x = 232,
+  y = 941,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_130",
+  layer = 0,
+  x = 216,
+  y = 941,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_131",
+  layer = 0,
+  x = 264,
+  y = 941,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_132",
+  layer = 0,
+  x = 248,
+  y = 941,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_133",
+  layer = 0,
+  x = 296,
+  y = 941,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_134",
+  layer = 0,
+  x = 280,
+  y = 941,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_135",
+  layer = 0,
+  x = 328,
+  y = 941,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_136",
+  layer = 0,
+  x = 312,
+  y = 941,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_137",
+  layer = 0,
+  x = 360,
+  y = 941,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_138",
+  layer = 0,
+  x = 344,
+  y = 941,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_139",
+  layer = 0,
+  x = 392,
+  y = 941,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_140",
+  layer = 0,
+  x = 376,
+  y = 941,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_141",
+  layer = 0,
+  x = 424,
+  y = 941,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_142",
+  layer = 0,
+  x = 408,
+  y = 941,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_143",
+  layer = 0,
+  x = 456,
+  y = 941,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_hyrule_castle_144",
+  layer = 0,
+  x = 440,
+  y = 941,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+wall{
+  layer = 0,
+  x = 344,
+  y = 312,
+  width = 48,
+  height = 32,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 632,
+  y = 312,
+  width = 48,
+  height = 32,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 208,
+  y = 952,
+  width = 432,
+  height = 40,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
   x = 184,
   y = 1000,
   width = 480,
-  height = 48,
-  pattern = "1455",
+  height = 32,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 0,
+  y = 936,
+  width = 88,
+  height = 88,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 88,
+  y = 984,
+  width = 24,
+  height = 40,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+teletransporter{
+  name = "tp_dungeon_hyrule_castle_5",
+  layer = 0,
+  x = 504,
+  y = 256,
+  width = 16,
+  height = 16,
+  destination_map = "A Link To The Past/Light World/Overworld/Zone/hyrule_castle",
+  destination = "dest_secret",
+}
+
+teletransporter{
+  name = "tp_dungeon_hyrule_castle_4",
+  layer = 0,
+  x = 712,
+  y = 216,
+  width = 16,
+  height = 16,
+  destination_map = "A Link To The Past/Light World/Overworld/Zone/hyrule_castle",
+  destination = "dest_secret",
+}
+
+stairs{
+  name = "stair_straight_hyrule_castle_0",
+  layer = 0,
+  x = 712,
+  y = 224,
+  direction = 1,
+  subtype = 3,
 }
 
 tile{
@@ -16934,6 +17012,16 @@ tile{
   width = 8,
   height = 8,
   pattern = "1034",
+}
+
+tile{
+  layer = 1,
+  x = 704,
+  y = 192,
+  width = 32,
+  height = 24,
+  pattern = "7809",
+  tileset = "out/outside_lightworld_buildings",
 }
 
 tile{
@@ -18665,6 +18753,15 @@ tile{
 
 tile{
   layer = 1,
+  x = 208,
+  y = 1000,
+  width = 432,
+  height = 8,
+  pattern = "1453",
+}
+
+tile{
+  layer = 1,
   x = 184,
   y = 992,
   width = 480,
@@ -19156,6 +19253,15 @@ tile{
 
 tile{
   layer = 1,
+  x = 184,
+  y = 1000,
+  width = 480,
+  height = 48,
+  pattern = "1455",
+}
+
+tile{
+  layer = 1,
   x = 176,
   y = 1000,
   width = 8,
@@ -19175,6 +19281,15 @@ tile{
 tile{
   layer = 1,
   x = -32,
+  y = 976,
+  width = 144,
+  height = 8,
+  pattern = "1451",
+}
+
+tile{
+  layer = 1,
+  x = -32,
   y = 880,
   width = 48,
   height = 8,
@@ -19189,15 +19304,6 @@ tile{
   height = 8,
   pattern = "12573",
   tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
-  x = -32,
-  y = 976,
-  width = 144,
-  height = 8,
-  pattern = "1451",
 }
 
 tile{
@@ -19302,21 +19408,31 @@ tile{
 
 tile{
   layer = 1,
-  x = 480,
-  y = 608,
-  width = 64,
-  height = 24,
-  pattern = "450",
+  x = 368,
+  y = 216,
+  width = 80,
+  height = 8,
+  pattern = "12573",
   tileset = "out/outside_lightworld_buildings",
 }
 
 tile{
   layer = 1,
-  x = 416,
-  y = 664,
-  width = 16,
+  x = 576,
+  y = 216,
+  width = 80,
   height = 8,
   pattern = "12573",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 432,
+  y = 592,
+  width = 8,
+  height = 72,
+  pattern = "12570",
   tileset = "out/outside_lightworld_buildings",
 }
 
@@ -19332,11 +19448,50 @@ tile{
 
 tile{
   layer = 1,
-  x = 432,
-  y = 592,
-  width = 8,
-  height = 72,
-  pattern = "12570",
+  x = 416,
+  y = 664,
+  width = 16,
+  height = 8,
+  pattern = "12573",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 464,
+  y = 608,
+  width = 16,
+  height = 24,
+  pattern = "448",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 544,
+  y = 608,
+  width = 16,
+  height = 24,
+  pattern = "446",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 480,
+  y = 616,
+  width = 64,
+  height = 16,
+  pattern = "14667",
+}
+
+tile{
+  layer = 1,
+  x = 480,
+  y = 608,
+  width = 64,
+  height = 24,
+  pattern = "450",
   tileset = "out/outside_lightworld_buildings",
 }
 
@@ -19360,5 +19515,142 @@ jumper{
   height = 8,
   direction = 6,
   jump_length = 48,
+}
+
+teletransporter{
+  name = "tp_dungeon_hyrule_castle_0",
+  layer = 1,
+  x = 296,
+  y = 48,
+  width = 16,
+  height = 16,
+  destination_map = "A Link To The Past/Light World/Overworld/Zone/hyrule_castle",
+  destination = "dest_secret",
+}
+
+teletransporter{
+  name = "tp_dungeon_hyrule_castle_1",
+  layer = 1,
+  x = 712,
+  y = 48,
+  width = 16,
+  height = 16,
+  destination_map = "A Link To The Past/Light World/Overworld/Zone/hyrule_castle",
+  destination = "dest_secret",
+}
+
+teletransporter{
+  name = "tp_dungeon_hyrule_castle_2",
+  layer = 1,
+  x = 504,
+  y = 96,
+  width = 16,
+  height = 16,
+  destination_map = "A Link To The Past/Light World/Overworld/Zone/hyrule_castle",
+  destination = "dest_secret",
+}
+
+teletransporter{
+  name = "border_hyrule_castle_west",
+  layer = 2,
+  x = -8,
+  y = 0,
+  width = 8,
+  height = 512,
+  transition = "scrolling",
+  destination_map = "A Link To The Past/Light World/Overworld/Zone/hyrule_forest",
+  destination = "_side",
+}
+
+teletransporter{
+  name = "border_hyrule_castle_south",
+  layer = 2,
+  x = 0,
+  y = 1024,
+  width = 512,
+  height = 8,
+  transition = "scrolling",
+  destination_map = "A Link To The Past/Light World/Overworld/Zone/link_forest",
+  destination = "_side",
+}
+
+teletransporter{
+  name = "border_hyrule_castle_east",
+  layer = 2,
+  x = 1024,
+  y = 0,
+  width = 8,
+  height = 512,
+  transition = "scrolling",
+  destination_map = "A Link To The Past/Light World/Overworld/Zone/wooden_bridge",
+  destination = "_side",
+}
+
+teletransporter{
+  name = "border_hyrule_castle_north",
+  layer = 2,
+  x = 0,
+  y = -8,
+  width = 512,
+  height = 8,
+  transition = "scrolling",
+  destination_map = "A Link To The Past/Light World/Overworld/Zone/sanctuary",
+  destination = "_side",
+}
+
+teletransporter{
+  name = "border_hyrule_castle_south_2",
+  layer = 2,
+  x = 512,
+  y = 1024,
+  width = 512,
+  height = 8,
+  transition = "scrolling",
+  destination_map = "A Link To The Past/Light World/Overworld/Zone/link_house",
+  destination = "_side",
+}
+
+teletransporter{
+  name = "border_hyrule_castle_north_2",
+  layer = 2,
+  x = 512,
+  y = -8,
+  width = 512,
+  height = 8,
+  transition = "scrolling",
+  destination_map = "A Link To The Past/Light World/Overworld/Zone/cemetery",
+  destination = "_side",
+}
+
+teletransporter{
+  name = "border_hyrule_castle_west_2",
+  layer = 2,
+  x = -8,
+  y = 512,
+  width = 8,
+  height = 512,
+  transition = "scrolling",
+  destination_map = "A Link To The Past/Light World/Overworld/Zone/blacksmiths_house",
+  destination = "_side",
+}
+
+teletransporter{
+  name = "border_hyrule_castle_east_2",
+  layer = 2,
+  x = 1024,
+  y = 512,
+  width = 8,
+  height = 512,
+  transition = "scrolling",
+  destination_map = "A Link To The Past/Light World/Overworld/Zone/plain_of_rocks",
+  destination = "_side",
+}
+
+destination{
+  name = "dest_secret",
+  layer = 2,
+  x = 512,
+  y = 512,
+  direction = 3,
 }
 

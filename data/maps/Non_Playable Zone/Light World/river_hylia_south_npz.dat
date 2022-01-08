@@ -8067,7 +8067,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "Non_Playable Zone/Light World/river_hylia_north",
+  destination_map = "Non_Playable Zone/Light World/river_hylia_north_npz",
   destination = "_side",
 }
 

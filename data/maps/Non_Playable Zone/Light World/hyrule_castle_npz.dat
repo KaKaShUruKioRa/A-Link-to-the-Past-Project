@@ -19381,7 +19381,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "Non_Playable Zone/Light World/link_forest",
+  destination_map = "Non_Playable Zone/Light World/link_forest_npz",
   destination = "_side",
 }
 

@@ -14,7 +14,7 @@ function initial_game:initialize_new_savegame(game)
 
   -- You can modify this function to set the initial life and equipment
   -- and the starting location.
-  game:set_starting_location("Non_Playable Zone/Light World/lost_wood_npz", "out_forest_tp_0")
+  game:set_starting_location("Archived/A Link to the Past/Secret Room/secret_room", "dest_secret_room")
 
   game:set_max_life(6)
   game:set_life(game:get_max_life())

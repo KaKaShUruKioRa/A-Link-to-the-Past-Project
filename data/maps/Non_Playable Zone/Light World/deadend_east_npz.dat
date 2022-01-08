@@ -3106,7 +3106,7 @@ destructible{
   name = "grass_deadend_east_0",
   layer = -2,
   x = 56,
-  y = 189,
+  y = 173,
   sprite = "destructibles/grass_green",
   weight = -1,
   can_be_cut = true,
@@ -3118,144 +3118,12 @@ destructible{
   name = "grass_deadend_east_1",
   layer = -2,
   x = 56,
-  y = 173,
+  y = 189,
   sprite = "destructibles/grass_green",
   weight = -1,
   can_be_cut = true,
   damage_on_enemies = 0,
   ground = "grass",
-}
-
-destructible{
-  name = "hammer_stake_deadend_east_0",
-  layer = -2,
-  x = 376,
-  y = 365,
-  sprite = "entities/hammer_stake_brown",
-  destruction_sound = "hammer_stake",
-  weight = -1,
-  damage_on_enemies = 0,
-}
-
-destructible{
-  name = "hammer_stake_deadend_east_1",
-  layer = -2,
-  x = 376,
-  y = 381,
-  sprite = "entities/hammer_stake_brown",
-  destruction_sound = "hammer_stake",
-  weight = -1,
-  damage_on_enemies = 0,
-}
-
-destructible{
-  name = "hammer_stake_deadend_east_2",
-  layer = -2,
-  x = 376,
-  y = 397,
-  sprite = "entities/hammer_stake_brown",
-  destruction_sound = "hammer_stake",
-  weight = -1,
-  damage_on_enemies = 0,
-}
-
-destructible{
-  name = "hammer_stake_deadend_east_3",
-  layer = -2,
-  x = 392,
-  y = 413,
-  sprite = "entities/hammer_stake_brown",
-  destruction_sound = "hammer_stake",
-  weight = -1,
-  damage_on_enemies = 0,
-}
-
-destructible{
-  name = "hammer_stake_deadend_east_4",
-  layer = -2,
-  x = 408,
-  y = 413,
-  sprite = "entities/hammer_stake_brown",
-  destruction_sound = "hammer_stake",
-  weight = -1,
-  damage_on_enemies = 0,
-}
-
-destructible{
-  name = "hammer_stake_deadend_east_5",
-  layer = -2,
-  x = 424,
-  y = 413,
-  sprite = "entities/hammer_stake_brown",
-  destruction_sound = "hammer_stake",
-  weight = -1,
-  damage_on_enemies = 0,
-}
-
-destructible{
-  name = "hammer_stake_deadend_east_6",
-  layer = -2,
-  x = 440,
-  y = 397,
-  sprite = "entities/hammer_stake_brown",
-  destruction_sound = "hammer_stake",
-  weight = -1,
-  damage_on_enemies = 0,
-}
-
-destructible{
-  name = "hammer_stake_deadend_east_7",
-  layer = -2,
-  x = 440,
-  y = 381,
-  sprite = "entities/hammer_stake_brown",
-  destruction_sound = "hammer_stake",
-  weight = -1,
-  damage_on_enemies = 0,
-}
-
-destructible{
-  name = "hammer_stake_deadend_east_8",
-  layer = -2,
-  x = 440,
-  y = 365,
-  sprite = "entities/hammer_stake_brown",
-  destruction_sound = "hammer_stake",
-  weight = -1,
-  damage_on_enemies = 0,
-}
-
-destructible{
-  name = "hammer_stake_deadend_east_9",
-  layer = -2,
-  x = 424,
-  y = 349,
-  sprite = "entities/hammer_stake_brown",
-  destruction_sound = "hammer_stake",
-  weight = -1,
-  damage_on_enemies = 0,
-}
-
-destructible{
-  name = "hammer_stake_deadend_east_10",
-  layer = -2,
-  x = 408,
-  y = 349,
-  sprite = "entities/hammer_stake_brown",
-  destruction_sound = "hammer_stake",
-  weight = -1,
-  damage_on_enemies = 0,
-}
-
-destructible{
-  name = "hammer_stake_deadend_east_11",
-  layer = -2,
-  x = 392,
-  y = 349,
-  sprite = "entities/hammer_stake_brown",
-  destruction_sound = "hammer_stake",
-  weight = -1,
-  damage_on_enemies = 0,
 }
 
 teletransporter{
@@ -3265,8 +3133,9 @@ teletransporter{
   y = 368,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/overworld_light",
-  sprite = "entities/teletransporter_yellow",
+  destination_map = "Non_Playable Zone/Light World/deadend_east_npz",
+  destination = "dest_secret",
+  sprite = "entities/teletransporter_blue",
   sound = "warp",
 }
 
@@ -3278,6 +3147,150 @@ destructible{
   sprite = "destructibles/stone_small_lw_2",
   destruction_sound = "stone",
   weight = 2,
+}
+
+custom_entity{
+  name = "stake_hammer_deadend_east_0",
+  layer = -2,
+  x = 392,
+  y = 349,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hammer_stake_brown",
+  model = "hammer_stake",
+}
+
+custom_entity{
+  name = "stake_hammer_deadend_east_1",
+  layer = -2,
+  x = 408,
+  y = 349,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hammer_stake_brown",
+  model = "hammer_stake",
+}
+
+custom_entity{
+  name = "stake_hammer_deadend_east_2",
+  layer = -2,
+  x = 424,
+  y = 349,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hammer_stake_brown",
+  model = "hammer_stake",
+}
+
+custom_entity{
+  name = "stake_hammer_deadend_east_3",
+  layer = -2,
+  x = 376,
+  y = 365,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hammer_stake_brown",
+  model = "hammer_stake",
+}
+
+custom_entity{
+  name = "stake_hammer_deadend_east_4",
+  layer = -2,
+  x = 440,
+  y = 365,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hammer_stake_brown",
+  model = "hammer_stake",
+}
+
+custom_entity{
+  name = "stake_hammer_deadend_east_5",
+  layer = -2,
+  x = 376,
+  y = 381,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hammer_stake_brown",
+  model = "hammer_stake",
+}
+
+custom_entity{
+  name = "stake_hammer_deadend_east_6",
+  layer = -2,
+  x = 440,
+  y = 381,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hammer_stake_brown",
+  model = "hammer_stake",
+}
+
+custom_entity{
+  name = "stake_hammer_deadend_east_7",
+  layer = -2,
+  x = 376,
+  y = 397,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hammer_stake_brown",
+  model = "hammer_stake",
+}
+
+custom_entity{
+  name = "stake_hammer_deadend_east_8",
+  layer = -2,
+  x = 440,
+  y = 397,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hammer_stake_brown",
+  model = "hammer_stake",
+}
+
+custom_entity{
+  name = "stake_hammer_deadend_east_9",
+  layer = -2,
+  x = 392,
+  y = 413,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hammer_stake_brown",
+  model = "hammer_stake",
+}
+
+custom_entity{
+  name = "stake_hammer_deadend_east_10",
+  layer = -2,
+  x = 408,
+  y = 413,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hammer_stake_brown",
+  model = "hammer_stake",
+}
+
+custom_entity{
+  name = "stake_hammer_deadend_east_11",
+  layer = -2,
+  x = 424,
+  y = 413,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hammer_stake_brown",
+  model = "hammer_stake",
 }
 
 tile{
@@ -3410,7 +3423,7 @@ tile{
   layer = -1,
   x = 368,
   y = 304,
-  width = 80,
+  width = 48,
   height = 16,
   pattern = "957",
 }
@@ -4943,6 +4956,42 @@ tile{
   width = 16,
   height = 48,
   pattern = "976",
+}
+
+tile{
+  layer = -1,
+  x = 424,
+  y = 296,
+  width = 16,
+  height = 24,
+  pattern = "1286",
+}
+
+tile{
+  layer = -1,
+  x = 440,
+  y = 296,
+  width = 8,
+  height = 24,
+  pattern = "1285",
+}
+
+tile{
+  layer = -1,
+  x = 416,
+  y = 296,
+  width = 8,
+  height = 24,
+  pattern = "1284",
+}
+
+tile{
+  layer = -1,
+  x = 416,
+  y = 288,
+  width = 32,
+  height = 8,
+  pattern = "1259",
 }
 
 tile{
@@ -6831,7 +6880,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "Non_Playable Zone/Light World/river_hylia_north",
+  destination_map = "Non_Playable Zone/Light World/river_hylia_north_npz",
   destination = "_side",
 }
 

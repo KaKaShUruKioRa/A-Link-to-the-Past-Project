@@ -1,12 +1,12 @@
 properties{
-  x = 0,
-  y = 0,
+  x = 2048,
+  y = 1024,
   width = 512,
   height = 512,
   min_layer = 0,
-  max_layer = 1,
+  max_layer = 2,
   world = "Light World",
-  tileset = "out/outside_main",
+  tileset = "out/outside_lightworld_main",
   music = "overworld",
 }
 
@@ -3609,6 +3609,15 @@ tile{
 
 tile{
   layer = 0,
+  x = 432,
+  y = 256,
+  width = 16,
+  height = 96,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
   x = 408,
   y = 184,
   width = 16,
@@ -4836,47 +4845,7 @@ tile{
 }
 
 destructible{
-  name = "bush_lumberjack_70",
-  layer = 0,
-  x = 104,
-  y = 173,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_71",
-  layer = 0,
-  x = 120,
-  y = 173,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_72",
-  layer = 0,
-  x = 120,
-  y = 189,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_73",
-  layer = 0,
-  x = 104,
-  y = 189,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_74",
+  name = "bush_cemetery_0",
   layer = 0,
   x = 136,
   y = 141,
@@ -4886,207 +4855,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_lumberjack_75",
-  layer = 0,
-  x = 152,
-  y = 141,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_76",
-  layer = 0,
-  x = 152,
-  y = 157,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_77",
-  layer = 0,
-  x = 136,
-  y = 157,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_94",
-  layer = 0,
-  x = 120,
-  y = 157,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_95",
-  layer = 0,
-  x = 104,
-  y = 157,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_96",
-  layer = 0,
-  x = 152,
-  y = 173,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_97",
-  layer = 0,
-  x = 136,
-  y = 173,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_98",
-  layer = 0,
-  x = 168,
-  y = 333,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_99",
-  layer = 0,
-  x = 152,
-  y = 333,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_100",
-  layer = 0,
-  x = 424,
-  y = 141,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_101",
-  layer = 0,
-  x = 408,
-  y = 141,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_102",
-  layer = 0,
-  x = 392,
-  y = 157,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_103",
-  layer = 0,
-  x = 440,
-  y = 157,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_104",
-  layer = 0,
-  x = 456,
-  y = 253,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_105",
-  layer = 0,
-  x = 456,
-  y = 317,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_106",
-  layer = 0,
-  x = 456,
-  y = 349,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_107",
-  layer = 0,
-  x = 168,
-  y = 317,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_108",
-  layer = 0,
-  x = 168,
-  y = 301,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_109",
-  layer = 0,
-  x = 232,
-  y = 317,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_110",
-  layer = 0,
-  x = 232,
-  y = 301,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_111",
+  name = "bush_cemetery_25",
   layer = 0,
   x = 232,
   y = 237,
@@ -5096,7 +4865,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_lumberjack_112",
+  name = "bush_cemetery_26",
   layer = 0,
   x = 232,
   y = 253,
@@ -5106,157 +4875,69 @@ destructible{
 }
 
 destructible{
-  name = "bush_lumberjack_113",
+  name = "stone_white_cemetery_0",
   layer = 0,
-  x = 200,
+  x = 56,
+  y = 141,
+  sprite = "destructibles/stone_small_lw_1",
+  destruction_sound = "stone",
+  weight = 1,
+}
+
+destructible{
+  name = "stone_white_cemetery_2",
+  layer = 0,
+  x = 72,
   y = 205,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
+  sprite = "destructibles/stone_small_lw_1",
+  destruction_sound = "stone",
+  weight = 1,
 }
 
 destructible{
-  name = "bush_lumberjack_114",
+  name = "stone_black_cemetery_0",
   layer = 0,
-  x = 168,
-  y = 189,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
+  x = 392,
+  y = 141,
+  sprite = "destructibles/stone_small_lw_2",
+  destruction_sound = "stone",
+  weight = 2,
 }
 
 destructible{
-  name = "bush_lumberjack_115",
+  name = "grass_cemetery_0",
   layer = 0,
-  x = 168,
-  y = 173,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
+  x = 8,
+  y = 237,
+  sprite = "destructibles/grass_green",
+  weight = -1,
   can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
 }
 
 destructible{
-  name = "bush_lumberjack_116",
+  name = "stone_white_cemetery_1",
   layer = 0,
-  x = 168,
+  x = 56,
   y = 157,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
+  sprite = "destructibles/stone_small_lw_1",
+  destruction_sound = "stone",
+  weight = 1,
 }
 
 destructible{
-  name = "bush_lumberjack_117",
-  layer = 0,
-  x = 56,
-  y = 173,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_118",
-  layer = 0,
-  x = 56,
-  y = 189,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_119",
-  layer = 0,
-  x = 72,
-  y = 333,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_120",
-  layer = 0,
-  x = 104,
-  y = 349,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_121",
-  layer = 0,
-  x = 120,
-  y = 333,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_122",
-  layer = 0,
-  x = 72,
-  y = 317,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_123",
+  name = "stone_white_cemetery_3",
   layer = 0,
   x = 88,
-  y = 317,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_124",
-  layer = 0,
-  x = 264,
   y = 205,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_lumberjack_125",
-  layer = 0,
-  x = 296,
-  y = 205,
-  sprite = "destructibles/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "Big_stone_deathmountain_entrance_43",
-  layer = 0,
-  x = 424,
-  y = 381,
   sprite = "destructibles/stone_small_lw_1",
   destruction_sound = "stone",
   weight = 1,
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_44",
-  layer = 0,
-  x = 456,
-  y = 285,
-  sprite = "destructibles/stone_small_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
-}
-
-destructible{
-  name = "Big_stone_deathmountain_entrance_45",
+  name = "stone_white_cemetery_4",
   layer = 0,
   x = 360,
   y = 205,
@@ -5266,17 +4947,27 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_46",
+  name = "stone_white_cemetery_5",
   layer = 0,
-  x = 280,
-  y = 381,
+  x = 56,
+  y = 285,
   sprite = "destructibles/stone_small_lw_1",
   destruction_sound = "stone",
   weight = 1,
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_47",
+  name = "stone_white_cemetery_6",
+  layer = 0,
+  x = 456,
+  y = 285,
+  sprite = "destructibles/stone_small_lw_1",
+  destruction_sound = "stone",
+  weight = 1,
+}
+
+destructible{
+  name = "stone_white_cemetery_7",
   layer = 0,
   x = 200,
   y = 381,
@@ -5286,67 +4977,27 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_48",
+  name = "stone_white_cemetery_8",
   layer = 0,
-  x = 56,
-  y = 285,
+  x = 280,
+  y = 381,
   sprite = "destructibles/stone_small_lw_1",
   destruction_sound = "stone",
   weight = 1,
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_49",
+  name = "stone_white_cemetery_9",
   layer = 0,
-  x = 56,
-  y = 157,
+  x = 424,
+  y = 381,
   sprite = "destructibles/stone_small_lw_1",
   destruction_sound = "stone",
   weight = 1,
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_50",
-  layer = 0,
-  x = 56,
-  y = 141,
-  sprite = "destructibles/stone_small_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
-}
-
-destructible{
-  name = "Big_stone_deathmountain_entrance_51",
-  layer = 0,
-  x = 72,
-  y = 205,
-  sprite = "destructibles/stone_small_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
-}
-
-destructible{
-  name = "Big_stone_deathmountain_entrance_52",
-  layer = 0,
-  x = 88,
-  y = 205,
-  sprite = "destructibles/stone_small_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
-}
-
-destructible{
-  name = "Big_stone_deathmountain_entrance_120",
-  layer = 0,
-  x = 456,
-  y = 173,
-  sprite = "destructibles/stone_small_lw_2",
-  destruction_sound = "stone",
-  weight = 2,
-}
-
-destructible{
-  name = "Big_stone_deathmountain_entrance_121",
+  name = "stone_black_cemetery_1",
   layer = 0,
   x = 440,
   y = 141,
@@ -5356,17 +5007,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_122",
-  layer = 0,
-  x = 392,
-  y = 141,
-  sprite = "destructibles/stone_small_lw_2",
-  destruction_sound = "stone",
-  weight = 2,
-}
-
-destructible{
-  name = "Big_stone_deathmountain_entrance_123",
+  name = "stone_black_cemetery_2",
   layer = 0,
   x = 376,
   y = 173,
@@ -5376,7 +5017,17 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_124",
+  name = "stone_black_cemetery_3",
+  layer = 0,
+  x = 456,
+  y = 173,
+  sprite = "destructibles/stone_small_lw_2",
+  destruction_sound = "stone",
+  weight = 2,
+}
+
+destructible{
+  name = "stone_black_cemetery_4",
   layer = 0,
   x = 456,
   y = 205,
@@ -5386,17 +5037,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_125",
-  layer = 0,
-  x = 424,
-  y = 237,
-  sprite = "destructibles/stone_small_lw_2",
-  destruction_sound = "stone",
-  weight = 2,
-}
-
-destructible{
-  name = "Big_stone_deathmountain_entrance_126",
+  name = "stone_black_cemetery_5",
   layer = 0,
   x = 408,
   y = 237,
@@ -5406,17 +5047,17 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_127",
+  name = "stone_black_cemetery_6",
   layer = 0,
-  x = 248,
-  y = 381,
+  x = 424,
+  y = 237,
   sprite = "destructibles/stone_small_lw_2",
   destruction_sound = "stone",
   weight = 2,
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_128",
+  name = "stone_black_cemetery_7",
   layer = 0,
   x = 56,
   y = 253,
@@ -5426,7 +5067,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_129",
+  name = "stone_black_cemetery_8",
   layer = 0,
   x = 56,
   y = 317,
@@ -5436,7 +5077,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_130",
+  name = "stone_black_cemetery_9",
   layer = 0,
   x = 104,
   y = 333,
@@ -5446,7 +5087,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_131",
+  name = "stone_black_cemetery_10",
   layer = 0,
   x = 120,
   y = 349,
@@ -5456,43 +5097,387 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_108",
+  name = "stone_black_cemetery_11",
   layer = 0,
-  x = 8,
+  x = 248,
+  y = 381,
+  sprite = "destructibles/stone_small_lw_2",
+  destruction_sound = "stone",
+  weight = 2,
+}
+
+destructible{
+  name = "bush_cemetery_1",
+  layer = 0,
+  x = 152,
+  y = 141,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_cemetery_2",
+  layer = 0,
+  x = 408,
+  y = 141,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_cemetery_3",
+  layer = 0,
+  x = 424,
+  y = 141,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_cemetery_4",
+  layer = 0,
+  x = 104,
+  y = 157,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_cemetery_5",
+  layer = 0,
+  x = 120,
+  y = 157,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_cemetery_6",
+  layer = 0,
+  x = 136,
+  y = 157,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_cemetery_7",
+  layer = 0,
+  x = 152,
+  y = 157,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_cemetery_8",
+  layer = 0,
+  x = 168,
+  y = 157,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_cemetery_9",
+  layer = 0,
+  x = 392,
+  y = 157,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_cemetery_10",
+  layer = 0,
+  x = 440,
+  y = 157,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_cemetery_11",
+  layer = 0,
+  x = 56,
+  y = 173,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_cemetery_12",
+  layer = 0,
+  x = 104,
+  y = 173,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_cemetery_13",
+  layer = 0,
+  x = 120,
+  y = 173,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_cemetery_14",
+  layer = 0,
+  x = 136,
+  y = 173,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_cemetery_15",
+  layer = 0,
+  x = 152,
+  y = 173,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_cemetery_16",
+  layer = 0,
+  x = 168,
+  y = 173,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_cemetery_17",
+  layer = 0,
+  x = 56,
+  y = 189,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_cemetery_18",
+  layer = 0,
+  x = 104,
+  y = 189,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_cemetery_19",
+  layer = 0,
+  x = 120,
+  y = 189,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_cemetery_20",
+  layer = 0,
+  x = 168,
+  y = 189,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_cemetery_21",
+  layer = 0,
+  x = 200,
+  y = 205,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_cemetery_22",
+  layer = 0,
+  x = 264,
+  y = 205,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_cemetery_23",
+  layer = 0,
+  x = 296,
+  y = 205,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_cemetery_24",
+  layer = 0,
+  x = 456,
   y = 253,
-  sprite = "destructibles/grass_green",
-  weight = -1,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
   can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
 }
 
 destructible{
-  name = "grass_hyrule_castle_112",
+  name = "bush_cemetery_27",
   layer = 0,
-  x = 8,
-  y = 269,
-  sprite = "destructibles/grass_green",
-  weight = -1,
+  x = 168,
+  y = 301,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
   can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
 }
 
 destructible{
-  name = "grass_hyrule_castle_116",
+  name = "bush_cemetery_28",
   layer = 0,
-  x = 8,
-  y = 285,
-  sprite = "destructibles/grass_green",
-  weight = -1,
+  x = 232,
+  y = 301,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
   can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
 }
 
 destructible{
-  name = "grass_hyrule_castle_119",
+  name = "bush_cemetery_29",
+  layer = 0,
+  x = 72,
+  y = 317,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_cemetery_30",
+  layer = 0,
+  x = 88,
+  y = 317,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_cemetery_31",
+  layer = 0,
+  x = 168,
+  y = 317,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_cemetery_32",
+  layer = 0,
+  x = 232,
+  y = 317,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_cemetery_33",
+  layer = 0,
+  x = 456,
+  y = 317,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_cemetery_34",
+  layer = 0,
+  x = 72,
+  y = 333,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_cemetery_35",
+  layer = 0,
+  x = 120,
+  y = 333,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_cemetery_36",
+  layer = 0,
+  x = 152,
+  y = 333,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_cemetery_37",
+  layer = 0,
+  x = 168,
+  y = 333,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_cemetery_38",
+  layer = 0,
+  x = 104,
+  y = 349,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_cemetery_39",
+  layer = 0,
+  x = 456,
+  y = 349,
+  sprite = "destructibles/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "grass_cemetery_1",
   layer = 0,
   x = 72,
   y = 237,
@@ -5504,127 +5489,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_120",
-  layer = 0,
-  x = 72,
-  y = 253,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_123",
-  layer = 0,
-  x = 24,
-  y = 269,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_124",
-  layer = 0,
-  x = 40,
-  y = 269,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_127",
-  layer = 0,
-  x = 24,
-  y = 285,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_128",
-  layer = 0,
-  x = 40,
-  y = 285,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_129",
-  layer = 0,
-  x = 24,
-  y = 253,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_132",
-  layer = 0,
-  x = 8,
-  y = 237,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_134",
-  layer = 0,
-  x = 72,
-  y = 285,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_135",
-  layer = 0,
-  x = 168,
-  y = 253,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_136",
-  layer = 0,
-  x = 168,
-  y = 269,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_137",
+  name = "grass_cemetery_2",
   layer = 0,
   x = 216,
   y = 237,
@@ -5636,7 +5501,67 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_138",
+  name = "grass_cemetery_3",
+  layer = 0,
+  x = 472,
+  y = 237,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_cemetery_4",
+  layer = 0,
+  x = 8,
+  y = 253,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_cemetery_5",
+  layer = 0,
+  x = 24,
+  y = 253,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_cemetery_6",
+  layer = 0,
+  x = 72,
+  y = 253,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_cemetery_7",
+  layer = 0,
+  x = 168,
+  y = 253,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_cemetery_8",
   layer = 0,
   x = 216,
   y = 253,
@@ -5648,7 +5573,67 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_139",
+  name = "grass_cemetery_9",
+  layer = 0,
+  x = 392,
+  y = 253,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_cemetery_10",
+  layer = 0,
+  x = 472,
+  y = 253,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_cemetery_11",
+  layer = 0,
+  x = 8,
+  y = 269,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_cemetery_12",
+  layer = 0,
+  x = 24,
+  y = 269,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_cemetery_13",
+  layer = 0,
+  x = 40,
+  y = 269,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_cemetery_14",
   layer = 0,
   x = 152,
   y = 269,
@@ -5660,10 +5645,10 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_140",
+  name = "grass_cemetery_15",
   layer = 0,
-  x = 312,
-  y = 301,
+  x = 168,
+  y = 269,
   sprite = "destructibles/grass_green",
   weight = -1,
   can_be_cut = true,
@@ -5672,31 +5657,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_141",
-  layer = 0,
-  x = 312,
-  y = 317,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_142",
-  layer = 0,
-  x = 392,
-  y = 253,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_143",
+  name = "grass_cemetery_16",
   layer = 0,
   x = 440,
   y = 269,
@@ -5708,7 +5669,55 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_144",
+  name = "grass_cemetery_17",
+  layer = 0,
+  x = 8,
+  y = 285,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_cemetery_18",
+  layer = 0,
+  x = 24,
+  y = 285,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_cemetery_19",
+  layer = 0,
+  x = 40,
+  y = 285,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_cemetery_20",
+  layer = 0,
+  x = 72,
+  y = 285,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_cemetery_21",
   layer = 0,
   x = 440,
   y = 285,
@@ -5720,7 +5729,19 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_145",
+  name = "grass_cemetery_22",
+  layer = 0,
+  x = 312,
+  y = 301,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_cemetery_23",
   layer = 0,
   x = 440,
   y = 301,
@@ -5732,67 +5753,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_146",
-  layer = 0,
-  x = 440,
-  y = 317,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_147",
-  layer = 0,
-  x = 440,
-  y = 333,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_148",
-  layer = 0,
-  x = 440,
-  y = 349,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_149",
-  layer = 0,
-  x = 472,
-  y = 237,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_150",
-  layer = 0,
-  x = 472,
-  y = 253,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_151",
+  name = "grass_cemetery_24",
   layer = 0,
   x = 472,
   y = 301,
@@ -5804,7 +5765,31 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_152",
+  name = "grass_cemetery_25",
+  layer = 0,
+  x = 312,
+  y = 317,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_cemetery_26",
+  layer = 0,
+  x = 440,
+  y = 317,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_cemetery_27",
   layer = 0,
   x = 472,
   y = 317,
@@ -5816,31 +5801,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_153",
-  layer = 0,
-  x = 472,
-  y = 333,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_154",
-  layer = 0,
-  x = 472,
-  y = 349,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_155",
+  name = "grass_cemetery_28",
   layer = 0,
   x = 488,
   y = 317,
@@ -5852,19 +5813,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_156",
-  layer = 0,
-  x = 488,
-  y = 333,
-  sprite = "destructibles/grass_green",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_hyrule_castle_157",
+  name = "grass_cemetery_29",
   layer = 0,
   x = 504,
   y = 317,
@@ -5876,7 +5825,43 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_158",
+  name = "grass_cemetery_30",
+  layer = 0,
+  x = 440,
+  y = 333,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_cemetery_31",
+  layer = 0,
+  x = 472,
+  y = 333,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_cemetery_32",
+  layer = 0,
+  x = 488,
+  y = 333,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_cemetery_33",
   layer = 0,
   x = 504,
   y = 333,
@@ -5888,7 +5873,31 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_163",
+  name = "grass_cemetery_34",
+  layer = 0,
+  x = 440,
+  y = 349,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_cemetery_35",
+  layer = 0,
+  x = 472,
+  y = 349,
+  sprite = "destructibles/grass_green",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_cemetery_36",
   layer = 0,
   x = 488,
   y = 349,
@@ -5900,7 +5909,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_164",
+  name = "grass_cemetery_37",
   layer = 0,
   x = 504,
   y = 349,
@@ -5912,7 +5921,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_165",
+  name = "grass_cemetery_38",
   layer = 0,
   x = 472,
   y = 365,
@@ -5921,6 +5930,37 @@ destructible{
   can_be_cut = true,
   damage_on_enemies = 0,
   ground = "grass",
+}
+
+teletransporter{
+  name = "tp_hole_cemetery_0",
+  layer = 0,
+  x = 72,
+  y = 168,
+  width = 16,
+  height = 16,
+  destination_map = "A Link To The Past/Light World/Overworld/Zone/cemetery",
+  destination = "dest_secret",
+}
+
+teletransporter{
+  name = "tp_cave_cemetery_1",
+  layer = 0,
+  x = 408,
+  y = 184,
+  width = 16,
+  height = 16,
+  destination_map = "A Link To The Past/Light World/Overworld/Zone/cemetery",
+  destination = "dest_secret",
+}
+
+stairs{
+  name = "stair_straight_cemetery_0",
+  layer = 0,
+  x = 408,
+  y = 192,
+  direction = 1,
+  subtype = 3,
 }
 
 tile{
@@ -6078,9 +6118,9 @@ tile{
 
 tile{
   layer = 1,
-  x = 224,
+  x = 304,
   y = 96,
-  width = 96,
+  width = 16,
   height = 16,
   pattern = "957",
 }
@@ -6173,6 +6213,15 @@ tile{
   width = 16,
   height = 16,
   pattern = "965",
+}
+
+tile{
+  layer = 1,
+  x = 224,
+  y = 96,
+  width = 48,
+  height = 16,
+  pattern = "957",
 }
 
 tile{
@@ -6564,46 +6613,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 80,
-  y = 320,
-  width = 16,
-  height = 16,
-  pattern = "6199",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
-  x = 128,
-  y = 320,
-  width = 16,
-  height = 16,
-  pattern = "6199",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
-  x = 304,
-  y = 352,
-  width = 16,
-  height = 16,
-  pattern = "6199",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
-  x = 384,
-  y = 352,
-  width = 16,
-  height = 16,
-  pattern = "6199",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
   x = 320,
   y = 360,
   width = 8,
@@ -6654,6 +6663,46 @@ tile{
 
 tile{
   layer = 1,
+  x = 80,
+  y = 320,
+  width = 16,
+  height = 16,
+  pattern = "6199",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 128,
+  y = 320,
+  width = 16,
+  height = 16,
+  pattern = "6199",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 304,
+  y = 352,
+  width = 16,
+  height = 16,
+  pattern = "6199",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 384,
+  y = 352,
+  width = 16,
+  height = 16,
+  pattern = "6199",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
   x = 360,
   y = 360,
   width = 8,
@@ -6681,7 +6730,7 @@ jumper{
   width = 8,
   height = 8,
   direction = 7,
-  jump_length = 40,
+  jump_length = 36,
 }
 
 jumper{
@@ -6706,11 +6755,70 @@ jumper{
   jump_length = 40,
 }
 
-destination{
-  name = "start_dest",
+teletransporter{
+  name = "tp_cave_cemetery_0",
   layer = 1,
-  x = 288,
-  y = 125,
-  direction = 1,
+  x = 280,
+  y = 88,
+  width = 16,
+  height = 16,
+  destination_map = "A Link To The Past/Light World/Overworld/Zone/cemetery",
+  destination = "dest_secret",
+}
+
+teletransporter{
+  name = "border_cemetery_west",
+  layer = 2,
+  x = -8,
+  y = 0,
+  width = 8,
+  height = 512,
+  transition = "scrolling",
+  destination_map = "A Link To The Past/Light World/Overworld/Zone/sanctuary",
+  destination = "_side",
+}
+
+teletransporter{
+  name = "border_cemetery_south",
+  layer = 2,
+  x = 0,
+  y = 512,
+  width = 512,
+  height = 8,
+  transition = "scrolling",
+  destination_map = "A Link To The Past/Light World/Overworld/Zone/hyrule_castle",
+  destination = "_side",
+}
+
+teletransporter{
+  name = "border_cemetery_east",
+  layer = 2,
+  x = 512,
+  y = 0,
+  width = 8,
+  height = 512,
+  transition = "scrolling",
+  destination_map = "A Link To The Past/Light World/Overworld/Zone/wooden_bridge_north",
+  destination = "_side",
+}
+
+teletransporter{
+  name = "border_cemetery_north",
+  layer = 2,
+  x = 0,
+  y = -8,
+  width = 512,
+  height = 8,
+  transition = "scrolling",
+  destination_map = "A Link To The Past/Light World/Overworld/Zone/death_mountain_west",
+  destination = "_side",
+}
+
+destination{
+  name = "dest_secret",
+  layer = 2,
+  x = 256,
+  y = 256,
+  direction = 3,
 }
 

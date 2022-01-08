@@ -22790,7 +22790,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "Non_Playable Zone/Light World/river_hylia_north",
+  destination_map = "Non_Playable Zone/Light World/river_hylia_north_npz",
   destination = "_side",
 }
 
@@ -22814,7 +22814,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "Non_Playable Zone/Light World/river_hylia_south",
+  destination_map = "Non_Playable Zone/Light World/river_hylia_south_npz",
   destination = "_side",
 }
 

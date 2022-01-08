@@ -1526,17 +1526,9 @@ destructible{
 }
 
 destination{
-  name = "out_forest_dest_0",
+  name = "dest_map_entrance_lost_wood_1",
   layer = 0,
   x = 96,
-  y = 37,
-  direction = 3,
-}
-
-destination{
-  name = "out_forest_dest_1",
-  layer = 0,
-  x = 384,
   y = 37,
   direction = 3,
 }
@@ -1937,6 +1929,36 @@ destructible{
   sprite = "destructibles/stone_big_lw_2",
   destruction_sound = "stone",
   weight = 2,
+}
+
+teletransporter{
+  name = "tp_map_entrance_lost_wood_2",
+  layer = 0,
+  x = 88,
+  y = 8,
+  width = 16,
+  height = 16,
+  destination_map = "A Link To The Past/Light World/Overworld/Zone/lost_wood",
+  destination = "dest_map_lost_wood_1",
+}
+
+teletransporter{
+  name = "tp_map_entrance_lost_wood_3",
+  layer = 0,
+  x = 376,
+  y = 8,
+  width = 16,
+  height = 16,
+  destination_map = "A Link To The Past/Light World/Overworld/Zone/lost_wood",
+  destination = "dest_map_lost_wood_2",
+}
+
+destination{
+  name = "dest_map_entrance_lost_wood_2",
+  layer = 0,
+  x = 384,
+  y = 37,
+  direction = 3,
 }
 
 tile{
@@ -3332,28 +3354,6 @@ teletransporter{
   transition = "scrolling",
   destination_map = "A Link To The Past/Light World/Overworld/Zone/lost_wood",
   destination = "_side",
-}
-
-teletransporter{
-  name = "in_forest_tp_0",
-  layer = 2,
-  x = 88,
-  y = 8,
-  width = 16,
-  height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/overworld_light",
-  destination = "in_forest_dest_0",
-}
-
-teletransporter{
-  name = "in_forest_tp_1",
-  layer = 2,
-  x = 376,
-  y = 8,
-  width = 16,
-  height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/overworld_light",
-  destination = "in_forest_dest_1",
 }
 
 destination{

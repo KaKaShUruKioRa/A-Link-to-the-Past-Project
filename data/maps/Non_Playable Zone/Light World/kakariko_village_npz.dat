@@ -15364,15 +15364,6 @@ tile{
 
 tile{
   layer = -1,
-  x = 944,
-  y = 336,
-  width = 16,
-  height = 16,
-  pattern = "12355",
-}
-
-tile{
-  layer = -1,
   x = 112,
   y = 976,
   width = 16,
@@ -17045,6 +17036,18 @@ tile{
   height = 8,
   pattern = "4",
   tileset = "out/outside_lightworld_buildings",
+}
+
+custom_entity{
+  name = "stake_hammer_kakariko_village_0",
+  layer = 0,
+  x = 952,
+  y = 349,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hammer_stake_brown",
+  model = "hammer_stake",
 }
 
 tile{

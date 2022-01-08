@@ -443,6 +443,42 @@ tile{
 }
 
 tile{
+  layer = -4,
+  x = 152,
+  y = 464,
+  width = 8,
+  height = 8,
+  pattern = "1043",
+}
+
+tile{
+  layer = -4,
+  x = 320,
+  y = 464,
+  width = 8,
+  height = 8,
+  pattern = "1042",
+}
+
+tile{
+  layer = -4,
+  x = 416,
+  y = 280,
+  width = 8,
+  height = 8,
+  pattern = "1045",
+}
+
+tile{
+  layer = -4,
+  x = 424,
+  y = 288,
+  width = 8,
+  height = 8,
+  pattern = "1045",
+}
+
+tile{
   layer = -3,
   x = 392,
   y = 320,
@@ -2429,6 +2465,51 @@ tile{
   width = 16,
   height = 16,
   pattern = "728",
+}
+
+tile{
+  layer = -3,
+  x = 152,
+  y = 464,
+  width = 8,
+  height = 8,
+  pattern = "127",
+}
+
+tile{
+  layer = -3,
+  x = 320,
+  y = 464,
+  width = 8,
+  height = 8,
+  pattern = "127",
+}
+
+tile{
+  layer = -3,
+  x = 424,
+  y = 280,
+  width = 8,
+  height = 8,
+  pattern = "127",
+}
+
+tile{
+  layer = -3,
+  x = 264,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "127",
+}
+
+tile{
+  layer = -3,
+  x = 280,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "127",
 }
 
 destructible{
@@ -4877,42 +4958,6 @@ tile{
 }
 
 tile{
-  layer = 0,
-  x = 152,
-  y = 464,
-  width = 8,
-  height = 8,
-  pattern = "1043",
-}
-
-tile{
-  layer = 0,
-  x = 320,
-  y = 464,
-  width = 8,
-  height = 8,
-  pattern = "1042",
-}
-
-tile{
-  layer = 0,
-  x = 416,
-  y = 280,
-  width = 8,
-  height = 8,
-  pattern = "1045",
-}
-
-tile{
-  layer = 0,
-  x = 424,
-  y = 288,
-  width = 8,
-  height = 8,
-  pattern = "1045",
-}
-
-tile{
   layer = 1,
   x = 64,
   y = 248,
@@ -5850,33 +5895,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 152,
-  y = 464,
-  width = 8,
-  height = 8,
-  pattern = "127",
-}
-
-tile{
-  layer = 1,
-  x = 320,
-  y = 464,
-  width = 8,
-  height = 8,
-  pattern = "127",
-}
-
-tile{
-  layer = 1,
-  x = 424,
-  y = 280,
-  width = 8,
-  height = 8,
-  pattern = "127",
-}
-
-tile{
-  layer = 1,
   x = 464,
   y = 0,
   width = 8,
@@ -5900,24 +5918,6 @@ tile{
   width = 16,
   height = 8,
   pattern = "454",
-}
-
-tile{
-  layer = 1,
-  x = 264,
-  y = 96,
-  width = 8,
-  height = 8,
-  pattern = "127",
-}
-
-tile{
-  layer = 1,
-  x = 280,
-  y = 96,
-  width = 8,
-  height = 8,
-  pattern = "127",
 }
 
 tile{

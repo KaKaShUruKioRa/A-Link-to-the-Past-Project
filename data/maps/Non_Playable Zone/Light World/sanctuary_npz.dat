@@ -2341,9 +2341,9 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_53",
+  name = "stone_white_santuary_0",
   layer = -2,
-  x = 456,
+  x = 232,
   y = 253,
   sprite = "destructibles/stone_small_lw_1",
   destruction_sound = "stone",
@@ -2351,37 +2351,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_54",
-  layer = -2,
-  x = 456,
-  y = 269,
-  sprite = "destructibles/stone_small_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
-}
-
-destructible{
-  name = "Big_stone_deathmountain_entrance_55",
-  layer = -2,
-  x = 456,
-  y = 285,
-  sprite = "destructibles/stone_small_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
-}
-
-destructible{
-  name = "Big_stone_deathmountain_entrance_56",
-  layer = -2,
-  x = 456,
-  y = 301,
-  sprite = "destructibles/stone_small_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
-}
-
-destructible{
-  name = "Big_stone_deathmountain_entrance_57",
+  name = "stone_white_santuary_9",
   layer = -2,
   x = 456,
   y = 317,
@@ -2391,9 +2361,9 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_58",
+  name = "stone_white_santuary_1",
   layer = -2,
-  x = 232,
+  x = 456,
   y = 253,
   sprite = "destructibles/stone_small_lw_1",
   destruction_sound = "stone",
@@ -2401,7 +2371,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_59",
+  name = "stone_white_santuary_2",
   layer = -2,
   x = 232,
   y = 269,
@@ -2411,7 +2381,17 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_60",
+  name = "stone_white_santuary_3",
+  layer = -2,
+  x = 456,
+  y = 269,
+  sprite = "destructibles/stone_small_lw_1",
+  destruction_sound = "stone",
+  weight = 1,
+}
+
+destructible{
+  name = "stone_white_santuary_4",
   layer = -2,
   x = 232,
   y = 285,
@@ -2421,7 +2401,17 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_61",
+  name = "stone_white_santuary_5",
+  layer = -2,
+  x = 456,
+  y = 285,
+  sprite = "destructibles/stone_small_lw_1",
+  destruction_sound = "stone",
+  weight = 1,
+}
+
+destructible{
+  name = "stone_white_santuary_6",
   layer = -2,
   x = 232,
   y = 301,
@@ -2431,7 +2421,17 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_62",
+  name = "stone_white_santuary_7",
+  layer = -2,
+  x = 456,
+  y = 301,
+  sprite = "destructibles/stone_small_lw_1",
+  destruction_sound = "stone",
+  weight = 1,
+}
+
+destructible{
+  name = "stone_white_santuary_8",
   layer = -2,
   x = 232,
   y = 317,

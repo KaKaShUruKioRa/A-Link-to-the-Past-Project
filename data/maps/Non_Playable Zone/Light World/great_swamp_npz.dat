@@ -13893,7 +13893,7 @@ teletransporter{
   y = 288,
   width = 16,
   height = 16,
-  destination_map = "Non_Playable Zone/Light World/wooden_bridge_north",
+  destination_map = "Non_Playable Zone/Light World/wooden_bridge_north_npz",
   destination = "dest_vortex_wooden_bridge_north_0",
   sprite = "entities/teletransporter_vortex",
   sound = "warp",
@@ -32306,7 +32306,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "Non_Playable Zone/Light World/link_forest",
+  destination_map = "Non_Playable Zone/Light World/link_forest_npz",
   destination = "_side",
 }
 
