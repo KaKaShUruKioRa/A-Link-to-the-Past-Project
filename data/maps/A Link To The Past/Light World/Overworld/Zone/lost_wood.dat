@@ -11949,6 +11949,33 @@ teletransporter{
 
 tile{
   layer = 1,
+  x = 112,
+  y = 112,
+  width = 48,
+  height = 16,
+  pattern = "1353",
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = 120,
+  width = 48,
+  height = 8,
+  pattern = "1453",
+}
+
+tile{
+  layer = 1,
+  x = -32,
+  y = 72,
+  width = 192,
+  height = 48,
+  pattern = "1455",
+}
+
+tile{
+  layer = 1,
   x = 536,
   y = 736,
   width = 8,
@@ -12053,15 +12080,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-}
-
-tile{
-  layer = 1,
-  x = 112,
-  y = 112,
-  width = 48,
-  height = 16,
-  pattern = "1353",
 }
 
 tile{
@@ -15711,15 +15729,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 112,
-  y = 120,
-  width = 48,
-  height = 8,
-  pattern = "1453",
-}
-
-tile{
-  layer = 1,
   x = 224,
   y = 152,
   width = 48,
@@ -18596,15 +18605,6 @@ tile{
   width = 32,
   height = 16,
   pattern = "1406",
-}
-
-tile{
-  layer = 1,
-  x = -32,
-  y = 72,
-  width = 192,
-  height = 48,
-  pattern = "1455",
 }
 
 tile{

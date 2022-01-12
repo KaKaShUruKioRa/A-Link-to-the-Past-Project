@@ -6537,7 +6537,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/Zone/plain_of_ruin_south",
+  destination_map = "A Link To The Past/Light World/Overworld/Zone/plain_of_ruins_south",
   destination = "_side",
 }
 

@@ -6471,8 +6471,8 @@ teletransporter{
   y = 256,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/Zone/link_house",
-  destination = "dest_secret",
+  destination_map = "A Link To The Past/Light World/House/link_house",
+  destination = "dest_link_house_0",
 }
 
 jumper{
@@ -7448,6 +7448,14 @@ destination{
   layer = 2,
   x = 256,
   y = 256,
+  direction = 3,
+}
+
+destination{
+  name = "dest_link_house_0",
+  layer = 2,
+  x = 192,
+  y = 285,
   direction = 3,
 }
 

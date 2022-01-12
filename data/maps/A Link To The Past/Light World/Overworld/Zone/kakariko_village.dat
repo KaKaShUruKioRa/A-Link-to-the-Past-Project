@@ -13371,6 +13371,15 @@ tile{
   tileset = "out/outside_buildings",
 }
 
+tile{
+  layer = 0,
+  x = 960,
+  y = 648,
+  width = 8,
+  height = 8,
+  pattern = "1019",
+}
+
 jumper{
   name = "jump_kakariko_village_0",
   layer = 0,

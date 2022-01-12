@@ -22636,9 +22636,9 @@ tile{
 
 tile{
   layer = -4,
-  x = 3320,
+  x = 3312,
   y = 1560,
-  width = 248,
+  width = 256,
   height = 872,
   pattern = "129",
 }
@@ -23252,7 +23252,7 @@ tile{
   y = 736,
   width = 120,
   height = 40,
-  pattern = "3979",
+  pattern = "3976",
 }
 
 tile{
@@ -23261,7 +23261,7 @@ tile{
   y = 736,
   width = 40,
   height = 40,
-  pattern = "3979",
+  pattern = "3976",
 }
 
 tile{
@@ -38793,6 +38793,15 @@ tile{
   layer = -4,
   x = 2672,
   y = 2696,
+  width = 16,
+  height = 8,
+  pattern = "129",
+}
+
+tile{
+  layer = -4,
+  x = 3072,
+  y = 2392,
   width = 16,
   height = 8,
   pattern = "129",
@@ -162648,13 +162657,16 @@ destructible{
   weight = 1,
 }
 
-destructible{
-  name = "Big_stone_hyrule_castle_0",
+custom_entity{
+  name = "big_stone_white_hyrule_castle_0",
   layer = -2,
   x = 2472,
   y = 2205,
+  width = 32,
+  height = 32,
+  direction = 0,
   sprite = "destructibles/stone_big_lw_1",
-  weight = 1,
+  model = "stone_big_white",
 }
 
 destructible{
@@ -178082,94 +178094,6 @@ destructible{
 }
 
 destructible{
-  name = "hammer_stake_death_mountain_0",
-  layer = -2,
-  x = 2696,
-  y = 189,
-  sprite = "entities/hammer_stake_brown",
-  destruction_sound = "hammer_stake",
-  weight = -1,
-  damage_on_enemies = 0,
-}
-
-destructible{
-  name = "hammer_stake_death_mountain_1",
-  layer = -2,
-  x = 3016,
-  y = 189,
-  sprite = "entities/hammer_stake_brown",
-  destruction_sound = "hammer_stake",
-  weight = -1,
-  damage_on_enemies = 0,
-}
-
-destructible{
-  name = "hammer_stake_death_mountain_2",
-  layer = -2,
-  x = 3032,
-  y = 189,
-  sprite = "entities/hammer_stake_brown",
-  destruction_sound = "hammer_stake",
-  weight = -1,
-  damage_on_enemies = 0,
-}
-
-destructible{
-  name = "hammer_stake_death_mountain_3",
-  layer = -2,
-  x = 3032,
-  y = 205,
-  sprite = "entities/hammer_stake_brown",
-  destruction_sound = "hammer_stake",
-  weight = -1,
-  damage_on_enemies = 0,
-}
-
-destructible{
-  name = "hammer_stake_death_mountain_4",
-  layer = -2,
-  x = 3032,
-  y = 221,
-  sprite = "entities/hammer_stake_brown",
-  destruction_sound = "hammer_stake",
-  weight = -1,
-  damage_on_enemies = 0,
-}
-
-destructible{
-  name = "hammer_stake_death_mountain_5",
-  layer = -2,
-  x = 2696,
-  y = 237,
-  sprite = "entities/hammer_stake_brown",
-  destruction_sound = "hammer_stake",
-  weight = -1,
-  damage_on_enemies = 0,
-}
-
-destructible{
-  name = "hammer_stake_death_mountain_6",
-  layer = -2,
-  x = 3016,
-  y = 237,
-  sprite = "entities/hammer_stake_brown",
-  destruction_sound = "hammer_stake",
-  weight = -1,
-  damage_on_enemies = 0,
-}
-
-destructible{
-  name = "hammer_stake_death_mountain_7",
-  layer = -2,
-  x = 3032,
-  y = 237,
-  sprite = "entities/hammer_stake_brown",
-  destruction_sound = "hammer_stake",
-  weight = -1,
-  damage_on_enemies = 0,
-}
-
-destructible{
   name = "explode_stone_fortune_teller_0",
   layer = -2,
   x = 648,
@@ -178189,22 +178113,28 @@ destructible{
   weight = 1,
 }
 
-destructible{
-  name = "Big_stone_hyrule_castle_1",
+custom_entity{
+  name = "big_stone_white_hyrule_castle_1",
   layer = -2,
   x = 1640,
   y = 1709,
+  width = 32,
+  height = 32,
+  direction = 0,
   sprite = "destructibles/stone_big_lw_1",
-  weight = 1,
+  model = "stone_big_white",
 }
 
-destructible{
-  name = "Big_stone_hyrule_castle_2",
+custom_entity{
+  name = "big_stone_white_hyrule_castle_2",
   layer = -2,
   x = 1672,
   y = 1677,
+  width = 32,
+  height = 32,
+  direction = 0,
   sprite = "destructibles/stone_big_lw_1",
-  weight = 1,
+  model = "stone_big_white",
 }
 
 destructible{
@@ -178777,6 +178707,75 @@ teletransporter{
   height = 16,
   destination_map = "A Link To The Past/Light World/Overworld/Zone/lost_wood",
   destination = "dest_map_lost_wood_1",
+}
+
+tile{
+  layer = -1,
+  x = 2736,
+  y = 728,
+  width = 224,
+  height = 8,
+  pattern = "11",
+}
+
+tile{
+  layer = -1,
+  x = 2160,
+  y = 3824,
+  width = 16,
+  height = 16,
+  pattern = "34",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = -1,
+  x = 2080,
+  y = 3616,
+  width = 16,
+  height = 16,
+  pattern = "34",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = -1,
+  x = 2192,
+  y = 3760,
+  width = 16,
+  height = 16,
+  pattern = "33",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = -1,
+  x = 2112,
+  y = 3824,
+  width = 16,
+  height = 16,
+  pattern = "33",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = -1,
+  x = 1856,
+  y = 3504,
+  width = 16,
+  height = 16,
+  pattern = "34",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = -1,
+  x = 2240,
+  y = 3696,
+  width = 16,
+  height = 16,
+  pattern = "32",
+  tileset = "out/outside_lightworld_buildings",
 }
 
 tile{
@@ -196154,17 +196153,17 @@ tile{
   x = 2736,
   y = 720,
   width = 224,
+  height = 8,
+  pattern = "12",
+}
+
+tile{
+  layer = -1,
+  x = 2960,
+  y = 776,
+  width = 16,
   height = 16,
-  pattern = "2249",
-}
-
-tile{
-  layer = -1,
-  x = 2960,
-  y = 776,
-  width = 16,
-  height = 24,
-  pattern = "3970",
+  pattern = "10",
 }
 
 tile{
@@ -196172,8 +196171,8 @@ tile{
   x = 2960,
   y = 712,
   width = 16,
-  height = 24,
-  pattern = "3970",
+  height = 16,
+  pattern = "10",
 }
 
 tile{
@@ -196181,8 +196180,8 @@ tile{
   x = 2720,
   y = 712,
   width = 16,
-  height = 24,
-  pattern = "3970",
+  height = 16,
+  pattern = "10",
 }
 
 tile{
@@ -196190,8 +196189,8 @@ tile{
   x = 2720,
   y = 776,
   width = 16,
-  height = 24,
-  pattern = "3970",
+  height = 16,
+  pattern = "10",
 }
 
 tile{
@@ -205470,7 +205469,7 @@ tile{
   y = 776,
   width = 224,
   height = 16,
-  pattern = "3954",
+  pattern = "3977",
 }
 
 tile{
@@ -275852,7 +275851,7 @@ tile{
   y = 208,
   width = 256,
   height = 16,
-  pattern = "3979",
+  pattern = "3976",
 }
 
 tile{
@@ -276500,7 +276499,7 @@ tile{
   y = 96,
   width = 272,
   height = 16,
-  pattern = "3979",
+  pattern = "3976",
 }
 
 tile{
@@ -294507,6 +294506,111 @@ tile{
 }
 
 tile{
+  layer = 0,
+  x = 1624,
+  y = 368,
+  width = 48,
+  height = 8,
+  pattern = "1778",
+}
+
+custom_entity{
+  name = "stake_hammer_death_mountain_east_0",
+  layer = 0,
+  x = 2696,
+  y = 189,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hammer_stake_brown",
+  model = "hammer_stake",
+}
+
+custom_entity{
+  name = "stake_hammer_death_mountain_east_1",
+  layer = 0,
+  x = 3016,
+  y = 189,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hammer_stake_brown",
+  model = "hammer_stake",
+}
+
+custom_entity{
+  name = "stake_hammer_death_mountain_east_2",
+  layer = 0,
+  x = 3032,
+  y = 189,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hammer_stake_brown",
+  model = "hammer_stake",
+}
+
+custom_entity{
+  name = "stake_hammer_death_mountain_east_3",
+  layer = 0,
+  x = 3032,
+  y = 205,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hammer_stake_brown",
+  model = "hammer_stake",
+}
+
+custom_entity{
+  name = "stake_hammer_death_mountain_east_4",
+  layer = 0,
+  x = 3032,
+  y = 221,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hammer_stake_brown",
+  model = "hammer_stake",
+}
+
+custom_entity{
+  name = "stake_hammer_death_mountain_east_5",
+  layer = 0,
+  x = 2696,
+  y = 237,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hammer_stake_brown",
+  model = "hammer_stake",
+}
+
+custom_entity{
+  name = "stake_hammer_death_mountain_east_6",
+  layer = 0,
+  x = 3016,
+  y = 237,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hammer_stake_brown",
+  model = "hammer_stake",
+}
+
+custom_entity{
+  name = "stake_hammer_death_mountain_east_7",
+  layer = 0,
+  x = 3032,
+  y = 237,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hammer_stake_brown",
+  model = "hammer_stake",
+}
+
+tile{
   layer = 1,
   x = 960,
   y = 3728,
@@ -303895,8 +303999,8 @@ tile{
   x = 2736,
   y = 192,
   width = 256,
-  height = 16,
-  pattern = "2249",
+  height = 8,
+  pattern = "12",
 }
 
 tile{
@@ -303905,7 +304009,7 @@ tile{
   y = 216,
   width = 256,
   height = 16,
-  pattern = "3954",
+  pattern = "3977",
 }
 
 tile{
@@ -303913,8 +304017,8 @@ tile{
   x = 2992,
   y = 216,
   width = 16,
-  height = 24,
-  pattern = "3970",
+  height = 16,
+  pattern = "10",
 }
 
 tile{
@@ -303922,8 +304026,8 @@ tile{
   x = 2992,
   y = 184,
   width = 16,
-  height = 24,
-  pattern = "3970",
+  height = 16,
+  pattern = "10",
 }
 
 tile{
@@ -303931,8 +304035,8 @@ tile{
   x = 2720,
   y = 184,
   width = 16,
-  height = 24,
-  pattern = "3970",
+  height = 16,
+  pattern = "10",
 }
 
 tile{
@@ -303940,8 +304044,8 @@ tile{
   x = 2720,
   y = 216,
   width = 16,
-  height = 24,
-  pattern = "3970",
+  height = 16,
+  pattern = "10",
 }
 
 tile{
@@ -303949,8 +304053,8 @@ tile{
   x = 1856,
   y = 80,
   width = 272,
-  height = 16,
-  pattern = "2249",
+  height = 8,
+  pattern = "12",
 }
 
 tile{
@@ -303959,7 +304063,7 @@ tile{
   y = 104,
   width = 272,
   height = 16,
-  pattern = "3954",
+  pattern = "3977",
 }
 
 tile{
@@ -303967,8 +304071,8 @@ tile{
   x = 2128,
   y = 104,
   width = 16,
-  height = 24,
-  pattern = "3970",
+  height = 16,
+  pattern = "10",
 }
 
 tile{
@@ -303976,8 +304080,8 @@ tile{
   x = 2128,
   y = 72,
   width = 16,
-  height = 24,
-  pattern = "3970",
+  height = 16,
+  pattern = "10",
 }
 
 tile{
@@ -303985,8 +304089,8 @@ tile{
   x = 1840,
   y = 72,
   width = 16,
-  height = 24,
-  pattern = "3970",
+  height = 16,
+  pattern = "10",
 }
 
 tile{
@@ -303994,8 +304098,8 @@ tile{
   x = 1840,
   y = 104,
   width = 16,
-  height = 24,
-  pattern = "3970",
+  height = 16,
+  pattern = "10",
 }
 
 tile{
@@ -306688,6 +306792,168 @@ tile{
   height = 32,
   pattern = "1503",
   tileset = "out/outside_main",
+}
+
+tile{
+  layer = 2,
+  x = 3264,
+  y = 232,
+  width = 16,
+  height = 8,
+  pattern = "9",
+}
+
+tile{
+  layer = 2,
+  x = 3264,
+  y = 200,
+  width = 16,
+  height = 8,
+  pattern = "9",
+}
+
+tile{
+  layer = 2,
+  x = 2992,
+  y = 200,
+  width = 16,
+  height = 8,
+  pattern = "9",
+}
+
+tile{
+  layer = 2,
+  x = 2992,
+  y = 232,
+  width = 16,
+  height = 8,
+  pattern = "9",
+}
+
+tile{
+  layer = 2,
+  x = 2400,
+  y = 120,
+  width = 16,
+  height = 8,
+  pattern = "9",
+}
+
+tile{
+  layer = 2,
+  x = 2400,
+  y = 88,
+  width = 16,
+  height = 8,
+  pattern = "9",
+}
+
+tile{
+  layer = 2,
+  x = 2128,
+  y = 88,
+  width = 16,
+  height = 8,
+  pattern = "9",
+}
+
+tile{
+  layer = 2,
+  x = 2128,
+  y = 120,
+  width = 16,
+  height = 8,
+  pattern = "9",
+}
+
+tile{
+  layer = 2,
+  x = 1840,
+  y = 88,
+  width = 16,
+  height = 8,
+  pattern = "9",
+}
+
+tile{
+  layer = 2,
+  x = 1840,
+  y = 120,
+  width = 16,
+  height = 8,
+  pattern = "9",
+}
+
+tile{
+  layer = 2,
+  x = 2720,
+  y = 200,
+  width = 16,
+  height = 8,
+  pattern = "9",
+}
+
+tile{
+  layer = 2,
+  x = 2720,
+  y = 232,
+  width = 16,
+  height = 8,
+  pattern = "9",
+}
+
+tile{
+  layer = 2,
+  x = 2720,
+  y = 728,
+  width = 16,
+  height = 8,
+  pattern = "9",
+}
+
+tile{
+  layer = 2,
+  x = 2720,
+  y = 792,
+  width = 16,
+  height = 8,
+  pattern = "9",
+}
+
+tile{
+  layer = 2,
+  x = 2960,
+  y = 728,
+  width = 16,
+  height = 8,
+  pattern = "9",
+}
+
+tile{
+  layer = 2,
+  x = 2960,
+  y = 792,
+  width = 16,
+  height = 8,
+  pattern = "9",
+}
+
+tile{
+  layer = 2,
+  x = 2736,
+  y = 200,
+  width = 256,
+  height = 8,
+  pattern = "11",
+}
+
+tile{
+  layer = 2,
+  x = 1856,
+  y = 88,
+  width = 264,
+  height = 8,
+  pattern = "11",
 }
 
 destructible{
@@ -347158,9 +347424,9 @@ tile{
 
 tile{
   layer = 5,
-  x = -56,
+  x = -8,
   y = 24,
-  width = 192,
+  width = 144,
   height = 48,
   pattern = "1455",
 }
@@ -347176,9 +347442,9 @@ tile{
 
 tile{
   layer = 5,
-  x = -56,
+  x = -8,
   y = 120,
-  width = 192,
+  width = 144,
   height = 48,
   pattern = "1455",
 }

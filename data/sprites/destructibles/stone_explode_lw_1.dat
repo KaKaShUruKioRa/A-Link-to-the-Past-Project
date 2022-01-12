@@ -2,7 +2,10 @@ animation{
   name = "on_ground",
   src_image = "destructibles/big_stone.png",
   directions = {
-    { x = 192, y = 0, frame_width = 32, frame_height = 40, origin_x = 8, origin_y = 13 },
+    { x = 192, y = 0, frame_width = 32, frame_height = 32, origin_x = 8, origin_y = 13 },
+    { x = 192, y = 0, frame_width = 32, frame_height = 32, origin_x = 8, origin_y = 13 },
+    { x = 192, y = 0, frame_width = 32, frame_height = 32, origin_x = 8, origin_y = 13 },
+    { x = 192, y = 0, frame_width = 32, frame_height = 32, origin_x = 8, origin_y = 13 },
   },
 }
 animation{
@@ -11,13 +14,19 @@ animation{
   frame_delay = 100,
   directions = {
     { x = 0, y = 24, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 8 },
+    { x = 0, y = 24, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 8 },
+    { x = 0, y = 24, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 8 },
+    { x = 0, y = 24, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 8 },
   },
 }
 animation{
   name = "stopped",
   src_image = "destructibles/big_stone.png",
   directions = {
-    { x = 192, y = 0, frame_width = 32, frame_height = 40, origin_x = 8, origin_y = 13 },
+    { x = 192, y = 0, frame_width = 32, frame_height = 32, origin_x = 8, origin_y = 13 },
+    { x = 192, y = 0, frame_width = 32, frame_height = 32, origin_x = 8, origin_y = 13 },
+    { x = 192, y = 0, frame_width = 32, frame_height = 32, origin_x = 8, origin_y = 13 },
+    { x = 192, y = 0, frame_width = 32, frame_height = 32, origin_x = 8, origin_y = 13 },
   },
 }
 animation{
@@ -26,6 +35,9 @@ animation{
   frame_delay = 100,
   frame_to_loop_on = 0,
   directions = {
+    { x = 192, y = 0, frame_width = 32, frame_height = 40, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 192, y = 0, frame_width = 32, frame_height = 40, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 192, y = 0, frame_width = 32, frame_height = 40, origin_x = 8, origin_y = 13, num_frames = 3 },
     { x = 192, y = 0, frame_width = 32, frame_height = 40, origin_x = 8, origin_y = 13, num_frames = 3 },
   },
 }

@@ -7221,6 +7221,44 @@ tile{
   tileset = "out/outside_buildings",
 }
 
+tile{
+  layer = 0,
+  x = 280,
+  y = 304,
+  width = 16,
+  height = 16,
+  pattern = "1",
+  tileset = "out/outside_buildings",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 304,
+  width = 16,
+  height = 16,
+  pattern = "2",
+  tileset = "out/outside_buildings",
+}
+
+tile{
+  layer = 0,
+  x = 608,
+  y = 320,
+  width = 16,
+  height = 32,
+  pattern = "1111",
+}
+
+tile{
+  layer = 0,
+  x = 640,
+  y = 320,
+  width = 16,
+  height = 32,
+  pattern = "1111",
+}
+
 destructible{
   name = "bush_desert_of_mystery_0",
   layer = 0,
@@ -7298,9 +7336,9 @@ jumper{
   name = "jump_desert_of_mystery_3",
   layer = 0,
   x = 512,
-  y = 280,
-  width = 40,
-  height = 40,
+  y = 288,
+  width = 32,
+  height = 32,
   direction = 7,
   jump_length = 32,
 }
@@ -7319,10 +7357,10 @@ jumper{
 jumper{
   name = "jump_desert_of_mystery_5",
   layer = 0,
-  x = 296,
-  y = 536,
-  width = 40,
-  height = 40,
+  x = 304,
+  y = 544,
+  width = 32,
+  height = 32,
   direction = 5,
   jump_length = 32,
 }
@@ -15414,6 +15452,15 @@ tile{
   pattern = "1259",
 }
 
+tile{
+  layer = 1,
+  x = 48,
+  y = 640,
+  width = 16,
+  height = 32,
+  pattern = "1111",
+}
+
 jumper{
   name = "jump_desert_of_mystery_20",
   layer = 1,
@@ -15876,7 +15923,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/Zone/plain_of_ruin_south",
+  destination_map = "A Link To The Past/Light World/Overworld/Zone/plain_of_ruins_south",
   destination = "_side",
 }
 
