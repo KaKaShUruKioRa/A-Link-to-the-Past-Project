@@ -30509,7 +30509,7 @@ destination{
   name = "dest_vortex_santuary_lake_0",
   layer = -6,
   x = 1264,
-  y = 1293,
+  y = 1277,
   direction = 1,
 }
 
@@ -30529,9 +30529,9 @@ teletransporter{
 destination{
   name = "dest_vortex_lake_hylia_0",
   layer = -6,
-  x = 3216,
+  x = 3232,
   y = 3773,
-  direction = 1,
+  direction = 0,
 }
 
 teletransporter{
@@ -30551,7 +30551,7 @@ destination{
   name = "dest_vortex_waterfall_of_wishing_0",
   layer = -6,
   x = 3712,
-  y = 829,
+  y = 813,
   direction = 1,
 }
 
@@ -30572,8 +30572,8 @@ destination{
   name = "dest_vortex_wooden_bridge_north_0",
   layer = -6,
   x = 2832,
-  y = 1181,
-  direction = 1,
+  y = 1197,
+  direction = 3,
 }
 
 teletransporter{
@@ -30593,8 +30593,8 @@ destination{
   name = "dest_vortex_river_hylia_south_0",
   layer = -6,
   x = 3696,
-  y = 3789,
-  direction = 1,
+  y = 3805,
+  direction = 3,
 }
 
 teletransporter{
@@ -171826,9 +171826,9 @@ destructible{
 destination{
   name = "dest_vortex_great_swamp_0",
   layer = -2,
-  x = 1904,
+  x = 1920,
   y = 3373,
-  direction = 1,
+  direction = 0,
 }
 
 destructible{

@@ -3211,14 +3211,16 @@ destination{
   direction = 3,
 }
 
-destructible{
+custom_entity{
   name = "explode_stone_fortune_teller_0",
   layer = 0,
   x = 136,
   y = 269,
+  width = 32,
+  height = 32,
+  direction = 0,
   sprite = "destructibles/stone_explode_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
+  model = "stone_explode",
 }
 
 destructible{

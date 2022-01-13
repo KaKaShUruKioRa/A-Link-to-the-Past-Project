@@ -3771,14 +3771,16 @@ destructible{
   destruction_sound = "stone",
 }
 
-destructible{
+custom_entity{
   name = "big_stone_white_magic_shop_0",
   layer = 0,
   x = 392,
   y = 301,
+  width = 32,
+  height = 32,
+  direction = 0,
   sprite = "destructibles/stone_big_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
+  model = "stone_big_white",
 }
 
 destructible{

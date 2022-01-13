@@ -5839,8 +5839,8 @@ destination{
   name = "dest_vortex_wooden_bridge_north_0",
   layer = 0,
   x = 272,
-  y = 157,
-  direction = 1,
+  y = 173,
+  direction = 3,
 }
 
 teletransporter{

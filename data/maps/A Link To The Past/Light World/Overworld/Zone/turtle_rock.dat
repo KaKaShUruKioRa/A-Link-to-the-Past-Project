@@ -7539,14 +7539,16 @@ destructible{
   weight = 2,
 }
 
-destructible{
+custom_entity{
   name = "big_stone_black_turtle_rock_0",
   layer = 1,
   x = 264,
   y = 365,
+  width = 32,
+  height = 32,
+  direction = 0,
   sprite = "destructibles/stone_big_lw_2",
-  destruction_sound = "stone",
-  weight = 2,
+  model = "stone_big_black",
 }
 
 destructible{

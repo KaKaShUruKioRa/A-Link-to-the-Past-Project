@@ -23618,14 +23618,16 @@ destructible{
   weight = 2,
 }
 
-destructible{
+custom_entity{
   name = "explode_stone_death_mountain_east_0",
   layer = 0,
   x = 840,
   y = 269,
+  width = 32,
+  height = 32,
+  direction = 0,
   sprite = "destructibles/stone_explode_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
+  model = "stone_explode",
 }
 
 jumper{

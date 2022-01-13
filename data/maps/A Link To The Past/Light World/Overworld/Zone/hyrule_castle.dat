@@ -13684,17 +13684,20 @@ destructible{
   destruction_sound = "stone",
 }
 
-destructible{
-  name = "Big_stone_hyrule_castle_0",
+custom_entity{
+  name = "big_stone_white_hyrule_castle_0",
   layer = 0,
   x = 136,
   y = 141,
+  width = 32,
+  height = 32,
+  direction = 0,
   sprite = "destructibles/stone_big_lw_1",
-  weight = 1,
+  model = "stone_big_white",
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_99",
+  name = "stone_white_hyrule_castle_4",
   layer = 0,
   x = 904,
   y = 941,
@@ -13704,7 +13707,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_100",
+  name = "stone_white_hyrule_castle_5",
   layer = 0,
   x = 920,
   y = 957,
@@ -13845,22 +13848,28 @@ destructible{
   ground = "grass",
 }
 
-destructible{
-  name = "Big_stone_hyrule_castle_1",
+custom_entity{
+  name = "big_stone_white_hyrule_castle_1",
   layer = 0,
   x = 104,
   y = 173,
+  width = 32,
+  height = 32,
+  direction = 0,
   sprite = "destructibles/stone_big_lw_1",
-  weight = 1,
+  model = "stone_big_white",
 }
 
-destructible{
-  name = "Big_stone_hyrule_castle_2",
+custom_entity{
+  name = "big_stone_white_hyrule_castle_2",
   layer = 0,
   x = 936,
   y = 669,
+  width = 32,
+  height = 32,
+  direction = 0,
   sprite = "destructibles/stone_big_lw_1",
-  weight = 1,
+  model = "stone_big_white",
 }
 
 destructible{

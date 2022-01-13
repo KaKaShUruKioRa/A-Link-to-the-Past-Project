@@ -5963,8 +5963,8 @@ destination{
   name = "dest_vortex_river_hylia_south_0",
   layer = 0,
   x = 112,
-  y = 205,
-  direction = 1,
+  y = 221,
+  direction = 3,
 }
 
 teletransporter{

@@ -723,9 +723,9 @@ entity{ id = "fire", description = "Fire" }
 entity{ id = "hammer_stake", description = "Hammer Stake" }
 entity{ id = "ice_beam", description = "Ice Beam" }
 entity{ id = "powder", description = "Powder" }
-entity{ id = "stone_big_black" }
+entity{ id = "stone_big_black", description = "Big Stone Black" }
 entity{ id = "stone_big_white", description = "Big Stone White" }
-entity{ id = "stone_explode" }
+entity{ id = "stone_explode", description = "Explode Stone" }
 entity{ id = "torch", description = "Torch" }
 
 language{ id = "en", description = "English" }
