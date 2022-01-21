@@ -22164,8 +22164,8 @@ tile_pattern{
 
 tile_pattern{
   id = "14005",
-  ground = "traversable",
-  default_layer = 1,
+  ground = "wall",
+  default_layer = 0,
   x = 584,
   y = 112,
   width = 32,
@@ -22186,8 +22186,8 @@ tile_pattern{
 
 tile_pattern{
   id = "14007",
-  ground = "traversable",
-  default_layer = 1,
+  ground = "wall",
+  default_layer = 0,
   x = 584,
   y = 256,
   width = 32,

@@ -17,7 +17,7 @@ tile{
   width = 4096,
   height = 4096,
   pattern = "1",
-  tileset = "out/light_overworld",
+  tileset = "blueprint/light_overworld",
 }
 
 tile{
@@ -37065,7 +37065,7 @@ tile{
   width = 16,
   height = 16,
   pattern = "8316",
-  tileset = "out/outside_buildings",
+  tileset = "out/outside_lightworld_buildings",
 }
 
 tile{
@@ -155018,7 +155018,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "4186",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -155028,7 +155027,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "4186",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -155038,7 +155036,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "4186",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -155048,7 +155045,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "4186",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -162648,7 +162644,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_15",
+  name = "stone_white_deathmountain_entrance_15",
   layer = -2,
   x = 1688,
   y = 3917,
@@ -162670,7 +162666,7 @@ custom_entity{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_83",
+  name = "stone_black_deathmountain_entrance_83",
   layer = -2,
   x = 1400,
   y = 3949,
@@ -162680,7 +162676,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_84",
+  name = "stone_white_deathmountain_entrance_84",
   layer = -2,
   x = 1800,
   y = 3725,
@@ -162690,7 +162686,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_85",
+  name = "stone_white_deathmountain_entrance_85",
   layer = -2,
   x = 2248,
   y = 3805,
@@ -162700,7 +162696,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_86",
+  name = "stone_white_deathmountain_entrance_86",
   layer = -2,
   x = 2232,
   y = 3693,
@@ -162710,7 +162706,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_87",
+  name = "stone_white_deathmountain_entrance_87",
   layer = -2,
   x = 2376,
   y = 3677,
@@ -162720,7 +162716,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_88",
+  name = "stone_white_deathmountain_entrance_88",
   layer = -2,
   x = 2136,
   y = 3709,
@@ -162730,7 +162726,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_89",
+  name = "stone_white_deathmountain_entrance_89",
   layer = -2,
   x = 2104,
   y = 3741,
@@ -162740,7 +162736,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_16",
+  name = "stone_white_deathmountain_entrance_16",
   layer = -2,
   x = 1336,
   y = 3757,
@@ -162750,7 +162746,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_17",
+  name = "stone_white_deathmountain_entrance_17",
   layer = -2,
   x = 1368,
   y = 3757,
@@ -162760,7 +162756,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_18",
+  name = "stone_white_deathmountain_entrance_18",
   layer = -2,
   x = 1400,
   y = 3757,
@@ -162770,7 +162766,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_19",
+  name = "stone_white_deathmountain_entrance_19",
   layer = -2,
   x = 1400,
   y = 3725,
@@ -162780,7 +162776,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_20",
+  name = "stone_white_deathmountain_entrance_20",
   layer = -2,
   x = 1416,
   y = 3709,
@@ -162790,7 +162786,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_21",
+  name = "stone_white_deathmountain_entrance_21",
   layer = -2,
   x = 1384,
   y = 3821,
@@ -162800,7 +162796,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_22",
+  name = "stone_white_deathmountain_entrance_22",
   layer = -2,
   x = 1384,
   y = 3901,
@@ -162810,7 +162806,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_23",
+  name = "stone_white_deathmountain_entrance_23",
   layer = -2,
   x = 1384,
   y = 3933,
@@ -162819,18 +162815,20 @@ destructible{
   weight = 1,
 }
 
-destructible{
-  name = "Big_stone_entrance_desert_0",
+custom_entity{
+  name = "big_stone_entrance_desert_0",
   layer = -2,
   x = 1272,
   y = 3853,
+  width = 32,
+  height = 32,
+  direction = 0,
   sprite = "destructibles/stone_big_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
+  model = "stone_big_white",
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_91",
+  name = "stone_white_deathmountain_entrance_91",
   layer = -2,
   x = 1416,
   y = 3965,
@@ -162840,7 +162838,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_93",
+  name = "stone_white_deathmountain_entrance_93",
   layer = -2,
   x = 344,
   y = 2765,
@@ -162850,7 +162848,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_94",
+  name = "stone_white_deathmountain_entrance_94",
   layer = -2,
   x = 2184,
   y = 2893,
@@ -162860,7 +162858,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_95",
+  name = "stone_white_deathmountain_entrance_95",
   layer = -2,
   x = 2200,
   y = 2893,
@@ -162870,7 +162868,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_96",
+  name = "stone_white_deathmountain_entrance_96",
   layer = -2,
   x = 2264,
   y = 2893,
@@ -162880,7 +162878,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_97",
+  name = "stone_white_deathmountain_entrance_97",
   layer = -2,
   x = 2280,
   y = 2893,
@@ -162890,7 +162888,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_98",
+  name = "stone_white_deathmountain_entrance_98",
   layer = -2,
   x = 2296,
   y = 2893,
@@ -162900,7 +162898,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_99",
+  name = "stone_white_deathmountain_entrance_99",
   layer = -2,
   x = 2440,
   y = 2477,
@@ -162910,7 +162908,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_100",
+  name = "stone_white_deathmountain_entrance_100",
   layer = -2,
   x = 2456,
   y = 2493,
@@ -162920,7 +162918,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_29",
+  name = "stone_white_deathmountain_entrance_29",
   layer = -2,
   x = 3928,
   y = 3197,
@@ -162930,7 +162928,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_30",
+  name = "stone_white_deathmountain_entrance_30",
   layer = -2,
   x = 3784,
   y = 3245,
@@ -162940,7 +162938,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_32",
+  name = "stone_white_deathmountain_entrance_32",
   layer = -2,
   x = 3816,
   y = 2941,
@@ -162950,7 +162948,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_33",
+  name = "stone_white_deathmountain_entrance_33",
   layer = -2,
   x = 3768,
   y = 2989,
@@ -162960,7 +162958,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_34",
+  name = "stone_white_deathmountain_entrance_34",
   layer = -2,
   x = 3736,
   y = 2989,
@@ -162970,7 +162968,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_35",
+  name = "stone_white_deathmountain_entrance_35",
   layer = -2,
   x = 3688,
   y = 2941,
@@ -162980,7 +162978,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_36",
+  name = "stone_white_deathmountain_entrance_36",
   layer = -2,
   x = 3672,
   y = 2941,
@@ -162990,7 +162988,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_102",
+  name = "stone_white_deathmountain_entrance_102",
   layer = -2,
   x = 3976,
   y = 2493,
@@ -163000,17 +162998,15 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_sorcery_0",
+  name = "stone_white_sorcery_0",
   layer = -2,
   x = 3464,
   y = 1325,
   sprite = "destructibles/stone_big_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_38",
+  name = "stone_white_deathmountain_entrance_38",
   layer = -2,
   x = 2968,
   y = 1613,
@@ -163020,7 +163016,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_39",
+  name = "stone_white_deathmountain_entrance_39",
   layer = -2,
   x = 2984,
   y = 1613,
@@ -163030,7 +163026,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_40",
+  name = "stone_white_deathmountain_entrance_40",
   layer = -2,
   x = 2648,
   y = 1149,
@@ -163040,7 +163036,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_41",
+  name = "stone_white_deathmountain_entrance_41",
   layer = -2,
   x = 2616,
   y = 1245,
@@ -163059,18 +163055,20 @@ destructible{
   weight = 1,
 }
 
-destructible{
+custom_entity{
   name = "big_stone_white_lumberjack_south_0",
   layer = -2,
   x = 1416,
   y = 749,
+  width = 32,
+  height = 32,
+  direction = 0,
   sprite = "destructibles/stone_big_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
+  model = "stone_big_white",
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_43",
+  name = "stone_white_deathmountain_entrance_43",
   layer = -2,
   x = 2472,
   y = 1405,
@@ -163080,7 +163078,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_44",
+  name = "stone_white_deathmountain_entrance_44",
   layer = -2,
   x = 2504,
   y = 1309,
@@ -163090,7 +163088,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_45",
+  name = "stone_white_deathmountain_entrance_45",
   layer = -2,
   x = 2408,
   y = 1229,
@@ -163100,7 +163098,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_46",
+  name = "stone_white_deathmountain_entrance_46",
   layer = -2,
   x = 2328,
   y = 1405,
@@ -163110,7 +163108,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_47",
+  name = "stone_white_deathmountain_entrance_47",
   layer = -2,
   x = 2248,
   y = 1405,
@@ -163120,7 +163118,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_48",
+  name = "stone_white_deathmountain_entrance_48",
   layer = -2,
   x = 2104,
   y = 1309,
@@ -163130,7 +163128,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_49",
+  name = "stone_white_deathmountain_entrance_49",
   layer = -2,
   x = 2104,
   y = 1181,
@@ -163140,7 +163138,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_50",
+  name = "stone_white_deathmountain_entrance_50",
   layer = -2,
   x = 2104,
   y = 1165,
@@ -163150,7 +163148,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_51",
+  name = "stone_white_deathmountain_entrance_51",
   layer = -2,
   x = 2120,
   y = 1229,
@@ -163160,7 +163158,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_52",
+  name = "stone_white_deathmountain_entrance_52",
   layer = -2,
   x = 2136,
   y = 1229,
@@ -163170,7 +163168,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_53",
+  name = "stone_white_deathmountain_entrance_53",
   layer = -2,
   x = 1992,
   y = 1277,
@@ -163180,7 +163178,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_54",
+  name = "stone_white_deathmountain_entrance_54",
   layer = -2,
   x = 1992,
   y = 1293,
@@ -163190,7 +163188,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_55",
+  name = "stone_white_deathmountain_entrance_55",
   layer = -2,
   x = 1992,
   y = 1309,
@@ -163200,7 +163198,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_56",
+  name = "stone_white_deathmountain_entrance_56",
   layer = -2,
   x = 1992,
   y = 1325,
@@ -163210,7 +163208,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_57",
+  name = "stone_white_deathmountain_entrance_57",
   layer = -2,
   x = 1992,
   y = 1341,
@@ -163220,7 +163218,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_58",
+  name = "stone_white_deathmountain_entrance_58",
   layer = -2,
   x = 1768,
   y = 1277,
@@ -163230,7 +163228,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_59",
+  name = "stone_white_deathmountain_entrance_59",
   layer = -2,
   x = 1768,
   y = 1293,
@@ -163240,7 +163238,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_60",
+  name = "stone_white_deathmountain_entrance_60",
   layer = -2,
   x = 1768,
   y = 1309,
@@ -163250,7 +163248,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_61",
+  name = "stone_white_deathmountain_entrance_61",
   layer = -2,
   x = 1768,
   y = 1325,
@@ -163260,7 +163258,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_62",
+  name = "stone_white_deathmountain_entrance_62",
   layer = -2,
   x = 1768,
   y = 1341,
@@ -163270,7 +163268,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_64",
+  name = "stone_white_deathmountain_entrance_64",
   layer = -2,
   x = 936,
   y = 1357,
@@ -163280,7 +163278,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_65",
+  name = "stone_white_deathmountain_entrance_65",
   layer = -2,
   x = 936,
   y = 1373,
@@ -163290,7 +163288,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_66",
+  name = "stone_white_deathmountain_entrance_66",
   layer = -2,
   x = 952,
   y = 1373,
@@ -163300,7 +163298,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_67",
+  name = "stone_white_deathmountain_entrance_67",
   layer = -2,
   x = 984,
   y = 1373,
@@ -163310,7 +163308,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_103",
+  name = "stone_white_deathmountain_entrance_103",
   layer = -2,
   x = 1448,
   y = 1837,
@@ -163320,7 +163318,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_104",
+  name = "stone_white_deathmountain_entrance_104",
   layer = -2,
   x = 1224,
   y = 1885,
@@ -163330,7 +163328,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_105",
+  name = "stone_white_deathmountain_entrance_105",
   layer = -2,
   x = 1112,
   y = 1661,
@@ -163340,7 +163338,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_106",
+  name = "stone_white_deathmountain_entrance_106",
   layer = -2,
   x = 1368,
   y = 1597,
@@ -163349,18 +163347,20 @@ destructible{
   weight = 1,
 }
 
-destructible{
-  name = "Big_stone_entrance_lostwood_0",
+custom_entity{
+  name = "big_stone_entrance_lostwood_0",
   layer = -2,
   x = 312,
   y = 1453,
+  width = 32,
+  height = 32,
+  direction = 0,
   sprite = "destructibles/stone_big_lw_2",
-  destruction_sound = "stone",
-  weight = 2,
+  model = "stone_big_black",
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_111",
+  name = "stone_black_deathmountain_entrance_111",
   layer = -2,
   x = 3400,
   y = 1373,
@@ -163370,7 +163370,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_112",
+  name = "stone_black_deathmountain_entrance_112",
   layer = -2,
   x = 3848,
   y = 1309,
@@ -163390,7 +163390,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_116",
+  name = "stone_white_deathmountain_entrance_116",
   layer = -2,
   x = 3784,
   y = 717,
@@ -163400,7 +163400,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_117",
+  name = "stone_black_deathmountain_entrance_117",
   layer = -2,
   x = 4008,
   y = 301,
@@ -163410,7 +163410,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_118",
+  name = "stone_black_deathmountain_entrance_118",
   layer = -2,
   x = 3992,
   y = 317,
@@ -163420,17 +163420,17 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_turtle_rock_0",
+  name = "big_stone_black_turtle_rock_0",
   layer = -2,
   x = 3848,
   y = 365,
-  sprite = "destructibles/stone_big_lw_2",
+  sprite = "destructibles/stone_small_lw_2",
   destruction_sound = "stone",
   weight = 2,
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_120",
+  name = "stone_black_deathmountain_entrance_120",
   layer = -2,
   x = 2504,
   y = 1197,
@@ -163440,7 +163440,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_121",
+  name = "stone_black_deathmountain_entrance_121",
   layer = -2,
   x = 2488,
   y = 1165,
@@ -163450,7 +163450,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_122",
+  name = "stone_black_deathmountain_entrance_122",
   layer = -2,
   x = 2440,
   y = 1165,
@@ -163460,7 +163460,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_123",
+  name = "stone_black_deathmountain_entrance_123",
   layer = -2,
   x = 2424,
   y = 1197,
@@ -163470,7 +163470,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_124",
+  name = "stone_black_deathmountain_entrance_124",
   layer = -2,
   x = 2504,
   y = 1229,
@@ -163480,7 +163480,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_125",
+  name = "stone_black_deathmountain_entrance_125",
   layer = -2,
   x = 2472,
   y = 1261,
@@ -163490,7 +163490,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_126",
+  name = "stone_black_deathmountain_entrance_126",
   layer = -2,
   x = 2456,
   y = 1261,
@@ -163500,7 +163500,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_127",
+  name = "stone_black_deathmountain_entrance_127",
   layer = -2,
   x = 2296,
   y = 1405,
@@ -163510,7 +163510,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_128",
+  name = "stone_black_deathmountain_entrance_128",
   layer = -2,
   x = 2104,
   y = 1277,
@@ -163520,7 +163520,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_129",
+  name = "stone_black_deathmountain_entrance_129",
   layer = -2,
   x = 2104,
   y = 1341,
@@ -163530,7 +163530,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_130",
+  name = "stone_black_deathmountain_entrance_130",
   layer = -2,
   x = 2152,
   y = 1357,
@@ -163540,7 +163540,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_131",
+  name = "stone_black_deathmountain_entrance_131",
   layer = -2,
   x = 2168,
   y = 1373,
@@ -163550,7 +163550,7 @@ destructible{
 }
 
 destructible{
-  name = "Big_stone_deathmountain_entrance_132",
+  name = "stone_white_deathmountain_entrance_132",
   layer = -2,
   x = 920,
   y = 2893,
@@ -177733,44 +177733,52 @@ destructible{
   destruction_sound = "stone",
 }
 
-destructible{
-  name = "Big_stone_deathmountain_entrance_1",
+custom_entity{
+  name = "big_stone_deathmountain_entrance_1",
   layer = -2,
   x = 1592,
   y = 1197,
+  width = 32,
+  height = 32,
+  direction = 0,
   sprite = "destructibles/stone_big_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
+  model = "stone_big_white",
 }
 
-destructible{
-  name = "Big_stone_deathmountain_entrance_2",
+custom_entity{
+  name = "big_stone_deathmountain_entrance_2",
   layer = -2,
   x = 1928,
   y = 2669,
+  width = 32,
+  height = 32,
+  direction = 0,
   sprite = "destructibles/stone_big_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
+  model = "stone_big_white",
 }
 
-destructible{
-  name = "Big_stone_entrance_desert_1",
+custom_entity{
+  name = "big_stone_entrance_desert_1",
   layer = -2,
   x = 1400,
   y = 3853,
+  width = 32,
+  height = 32,
+  direction = 0,
   sprite = "destructibles/stone_big_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
+  model = "stone_big_white",
 }
 
-destructible{
-  name = "Big_stone_entrance_desert_2",
+custom_entity{
+  name = "big_stone_entrance_desert_2",
   layer = -2,
   x = 1272,
   y = 3917,
+  width = 32,
+  height = 32,
+  direction = 0,
   sprite = "destructibles/stone_big_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
+  model = "stone_big_white",
 }
 
 destructible{
@@ -177803,74 +177811,88 @@ destructible{
   can_be_cut = true,
 }
 
-destructible{
-  name = "Big_stone_swamp_0",
+custom_entity{
+  name = "big_stone_swamp_0",
   layer = -2,
   x = 1704,
   y = 3437,
+  width = 32,
+  height = 32,
+  direction = 0,
   sprite = "destructibles/stone_big_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
+  model = "stone_big_white",
 }
 
-destructible{
-  name = "Big_stone_swamp_1",
+custom_entity{
+  name = "big_stone_swamp_1",
   layer = -2,
   x = 2088,
   y = 3917,
+  width = 32,
+  height = 32,
+  direction = 0,
   sprite = "destructibles/stone_big_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
+  model = "stone_big_white",
 }
 
-destructible{
-  name = "Big_stone_ice_cavern_0",
+custom_entity{
+  name = "big_stone_ice_cavern_0",
   layer = -2,
   x = 3688,
   y = 3213,
+  width = 32,
+  height = 32,
+  direction = 0,
   sprite = "destructibles/stone_big_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
+  model = "stone_big_white",
 }
 
-destructible{
-  name = "Big_stone_before_waterfall_0",
+custom_entity{
+  name = "explode_stone_before_waterfall_0",
   layer = -2,
   x = 3816,
   y = 1325,
+  width = 32,
+  height = 32,
+  direction = 0,
   sprite = "destructibles/stone_explode_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
+  model = "stone_explode",
 }
 
-destructible{
-  name = "Big_stone_before_waterfall_1",
+custom_entity{
+  name = "explode_stone_before_waterfall_1",
   layer = -2,
   x = 3816,
   y = 1357,
+  width = 32,
+  height = 32,
+  direction = 0,
   sprite = "destructibles/stone_explode_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
+  model = "stone_explode",
 }
 
-destructible{
-  name = "Big_stone_before_waterfall_2",
+custom_entity{
+  name = "explode_stone_before_waterfall_2",
   layer = -2,
   x = 3784,
   y = 1357,
+  width = 32,
+  height = 32,
+  direction = 0,
   sprite = "destructibles/stone_explode_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
+  model = "stone_explode",
 }
 
-destructible{
-  name = "Big_stone_sanctuary_0",
+custom_entity{
+  name = "big_stone_sanctuary_0",
   layer = -2,
   x = 1768,
   y = 1181,
+  width = 32,
+  height = 32,
+  direction = 0,
   sprite = "destructibles/stone_big_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
+  model = "stone_big_white",
 }
 
 destructible{
@@ -178093,24 +178115,28 @@ destructible{
   damage_on_enemies = 0,
 }
 
-destructible{
+custom_entity{
   name = "explode_stone_fortune_teller_0",
   layer = -2,
   x = 648,
   y = 1293,
+  width = 32,
+  height = 32,
+  direction = 0,
   sprite = "destructibles/stone_explode_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
+  model = "stone_explode",
 }
 
-destructible{
+custom_entity{
   name = "explode_stone_blacksmiths_0",
   layer = -2,
   x = 1352,
   y = 2317,
+  width = 32,
+  height = 32,
+  direction = 0,
   sprite = "destructibles/stone_explode_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
+  model = "stone_explode",
 }
 
 custom_entity{
@@ -178137,14 +178163,16 @@ custom_entity{
   model = "stone_big_white",
 }
 
-destructible{
+custom_entity{
   name = "explode_stone_death_mountain_east_0",
   layer = -2,
   x = 3400,
   y = 269,
+  width = 32,
+  height = 32,
+  direction = 0,
   sprite = "destructibles/stone_explode_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
+  model = "stone_explode",
 }
 
 teletransporter{
@@ -178694,7 +178722,7 @@ teletransporter{
   y = 1032,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/Zone/lost_wood",
+  destination_map = "A Link To The Past/Light World/Overworld/lost_wood",
   destination = "dest_map_lost_wood_0",
 }
 
@@ -178705,7 +178733,7 @@ teletransporter{
   y = 1032,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/Zone/lost_wood",
+  destination_map = "A Link To The Past/Light World/Overworld/lost_wood",
   destination = "dest_map_lost_wood_1",
 }
 
@@ -181973,7 +182001,6 @@ tile{
   width = 32,
   height = 32,
   pattern = "1085",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -181983,7 +182010,6 @@ tile{
   width = 32,
   height = 32,
   pattern = "1085",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -181993,7 +182019,6 @@ tile{
   width = 32,
   height = 32,
   pattern = "1085",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -182003,7 +182028,6 @@ tile{
   width = 32,
   height = 32,
   pattern = "1085",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -182013,7 +182037,6 @@ tile{
   width = 32,
   height = 32,
   pattern = "1085",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -182849,7 +182872,6 @@ tile{
   width = 32,
   height = 32,
   pattern = "1085",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -182859,7 +182881,6 @@ tile{
   width = 32,
   height = 32,
   pattern = "1085",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -182869,7 +182890,6 @@ tile{
   width = 32,
   height = 32,
   pattern = "1085",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -182879,7 +182899,6 @@ tile{
   width = 32,
   height = 32,
   pattern = "1085",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -182889,7 +182908,6 @@ tile{
   width = 32,
   height = 32,
   pattern = "1085",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -182899,7 +182917,6 @@ tile{
   width = 32,
   height = 32,
   pattern = "1085",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -182909,7 +182926,6 @@ tile{
   width = 32,
   height = 32,
   pattern = "1085",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -182919,7 +182935,6 @@ tile{
   width = 32,
   height = 32,
   pattern = "1085",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -187879,7 +187894,6 @@ tile{
   width = 32,
   height = 32,
   pattern = "1085",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -187889,7 +187903,6 @@ tile{
   width = 32,
   height = 32,
   pattern = "1085",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -187899,7 +187912,6 @@ tile{
   width = 32,
   height = 32,
   pattern = "1085",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -187909,7 +187921,6 @@ tile{
   width = 32,
   height = 32,
   pattern = "1085",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -187919,7 +187930,6 @@ tile{
   width = 32,
   height = 32,
   pattern = "1085",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -258824,7 +258834,7 @@ tile{
   width = 16,
   height = 16,
   pattern = "8439",
-  tileset = "out/outside_buildings",
+  tileset = "out/outside_lightworld_buildings",
 }
 
 tile{
@@ -258834,7 +258844,7 @@ tile{
   width = 16,
   height = 8,
   pattern = "9577",
-  tileset = "out/outside_buildings",
+  tileset = "out/outside_lightworld_buildings",
 }
 
 tile{
@@ -258844,7 +258854,7 @@ tile{
   width = 16,
   height = 8,
   pattern = "9577",
-  tileset = "out/outside_buildings",
+  tileset = "out/outside_lightworld_buildings",
 }
 
 tile{
@@ -258854,7 +258864,7 @@ tile{
   width = 16,
   height = 8,
   pattern = "9577",
-  tileset = "out/outside_buildings",
+  tileset = "out/outside_lightworld_buildings",
 }
 
 tile{
@@ -258864,7 +258874,7 @@ tile{
   width = 16,
   height = 8,
   pattern = "9577",
-  tileset = "out/outside_buildings",
+  tileset = "out/outside_lightworld_buildings",
 }
 
 tile{
@@ -258874,7 +258884,7 @@ tile{
   width = 16,
   height = 8,
   pattern = "9578",
-  tileset = "out/outside_buildings",
+  tileset = "out/outside_lightworld_buildings",
 }
 
 tile{
@@ -258884,7 +258894,7 @@ tile{
   width = 16,
   height = 8,
   pattern = "9578",
-  tileset = "out/outside_buildings",
+  tileset = "out/outside_lightworld_buildings",
 }
 
 tile{
@@ -258894,7 +258904,7 @@ tile{
   width = 16,
   height = 8,
   pattern = "9578",
-  tileset = "out/outside_buildings",
+  tileset = "out/outside_lightworld_buildings",
 }
 
 tile{
@@ -258904,7 +258914,7 @@ tile{
   width = 16,
   height = 8,
   pattern = "9578",
-  tileset = "out/outside_buildings",
+  tileset = "out/outside_lightworld_buildings",
 }
 
 tile{
@@ -293385,7 +293395,7 @@ tile{
   width = 16,
   height = 8,
   pattern = "7830",
-  tileset = "out/outside_buildings",
+  tileset = "out/outside_lightworld_buildings",
 }
 
 tile{
@@ -293395,7 +293405,7 @@ tile{
   width = 16,
   height = 8,
   pattern = "7830",
-  tileset = "out/outside_buildings",
+  tileset = "out/outside_lightworld_buildings",
 }
 
 tile{
@@ -293405,7 +293415,7 @@ tile{
   width = 16,
   height = 8,
   pattern = "7830",
-  tileset = "out/outside_buildings",
+  tileset = "out/outside_lightworld_buildings",
 }
 
 tile{
@@ -293415,7 +293425,7 @@ tile{
   width = 16,
   height = 8,
   pattern = "7830",
-  tileset = "out/outside_buildings",
+  tileset = "out/outside_lightworld_buildings",
 }
 
 tile{
@@ -304181,7 +304191,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304191,7 +304200,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304201,7 +304209,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304211,7 +304218,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304221,7 +304227,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304231,7 +304236,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304241,7 +304245,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304251,7 +304254,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304261,7 +304263,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304271,7 +304272,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304281,7 +304281,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304291,7 +304290,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304301,7 +304299,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304311,7 +304308,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304321,7 +304317,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304331,7 +304326,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304341,7 +304335,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304351,7 +304344,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304361,7 +304353,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304371,7 +304362,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304381,7 +304371,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304391,7 +304380,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304401,7 +304389,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304411,7 +304398,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304421,7 +304407,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304431,7 +304416,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304441,7 +304425,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304451,7 +304434,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304461,7 +304443,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304471,7 +304452,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304481,7 +304461,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304491,7 +304470,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304501,7 +304479,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304511,7 +304488,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304521,7 +304497,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304531,7 +304506,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304541,7 +304515,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304551,7 +304524,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304561,7 +304533,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304571,7 +304542,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304581,7 +304551,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304591,7 +304560,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304601,7 +304569,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304611,7 +304578,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304621,7 +304587,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304631,7 +304596,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304641,7 +304605,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304651,7 +304614,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304661,7 +304623,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304671,7 +304632,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304681,7 +304641,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304691,7 +304650,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304701,7 +304659,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304711,7 +304668,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304721,7 +304677,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304731,7 +304686,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304741,7 +304695,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304751,7 +304704,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304761,7 +304713,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304771,7 +304722,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304781,7 +304731,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304791,7 +304740,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304801,7 +304749,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304811,7 +304758,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304821,7 +304767,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304831,7 +304776,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304841,7 +304785,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304851,7 +304794,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304861,7 +304803,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304871,7 +304812,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304881,7 +304821,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304891,7 +304830,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304901,7 +304839,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304911,7 +304848,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304921,7 +304857,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304931,7 +304866,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304941,7 +304875,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304951,7 +304884,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304961,7 +304893,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304971,7 +304902,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304981,7 +304911,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -304991,7 +304920,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305001,7 +304929,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305011,7 +304938,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305021,7 +304947,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "1526",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305031,7 +304956,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "1525",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305041,7 +304965,6 @@ tile{
   width = 32,
   height = 32,
   pattern = "1503",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305051,7 +304974,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "1526",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305061,7 +304983,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "1525",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305071,7 +304992,6 @@ tile{
   width = 32,
   height = 32,
   pattern = "1503",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305081,7 +305001,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "1526",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305091,7 +305010,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "1525",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305101,7 +305019,6 @@ tile{
   width = 32,
   height = 32,
   pattern = "1503",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305111,7 +305028,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "1526",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305121,7 +305037,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "1525",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305131,7 +305046,6 @@ tile{
   width = 32,
   height = 32,
   pattern = "1503",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305141,7 +305055,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "1526",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305151,7 +305064,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "1525",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305161,7 +305073,6 @@ tile{
   width = 32,
   height = 32,
   pattern = "1503",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305171,7 +305082,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "1526",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305181,7 +305091,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "1525",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305191,7 +305100,6 @@ tile{
   width = 32,
   height = 32,
   pattern = "1503",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305201,7 +305109,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "1526",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305211,7 +305118,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "1525",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305221,7 +305127,6 @@ tile{
   width = 32,
   height = 32,
   pattern = "1503",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305231,7 +305136,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "1526",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305241,7 +305145,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "1525",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305251,7 +305154,6 @@ tile{
   width = 32,
   height = 32,
   pattern = "1503",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305261,7 +305163,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "1526",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305271,7 +305172,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "1525",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305281,7 +305181,6 @@ tile{
   width = 32,
   height = 32,
   pattern = "1503",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305291,7 +305190,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "1526",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305301,7 +305199,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "1525",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305311,7 +305208,6 @@ tile{
   width = 32,
   height = 32,
   pattern = "1503",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305321,7 +305217,6 @@ tile{
   width = 32,
   height = 32,
   pattern = "1503",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305331,7 +305226,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "1526",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305341,7 +305235,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "1525",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305351,7 +305244,6 @@ tile{
   width = 32,
   height = 32,
   pattern = "1503",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305361,7 +305253,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305371,7 +305262,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305381,7 +305271,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305391,7 +305280,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305401,7 +305289,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305411,7 +305298,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305421,7 +305307,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305431,7 +305316,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305441,7 +305325,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305451,7 +305334,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305461,7 +305343,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305471,7 +305352,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305481,7 +305361,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305491,7 +305370,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305501,7 +305379,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305511,7 +305388,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305521,7 +305397,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305531,7 +305406,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305541,7 +305415,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305551,7 +305424,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305561,7 +305433,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305571,7 +305442,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305581,7 +305451,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305591,7 +305460,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305601,7 +305469,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305611,7 +305478,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305621,7 +305487,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305631,7 +305496,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305641,7 +305505,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305651,7 +305514,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305661,7 +305523,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305671,7 +305532,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305681,7 +305541,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305691,7 +305550,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305701,7 +305559,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305711,7 +305568,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305721,7 +305577,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305731,7 +305586,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305741,7 +305595,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305751,7 +305604,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305761,7 +305613,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305771,7 +305622,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305781,7 +305631,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305791,7 +305640,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305801,7 +305649,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305811,7 +305658,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305821,7 +305667,6 @@ tile{
   width = 336,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305831,7 +305676,6 @@ tile{
   width = 336,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305841,7 +305685,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305851,7 +305694,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305861,7 +305703,6 @@ tile{
   width = 96,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305871,7 +305712,6 @@ tile{
   width = 96,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305881,7 +305721,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305891,7 +305730,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305901,7 +305739,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305911,7 +305748,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305921,7 +305757,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305931,7 +305766,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305941,7 +305775,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305951,7 +305784,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305961,7 +305793,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305971,7 +305802,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305981,7 +305811,6 @@ tile{
   width = 96,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -305991,7 +305820,6 @@ tile{
   width = 96,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306001,7 +305829,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306011,7 +305838,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306021,7 +305847,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306031,7 +305856,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306041,7 +305865,6 @@ tile{
   width = 96,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306051,7 +305874,6 @@ tile{
   width = 96,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306061,7 +305883,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306071,7 +305892,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306081,7 +305901,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306091,7 +305910,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306101,7 +305919,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306111,7 +305928,6 @@ tile{
   width = 144,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306121,7 +305937,6 @@ tile{
   width = 144,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306131,7 +305946,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306141,7 +305955,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306151,7 +305964,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306161,7 +305973,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306171,7 +305982,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306181,7 +305991,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306191,7 +306000,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306201,7 +306009,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306211,7 +306018,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306221,7 +306027,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306231,7 +306036,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306241,7 +306045,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306251,7 +306054,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306261,7 +306063,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306271,7 +306072,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306281,7 +306081,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306291,7 +306090,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306301,7 +306099,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306311,7 +306108,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306321,7 +306117,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306331,7 +306126,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306341,7 +306135,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306351,7 +306144,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306361,7 +306153,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306371,7 +306162,6 @@ tile{
   width = 96,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306381,7 +306171,6 @@ tile{
   width = 96,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306391,7 +306180,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306401,7 +306189,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306411,7 +306198,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306421,7 +306207,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306431,7 +306216,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306441,7 +306225,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306451,7 +306234,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306461,7 +306243,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306471,7 +306252,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306481,7 +306261,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306491,7 +306270,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306501,7 +306279,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306511,7 +306288,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306521,7 +306297,6 @@ tile{
   width = 192,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306531,7 +306306,6 @@ tile{
   width = 192,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306541,7 +306315,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306551,7 +306324,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306561,7 +306333,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306571,7 +306342,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306581,7 +306351,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306591,7 +306360,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306601,7 +306369,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306611,7 +306378,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306621,7 +306387,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306631,7 +306396,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306641,7 +306405,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306651,7 +306414,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306661,7 +306423,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306671,7 +306432,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1354",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306681,7 +306441,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1356",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306691,7 +306450,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1353",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306701,7 +306459,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "1355",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306711,7 +306468,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "1526",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306721,7 +306477,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "1525",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306731,7 +306486,6 @@ tile{
   width = 32,
   height = 32,
   pattern = "1503",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306741,7 +306495,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "1526",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306751,7 +306504,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "1525",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306761,7 +306513,6 @@ tile{
   width = 32,
   height = 32,
   pattern = "1503",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306771,7 +306522,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "1526",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306781,7 +306531,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "1525",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306791,7 +306540,6 @@ tile{
   width = 32,
   height = 32,
   pattern = "1503",
-  tileset = "out/outside_main",
 }
 
 tile{
@@ -306986,14 +306734,16 @@ destructible{
   can_be_cut = true,
 }
 
-destructible{
-  name = "Big_stone_desert_0",
+custom_entity{
+  name = "big_stone_desert_0",
   layer = 2,
   x = 712,
   y = 3181,
+  width = 32,
+  height = 32,
+  direction = 0,
   sprite = "destructibles/stone_big_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
+  model = "stone_big_white",
 }
 
 teletransporter{
