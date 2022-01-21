@@ -6587,33 +6587,6 @@ jumper{
   jump_length = 42,
 }
 
-destructible{
-  layer = 0,
-  x = 192,
-  y = 309,
-  sprite = "",
-}
-
-door{
-  name = "door_link_house_0",
-  layer = 0,
-  x = 168,
-  y = 288,
-  direction = 3,
-  sprite = "doors/door_d4_very_weak_wall",
-  opening_method = "interaction",
-}
-
-door{
-  name = "door_link_house_1",
-  layer = 0,
-  x = 200,
-  y = 288,
-  direction = 3,
-  sprite = "doors/door_d4_weak_wall",
-  opening_method = "interaction",
-}
-
 tile{
   layer = 1,
   x = 160,

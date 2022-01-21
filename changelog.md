@@ -12,11 +12,19 @@ __------------------------------------------------------------------------------
 
 🗺**Overworld**
 
-## The Legend of Zelda A Link to the Past (Solarus Edition) 0.1 (2022-01-14)
+## The Legend of Zelda A Link to the Past (Solarus Edition) 0.1.1 (2022-01-21)
 
-`Changements du ?? ????? 2022` v0.1.1 (hotfix)
+`Changements du 21 Janvier 2022` v0.1.1 (hotfix)
 
-🐛Bug
+🗺**Overworld**
+- __Light Overworld__ : Liens de toutes les Grottes, Maisons et Dunjon avec le Light World
+- __Dark Overworld__ : Liens de toutes les Maisons avec le Dark World
+
+🗃**Organisation**
+- Création des Fichiers .dat pour les Maisons du Light WOrld et du Dark Wolrd
+- Création des Fichiers .dat pour les Grottes du Light WOrld et du Dark Wolrd
+- Création des Fichiers .dat pour les Donjons du Light WOrld et du Dark Wolrd
+- Modification du Changelog.md
 
 __--------------------------------------------------------------------------------------------------------------__
 
