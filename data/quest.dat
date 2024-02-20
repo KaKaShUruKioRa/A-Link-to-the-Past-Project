@@ -32,11 +32,11 @@ Ce jeu reprend le système de jeu original de The Legend of Zelda: A Link to the
 Durée de vie
 Pour les joueurs qu découvrirait éventuellement ce titre, voir carrément la série (ou les jeux Zelda 2D), la durée de vie du jeu complet est estimée à environ une 30ène d'heures pour les complétionniste.]],
   author = "KaKaShUruKioRa",
-  quest_version = "0.1.1",
+  quest_version = "0.1.2",
   release_date = "",
   website = "https://play.spotify.com/artist/2nRyP56IOlGpXgG1yuOpZ2",
-  normal_quest_size = "256x224",
-  min_quest_size = "256x224",
-  max_quest_size = "256x224",
+  normal_quest_size = "320x240",
+  min_quest_size = "320x240",
+  max_quest_size = "320x240",
 }
 
