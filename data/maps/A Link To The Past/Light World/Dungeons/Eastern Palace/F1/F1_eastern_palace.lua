@@ -1,24 +1,22 @@
--- Lua script of map Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/F6/.
--- This script is executed every time the hero enters this map.
-
--- Feel free to modify the code below.
--- You can add more events and remove the ones you don't need.
-
--- See the Solarus Lua API documentation:
--- http://www.solarus-games.org/doc/latest
-
 local map = ...
 local game = map:get_game()
 
--- Event called at initialization time, as soon as this map is loaded.
+local cannonball_manager = require("maps/lib/cannonball_manager")
+cannonball_manager:create_cannons(map, "cannon_")
+
+local door_manager = require("maps/lib/door_manager")
+door_manager:manage_map(map)
+local chest_manager = require("maps/lib/chest_manager")
+chest_manager:manage_map(map)
+local separator_manager = require("maps/lib/separator_manager")
+separator_manager:manage_map(map)
+
 function map:on_started()
 
-  -- You can initialize the movement and sprites of various
-  -- map entities here.
+  map:set_doors_open("auto_door_2_back")
 end
 
--- Event called after the opening transition effect of the map,
--- that is, when the player takes control of the hero.
-function map:on_opening_transition_finished()
-
+function sensor_close_auto_door_2_back:on_activated()
+  self:set_enabled(false)
+  map:close_doors("auto_door_2_back")
 end
