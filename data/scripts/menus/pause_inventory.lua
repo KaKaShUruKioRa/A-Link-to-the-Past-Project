@@ -239,6 +239,30 @@ function inventory_manager:new(game)
     draw_item_cursors(dst_surface)
   end
 
+  local joy_avoid_repeat = {-2, -2}
+  function inventory:on_joypad_axis_moved(axis, state)
+    local handled = joy_avoid_repeat[axis] == state
+    joy_avoid_repeat[axis] = state
+
+    if not handled then
+
+      if axis % 2 == 0 then  -- Horizontal axis.
+        if state > 0 then
+          return self:on_command_pressed("right")
+        elseif state < 0 then
+          return self:on_command_pressed("left")
+        end
+      else  -- Vertical axis.
+        if state > 0 then
+          return self:on_command_pressed("down")
+        elseif state < 0 then
+          return self:on_command_pressed("up")
+        end
+      end
+    end
+    return handled
+  end
+
   function inventory:on_command_pressed(command)
 
     if state ~= "ready" then

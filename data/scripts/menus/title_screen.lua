@@ -261,19 +261,41 @@ function title_screen:step_7()
   end
 end
 
--- Called when a keyboard key is pressed.
-function title_screen:on_key_pressed(key)
+-- Called when keyboard or joypad input make a callback.
 
-  if key == "escape" then
-    -- Escape: quit Solarus.
+local function an_action_was_pressed(action, menu_id)
+
+  if action == 1 then
+    -- quit Solarus.
     sol.main.exit()
     return true
-  elseif not self.finished then
-    self:skip_menu()
+  elseif action == 2 then
+    -- skip menu.
+    menu_id:skip_menu()
     return true
   end
   
   return false
+end
+
+-- Called when a keyboard key is pressed.
+function title_screen:on_key_pressed(key)
+
+  if key == "escape" then
+    an_action_was_pressed(1, self)
+  elseif not self.finished then
+    an_action_was_pressed(2, self)
+  end
+  
+end
+
+-- Called when a joypad button is pressed. ... Added by DarkDavy15.
+function title_screen:on_joypad_button_pressed()
+
+  if not self.finished then
+    an_action_was_pressed(2, self)
+  end
+  
 end
 
 -- Called when a mouse button is pressed.

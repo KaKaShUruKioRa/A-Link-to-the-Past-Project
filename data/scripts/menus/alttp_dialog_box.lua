@@ -499,6 +499,14 @@ local function create_dialog_box(game)
     end
   end
 
+  local joy_avoid_repeat = {-2, -2}
+  function dialog_box:on_joypad_axis_moved(axis, state)
+    local handled = joy_avoid_repeat[axis] == state
+    joy_avoid_repeat[axis] = state
+
+    return handled
+  end
+
   function dialog_box:on_command_pressed(command)
 
     if command == "action" then

@@ -248,21 +248,28 @@ function gui_designer:map_joypad_to_keyboard(menu)
     return self:on_key_pressed("space")
   end
 
+  local joy_avoid_repeat = {-2, -2}
   function menu:on_joypad_axis_moved(axis, state)
+    local handled = joy_avoid_repeat[axis] == state
+    joy_avoid_repeat[axis] = state
 
-    if axis % 2 == 0 then  -- Horizontal axis.
-      if state > 0 then
-        return self:on_key_pressed("right")
-      elseif state < 0 then
-        return self:on_key_pressed("left")
-      end
-    else  -- Vertical axis.
-      if state > 0 then
-        return self:on_key_pressed("down")
-      elseif state < 0 then
-        return self:on_key_pressed("up")
+    if not handled then
+
+      if axis % 2 == 0 then  -- Horizontal axis.
+        if state > 0 then
+          return self:on_key_pressed("right")
+        elseif state < 0 then
+          return self:on_key_pressed("left")
+        end
+      else  -- Vertical axis.
+        if state > 0 then
+          return self:on_key_pressed("down")
+        elseif state < 0 then
+          return self:on_key_pressed("up")
+        end
       end
     end
+    return handled
   end
 
   function menu:on_joypad_hat_moved(hat, direction8)

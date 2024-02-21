@@ -105,6 +105,14 @@ local function initialize_pause_features(game)
     sol.menu.stop(pause_menu)
   end
 
+  local joy_avoid_repeat = {-2, -2}
+  function pause_menu:on_joypad_axis_moved(axis, state)
+    local handled = joy_avoid_repeat[axis] == state
+    joy_avoid_repeat[axis] = state
+
+    return handled
+  end
+
   function pause_menu:on_command_pressed(command)
 
     local handled = false
