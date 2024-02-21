@@ -74,10 +74,10 @@ function game_manager:create(file_name)
             not game:is_dialog_enabled() and
             game:get_life() > 0 then
           game:start_dialog("save_quit", function(answer)
-            if answer == 2 then
+            if answer == 1 then
               -- Continue.
               sol.audio.play_sound("danger")
-            elseif answer == 3 then
+            elseif answer == 2 then
               -- Save and quit.
               sol.audio.play_sound("danger")
               game:save()
