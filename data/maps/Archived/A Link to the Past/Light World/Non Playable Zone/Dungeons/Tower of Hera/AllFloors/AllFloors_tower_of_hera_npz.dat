@@ -5,7 +5,7 @@ properties{
   height = 2048,
   min_layer = -9,
   max_layer = 7,
-  world = "Dungeon3",
+  world = "Tower of Hera",
   floor = 0,
   tileset = "dungeon/dark_yellow",
   music = "light_world_dungeon",
@@ -19,70 +19,6 @@ tile{
   height = 2048,
   pattern = "tower_of_hera_blueprint",
   tileset = "blueprint/tower_of_hera",
-}
-
-separator{
-  layer = -1,
-  x = -8,
-  y = 488,
-  width = 1040,
-  height = 16,
-}
-
-separator{
-  layer = -1,
-  x = -8,
-  y = 752,
-  width = 528,
-  height = 16,
-}
-
-separator{
-  layer = -1,
-  x = -8,
-  y = 1008,
-  width = 1040,
-  height = 16,
-}
-
-separator{
-  layer = -1,
-  x = -8,
-  y = 1264,
-  width = 528,
-  height = 16,
-}
-
-separator{
-  layer = -1,
-  x = -8,
-  y = 1520,
-  width = 528,
-  height = 16,
-}
-
-separator{
-  layer = -1,
-  x = -8,
-  y = 2032,
-  width = 528,
-  height = 16,
-}
-
-separator{
-  layer = -1,
-  x = -8,
-  y = 0,
-  width = 1040,
-  height = 16,
-}
-
-separator{
-  layer = -1,
-  x = 248,
-  y = 752,
-  width = 16,
-  height = 784,
 }
 
 separator{
@@ -107,5 +43,69 @@ separator{
   y = 0,
   width = 16,
   height = 1008,
+}
+
+separator{
+  layer = 7,
+  x = -8,
+  y = 488,
+  width = 1040,
+  height = 16,
+}
+
+separator{
+  layer = 7,
+  x = -8,
+  y = 752,
+  width = 528,
+  height = 16,
+}
+
+separator{
+  layer = 7,
+  x = -8,
+  y = 1008,
+  width = 1040,
+  height = 16,
+}
+
+separator{
+  layer = 7,
+  x = -8,
+  y = 1264,
+  width = 528,
+  height = 16,
+}
+
+separator{
+  layer = 7,
+  x = -8,
+  y = 1520,
+  width = 528,
+  height = 16,
+}
+
+separator{
+  layer = 7,
+  x = -8,
+  y = 2032,
+  width = 528,
+  height = 16,
+}
+
+separator{
+  layer = 7,
+  x = -8,
+  y = 0,
+  width = 1040,
+  height = 16,
+}
+
+separator{
+  layer = 7,
+  x = 248,
+  y = 752,
+  width = 16,
+  height = 784,
 }
 

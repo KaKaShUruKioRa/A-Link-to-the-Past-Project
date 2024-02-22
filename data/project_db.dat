@@ -283,11 +283,14 @@ map{ id = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/wo
 map{ id = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/wooden_bridge_npz", description = "Wooden Bridge NPZ" }
 map{ id = "Archived/A Link to the Past/Dark World/dark_world", description = "Dark OverWorld (Modern)" }
 map{ id = "Archived/A Link to the Past/Dark World/overworld_dark", description = "Dark OverWorld (Old)" }
+map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Desert Palace/AllFloors/AllFloors_desert_palace", description = "Desert Palace All Floors NPZ" }
 map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Desert Palace/B1/B1_desert_palace_npz", description = "B1 Desert Palace NPZ" }
 map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Desert Palace/F1/F1_desert_palace_npz", description = "F1 Desert Palace NPZ" }
 map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Desert Palace/F2/F2_desert_palace_npz", description = "F2 Desert Palace NPZ" }
+map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Eastern Palace/AllFloors/AllFloors_eastern_palace", description = "Eastern Palace All Floors NPZ" }
 map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Eastern Palace/F1/F1_eastern_palace_npz", description = "F1 Eastern Palace NPZ" }
 map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Eastern Palace/F2/F2_eastern_palace_npz", description = "F2 Eastern Palace NPZ" }
+map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle Tower/AllFloors/AllFloors_hyrule_castle_tower_npz", description = "Hyrule Castle Tower All Floors NPZ" }
 map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle Tower/F1/F1_hyrule_castle_tower_npz", description = "F1 Hyrule Castle Tower NPZ" }
 map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle Tower/F2/F2_hyrule_castle_tower_npz", description = "F2 Hyrule Castle Tower NPZ" }
 map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle Tower/F3/F3_hyrule_castle_tower_npz", description = "F3 Hyrule Castle Tower NPZ" }
@@ -295,15 +298,17 @@ map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hy
 map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle Tower/F5/F5_hyrule_castle_tower_npz", description = "F5 Hyrule Castle Tower NPZ" }
 map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle Tower/F6/F6_hyrule_castle_tower_npz", description = "F6 Hyrule Castle Tower NPZ" }
 map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle Tower/F7/F7_hyrule_castle_tower_npz", description = "F7 Hyrule Castle Tower NPZ" }
+map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle/AllFloors/AllFloors_hyrule_castle", description = "Hyrule Castle All Floors NPZ" }
 map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle/B1/B1_hyrule_castle_npz", description = "B1 Hyrule Castle NPZ" }
 map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle/B2/B2_hyrule_castle_npz", description = "B2 Hyrule Castle NPZ" }
 map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle/B3/B3_hyrule_castle_npz", description = "B3 Hyrule Castle NPZ" }
 map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle/F1/F1_hyrule_castle_npz", description = "F1 Hyrule Castle NPZ" }
 map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle/F2/F2_hyrule_castle_npz", description = "F2 Hyrule Castle NPZ" }
+map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Secret Passage/AllFloors/AllFloors_secret_passage", description = "Secret Passage All Floors NPZ" }
 map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Secret Passage/B1/B1_secret_passage_npz", description = "B1 Secret Passage NPZ" }
 map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Secret Passage/F1/F1_secret_passage_npz", description = "F1 Secret Passage NPZ" }
 map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Secret Passage/F2/F2_secret_passage_npz", description = "F2 Secret Passage NPZ" }
-map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/AllFloors/AllFloors_tower_of_hera", description = "Tower of Here All Floors NPZ" }
+map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/AllFloors/AllFloors_tower_of_hera_npz", description = "Tower of Hera All Floors NPZ" }
 map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/B1/secret_fairy_npz", description = "Ssecret_Fairy_NPZ" }
 map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/F1/F1_tower_of_hero_npz", description = "F1 Tower of Hera NPZ" }
 map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/F2/F2_tower_of_hero_npz", description = "F2 Tower of Hera NPZ" }
@@ -370,8 +375,12 @@ map{ id = "Archived/Autres/test_map/test_map", description = "Archived/Autres/te
 
 tileset{ id = "blueprint/dark_overworld", description = "Dark Overworld BluePrint" }
 tileset{ id = "blueprint/desert_palace", description = "Desert Palace BluePrint" }
+tileset{ id = "blueprint/eastern_palace", description = "Eastern Palace BluePrint" }
+tileset{ id = "blueprint/hyrule_castle", description = "Hyrule Castle BluePrint" }
+tileset{ id = "blueprint/hyrule_castle_tower", description = "Hyrule Castle Tower BluePrint" }
 tileset{ id = "blueprint/light_overworld", description = "Light Overworld BluePrint" }
 tileset{ id = "blueprint/sacred_grove", description = "Sacred Grove BluePrint" }
+tileset{ id = "blueprint/secret_passage", description = "Secret Passage BluePrint" }
 tileset{ id = "blueprint/tower_of_hera", description = "Tower of Hera BluePrint" }
 tileset{ id = "blueprint/zoras_waterfall", description = "Zora's Waterfall" }
 tileset{ id = "dungeon/blue", description = "Blue dungeon" }
@@ -1875,6 +1884,8 @@ file{ path = "maps/Archived/A Link to the Past/Light World", author = "KaKaShUru
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Desert Palace", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Desert Palace/AllFloors/AllFloors_desert_palace.dat", author = "dkak", license = "dgpgl" }
+file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Desert Palace/AllFloors/AllFloors_desert_palace.lua", author = "dkak", license = "dgpgl" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Desert Palace/B1", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Desert Palace/B1/B1_desert_palace_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Desert Palace/B1/B1_desert_palace_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
@@ -1885,6 +1896,9 @@ file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dun
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Desert Palace/F2/F2_desert_palace_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Desert Palace/F2/F2_desert_palace_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Eastern Palace", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Eastern Palace/AllFloors", author = "dkak", license = "dgpgl" }
+file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Eastern Palace/AllFloors/AllFloors_eastern_palace.dat", author = "dkak", license = "dgpgl" }
+file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Eastern Palace/AllFloors/AllFloors_eastern_palace.lua", author = "dkak", license = "dgpgl" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Eastern Palace/F1", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Eastern Palace/F1/F1_eastern_palace_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Eastern Palace/F1/F1_eastern_palace_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
@@ -1893,6 +1907,9 @@ file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dun
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Eastern Palace/F2/F2_eastern_palace_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle Tower", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle Tower/AllFloors", author = "dkak", license = "dgpgl" }
+file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle Tower/AllFloors/AllFloors_hyrule_castle_tower_npz.dat", author = "dkak", license = "dgpgl" }
+file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle Tower/AllFloors/AllFloors_hyrule_castle_tower_npz.lua", author = "dkak", license = "dgpgl" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle Tower/F1", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle Tower/F1/F1_hyrule_castle_tower_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle Tower/F1/F1_hyrule_castle_tower_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
@@ -1914,6 +1931,9 @@ file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dun
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle Tower/F7", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle Tower/F7/F7_hyrule_castle_tower_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle Tower/F7/F7_hyrule_castle_tower_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle/AllFloors", author = "dkak", license = "dgpgl" }
+file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle/AllFloors/AllFloors_hyrule_castle.dat", author = "dkak", license = "dgpgl" }
+file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle/AllFloors/AllFloors_hyrule_castle.lua", author = "dkak", license = "dgpgl" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle/B1", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle/B1/B1_hyrule_castle_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle/B1/B1_hyrule_castle_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
@@ -1930,6 +1950,9 @@ file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dun
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle/F2/F2_hyrule_castle_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle/F2/F2_hyrule_castle_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Secret Passage", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Secret Passage/AllFloors", author = "dkak", license = "dgpgl" }
+file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Secret Passage/AllFloors/AllFloors_secret_passage.dat", author = "dkak", license = "dgpgl" }
+file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Secret Passage/AllFloors/AllFloors_secret_passage.lua", author = "dkak", license = "dgpgl" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Secret Passage/B1", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Secret Passage/B1/B1_secret_passage_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Secret Passage/B1/B1_secret_passage_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
@@ -1941,8 +1964,8 @@ file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dun
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Secret Passage/F2/F2_secret_passage_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/AllFloors", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/AllFloors/AllFloors_tower_of_hera.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/AllFloors/AllFloors_tower_of_hera.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/AllFloors/AllFloors_tower_of_hera_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/AllFloors/AllFloors_tower_of_hera_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/B1", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/B1/secret_fairy_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/B1/secret_fairy_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
@@ -2837,15 +2860,21 @@ file{ path = "tilesets/blueprint", author = "KaKaShUruKioRa", license = "CC BY-S
 file{ path = "tilesets/blueprint/dark_overworld.dat", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "tilesets/blueprint/dark_overworld.tiles b.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "tilesets/blueprint/dark_overworld.tiles.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "tilesets/blueprint/desert_palace.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
+file{ path = "tilesets/blueprint/desert_palace.dat", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "tilesets/blueprint/desert_palace.tiles n.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "tilesets/blueprint/desert_palace.tiles.png", author = "KaKaShUruKioRa", license = "GPL v3" }
+file{ path = "tilesets/blueprint/desert_palace.tiles.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
+file{ path = "tilesets/blueprint/eastern_palace.dat", author = "KaKaShUruKioRa", license = "GPL v3" }
+file{ path = "tilesets/blueprint/eastern_palace.tiles a.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
+file{ path = "tilesets/blueprint/eastern_palace.tiles.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
+file{ path = "tilesets/blueprint/hyrule_castle.dat", author = "KaKaShUruKioRa", license = "GPL v3" }
+file{ path = "tilesets/blueprint/hyrule_castle_tower.dat", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "tilesets/blueprint/light_overworld.dat", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "tilesets/blueprint/light_overworld.tiles a.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "tilesets/blueprint/light_overworld.tiles.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "tilesets/blueprint/sacred_grove.dat", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "tilesets/blueprint/sacred_grove.tiles a.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "tilesets/blueprint/sacred_grove.tiles.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
+file{ path = "tilesets/blueprint/secret_passage.dat", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "tilesets/blueprint/tower_of_hera.dat", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "tilesets/blueprint/tower_of_hera.tiles c.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "tilesets/blueprint/tower_of_hera.tiles.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }

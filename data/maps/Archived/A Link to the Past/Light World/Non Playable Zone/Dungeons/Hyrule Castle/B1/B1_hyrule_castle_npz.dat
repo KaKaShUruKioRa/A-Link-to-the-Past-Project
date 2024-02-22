@@ -5,7 +5,7 @@ properties{
   height = 512,
   min_layer = 0,
   max_layer = 7,
-  world = "Dungeon1",
+  world = "Hyrule Castle",
   floor = -1,
   tileset = "dungeon/dark_yellow",
 }
