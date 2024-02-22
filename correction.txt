@@ -1,1 +1,1 @@
-closed issue test 2
+close #issue test 3
