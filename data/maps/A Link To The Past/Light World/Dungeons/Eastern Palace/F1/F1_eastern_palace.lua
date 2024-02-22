@@ -1,14 +1,14 @@
 local map = ...
 local game = map:get_game()
 
-local cannonball_manager = require("maps/lib/cannonball_manager")
+local cannonball_manager = require("scripts/maps/cannonball_manager")
 cannonball_manager:create_cannons(map, "cannon_")
 
-local door_manager = require("maps/lib/door_manager")
+local door_manager = require("scripts/maps/door_manager")
 door_manager:manage_map(map)
-local chest_manager = require("maps/lib/chest_manager")
+local chest_manager = require("scripts/maps/chest_manager")
 chest_manager:manage_map(map)
-local separator_manager = require("maps/lib/separator_manager")
+local separator_manager = require("scripts/maps/separator_manager")
 separator_manager:manage_map(map)
 
 function map:on_started()
