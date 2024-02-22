@@ -32,8 +32,8 @@ function hearts_builder:new(game, config)
 
     hearts.surface:clear()
 
-    local life = hearts.current_life_displayed
-    local max_life = hearts.max_life_displayed
+    local life = math.ceil(hearts.current_life_displayed/2)
+    local max_life = math.ceil(hearts.max_life_displayed/2)
     for j = 1, max_life do
       if j % 2 == 0 then
         local x, y
