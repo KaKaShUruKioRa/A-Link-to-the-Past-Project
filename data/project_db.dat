@@ -1973,7 +1973,6 @@ file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dun
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/F6/F6_tower_of_hero_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/secret_fairy_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/secret_fairy_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Houses", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Overworld", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Overworld/blacksmiths_house_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Overworld/blacksmiths_house_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }

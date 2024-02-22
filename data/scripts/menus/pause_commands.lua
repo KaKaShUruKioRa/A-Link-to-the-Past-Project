@@ -301,27 +301,33 @@ function commands_manager:new(game)
     return true
   end
 
+  local joy_avoid_repeat = {-2, -2}
   function commands_menu:on_joypad_axis_moved(axis, state)
+    local handled = joy_avoid_repeat[axis] == state
+    joy_avoid_repeat[axis] = state
 
-    if not game.customizing_command then
-      return false
+    if not handled then
+      if not game.customizing_command then
+        return false
+      end
+
+      if state == 0 then
+        return false
+      end
+
+      local item = commands_items[cursor_index]
+
+      if item.command == nil then
+        -- For additional commands from the quest, joypad axis are not supported yet.
+        return false
+      end
+
+      local joypad_action = "axis " .. axis .. " " .. (state > 0 and "+" or "-")
+      set_command_joypad_binding(item, joypad_action)
+      stop_customizing()
+      return true
     end
-
-    if state == 0 then
-      return false
-    end
-
-    local item = commands_items[cursor_index]
-
-    if item.command == nil then
-      -- For additional commands from the quest, joypad axis are not supported yet.
-      return false
-    end
-
-    local joypad_action = "axis " .. axis .. " " .. (state > 0 and "+" or "-")
-    set_command_joypad_binding(item, joypad_action)
-    stop_customizing()
-    return true
+    return handled
   end
 
   function commands_menu:on_joypad_hat_moved(hat, direction8)
