@@ -1421,16 +1421,16 @@ file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain West/in_d
 file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain West/out_deathmountain_cave.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain West/out_deathmountain_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Caves/Fairy", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/deadend_east_fairy_cave.dat", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/deadend_east_fairy_cave.lua", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/deathmountain_east_fairy_cave.dat", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/deathmountain_east_fairy_cave.lua", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/deadend_east_fairy_cave.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/deadend_east_fairy_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/deathmountain_east_fairy_cave.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/deathmountain_east_fairy_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/link_forest_fairy_cave.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/link_forest_fairy_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/plain_hylia_fairy_cave.dat", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/plain_hylia_fairy_cave.lua", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/plain_of_ruins_south_fairy_cave.dat", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/plain_of_ruins_south_fairy_cave.lua", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/plain_hylia_fairy_cave.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/plain_hylia_fairy_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/plain_of_ruins_south_fairy_cave.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/plain_of_ruins_south_fairy_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/pond_of_hapiness.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/pond_of_hapiness.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/waterfall_pond.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
@@ -1882,10 +1882,12 @@ file{ path = "maps/Archived/A Link to the Past/Dark World/overworld_dark.dat", a
 file{ path = "maps/Archived/A Link to the Past/Dark World/overworld_dark.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Caves", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Desert Palace", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Desert Palace/AllFloors/AllFloors_desert_palace.dat", author = "dkak", license = "dgpgl" }
-file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Desert Palace/AllFloors/AllFloors_desert_palace.lua", author = "dkak", license = "dgpgl" }
+file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Desert Palace/AllFloors", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Desert Palace/AllFloors/AllFloors_desert_palace.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Desert Palace/AllFloors/AllFloors_desert_palace.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Desert Palace/B1", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Desert Palace/B1/B1_desert_palace_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Desert Palace/B1/B1_desert_palace_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
@@ -1896,9 +1898,9 @@ file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dun
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Desert Palace/F2/F2_desert_palace_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Desert Palace/F2/F2_desert_palace_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Eastern Palace", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Eastern Palace/AllFloors", author = "dkak", license = "dgpgl" }
-file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Eastern Palace/AllFloors/AllFloors_eastern_palace.dat", author = "dkak", license = "dgpgl" }
-file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Eastern Palace/AllFloors/AllFloors_eastern_palace.lua", author = "dkak", license = "dgpgl" }
+file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Eastern Palace/AllFloors", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Eastern Palace/AllFloors/AllFloors_eastern_palace.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Eastern Palace/AllFloors/AllFloors_eastern_palace.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Eastern Palace/F1", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Eastern Palace/F1/F1_eastern_palace_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Eastern Palace/F1/F1_eastern_palace_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
@@ -1907,9 +1909,9 @@ file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dun
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Eastern Palace/F2/F2_eastern_palace_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle Tower", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle Tower/AllFloors", author = "dkak", license = "dgpgl" }
-file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle Tower/AllFloors/AllFloors_hyrule_castle_tower_npz.dat", author = "dkak", license = "dgpgl" }
-file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle Tower/AllFloors/AllFloors_hyrule_castle_tower_npz.lua", author = "dkak", license = "dgpgl" }
+file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle Tower/AllFloors", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle Tower/AllFloors/AllFloors_hyrule_castle_tower_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle Tower/AllFloors/AllFloors_hyrule_castle_tower_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle Tower/F1", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle Tower/F1/F1_hyrule_castle_tower_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle Tower/F1/F1_hyrule_castle_tower_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
@@ -1931,9 +1933,9 @@ file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dun
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle Tower/F7", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle Tower/F7/F7_hyrule_castle_tower_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle Tower/F7/F7_hyrule_castle_tower_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle/AllFloors", author = "dkak", license = "dgpgl" }
-file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle/AllFloors/AllFloors_hyrule_castle.dat", author = "dkak", license = "dgpgl" }
-file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle/AllFloors/AllFloors_hyrule_castle.lua", author = "dkak", license = "dgpgl" }
+file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle/AllFloors", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle/AllFloors/AllFloors_hyrule_castle.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle/AllFloors/AllFloors_hyrule_castle.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle/B1", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle/B1/B1_hyrule_castle_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle/B1/B1_hyrule_castle_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
@@ -1950,9 +1952,9 @@ file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dun
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle/F2/F2_hyrule_castle_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hyrule Castle/F2/F2_hyrule_castle_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Secret Passage", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Secret Passage/AllFloors", author = "dkak", license = "dgpgl" }
-file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Secret Passage/AllFloors/AllFloors_secret_passage.dat", author = "dkak", license = "dgpgl" }
-file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Secret Passage/AllFloors/AllFloors_secret_passage.lua", author = "dkak", license = "dgpgl" }
+file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Secret Passage/AllFloors", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Secret Passage/AllFloors/AllFloors_secret_passage.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Secret Passage/AllFloors/AllFloors_secret_passage.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Secret Passage/B1", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Secret Passage/B1/B1_secret_passage_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Secret Passage/B1/B1_secret_passage_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
@@ -2867,7 +2869,9 @@ file{ path = "tilesets/blueprint/eastern_palace.dat", author = "KaKaShUruKioRa",
 file{ path = "tilesets/blueprint/eastern_palace.tiles a.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "tilesets/blueprint/eastern_palace.tiles.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "tilesets/blueprint/hyrule_castle.dat", author = "KaKaShUruKioRa", license = "GPL v3" }
+file{ path = "tilesets/blueprint/hyrule_castle.tiles.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "tilesets/blueprint/hyrule_castle_tower.dat", author = "KaKaShUruKioRa", license = "GPL v3" }
+file{ path = "tilesets/blueprint/hyrule_castle_tower.tiles.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "tilesets/blueprint/light_overworld.dat", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "tilesets/blueprint/light_overworld.tiles a.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "tilesets/blueprint/light_overworld.tiles.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
@@ -2875,6 +2879,7 @@ file{ path = "tilesets/blueprint/sacred_grove.dat", author = "KaKaShUruKioRa", l
 file{ path = "tilesets/blueprint/sacred_grove.tiles a.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "tilesets/blueprint/sacred_grove.tiles.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "tilesets/blueprint/secret_passage.dat", author = "KaKaShUruKioRa", license = "GPL v3" }
+file{ path = "tilesets/blueprint/secret_passage.tiles.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "tilesets/blueprint/tower_of_hera.dat", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "tilesets/blueprint/tower_of_hera.tiles c.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "tilesets/blueprint/tower_of_hera.tiles.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
