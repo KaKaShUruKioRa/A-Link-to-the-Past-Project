@@ -10,10 +10,11 @@ local last_direction8 = 0
 function enemy:on_created()
 
   self:set_life(1)
-  self:set_damage(1)
+  self:set_damage(4)
   self:create_sprite("enemies/" .. enemy:get_breed())
   self:set_size(8, 8)
   self:set_origin(4, 4)
+  self:set_layer_independent_collisions(true)
   self:set_can_hurt_hero_running(true)
   self:set_invincible()
 end
@@ -75,6 +76,6 @@ function enemy:on_attacking_hero(hero)
   -- If hero has magic, it is drained.
   if game:get_magic() > 0 then
     game:remove_magic(4)
-    sol.audio.play_sound("magic_bar")
+    sol.audio.play_sound("magic_meter")
   end
 end

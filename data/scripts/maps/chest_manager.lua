@@ -76,21 +76,8 @@ function chest_manager:open_when_switch_activated(chest)
   local switch = map:get_entity(switch_name)
   if switch ~= nil then
     function switch:on_activated()
-      sol.audio.play_sound("correct")
-      map:move_camera(chest_prefix_x,chest_prefix_y,256,function()
-        sol.audio.play_sound("chest_appears")
-        map:get_entity(chest_prefix.."_appears_effect"):get_sprite():set_ignore_suspend(true)
-        map:get_entity(chest_prefix.."_appears_effect"):set_enabled(true)
-        sol.timer.start(2000,function()
-          chest:get_sprite():set_ignore_suspend(true)
-          chest:set_enabled(true)
-          chest:get_sprite():fade_in(100,function()
-            sol.audio.play_sound("secret")
-            map:set_entities_enabled(chest_prefix,true)
-            map:get_entity(chest_prefix.."_appears_effect"):set_enabled(false)
-          end)
-        end)
-      end,1000,5000)
+      sol.audio.play_sound("chest_appears")
+      map:set_entities_enabled(chest_prefix,true)
     end
     if chest:is_open() then
       -- chest saved in state open.
