@@ -587,6 +587,7 @@ sprite{ id = "menus/items/equipment/book_of_mudora", description = "Book of Mudo
 sprite{ id = "menus/items/equipment/bow_quiver", description = "Bow Quiver" }
 sprite{ id = "menus/items/equipment/flippers", description = "Flippers" }
 sprite{ id = "menus/items/equipment/glove", description = "Glove" }
+sprite{ id = "menus/items/equipment/pegasus_shoes", description = "Pegasus Shoes" }
 sprite{ id = "menus/items/equipment/piece_of_heart_counter", description = "Counter Piece of Heart" }
 sprite{ id = "menus/items/equipment/shield", description = "Shield" }
 sprite{ id = "menus/items/equipment/sword", description = "Sword" }
@@ -859,6 +860,7 @@ item{ id = "equipment/bow_quiver", description = "Quiver (x30 / x50 / x70)" }
 item{ id = "equipment/flippers", description = "Flippers" }
 item{ id = "equipment/glove", description = "Glove (level 1 / level 2)" }
 item{ id = "equipment/magic_meter", description = "Magic Meter" }
+item{ id = "equipment/pegasus_shoes", description = "Pegasus Shoes" }
 item{ id = "equipment/piece_of_heart_counter", description = "Counter Piece of Heart" }
 item{ id = "equipment/shield", description = "Shield" }
 item{ id = "equipment/sword", description = "Sword" }
@@ -1101,6 +1103,7 @@ file{ path = "items/equipment/bow_quiver.lua", author = "Christopho, Mehdi Kheli
 file{ path = "items/equipment/flippers.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/equipment/glove.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/equipment/magic_meter.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "items/equipment/pegasus_shoes.lua", author = "DarkDavy15", license = "GPL v3" }
 file{ path = "items/equipment/piece_of_heart_counter.lua", author = "Mehdi Khelifi", license = "GPL v3" }
 file{ path = "items/equipment/shield.lua", author = "Mehdi Khelifi", license = "GPL v3" }
 file{ path = "items/equipment/sword.lua", author = "Mehdi Khelifi", license = "GPL v3" }
@@ -2713,6 +2716,7 @@ file{ path = "sprites/menus/items/equipment/book_of_mudora.dat", author = "Mehdi
 file{ path = "sprites/menus/items/equipment/bow_quiver.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
 file{ path = "sprites/menus/items/equipment/flippers.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
 file{ path = "sprites/menus/items/equipment/glove.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
+file{ path = "sprites/menus/items/equipment/pegasus_shoes.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
 file{ path = "sprites/menus/items/equipment/shield.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
 file{ path = "sprites/menus/items/equipment/sword.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
 file{ path = "sprites/menus/items/equipment/tunic.dat", author = "Mehdi Khelifi", license = "CC BY-SA 4.0" }
