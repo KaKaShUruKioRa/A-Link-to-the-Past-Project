@@ -16,7 +16,7 @@ function initial_game:initialize_new_savegame(game)
   -- and the starting location.
   game:set_starting_location("A Link To The Past/Light World/Houses/link_house", "dest_start")
 
-  game:set_max_life(6)
+  game:set_max_life(12)
   game:set_life(game:get_max_life())
   game:set_max_money(100)
   game:set_ability("lift", 0)
