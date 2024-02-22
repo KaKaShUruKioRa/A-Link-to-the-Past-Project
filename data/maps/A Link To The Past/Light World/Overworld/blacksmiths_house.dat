@@ -3334,7 +3334,7 @@ tile{
   y = 144,
   width = 8,
   height = 16,
-  pattern = "6198",
+  pattern = "25",
   tileset = "out/outside_lightworld_buildings",
 }
 
