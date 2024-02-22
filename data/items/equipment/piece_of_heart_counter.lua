@@ -14,7 +14,7 @@ end
 function item:on_variant_changed(variant)
   if (variant >= 5) then
     local game = self:get_game()
-    game:add_max_life(2)
+    game:add_max_life(4)
     game:set_life(game:get_max_life())
     
     item:set_variant(1)
