@@ -1,6 +1,6 @@
 background_color{ 255, 255, 255 }
 tile_pattern{
-  id = "1",
+  id = "zoras_waterfall_blueprint",
   ground = "traversable",
   default_layer = -9,
   x = 0,

@@ -145,7 +145,6 @@ map{ id = "A Link To The Past/Light World/Dungeons/Tower of Hera/F3/F3_tower_of_
 map{ id = "A Link To The Past/Light World/Dungeons/Tower of Hera/F4/F4_tower_of_hera", description = "F4 Tower of Hero" }
 map{ id = "A Link To The Past/Light World/Dungeons/Tower of Hera/F5/F5_tower_of_hera", description = "F5 Tower of Hero" }
 map{ id = "A Link To The Past/Light World/Dungeons/Tower of Hera/F6/F6_tower_of_hera", description = "F6 Tower of Hero" }
-map{ id = "A Link To The Past/Light World/Dungeons/Tower of Hera/secret_fairy_npz", description = "Secret Fairy Tower of Hera" }
 map{ id = "A Link To The Past/Light World/Houses/Kakariko/blind_hideout", description = "Blind Hideout" }
 map{ id = "A Link To The Past/Light World/Houses/Kakariko/chickens_house", description = "Chickens' House" }
 map{ id = "A Link To The Past/Light World/Houses/Kakariko/denouncer_left", description = "Denouncer Left" }
@@ -304,13 +303,14 @@ map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Hy
 map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Secret Passage/B1/B1_secret_passage_npz", description = "B1 Secret Passage NPZ" }
 map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Secret Passage/F1/F1_secret_passage_npz", description = "F1 Secret Passage NPZ" }
 map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Secret Passage/F2/F2_secret_passage_npz", description = "F2 Secret Passage NPZ" }
+map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/AllFloors/AllFloors_tower_of_hera", description = "Tower of Here All Floors NPZ" }
+map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/B1/secret_fairy_npz", description = "Ssecret_Fairy_NPZ" }
 map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/F1/F1_tower_of_hero_npz", description = "F1 Tower of Hera NPZ" }
 map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/F2/F2_tower_of_hero_npz", description = "F2 Tower of Hera NPZ" }
 map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/F3/F3_tower_of_hero_npz", description = "F3 Tower of Hera NPZ" }
 map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/F4/F4_tower_of_hero_npz", description = "F4 Tower of Hera NPZ" }
 map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/F5/F5_tower_of_hero_npz", description = "F5 Tower of Hera NPZ" }
 map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/F6/F6_tower_of_hero_npz", description = "F6 Tower of Hera NPZ" }
-map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/secret_fairy_npz", description = "Secret Fairy NPZ" }
 map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Overworld/blacksmiths_house_npz", description = "Blacksmiths House NPZ" }
 map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Overworld/cemetery_npz", description = "Cemetery NPZ" }
 map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Overworld/deadend_east_npz", description = "Deadend East NPZ" }
@@ -369,8 +369,11 @@ map{ id = "Archived/Autres/test_map/dungeon_entrance", description = "Archived/A
 map{ id = "Archived/Autres/test_map/test_map", description = "Archived/Autres/test_map/test_map" }
 
 tileset{ id = "blueprint/dark_overworld", description = "Dark Overworld BluePrint" }
+tileset{ id = "blueprint/desert_palace", description = "Desert Palace BluePrint" }
+tileset{ id = "blueprint/eastern" }
 tileset{ id = "blueprint/light_overworld", description = "Light Overworld BluePrint" }
 tileset{ id = "blueprint/sacred_grove", description = "Sacred Grove BluePrint" }
+tileset{ id = "blueprint/tower_of_hera", description = "Tower of Hera BluePrint" }
 tileset{ id = "blueprint/zoras_waterfall", description = "Zora's Waterfall" }
 tileset{ id = "dungeon/blue", description = "Blue dungeon" }
 tileset{ id = "dungeon/brown", description = "Brown dungeon" }
@@ -472,10 +475,10 @@ sprite{ id = "enemies/dungeons/popo", description = "Popo" }
 sprite{ id = "enemies/dungeons/rat", description = "Rat" }
 sprite{ id = "enemies/dungeons/rolling_spike_trap", description = "Rolling Spike Trap" }
 sprite{ id = "enemies/dungeons/rope", description = "Rope" }
-sprite{ id = "enemies/dungeons/stalfos_blue", description = "Blue Stalfos" }
+sprite{ id = "enemies/dungeons/skeleton_blue", description = "Blue Stalfos" }
+sprite{ id = "enemies/dungeons/skeleton_red", description = "Red Stalfos" }
 sprite{ id = "enemies/dungeons/stalfos_grey", description = "Grey Stalfos" }
 sprite{ id = "enemies/dungeons/stalfos_knight", description = "Stalfos Knight" }
-sprite{ id = "enemies/dungeons/stalfos_red", description = "Red Stalfos" }
 sprite{ id = "enemies/dungeons/wallmaster", description = "Wallmaster" }
 sprite{ id = "enemies/dungeons/water_tektite", description = "Water Tektite" }
 sprite{ id = "enemies/dungeons/wizzrobe_blue", description = "Blue Wizzrobe" }
@@ -518,6 +521,9 @@ sprite{ id = "enemies/soldiers/sword_soldier_green", description = "Green Sword 
 sprite{ id = "enemies/soldiers/sword_soldier_green_weapon", description = "enemies/soldiers/sword_soldier_green_weapon" }
 sprite{ id = "enemies/traps/boulder", description = "Boulder" }
 sprite{ id = "enemies/traps/cactus", description = "Cactus" }
+sprite{ id = "enemies/traps/cannonball", description = "Boulet de canon" }
+sprite{ id = "enemies/traps/cannonball_big", description = "Gros boulet de canon" }
+sprite{ id = "enemies/traps/cannonball_hand", description = "Main (obstacle)" }
 sprite{ id = "enemies/traps/fire_fairy", description = "Fire Fairy" }
 sprite{ id = "enemies/traps/medusa", description = "Medusa" }
 sprite{ id = "enemies/traps/medusa_blue", description = "Blue Medusa" }
@@ -750,6 +756,7 @@ sound{ id = "bounce", description = "bounce" }
 sound{ id = "bow", description = "bow" }
 sound{ id = "bush", description = "bush" }
 sound{ id = "cane", description = "cane" }
+sound{ id = "cannonball", description = "cannonball" }
 sound{ id = "chest_appears", description = "chest_appears" }
 sound{ id = "chest_open", description = "chest_open" }
 sound{ id = "chicken", description = "chicken" }
@@ -904,8 +911,8 @@ enemy{ id = "dark_world/taros_blue", description = "Taros Blue" }
 enemy{ id = "dark_world/taros_red", description = "Taros Red" }
 enemy{ id = "dungeons/bari_blue", description = "Bari Blue" }
 enemy{ id = "dungeons/chasupa", description = "Chasupa" }
-enemy{ id = "dungeons/eyegore_green", description = "Eyegore Green" }
-enemy{ id = "dungeons/eyegore_red", description = "Eyegore Red" }
+enemy{ id = "dungeons/eyegore_green", description = "Eyegore vert" }
+enemy{ id = "dungeons/eyegore_red", description = "Eyegore rouge" }
 enemy{ id = "dungeons/freezor", description = "Freezor" }
 enemy{ id = "dungeons/gibdo", description = "Gidbo" }
 enemy{ id = "dungeons/goriya_green", description = "Goriya Green" }
@@ -920,8 +927,9 @@ enemy{ id = "dungeons/popo", description = "Popo" }
 enemy{ id = "dungeons/rat", description = "Rat" }
 enemy{ id = "dungeons/rolling_spike_trap", description = "Rolling Spike Trap" }
 enemy{ id = "dungeons/rope", description = "Rope" }
-enemy{ id = "dungeons/stalfos_blue", description = "Stalfos Blue" }
-enemy{ id = "dungeons/stalfos_red", description = "Stalfos Red" }
+enemy{ id = "dungeons/skeleton_blue", description = "Squelette bleu" }
+enemy{ id = "dungeons/skeleton_bone", description = "Squelette (os)" }
+enemy{ id = "dungeons/skeleton_red", description = "Squelette rouge" }
 enemy{ id = "dungeons/wallmaster", description = "Wallmaster" }
 enemy{ id = "dungeons/water_tektite", description = "Water_Tektite" }
 enemy{ id = "dungeons/wizzrobe_blue", description = "Wizzrobe" }
@@ -950,6 +958,8 @@ enemy{ id = "others/wizzrobe_beam", description = "Wizzrobe's Beam" }
 enemy{ id = "soldiers/spear_soldier_red", description = "Spear Soldier Red" }
 enemy{ id = "soldiers/sword_soldier_blue", description = "Sword Soldier Blue" }
 enemy{ id = "soldiers/sword_soldier_green", description = "Sword Soldier Green" }
+enemy{ id = "traps/cannonball", description = "Boulet de canon" }
+enemy{ id = "traps/cannonball_big", description = "Gros boulet de canon" }
 enemy{ id = "traps/fire_fairy", description = "Fire Fairy" }
 enemy{ id = "traps/medusa", description = "Medusa" }
 enemy{ id = "traps/trap_auto", description = "Mooving trap" }
@@ -998,8 +1008,8 @@ file{ path = "enemies/dark_world/taros_red.lua", author = "Christopho", license 
 file{ path = "enemies/dungeons", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/bari_blue.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/chasupa.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "enemies/dungeons/eyegore_green.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "enemies/dungeons/eyegore_red.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/dungeons/eyegore_green.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "enemies/dungeons/eyegore_red.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/dungeons/freezor.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/gibdo.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/goriya_green.lua", author = "Christopho", license = "GPL v3" }
@@ -1014,13 +1024,15 @@ file{ path = "enemies/dungeons/popo.lua", author = "Christopho", license = "GPL 
 file{ path = "enemies/dungeons/rat.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/rolling_spike_trap.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/rope.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "enemies/dungeons/stalfos_blue.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "enemies/dungeons/stalfos_red.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/dungeons/skeleton_blue.lua", author = "Vlag", license = "GPL v3" }
+file{ path = "enemies/dungeons/skeleton_bone.lua", author = "Vlag", license = "GPL v3" }
+file{ path = "enemies/dungeons/skeleton_red.lua", author = "Vlag", license = "GPL v3" }
 file{ path = "enemies/dungeons/wallmaster.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/water_tektite.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/wizzrobe_blue.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/wizzrobe_white.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/zazak_blue.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/library/common_actions.lua", author = "Vlag", license = "GPL v3" }
 file{ path = "enemies/library", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/library/soldier.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/library/towards_hero.lua", author = "Christopho", license = "GPL v3" }
@@ -1052,6 +1064,8 @@ file{ path = "enemies/soldiers/spear_soldier_red.lua", author = "Christopho", li
 file{ path = "enemies/soldiers/sword_soldier_blue.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/soldiers/sword_soldier_green.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/traps", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/traps/cannonball.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/traps/cannonball_big.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/traps/fire_fairy.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/traps/medusa.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/traps/trap_auto.lua", author = "Christopho", license = "GPL v3" }
@@ -1150,7 +1164,7 @@ file{ path = "languages/fr/images/title_screen_initialization.png", license = "G
 file{ path = "languages/fr/text", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "languages/fr/text/dialogs.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "languages/fr/text/strings.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "logos", license = "Proprietary (Fair use)" }
+file{ path = "logos", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "logos/icon_1024.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "logos/icon_128x128.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "logos/icon_16.png", author = "Nintendo", license = "Proprietary (Fair use)" }
@@ -1544,8 +1558,6 @@ file{ path = "maps/A Link To The Past/Light World/Dungeons/Tower of Hera/F5/F5_t
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Tower of Hera/F6", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Tower of Hera/F6/F6_tower_of_hera.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Tower of Hera/F6/F6_tower_of_hera.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Dungeons/Tower of Hera/secret_fairy_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Dungeons/Tower of Hera/secret_fairy_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Houses", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/blind_hideout.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
@@ -1943,6 +1955,12 @@ file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dun
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Secret Passage/F2/F2_secret_passage_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Secret Passage/F2/F2_secret_passage_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/AllFloors", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/AllFloors/AllFloors_tower_of_hera.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/AllFloors/AllFloors_tower_of_hera.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/B1", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/B1/secret_fairy_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/B1/secret_fairy_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/F1", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/F1/F1_tower_of_hero_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/F1/F1_tower_of_hero_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
@@ -1961,8 +1979,6 @@ file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dun
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/F6", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/F6/F6_tower_of_hero_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/F6/F6_tower_of_hero_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/secret_fairy_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/secret_fairy_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Overworld", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Overworld/blacksmiths_house_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/Non Playable Zone/Overworld/blacksmiths_house_npz.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
@@ -2116,7 +2132,7 @@ file{ path = "musics/triforce.it", author = "Nintendo", license = "Proprietary (
 file{ path = "musics/victory.it", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "musics/village.it", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "musics/zelda.it", author = "Nintendo", license = "Proprietary (Fair use)" }
-file{ path = "scripts", license = "GPL v3" }
+file{ path = "scripts", author = "Christopho, Mehdi Khelifi, std::gregwar", license = "GPL v3" }
 file{ path = "scripts/dungeons.lua", author = "Christopho, Mehdi Khelifi", license = "GPL v3" }
 file{ path = "scripts/features.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/game_manager.lua", author = "Christopho", license = "GPL v3" }
@@ -2130,6 +2146,12 @@ file{ path = "scripts/hud/item.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/hud/magic_meter.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/hud/rupees.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/initial_game.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "scripts/maps/cannonball_manager.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "scripts/maps/chest_manager.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
+file{ path = "scripts/maps/door_manager.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
+file{ path = "scripts/maps/evil_tiles.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "scripts/maps/falling_tiles.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "scripts/maps/separator_manager.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/menus", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/menus/alttp_dialog_box.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/menus/game_over.lua", author = "Christopho", license = "GPL v3" }
@@ -2150,7 +2172,7 @@ file{ path = "shaders/fr_to_normal_colors.dat", author = "std::gregwar", license
 file{ path = "shaders/fr_to_normal_colors.frag.glsl", author = "std::gregwar", license = "GPL v3" }
 file{ path = "shaders/normal_to_fr_colors.dat", author = "std::gregwar", license = "GPL v3" }
 file{ path = "shaders/normal_to_fr_colors.frag.glsl", author = "std::gregwar", license = "GPL v3" }
-file{ path = "sounds", license = "Mixed" }
+file{ path = "sounds", author = "Diarandor, Nintendo", license = "Mixed" }
 file{ path = "sounds/arrow_hit.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/bomb.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/boomerang.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
@@ -2162,6 +2184,7 @@ file{ path = "sounds/bounce.ogg", author = "Nintendo", license = "Proprietary (F
 file{ path = "sounds/bow.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/bush.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/cane.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sounds/cannonball.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sounds/chest_appears.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/chest_open.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/chicken.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
@@ -2370,14 +2393,14 @@ file{ path = "sprites/enemies/dungeons/rolling_spike_trap.dat", author = "Christ
 file{ path = "sprites/enemies/dungeons/rolling_spike_trap.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/dungeons/rope.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/dungeons/rope.png", author = "Nintendo", license = "Proprietary (Fair use)" }
-file{ path = "sprites/enemies/dungeons/stalfos_blue.dat", author = "Christopho", license = "CC BY-SA 4.0" }
-file{ path = "sprites/enemies/dungeons/stalfos_blue.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/enemies/dungeons/skeleton_blue.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/dungeons/skeleton_blue.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/enemies/dungeons/skeleton_red.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/dungeons/skeleton_red.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/dungeons/stalfos_grey.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/dungeons/stalfos_grey.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/dungeons/stalfos_knight.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/dungeons/stalfos_knight.png", author = "Nintendo", license = "Proprietary (Fair use)" }
-file{ path = "sprites/enemies/dungeons/stalfos_red.dat", author = "Christopho", license = "CC BY-SA 4.0" }
-file{ path = "sprites/enemies/dungeons/stalfos_red.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/dungeons/wallmaster.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/dungeons/wallmaster.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/dungeons/water_tektite.dat", author = "Christopho", license = "CC BY-SA 4.0" }
@@ -2463,6 +2486,10 @@ file{ path = "sprites/enemies/traps/boulder.dat", author = "Christopho", license
 file{ path = "sprites/enemies/traps/boulder.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/traps/cactus.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/traps/cactus.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/enemies/traps/cannonball.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/traps/cannonball.png", author = "Nintendo", license = "Proprietary (fair use)" }
+file{ path = "sprites/enemies/traps/cannonball_big.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/traps/cannonball_hand.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/traps/fire_fairy.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/traps/fire_fairy.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/traps/medusa.dat", author = "Christopho", license = "CC BY-SA 4.0" }
@@ -2832,8 +2859,25 @@ file{ path = "sprites/switches/switch_d4-5.dat", author = "FFomega", license = "
 file{ path = "sprites/switches/switch_d4-6.dat", author = "FFomega", license = "CC BY-SA 4.0" }
 file{ path = "sprites/switches/switch_d4-7.dat", author = "FFomega", license = "CC BY-SA 4.0" }
 file{ path = "tilesets", license = "Mixed" }
-file{ path = "tilesets/blueprint/zoras_waterfall.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "tilesets/blueprint/zoras_waterfall.tiles.png", author = "KaKaShUruKioRa", }
+file{ path = "tilesets/blueprint", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
+file{ path = "tilesets/blueprint/dark_overworld.dat", author = "KaKaShUruKioRa", license = "GPL v3" }
+file{ path = "tilesets/blueprint/dark_overworld.tiles b.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
+file{ path = "tilesets/blueprint/dark_overworld.tiles.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
+file{ path = "tilesets/blueprint/desert_palace.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
+file{ path = "tilesets/blueprint/desert_palace.tiles n.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
+file{ path = "tilesets/blueprint/desert_palace.tiles.png", author = "KaKaShUruKioRa", license = "GPL v3" }
+file{ path = "tilesets/blueprint/light_overworld.dat", author = "KaKaShUruKioRa", license = "GPL v3" }
+file{ path = "tilesets/blueprint/light_overworld.tiles a.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
+file{ path = "tilesets/blueprint/light_overworld.tiles.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
+file{ path = "tilesets/blueprint/sacred_grove.dat", author = "KaKaShUruKioRa", license = "GPL v3" }
+file{ path = "tilesets/blueprint/sacred_grove.tiles a.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
+file{ path = "tilesets/blueprint/sacred_grove.tiles.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
+file{ path = "tilesets/blueprint/tower_of_hera.dat", author = "KaKaShUruKioRa", license = "GPL v3" }
+file{ path = "tilesets/blueprint/tower_of_hera.tiles c.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
+file{ path = "tilesets/blueprint/tower_of_hera.tiles.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
+file{ path = "tilesets/blueprint/zoras_waterfall.dat", author = "KaKaShUruKioRa", license = "GPL v3" }
+file{ path = "tilesets/blueprint/zoras_waterfall.tiles a.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
+file{ path = "tilesets/blueprint/zoras_waterfall.tiles.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "tilesets/dungeon", author = "Nintendo, FFomega", license = "Mixed" }
 file{ path = "tilesets/dungeon/blue.dat", author = "FFomega", license = "CC BY-SA 4.0" }
 file{ path = "tilesets/dungeon/blue.entities.png", author = "Nintendo, FFomega", license = "Proprietary (Fair use)" }
@@ -2898,3 +2942,9 @@ file{ path = "tilesets/out/outside_main.dat", author = "FFomega, KaKaShUruKioRa"
 file{ path = "tilesets/out/outside_main.tiles.png", author = "Nintendo, FFomega, KaKaShUruKioRa", license = "Proprietary (Fair use)" }
 file{ path = "tilesets/out/outside_special.dat", author = "FFomega, KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "tilesets/out/outside_special.tiles.png", author = "Nintendo, FFomega, KaKaShUruKioRa", license = "Proprietary (Fair use)" }
+file{ path = "tilesets/out/zoras_falls.tiles.png", author = "Nintendo, KaKaShUruKioRa", license = "Proprietary (Fair use)" }
+file{ path = "tilesets/secret_room", author = "KaKaShUruKioRa", license = "Mixed" }
+file{ path = "tilesets/secret_room/mini_darkworld.dat", author = "KaKaShUruKioRa", license = "GPL v3" }
+file{ path = "tilesets/secret_room/mini_darkworld.tiles.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
+file{ path = "tilesets/secret_room/mini_lightworld.dat", author = "KaKaShUruKioRa", license = "GPL v3" }
+file{ path = "tilesets/secret_room/mini_lightworld.tiles.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
