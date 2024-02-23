@@ -5,8 +5,8 @@ properties{
   height = 512,
   min_layer = 0,
   max_layer = 7,
-  world = "Dungeon1",
-  floor = -1,
+  world = "Tower of Hera",
+  floor = -143,
   tileset = "dungeon/dark_yellow",
 }
 

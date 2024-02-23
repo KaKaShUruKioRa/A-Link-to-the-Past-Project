@@ -57,8 +57,8 @@ end
 
 local function draw_hearts(game, game_surface)
 
-  local life = game:get_life()
-  local max_life = game:get_max_life()
+  local life = math.ceil(game:get_life()/2)
+  local max_life = math.ceil(game:get_max_life()/2)
   for j = 1, max_life do
     if j % 2 == 0 then
       local x, y

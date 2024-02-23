@@ -107,21 +107,26 @@ function language_menu:on_key_pressed(key)
   return handled
 end
 
+local joy_avoid_repeat = {-2, -2}
 function language_menu:on_joypad_axis_moved(axis, state)
-
-  if axis % 2 == 0 then  -- Horizontal axis.
-    if state > 0 then
-      self:direction_pressed(0)
-    elseif state < 0 then
-      self:direction_pressed(4)
-    end
-  else  -- Vertical axis.
-    if state > 0 then
-      self:direction_pressed(6)
-    elseif state < 0 then
-      self:direction_pressed(2)
+  local handled = joy_avoid_repeat[axis] == state
+  joy_avoid_repeat[axis] = state
+  if not handled then
+    if axis % 2 == 0 then  -- Horizontal axis.
+      if state > 0 then
+        self:direction_pressed(0)
+      elseif state < 0 then
+        self:direction_pressed(4)
+      end
+    else  -- Vertical axis.
+      if state > 0 then
+        self:direction_pressed(6)
+      elseif state < 0 then
+        self:direction_pressed(2)
+      end
     end
   end
+  return handled
 end
 
 function language_menu:on_joypad_hat_moved(hat, direction8)

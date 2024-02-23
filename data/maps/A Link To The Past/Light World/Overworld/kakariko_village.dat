@@ -8857,7 +8857,7 @@ tile{
   y = 720,
   width = 8,
   height = 16,
-  pattern = "6198",
+  pattern = "25",
   tileset = "out/outside_lightworld_buildings",
 }
 
@@ -8887,7 +8887,7 @@ tile{
   y = 720,
   width = 8,
   height = 16,
-  pattern = "6198",
+  pattern = "25",
   tileset = "out/outside_lightworld_buildings",
 }
 
@@ -8917,7 +8917,7 @@ tile{
   y = 720,
   width = 8,
   height = 16,
-  pattern = "6198",
+  pattern = "25",
   tileset = "out/outside_lightworld_buildings",
 }
 
@@ -8947,7 +8947,7 @@ tile{
   y = 432,
   width = 8,
   height = 16,
-  pattern = "6198",
+  pattern = "25",
   tileset = "out/outside_lightworld_buildings",
 }
 
@@ -8977,7 +8977,7 @@ tile{
   y = 432,
   width = 8,
   height = 16,
-  pattern = "6198",
+  pattern = "25",
   tileset = "out/outside_lightworld_buildings",
 }
 
@@ -9007,7 +9007,7 @@ tile{
   y = 464,
   width = 8,
   height = 16,
-  pattern = "6198",
+  pattern = "25",
   tileset = "out/outside_lightworld_buildings",
 }
 
@@ -9037,7 +9037,7 @@ tile{
   y = 464,
   width = 8,
   height = 16,
-  pattern = "6198",
+  pattern = "25",
   tileset = "out/outside_lightworld_buildings",
 }
 
@@ -9067,7 +9067,7 @@ tile{
   y = 496,
   width = 8,
   height = 16,
-  pattern = "6198",
+  pattern = "25",
   tileset = "out/outside_lightworld_buildings",
 }
 
@@ -9097,7 +9097,7 @@ tile{
   y = 496,
   width = 8,
   height = 16,
-  pattern = "6198",
+  pattern = "25",
   tileset = "out/outside_lightworld_buildings",
 }
 
@@ -9127,7 +9127,7 @@ tile{
   y = 192,
   width = 8,
   height = 16,
-  pattern = "6198",
+  pattern = "25",
   tileset = "out/outside_lightworld_buildings",
 }
 
@@ -15189,9 +15189,9 @@ jumper{
   name = "jump_kakariko_village_5",
   layer = 0,
   x = 720,
-  y = 232,
-  width = 32,
-  height = 32,
+  y = 248,
+  width = 16,
+  height = 16,
   direction = 7,
   jump_length = 36,
 }

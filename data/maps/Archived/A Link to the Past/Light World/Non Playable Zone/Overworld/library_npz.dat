@@ -5429,6 +5429,15 @@ tile{
 
 tile{
   layer = 4,
+  x = 440,
+  y = 152,
+  width = 96,
+  height = 8,
+  pattern = "1453",
+}
+
+tile{
+  layer = 4,
   x = 0,
   y = 104,
   width = 48,
