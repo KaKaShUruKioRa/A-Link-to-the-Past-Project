@@ -35,8 +35,8 @@ Pour les joueurs qu découvrirait éventuellement ce titre, voir carrément la s
   quest_version = "0.1.1",
   release_date = "",
   website = "https://play.spotify.com/artist/2nRyP56IOlGpXgG1yuOpZ2",
-  normal_quest_size = "256x224",
-  min_quest_size = "256x224",
-  max_quest_size = "256x224",
+  normal_quest_size = "320x240",
+  min_quest_size = "320x240",
+  max_quest_size = "320x240",
 }
 
