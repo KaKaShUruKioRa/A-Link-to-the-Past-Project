@@ -2,7 +2,7 @@ local map = ...
 local game = map:get_game()
 
 local cannonball_manager = require("scripts/maps/cannonball_manager")
-cannonball_manager:create_cannons(map, "cannon_small_", 1000, 5, "traps/cannonball")
+cannonball_manager:create_cannons(map, "cannon_small_", 1000, 5)
 cannonball_manager:create_cannons(map, "cannon_big_", 5000, nil, "traps/cannonball_big")
 
 local door_manager = require("scripts/maps/door_manager")

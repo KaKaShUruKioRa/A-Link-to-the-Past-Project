@@ -47,8 +47,14 @@ function cannonball_manager:create_cannons(map, prefix, initial_timer, cannons_n
       }
       sol.audio.play_sound("cannonball")
     else
-      i = i + 1
-      if i == cannons_numtime_stop then i = 0 end
+      if cannons_numtime_stop ~= nil then
+        if cannons_numtime_stop > 1 then
+          i = i + 1
+          if i == cannons_numtime_stop then
+            i = 0
+          end
+        end
+      end
       map:remove_entities("cannonball")
     end
     return true  -- Repeat the timer.
