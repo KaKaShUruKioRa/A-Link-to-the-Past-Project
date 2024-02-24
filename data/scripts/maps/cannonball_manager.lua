@@ -1,7 +1,5 @@
 local cannonball_manager = {}
 
-local i = 0
-
 -- cannonball_manager:create_cannons(map, prefix, initial_timer, cannons_numtime_stop, cannon_breed)
 -- map : The map.
 -- prefix : The prefix of the entities.
@@ -10,6 +8,7 @@ local i = 0
 -- cannon_breed : The "breed" of the cannon to summon. If nil, will take "traps/cannonball" by default.
 
 function cannonball_manager:create_cannons(map, prefix, initial_timer, cannons_numtime_stop, cannon_breed)
+  local i = 0
   -- Random cannonballs.
   if cannon_breed == nil then cannon_breed = "traps/cannonball" end
   local cannons = {}
