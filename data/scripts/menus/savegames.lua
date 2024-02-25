@@ -43,16 +43,16 @@ end
 
 local function build_layout()
 
-  layout = gui_designer:create(320, 240)
+  layout = gui_designer:create(256, 224)
 
   layout:make_green_tiled_background()
-  layout:make_big_wooden_frame(16, 8, 160, 32)
-  layout:make_text(sol.language.get_string("savegames_menu.title"), 96, 16, "center")
-  layout:make_wooden_frame(16, 48, 288, 176)
-  layout:make_text(sol.language.get_string("savegames_menu.options"), 84, 200, "center")
-  layout:make_text("1.", 44, 56)
-  layout:make_text("2.", 44, 104)
-  layout:make_text("3.", 44, 152)
+  layout:make_big_wooden_frame(16, 4, 160, 32)
+  layout:make_text(sol.language.get_string("savegames_menu.title"), 96, 12, "center")
+  layout:make_wooden_frame(16, 40, 224, 158)
+  layout:make_text(sol.language.get_string("savegames_menu.options"), 84, 168, "center")
+  layout:make_text("1.", 44, 48) -- debut a 8, puis addition 48, mais personnalised en 40
+  layout:make_text("2.", 44, 88)
+  layout:make_text("3.", 44, 128)
 end
 
 local function draw_hearts(game, game_surface)
@@ -94,7 +94,7 @@ local function read_savegames()
   for i = 1, 3 do
     local file_name = get_savegame_file_name(i)
     local surface = sol.surface.create(272, 16)
-    surface:set_xy(24, 8 + i * 48)
+    surface:set_xy(24, 8 + i * 40)
     savegames_surfaces[i] = surface
 
     if not sol.game.exists(file_name) then
@@ -115,7 +115,7 @@ end
 local function set_cursor_position(index)
 
   cursor_position = index
-  cursor_img:set_xy(26, 2 + index * 48)
+  cursor_img:set_xy(26, 2 + index * 40)
 end
 
 function savegames_menu:on_started()
@@ -245,8 +245,8 @@ function show_savegame_action_box(savegame_index)
 
   function action_box_menu:on_draw(dst_surface)
 
-    layout:draw(dst_surface, 104, 84)
-    fairy_img:draw(dst_surface, 112, 72 + fairy_cursor_position * 20)
+    layout:draw(dst_surface, 70, 76)
+    fairy_img:draw(dst_surface, 78, 64 + fairy_cursor_position * 20)
   end
 
   gui_designer:map_joypad_to_keyboard(action_box_menu)
@@ -288,8 +288,8 @@ function show_confirm_delete_box(action)
 
   function delete_box_menu:on_draw(dst_surface)
 
-    layout:draw(dst_surface, 104, 84)
-    fairy_img:draw(dst_surface, 112, 92 + fairy_cursor_position * 20)
+    layout:draw(dst_surface, 70, 76)
+    fairy_img:draw(dst_surface, 78, 84 + fairy_cursor_position * 20)
   end
 
   gui_designer:map_joypad_to_keyboard(delete_box_menu)
