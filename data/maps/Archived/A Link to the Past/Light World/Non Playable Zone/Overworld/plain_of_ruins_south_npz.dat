@@ -2066,11 +2066,8 @@ destructible{
   name = "stone_white_plain_of_ruin_south_8",
   layer = -2,
   x = 248,
-  y = 269,  width = 32,
-  height = 32,
-  direction = 0,
+  y = 269,
   sprite = "destructibles/stone_big_lw_1",
-  model = "stone_big_white",
 }
 
 destructible{
@@ -2087,7 +2084,8 @@ custom_entity{
   name = "big_stone_white_plain_of_ruin_south_10",
   layer = -2,
   x = 376,
-  y = 269,  width = 32,
+  y = 269,
+  width = 32,
   height = 32,
   direction = 0,
   sprite = "destructibles/stone_big_lw_1",
@@ -2098,7 +2096,8 @@ custom_entity{
   name = "big_stone_white_plain_of_ruin_south_11",
   layer = -2,
   x = 248,
-  y = 333,  width = 32,
+  y = 333,
+  width = 32,
   height = 32,
   direction = 0,
   sprite = "destructibles/stone_big_lw_1",
