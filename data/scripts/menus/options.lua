@@ -19,19 +19,19 @@ local cursor_position
 
 local function build_layout()
 
-  layout = gui_designer:create(320, 240)
+  layout = gui_designer:create(256, 224)
 
   layout:make_green_tiled_background()
-  layout:make_big_wooden_frame(16, 8, 96, 32)
-  layout:make_text(sol.language.get_string("options_menu.title"), 64, 16, "center")
-  layout:make_wooden_frame(16, 48, 288, 176)
-  layout:make_text(sol.language.get_string("options_menu.music_volume"), 64, 56)
-  layout:make_image(slider_img, 128, 56)
-  layout:make_text(sol.language.get_string("options_menu.sound_volume"), 64, 104)
-  layout:make_image(slider_img, 128, 104)
-  layout:make_text(sol.language.get_string("options_menu.language"), 64, 152)
-  layout:make_text("< " .. sol.language.get_language_name() .. " >", 288, 152, "right")
-  layout:make_text(sol.language.get_string("options_menu.back"), 64, 200)
+  layout:make_big_wooden_frame(16, 4, 160, 32)
+  layout:make_text(sol.language.get_string("options_menu.title"), 96, 12, "center")
+  layout:make_wooden_frame(16, 40, 224, 158)
+  layout:make_text(sol.language.get_string("options_menu.music_volume"), 44, 48)
+  layout:make_image(slider_img, 100, 48)
+  layout:make_text(sol.language.get_string("options_menu.sound_volume"), 44, 88)
+  layout:make_image(slider_img, 100, 88)
+  layout:make_text(sol.language.get_string("options_menu.language"), 44, 128)
+  layout:make_text("< " .. sol.language.get_language_name() .. " >", 224, 128, "right")
+  layout:make_text(sol.language.get_string("options_menu.back"), 44, 168)
 end
 
 -- Places the cursor on option 1, 2 or 3,
@@ -39,19 +39,19 @@ end
 local function set_cursor_position(index)
 
   cursor_position = index
-  cursor_img:set_xy(26, 2 + index * 48)
+  cursor_img:set_xy(26, 2 + index * 40)
 end
 
 local function update_music_slider()
 
   local volume = sol.audio.get_music_volume()
-  music_slider_x = 136 + (volume * 128 / 100)
+  music_slider_x = 108 + (volume * 100 / 100)
 end
 
 local function update_sound_slider()
 
   local volume = sol.audio.get_sound_volume()
-  sound_slider_x = 136 + (volume * 128 / 100)
+  sound_slider_x = 108 + (volume * 100 / 100)
 end
 
 local function increase_music_volume()
@@ -126,8 +126,8 @@ function options_menu:on_draw(dst_surface)
 
   layout:draw(dst_surface)
   cursor_img:draw(dst_surface)
-  slider_cursor_img:draw(dst_surface, music_slider_x, 56)
-  slider_cursor_img:draw(dst_surface, sound_slider_x, 104)
+  slider_cursor_img:draw(dst_surface, music_slider_x, 48)
+  slider_cursor_img:draw(dst_surface, sound_slider_x, 88)
 end
 
 function options_menu:on_key_pressed(key)
