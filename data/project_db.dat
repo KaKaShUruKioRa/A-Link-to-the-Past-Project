@@ -352,6 +352,7 @@ map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Overworld/w
 map{ id = "Archived/A Link to the Past/Light World/Non Playable Zone/Overworld/zoras waterfall", description = "Zora's Waterfall NPZ" }
 map{ id = "Archived/A Link to the Past/Light World/light_world", description = "Light OverWorld (Modern)" }
 map{ id = "Archived/A Link to the Past/Light World/overworld_light", description = "Light OverWorld (Old)" }
+map{ id = "Archived/A Link to the Past/Secret Room/Boss/boss_choice_room", description = "Boss Debug Room" }
 map{ id = "Archived/A Link to the Past/Secret Room/Caves/secret_darkcaves", description = "Secret Dark Caves" }
 map{ id = "Archived/A Link to the Past/Secret Room/Caves/secret_lightcaves", description = "Secret Light Caves" }
 map{ id = "Archived/A Link to the Past/Secret Room/Dungeons/secret_darkdungeons", description = "Secret Dark Dungeons" }
@@ -442,6 +443,11 @@ sprite{ id = "enemies/bosses/blind_the_thief", description = "Blind the Thief" }
 sprite{ id = "enemies/bosses/ganon", description = "Ganon" }
 sprite{ id = "enemies/bosses/helmasaur_king", description = "Helmasaur King" }
 sprite{ id = "enemies/bosses/kholdstare", description = "Kholdstare" }
+sprite{ id = "enemies/bosses/moldorm", description = "Moldorm" }
+sprite{ id = "enemies/bosses/moldorm/body_1", description = "Body 1" }
+sprite{ id = "enemies/bosses/moldorm/body_2", description = "Body 2" }
+sprite{ id = "enemies/bosses/moldorm/body_3", description = "Body 3" }
+sprite{ id = "enemies/bosses/moldorm/tail", description = "Tail" }
 sprite{ id = "enemies/bosses/mothula", description = "Mothula" }
 sprite{ id = "enemies/bosses/vitreous", description = "Vitreous" }
 sprite{ id = "enemies/dark_world/hinox", description = "Hinox" }
@@ -899,6 +905,7 @@ enemy{ id = "bosses/blind_the_thief", description = "Blind the Thief" }
 enemy{ id = "bosses/ganon", description = "Ganon" }
 enemy{ id = "bosses/helmasaur_king", description = "Helmasaur King" }
 enemy{ id = "bosses/kholdstare", description = "Kholdstare" }
+enemy{ id = "bosses/moldorm", description = "Moldorm" }
 enemy{ id = "bosses/mothula", description = "Mothula" }
 enemy{ id = "bosses/vitreous", description = "Vitreous" }
 enemy{ id = "dark_world/hinox", description = "Hinox" }
@@ -994,6 +1001,7 @@ file{ path = "enemies/bosses/blind_the_thief.lua", author = "Christopho", licens
 file{ path = "enemies/bosses/ganon.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/bosses/helmasaur_king.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/bosses/kholdstare.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/bosses/moldorm.lua", author = "Vlag", license = "GPL v3" }
 file{ path = "enemies/bosses/mothula.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/bosses/vitreous.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dark_world", author = "Christopho", license = "GPL v3" }
@@ -1032,8 +1040,8 @@ file{ path = "enemies/dungeons/water_tektite.lua", author = "Christopho", licens
 file{ path = "enemies/dungeons/wizzrobe_blue.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/wizzrobe_white.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/zazak_blue.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "enemies/library/common_actions.lua", author = "Vlag", license = "GPL v3" }
 file{ path = "enemies/library", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/library/common_actions.lua", author = "Vlag", license = "GPL v3" }
 file{ path = "enemies/library/soldier.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/library/towards_hero.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/library/waiting_for_hero.lua", author = "Christopho", license = "GPL v3" }
@@ -2063,6 +2071,8 @@ file{ path = "maps/Archived/A Link to the Past/Light World/light_world.lua", aut
 file{ path = "maps/Archived/A Link to the Past/Light World/overworld_light.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Light World/overworld_light.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Secret Room", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Archived/A Link to the Past/Secret Room/Boss/boss_choice_room.dat", author = "DarkDavy15", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Archived/A Link to the Past/Secret Room/Boss/boss_choice_room.lua", author = "DarkDavy15", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Secret Room/Caves", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Secret Room/Caves/secret_darkcaves.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Secret Room/Caves/secret_darkcaves.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
@@ -2327,6 +2337,13 @@ file{ path = "sprites/enemies/bosses/helmasaur_king.dat", author = "Christopho",
 file{ path = "sprites/enemies/bosses/helmasaur_king.png", author = "Christopho", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/bosses/kholdstare.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/bosses/kholdstare.png", author = "Christopho", license = "Proprietary (Fair use)" }
+file{ path = "sprites/enemies/bosses/moldorm", author = "(source lost)", }
+file{ path = "sprites/enemies/bosses/moldorm.dat", author = "(source lost)", }
+file{ path = "sprites/enemies/bosses/moldorm.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/enemies/bosses/moldorm/body_1.dat", author = "(source lost)", }
+file{ path = "sprites/enemies/bosses/moldorm/body_2.dat", author = "(source lost)", }
+file{ path = "sprites/enemies/bosses/moldorm/body_3.dat", author = "(source lost)", }
+file{ path = "sprites/enemies/bosses/moldorm/tail.dat", author = "(source lost)", }
 file{ path = "sprites/enemies/bosses/mothula.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/bosses/mothula.png", author = "Christopho", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/bosses/vitreous.dat", author = "Christopho", license = "CC BY-SA 4.0" }

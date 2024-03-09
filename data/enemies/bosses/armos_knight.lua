@@ -15,8 +15,8 @@ function enemy:on_created()
 
   enemy:set_invincible()
   enemy:set_attack_consequence("sword", 1)
-  enemy:set_arrow_reaction(1)
-  enemy:set_hookshot_reaction(1)
+  enemy:set_attack_consequence("arrow", 1)
+  enemy:set_attack_consequence("hookshot", 1)
 end
 
 function enemy:on_restarted()
