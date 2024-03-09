@@ -123,6 +123,7 @@ map{ id = "A Link To The Past/Light World/Dungeons/Desert Palace/B1/B1_desert_pa
 map{ id = "A Link To The Past/Light World/Dungeons/Desert Palace/F1/F1_desert_palace", description = "F1 Desert Palace" }
 map{ id = "A Link To The Past/Light World/Dungeons/Desert Palace/F2/F2_desert_palace", description = "F2 Desert Palace" }
 map{ id = "A Link To The Past/Light World/Dungeons/Eastern Palace/F1/F1_eastern_palace", description = "F1 Eastern Palace" }
+map{ id = "A Link To The Past/Light World/Dungeons/Eastern Palace/F1/fairy_fountain", description = "Fountain Eastern Palace" }
 map{ id = "A Link To The Past/Light World/Dungeons/Eastern Palace/F2/F2_eastern_palace", description = "F2 Eastern Palace" }
 map{ id = "A Link To The Past/Light World/Dungeons/Hyrule Castle Tower/F1/F1_hyrule_castle_tower", description = "F1 Hyrule Castle Tower" }
 map{ id = "A Link To The Past/Light World/Dungeons/Hyrule Castle Tower/F2/F2_hyrule_castle_tower", description = "F2 Hyrule Castle Tower" }
@@ -542,6 +543,7 @@ sprite{ id = "entities/chest", description = "Chest" }
 sprite{ id = "entities/crystal", description = "Crystal" }
 sprite{ id = "entities/crystal_block", description = "Crystal block" }
 sprite{ id = "entities/destination", description = "Destination" }
+sprite{ id = "entities/effect_smoke", description = "Effet de fumee" }
 sprite{ id = "entities/explosion", description = "Explosion" }
 sprite{ id = "entities/fire", description = "Fire" }
 sprite{ id = "entities/hammer_stake_brown", description = "Hammer Stake Brown" }
@@ -757,6 +759,7 @@ sound{ id = "bow", description = "bow" }
 sound{ id = "bush", description = "bush" }
 sound{ id = "cane", description = "cane" }
 sound{ id = "cannonball", description = "cannonball" }
+sound{ id = "cape", description = "cape_off" }
 sound{ id = "chest_appears", description = "chest_appears" }
 sound{ id = "chest_open", description = "chest_open" }
 sound{ id = "chicken", description = "chicken" }
@@ -1032,8 +1035,8 @@ file{ path = "enemies/dungeons/water_tektite.lua", author = "Christopho", licens
 file{ path = "enemies/dungeons/wizzrobe_blue.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/wizzrobe_white.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/zazak_blue.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "enemies/library/common_actions.lua", author = "Vlag", license = "GPL v3" }
 file{ path = "enemies/library", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/library/common_actions.lua", author = "Vlag", license = "GPL v3" }
 file{ path = "enemies/library/soldier.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/library/towards_hero.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/library/waiting_for_hero.lua", author = "Christopho", license = "GPL v3" }
@@ -1484,13 +1487,15 @@ file{ path = "maps/A Link To The Past/Light World/Dungeons/Desert Palace/F1/F1_d
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Desert Palace/F2", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Desert Palace/F2/F2_desert_palace.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Desert Palace/F2/F2_desert_palace.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Dungeons/Eastern Palace", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Dungeons/Eastern Palace/F1", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Dungeons/Eastern Palace/F1/F1_eastern_palace.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Dungeons/Eastern Palace/F1/F1_eastern_palace.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Dungeons/Eastern Palace/F2", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Dungeons/Eastern Palace/F2/F2_eastern_palace.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Dungeons/Eastern Palace/F2/F2_eastern_palace.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Dungeons/Eastern Palace", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Dungeons/Eastern Palace/F1", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Dungeons/Eastern Palace/F1/F1_eastern_palace.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Dungeons/Eastern Palace/F1/F1_eastern_palace.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Dungeons/Eastern Palace/F1/fairy_fountain.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Dungeons/Eastern Palace/F1/fairy_fountain.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Dungeons/Eastern Palace/F2", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Dungeons/Eastern Palace/F2/F2_eastern_palace.dat", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Dungeons/Eastern Palace/F2/F2_eastern_palace.lua", author = "ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Hyrule Castle", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Hyrule Castle Tower", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Hyrule Castle Tower/F1", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
@@ -2185,6 +2190,7 @@ file{ path = "sounds/bow.ogg", author = "Nintendo", license = "Proprietary (Fair
 file{ path = "sounds/bush.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/cane.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/cannonball.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
+file{ path = "sounds/cape.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sounds/chest_appears.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/chest_open.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/chicken.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
@@ -2525,6 +2531,8 @@ file{ path = "sprites/entities/dark1.png", author = "Nintendo", license = "Propr
 file{ path = "sprites/entities/dark2.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/entities/dark3.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/entities/destination.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/effect_smoke.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/effect_smoke.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/entities/explosion.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/explosion.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/entities/fire.dat", author = "Christopho", license = "CC BY-SA 4.0" }

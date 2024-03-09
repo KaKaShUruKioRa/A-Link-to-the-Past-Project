@@ -14,21 +14,39 @@ separator_manager:manage_map(map)
 
 function map:on_started()
 
-  map:set_doors_open("auto_door_2_back")
-  map:set_doors_open("auto_door_3_back")
+  map:set_doors_open("auto_door_2")
+  map:set_doors_open("auto_door_3")
+  map:set_doors_open("auto_door_7")
 
   --Grande Clé obtenue
   if game:get_value("eastern_big_key") then map:set_entities_enabled("wall_switch_bk_",false) auto_chest_big_key:set_enabled(true) end
 end
 
-function sensor_close_auto_door_2_back:on_activated()
-  self:set_enabled(false)
-  map:close_doors("auto_door_2_back")
+function sensor_close_auto_door_2:on_activated()
+  map:set_entities_enabled("sensor_close_auto_door_2",false)
+  map:close_doors("auto_door_2")
+end
+function sensor_close_auto_door_2_2:on_activated()
+  map:set_entities_enabled("sensor_close_auto_door_2",false)
+  map:close_doors("auto_door_2")
 end
 
-function sensor_close_auto_door_3_back:on_activated()
-  self:set_enabled(false)
-  map:close_doors("auto_door_3_back")
+function sensor_close_auto_door_3:on_activated()
+  map:set_entities_enabled("sensor_close_auto_door_3",false)
+  map:close_doors("auto_door_3")
+end
+function sensor_close_auto_door_3_2:on_activated()
+  map:set_entities_enabled("sensor_close_auto_door_3",false)
+  map:close_doors("auto_door_3")
+end
+
+function sensor_close_auto_door_7:on_activated()
+  map:set_entities_enabled("sensor_close_auto_door_7",false)
+  map:close_doors("auto_door_7")
+end
+function sensor_close_auto_door_7_2:on_activated()
+  map:set_entities_enabled("sensor_close_auto_door_7",false)
+  map:close_doors("auto_door_7")
 end
 
 for enemy in map:get_entities("enemy_switch_bk_") do
@@ -37,4 +55,20 @@ for enemy in map:get_entities("enemy_switch_bk_") do
       map:set_entities_enabled("wall_switch_bk_",false)
     end
   end
+end
+
+function sensor_skeleton_spawn:on_activated()
+  self:set_enabled(false)
+  sol.timer.start(map,1000,function()
+    local i = 0
+    sol.timer.start(map,700,function()
+      i = i + 1
+      sol.audio.play_sound("cape")
+      map:get_entity("smoke_"..i):set_enabled(true)
+      sol.timer.start(map,200,function()
+        map:get_entity("auto_enemy_auto_door_7_"..i):set_enabled(true)
+      end)
+      return i < 4
+    end)
+  end)
 end

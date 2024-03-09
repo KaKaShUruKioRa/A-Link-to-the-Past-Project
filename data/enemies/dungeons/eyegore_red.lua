@@ -2,23 +2,23 @@ local enemy = ...
 local going_hero = false
 local timer
 
---Eyegore red
+--Eyegore green
 
 function enemy:on_created()
-  self:set_life(5)
-  self:set_damage(6)
+  self:set_life(16)
+  self:set_damage(2)
   self:create_sprite("enemies/" .. enemy:get_breed())
   self:set_hurt_style("monster")
   self:get_sprite():set_animation("immobilized")
   self:set_invincible(true)
-  self:set_push_hero_on_sword(true)
   self:set_attack_consequence("sword", "protected")
   self:set_attack_consequence("thrown_item", "protected")
   self:set_attack_consequence("explosion", "protected")
   self:set_attack_consequence("boomerang", "protected")
-  self:set_arrow_reaction("protected")
-  self:set_hookshot_reaction("protected")
-  self:set_fire_reaction("protected")
+  self:set_attack_consequence("arrow", "protected")
+  --self:set_arrow_reaction("protected")
+  --self:set_hookshot_reaction("protected")
+  --self:set_fire_reaction("protected")
 end
 
 function enemy:on_obstacle_reached(movement)
@@ -53,7 +53,8 @@ function enemy:check_hero()
 end
 
 function enemy:sleep()
-  self:set_arrow_reaction("protected")
+  self:set_attack_consequence("arrow", "protected")
+  --self:set_arrow_reaction("protected")
   self:set_attack_consequence("sword", "protected")
   self:set_attack_consequence("thrown_item", "protected")
   self:set_attack_consequence("explosion", "protected")
@@ -78,7 +79,13 @@ function enemy:on_movement_changed(movement)
 end
 
 function enemy:go_hero()
-  enemy:set_arrow_reaction(1)
+  self:set_attack_consequence("arrow", 8)
+  --self:set_arrow_reaction(8)
+  --self:set_hammer_reaction(8)
+  --self:set_fire_reaction(4)
+  self:set_attack_consequence("sword", 1)
+  self:set_attack_consequence("thrown_item", 8)
+  self:set_attack_consequence("explosion", 4)
   self:get_sprite():set_animation("walking")
   local m = sol.movement.create("target")
   m:set_speed(56)
