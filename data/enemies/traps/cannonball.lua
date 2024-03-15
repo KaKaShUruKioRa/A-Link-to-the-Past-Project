@@ -38,5 +38,5 @@ function enemy:on_restarted()
   end)
 
   -- debug TODO
-  movement:set_ignore_obstacles(true)
+  movement:set_ignore_obstacles(false)
 end

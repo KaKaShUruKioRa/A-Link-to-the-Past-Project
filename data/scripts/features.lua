@@ -13,4 +13,6 @@ require("scripts/menus/game_over")
 require("scripts/hud/hud")
 require("scripts/dungeons.lua")
 
+require("scripts/meta/sensor.lua")
+
 return true

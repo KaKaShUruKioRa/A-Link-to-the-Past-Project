@@ -13,16 +13,6 @@ properties{
 
 tile{
   layer = 0,
-  x = 512,
-  y = 512,
-  width = 1542,
-  height = 2570,
-  pattern = "1",
-  tileset = "blueprint/eastern",
-}
-
-tile{
-  layer = 0,
   x = 1088,
   y = 1104,
   width = 384,
@@ -14102,15 +14092,6 @@ door{
   sprite = "doors/door_d1_normal",
 }
 
-sensor{
-  name = "sensor_close_auto_door_2",
-  layer = 1,
-  x = 1272,
-  y = 2261,
-  width = 32,
-  height = 16,
-}
-
 wall{
   layer = 1,
   x = 1272,
@@ -14853,7 +14834,7 @@ destructible{
 chest{
   layer = 1,
   x = 1976,
-  y = 1405,
+  y = 1413,
   treasure_savegame_variable = "eastern_map",
   sprite = "entities/chest",
 }
@@ -15201,8 +15182,8 @@ sensor{
 enemy{
   name = "auto_enemy_auto_door_7_1",
   layer = 1,
-  x = 640,
-  y = 1445,
+  x = 624,
+  y = 1357,
   enabled_at_start = false,
   direction = 3,
   breed = "dungeons/skeleton_blue",
@@ -15211,8 +15192,8 @@ enemy{
 enemy{
   name = "auto_enemy_auto_door_7_2",
   layer = 1,
-  x = 704,
-  y = 1437,
+  x = 624,
+  y = 1453,
   enabled_at_start = false,
   direction = 3,
   breed = "dungeons/skeleton_blue",
@@ -15221,8 +15202,8 @@ enemy{
 enemy{
   name = "auto_enemy_auto_door_7_3",
   layer = 1,
-  x = 680,
-  y = 1373,
+  x = 576,
+  y = 1405,
   enabled_at_start = false,
   direction = 3,
   breed = "dungeons/skeleton_blue",
@@ -15231,20 +15212,11 @@ enemy{
 enemy{
   name = "auto_enemy_auto_door_7_4",
   layer = 1,
-  x = 680,
-  y = 1477,
+  x = 696,
+  y = 1413,
   enabled_at_start = false,
   direction = 3,
   breed = "dungeons/skeleton_blue",
-}
-
-sensor{
-  name = "sensor_close_auto_door_2_2",
-  layer = 1,
-  x = 1272,
-  y = 2117,
-  width = 32,
-  height = 16,
 }
 
 sensor{
@@ -15331,6 +15303,87 @@ sensor{
   y = 1349,
   width = 16,
   height = 160,
+}
+
+sensor{
+  name = "sensor_falling_auto_door_2_n_open",
+  layer = 1,
+  x = 1280,
+  y = 2317,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "sensor_falling_auto_door_2_s_open",
+  layer = 1,
+  x = 1280,
+  y = 2045,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "sensor_falling_auto_door_1_s_open",
+  layer = 1,
+  x = 1280,
+  y = 2301,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "sensor_falling_auto_door_7_s_open",
+  layer = 1,
+  x = 640,
+  y = 1277,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "sensor_falling_auto_door_7_w_open",
+  layer = 1,
+  x = 776,
+  y = 1421,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "sensor_falling_auto_door_4_n_open",
+  layer = 1,
+  x = 1920,
+  y = 1293,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "sensor_falling_auto_door_3_s_open",
+  layer = 1,
+  x = 1664,
+  y = 1533,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "sensor_falling_auto_door_5_w_open",
+  layer = 1,
+  x = 1544,
+  y = 1293,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "sensor_falling_auto_door_6_e_open",
+  layer = 1,
+  x = 1016,
+  y = 1293,
+  width = 16,
+  height = 16,
 }
 
 tile{
@@ -17473,8 +17526,8 @@ separator{
 custom_entity{
   name = "smoke_1",
   layer = 2,
-  x = 640,
-  y = 1437,
+  x = 624,
+  y = 1349,
   enabled_at_start = false,
   width = 16,
   height = 16,
@@ -17485,8 +17538,8 @@ custom_entity{
 custom_entity{
   name = "smoke_2",
   layer = 2,
-  x = 704,
-  y = 1429,
+  x = 624,
+  y = 1445,
   enabled_at_start = false,
   width = 16,
   height = 16,
@@ -17497,8 +17550,8 @@ custom_entity{
 custom_entity{
   name = "smoke_3",
   layer = 2,
-  x = 680,
-  y = 1365,
+  x = 576,
+  y = 1397,
   enabled_at_start = false,
   width = 16,
   height = 16,
@@ -17509,8 +17562,8 @@ custom_entity{
 custom_entity{
   name = "smoke_4",
   layer = 2,
-  x = 680,
-  y = 1469,
+  x = 696,
+  y = 1405,
   enabled_at_start = false,
   width = 16,
   height = 16,

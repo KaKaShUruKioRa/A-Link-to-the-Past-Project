@@ -2151,6 +2151,7 @@ file{ path = "scripts/hud/item.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/hud/magic_meter.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/hud/rupees.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/initial_game.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "scripts/maps", author = "Christopho, ZeldoRetro", license = "GPL v3" }
 file{ path = "scripts/maps/cannonball_manager.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/maps/chest_manager.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
 file{ path = "scripts/maps/door_manager.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
@@ -2171,6 +2172,8 @@ file{ path = "scripts/menus/pause_inventory.lua", author = "Christopho, Mehdi Kh
 file{ path = "scripts/menus/savegames.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/menus/solarus_logo.lua", author = "Maxs", license = "GPL v3" }
 file{ path = "scripts/menus/title_screen.lua", author = "Olivier Cléro", license = "GPL v3" }
+file{ path = "scripts/meta", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "scripts/meta/sensor.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "scripts/multi_events.lua", author = "Christopho, std::gregwar", license = "GPL v3" }
 file{ path = "shaders", license = "GPL v3" }
 file{ path = "shaders/fr_to_normal_colors.dat", author = "std::gregwar", license = "GPL v3" }

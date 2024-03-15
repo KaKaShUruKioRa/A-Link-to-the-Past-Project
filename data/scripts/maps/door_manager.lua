@@ -68,6 +68,7 @@ function door_manager:open_when_switch_activated(door)
   if switch ~= nil then
     function switch:on_activated()
       map:open_doors(door_prefix)
+      map:set_entities_enabled("sensor_falling_"..door_prefix, false)
     end
     function switch:on_inactivated()
       map:close_doors(door_prefix)
