@@ -10,6 +10,7 @@ function map:on_started()
     function other:on_activated()
       for other in map:get_entities(name) do
         if other:get_type() == "enemy" then
+          sol.audio.play_music("boss")
           other:set_enabled()
           function other:on_dead()
             local the_door = map:get_entity(name.."_door")

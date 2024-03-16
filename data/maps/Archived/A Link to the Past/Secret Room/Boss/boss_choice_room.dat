@@ -6,7 +6,7 @@ properties{
   min_layer = -8,
   max_layer = 7,
   world = "Secret Room",
-  tileset = "dungeon/gray_pink",
+  tileset = "dungeon/green",
 }
 
 tile{
@@ -8893,14 +8893,221 @@ tile{
   pattern = "door_blast.2",
 }
 
+tile{
+  layer = 0,
+  x = 864,
+  y = 312,
+  width = 64,
+  height = 32,
+  pattern = "floor.10-1",
+}
+
+tile{
+  layer = 0,
+  x = 608,
+  y = 312,
+  width = 64,
+  height = 32,
+  pattern = "floor.10-1",
+}
+
+tile{
+  layer = 0,
+  x = 352,
+  y = 312,
+  width = 64,
+  height = 32,
+  pattern = "floor.10-1",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 312,
+  width = 64,
+  height = 32,
+  pattern = "floor.10-1",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 320,
+  width = 32,
+  height = 16,
+  pattern = "floor_boss-1",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 320,
+  width = 32,
+  height = 16,
+  pattern = "floor_boss-1",
+}
+
+tile{
+  layer = 0,
+  x = 624,
+  y = 320,
+  width = 32,
+  height = 16,
+  pattern = "floor_boss-1",
+}
+
+tile{
+  layer = 0,
+  x = 880,
+  y = 320,
+  width = 32,
+  height = 16,
+  pattern = "floor_boss-2",
+}
+
+tile{
+  layer = 0,
+  x = 1136,
+  y = 312,
+  width = 32,
+  height = 32,
+  pattern = "floor.10-1",
+}
+
+tile{
+  layer = 0,
+  x = 1376,
+  y = 312,
+  width = 64,
+  height = 32,
+  pattern = "floor.10-1",
+}
+
+tile{
+  layer = 0,
+  x = 1632,
+  y = 312,
+  width = 64,
+  height = 32,
+  pattern = "floor.10-1",
+}
+
+tile{
+  layer = 0,
+  x = 1888,
+  y = 312,
+  width = 64,
+  height = 32,
+  pattern = "floor.10-1",
+}
+
+tile{
+  layer = 0,
+  x = 2144,
+  y = 312,
+  width = 64,
+  height = 32,
+  pattern = "floor.10-1",
+}
+
+tile{
+  layer = 0,
+  x = 2400,
+  y = 312,
+  width = 64,
+  height = 32,
+  pattern = "floor.10-1",
+}
+
+tile{
+  layer = 0,
+  x = 2656,
+  y = 312,
+  width = 64,
+  height = 32,
+  pattern = "floor.10-1",
+}
+
+tile{
+  layer = 0,
+  x = 2912,
+  y = 312,
+  width = 64,
+  height = 32,
+  pattern = "floor.10-1",
+}
+
+tile{
+  layer = 0,
+  x = 3168,
+  y = 312,
+  width = 64,
+  height = 32,
+  pattern = "floor.10-1",
+}
+
+tile{
+  layer = 0,
+  x = 1136,
+  y = 320,
+  width = 32,
+  height = 16,
+  pattern = "floor_boss-3",
+}
+
+tile{
+  layer = 0,
+  x = 1392,
+  y = 320,
+  width = 32,
+  height = 16,
+  pattern = "floor_boss-4",
+}
+
+tile{
+  layer = 0,
+  x = 2416,
+  y = 320,
+  width = 32,
+  height = 16,
+  pattern = "floor_boss-6",
+}
+
+tile{
+  layer = 0,
+  x = 2672,
+  y = 320,
+  width = 32,
+  height = 16,
+  pattern = "floor_boss-7",
+}
+
+tile{
+  layer = 0,
+  x = 2928,
+  y = 320,
+  width = 32,
+  height = 16,
+  pattern = "floor_boss-5",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 0,
+  width = 224,
+  height = 16,
+  pattern = "ceiling.1",
+}
+
 enemy{
   name = "armos_debug",
   layer = 0,
   x = 128,
-  y = 117,
-  enabled_at_start = false,
+  y = 125,
   direction = 0,
   breed = "bosses/armos_knight",
+  treasure_name = "consumables/fairy",
 }
 
 enemy{
@@ -12643,15 +12850,6 @@ tile{
   y = 32,
   width = 112,
   height = 64,
-  pattern = "ceiling.1",
-}
-
-tile{
-  layer = 2,
-  x = 16,
-  y = 0,
-  width = 224,
-  height = 16,
   pattern = "ceiling.1",
 }
 

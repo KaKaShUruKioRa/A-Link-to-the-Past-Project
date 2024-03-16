@@ -437,7 +437,8 @@ sprite{ id = "doors/door_d4_very_weak_wall", description = "House door (very wea
 sprite{ id = "doors/door_d4_weak_wall", description = "House door (weak wall)" }
 sprite{ id = "doors/prison_door", description = "Prison locked door" }
 sprite{ id = "enemies/bosses/agahnim", description = "Agahnim" }
-sprite{ id = "enemies/bosses/armos_knight", description = "Armos Knight" }
+sprite{ id = "enemies/bosses/armos_knight", description = "Armos Knight (Global)" }
+sprite{ id = "enemies/bosses/armos_knight_separated", description = "Armos Knight" }
 sprite{ id = "enemies/bosses/arrghus", description = "Arrghus" }
 sprite{ id = "enemies/bosses/blind_the_thief", description = "Blind the Thief" }
 sprite{ id = "enemies/bosses/ganon", description = "Ganon" }
@@ -899,7 +900,8 @@ item{ id = "quest/pendant_of_power", description = "Pendant of Power" }
 item{ id = "quest/pendant_of_wisdom", description = "Pendant of Wisdom" }
 
 enemy{ id = "bosses/agahnim", description = "Agahnim" }
-enemy{ id = "bosses/armos_knight", description = "Armos Knight" }
+enemy{ id = "bosses/armos_knight", description = "Armos Knight (Global)" }
+enemy{ id = "bosses/armos_knight_separated", description = "Armos Knight" }
 enemy{ id = "bosses/arrghus", description = "Arrghus" }
 enemy{ id = "bosses/blind_the_thief", description = "Blind the Thief" }
 enemy{ id = "bosses/ganon", description = "Ganon" }
@@ -995,7 +997,8 @@ shader{ id = "normal_to_fr_colors", description = "Normal to French colors" }
 file{ path = "enemies", license = "GPL v3" }
 file{ path = "enemies/bosses", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/bosses/agahnim.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "enemies/bosses/armos_knight.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/bosses/armos_knight.lua", author = "DarkDavy15", license = "GPL v3" }
+file{ path = "enemies/bosses/armos_knight_separated.lua", author = "DarkDavy15", license = "GPL v3" }
 file{ path = "enemies/bosses/arrghus.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/bosses/blind_the_thief.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/bosses/ganon.lua", author = "Christopho", license = "GPL v3" }
@@ -2327,6 +2330,8 @@ file{ path = "sprites/enemies/bosses/agahnim.dat", author = "Christopho", licens
 file{ path = "sprites/enemies/bosses/agahnim.png", author = "Christopho", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/bosses/armos_knight.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/bosses/armos_knight.png", author = "Christopho", license = "Proprietary (Fair use)" }
+file{ path = "sprites/enemies/bosses/armos_knight_separated.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/bosses/armos_knight_separated.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/bosses/arrghus.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/bosses/arrghus.png", author = "Christopho", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/bosses/blind_the_thief.dat", author = "Christopho", license = "CC BY-SA 4.0" }
