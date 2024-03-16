@@ -3996,6 +3996,17 @@ chest{
   opening_condition = "eastern_big_key",
 }
 
+wall{
+  layer = 0,
+  x = 1264,
+  y = 1136,
+  width = 32,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
 tile{
   layer = 1,
   x = 1440,
@@ -14344,15 +14355,6 @@ door{
   sprite = "doors/door_d1_normal",
 }
 
-sensor{
-  name = "sensor_close_auto_door_3",
-  layer = 1,
-  x = 1656,
-  y = 1605,
-  width = 32,
-  height = 16,
-}
-
 destructible{
   name = "auto_destructible_7",
   layer = 1,
@@ -14880,28 +14882,7 @@ destructible{
 }
 
 custom_entity{
-  layer = 1,
-  x = 1280,
-  y = 837,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/torch",
-  model = "torch",
-}
-
-custom_entity{
-  layer = 1,
-  x = 1360,
-  y = 981,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/torch",
-  model = "torch",
-}
-
-custom_entity{
+  name = "timed_torch_1",
   layer = 1,
   x = 1200,
   y = 981,
@@ -15170,15 +15151,6 @@ door{
   sprite = "doors/door_d1_normal",
 }
 
-sensor{
-  name = "sensor_close_auto_door_7",
-  layer = 1,
-  x = 720,
-  y = 1413,
-  width = 16,
-  height = 32,
-}
-
 enemy{
   name = "auto_enemy_auto_door_7_1",
   layer = 1,
@@ -15217,24 +15189,6 @@ enemy{
   enabled_at_start = false,
   direction = 3,
   breed = "dungeons/skeleton_blue",
-}
-
-sensor{
-  name = "sensor_close_auto_door_3_2",
-  layer = 1,
-  x = 1744,
-  y = 1669,
-  width = 16,
-  height = 32,
-}
-
-sensor{
-  name = "sensor_close_auto_door_7_2",
-  layer = 1,
-  x = 632,
-  y = 1349,
-  width = 32,
-  height = 16,
 }
 
 jumper{
@@ -15360,15 +15314,6 @@ sensor{
 }
 
 sensor{
-  name = "sensor_falling_auto_door_3_s_open",
-  layer = 1,
-  x = 1664,
-  y = 1533,
-  width = 16,
-  height = 16,
-}
-
-sensor{
   name = "sensor_falling_auto_door_5_w_open",
   layer = 1,
   x = 1544,
@@ -15382,6 +15327,163 @@ sensor{
   layer = 1,
   x = 1016,
   y = 1293,
+  width = 16,
+  height = 16,
+}
+
+custom_entity{
+  name = "timed_torch_2",
+  layer = 1,
+  x = 1360,
+  y = 981,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "timed_torch_3",
+  layer = 1,
+  x = 1280,
+  y = 837,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+jumper{
+  layer = 1,
+  x = 1384,
+  y = 696,
+  width = 48,
+  height = 8,
+  direction = 2,
+  jump_length = 40,
+}
+
+teletransporter{
+  name = "tp_to_dark_1",
+  layer = 1,
+  x = 1272,
+  y = 1024,
+  width = 16,
+  height = 16,
+  destination_map = "A Link To The Past/Light World/Dungeons/Eastern Palace/F1/F1_eastern_palace",
+  destination = "dark_room_n",
+}
+
+teletransporter{
+  name = "tp_to_light_1",
+  layer = 1,
+  x = 1272,
+  y = 1008,
+  width = 16,
+  height = 16,
+  destination_map = "A Link To The Past/Light World/Dungeons/Eastern Palace/F1/F1_eastern_palace",
+  destination = "light_room_n",
+}
+
+destination{
+  name = "light_room_n",
+  layer = 1,
+  x = 1280,
+  y = 1043,
+  direction = 3,
+}
+
+destination{
+  name = "dark_room_n",
+  layer = 1,
+  x = 1280,
+  y = 1015,
+  direction = 1,
+}
+
+teletransporter{
+  name = "tp_to_dark_2",
+  layer = 1,
+  x = 1520,
+  y = 1664,
+  width = 16,
+  height = 16,
+  destination_map = "A Link To The Past/Light World/Dungeons/Eastern Palace/F1/F1_eastern_palace",
+  destination = "dark_room_s",
+}
+
+teletransporter{
+  name = "tp_to_light_2",
+  layer = 1,
+  x = 1536,
+  y = 1664,
+  width = 16,
+  height = 16,
+  destination_map = "A Link To The Past/Light World/Dungeons/Eastern Palace/F1/F1_eastern_palace",
+  destination = "light_room_s",
+}
+
+destination{
+  name = "light_room_s",
+  layer = 1,
+  x = 1522,
+  y = 1677,
+  direction = 2,
+}
+
+destination{
+  name = "dark_room_s",
+  layer = 1,
+  x = 1550,
+  y = 1677,
+  direction = 0,
+}
+
+teletransporter{
+  name = "tp_to_dark_3",
+  layer = 1,
+  x = 1656,
+  y = 1520,
+  width = 16,
+  height = 16,
+  destination_map = "A Link To The Past/Light World/Dungeons/Eastern Palace/F1/F1_eastern_palace",
+  destination = "dark_room_s_2",
+}
+
+teletransporter{
+  name = "tp_to_light_3",
+  layer = 1,
+  x = 1656,
+  y = 1536,
+  width = 16,
+  height = 16,
+  destination_map = "A Link To The Past/Light World/Dungeons/Eastern Palace/F1/F1_eastern_palace",
+  destination = "light_room_s_2",
+}
+
+destination{
+  name = "light_room_s_2",
+  layer = 1,
+  x = 1664,
+  y = 1527,
+  direction = 1,
+}
+
+destination{
+  name = "dark_room_s_2",
+  layer = 1,
+  x = 1664,
+  y = 1555,
+  direction = 3,
+}
+
+sensor{
+  name = "sensor_falling_auto_door_3_s_open",
+  layer = 1,
+  x = 1664,
+  y = 1555,
   width = 16,
   height = 16,
 }
@@ -17571,21 +17673,12 @@ custom_entity{
   sprite = "entities/effect_smoke",
 }
 
-tile{
-  layer = 3,
-  x = 1536,
-  y = 1536,
-  width = 512,
-  height = 512,
-  pattern = "2231",
-}
-
-tile{
-  layer = 3,
-  x = 1024,
-  y = 512,
-  width = 512,
-  height = 512,
-  pattern = "2231",
+separator{
+  name = "auto_separator_15",
+  layer = 2,
+  x = 1272,
+  y = 520,
+  width = 16,
+  height = 240,
 }
 

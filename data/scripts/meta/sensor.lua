@@ -77,11 +77,7 @@ function sensor_meta:on_activated()
       local angle = math.pi / 2
       movement:set_angle(angle)
       movement:set_max_distance(56) 
-      movement:start(hero, function()
-        print("ok")
-        map:close_doors("auto_door_"..prefix)
-        hero:unfreeze()
-      end)
+      movement:start(hero, function() map:close_doors("auto_door_"..prefix) hero:unfreeze() end)
     end
     if name:match("^sensor_falling_auto_door_"..j.."_w_open") then
       local prefix = j

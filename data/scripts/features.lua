@@ -14,5 +14,6 @@ require("scripts/hud/hud")
 require("scripts/dungeons.lua")
 
 require("scripts/meta/sensor.lua")
+require("scripts/meta/teletransporter.lua")
 
 return true

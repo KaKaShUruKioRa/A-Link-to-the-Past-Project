@@ -16,6 +16,7 @@ function enemy:on_created()
   enemy:set_hookshot_reaction(2)
   enemy:set_attack_consequence("boomerang",1)
   enemy:set_attack_consequence("thrown_item",2)
+  if self:get_treasure() == nil then self:set_treasure("prize_packs/6") end
 end
 
 local sprite = enemy:create_sprite("enemies/" .. enemy:get_breed())

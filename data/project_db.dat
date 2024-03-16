@@ -883,6 +883,13 @@ item{ id = "inventory/lantern", description = "Lantern" }
 item{ id = "inventory/magic_mirror", description = "Magic Mirror" }
 item{ id = "inventory/magic_powder", description = "Magic Powder" }
 item{ id = "inventory/ocarina", description = "Ocarina" }
+item{ id = "prize_packs/1", description = "Prize Pack 1 - Hearts" }
+item{ id = "prize_packs/2", description = "Prize Pack 2 - Rupees" }
+item{ id = "prize_packs/3", description = "Prize Pack 3 - Magic" }
+item{ id = "prize_packs/4", description = "Prize Pack 4 - Bombs" }
+item{ id = "prize_packs/5", description = "Prize Pack 5 - Arrows" }
+item{ id = "prize_packs/6", description = "Prize Pack 6 - Misc" }
+item{ id = "prize_packs/7", description = "Prize Pack 7 - Premium Pack" }
 item{ id = "quest/crystal_1", description = "Crystal 1" }
 item{ id = "quest/crystal_2", description = "Crystal 2" }
 item{ id = "quest/crystal_3", description = "Crystal 3" }
@@ -1130,6 +1137,14 @@ file{ path = "items/inventory/library/magic_item.lua", author = "Zakarisz", lice
 file{ path = "items/inventory/magic_mirror.lua", author = "Zakarisz", license = "GPL v3" }
 file{ path = "items/inventory/magic_powder.lua", author = "Christopho, Zakarisz", license = "GPL v3" }
 file{ path = "items/inventory/ocarina.lua", author = "Mehdi Khelifi", license = "GPL v3" }
+file{ path = "items/prize_packs", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "items/prize_packs/1.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "items/prize_packs/2.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "items/prize_packs/3.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "items/prize_packs/4.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "items/prize_packs/5.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "items/prize_packs/6.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "items/prize_packs/7.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "items/quest", license = "GPL v3" }
 file{ path = "items/quest/crystal_1.lua", author = "Mehdi Khelifi", license = "GPL v3" }
 file{ path = "items/quest/crystal_2.lua", author = "Mehdi Khelifi", license = "GPL v3" }
@@ -2157,6 +2172,7 @@ file{ path = "scripts/maps/chest_manager.lua", author = "Christopho, ZeldoRetro"
 file{ path = "scripts/maps/door_manager.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
 file{ path = "scripts/maps/evil_tiles.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/maps/falling_tiles.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "scripts/maps/light_manager.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/maps/separator_manager.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/menus", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/menus/alttp_dialog_box.lua", author = "Christopho", license = "GPL v3" }
@@ -2174,6 +2190,7 @@ file{ path = "scripts/menus/solarus_logo.lua", author = "Maxs", license = "GPL v
 file{ path = "scripts/menus/title_screen.lua", author = "Olivier Cléro", license = "GPL v3" }
 file{ path = "scripts/meta", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "scripts/meta/sensor.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "scripts/meta/teletransporter.lua", author = "Phoenix, ZeldoRetro", license = "GPL v3" }
 file{ path = "scripts/multi_events.lua", author = "Christopho, std::gregwar", license = "GPL v3" }
 file{ path = "shaders", license = "GPL v3" }
 file{ path = "shaders/fr_to_normal_colors.dat", author = "std::gregwar", license = "GPL v3" }

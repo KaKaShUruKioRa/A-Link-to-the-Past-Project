@@ -16,6 +16,7 @@ function enemy:on_created()
   self:set_attack_consequence("explosion", "protected")
   self:set_attack_consequence("boomerang", "protected")
   self:set_attack_consequence("arrow", "protected")
+  if self:get_treasure() == nil then self:set_treasure("prize_packs/5") end
   --self:set_arrow_reaction("protected")
   --self:set_hookshot_reaction("protected")
   --self:set_fire_reaction("protected")
