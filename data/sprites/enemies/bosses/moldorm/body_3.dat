@@ -1,0 +1,34 @@
+animation{
+  name = "immobilized",
+  src_image = "enemies/bosses/moldorm.png",
+  directions = {
+    { x = 120, y = 120, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 20 },
+    { x = 120, y = 120, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 20 },
+    { x = 120, y = 120, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 20 },
+    { x = 120, y = 120, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 20 },
+  },
+}
+animation{
+  name = "hurt",
+  src_image = "enemies/bosses/moldorm.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 200, y = 120, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 20, num_frames = 3 },
+    { x = 200, y = 120, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 20, num_frames = 3 },
+    { x = 200, y = 120, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 20, num_frames = 3 },
+    { x = 200, y = 120, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 20, num_frames = 3 },
+  },
+}
+animation{
+  name = "walking",
+  src_image = "enemies/bosses/moldorm.png",
+  frame_delay = 150,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 120, y = 120, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 20, num_frames = 2 },
+    { x = 120, y = 120, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 20, num_frames = 2 },
+    { x = 120, y = 120, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 20, num_frames = 2 },
+    { x = 120, y = 120, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 20, num_frames = 2 },
+  },
+}
