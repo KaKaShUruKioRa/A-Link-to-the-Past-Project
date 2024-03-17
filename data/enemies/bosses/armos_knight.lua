@@ -79,6 +79,8 @@ function enemy:on_update()
       x = x_armos,
       y = y_armos,
     })
+    enemy:on_dying()
+    enemy:on_dead()
     enemy:remove()
   end
 
