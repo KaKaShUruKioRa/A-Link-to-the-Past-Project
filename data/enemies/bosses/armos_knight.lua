@@ -11,6 +11,7 @@ local var_reverse_move = 1
 -- phase 1, move in circle (and use variable for reverse)
 -- phase 2, move to up to down
 -- phase 3, phase 2 of armos jump to hero
+-- phase 4, dead
 
 local armos_phase = -1
 
@@ -68,6 +69,19 @@ end
 
 function enemy:on_update()
 
+  if armos_phase == 4 then
+    local treasure_name, treasure_variant, treasure_savegame = enemy:get_treasure()
+    map:create_pickable({
+      treasure_name = treasure_name,
+      treasure_variant = treasure_variant,
+      treasure_savegame_variable = treasure_savegame,
+      layer = layer,
+      x = x_armos,
+      y = y_armos,
+    })
+    enemy:remove()
+  end
+
   if armos_phase == -1 then
     local x1, y1 = enemy:get_position()
     local x2, y2 = enemy:get_map():get_hero():get_position()
@@ -83,8 +97,7 @@ function enemy:on_update()
     for i = 1, 6 do
       local number_armos_living = map:get_entities_count("armosknight_"..tostring(enemy))
       if (number_armos_living == 0) then
-        enemy:set_position(x_armos, y_armos)
-        enemy:set_life(0)
+        armos_phase = 4
       elseif map:has_entity(armos_id[i]) then
         x_armos, y_armos = map:get_entity(armos_id[i]):get_position()
         if (number_armos_living == 1) and (map:get_entity(armos_id[i]):get_state() == 2) then

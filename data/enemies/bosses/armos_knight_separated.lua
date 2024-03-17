@@ -329,15 +329,16 @@ function enemy:on_post_draw(camera)
   local camera_surface = camera:get_surface()
   if state == 1 then
     sprite[1]:set_xy(0,-24)
+    local x_d_1, y_d_1 = camera:get_position()
     if frame < 15 then
       sprite[1]:set_direction(1)
-      sprite[1]:draw(camera_surface, x, y)
+      sprite[1]:draw(camera_surface, x-x_d_1, y-y_d_1)
       sprite[1]:set_direction(2)
-      sprite[1]:draw(camera_surface, x, y)
+      sprite[1]:draw(camera_surface, x-x_d_1, y-y_d_1)
       sprite[1]:set_direction(3)
-      sprite[1]:draw(camera_surface, x, y)
+      sprite[1]:draw(camera_surface, x-x_d_1, y-y_d_1)
       sprite[1]:set_direction(4)
-      sprite[1]:draw(camera_surface, x, y)
+      sprite[1]:draw(camera_surface, x-x_d_1, y-y_d_1)
     elseif frame < 30 then
       sprite[1]:set_direction(5)
     elseif frame < 45 then
@@ -350,13 +351,13 @@ function enemy:on_post_draw(camera)
       enemy:remove()
     end
     if frame > 15 then
-      sprite[1]:draw(camera_surface, x, y)
+      sprite[1]:draw(camera_surface, x-x_d_1, y-y_d_1)
       sprite[1]:set_scale(-1, 1)
-      sprite[1]:draw(camera_surface, x, y)
+      sprite[1]:draw(camera_surface, x-x_d_1, y-y_d_1)
       sprite[1]:set_scale(-1, -1)
-      sprite[1]:draw(camera_surface, x, y)
+      sprite[1]:draw(camera_surface, x-x_d_1, y-y_d_1)
       sprite[1]:set_scale(1, -1)
-      sprite[1]:draw(camera_surface, x, y)
+      sprite[1]:draw(camera_surface, x-x_d_1, y-y_d_1)
       sprite[1]:set_scale(1, 1)
     end
   end
