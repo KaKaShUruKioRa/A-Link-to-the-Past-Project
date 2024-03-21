@@ -7,7 +7,7 @@ properties{
   max_layer = 7,
   world = "Light World",
   tileset = "out/outside_darkworld_main",
-  music = "overworld",
+  music = "dark_world",
 }
 
 tile{
