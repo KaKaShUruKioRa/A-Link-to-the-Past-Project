@@ -408,6 +408,7 @@ tileset{ id = "secret_room/mini_lightworld", description = "Mini Light World" }
 
 sprite{ id = "console/cursor", description = "console/cursor" }
 sprite{ id = "console/icons", description = "console/icons" }
+sprite{ id = "debug/commands", description = "debug/commands" }
 sprite{ id = "destructibles/bush_green", description = "Bush (green)" }
 sprite{ id = "destructibles/bush_purple", description = "Bush (purple)" }
 sprite{ id = "destructibles/bush_yellow", description = "Bush (yellow)" }
@@ -1001,6 +1002,7 @@ language{ id = "en", description = "English" }
 language{ id = "fr", description = "Français" }
 
 font{ id = "alttp", description = "alttp" }
+font{ id = "enter_command_mono", description = "enter_command_mono" }
 font{ id = "green_digits", description = "Green digits" }
 font{ id = "white_digits", description = "White digits" }
 
@@ -1106,6 +1108,7 @@ file{ path = "entities/stone_explode.lua", author = "KaKaShUruKioRa", license = 
 file{ path = "entities/torch.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "fonts", license = "Proprietary (Fair use)" }
 file{ path = "fonts/alttp.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "fonts/enter_command_mono.ttf", author = "usr_share, Christopho", license = "Public domain" }
 file{ path = "fonts/green_digits.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "fonts/white_digits.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "items", license = "GPL v3" }
@@ -2315,6 +2318,9 @@ file{ path = "sounds/world_warp.ogg", author = "Nintendo", license = "Proprietar
 file{ path = "sounds/wrong.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/zora.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites", license = "Mixed" }
+file{ path = "sprites/debug", author = "Maxs", license = "CC BY-SA 4.0" }
+file{ path = "sprites/debug/commands.dat", author = "Maxs", license = "CC BY-SA 4.0" }
+file{ path = "sprites/debug/debug_commands.png", author = "Maxs", license = "CC BY-SA 4.0" }
 file{ path = "sprites/destructibles", license = "Mixed" }
 file{ path = "sprites/destructibles/bush.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/destructibles/bush_green.dat", author = "Christopho", license = "CC BY-SA 4.0" }

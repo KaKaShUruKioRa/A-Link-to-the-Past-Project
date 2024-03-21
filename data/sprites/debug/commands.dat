@@ -1,0 +1,79 @@
+animation{
+  name = "attack",
+  src_image = "debug/debug_commands.png",
+  frame_delay = 10,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 8, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 5 },
+  },
+}
+animation{
+  name = "action",
+  src_image = "debug/debug_commands.png",
+  frame_delay = 10,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 32, y = 0, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 5 },
+  },
+}
+animation{
+  name = "down",
+  src_image = "debug/debug_commands.png",
+  frame_delay = 10,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 24, y = 0, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 5 },
+  },
+}
+animation{
+  name = "item_1",
+  src_image = "debug/debug_commands.png",
+  frame_delay = 10,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 16, y = 8, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 5 },
+  },
+}
+animation{
+  name = "item_2",
+  src_image = "debug/debug_commands.png",
+  directions = {
+    { x = 24, y = 8, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 5 },
+  },
+}
+animation{
+  name = "left",
+  src_image = "debug/debug_commands.png",
+  frame_delay = 10,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 16, y = 0, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 5 },
+  },
+}
+animation{
+  name = "pause",
+  src_image = "debug/debug_commands.png",
+  frame_delay = 10,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 8, y = 8, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 5 },
+  },
+}
+animation{
+  name = "right",
+  src_image = "debug/debug_commands.png",
+  frame_delay = 10,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 5 },
+  },
+}
+animation{
+  name = "up",
+  src_image = "debug/debug_commands.png",
+  frame_delay = 10,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 8, y = 0, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 5 },
+  },
+}
