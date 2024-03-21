@@ -1188,7 +1188,7 @@ file{ path = "languages/fr", license = "CC BY-SA 4.0" }
 file{ path = "languages/fr/images", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "languages/fr/images/action_icon.png", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "languages/fr/images/floors.png", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "languages/fr/images/gameover_menu.png", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "languages/fr/images/gameover_menu.png", author = "Oclero, ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "languages/fr/images/pause_icon.png", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "languages/fr/images/pause_submenus.png", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "languages/fr/images/sword_icon.png", license = "GPL v3, CC BY-SA 4.0" }

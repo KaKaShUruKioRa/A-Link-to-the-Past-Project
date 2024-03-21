@@ -3269,6 +3269,15 @@ tile{
   pattern = "floor.12-2",
 }
 
+tile{
+  layer = 1,
+  x = 272,
+  y = 256,
+  width = 224,
+  height = 32,
+  pattern = "ceiling.1",
+}
+
 wall{
   layer = 1,
   x = 376,
@@ -3446,14 +3455,6 @@ enemy{
   y = 909,
   direction = 3,
   breed = "traps/fire_fairy",
-}
-
-destination{
-  name = "stair_n",
-  layer = 1,
-  x = 1152,
-  y = 821,
-  direction = 3,
 }
 
 teletransporter{
@@ -3928,9 +3929,7 @@ enemy{
   y = 397,
   direction = 3,
   breed = "bosses/armos_knight",
-  savegame_variable = "eastern_boss",
   treasure_name = "consumables/heart_container",
-  treasure_savegame_variable = "eastern_heart_container",
 }
 
 custom_entity{
@@ -4029,6 +4028,63 @@ sensor{
   y = 909,
   width = 16,
   height = 16,
+}
+
+door{
+  name = "auto_door_6",
+  layer = 1,
+  x = 376,
+  y = 472,
+  direction = 3,
+  sprite = "doors/door_d1_normal",
+}
+
+sensor{
+  name = "sensor_falling_auto_door_6_n_open",
+  layer = 1,
+  x = 384,
+  y = 525,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "sensor_boss",
+  layer = 1,
+  x = 376,
+  y = 469,
+  width = 32,
+  height = 16,
+}
+
+destination{
+  name = "stair_n",
+  layer = 1,
+  x = 1152,
+  y = 821,
+  direction = 3,
+}
+
+custom_entity{
+  name = "key_item_spot",
+  layer = 1,
+  x = 384,
+  y = 397,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "shadow",
+  layer = 1,
+  x = 384,
+  y = 397,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/shadow",
 }
 
 tile{
@@ -4361,15 +4417,6 @@ tile{
   y = 256,
   width = 16,
   height = 256,
-  pattern = "ceiling.1",
-}
-
-tile{
-  layer = 2,
-  x = 272,
-  y = 256,
-  width = 224,
-  height = 32,
   pattern = "ceiling.1",
 }
 

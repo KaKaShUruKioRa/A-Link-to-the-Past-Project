@@ -112,29 +112,18 @@ function sensor_meta:on_activated()
     sol.audio.play_sound("secret")
   end  
 
-  --Pas de sons dans certains lieux (ex:avant boss)
-  if name:match("^no_sound_sensor") then
-    sol.audio.play_music("none")
-  end  
-
-  --Son revient une fois sorti du passage sans son
-  local music_map = map:get_music()
-  if name:match("^sound_sensor") then
-    sol.audio.play_music(music_map)
-  end
-
   --Entrée dans pièce de Boss
   if name:match("^sensor_boss") then
-      hero:freeze()
-      map:close_doors("door_boss")
-      sol.audio.play_music("none")
-      sol.timer.start(1000,function()
-        hero:unfreeze()
-        map:get_entity("boss"):set_enabled(true)
-        map:get_entity("boss"):set_hurt_style("boss")
-        sol.audio.play_music("boss")
-        map:set_entities_enabled(name,false)
-      end)
+    self:set_enabled(false)
+    hero:freeze()
+    sol.timer.start(map,200,function()
+      sol.audio.play_music("boss")
+      hero:unfreeze()
+      local m = sol.movement.create("straight")
+      m:set_max_distance(16)
+      m:set_angle(math.pi / 2)
+      m:start(map:get_camera())
+    end)
   end
 end
 

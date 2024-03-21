@@ -32,7 +32,7 @@ local x_armos = 0
 local y_armos = 0
 local armos_id = {}
 
-function enemy:on_dying() end
+function enemy:on_dying() enemy:get_game():set_pause_allowed(false) end
 function enemy:on_dead() end
 
 function enemy:please_distance()

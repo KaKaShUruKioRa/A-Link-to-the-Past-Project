@@ -41,6 +41,10 @@ function map:on_started(destination)
   if game:get_value("eastern_big_key") then map:set_entities_enabled("wall_switch_bk_",false) auto_chest_big_key:set_enabled(true) end
 end
 
+function map:on_finished()
+  dark_on = false
+end
+
 --EXCEPTION : PORTE AUTOMATIQUE MAIS AUSSI TRANSITION VERS PIÈCE SOMBRE
 function tp_to_dark_3:on_activated()
   map:open_doors("auto_door_3")
