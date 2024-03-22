@@ -34,7 +34,21 @@ function enemy:on_restarted()
     self:get_sprite():set_animation("immobilized")
     self:check_hero()
   else
-    self:go_hero()
+    if enemy:is_in_same_region(enemy:get_map():get_hero()) then self:go_hero()
+    else
+      local m = sol.movement.create("target")
+      m:set_speed(56)
+      m:start(enemy)
+      m:stop()
+      enemy:set_attack_consequence("arrow", "protected")
+      --enemy:set_arrow_reaction("protected")
+      enemy:set_attack_consequence("sword", "protected")
+      enemy:set_attack_consequence("thrown_item", "protected")
+      enemy:set_attack_consequence("explosion", "protected")
+      enemy:get_sprite():set_animation("immobilized")
+      going_hero = false
+      enemy:check_hero()
+    end
   end
 end
 

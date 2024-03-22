@@ -209,9 +209,11 @@ $3 Veuillez circulez maintenant...
 
 dialog{
   id = "NoBigKey",
+  skip = "all",
   text = [[
-Tu ne peux pas l'ouvrir...  
-Il te faut la grande clé pour ça !
+Hein ? C'est fermé !
+Si tu avais la Grande Clé,
+tu pourrais ouvrir !
 ]],
 }
 
@@ -313,15 +315,6 @@ Il vous rend un coeur.
 }
 
 dialog{
-  id = "_treasure.consumables/heart_container.1",
-  text = [[
-Vous obtenez un Conteneur
-de Coeur !
-Il augmente votre total de coeur. 
-]],
-}
-
-dialog{
   id = "_treasure.consumables/piece_of_heart.1",
   text = [[
 Vous obtenez un Quart de Coeur !
@@ -380,12 +373,9 @@ Tu as trouvé 300 Rubis !
 dialog{
   id = "_treasure.dungeons/big_key.1",
   text = [[
-Tu as obtenu la grande clé !
-
-
-Avec celle-ci tu peux ouvrir le
-grand coffre ainsi que la porte
-du Grande Porte du Boss !
+Tu as la Grande Clé ! $0
+Elle ouvre les verrous que les
+Petites Clés ne peuvent ouvrir.
 ]],
 }
 
@@ -566,15 +556,9 @@ Mais aussi des potions et des fées !
 dialog{
   id = "_treasure.inventory/bow.1",
   text = [[
-Tu reçois l'arc !
-Et bien, avec ça tu peux tirer des
-flèches.
-C'est particulièrement efficace contre 
-certains ennemis.
-
-Mais ça peut aussi permettre de
-déclencher  des interrupteurs
-secrets ou non secrets.
+Tu as trouvé l'Arc ! $0
+Tu peux tirer des Flèches
+jusqu'à ce que tu n'en aies plus.
 ]],
 }
 
@@ -610,6 +594,16 @@ dialog{
   id = "_treasure.quest/mushroom.1",
   text = [[
 Mais... !?
+]],
+}
+
+dialog{
+  id = "_treasure.quest/pendant_of_courage.1",
+  text = [[
+Tu as gagné le Pendentif du
+Courage ! $0
+Apporte-le à Sahasrahla !
+Il reste encore deux Pendentifs !
 ]],
 }
 
@@ -814,6 +808,18 @@ Défini C
 $? 3
 $? 33
 $? 66
+]],
+}
+
+dialog{
+  id = "ts.hint_eastern",
+  text = [[
+Link, c'est moi, Sahasrahla.
+Je peux te parler par télépathie
+quand tu touches cette dalle.
+Voici un indice. Tu peux utiliser
+le Trésor caché dans ce Palais
+pour vaincre les ennemis coriaces.
 ]],
 }
 

@@ -14,7 +14,6 @@ separator_manager:manage_map(map)
 function map:on_started()
   --Pendentif obtenue : Boss ne revient pas
   if game:get_value("get_pendant_of_courage") then
-    map:set_entities_enabled("armosknight_",false)
     boss:set_enabled(false)
     sensor_boss:set_enabled(false)
     sensor_falling_auto_door_6_n_open:set_enabled(false)

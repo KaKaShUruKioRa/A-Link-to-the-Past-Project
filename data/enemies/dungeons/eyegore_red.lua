@@ -16,6 +16,7 @@ function enemy:on_created()
   self:set_attack_consequence("explosion", "protected")
   self:set_attack_consequence("boomerang", "protected")
   self:set_attack_consequence("arrow", "protected")
+  if self:get_treasure() == nil then self:set_treasure("prize_packs/5") end
   --self:set_arrow_reaction("protected")
   --self:set_hookshot_reaction("protected")
   --self:set_fire_reaction("protected")
@@ -33,7 +34,18 @@ function enemy:on_restarted()
     self:get_sprite():set_animation("immobilized")
     self:check_hero()
   else
-    self:go_hero()
+    if enemy:is_in_same_region(enemy:get_map():get_hero()) then self:go_hero()
+    else
+      local m = sol.movement.create("target")
+      m:set_speed(56)
+      m:start(enemy)
+      m:stop()
+      enemy:set_attack_consequence("arrow", "protected")
+      --enemy:set_arrow_reaction("protected")
+      enemy:get_sprite():set_animation("immobilized")
+      going_hero = false
+      enemy:check_hero()
+    end
   end
 end
 
@@ -55,9 +67,6 @@ end
 function enemy:sleep()
   self:set_attack_consequence("arrow", "protected")
   --self:set_arrow_reaction("protected")
-  self:set_attack_consequence("sword", "protected")
-  self:set_attack_consequence("thrown_item", "protected")
-  self:set_attack_consequence("explosion", "protected")
   self:get_sprite():set_animation("sleeping",function()
     self:get_sprite():set_animation("immobilized")
     going_hero = false
@@ -80,12 +89,6 @@ end
 
 function enemy:go_hero()
   self:set_attack_consequence("arrow", 8)
-  --self:set_arrow_reaction(8)
-  --self:set_hammer_reaction(8)
-  --self:set_fire_reaction(4)
-  self:set_attack_consequence("sword", 1)
-  self:set_attack_consequence("thrown_item", 8)
-  self:set_attack_consequence("explosion", 4)
   self:get_sprite():set_animation("walking")
   local m = sol.movement.create("target")
   m:set_speed(56)

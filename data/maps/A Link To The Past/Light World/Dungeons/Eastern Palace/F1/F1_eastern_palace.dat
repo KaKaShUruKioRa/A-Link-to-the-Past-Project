@@ -3606,6 +3606,7 @@ wall{
 }
 
 npc{
+  name = "ts.hint_eastern",
   layer = 0,
   x = 896,
   y = 1133,
@@ -3618,7 +3619,7 @@ block{
   x = 888,
   y = 1413,
   sprite = "entities/block",
-  pushable = true,
+  pushable = false,
   pullable = false,
 }
 
@@ -3994,14 +3995,26 @@ chest{
   sprite = "entities/big_chest",
   opening_method = "interaction_if_savegame_variable",
   opening_condition = "eastern_big_key",
+  cannot_open_dialog = "NoBigKey",
 }
 
 wall{
   layer = 0,
   x = 1264,
-  y = 1136,
+  y = 1144,
   width = 32,
-  height = 16,
+  height = 8,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+wall{
+  layer = 0,
+  x = 1344,
+  y = 664,
+  width = 128,
+  height = 8,
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
@@ -14525,6 +14538,7 @@ door{
   savegame_variable = "eastern_big_key_opened_1",
   opening_method = "interaction_if_savegame_variable",
   opening_condition = "eastern_big_key",
+  cannot_open_dialog = "NoBigKey",
 }
 
 door{
@@ -14548,6 +14562,7 @@ door{
   savegame_variable = "eastern_big_key_opened_1",
   opening_method = "interaction_if_savegame_variable",
   opening_condition = "eastern_big_key",
+  cannot_open_dialog = "NoBigKey",
 }
 
 switch{
@@ -15010,6 +15025,7 @@ door{
   savegame_variable = "eastern_big_key_opened_2",
   opening_method = "interaction_if_savegame_variable",
   opening_condition = "eastern_big_key",
+  cannot_open_dialog = "NoBigKey",
 }
 
 door{
@@ -15021,6 +15037,7 @@ door{
   savegame_variable = "eastern_big_key_opened_2",
   opening_method = "interaction_if_savegame_variable",
   opening_condition = "eastern_big_key",
+  cannot_open_dialog = "NoBigKey",
 }
 
 destructible{

@@ -51,23 +51,25 @@ function enemy:on_created()
   enemy:set_can_attack(false)
   enemy:set_invincible()
   local x_1, y_1, layer = enemy:get_position()
-  for i = 1, 6 do
-    local y_2
-    if i < 4 then
-      y_2 = 16
-    else
-      y_2 = -16
+  if not enemy:get_game():get_value("get_pendant_of_courage") then
+    for i = 1, 6 do
+      local y_2
+      if i < 4 then
+        y_2 = 16
+      else
+        y_2 = -16
+      end
+      map:create_enemy({
+        name = ("armosknight_"..tostring(enemy).."_"..i),
+        breed = "bosses/armos_knight_separated",
+        layer = layer,
+        x = x_1+(48*(((i-1)% 3)-1)),
+        y = y_1+16-(48*(math.ceil(i/3)%2)),
+        direction = 0,
+      })
+      armos_id[i] = ("armosknight_"..tostring(enemy).."_"..i)
+      map:get_entity(armos_id[i]):change_palet(palet_armos_1)
     end
-    map:create_enemy({
-      name = ("armosknight_"..tostring(enemy).."_"..i),
-      breed = "bosses/armos_knight_separated",
-      layer = layer,
-      x = x_1+(48*(((i-1)% 3)-1)),
-      y = y_1+16-(48*(math.ceil(i/3)%2)),
-      direction = 0,
-    })
-    armos_id[i] = ("armosknight_"..tostring(enemy).."_"..i)
-    map:get_entity(armos_id[i]):change_palet(palet_armos_1)
   end
 end
 

@@ -10,7 +10,7 @@ require("scripts/multi_events")
 
 function separator_manager:manage_map(map)
 
-  local enemy_places = {}
+  local enemy_starting_positions = {}
   local destructible_places = {}
   local game = map:get_game()
 
@@ -31,7 +31,7 @@ function separator_manager:manage_map(map)
   end
 
   -- Function called when a separator is being taken.
-  local function separator_on_activating(separator)
+  local function separator_on_activating(separator, direction4)
 
     local hero = map:get_hero()
 
@@ -62,6 +62,51 @@ function separator_manager:manage_map(map)
         end
       end
     end
+
+    -- Enemies
+    -- disable enemies in the current room
+    for entity in map:get_entities_in_region(map:get_camera()) do
+      local is_boss = entity:get_property("is_boss") == "true"
+      if entity:get_type() == "enemy" and not is_boss then
+        entity:set_enabled(false)
+        -- reset enemy position to its starting location
+        local address = string.format("%p", entity)
+        local pos = enemy_starting_positions[address]
+        if pos ~= nil then
+          entity:set_position(pos[1], pos[2])
+        end
+      end
+    end
+
+    -- clear enemy positions from previous room
+    local count = #enemy_starting_positions
+    for j = 1, count do enemy_starting_positions[j] = nil end
+
+    -- compute next room position
+    local target_x, target_y = hero:get_position()
+    if direction4 == 0 then
+      target_x = target_x + 16
+    elseif direction4 == 1 then
+      target_y = target_y - 16
+    elseif direction4 == 2 then
+      target_x = target_x - 16
+    elseif direction4 == 3 then
+      target_y = target_y + 16
+    end
+
+    -- enable enemies in the next room
+    for entity in map:get_entities_in_region(target_x, target_y) do
+      local is_boss = entity:get_property("is_boss") == "true"
+      if entity:get_type() == "enemy" and not is_boss then
+        entity:set_enabled(true)
+        local address = string.format("%p", entity)
+
+        -- save enemy starting location when leaving the room
+        local pos_x, pos_y = entity:get_position()
+        enemy_starting_positions[address] = { pos_x, pos_y }
+      end
+    end
+
   end
 
   for separator in map:get_entities("auto_separator") do

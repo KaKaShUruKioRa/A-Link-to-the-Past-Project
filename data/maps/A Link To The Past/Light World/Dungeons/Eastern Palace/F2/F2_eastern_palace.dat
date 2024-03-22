@@ -3927,6 +3927,12 @@ enemy{
   layer = 1,
   x = 384,
   y = 397,
+  properties = {
+    {
+      key = "is_boss",
+      value = "true",
+    },
+  },
   direction = 3,
   breed = "bosses/armos_knight",
   treasure_name = "consumables/heart_container",
