@@ -3929,7 +3929,7 @@ enemy{
   y = 397,
   properties = {
     {
-      key = "is_boss",
+      key = "is_major",
       value = "true",
     },
   },

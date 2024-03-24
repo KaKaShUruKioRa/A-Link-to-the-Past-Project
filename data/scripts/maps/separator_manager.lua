@@ -66,7 +66,7 @@ function separator_manager:manage_map(map)
     -- Enemies
     -- disable enemies in the current room
     for entity in map:get_entities_in_region(map:get_camera()) do
-      local is_boss = entity:get_property("is_boss") == "true"
+      local is_boss = entity:get_property("is_major") == "true"
       if entity:get_type() == "enemy" and not is_boss then
         entity:set_enabled(false)
         -- reset enemy position to its starting location
@@ -96,7 +96,7 @@ function separator_manager:manage_map(map)
 
     -- enable enemies in the next room
     for entity in map:get_entities_in_region(target_x, target_y) do
-      local is_boss = entity:get_property("is_boss") == "true"
+      local is_boss = entity:get_property("is_major") == "true"
       if entity:get_type() == "enemy" and not is_boss then
         entity:set_enabled(true)
         local address = string.format("%p", entity)
