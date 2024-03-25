@@ -15,7 +15,7 @@ function language_menu:on_started()
     local index = 1
     local cursor_position = 1
     self.cursor_img = sol.surface.create("menus/fairy_cursor.png")
-    self.surface = sol.surface.create(320, 240)
+    self.surface = sol.surface.create(256, 224)
     self.finished = false
     self.first_visible_language = 1
     self.max_visible_languages = 10
@@ -69,7 +69,7 @@ function language_menu:on_draw(dst_surface)
   local width, height = dst_surface:get_size()
   self.surface:draw(dst_surface, width / 2 - 160, height / 2 - 120)
   
-  self.cursor_img:draw(dst_surface, 112, 96 + self.cursor_position * 20)
+  self.cursor_img:draw(dst_surface, 84, 88 + self.cursor_position * 20)
 end
 
 function language_menu:on_key_pressed(key)

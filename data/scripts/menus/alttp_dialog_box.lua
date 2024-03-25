@@ -75,7 +75,7 @@ local function create_dialog_box(game)
   }
 
   -- Constants.
-  local nb_visible_lines = 4     -- Maximum number of lines in the dialog box.
+  local nb_visible_lines = 3     -- Maximum number of lines in the dialog box.
   local char_delays = {
     slow = 60,
     medium = 40,

@@ -4,39 +4,56 @@ quest{
   title = "The Legend of Zelda : A Link to the Past",
   short_description = "Ce jeu est un projet de refonte du jeu The Legend of Zelda : A Link to the Past (SNES) avec Solarus Quest Editor sur PC !",
   long_description = [[
-Ce jeu est un projet de refonte du jeu The Legend of Zelda : A Link to the Past (SNES) avec Solarus Quest Editor sur PC !
-
-Sortie : En Dévelopement
-Joueurs : 1
-Durée : 30 Heures
-Licenses : GPL v3, CC BY-SA 4.0, Propriétaire (Usage Raisonnable)
-Langages : Français, Anglais
-
 Présentation
-The Legend of Zelda: A Link to the Past est un remake du classique culte de la Super Nintendo (SNES), premièrement publié en 1991 (1992 en Europe) que l'on retrouvera sur Game Boy Advance en 2002, avec The Legend of Zelda : Four Swords, un jeu multijoueur.
-Il sera mainte fois réédité sur les différentes consoles de Nintendo dans le futur, et aura le droit également à un jeu hommage sur Nintendo 3DS nommé  The Legend of Zelda: A Link Between Worlds, qui reprendra les idées de gameplay, le voyage entre deux mondes, dans une histoire originale !
+
+The Legend of Zelda: A Link to the Past Project est un remake du classique et cultissime jeu de la Super Nintendo (SNES), premièrement publié en 1991 (1992 en Europe) que l'on retrouvera sur Game Boy Advance en 2002, avec The Legend of Zelda : Four Swords, un jeu multijoueur.
+The Legend of Zelda: A Link to the Past sera maintes fois réédité sur les différentes consoles de Nintendo dans le futur, et aura le droit également à un jeu hommage sur Nintendo 3DS nommé  The Legend of Zelda: A Link Between Worlds, qui reprendra les idées de gameplay, le voyage entre deux mondes, dans une histoire originale et quelques idées modernes de gameplay !
+
 
 Description
-Ce remake fait avec Solarus utilise les graphismes d'A Link to the Past, avec les graphismes d'origine, reprenant les personnages, ennemis et paysages du jeu comme à l'époque de Super Nintendo (SNES).
-A quelques différences prêt (dû notamment à la mordernité du Moteur Solarus, et du système PC), le jeu ressemblera trait pour trait à l'original découvert sur SNES.
+
+Ce remake, réalisé avec Solarus, utilise les éléments graphiques de la version Super Nintendo (SNES), reprenant les personnages, les ennemis et les paysages du jeu d'antan. 
+
+A quelques différences près (notamment dues à la mordernité du Moteur Solarus, et du système PC), le jeu ressemblera quasi trait pour trait à l'original découvert sur Super Nintendo (SNES).
 
 Scénario
-Link se réveille chez lui, après l'appel au secours télépathique d'une jeune femme, Zelda, Princesse du Royaume d'Hyrule !
-Pleine tempête à l'extérieur, l'Oncle de notre Héro, armé d'une épée et d'un bouclier, se rend au Château d'Hyrule.
+
+Link se réveille chez lui, après avoir reçu un appel de détresse télépathique d'une jeune femme, Zelda, Princesse du Royaume d'Hyrule !
+En pleine tempête, l'Oncle de notre Héro, sort à l'extérieur, armé d'une épée et d'un bouclier, pour se rendre au Château d'Hyrule.
 Link décide alors de suivre ce dernier et ainsi répondre à la demande de la Princesse Zelda.
-C'est ainsi que vous allez incarner Link et ainsi vivre son aventure, sauver la Princesse Zelda, ainsi que le Royaume d'Hyrule, menacé par des Force Obscures !
+
+!\[Link\](artwork_sewer.jpg "Link et Zelda dans les égouts")
+
+C'est ainsi que vous incarnerez Link et vivrez ainsi son aventure, sauvant la Princesse Zelda, ainsi que le Royaume d'Hyrule menacé par des Forces Obscures !
 
 Système de jeu
-Ce jeu reprend le système de jeu original de The Legend of Zelda: A Link to the Past (SNES) quelque peu modernisé par le Moteur Solarus ! Un peu plus dynamique, grâce à la plateforme PC, avec un système d'assignement de touche moderne, vous pourrez jouer à la manette ou au clavier selon vos préfèrences.
+
+Ce jeu reproduit le système de jeu de The Legend of Zelda: A Link to the Past (SNES) quelque peu modernisé par le Moteur Solarus ! 
+Un peu plus dynamique, grâce à la plateforme PC, avec un système modernes d'assignation de touches, vous pourrez jouer à la manette ou au clavier selon vos préférences.
 
 Durée de vie
-Pour les joueurs qu découvrirait éventuellement ce titre, voir carrément la série (ou les jeux Zelda 2D), la durée de vie du jeu complet est estimée à environ une 30ène d'heures pour les complétionniste.]],
-  author = "KaKaShUruKioRa",
-  quest_version = "0.1.2",
+
+Pour les joueurs qui découvriraient éventuellement ce titre, voire même la série entière (ou simplement les jeux Zelda 2D), la durée de vie du jeu complet est estimée à environ une 30ènes d'heures pour les complétionnistes.
+
+Développement
+
+Ce jeu est un projet actuellement en cours de développement.  
+Vous pourrez tout de même jouer aux versions démos à chaque mise à jour.  
+
+v0.1.x
+Cette version contient uniquement la map du Light OverWorld, avec jumper, sans ennemis, et des grottes, des maisons, et des donjons génériques...   
+-Map créée entièrement par KaKaShUruKioRa.
+
+v0.2.x
+Cette version contiendra le tout premier donjon de jeu, à savoir Eastern Palace, où vous pourrez obtenir un objet et combattre jusqu'au boss final du donjon.   
+Il n'y aura cependant pas de Carte et de Boussole pour le moment.  
+-Map créée par ZeldoRetro et Boss dévellopé par DarkDavy15. ]],
+  author = "KaKaShUruKioRan ZeldoRetro, DarkDavy15",
+  quest_version = "0.2.0",
   release_date = "",
   website = "https://play.spotify.com/artist/2nRyP56IOlGpXgG1yuOpZ2",
-  normal_quest_size = "320x240",
-  min_quest_size = "320x240",
-  max_quest_size = "320x240",
+  normal_quest_size = "256x224",
+  min_quest_size = "256x224",
+  max_quest_size = "256x224",
 }
 

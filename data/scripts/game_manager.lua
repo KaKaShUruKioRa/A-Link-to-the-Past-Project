@@ -20,6 +20,8 @@ function game_manager:create(file_name)
     initial_game:initialize_new_savegame(game)
   end
 
+  sol.main.load_file("scripts/menus/game_over.lua")(game)
+
   -- Function called when the player presses a key during the game.
   game:register_event("on_key_pressed", function(game, key)
 
@@ -35,7 +37,7 @@ function game_manager:create(file_name)
         if not game:is_paused() and
           not game:is_dialog_enabled() and
           game:get_life() > 0 then
-        game:start_dialog("save_quit", function(answer)
+            game:start_dialog("save_quit", function(answer)
           if answer == 1 then
             -- Continue.
             sol.audio.play_sound("danger")
@@ -115,12 +117,6 @@ game_meta:register_event("on_map_changed", function(game)
       game:notify_world_changed(previous_world, new_world)
     end
   end
-end)
-
-game_meta:register_event("on_game_over_started", function(game)
-  -- Reset the previous world info on game-over
-  -- so that notify_world_changed gets called.
-  game.previous_world = nil
 end)
 
 return game_manager
