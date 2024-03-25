@@ -26,6 +26,7 @@ function initial_game:initialize_new_savegame(game)
   
   -- default command binding
   game:set_value("keyboard_save", "escape")
+  game:set_value("joypad_save", "button 8")
 
   game:set_value("time_played", 0)
   game:set_value("death_counter", 0)

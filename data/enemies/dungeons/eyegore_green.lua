@@ -37,7 +37,7 @@ function enemy:on_restarted()
     if enemy:is_in_same_region(enemy:get_map():get_hero()) then self:go_hero()
     else
       local m = sol.movement.create("target")
-      m:set_speed(56)
+      m:set_speed(32)
       m:start(enemy)
       m:stop()
       enemy:set_attack_consequence("arrow", "protected")
@@ -57,13 +57,14 @@ function enemy:check_hero()
   local _, _, layer = self:get_position()
   local _, _, hero_layer = hero:get_position()
   local near_hero = layer == hero_layer
-    and self:get_distance(hero) < 64
+    and self:get_distance(hero) <= 40
 
   if near_hero and not going_hero then
     timer:stop()
     timer = nil
     self:awakens()
   end
+-- TODO #21 : Timing d'ouverture de l'oeil lié à la vérification de pressence du Héro... trop lent
   timer = sol.timer.start(self, 1000, function() self:check_hero() end)
 end
 

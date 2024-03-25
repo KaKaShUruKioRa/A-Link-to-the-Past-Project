@@ -5,7 +5,7 @@ properties{
   height = 2560,
   min_layer = 0,
   max_layer = 7,
-  world = "dungeon_1",
+  world = "eastern_palace",
   floor = 1,
   tileset = "dungeon/green",
   music = "light_world_dungeon",
@@ -3819,7 +3819,7 @@ enemy{
 
 enemy{
   layer = 1,
-  x = 920,
+  x = 904,
   y = 861,
   direction = 3,
   breed = "dungeons/eyegore_green",
@@ -3827,7 +3827,7 @@ enemy{
 
 enemy{
   layer = 1,
-  x = 920,
+  x = 904,
   y = 909,
   direction = 3,
   breed = "dungeons/eyegore_green",
@@ -3835,7 +3835,7 @@ enemy{
 
 enemy{
   layer = 1,
-  x = 920,
+  x = 904,
   y = 957,
   direction = 3,
   breed = "dungeons/eyegore_green",
@@ -4091,6 +4091,78 @@ custom_entity{
   height = 16,
   direction = 0,
   sprite = "entities/shadow",
+}
+
+wall{
+  layer = 1,
+  x = 576,
+  y = 984,
+  width = 48,
+  height = 8,
+  stops_hero = true,
+}
+
+wall{
+  layer = 1,
+  x = 656,
+  y = 984,
+  width = 48,
+  height = 8,
+  stops_hero = true,
+}
+
+wall{
+  layer = 1,
+  x = 576,
+  y = 816,
+  width = 48,
+  height = 8,
+  stops_hero = true,
+}
+
+wall{
+  layer = 1,
+  x = 656,
+  y = 816,
+  width = 48,
+  height = 8,
+  stops_hero = true,
+}
+
+wall{
+  layer = 1,
+  x = 544,
+  y = 832,
+  width = 8,
+  height = 48,
+  stops_hero = true,
+}
+
+wall{
+  layer = 1,
+  x = 544,
+  y = 928,
+  width = 8,
+  height = 48,
+  stops_hero = true,
+}
+
+wall{
+  layer = 1,
+  x = 728,
+  y = 832,
+  width = 8,
+  height = 48,
+  stops_hero = true,
+}
+
+wall{
+  layer = 1,
+  x = 728,
+  y = 928,
+  width = 8,
+  height = 48,
+  stops_hero = true,
 }
 
 tile{
