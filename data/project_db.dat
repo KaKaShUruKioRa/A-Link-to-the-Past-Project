@@ -1647,8 +1647,8 @@ file{ path = "maps/A Link To The Past/Light World/Houses/magic_shop.dat", author
 file{ path = "maps/A Link To The Past/Light World/Houses/magic_shop.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Houses/sahasrahla_hideout.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Houses/sahasrahla_hideout.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Houses/sanctuary.dat", author = "Razdarac", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Houses/sanctuary.lua", author = "Razdarac", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Houses/sanctuary.dat", author = "DarkDavy15", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Houses/sanctuary.lua", author = "DarkDavy15", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Houses/twins_house.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Houses/twins_house.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Overworld", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }

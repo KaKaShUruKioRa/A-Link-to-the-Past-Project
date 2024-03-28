@@ -1,16 +1,40 @@
 # Changelog
 
-## The Legend of Zelda A Link to the Past (Solarus Edition) 0.2 (en cours)
+## The Legend of Zelda A Link to the Past (Solarus Edition) 0.2.0 (2024-03-28)
 
-`Changements du ?? ????? 2022` v0.2.1 (hotfix)
+`Changements du ?? ????? 2024` v0.2.1 (hotfix)
 
 🐛Bug
 
 __--------------------------------------------------------------------------------------------------------------__
 
-`Changements du 14 Janvier 2022` v0.2.0  
+`Changements du 28 Mars 2024` v0.2.0  
 
 🗺**Overworld**
+- __Light Overworld__ : 
+* Ajout du **Eastern Palace**
+* Ajout du **Sanctuary**
+
+🗺**Eastern Palace**
+- Ajout d'un Système pour les Transitions de Map (Séparateur qui reset de certains ennemis)
+- Ajout de l'**Arc** et des **Pegassus Boots**
+- Ajout du Systèmes de Gestion des Salles Sombres et de leurs éclairages (Torche/Lanterne)
+- Ajout des **EyeGores Red** & **Green**, **Evil Tiles**, **Skelletons**, et **Canonballs**
+- AJout du Boss **Armos Knight**, sa Récompense, son Médaillon
+- Metatables de gestion des **Switch**, des **Small Keys** & **Boss Keys**
+- AJout d'un Système de Gestion des **Drops d'Objets** sur les Ennemis (Prizes Packs)
+- Ajout Dialogues de **Sahasrahla**, de l'**Arc**, des **Rubis**, des **Coffres**, des **Small Keys** & **Boss Keys** 
+
+🎮**GameFix**
+- Correction du Crash de Game Over
+
+**HUD**
+- Adaptation du HUD, des Menus pour le format **A Link to the Past** (256x224)
+
+🗃**Organisation**
+- Créations des **BluePrints** pour les **Light Dungeons** dans les TileSets
+- Mise à jour des Tilesets (pour **Sanctuary**)
+- Ajout d'une Dossier de **Ressources/Images** pour les **Artworks**
 
 ## The Legend of Zelda A Link to the Past (Solarus Edition) 0.1.1 (2022-01-21)
 

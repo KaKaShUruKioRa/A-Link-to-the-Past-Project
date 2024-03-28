@@ -41,16 +41,16 @@ Vous pourrez tout de même jouer aux versions démos à chaque mise à jour.
 v0.2.x
 Cette version contient :
 - La map du Light OverWorld, avec jumper, sans ennemis, et des grottes, des maisons, et des donjons génériques...
--Map créée entièrement par KaKaShUruKioRa.
+-Map Light OverWorld créée entièrement par KaKaShUruKioRa.
 - Le tout premier donjon de jeu, à savoir Eastern Palace, où vous pourrez obtenir un objet et combattre jusqu'au boss final du donjon.   
 Il n'y aura cependant pas de Carte et de Boussole pour le moment.  
--Map créée par ZeldoRetro et Boss développé par DarkDavy15. ]],
+-Map Eastern Palace créée par ZeldoRetro et Boss développé par DarkDavy15. ]],
   author = "KaKaShUruKioRan ZeldoRetro, DarkDavy15",
   quest_version = "0.2.0",
   release_date = "",
   website = "https://play.spotify.com/artist/2nRyP56IOlGpXgG1yuOpZ2",
   normal_quest_size = "256x224",
   min_quest_size = "256x224",
-  max_quest_size = "320x224",
+  max_quest_size = "256x224",
 }
 
