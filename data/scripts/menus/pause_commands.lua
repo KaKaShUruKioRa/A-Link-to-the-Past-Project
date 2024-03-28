@@ -145,33 +145,33 @@ function commands_manager:new(game)
 
   local function build_layout()
 
-    layout = gui_designer:create(320, 240)
+    layout = gui_designer:create(256, 224)
 
-    layout:make_wooden_frame(16, 8, 96, 32)
+    layout:make_wooden_frame(4, 4, 82, 32)
     local title = sol.language.get_string("pause.commands.title")
-    layout:make_text(title, 64, 16, "center")
+    layout:make_text(title, 45, 12, "center")
 
-    layout:make_wooden_frame(128, 8, 80, 32)
+    layout:make_wooden_frame(96, 4, 73, 32)
     local title = sol.language.get_string("pause.commands.keyboard")
-    layout:make_text(title, 168, 16, "center")
+    layout:make_text(title, 132, 12, "center")
 
-    layout:make_wooden_frame(224, 8, 80, 32)
+    layout:make_wooden_frame(179, 4, 73, 32)
     local title = sol.language.get_string("pause.commands.joypad")
-    layout:make_text(title, 264, 16, "center")
+    layout:make_text(title, 215, 12, "center")
 
-    layout:make_wooden_frame(16, 200, 288, 32)
+    layout:make_wooden_frame(4, 184, 248, 32)
     if commands_items[cursor_index].customizable then
       local footer = game.customizing_command and
           sol.language.get_string("pause.commands.press_new_key") or
           sol.language.get_string("pause.commands.action_to_configure")
-      layout:make_text(footer, 24, 208)
+      layout:make_text(footer, 12, 192)
     end
 
-    layout:make_wooden_frame(16, 48, 288, 144)
+    layout:make_wooden_frame(4, 38, 248, 144) --16, 38, 288, 144
 
     local first = first_shown
     local last = math.min(#commands_items, first_shown + max_by_page - 1)
-    local y = 56
+    local y = 46
     for i = first, last do
       local item = commands_items[i]
       if item == nil then
@@ -188,13 +188,13 @@ function commands_manager:new(game)
           color = { 0, 0, 192 }
         end
         if color ~= nil then
-          layout:make_color_background(color, 24, y, 272, 16)
+          layout:make_color_background(color, 12, y, 232, 16)
         end
       end
 
       local name = sol.language.get_string("pause.commands." .. item.name)
       assert(name ~= nil)
-      layout:make_text(name, 24, y)
+      layout:make_text(name, 16, y)
 
       local keyboard_text
       local joypad_text
@@ -206,9 +206,9 @@ function commands_manager:new(game)
         keyboard_text = item.key
       end
 
-      layout:make_text(keyboard_text, 136, y)
+      layout:make_text(keyboard_text, 104, y)
       if joypad_text ~= nil then
-        layout:make_text(joypad_text, 232, y)
+        layout:make_text(joypad_text, 179, y)
       end
 
       y = y + 16

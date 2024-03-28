@@ -9,6 +9,7 @@ properties{
   tileset = "out/outside_lightworld_main",
   music = "overworld",
 }
+
 tile{
   layer = -4,
   x = 0,
@@ -4009,7 +4010,8 @@ custom_entity{
   name = "big_stone_white_lumberjack_south_0",
   layer = -2,
   x = 392,
-  y = 237,  width = 32,
+  y = 237,
+  width = 32,
   height = 32,
   direction = 0,
   sprite = "destructibles/stone_big_lw_1",

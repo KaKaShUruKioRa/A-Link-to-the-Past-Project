@@ -49,10 +49,6 @@ function builder:new(game, config)
         amount_displayed = amount_displayed - 1
       end
 
-      if amount_displayed == amount  -- The final value was just reached.
-          or amount_displayed % 3 == 0 then  -- Otherwise, play sound "rupee_counter_end" every 3 values.
-        sol.audio.play_sound("picked_item")
-      end
     end
 
     if digits_text:get_text() == "" then

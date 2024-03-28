@@ -1,0 +1,152 @@
+animation{
+  name = "walking",
+  src_image = "enemies/bosses/armos_knight_separated.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 28 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 28 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 28 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 28 },
+  },
+}
+animation{
+  name = "0",
+  src_image = "enemies/bosses/armos_knight_separated.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 28 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 18, origin_y = 18 },
+    { x = 16, y = 0, frame_width = 16, frame_height = 16, origin_x = -2, origin_y = 18 },
+    { x = 0, y = 16, frame_width = 16, frame_height = 16, origin_x = 18, origin_y = -2 },
+    { x = 16, y = 16, frame_width = 16, frame_height = 16, origin_x = -2, origin_y = -2 },
+    { x = 32, y = 0, frame_width = 16, frame_height = 16, origin_x = -2, origin_y = 18 },
+    { x = 48, y = 0, frame_width = 16, frame_height = 16, origin_x = -4, origin_y = 20 },
+    { x = 64, y = 0, frame_width = 16, frame_height = 16, origin_x = -6, origin_y = 22 },
+    { x = 64, y = 8, frame_width = 8, frame_height = 8, origin_x = -16, origin_y = 24 },
+  },
+}
+animation{
+  name = "1",
+  src_image = "enemies/bosses/armos_knight_separated.png",
+  directions = {
+    { x = 80, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 28 },
+    { x = 80, y = 0, frame_width = 16, frame_height = 16, origin_x = 18, origin_y = 18 },
+    { x = 96, y = 0, frame_width = 16, frame_height = 16, origin_x = -2, origin_y = 18 },
+    { x = 80, y = 16, frame_width = 16, frame_height = 16, origin_x = 18, origin_y = -2 },
+    { x = 96, y = 16, frame_width = 16, frame_height = 16, origin_x = -2, origin_y = -2 },
+    { x = 112, y = 0, frame_width = 16, frame_height = 16, origin_x = -2, origin_y = 18 },
+    { x = 128, y = 0, frame_width = 16, frame_height = 16, origin_x = -4, origin_y = 20 },
+    { x = 144, y = 0, frame_width = 16, frame_height = 16, origin_x = -6, origin_y = 22 },
+    { x = 144, y = 8, frame_width = 8, frame_height = 8, origin_x = -16, origin_y = 24 },
+  },
+}
+animation{
+  name = "2",
+  src_image = "enemies/bosses/armos_knight_separated.png",
+  directions = {
+    { x = 0, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 28 },
+    { x = 0, y = 32, frame_width = 16, frame_height = 16, origin_x = 18, origin_y = 18 },
+    { x = 16, y = 32, frame_width = 16, frame_height = 16, origin_x = -2, origin_y = 18 },
+    { x = 0, y = 48, frame_width = 16, frame_height = 16, origin_x = 18, origin_y = -2 },
+    { x = 16, y = 48, frame_width = 16, frame_height = 16, origin_x = -2, origin_y = -2 },
+    { x = 32, y = 32, frame_width = 16, frame_height = 16, origin_x = -2, origin_y = 18 },
+    { x = 48, y = 32, frame_width = 16, frame_height = 16, origin_x = -4, origin_y = 20 },
+    { x = 64, y = 32, frame_width = 16, frame_height = 16, origin_x = -6, origin_y = 22 },
+    { x = 64, y = 40, frame_width = 8, frame_height = 8, origin_x = -16, origin_y = 24 },
+  },
+}
+animation{
+  name = "3",
+  src_image = "enemies/bosses/armos_knight_separated.png",
+  directions = {
+    { x = 80, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 28 },
+    { x = 80, y = 32, frame_width = 16, frame_height = 16, origin_x = 18, origin_y = 18 },
+    { x = 96, y = 32, frame_width = 16, frame_height = 16, origin_x = -2, origin_y = 18 },
+    { x = 80, y = 48, frame_width = 16, frame_height = 16, origin_x = 18, origin_y = -2 },
+    { x = 96, y = 48, frame_width = 16, frame_height = 16, origin_x = -2, origin_y = -2 },
+    { x = 112, y = 32, frame_width = 16, frame_height = 16, origin_x = -2, origin_y = 18 },
+    { x = 128, y = 32, frame_width = 16, frame_height = 16, origin_x = -4, origin_y = 20 },
+    { x = 144, y = 32, frame_width = 16, frame_height = 16, origin_x = -6, origin_y = 22 },
+    { x = 144, y = 40, frame_width = 8, frame_height = 8, origin_x = -16, origin_y = 24 },
+  },
+}
+animation{
+  name = "4",
+  src_image = "enemies/bosses/armos_knight_separated.png",
+  directions = {
+    { x = 0, y = 64, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 28 },
+    { x = 0, y = 64, frame_width = 16, frame_height = 16, origin_x = 18, origin_y = 18 },
+    { x = 16, y = 64, frame_width = 16, frame_height = 16, origin_x = -2, origin_y = 18 },
+    { x = 0, y = 80, frame_width = 16, frame_height = 16, origin_x = 18, origin_y = -2 },
+    { x = 16, y = 80, frame_width = 16, frame_height = 16, origin_x = -2, origin_y = -2 },
+    { x = 32, y = 64, frame_width = 16, frame_height = 16, origin_x = -2, origin_y = 18 },
+    { x = 48, y = 64, frame_width = 16, frame_height = 16, origin_x = -4, origin_y = 20 },
+    { x = 64, y = 64, frame_width = 16, frame_height = 16, origin_x = -6, origin_y = 22 },
+    { x = 64, y = 72, frame_width = 8, frame_height = 8, origin_x = -16, origin_y = 24 },
+  },
+}
+animation{
+  name = "5",
+  src_image = "enemies/bosses/armos_knight_separated.png",
+  directions = {
+    { x = 80, y = 64, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 28 },
+    { x = 80, y = 64, frame_width = 16, frame_height = 16, origin_x = 18, origin_y = 18 },
+    { x = 96, y = 64, frame_width = 16, frame_height = 16, origin_x = -2, origin_y = 18 },
+    { x = 80, y = 80, frame_width = 16, frame_height = 16, origin_x = 18, origin_y = -2 },
+    { x = 96, y = 80, frame_width = 16, frame_height = 16, origin_x = -2, origin_y = -2 },
+    { x = 112, y = 64, frame_width = 16, frame_height = 16, origin_x = -2, origin_y = 18 },
+    { x = 128, y = 64, frame_width = 16, frame_height = 16, origin_x = -4, origin_y = 20 },
+    { x = 144, y = 64, frame_width = 16, frame_height = 16, origin_x = -6, origin_y = 22 },
+    { x = 144, y = 72, frame_width = 8, frame_height = 8, origin_x = -16, origin_y = 24 },
+  },
+}
+animation{
+  name = "6",
+  src_image = "enemies/bosses/armos_knight_separated.png",
+  directions = {
+    { x = 0, y = 96, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 28 },
+    { x = 0, y = 96, frame_width = 16, frame_height = 16, origin_x = 18, origin_y = 18 },
+    { x = 16, y = 96, frame_width = 16, frame_height = 16, origin_x = -2, origin_y = 18 },
+    { x = 0, y = 112, frame_width = 16, frame_height = 16, origin_x = 18, origin_y = -2 },
+    { x = 16, y = 112, frame_width = 16, frame_height = 16, origin_x = -2, origin_y = -2 },
+    { x = 32, y = 96, frame_width = 16, frame_height = 16, origin_x = -2, origin_y = 18 },
+    { x = 48, y = 96, frame_width = 16, frame_height = 16, origin_x = -4, origin_y = 20 },
+    { x = 64, y = 96, frame_width = 16, frame_height = 16, origin_x = -6, origin_y = 22 },
+    { x = 64, y = 104, frame_width = 8, frame_height = 8, origin_x = -16, origin_y = 24 },
+  },
+}
+animation{
+  name = "7",
+  src_image = "enemies/bosses/armos_knight_separated.png",
+  directions = {
+    { x = 80, y = 96, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 28 },
+    { x = 80, y = 96, frame_width = 16, frame_height = 16, origin_x = 18, origin_y = 18 },
+    { x = 96, y = 96, frame_width = 16, frame_height = 16, origin_x = -2, origin_y = 18 },
+    { x = 80, y = 112, frame_width = 16, frame_height = 16, origin_x = 18, origin_y = -2 },
+    { x = 96, y = 112, frame_width = 16, frame_height = 16, origin_x = -2, origin_y = -2 },
+    { x = 112, y = 96, frame_width = 16, frame_height = 16, origin_x = -2, origin_y = 18 },
+    { x = 128, y = 96, frame_width = 16, frame_height = 16, origin_x = -4, origin_y = 20 },
+    { x = 144, y = 96, frame_width = 16, frame_height = 16, origin_x = -6, origin_y = 22 },
+    { x = 144, y = 104, frame_width = 8, frame_height = 8, origin_x = -16, origin_y = 24 },
+  },
+}
+animation{
+  name = "hurt",
+  src_image = "enemies/bosses/armos_knight_separated.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 80, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 4, num_columns = 1 },
+    { x = 80, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 4, num_columns = 1 },
+    { x = 80, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 4, num_columns = 1 },
+    { x = 80, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 4, num_columns = 1 },
+  },
+}
+animation{
+  name = "shadow",
+  src_image = "enemies/bosses/armos_knight_separated.png",
+  directions = {
+    { x = 0, y = 128, frame_width = 32, frame_height = 16, origin_x = 16, origin_y = 8 },
+    { x = 0, y = 144, frame_width = 32, frame_height = 16, origin_x = 16, origin_y = 8 },
+  },
+}

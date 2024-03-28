@@ -1,4 +1,4 @@
-background_color{ 131, 96, 40 }
+background_color{ 0, 36, 140 }
 tile_pattern{
   id = "1",
   ground = "empty",
@@ -30008,6 +30008,16 @@ tile_pattern{
 }
 
 tile_pattern{
+  id = "carpet.border",
+  ground = "traversable",
+  default_layer = 0,
+  x = 264,
+  y = 456,
+  width = 8,
+  height = 8,
+}
+
+tile_pattern{
   id = "cauldron.1-1",
   ground = "wall",
   default_layer = 0,
@@ -38964,6 +38974,16 @@ tile_pattern{
 }
 
 tile_pattern{
+  id = "sanctuary_symbol",
+  ground = "wall",
+  default_layer = 1,
+  x = 840,
+  y = 368,
+  width = 32,
+  height = 24,
+}
+
+tile_pattern{
   id = "sand.texture",
   ground = "empty",
   default_layer = 0,
@@ -40802,6 +40822,16 @@ tile_pattern{
   default_layer = 0,
   x = 272,
   y = 448,
+  width = 8,
+  height = 8,
+}
+
+tile_pattern{
+  id = "steps.3",
+  ground = "ladder",
+  default_layer = 0,
+  x = 256,
+  y = 456,
   width = 8,
   height = 8,
 }
