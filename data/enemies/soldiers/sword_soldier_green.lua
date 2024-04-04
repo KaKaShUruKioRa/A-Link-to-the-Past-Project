@@ -5,10 +5,11 @@ local behavior = require("enemies/library/soldier")
 local properties = {
   main_sprite = "enemies/" .. enemy:get_breed(),
   sword_sprite = "enemies/" .. enemy:get_breed() .. "_weapon",
-  life = 10,
-  damage = 9,
-  normal_speed = 64,
-  faster_speed = 64,
+  life = 2,
+  damage = 2,
+  play_hero_seen_sound = true,
+  normal_speed = 32,
+  faster_speed = 48,
 }
 
 behavior:create(enemy, properties)

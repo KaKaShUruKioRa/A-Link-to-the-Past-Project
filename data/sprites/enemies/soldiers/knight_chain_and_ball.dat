@@ -1,0 +1,64 @@
+animation{
+  name = "walking",
+  src_image = "enemies/soldiers/knight_chain_and_ball.png",
+  frame_delay = 250,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 24, frame_height = 28, origin_x = 12, origin_y = 24, num_frames = 2 },
+    { x = 24, y = 28, frame_width = 24, frame_height = 28, origin_x = 12, origin_y = 24, num_frames = 2 },
+    { x = 0, y = 56, frame_width = 24, frame_height = 28, origin_x = 12, origin_y = 24, num_frames = 2 },
+    { x = 24, y = 84, frame_width = 24, frame_height = 28, origin_x = 12, origin_y = 24, num_frames = 2 },
+  },
+}
+animation{
+  name = "aiming",
+  src_image = "enemies/soldiers/knight_chain_and_ball.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 24, frame_height = 28, origin_x = 12, origin_y = 24 },
+    { x = 0, y = 28, frame_width = 24, frame_height = 28, origin_x = 12, origin_y = 24 },
+    { x = 0, y = 56, frame_width = 24, frame_height = 28, origin_x = 12, origin_y = 24 },
+    { x = 0, y = 84, frame_width = 24, frame_height = 28, origin_x = 12, origin_y = 24 },
+  },
+}
+animation{
+  name = "hurt",
+  src_image = "enemies/soldiers/knight_chain_and_ball.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 112, frame_width = 24, frame_height = 28, origin_x = 12, origin_y = 24, num_frames = 3 },
+    { x = 0, y = 140, frame_width = 24, frame_height = 28, origin_x = 12, origin_y = 24, num_frames = 3 },
+    { x = 0, y = 168, frame_width = 24, frame_height = 28, origin_x = 12, origin_y = 24, num_frames = 3 },
+    { x = 0, y = 196, frame_width = 24, frame_height = 28, origin_x = 12, origin_y = 24, num_frames = 3 },
+  },
+}
+animation{
+  name = "immobilized",
+  src_image = "enemies/soldiers/knight_chain_and_ball.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 24, frame_height = 28, origin_x = 12, origin_y = 24 },
+    { x = 0, y = 28, frame_width = 24, frame_height = 28, origin_x = 12, origin_y = 24 },
+    { x = 0, y = 56, frame_width = 24, frame_height = 28, origin_x = 12, origin_y = 24 },
+    { x = 0, y = 84, frame_width = 24, frame_height = 28, origin_x = 12, origin_y = 24 },
+  },
+}
+animation{
+  name = "stopped",
+  src_image = "enemies/soldiers/knight_chain_and_ball.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 24, frame_height = 28, origin_x = 12, origin_y = 24 },
+    { x = 0, y = 28, frame_width = 24, frame_height = 28, origin_x = 12, origin_y = 24 },
+    { x = 0, y = 56, frame_width = 24, frame_height = 28, origin_x = 12, origin_y = 24 },
+    { x = 0, y = 84, frame_width = 24, frame_height = 28, origin_x = 12, origin_y = 24 },
+  },
+}
+animation{
+  name = "throwing",
+  src_image = "enemies/soldiers/knight_chain_and_ball.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 24, frame_height = 28, origin_x = 12, origin_y = 24 },
+    { x = 0, y = 28, frame_width = 24, frame_height = 28, origin_x = 12, origin_y = 24 },
+    { x = 0, y = 56, frame_width = 24, frame_height = 28, origin_x = 12, origin_y = 24 },
+    { x = 0, y = 84, frame_width = 24, frame_height = 28, origin_x = 12, origin_y = 24 },
+  },
+}

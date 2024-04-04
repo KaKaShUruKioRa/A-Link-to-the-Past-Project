@@ -378,8 +378,10 @@ map{ id = "Archived/Autres/test_map/test_map", description = "Archived/Autres/te
 
 tileset{ id = "blueprint/dark_overworld", description = "Dark Overworld BluePrint" }
 tileset{ id = "blueprint/desert_palace", description = "Desert Palace BluePrint" }
+tileset{ id = "blueprint/eastern", description = "Eastern Palace" }
 tileset{ id = "blueprint/eastern_palace", description = "Eastern Palace BluePrint" }
 tileset{ id = "blueprint/hyrule_castle", description = "Hyrule Castle BluePrint" }
+tileset{ id = "blueprint/hyrule_castle_secret_passage", description = "Hyrule Castle Secret Passage" }
 tileset{ id = "blueprint/hyrule_castle_tower", description = "Hyrule Castle Tower BluePrint" }
 tileset{ id = "blueprint/light_overworld", description = "Light Overworld BluePrint" }
 tileset{ id = "blueprint/sacred_grove", description = "Sacred Grove BluePrint" }
@@ -418,6 +420,14 @@ sprite{ id = "debug/commands", description = "debug/commands" }
 sprite{ id = "destructibles/bush_green", description = "Bush (green)" }
 sprite{ id = "destructibles/bush_purple", description = "Bush (purple)" }
 sprite{ id = "destructibles/bush_yellow", description = "Bush (yellow)" }
+sprite{ id = "destructibles/curtain_bottom", description = "Rideau (bas)" }
+sprite{ id = "destructibles/curtain_left", description = "Rideau (gauche)" }
+sprite{ id = "destructibles/curtain_red_bottom", description = "Rideau rouge (bas)" }
+sprite{ id = "destructibles/curtain_red_left", description = "Rideau rouge (gauche)" }
+sprite{ id = "destructibles/curtain_red_right", description = "Rideau rouge (droite)" }
+sprite{ id = "destructibles/curtain_red_up", description = "Rideau rouge (haut)" }
+sprite{ id = "destructibles/curtain_right", description = "Rideau (droite)" }
+sprite{ id = "destructibles/curtain_up", description = "Rideau (haut)" }
 sprite{ id = "destructibles/grass_green", description = "Grass (green)" }
 sprite{ id = "destructibles/grass_yellow", description = "Grass (yellow)" }
 sprite{ id = "destructibles/stone_big_dw_1", description = "Big Stone (level 1, dark world style)" }
@@ -531,6 +541,8 @@ sprite{ id = "enemies/others/lynel_flame", description = "Lynel's flame" }
 sprite{ id = "enemies/others/octorok_stone", description = "Octorok's stone" }
 sprite{ id = "enemies/others/rabbit_beam", description = "Rabbit's Beam" }
 sprite{ id = "enemies/others/wizzrobe_beam", description = "Wizzrobe's beam" }
+sprite{ id = "enemies/soldiers/knight_chain_and_ball", description = "Chevalier à fléau" }
+sprite{ id = "enemies/soldiers/soldier_simple_green", description = "Soldat vert simple" }
 sprite{ id = "enemies/soldiers/spear_soldier_red", description = "Red Spear Soldier" }
 sprite{ id = "enemies/soldiers/spear_soldier_red_weapon", description = "Red Spear Soldier" }
 sprite{ id = "enemies/soldiers/sword_soldier_blue", description = "Blue Sword Soldier" }
@@ -984,6 +996,9 @@ enemy{ id = "others/lynel_flame", description = "Lynel's Flame" }
 enemy{ id = "others/octorok_stone", description = "Octorok Stone" }
 enemy{ id = "others/rabbit_beam", description = "Rabbit's Beam" }
 enemy{ id = "others/wizzrobe_beam", description = "Wizzrobe's Beam" }
+enemy{ id = "soldiers/chain_and_ball", description = "chaine et boule" }
+enemy{ id = "soldiers/knight_chain_and_ball", description = "Chevalier à fléau" }
+enemy{ id = "soldiers/soldier_simple_green", description = "Soldat vert simple" }
 enemy{ id = "soldiers/spear_soldier_red", description = "Spear Soldier Red" }
 enemy{ id = "soldiers/sword_soldier_blue", description = "Sword Soldier Blue" }
 enemy{ id = "soldiers/sword_soldier_green", description = "Sword Soldier Green" }
@@ -1092,6 +1107,9 @@ file{ path = "enemies/others/octorok_stone.lua", author = "Christopho", license 
 file{ path = "enemies/others/rabbit_beam.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/others/wizzrobe_beam.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/soldiers", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/soldiers/chain_and_ball.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/soldiers/knight_chain_and_ball.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
+file{ path = "enemies/soldiers/soldier_simple_green.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/soldiers/spear_soldier_red.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/soldiers/sword_soldier_blue.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/soldiers/sword_soldier_green.lua", author = "Christopho", license = "GPL v3" }
@@ -2354,6 +2372,15 @@ file{ path = "sprites/destructibles/bush.png", author = "Nintendo", license = "P
 file{ path = "sprites/destructibles/bush_green.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/destructibles/bush_purple.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/destructibles/bush_yellow.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/destructibles/curtain.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/destructibles/curtain_bottom.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/destructibles/curtain_left.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/destructibles/curtain_red_bottom.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/destructibles/curtain_red_left.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/destructibles/curtain_red_right.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/destructibles/curtain_red_up.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/destructibles/curtain_right.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/destructibles/curtain_up.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/destructibles/grass.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/destructibles/grass_green.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/destructibles/grass_yellow.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
@@ -2555,6 +2582,10 @@ file{ path = "sprites/enemies/others/rabbit_beam.png", author = "Nintendo", lice
 file{ path = "sprites/enemies/others/wizzrobe_beam.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/others/wizzrobe_beam.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/soldiers", license = "Mixed" }
+file{ path = "sprites/enemies/soldiers/knight_chain_and_ball.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/soldiers/knight_chain_and_ball.png", author = "Nintendo", license = "Proprietary (fair use)" }
+file{ path = "sprites/enemies/soldiers/soldier_simple_green.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/soldiers/soldier_simple_green.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/soldiers/spear_soldier_red.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/soldiers/spear_soldier_red.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/soldiers/spear_soldier_red_weapon.dat", author = "Christopho", license = "CC BY-SA 4.0" }
