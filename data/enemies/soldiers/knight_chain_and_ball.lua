@@ -13,7 +13,7 @@
 
 -- Global variables
 local enemy = ...
-require("enemies/lib/common_actions").learn(enemy)
+require("enemies/library/common_actions").learn(enemy)
 
 local game = enemy:get_game()
 local map = enemy:get_map()
@@ -28,10 +28,10 @@ local right_hand_offset_x = 4
 local right_hand_offset_y = -19
 local throwed_chain_origin_offset_x = 0
 local throwed_chain_origin_offset_y = 0
-local walking_speed = 16
+local walking_speed = 8
 local attack_triggering_distance = 64
 local aiming_minimum_duration = 1000
-local throwed_ball_speed = 240
+local throwed_ball_speed = 180
 
 -- Start the enemy movement.
 function enemy:start_walking()
@@ -79,20 +79,18 @@ end
 -- Initialization.
 enemy:register_event("on_created", function(enemy)
 
-  enemy:set_life(12)
+  enemy:set_life(8)
   enemy:set_size(16, 16)
   enemy:set_origin(8, 13)
-  enemy:set_fire_reaction("protected")
-  enemy:set_ice_reaction("protected")
-  enemy:set_hookshot_reaction("protected")
-  enemy:set_attack_consequence("boomerang","protected")
+  enemy:set_attack_consequence("boomerang","immobilized")
+  enemy:set_attack_consequence("thrown_item",4)
   enemy:set_pushed_back_when_hurt(false)
-  if self:get_treasure() == nil then self:set_treasure("prize_packs/2") end
+  if enemy:get_treasure() == nil then enemy:set_treasure("prize_packs/2") end
 
   -- Create the flail.
   flail = enemy:create_enemy({
     name = (enemy:get_name() or enemy:get_breed()) .. "_flail",
-    breed = "chain_and_ball",
+    breed = "soldiers/chain_and_ball",
     direction = 1,
     x = right_hand_offset_x,
     y = right_hand_offset_y,
@@ -112,7 +110,7 @@ enemy:register_event("on_restarted", function(enemy)
   -- States.
   flail:set_chain_origin_offset(0, 0)
   enemy:set_can_attack(true)
-  enemy:set_damage(8)
+  enemy:set_damage(4)
   if not is_attacking then
     enemy:start_walking()
   else

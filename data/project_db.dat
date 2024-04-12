@@ -527,7 +527,6 @@ sprite{ id = "enemies/light_world/vulture", description = "Vulture" }
 sprite{ id = "enemies/light_world/zora", description = "Zora (on feet)" }
 sprite{ id = "enemies/light_world/zora_underwater", description = "Zora (in water)" }
 sprite{ id = "enemies/others/agahnim_lightning", description = "Agahnim's Lightning" }
-sprite{ id = "enemies/others/chain_and_ball", description = "Chain and Ball" }
 sprite{ id = "enemies/others/fire_bat", description = "Ganon's Fire Bat" }
 sprite{ id = "enemies/others/fire_circle", description = "Fire Circle" }
 sprite{ id = "enemies/others/fireball_blue_small", description = "Blue smal Fireball" }
@@ -541,6 +540,8 @@ sprite{ id = "enemies/others/lynel_flame", description = "Lynel's flame" }
 sprite{ id = "enemies/others/octorok_stone", description = "Octorok's stone" }
 sprite{ id = "enemies/others/rabbit_beam", description = "Rabbit's Beam" }
 sprite{ id = "enemies/others/wizzrobe_beam", description = "Wizzrobe's beam" }
+sprite{ id = "enemies/soldiers/ball", description = "Fléau (boule)" }
+sprite{ id = "enemies/soldiers/chain", description = "Fléau (chaine)" }
 sprite{ id = "enemies/soldiers/knight_chain_and_ball", description = "Chevalier à fléau" }
 sprite{ id = "enemies/soldiers/soldier_simple_green", description = "Soldat vert simple" }
 sprite{ id = "enemies/soldiers/spear_soldier_red", description = "Red Spear Soldier" }
@@ -777,6 +778,7 @@ music{ id = "village", description = "Kakariko Village" }
 music{ id = "zelda", description = "Zelda theme" }
 
 sound{ id = "arrow_hit", description = "arrow_hit" }
+sound{ id = "ball_and_chain", description = "ball_and_chain" }
 sound{ id = "bomb", description = "bomb" }
 sound{ id = "boomerang", description = "boomerang" }
 sound{ id = "boss_charge", description = "boss_charge" }
@@ -2264,6 +2266,7 @@ file{ path = "shaders/normal_to_fr_colors.dat", author = "std::gregwar", license
 file{ path = "shaders/normal_to_fr_colors.frag.glsl", author = "std::gregwar", license = "GPL v3" }
 file{ path = "sounds", author = "Diarandor, Nintendo", license = "Mixed" }
 file{ path = "sounds/arrow_hit.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sounds/ball_and_chain.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sounds/bomb.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/boomerang.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/boss_charge.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
@@ -2553,8 +2556,6 @@ file{ path = "sprites/enemies/light_world/zora_underwater.png", author = "Ninten
 file{ path = "sprites/enemies/others", license = "Mixed" }
 file{ path = "sprites/enemies/others/agahnim_lightning.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/others/agahnim_lightning.png", author = "Nintendo", license = "Proprietary (Fair use)" }
-file{ path = "sprites/enemies/others/chain_and_ball.dat", author = "Christopho", license = "CC BY-SA 4.0" }
-file{ path = "sprites/enemies/others/chain_and_ball.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/others/fire_bat.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/others/fire_bat.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/others/fire_circle.dat", author = "Christopho", license = "CC BY-SA 4.0" }
@@ -2582,6 +2583,8 @@ file{ path = "sprites/enemies/others/rabbit_beam.png", author = "Nintendo", lice
 file{ path = "sprites/enemies/others/wizzrobe_beam.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/others/wizzrobe_beam.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/soldiers", license = "Mixed" }
+file{ path = "sprites/enemies/soldiers/ball.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/soldiers/chain.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/soldiers/knight_chain_and_ball.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/soldiers/knight_chain_and_ball.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/soldiers/soldier_simple_green.dat", author = "Christopho", license = "CC BY-SA 4.0" }

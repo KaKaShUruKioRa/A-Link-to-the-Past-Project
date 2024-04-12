@@ -15,7 +15,7 @@
 
 -- Variables
 local enemy = ...
-require("enemies/lib/common_actions").learn(enemy)
+require("enemies/library/common_actions").learn(enemy)
 
 local game = enemy:get_game()
 local map = enemy:get_map()
@@ -164,9 +164,9 @@ enemy:register_event("on_created", function(enemy)
   enemy:set_origin(8, 13)
 
   for i = 3, 1, -1 do
-    chain_sprites[i] = enemy:create_sprite("enemies/chain")
+    chain_sprites[i] = enemy:create_sprite("enemies/soldiers/chain")
   end
-  ball_sprite = enemy:create_sprite("enemies/ball")
+  ball_sprite = enemy:create_sprite("enemies/soldiers/ball")
 end)
 
 -- Restart settings.

@@ -55,6 +55,7 @@ function sensor_meta:on_activated()
     j = j + 1
     if name:match("^sensor_falling_auto_door_"..j.."_e_open") then
       local prefix = j
+      local x, y, layer = hero:get_position()
       map:open_doors("auto_door_"..prefix)
       hero:freeze()
       hero:set_animation("walking")
@@ -63,11 +64,12 @@ function sensor_meta:on_activated()
       movement:set_speed(88)
       local angle = 0
       movement:set_angle(angle)
-      movement:set_max_distance(56) 
+      if layer == 1 then movement:set_max_distance(56) else movement:set_max_distance(80) end
       movement:start(hero, function() map:close_doors("auto_door_"..prefix) hero:unfreeze() end)
     end
     if name:match("^sensor_falling_auto_door_"..j.."_n_open") then
       local prefix = j
+      local x, y, layer = hero:get_position()
       map:open_doors("auto_door_"..prefix)
       hero:freeze()
       hero:set_animation("walking")
@@ -76,11 +78,12 @@ function sensor_meta:on_activated()
       movement:set_speed(88)
       local angle = math.pi / 2
       movement:set_angle(angle)
-      movement:set_max_distance(56) 
+      if layer == 1 then movement:set_max_distance(56) else movement:set_max_distance(80) end
       movement:start(hero, function() map:close_doors("auto_door_"..prefix) hero:unfreeze() end)
     end
     if name:match("^sensor_falling_auto_door_"..j.."_w_open") then
       local prefix = j
+      local x, y, layer = hero:get_position()
       map:open_doors("auto_door_"..prefix)
       hero:freeze()
       hero:set_animation("walking")
@@ -89,7 +92,7 @@ function sensor_meta:on_activated()
       movement:set_speed(88)
       local angle = math.pi
       movement:set_angle(angle)
-      movement:set_max_distance(56) 
+      if layer == 1 then movement:set_max_distance(56) else movement:set_max_distance(80) end
       movement:start(hero, function() map:close_doors("auto_door_"..prefix) hero:unfreeze() end)
     end
     if name:match("^sensor_falling_auto_door_"..j.."_s_open") then
@@ -102,7 +105,7 @@ function sensor_meta:on_activated()
       movement:set_speed(88)
       local angle = 3 * math.pi / 2
       movement:set_angle(angle)
-      movement:set_max_distance(72) 
+      movement:set_max_distance(72)
       movement:start(hero, function() map:close_doors("auto_door_"..prefix) hero:unfreeze() end)
     end
   end

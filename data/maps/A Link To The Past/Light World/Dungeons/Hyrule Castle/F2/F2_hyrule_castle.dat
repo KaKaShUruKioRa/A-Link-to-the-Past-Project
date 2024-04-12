@@ -13,16 +13,6 @@ properties{
 
 tile{
   layer = 0,
-  x = -1024,
-  y = 0,
-  width = 2048,
-  height = 2048,
-  pattern = "1",
-  tileset = "blueprint/hyrule_castle",
-}
-
-tile{
-  layer = 0,
   x = 640,
   y = 336,
   width = 256,

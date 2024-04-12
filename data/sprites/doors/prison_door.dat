@@ -1,5 +1,5 @@
 animation{
-  name = "normal",
+  name = "closed",
   src_image = "tileset",
   directions = {
     { x = 112, y = 0, frame_width = 16, frame_height = 16, origin_x = 0, origin_y = 0 },
