@@ -381,6 +381,7 @@ tileset{ id = "blueprint/desert_palace", description = "Desert Palace BluePrint"
 tileset{ id = "blueprint/eastern", description = "Eastern Palace" }
 tileset{ id = "blueprint/eastern_palace", description = "Eastern Palace BluePrint" }
 tileset{ id = "blueprint/hyrule_castle", description = "Hyrule Castle BluePrint" }
+tileset{ id = "blueprint/hyrule_castle_cave", description = "Hyrule Castle Cave" }
 tileset{ id = "blueprint/hyrule_castle_secret_passage", description = "Hyrule Castle Secret Passage" }
 tileset{ id = "blueprint/hyrule_castle_tower", description = "Hyrule Castle Tower BluePrint" }
 tileset{ id = "blueprint/light_overworld", description = "Light Overworld BluePrint" }
