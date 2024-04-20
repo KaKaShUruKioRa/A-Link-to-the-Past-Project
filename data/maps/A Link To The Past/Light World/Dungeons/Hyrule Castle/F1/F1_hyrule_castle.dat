@@ -3932,6 +3932,7 @@ enemy{
   y = 749,
   direction = 3,
   breed = "soldiers/sword_soldier_green",
+  treasure_name = "prize_packs/1",
 }
 
 enemy{
@@ -3940,6 +3941,7 @@ enemy{
   y = 813,
   direction = 3,
   breed = "soldiers/soldier_simple_green",
+  treasure_name = "prize_packs/1",
 }
 
 enemy{
@@ -3948,6 +3950,7 @@ enemy{
   y = 813,
   direction = 3,
   breed = "soldiers/soldier_simple_green",
+  treasure_name = "prize_packs/1",
 }
 
 enemy{
@@ -3956,6 +3959,7 @@ enemy{
   y = 733,
   direction = 3,
   breed = "soldiers/sword_soldier_green",
+  treasure_name = "prize_packs/1",
 }
 
 enemy{
@@ -3964,6 +3968,7 @@ enemy{
   y = 749,
   direction = 3,
   breed = "soldiers/sword_soldier_green",
+  treasure_name = "prize_packs/1",
 }
 
 enemy{
@@ -3972,6 +3977,7 @@ enemy{
   y = 221,
   direction = 3,
   breed = "soldiers/sword_soldier_green",
+  treasure_name = "prize_packs/1",
 }
 
 enemy{
@@ -3980,6 +3986,7 @@ enemy{
   y = 237,
   direction = 3,
   breed = "soldiers/sword_soldier_green",
+  treasure_name = "prize_packs/1",
 }
 
 enemy{
@@ -3988,6 +3995,7 @@ enemy{
   y = 269,
   direction = 3,
   breed = "soldiers/soldier_simple_green",
+  treasure_name = "prize_packs/1",
 }
 
 enemy{
@@ -3996,6 +4004,7 @@ enemy{
   y = 301,
   direction = 3,
   breed = "soldiers/soldier_simple_green",
+  treasure_name = "prize_packs/1",
 }
 
 enemy{
@@ -4004,6 +4013,7 @@ enemy{
   y = 253,
   direction = 3,
   breed = "soldiers/soldier_simple_green",
+  treasure_name = "prize_packs/1",
 }
 
 enemy{
@@ -4012,6 +4022,7 @@ enemy{
   y = 301,
   direction = 3,
   breed = "soldiers/soldier_simple_green",
+  treasure_name = "prize_packs/1",
 }
 
 wall{
@@ -8345,6 +8356,7 @@ enemy{
   y = 653,
   direction = 3,
   breed = "soldiers/sword_soldier_blue",
+  treasure_name = "prize_packs/1",
 }
 
 enemy{
@@ -8353,6 +8365,7 @@ enemy{
   y = 653,
   direction = 3,
   breed = "soldiers/sword_soldier_blue",
+  treasure_name = "prize_packs/1",
 }
 
 tile{

@@ -168,7 +168,7 @@ map{ id = "A Link To The Past/Light World/Houses/link_house", description = "Lin
 map{ id = "A Link To The Past/Light World/Houses/lumberjack_house", description = "Lumberjack House" }
 map{ id = "A Link To The Past/Light World/Houses/magic_shop", description = "Magic Shop" }
 map{ id = "A Link To The Past/Light World/Houses/sahasrahla_hideout", description = "Sahasrahla Hideout" }
-map{ id = "A Link To The Past/Light World/Houses/sanctuary", description = "Santuary" }
+map{ id = "A Link To The Past/Light World/Houses/sanctuary", description = "Sanctuary" }
 map{ id = "A Link To The Past/Light World/Houses/twins_house", description = "Twins House" }
 map{ id = "A Link To The Past/Light World/Overworld/blacksmiths_house", description = "BlackSmiths House" }
 map{ id = "A Link To The Past/Light World/Overworld/cemetery", description = "Cemetery" }
@@ -502,7 +502,7 @@ sprite{ id = "enemies/dungeons/pike_auto", description = "Pike (always moving)" 
 sprite{ id = "enemies/dungeons/popo", description = "Popo" }
 sprite{ id = "enemies/dungeons/rat", description = "Rat" }
 sprite{ id = "enemies/dungeons/rolling_spike_trap", description = "Rolling Spike Trap" }
-sprite{ id = "enemies/dungeons/rope", description = "Rope" }
+sprite{ id = "enemies/dungeons/rope", description = "Serpent" }
 sprite{ id = "enemies/dungeons/skeleton_blue", description = "Blue Stalfos" }
 sprite{ id = "enemies/dungeons/skeleton_red", description = "Red Stalfos" }
 sprite{ id = "enemies/dungeons/stalfos_grey", description = "Grey Stalfos" }
@@ -839,6 +839,7 @@ sound{ id = "picked_item", description = "picked_item" }
 sound{ id = "picked_rupee", description = "picked_rupee" }
 sound{ id = "picked_small_key", description = "picked_small_key" }
 sound{ id = "piece_of_heart", description = "piece_of_heart" }
+sound{ id = "rat", description = "rat" }
 sound{ id = "running", description = "running" }
 sound{ id = "running_obstacle", description = "running_obstacle" }
 sound{ id = "rupee_counter", description = "rupee_counter" }
@@ -969,7 +970,7 @@ enemy{ id = "dungeons/pike_auto", description = "Pike (always moving)" }
 enemy{ id = "dungeons/popo", description = "Popo" }
 enemy{ id = "dungeons/rat", description = "Rat" }
 enemy{ id = "dungeons/rolling_spike_trap", description = "Rolling Spike Trap" }
-enemy{ id = "dungeons/rope", description = "Rope" }
+enemy{ id = "dungeons/rope", description = "Serpent" }
 enemy{ id = "dungeons/skeleton_blue", description = "Squelette bleu" }
 enemy{ id = "dungeons/skeleton_bone", description = "Squelette (os)" }
 enemy{ id = "dungeons/skeleton_red", description = "Squelette rouge" }
@@ -1072,7 +1073,7 @@ file{ path = "enemies/dungeons/pike_auto.lua", author = "Christopho", license = 
 file{ path = "enemies/dungeons/popo.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/rat.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/rolling_spike_trap.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "enemies/dungeons/rope.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/dungeons/rope.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/dungeons/skeleton_blue.lua", author = "Vlag", license = "GPL v3" }
 file{ path = "enemies/dungeons/skeleton_bone.lua", author = "Vlag", license = "GPL v3" }
 file{ path = "enemies/dungeons/skeleton_red.lua", author = "Vlag", license = "GPL v3" }
@@ -2327,6 +2328,7 @@ file{ path = "sounds/picked_item.ogg", author = "Nintendo", license = "Proprieta
 file{ path = "sounds/picked_rupee.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/picked_small_key.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/piece_of_heart.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sounds/rat.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sounds/running.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/running_obstacle.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/rupee_counter.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
@@ -2501,11 +2503,11 @@ file{ path = "sprites/enemies/dungeons/pike_auto.dat", author = "Christopho", li
 file{ path = "sprites/enemies/dungeons/popo.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/dungeons/popo.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/dungeons/rat.dat", author = "Christopho", license = "CC BY-SA 4.0" }
-file{ path = "sprites/enemies/dungeons/rat.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/enemies/dungeons/rat.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/dungeons/rolling_spike_trap.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/dungeons/rolling_spike_trap.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/dungeons/rope.dat", author = "Christopho", license = "CC BY-SA 4.0" }
-file{ path = "sprites/enemies/dungeons/rope.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/enemies/dungeons/rope.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/dungeons/skeleton_blue.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/dungeons/skeleton_blue.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/dungeons/skeleton_red.dat", author = "Christopho", license = "CC BY-SA 4.0" }

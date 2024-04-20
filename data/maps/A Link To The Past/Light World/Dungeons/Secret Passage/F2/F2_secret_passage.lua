@@ -8,6 +8,46 @@ chest_manager:manage_map(map)
 local separator_manager = require("scripts/maps/separator_manager")
 separator_manager:manage_map(map)
 
-function map:on_started()
+--GESTION DE LUMIERE DANS LA PIECE ET NIVEAUX D'OBSCURITE
+require("scripts/maps/light_manager.lua")
+local dark = sol.surface.create(320,240)
+dark:set_opacity(150)
+dark:fill_color({0, 0, 0})
+for torch in map:get_entities("timed_torch_") do
+  function torch:on_lit() 
+    local opacity = dark:get_opacity()
+    dark:set_opacity(opacity - 50)
+    sol.timer.start(10000,function() 
+      local opacity2 = dark:get_opacity()
+      dark:set_opacity(opacity2 + 50) 
+    end)
+  end
+end
+map:register_event("on_draw", function(map, dst_surface)
+  if dark_on then dark:draw(dst_surface) end
+end)
+
+function map:on_started(destination)
+
+  if destination == secret_passage then
+    map:set_doors_open("auto_door_1")
+  else sensor_falling_auto_door_1_n_open:set_enabled(false) end
+  --Pièce dans le noir en arrivant
+  --if destination == stair_n then
+    dark_on = true
+    map:set_light(0)
+  --end
   
+end
+
+function map:on_finished()
+  dark_on = false
+end
+
+--EXCEPTION : PORTE AUTOMATIQUE ENTRÉE PASSAGE
+function sensor_falling_auto_door_1_n_open:on_activated()
+  self:set_enabled(false)
+  sol.timer.start(game,10,function()
+    map:close_doors("auto_door_1")
+  end)
 end

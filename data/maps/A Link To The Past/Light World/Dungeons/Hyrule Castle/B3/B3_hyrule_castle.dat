@@ -975,6 +975,7 @@ enemy{
   y = 173,
   direction = 3,
   breed = "soldiers/sword_soldier_green",
+  treasure_name = "prize_packs/1",
 }
 
 door{

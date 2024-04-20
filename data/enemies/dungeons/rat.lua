@@ -1,86 +1,53 @@
--- Lua script of enemy rat.
-
--- A rat who walk randomly in the room
-
 local enemy = ...
-local game = enemy:get_game()
-local map = enemy:get_map()
-local hero = map:get_hero()
-local sprite
-local movement
 
--- Event called when the enemy is initialized.
-function enemy:on_created()
+--Rat
 
-  -- Initialize the properties of your enemy here,
-  -- like the sprite, the life and the damage.
-  sprite = enemy:create_sprite("enemies/" .. enemy:get_breed())
-  enemy:set_life(1)
-  enemy:set_damage(1)
-  enemy:set_size(16, 16)
-  enemy:set_origin(8, 13)
-end
+enemy:set_life(1)
+enemy:set_damage(2)
+if enemy:get_treasure() == nil then enemy:set_treasure("prize_packs/2") end
 
--- Event called when the enemy should start or restart its movements.
--- This is called for example after the enemy is created or after
--- it was hurt or immobilized.
-function enemy:on_restarted()
-
-  movement = sol.movement.create("straight")
-  movement:set_target(hero)
-  movement:set_speed(88)
-  movement:start(enemy)
-
-  local m = sol.movement.create("straight")
-  m:set_speed(0)
-  m:start(self)
-  local direction4 = math.random(4) - 1
-  self:go(direction4)
-end
-
-
+local sprite = enemy:create_sprite("enemies/" .. enemy:get_breed())
 
 -- The enemy was stopped for some reason and should restart.
 function enemy:on_restarted()
-
-  local m = sol.movement.create("straight")
-  m:set_speed(0)
-  m:start(self)
-  local direction4 = math.random(4) - 1
-  self:go(direction4)
+   local m = sol.movement.create("straight")
+   m:start(self)
+   self:go()
 end
 
--- An obstacle is reached: stop for a while, looking to a next direction.
-function enemy:on_obstacle_reached(movement)
-  -- stop for a while
-  local animation = sprite:get_animation()
-  if animation == "walking" then
-    sprite:set_animation("immobilized")
-    sol.timer.start(enemy, 500, function()
-      enemy:go(math.random(4)-1)
-    end)
+-- An obstacle is reached: try a new direction
+function enemy:on_obstacle_reached()
+    self:go()
+end
+
+-- Stop for a while, then keep going or change direction
+function enemy:on_movement_finished()
+  sprite:set_animation("rat")
+  local hero = self:get_map():get_hero()
+  if self:is_in_same_region(hero) then
+    sol.audio.play_sound("rat")
   end
+  sol.timer.start(self, math.random(1000,2000), function() 
+    self:go()
+  end)
 end
 
--- The movement is finished: stop for a while, looking to a next direction.
-function enemy:on_movement_finished(movement)
-  -- Same thing as when an obstacle is reached.
-  self:on_obstacle_reached(movement)
+-- Makes the rat walk towards a direction.
+function enemy:go()
+
+    -- Set the sprite.
+    sprite:set_animation("walking")
+    local direction = sprite:get_direction()
+ 
+    local directions = { ((direction + 3) % 4), ((direction + 1) % 4), ((direction) % 4) }
+    local direction4 = directions[math.random(3)]
+
+    sprite:set_direction(direction4)
+  
+    -- Set the movement.
+    local m = self:get_movement()
+    local max_distance = 72 + math.random(128)
+    m:set_speed(72)
+    m:set_max_distance(max_distance)
+    m:set_angle(direction4 * math.pi / 2)
 end
-
--- Makes the soldier walk towards a direction.
-function enemy:go(direction4)
-
-  -- Set the sprite.
-  sprite:set_animation("walking")
-  sprite:set_direction(direction4)
-
-  -- Set the movement.
-  local m = self:get_movement()
-  local max_distance = 20 + math.random(60)
-  m:set_max_distance(max_distance)
-  m:set_smooth(true)
-  m:set_speed(88)
-  m:set_angle(direction4 * math.pi / 2)
-end
-

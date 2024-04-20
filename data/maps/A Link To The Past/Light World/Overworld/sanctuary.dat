@@ -3477,8 +3477,8 @@ teletransporter{
   y = 64,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Houses/sanctuary",
-  destination = "dest_map_sanctuary_0",
+  destination_map = "A Link To The Past/Light World/Dungeons/Secret Passage/F1/F1_secret_passage",
+  destination = "sanctuary",
 }
 
 teletransporter{

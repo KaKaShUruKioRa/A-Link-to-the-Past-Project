@@ -3177,6 +3177,7 @@ enemy{
   y = 413,
   direction = 3,
   breed = "soldiers/sword_soldier_blue",
+  treasure_name = "prize_packs/1",
 }
 
 enemy{
@@ -3185,6 +3186,7 @@ enemy{
   y = 605,
   direction = 3,
   breed = "soldiers/sword_soldier_blue",
+  treasure_name = "prize_packs/1",
 }
 
 enemy{
@@ -3193,6 +3195,7 @@ enemy{
   y = 621,
   direction = 3,
   breed = "soldiers/sword_soldier_blue",
+  treasure_name = "prize_packs/1",
 }
 
 enemy{
@@ -3201,6 +3204,7 @@ enemy{
   y = 797,
   direction = 3,
   breed = "soldiers/sword_soldier_blue",
+  treasure_name = "prize_packs/1",
 }
 
 enemy{
@@ -3210,6 +3214,7 @@ enemy{
   y = 405,
   direction = 3,
   breed = "soldiers/sword_soldier_green",
+  treasure_name = "prize_packs/1",
 }
 
 enemy{
@@ -3218,6 +3223,7 @@ enemy{
   y = 701,
   direction = 3,
   breed = "soldiers/sword_soldier_green",
+  treasure_name = "prize_packs/1",
 }
 
 enemy{
@@ -3226,6 +3232,7 @@ enemy{
   y = 701,
   direction = 3,
   breed = "soldiers/sword_soldier_green",
+  treasure_name = "prize_packs/1",
 }
 
 sensor{

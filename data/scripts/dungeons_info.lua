@@ -15,6 +15,21 @@ local dungeons_info = {
       y = 480 + 224,
     },
   },
+  ["hyrule_castle_secret_passage"] = {
+    floor_width = 1920,
+    floor_height = 1200,
+    lowest_floor = 0,
+    highest_floor = 1,
+    maps = {
+      "A Link To The Past/Light World/Dungeons/Secret Passage/F2/F2_secret_passage","A Link To The Past/Light World/Dungeons/Secret Passage/F1/F1_secret_passage", "A Link To The Past/Light World/Dungeons/Secret Passage/B1/B1_secret_passage"
+    },
+    boss = {
+      floor = 1,
+      savegame_variable = "hyrule_castle_secret_passage_boss",
+      x = 960,
+      y = 480 + 224,
+    },
+  },
   ["eastern_palace"] = {
     floor_width = 1920,
     floor_height = 1200,
