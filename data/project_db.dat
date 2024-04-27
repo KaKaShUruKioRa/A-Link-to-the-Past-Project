@@ -405,6 +405,7 @@ tileset{ id = "out/outside_darkworld_main", description = "Outside DarkWorld Mai
 tileset{ id = "out/outside_darkworld_main_ERROR", description = "Outside DarkWorld Main ERRORCHECK" }
 tileset{ id = "out/outside_lightworld_buildings", description = "Outside LigthWorld Buildings" }
 tileset{ id = "out/outside_lightworld_main", description = "Outside LigthWorld Main" }
+tileset{ id = "out/outside_lightworld_main_ERROR", description = "Outside LigthWorld Main ERRORCHECK" }
 tileset{ id = "out/outside_main", description = "Outside main" }
 tileset{ id = "out/outside_special", description = "Outside special" }
 tileset{ id = "secret_room/mini_darkworld", description = "Mini DarkWorld World" }
@@ -2947,6 +2948,8 @@ file{ path = "tilesets/out/outside_lightworld_buildings.dat", author = "KaKaShUr
 file{ path = "tilesets/out/outside_lightworld_buildings.tiles.png", author = "Nintendo, FFomega, KaKaShUruKioRa", license = "Proprietary (Fair use)" }
 file{ path = "tilesets/out/outside_lightworld_main.dat", author = "FFomega, KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "tilesets/out/outside_lightworld_main.tiles.png", author = "Nintendo, FFomega, KaKaShUruKioRa", license = "Proprietary (Fair use)" }
+file{ path = "tilesets/out/outside_lightworld_main_ERROR.dat", author = "Nintendo, FFomega, KaKaShUruKioRa", }
+file{ path = "tilesets/out/outside_lightworld_main_ERROR.tiles.png", author = "Nintendo, FFomega, KaKaShUruKioRa", license = "Proprietary (Fair use)" }
 file{ path = "tilesets/out/outside_main.dat", author = "FFomega, KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "tilesets/out/outside_main.tiles.png", author = "Nintendo, FFomega, KaKaShUruKioRa", license = "Proprietary (Fair use)" }
 file{ path = "tilesets/out/outside_special.dat", author = "FFomega, KaKaShUruKioRa", license = "GPL v3" }
