@@ -457,6 +457,8 @@ sprite{ id = "doors/door_d2_very_weak_wall", description = "Cave door (very weak
 sprite{ id = "doors/door_d2_weak_wall", description = "Cave door (weak wall)" }
 sprite{ id = "doors/door_d4_very_weak_wall", description = "House door (very weak wall)" }
 sprite{ id = "doors/door_d4_weak_wall", description = "House door (weak wall)" }
+sprite{ id = "doors/door_outside_castle", description = "House Door Outside Castle" }
+sprite{ id = "doors/door_outside_house", description = "House Door Outside" }
 sprite{ id = "doors/prison_door", description = "Prison locked door" }
 sprite{ id = "enemies/bosses/agahnim", description = "Agahnim" }
 sprite{ id = "enemies/bosses/armos_knight", description = "Armos Knight (Global)" }
@@ -583,6 +585,7 @@ sprite{ id = "entities/hammer_stake_yellow", description = "Hammer Stake Yellow"
 sprite{ id = "entities/hookshot", description = "Hookshot" }
 sprite{ id = "entities/ice_beam", description = "Ice Beam" }
 sprite{ id = "entities/items", description = "Items" }
+sprite{ id = "entities/rain", description = "Effet de pluie" }
 sprite{ id = "entities/rupee_icon", description = "Rupee icon" }
 sprite{ id = "entities/shadow", description = "Shadow" }
 sprite{ id = "entities/sign_brown", description = "Sign (brown)" }
@@ -699,6 +702,7 @@ sprite{ id = "npc/pink_ball", description = "Pink ball" }
 sprite{ id = "npc/priest", description = "Priest" }
 sprite{ id = "npc/running_man", description = "Running man" }
 sprite{ id = "npc/soldier_blue", description = "Blue soldier" }
+sprite{ id = "npc/soldier_intro", description = "Soldat jaune entrée chateau" }
 sprite{ id = "npc/thief_green", description = "Green thief" }
 sprite{ id = "npc/thief_red", description = "Red thief" }
 sprite{ id = "npc/thief_yellow", description = "Yellow thief" }
@@ -840,6 +844,9 @@ sound{ id = "picked_item", description = "picked_item" }
 sound{ id = "picked_rupee", description = "picked_rupee" }
 sound{ id = "picked_small_key", description = "picked_small_key" }
 sound{ id = "piece_of_heart", description = "piece_of_heart" }
+sound{ id = "quake", description = "quake" }
+sound{ id = "rain_in", description = "rain_in" }
+sound{ id = "rain_out", description = "rain_out" }
 sound{ id = "rat", description = "rat" }
 sound{ id = "running", description = "running" }
 sound{ id = "running_obstacle", description = "running_obstacle" }
@@ -2329,6 +2336,9 @@ file{ path = "sounds/picked_item.ogg", author = "Nintendo", license = "Proprieta
 file{ path = "sounds/picked_rupee.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/picked_small_key.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/piece_of_heart.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sounds/quake.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sounds/rain_in.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sounds/rain_out.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/rat.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sounds/running.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/running_obstacle.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
@@ -2419,6 +2429,7 @@ file{ path = "sprites/doors/door_d2_very_weak_wall.dat", author = "FFomega", lic
 file{ path = "sprites/doors/door_d2_weak_wall.dat", author = "FFomega", license = "CC BY-SA 4.0" }
 file{ path = "sprites/doors/door_d4_very_weak_wall.dat", author = "FFomega", license = "CC BY-SA 4.0" }
 file{ path = "sprites/doors/door_d4_weak_wall.dat", author = "FFomega", license = "CC BY-SA 4.0" }
+file{ path = "sprites/doors/door_outside_house.dat", author = "ZeldoRetro", }
 file{ path = "sprites/doors/prison_door.dat", author = "FFomega", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies", license = "Mixed" }
 file{ path = "sprites/enemies/bosses", license = "Mixed" }
@@ -2660,6 +2671,8 @@ file{ path = "sprites/entities/hookshot.png", author = "Nintendo", license = "Pr
 file{ path = "sprites/entities/ice_beam.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/ice_beam.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/entities/items.dat", author = "Christopho, Mehdi Khelifi", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/rain.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/rain.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/entities/rupee_icon.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/rupee_icon.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/entities/shadow.dat", author = "Christopho", license = "CC BY-SA 4.0" }
@@ -2932,6 +2945,8 @@ file{ path = "sprites/npc/pink_ball.dat", author = "Christopho", license = "CC B
 file{ path = "sprites/npc/priest.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/npc/running_man.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/npc/soldier_blue.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/npc/soldier_intro.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/npc/soldier_intro.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/npc/thief_green.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/npc/thief_red.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/npc/thief_yellow.dat", author = "Christopho", license = "CC BY-SA 4.0" }

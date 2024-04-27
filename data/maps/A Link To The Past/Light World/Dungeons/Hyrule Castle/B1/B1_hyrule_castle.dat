@@ -2875,15 +2875,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 336,
-  y = 808,
-  width = 8,
-  height = 8,
-  pattern = "floor_border.1",
-}
-
-tile{
-  layer = 0,
   x = 320,
   y = 832,
   width = 24,
