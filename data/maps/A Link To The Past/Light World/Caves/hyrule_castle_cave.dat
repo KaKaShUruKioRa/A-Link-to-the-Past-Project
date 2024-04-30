@@ -6,7 +6,7 @@ properties{
   min_layer = -1,
   max_layer = 2,
   tileset = "dungeon/blue",
-  music = "cave",
+  music = "same",
 }
 
 tile{
@@ -1006,15 +1006,6 @@ wall{
   stops_blocks = true,
 }
 
-chest{
-  layer = 0,
-  x = 392,
-  y = 365,
-  treasure_name = "inventory/lantern",
-  treasure_savegame_variable = "get_lamp",
-  sprite = "entities/chest",
-}
-
 stairs{
   layer = 0,
   x = 120,
@@ -1039,6 +1030,34 @@ enemy{
   direction = 3,
   breed = "soldiers/soldier_simple_green",
   treasure_name = "prize_packs/1",
+}
+
+npc{
+  name = "uncle",
+  layer = 0,
+  x = 232,
+  y = 125,
+  direction = 1,
+  subtype = 1,
+  sprite = "npc/uncle",
+}
+
+sensor{
+  name = "sensor_uncle_death",
+  layer = 0,
+  x = 248,
+  y = 125,
+  width = 16,
+  height = 32,
+}
+
+chest{
+  name = "chest_lantern",
+  layer = 0,
+  x = 392,
+  y = 365,
+  treasure_savegame_variable = "hyrule_castle_cave_chest_opened",
+  sprite = "entities/chest",
 }
 
 tile{

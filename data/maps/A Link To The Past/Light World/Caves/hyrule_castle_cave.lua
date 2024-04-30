@@ -33,5 +33,32 @@ map:register_event("on_draw", function(map, dst_surface)
 end)
 
 function map:on_started()
-  
+  if not game:get_value("intro_done") then
+    map:set_entities_enabled("intro_",true)
+    sol.audio.play_music("beginning")
+  else
+    sol.audio.play_music("cave")
+  end
+  if game:get_value("get_sword_1") then
+    sensor_uncle_death:set_enabled(false)
+    uncle:set_enabled(false)
+  end
+end
+
+function sensor_uncle_death:on_activated()
+  self:set_enabled(false)
+  game:start_dialog("NoBigKey",function()
+    uncle:get_sprite():set_direction(0)
+    hero:start_treasure("equipment/sword",1,"get_sword_1",function()
+      game:set_ability("shield",1)
+    end)
+  end)
+end
+
+function chest_lantern:on_opened()
+  if game:get_value("get_lamp") then
+    hero:start_treasure("consumables/rupee",2,"after_lamp_rupees_castleCAVE")
+  else
+    hero:start_treasure("inventory/lantern",1,"get_lamp")
+  end
 end

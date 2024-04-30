@@ -522,12 +522,11 @@ destination{
 }
 
 chest{
-  name = "chest_link_house_0",
+  name = "chest_lantern",
   layer = 0,
   x = 200,
   y = 157,
-  treasure_name = "inventory/lantern",
-  treasure_savegame_variable = "got_lantern",
+  treasure_savegame_variable = "link_house_chest_opened",
   sprite = "entities/chest",
 }
 

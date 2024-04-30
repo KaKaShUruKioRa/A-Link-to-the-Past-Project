@@ -960,15 +960,6 @@ destructible{
   destruction_sound = "stone",
 }
 
-chest{
-  layer = 1,
-  x = 336,
-  y = 77,
-  treasure_name = "inventory/lantern",
-  treasure_savegame_variable = "get_lamp",
-  sprite = "entities/chest",
-}
-
 enemy{
   layer = 1,
   x = 120,
@@ -1009,6 +1000,15 @@ npc{
   direction = 3,
   subtype = 1,
   sprite = "npc/zelda",
+}
+
+chest{
+  name = "chest_lantern",
+  layer = 1,
+  x = 336,
+  y = 77,
+  treasure_savegame_variable = "hyrule_castle_B3_chest_opened",
+  sprite = "entities/chest",
 }
 
 tile{

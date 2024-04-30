@@ -1766,13 +1766,14 @@ tile{
   pattern = "barrier.2-1",
 }
 
-tile{
+dynamic_tile{
+  name = "altar_closed",
   layer = 1,
-  x = 784,
+  x = 752,
   y = 32,
-  width = 48,
-  height = 40,
-  pattern = "wall.ornament",
+  width = 32,
+  height = 8,
+  pattern = "door_top.1-2",
 }
 
 wall{
@@ -1902,17 +1903,6 @@ destructible{
   damage_on_enemies = 0,
 }
 
-dynamic_tile{
-  name = "blason_opened_3",
-  layer = 1,
-  x = 752,
-  y = 32,
-  enabled_at_start = false,
-  width = 32,
-  height = 8,
-  pattern = "door_top.1-2",
-}
-
 destination{
   name = "secret_passage",
   layer = 1,
@@ -1921,25 +1911,32 @@ destination{
   direction = 3,
 }
 
-pickable{
+sensor{
+  name = "sensor_push_altar",
   layer = 1,
   x = 736,
   y = 69,
-  treasure_name = "inventory/boomerang",
+  width = 16,
+  height = 16,
 }
 
-pickable{
+sensor{
+  name = "sensor_push_altar_end",
   layer = 1,
-  x = 720,
-  y = 85,
-  treasure_name = "inventory/lantern",
-}
-
-pickable{
-  layer = 1,
-  x = 720,
+  x = 768,
   y = 69,
-  treasure_name = "equipment/bomb_bag",
+  width = 16,
+  height = 16,
+}
+
+dynamic_tile{
+  name = "altar",
+  layer = 1,
+  x = 744,
+  y = 32,
+  width = 48,
+  height = 40,
+  pattern = "wall.ornament",
 }
 
 tile{
@@ -2132,7 +2129,7 @@ tile{
 }
 
 dynamic_tile{
-  name = "blason_opened_2",
+  name = "altar_opened_2",
   layer = 2,
   x = 736,
   y = 32,
@@ -2140,17 +2137,6 @@ dynamic_tile{
   width = 48,
   height = 8,
   pattern = "door_cache.1-2",
-}
-
-dynamic_tile{
-  name = "blason_opened_1",
-  layer = 2,
-  x = 752,
-  y = 32,
-  enabled_at_start = false,
-  width = 32,
-  height = 8,
-  pattern = "door_top.1-2",
 }
 
 separator{
@@ -2175,5 +2161,16 @@ separator{
   y = 504,
   width = 496,
   height = 16,
+}
+
+dynamic_tile{
+  name = "altar_opened_1",
+  layer = 2,
+  x = 752,
+  y = 32,
+  enabled_at_start = false,
+  width = 32,
+  height = 8,
+  pattern = "door_top.1-2",
 }
 

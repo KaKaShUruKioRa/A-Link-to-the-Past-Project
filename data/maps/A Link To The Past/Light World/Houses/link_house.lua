@@ -21,3 +21,11 @@ end
 function map:on_opening_transition_finished()
 
 end
+
+function chest_lantern:on_opened()
+  if game:get_value("get_lamp") then
+    hero:start_treasure("consumables/rupee",2,"after_lamp_rupees_HOUSE")
+  else
+    hero:start_treasure("inventory/lantern",1,"get_lamp")
+  end
+end

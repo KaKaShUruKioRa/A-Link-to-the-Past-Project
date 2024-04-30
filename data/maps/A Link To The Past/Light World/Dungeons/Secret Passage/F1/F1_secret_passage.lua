@@ -8,6 +8,8 @@ chest_manager:manage_map(map)
 local separator_manager = require("scripts/maps/separator_manager")
 separator_manager:manage_map(map)
 
+local altar_pushed = false
+
 --GESTION DE LUMIERE DANS LA PIECE ET NIVEAUX D'OBSCURITE
 require("scripts/maps/light_manager.lua")
 local dark = sol.surface.create(320,240)
@@ -41,4 +43,36 @@ end
 
 function map:on_finished()
   dark_on = false
+end
+
+function auto_separator_5:on_activated(direction4)
+  if direction4 == 3 then
+    local i = 0
+    sol.audio.play_music("sanctuary")
+    if not altar_pushed then
+      hero:freeze()
+      local m = sol.movement.create("straight")
+      m:set_angle(3 * math.pi / 2)
+      m:set_max_distance(48)
+      m:set_ignore_obstacles(true)
+      m:start(hero,function()
+        sol.timer.start(map,100,function()
+          local x, y = altar:get_position()
+          altar:set_position(x + 1, y)
+          i = i + 1
+          if i >= 32 then
+            altar_opened:set_enabled(true)
+            altar_closed:set_enabled(false)
+
+--TODO : FIN DE L'ESCAPE ET ZELDA QUI SE MET A COTÉ DU CURÉ
+            game:set_value("intro_done",true)
+
+            altar_pushed = true
+            hero:unfreeze()
+
+          else return true end
+        end)
+      end)
+    end
+  else sol.audio.play_music("castle") end
 end

@@ -20,5 +20,23 @@ end
 -- Event called after the opening transition effect of the map,
 -- that is, when the player takes control of the hero.
 function map:on_opening_transition_finished()
+  if game:get_value("zelda_rescued") then
+    zelda:set_enabled(false)
+  end
+end
 
+function zelda:on_interaction()
+  sol.audio.play_music("zelda")
+  game:start_dialog("NoBigKey",function()
+    game:set_value("zelda_rescued",true)
+    sol.audio.play_music("castle")
+  end)
+end
+
+function chest_lantern:on_opened()
+  if game:get_value("get_lamp") then
+    hero:start_treasure("consumables/rupee",2,"after_lamp_rupees_castleB3")
+  else
+    hero:start_treasure("inventory/lantern",1,"get_lamp")
+  end
 end

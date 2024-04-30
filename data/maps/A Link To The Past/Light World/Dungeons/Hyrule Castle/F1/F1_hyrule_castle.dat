@@ -8158,7 +8158,7 @@ teletransporter{
   width = 16,
   height = 16,
   destination_map = "A Link To The Past/Light World/Overworld/hyrule_castle",
-  destination = "dest_dungeon_hyrule_castle_3",
+  destination = "dest_dungeon_hyrule_castle_0",
 }
 
 custom_entity{
@@ -8210,7 +8210,7 @@ teletransporter{
   width = 16,
   height = 16,
   destination_map = "A Link To The Past/Light World/Overworld/hyrule_castle",
-  destination = "dest_dungeon_hyrule_castle_3",
+  destination = "dest_dungeon_hyrule_castle_1",
 }
 
 jumper{
