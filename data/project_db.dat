@@ -455,6 +455,7 @@ sprite{ id = "enemies/bosses/blind_the_thief", description = "Blind the Thief" }
 sprite{ id = "enemies/bosses/ganon", description = "Ganon" }
 sprite{ id = "enemies/bosses/helmasaur_king", description = "Helmasaur King" }
 sprite{ id = "enemies/bosses/kholdstare", description = "Kholdstare" }
+sprite{ id = "enemies/bosses/lanmola", description = "Lanmola" }
 sprite{ id = "enemies/bosses/moldorm", description = "Moldorm" }
 sprite{ id = "enemies/bosses/moldorm/body_1", description = "Body 1" }
 sprite{ id = "enemies/bosses/moldorm/body_2", description = "Body 2" }
@@ -927,6 +928,7 @@ enemy{ id = "bosses/blind_the_thief", description = "Blind the Thief" }
 enemy{ id = "bosses/ganon", description = "Ganon" }
 enemy{ id = "bosses/helmasaur_king", description = "Helmasaur King" }
 enemy{ id = "bosses/kholdstare", description = "Kholdstare" }
+enemy{ id = "bosses/lanmola", description = "Lanmola" }
 enemy{ id = "bosses/moldorm", description = "Moldorm" }
 enemy{ id = "bosses/mothula", description = "Mothula" }
 enemy{ id = "bosses/vitreous", description = "Vitreous" }
@@ -1025,6 +1027,7 @@ file{ path = "enemies/bosses/blind_the_thief.lua", author = "Christopho", licens
 file{ path = "enemies/bosses/ganon.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/bosses/helmasaur_king.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/bosses/kholdstare.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/bosses/lanmola.lua", author = "DarkDavy15", license = "GPL v3" }
 file{ path = "enemies/bosses/moldorm.lua", author = "Vlag", license = "GPL v3" }
 file{ path = "enemies/bosses/mothula.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/bosses/vitreous.lua", author = "Christopho", license = "GPL v3" }
@@ -2405,6 +2408,8 @@ file{ path = "sprites/enemies/bosses/helmasaur_king.dat", author = "Christopho",
 file{ path = "sprites/enemies/bosses/helmasaur_king.png", author = "Christopho", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/bosses/kholdstare.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/bosses/kholdstare.png", author = "Christopho", license = "Proprietary (Fair use)" }
+file{ path = "sprites/enemies/bosses/lanmola.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/bosses/lanmola.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/bosses/moldorm.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/bosses/moldorm/body_1.dat", author = "Vlag", license = "CC-BY-SA 4.0" }
 file{ path = "sprites/enemies/bosses/moldorm/body_2.dat", author = "Vlag", license = "CC-BY-SA 4.0" }

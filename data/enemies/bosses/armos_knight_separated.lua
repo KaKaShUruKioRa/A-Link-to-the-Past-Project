@@ -63,6 +63,8 @@ function enemy:on_created()
 
   enemy:set_invincible()
   enemy:set_attack_consequence_sprite(sprite[1], "sword", "protected")
+  enemy:set_attack_consequence_sprite(sprite[1], "thrown_item", "protected")
+  enemy:set_attack_consequence_sprite(sprite[1], "explosion", "protected")
   enemy:set_attack_consequence_sprite(sprite[1], "arrow", "protected")
   enemy:set_attack_consequence_sprite(sprite[1], "boomerang", "protected")
 end
@@ -71,14 +73,28 @@ function enemy:on_custom_attack_received(attack, sprite)
   if not (state == 1) then
 
     if (attack == "sword") then
-      if enemy:get_life()-(4*game:get_ability("sword")) <= 0 then
+      if enemy:get_life()-( 4*math.max(1, game:get_ability("sword")-1) ) <= 0 then
         sol.audio.play_sound(list_armos_sound[3])
         enemy:set_life(1)
         on_hurted = -250
         enemy:change_state(1)
       else
         sol.audio.play_sound(list_armos_sound[2])
-        enemy:remove_life(4*game:get_ability("sword"))
+        enemy:remove_life(4*math.max(1, game:get_ability("sword")-1))
+        on_hurted = -75
+        enemy:change_state(5)
+      end
+    end
+
+    if (attack == "thrown_item") or (attack == "explosion") then
+      if enemy:get_life()-4 <= 0 then
+        sol.audio.play_sound(list_armos_sound[3])
+        enemy:set_life(1)
+        on_hurted = -250
+        enemy:change_state(1)
+      else
+        sol.audio.play_sound(list_armos_sound[2])
+        enemy:remove_life(4)
         on_hurted = -75
         enemy:change_state(5)
       end
@@ -235,6 +251,8 @@ function enemy:on_update()
     if frame >= 150 then
       enemy:set_traversable(true)
       enemy:set_attack_consequence_sprite(sprite[1], "sword", "custom")
+      enemy:set_attack_consequence_sprite(sprite[1], "thrown_item", "custom")
+      enemy:set_attack_consequence_sprite(sprite[1], "explosion", "custom")
       enemy:set_attack_consequence_sprite(sprite[1], "arrow", "custom")
       enemy:set_attack_consequence_sprite(sprite[1], "boomerang", "custom")
       enemy:change_state(2)
