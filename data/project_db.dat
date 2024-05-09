@@ -401,9 +401,11 @@ tileset{ id = "dungeon/purple", description = "Purple dungeon" }
 tileset{ id = "dungeon/yellow", description = "Yellow dungeon" }
 tileset{ id = "out/outside_buildings", description = "Outside buildings" }
 tileset{ id = "out/outside_darkworld_buildings", description = "Ouside DarkWorld Buildings" }
+tileset{ id = "out/outside_darkworld_buildings_ERROR", description = "Ouside DarkWorld Buildings ERRORCHECK" }
 tileset{ id = "out/outside_darkworld_main", description = "Outside DarkWorld Main" }
 tileset{ id = "out/outside_darkworld_main_ERROR", description = "Outside DarkWorld Main ERRORCHECK" }
 tileset{ id = "out/outside_lightworld_buildings", description = "Outside LigthWorld Buildings" }
+tileset{ id = "out/outside_lightworld_buildings_ERROR", description = "Outside LigthWorld Buildings ERRORCHECK" }
 tileset{ id = "out/outside_lightworld_main", description = "Outside LigthWorld Main" }
 tileset{ id = "out/outside_lightworld_main_ERROR", description = "Outside LigthWorld Main ERRORCHECK" }
 tileset{ id = "out/outside_main", description = "Outside main" }
@@ -2938,17 +2940,21 @@ file{ path = "tilesets/dungeon/yellow.tiles.png", author = "Nintendo, FFomega", 
 file{ path = "tilesets/out", author = "Nintendo, FFomega", license = "Mixed" }
 file{ path = "tilesets/out/outside_buildings.dat", author = "FFomega, KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "tilesets/out/outside_buildings.tiles.png", author = "Nintendo, FFomega, KaKaShUruKioRa", license = "Proprietary (Fair use)" }
-file{ path = "tilesets/out/outside_darkworld_buildings.dat", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "tilesets/out/outside_darkworld_buildings.tiles.png", author = "KaKaShUruKioRa", license = "GPL v3" }
+file{ path = "tilesets/out/outside_darkworld_buildings.dat", author = "FFomega, KaKaShUruKioRa", license = "GPL v3" }
+file{ path = "tilesets/out/outside_darkworld_buildings.tiles.png", author = "Nintendo, FFomega, KaKaShUruKioRa", license = "Proprietary (Fair use)" }
+file{ path = "tilesets/out/outside_darkworld_buildings_ERROR.dat", author = "FFomega, KaKaShUruKioRa", license = "GPL v3" }
+file{ path = "tilesets/out/outside_darkworld_buildings_ERROR.tiles.png", author = "Nintendo, FFomega, KaKaShUruKioRa", license = "Proprietary (Fair use)" }
 file{ path = "tilesets/out/outside_darkworld_main.dat", author = "FFomega, KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "tilesets/out/outside_darkworld_main.tiles.png", author = "Nintendo, FFomega, KaKaShUruKioRa", license = "Proprietary (Fair use)" }
 file{ path = "tilesets/out/outside_darkworld_main_ERROR.dat", author = "FFomega, KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "tilesets/out/outside_darkworld_main_ERROR.tiles.png", author = "Nintendo, FFomega, KaKaShUruKioRa", license = "Proprietary (Fair use)" }
-file{ path = "tilesets/out/outside_lightworld_buildings.dat", author = "KaKaShUruKioRa", license = "GPL v3" }
+file{ path = "tilesets/out/outside_lightworld_buildings.dat", author = "FFomega, KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "tilesets/out/outside_lightworld_buildings.tiles.png", author = "Nintendo, FFomega, KaKaShUruKioRa", license = "Proprietary (Fair use)" }
+file{ path = "tilesets/out/outside_lightworld_buildings_ERROR.dat", author = "FFomega, KaKaShUruKioRa", license = "GPL v3" }
+file{ path = "tilesets/out/outside_lightworld_buildings_ERROR.tiles.png", author = "Nintendo, FFomega, KaKaShUruKioRa", license = "Proprietary (Fair use)" }
 file{ path = "tilesets/out/outside_lightworld_main.dat", author = "FFomega, KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "tilesets/out/outside_lightworld_main.tiles.png", author = "Nintendo, FFomega, KaKaShUruKioRa", license = "Proprietary (Fair use)" }
-file{ path = "tilesets/out/outside_lightworld_main_ERROR.dat", author = "Nintendo, FFomega, KaKaShUruKioRa", }
+file{ path = "tilesets/out/outside_lightworld_main_ERROR.dat", author = "FFomega, KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "tilesets/out/outside_lightworld_main_ERROR.tiles.png", author = "Nintendo, FFomega, KaKaShUruKioRa", license = "Proprietary (Fair use)" }
 file{ path = "tilesets/out/outside_main.dat", author = "FFomega, KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "tilesets/out/outside_main.tiles.png", author = "Nintendo, FFomega, KaKaShUruKioRa", license = "Proprietary (Fair use)" }
