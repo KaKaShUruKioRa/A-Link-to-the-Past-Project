@@ -38,6 +38,14 @@ function map:on_started(destination)
     dark_on = true
     map:set_light(0)
   end
+
+  if game:get_value("follower_zelda_on") then
+    sol.timer.start(map,1600,function()
+      zelda_follower:set_enabled(true)
+      zelda_follower:set_position(hero:get_position())
+      zelda:set_enabled(false)
+    end)
+  end
   
 end
 
@@ -63,16 +71,55 @@ function auto_separator_5:on_activated(direction4)
           if i >= 32 then
             altar_opened:set_enabled(true)
             altar_closed:set_enabled(false)
-
---TODO : FIN DE L'ESCAPE ET ZELDA QUI SE MET A COTÉ DU CURÉ
-            game:set_value("intro_done",true)
-
-            altar_pushed = true
-            hero:unfreeze()
-
+            if not game:get_value("intro_done") then
+              game:set_value("follower_zelda_on",false)
+              zelda_follower:set_enabled(false)
+              zelda_2:set_enabled(true)
+              priest:get_sprite():set_direction(1)
+              game:start_dialog("NoBigKey",function()
+                local m = sol.movement.create("path")
+                m:set_path{6,6,6,6,6,6,0,0,6,6,6}
+                m:set_speed(48)
+                m:set_ignore_obstacles(true)
+                m:start(zelda_2,function()
+                  zelda:set_enabled(true)
+                  zelda_2:set_enabled(false)
+                  zelda:get_sprite():set_direction(1)
+                  game:start_dialog("NoBigKey",function()
+                    zelda:get_sprite():set_direction(3)
+                    priest:get_sprite():set_direction(3)
+                    game:set_value("intro_done",true)
+                    altar_pushed = true
+                    hero:unfreeze()
+                  end)
+                end)
+              end)
+            else
+              altar_pushed = true
+              hero:unfreeze()
+            end
           else return true end
         end)
       end)
     end
   else sol.audio.play_music("castle") end
+end
+
+function map:on_update()
+
+  -- npc turn toward hero
+  local x, y = priest:get_position()
+  local turn_toward = sol.movement.create("target")
+  turn_toward:set_target(hero, -x, -y)
+  turn_toward:set_speed(0)
+  priest:get_sprite():set_direction(turn_toward:get_direction4())
+  turn_toward:start(priest)
+
+  local x, y = zelda:get_position()
+  local turn_toward = sol.movement.create("target")
+  turn_toward:set_target(hero, -x, -y)
+  turn_toward:set_speed(0)
+  zelda:get_sprite():set_direction(turn_toward:get_direction4())
+  turn_toward:start(zelda)
+
 end

@@ -301,6 +301,19 @@ stairs{
   subtype = 1,
 }
 
+custom_entity{
+  name = "zelda_follower",
+  layer = 1,
+  x = -8,
+  y = 13,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/zelda",
+  model = "follower",
+}
+
 tile{
   layer = 2,
   x = 136,

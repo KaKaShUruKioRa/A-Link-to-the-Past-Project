@@ -20,6 +20,11 @@ function map:on_started()
   else
     sol.audio.play_music("overworld")
   end
+
+  if game:get_value("follower_zelda_on") then
+      zelda_follower:set_enabled(true)
+      zelda_follower:set_position(hero:get_position())
+  end
   
 end
 

@@ -38,6 +38,13 @@ function map:on_started(destination)
     dark_on = true
     map:set_light(0)
   end
+
+  if game:get_value("follower_zelda_on") then
+    sol.timer.start(map,1600,function()
+      zelda_follower:set_enabled(true)
+      zelda_follower:set_position(hero:get_position())
+    end)
+  end
   
 end
 

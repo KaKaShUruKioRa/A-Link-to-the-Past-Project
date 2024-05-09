@@ -9,5 +9,10 @@ local separator_manager = require("scripts/maps/separator_manager")
 separator_manager:manage_map(map)
 
 function map:on_started()
-  
+  if game:get_value("follower_zelda_on") then
+    sol.timer.start(map,1600,function()
+      zelda_follower:set_enabled(true)
+      zelda_follower:set_position(hero:get_position())
+    end)
+  end
 end

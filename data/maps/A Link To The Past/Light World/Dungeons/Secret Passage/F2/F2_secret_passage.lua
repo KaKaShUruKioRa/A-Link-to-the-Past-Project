@@ -31,12 +31,21 @@ function map:on_started(destination)
 
   if destination == secret_passage then
     map:set_doors_open("auto_door_1")
+    if game:get_value("follower_zelda_on") then
+        zelda_follower:set_enabled(true)
+        zelda_follower:set_position(hero:get_position())
+    end
   else sensor_falling_auto_door_1_n_open:set_enabled(false) end
-  --Pièce dans le noir en arrivant
-  --if destination == stair_n then
-    dark_on = true
-    map:set_light(0)
-  --end
+
+  dark_on = true
+  map:set_light(0)
+
+  if game:get_value("follower_zelda_on") then
+    sol.timer.start(map,1600,function()
+      zelda_follower:set_enabled(true)
+      zelda_follower:set_position(hero:get_position())
+    end)
+  end
   
 end
 

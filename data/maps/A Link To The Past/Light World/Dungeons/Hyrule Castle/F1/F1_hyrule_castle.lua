@@ -8,6 +8,17 @@ chest_manager:manage_map(map)
 local separator_manager = require("scripts/maps/separator_manager")
 separator_manager:manage_map(map)
 
-function map:on_started()
-  
+function map:on_started(destination)
+  if destination == entrance_left or destination == entrance_right or destination == entrance_main then
+    if game:get_value("follower_zelda_on") then
+        zelda_follower:set_enabled(true)
+        zelda_follower:set_position(hero:get_position())
+    end
+  end
+  if game:get_value("follower_zelda_on") then
+    sol.timer.start(map,1600,function()
+      zelda_follower:set_enabled(true)
+      zelda_follower:set_position(hero:get_position())
+    end)
+  end
 end

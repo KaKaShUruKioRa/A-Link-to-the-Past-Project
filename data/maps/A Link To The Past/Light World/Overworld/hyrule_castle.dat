@@ -19538,6 +19538,16 @@ tile{
   tileset = "out/outside_lightworld_buildings",
 }
 
+tile{
+  layer = 1,
+  x = 496,
+  y = 136,
+  width = 32,
+  height = 32,
+  pattern = "statue_ganon-1",
+  tileset = "dungeon/blue",
+}
+
 dynamic_tile{
   name = "castle_door_4_closed",
   layer = 1,
@@ -19685,6 +19695,19 @@ door{
   direction = 3,
   sprite = "doors/door_outside_castle",
   opening_method = "interaction",
+}
+
+custom_entity{
+  name = "zelda_follower",
+  layer = 1,
+  x = -16,
+  y = 13,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "npc/zelda",
+  model = "follower",
 }
 
 tile{

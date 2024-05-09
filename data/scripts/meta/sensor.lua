@@ -49,6 +49,11 @@ function sensor_meta:on_activated()
     return
   end
 
+  if name:match("^sensor_stair") then
+    game:set_value("follower_taking_stair",true)
+    sol.timer.start(5000,function() game:set_value("follower_taking_stair",false) end)
+  end 
+
   --Sensors qui ferment les portes derrière nous (définitives (ex:passage sens unique) ou temporaire (ex:combat))
   local j = 0
   while j ~= 9 do
