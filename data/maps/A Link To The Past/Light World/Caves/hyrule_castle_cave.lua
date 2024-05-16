@@ -33,6 +33,12 @@ map:register_event("on_draw", function(map, dst_surface)
 end)
 
 function map:on_started()
+  local ground=game:get_value("tp_ground")
+  if ground=="hole" then
+    hero:set_visible(false)
+  else
+    hero:set_visible()
+  end
   if not game:get_value("intro_done") then
     map:set_entities_enabled("intro_",true)
     sol.audio.play_music("beginning")
@@ -51,6 +57,7 @@ function sensor_uncle_death:on_activated()
     uncle:get_sprite():set_direction(0)
     hero:start_treasure("equipment/sword",1,"get_sword_1",function()
       game:set_ability("shield",1)
+      game:get_item("equipment/shield"):set_variant(1)
     end)
   end)
 end

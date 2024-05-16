@@ -19538,16 +19538,6 @@ tile{
   tileset = "out/outside_lightworld_buildings",
 }
 
-tile{
-  layer = 1,
-  x = 496,
-  y = 136,
-  width = 32,
-  height = 32,
-  pattern = "statue_ganon-1",
-  tileset = "dungeon/blue",
-}
-
 dynamic_tile{
   name = "castle_door_4_closed",
   layer = 1,
@@ -19708,6 +19698,29 @@ custom_entity{
   direction = 3,
   sprite = "npc/zelda",
   model = "follower",
+}
+
+enemy{
+  name = "electric_barrier",
+  layer = 1,
+  x = 512,
+  y = 117,
+  direction = 3,
+  breed = "electric_barrier",
+  savegame_variable = "hyrule_castle_tower_electric_barrier_removed",
+}
+
+wall{
+  name = "electric_barrier_wall",
+  layer = 1,
+  x = 488,
+  y = 104,
+  width = 48,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
 }
 
 tile{

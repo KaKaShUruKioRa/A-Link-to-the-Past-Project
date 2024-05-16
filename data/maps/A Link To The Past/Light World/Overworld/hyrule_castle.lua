@@ -25,6 +25,14 @@ function map:on_started()
       zelda_follower:set_enabled(true)
       zelda_follower:set_position(hero:get_position())
   end
+
+  if not game:get_value("get_sword_1") then
+    sol.timer.start(map,30000,function()
+      local dialog_box = game:get_dialog_box()
+      dialog_box:set_style("empty")
+      game:start_dialog("NoBigKey",function() dialog_box:set_style("box") end)
+    end)
+  end
   
 end
 

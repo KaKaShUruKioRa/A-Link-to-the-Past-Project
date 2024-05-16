@@ -3620,6 +3620,16 @@ tile{
   pattern = "bridge_tile.3-1",
 }
 
+sensor{
+  name = "sensor_zelda_dialog",
+  layer = 0,
+  x = 584,
+  y = 773,
+  enabled_at_start = false,
+  width = 384,
+  height = 32,
+}
+
 wall{
   layer = 0,
   x = 376,
@@ -8379,6 +8389,16 @@ custom_entity{
   direction = 3,
   sprite = "npc/zelda",
   model = "follower",
+}
+
+sensor{
+  name = "sensor_zelda_dialog_2",
+  layer = 1,
+  x = 560,
+  y = 645,
+  enabled_at_start = false,
+  width = 16,
+  height = 32,
 }
 
 tile{

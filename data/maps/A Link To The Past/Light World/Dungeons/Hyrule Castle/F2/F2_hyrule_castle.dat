@@ -1960,6 +1960,16 @@ custom_entity{
   model = "follower",
 }
 
+sensor{
+  name = "sensor_zelda_dialog",
+  layer = 1,
+  x = 680,
+  y = 173,
+  enabled_at_start = false,
+  width = 192,
+  height = 16,
+}
+
 tile{
   layer = 2,
   x = 0,

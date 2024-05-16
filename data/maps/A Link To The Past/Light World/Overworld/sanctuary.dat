@@ -2231,7 +2231,7 @@ tile{
   x = 288,
   y = -8,
   width = 128,
-  height = 64,
+  height = 72,
   pattern = "7514",
   tileset = "out/outside_lightworld_buildings",
 }
@@ -2242,7 +2242,7 @@ tile{
   y = 56,
   width = 32,
   height = 24,
-  pattern = "4128",
+  pattern = "7515",
   tileset = "out/outside_lightworld_buildings",
 }
 
@@ -2252,27 +2252,7 @@ tile{
   y = 56,
   width = 32,
   height = 24,
-  pattern = "4128",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 0,
-  x = 336,
-  y = 40,
-  width = 16,
-  height = 24,
-  pattern = "4123",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 0,
-  x = 352,
-  y = 40,
-  width = 16,
-  height = 24,
-  pattern = "4124",
+  pattern = "7515",
   tileset = "out/outside_lightworld_buildings",
 }
 
@@ -3453,16 +3433,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 336,
-  y = 64,
-  width = 32,
-  height = 16,
-  pattern = "6215",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 0,
   x = 160,
   y = 48,
   width = 16,
@@ -4393,22 +4363,9 @@ destination{
 wall{
   layer = 0,
   x = 336,
-  y = 32,
-  width = 8,
-  height = 32,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 0,
-  x = 360,
-  y = 32,
-  width = 8,
-  height = 32,
+  y = 56,
+  width = 32,
+  height = 8,
   stops_hero = true,
   stops_npcs = true,
   stops_enemies = true,
@@ -4422,6 +4379,15 @@ destination{
   x = 64,
   y = 205,
   direction = 3,
+}
+
+door{
+  layer = 0,
+  x = 344,
+  y = 64,
+  direction = 3,
+  sprite = "doors/door_outside_sanctuary",
+  opening_method = "interaction",
 }
 
 tile{

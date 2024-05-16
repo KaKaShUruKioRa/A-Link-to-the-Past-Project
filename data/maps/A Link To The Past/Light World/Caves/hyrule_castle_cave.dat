@@ -20,6 +20,61 @@ tile{
 }
 
 tile{
+  layer = -1,
+  x = 216,
+  y = 112,
+  width = 32,
+  height = 8,
+  pattern = "wall_low_border.1-2",
+}
+
+tile{
+  layer = -1,
+  x = 216,
+  y = 120,
+  width = 32,
+  height = 16,
+  pattern = "floor.22-2",
+}
+
+tile{
+  layer = -1,
+  x = 224,
+  y = 88,
+  width = 16,
+  height = 24,
+  pattern = "wall_low.1-1",
+}
+
+npc{
+  name = "uncle",
+  layer = -1,
+  x = 232,
+  y = 125,
+  direction = 1,
+  subtype = 1,
+  sprite = "npc/uncle_dead",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 120,
+  width = 144,
+  height = 16,
+  pattern = "floor.22-2",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 112,
+  width = 144,
+  height = 8,
+  pattern = "wall_low_border.1-2",
+}
+
+tile{
   layer = 0,
   x = 104,
   y = 344,
@@ -347,7 +402,7 @@ tile{
   layer = 0,
   x = 136,
   y = 120,
-  width = 256,
+  width = 80,
   height = 16,
   pattern = "floor.22-2",
 }
@@ -365,7 +420,7 @@ tile{
   layer = 0,
   x = 120,
   y = 112,
-  width = 320,
+  width = 96,
   height = 8,
   pattern = "wall_low_border.1-2",
 }
@@ -509,7 +564,7 @@ tile{
   layer = 0,
   x = 112,
   y = 88,
-  width = 336,
+  width = 112,
   height = 24,
   pattern = "wall_low.1-1",
 }
@@ -955,6 +1010,33 @@ tile{
   pattern = "stairs_inner_up.2.border.1-1",
 }
 
+tile{
+  layer = 0,
+  x = 240,
+  y = 88,
+  width = 208,
+  height = 24,
+  pattern = "wall_low.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 112,
+  width = 32,
+  height = 24,
+  pattern = "2761",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 88,
+  width = 16,
+  height = 24,
+  pattern = "2762",
+}
+
 destination{
   name = "dest_hole_hyrule_castle_cave_0",
   layer = 0,
@@ -1030,16 +1112,6 @@ enemy{
   direction = 3,
   breed = "soldiers/soldier_simple_green",
   treasure_name = "prize_packs/1",
-}
-
-npc{
-  name = "uncle",
-  layer = 0,
-  x = 232,
-  y = 125,
-  direction = 1,
-  subtype = 1,
-  sprite = "npc/uncle",
 }
 
 sensor{

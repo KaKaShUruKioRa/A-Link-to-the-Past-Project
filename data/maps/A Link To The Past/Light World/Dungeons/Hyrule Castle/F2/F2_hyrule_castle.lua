@@ -23,11 +23,21 @@ function map:on_started(destination)
     altar:set_position(776,32)
   end
   if game:get_value("follower_zelda_on") then
+    sensor_zelda_dialog:set_enabled(true)
     sol.timer.start(map,1600,function()
       zelda_follower:set_enabled(true)
       zelda_follower:set_position(hero:get_position())
     end)
   end
+  if not game:get_value("intro_done") then
+    sol.audio.play_sound("rain_in",true)
+    sol.timer.start(map,5000,function()
+      sol.audio.play_sound("rain_in",true)
+      return true
+    end)
+  end
+
+  if game:get_value("zelda_rescued_dialog_2") then sensor_zelda_dialog:set_enabled(false) end
 end
 
 function sensor_push_altar:on_activated_repeat()
@@ -49,4 +59,10 @@ function sensor_push_altar_end:on_activated()
   map:set_entities_enabled("altar_opened",true)
   altar_closed:set_enabled(false)
   game:set_value("hyrule_castle_altar_pushed",true)
+end
+
+function sensor_zelda_dialog:on_activated()
+  self:set_enabled(false)
+  game:start_dialog("NoBigKey")
+  game:set_value("zelda_rescued_dialog_2",true)
 end

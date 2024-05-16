@@ -40,12 +40,21 @@ function map:on_started(destination)
   end
 
   if game:get_value("follower_zelda_on") then
+    sensor_zelda_dialog:set_enabled(true)
     sol.timer.start(map,1600,function()
       zelda_follower:set_enabled(true)
       zelda_follower:set_position(hero:get_position())
     end)
   end
+
+  if game:get_value("zelda_rescued_dialog_3") then sensor_zelda_dialog:set_enabled(false) end
   
+end
+
+function sensor_zelda_dialog:on_activated()
+  self:set_enabled(false)
+  game:start_dialog("NoBigKey")
+  game:set_value("zelda_rescued_dialog_3",true)
 end
 
 function map:on_finished()

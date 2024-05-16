@@ -16,9 +16,31 @@ function map:on_started(destination)
     end
   end
   if game:get_value("follower_zelda_on") then
+    sensor_zelda_dialog:set_enabled(true)
+    sensor_zelda_dialog_2:set_enabled(true)
     sol.timer.start(map,1600,function()
       zelda_follower:set_enabled(true)
       zelda_follower:set_position(hero:get_position())
     end)
   end
+  if not game:get_value("intro_done") then
+    sol.audio.play_sound("rain_in",true)
+    sol.timer.start(map,5000,function()
+      sol.audio.play_sound("rain_in",true)
+      return true
+    end)
+  end
+
+  if game:get_value("zelda_rescued_dialog_1") then sensor_zelda_dialog:set_enabled(false) end
+end
+
+function sensor_zelda_dialog:on_activated()
+  map:set_entities_enabled("sensor_zelda_dialog",false)
+  game:start_dialog("NoBigKey")
+  game:set_value("zelda_rescued_dialog_1",true)
+end
+function sensor_zelda_dialog_2:on_activated()
+  map:set_entities_enabled("sensor_zelda_dialog",false)
+  game:start_dialog("NoBigKey")
+  game:set_value("zelda_rescued_dialog_1",true)
 end
