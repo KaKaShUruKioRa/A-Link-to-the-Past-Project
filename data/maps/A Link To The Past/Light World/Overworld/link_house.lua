@@ -25,7 +25,7 @@ function map:on_started()
     sol.timer.start(map,30000,function()
       local dialog_box = game:get_dialog_box()
       dialog_box:set_style("empty")
-      game:start_dialog("NoBigKey",function() dialog_box:set_style("box") end)
+      game:start_dialog("escape.zelda_backseat",function() dialog_box:set_style("box") end)
     end)
   end
   

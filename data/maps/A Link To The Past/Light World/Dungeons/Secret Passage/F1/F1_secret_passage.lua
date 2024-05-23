@@ -40,17 +40,46 @@ function map:on_started(destination)
   end
 
   if game:get_value("follower_zelda_on") then
+    sensor_zelda_dialog:set_enabled(true)
+    sensor_zelda_dialog_2:set_enabled(true)
     sol.timer.start(map,1600,function()
       zelda_follower:set_enabled(true)
       zelda_follower:set_position(hero:get_position())
       zelda:set_enabled(false)
     end)
   end
+
+  if game:get_value("zelda_rescued_dialog_4") then sensor_zelda_dialog:set_enabled(false) end
+  if game:get_value("zelda_rescued_dialog_5") then sensor_zelda_dialog_2:set_enabled(false) end
   
 end
 
 function map:on_finished()
   dark_on = false
+end
+
+function sensor_zelda_dialog:on_activated()
+  self:set_enabled(false)
+  game:start_dialog("escape.zelda_following_4")
+  game:set_value("zelda_rescued_dialog_4",true)
+end
+function sensor_zelda_dialog_2:on_activated()
+  self:set_enabled(false)
+  game:start_dialog("escape.zelda_following_5")
+  game:set_value("zelda_rescued_dialog_5",true)
+end
+
+local function priest_question()
+  game:start_dialog("escape.end_3",function(answer)
+    if answer == 2 then
+      zelda:get_sprite():set_direction(3)
+      priest:get_sprite():set_direction(3)
+      game:set_value("intro_done",true)
+      altar_pushed = true
+      hero:unfreeze()
+    else priest_question()
+    end
+  end)
 end
 
 function auto_separator_5:on_activated(direction4)
@@ -76,7 +105,7 @@ function auto_separator_5:on_activated(direction4)
               zelda_follower:set_enabled(false)
               zelda_2:set_enabled(true)
               priest:get_sprite():set_direction(1)
-              game:start_dialog("NoBigKey",function()
+              game:start_dialog("escape.end_1",function()
                 local m = sol.movement.create("path")
                 m:set_path{6,6,6,6,6,6,0,0,6,6,6}
                 m:set_speed(48)
@@ -85,12 +114,10 @@ function auto_separator_5:on_activated(direction4)
                   zelda:set_enabled(true)
                   zelda_2:set_enabled(false)
                   zelda:get_sprite():set_direction(1)
-                  game:start_dialog("NoBigKey",function()
-                    zelda:get_sprite():set_direction(3)
-                    priest:get_sprite():set_direction(3)
-                    game:set_value("intro_done",true)
-                    altar_pushed = true
-                    hero:unfreeze()
+                  game:start_dialog("escape.end_2",function()
+                    sol.timer.start(map, 100, function()
+                      priest_question()
+                    end)
                   end)
                 end)
               end)

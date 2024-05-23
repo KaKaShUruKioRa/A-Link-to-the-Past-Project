@@ -13,15 +13,26 @@ function map:on_started()
   end
 end
 
+local function zelda_question()
+  game:start_dialog("escape.zelda_rescued_question",function(answer)
+    if answer == 2 then
+      game:start_dialog("escape.zelda_rescued_yes",function()
+        game:set_value("zelda_rescued",true)
+        zelda_follower:set_enabled(true)
+        zelda_follower:set_position(zelda:get_position())
+        zelda:set_enabled(false)
+        game:set_value("follower_zelda_on",true)
+        sol.audio.play_music("castle")
+      end)
+    else zelda_question()
+    end
+  end)
+end
+
 function zelda:on_interaction()
   sol.audio.play_music("zelda")
-  game:start_dialog("NoBigKey",function()
-    game:set_value("zelda_rescued",true)
-    zelda_follower:set_enabled(true)
-    zelda_follower:set_position(zelda:get_position())
-    zelda:set_enabled(false)
-    game:set_value("follower_zelda_on",true)
-    sol.audio.play_music("castle")
+  game:start_dialog("escape.zelda_rescued",function()
+    zelda_question()
   end)
 end
 

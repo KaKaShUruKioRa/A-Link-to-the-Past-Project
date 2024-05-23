@@ -4,6 +4,8 @@ require("scripts/multi_events")
 
 local npc_meta = sol.main.get_metatable("npc")
 
+local i = 0
+
 function npc_meta:on_interaction()
   local game = self:get_game()
   local name = self:get_name()
@@ -31,6 +33,13 @@ function npc_meta:on_interaction()
       return
     end
     game:start_dialog(name)
+  end
+
+  --Soldats: disent des dialogues tutoriels
+  if name:match("^intro_soldier") then
+    i = i + 1
+    if i == 8 then i = 1 end
+    game:start_dialog("escape.soldiers."..i)
   end
 
 end

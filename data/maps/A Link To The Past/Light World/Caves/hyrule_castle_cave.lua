@@ -49,11 +49,16 @@ function map:on_started()
     sensor_uncle_death:set_enabled(false)
     uncle:set_enabled(false)
   end
+
+  if game:get_value("follower_zelda_on") then
+    zelda_follower:set_enabled(true)
+    zelda_follower:set_position(hero:get_position())
+  end
 end
 
 function sensor_uncle_death:on_activated()
   self:set_enabled(false)
-  game:start_dialog("NoBigKey",function()
+  game:start_dialog("escape.uncle_dead",function()
     uncle:get_sprite():set_direction(0)
     hero:start_treasure("equipment/sword",1,"get_sword_1",function()
       game:set_ability("shield",1)

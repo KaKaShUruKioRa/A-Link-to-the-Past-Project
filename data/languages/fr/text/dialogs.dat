@@ -1,219 +1,10 @@
 dialog{
-  id = "Dungeon1.ArrowSecret",
-  text = [[
-Il semblerait que quelque chose...
-ait bougé quelque part dans le
-donjon...
-]],
-}
-
-dialog{
-  id = "Dungeon1.GreatFairy.Ask",
-  text = [[
-         Bonjour jeune héros !
-        Que me vaut ta visite ?
-       $? J'ai besoin de soins
-  $? As-tu quelque chose pour moi ?
-]],
-}
-
-dialog{
-  id = "Dungeon1.GreatFairy.GiveItem",
-  text = [[
-Le voici !
-C'est un marteau très puissant, 
-béni des fées qui lui confère une
-incommensurable force.
-]],
-}
-
-dialog{
-  id = "Dungeon1.GreatFairy.Heal",
-  text = [[
-Je vais panser tes blessures jeune
-héros...
-Tu en as bien besoin !
-]],
-}
-
-dialog{
-  id = "Dungeon1.GreatFairy.NoMoreItem",
-  text = [[
-Désolé jeune héros,
-je n'ai malheureusement plus rien à
-t'offrir.
-Je ne peux que te souhaiter
-bonne fortune dans ta quête !
-
-Aussi, n'hésite pas à venir me voir,
-lorsque tu seras blessé...
-
-Je panserai tes blessures.
-]],
-}
-
-dialog{
-  id = "Dungeon1.GreatFairy.Search",
-  text = [[
-Il s'avère que je garde un trésor
-dans la fontaine...
-
-juste le temps pour moi 
-de le rechercher...
-]],
-}
-
-dialog{
-  id = "Dungeon1.GreatFairy.UselessHeal",
-  text = [[
-Reviens me voir quand tu en aura 
-vraiment besoin jeune héros.
-
-Alors je serai là pour panser tes
-blessures.
-]],
-}
-
-dialog{
-  id = "Indices.HelpCondamned",
-  text = [[
-Indice : Il est possible que certains
-coffres soient définitivement
-condamnés par des pièges.
-]],
-}
-
-dialog{
-  id = "Indices.HelpFragile",
-  text = [[
-Indice : Si vous trouvez des zones
-fragiles peut-être qu'avec un peu
-poids celles-ci peuvent céder.
-]],
-}
-
-dialog{
-  id = "Indices.HelpGourou",
-  text = [[
-Indice : N'énervez pas le
-Grand Chef Suprême.
-Prenez le temps de la réflexion !
-]],
-}
-
-dialog{
-  id = "Indices.HelpLie",
-  text = [[
-Indice : Il y a des mensonges dans
-ce donjon.
-Tout n'est pas ce qu'il semble être.
-]],
-}
-
-dialog{
-  id = "Indices.HelpLocked",
-  text = [[
-Indice :
-Si vous êtes bloqué, poussez le bloc
-jusqu'au où vous le pouvez.
-]],
-}
-
-dialog{
-  id = "Indices.HelpMaxLife",
-  text = [[
-Indice : Ce donjon semble
-extrêmement dangereux ?
-Revenez en meilleur santé...
-]],
-}
-
-dialog{
-  id = "Indices.HelpTriforce",
-  text = [[
-Indice :
-La triforce attend quelque chose !
-]],
-}
-
-dialog{
-  id = "Indices.HitHeart",
-  text = [[
-Indice :
-Frappez en plein coeur !
-]],
-}
-
-dialog{
-  id = "Indices.IndiceQuestion",
-  text = [[
-Voulez-vous activer cet indice ?
-
-             $? Oui
-             $? Non
-]],
-}
-
-dialog{
-  id = "Intro_World_Good.Cave_Sewer",
-  text = [[
-Accès aux égouts :
-Zone Dangereuse ! Ne pas entrer
-sans un accompagnateur.
-]],
-}
-
-dialog{
-  id = "Intro_World_Good.House_Link",
-  text = [[
-Maison de Link :
-Pousser la porte et entrer.
-]],
-}
-
-dialog{
-  id = "Intro_World_Good.NGuard",
-  text = [[
-Mais d'où est-ce que tu arrives toi ?
-]],
-}
-
-dialog{
-  id = "Intro_World_Good.No_Trepassing",
-  text = [[
-Désolé, mais vous ne pouvez pas
-passer !
-Je ne peux pas vous en dire plus ! 
-Veuillez circuler !
-]],
-}
-
-dialog{
-  id = "Intro_World_Good.Pulling_Guard",
-  text = [[
-J'ai enfin réussi à débloquer cette
-grotte...
-Pfiou... je n'en peux plus.
-]],
-}
-
-dialog{
-  id = "Intro_World_Good.SGuard",
-  text = [[
-On nous a donné l'ordre
-de laisser circulez les gens
-$0
-$3 Veuillez circulez maintenant...
-]],
-}
-
-dialog{
-  id = "NoBigKey",
+  id = "NoMagic",
   skip = "all",
   text = [[
-Hein ? C'est fermé !
-Si tu avais la Grande Clé,
-tu pourrais ouvrir !
+Tu es à court de pouvoirs
+magiques ! Tu ne peux pas
+utiliser cet objet maintenant.
 ]],
 }
 
@@ -230,35 +21,6 @@ dialog{
   text = [[
 Tu ne peux pas l'ouvrir...  
 Il te faut une petite clé pour ça !
-]],
-}
-
-dialog{
-  id = "World_Good.Guard",
-  text = [[
-Ho... il fait beau maintenant !
-Je pense pouvoir me détendre
-désormais !
-]],
-}
-
-dialog{
-  id = "World_Good.Sewer.EndGame",
-  text = [[
-Bravo à vous !
-Vous avez terminé le jeu.
-
-Vous pouvez continuer à vous
-balader si vous le  souhaitez mais
-il n'y a pas grand chose de plus.
-]],
-}
-
-dialog{
-  id = "World_Good.Sewer.RupeeDoor",
-  text = [[
-Insérez 20 Rubis en tirant la porte !
-Oui, c'est ça, tirez la porte !
 ]],
 }
 
@@ -455,17 +217,6 @@ Te voici prêt à rater tes esquives !
 }
 
 dialog{
-  id = "_treasure.equipment/sword.1",
-  text = [[
-Tu as trouvé une épée !
-Avec celle-ci tu vas pouvoir te
-défendre contre les monstres !
-Et aussi pouvoir tailler des haies.
-Super !
-]],
-}
-
-dialog{
   id = "_treasure.equipment/sword.2",
   text = [[
 Tu as trouvé l'Epée de Merde !
@@ -494,6 +245,15 @@ de choses comme des ennemies
 ou des murs...
 Fait attention à pas te blesser
 avec ça !
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/boomerang.1",
+  text = [[
+Tu as le Boomerang ! Fais un
+essai ! Pour choisir un objet,
+appuie sur Pause.
 ]],
 }
 
@@ -579,14 +339,11 @@ en être complétement retournés.
 dialog{
   id = "_treasure.inventory/lantern.1",
   text = [[
-Tu reçois la lanterne !
-
-
-Grâce à celle-ci tu vas pouvoir
-éclairer les zones très sombre
-autour de toi !
-Ou bien allumer des torches... voir...
-METTRE LE FEU !!!!!!
+Tu as la Lanterne !
+Maintenant tu peux allumer les
+torches en appuyant
+sur Objet pour te frayer
+un chemin dans l'obscurité.
 ]],
 }
 
@@ -608,72 +365,310 @@ Il reste encore deux Pendentifs !
 }
 
 dialog{
-  id = "cave2.dontfeedthetroll",
+  id = "escape.end_1",
   text = [[
-Veuillez ne pas parler au troll
-derrière cette pancarte !
-Don't feed the troll !
+Princesse Zelda, vous êtes
+vivante ! Link, c'est toi
+qui l'a sauvée ?
 ]],
 }
 
 dialog{
-  id = "cave2.mrshroom1st",
+  id = "escape.end_2",
   text = [[
-Salut !  Je suis dans cette grotte
-depuis un moment, mais je n'ai
-trouvé aucun champignon.
-Peut-être pourrais-tu m'aider ?
-     $? Bien sur !
-     $? J'ai pas que ça à faire !
+Oui, c'est Link qui m'a
+aidée à m'échapper du donjon !
+Quand j'étais prisonnière, le
+sorcier a dit "Une fois que
+j'en aurai fini avec toi,
+ma dernière victime, le sceau
+des Sages s'ouvrira."
+Link, ne laisse pas le pays
+d'Hyrule tomber entre les
+griffes du sorcier.
+S'il ouvre le sceau des 7 Sages,
+une Force Démoniaque
+s'emparera de cette terre.
+Avant que cela n'arrive,
+et qu'il ne soit trop tard,
+tue le sorcier pour
+l'empêcher de détruire Hyrule.
+Tu peux réussir ! Tu le peux !
 ]],
 }
 
 dialog{
-  id = "cave2.mrshroomno",
+  id = "escape.end_3",
   text = [[
-Pffff, allez casse-toi d'ma grotte !
-Raclure !
+Je crains qu'une puissance
+diabolique guide les actions du
+sorcier et augmente son
+pouvoir magique. La seule arme
+assez forte pour vaincre le
+sorcier est l'Epée de Légende.
+L'histoire dit qu'un des Anciens
+du village est le descendant
+de l'un des Sages.
+Peut-être, pourra-t-il
+t'en dire plus. Je vais
+t'indiquer sa maison sur ton
+plan. Mais fais attention,
+car désormais les soldats du
+château vont tout faire pour
+te retrouver ! Je vais cacher
+la princesse Zelda ici.
+Ne t'inquiète pas !
+Va chercher l'Ancien !
+
+
+Tu as compris ?
+$? Oui.
+$? Non, rien du tout.
 ]],
 }
 
 dialog{
-  id = "cave2.mrshroomquest",
+  id = "escape.intro",
   text = [[
-Alors, tu l'as trouvé ce champignon ?
+A l'aide !
+A l'aide !
+
+Je suis prisonnière dans le
+donjon du château.
+Je m'appelle Zelda. Le sorcier
+Agahnim a ensorcelé les autres
+jeunes filles enlevées. Il ne
+reste plus que moi. Agahnim a
+pris le contrôle du château et
+il s'efforce maintenant
+d'ouvrir le sceau des 7 Sages.
+Je suis dans le donjon du
+château. Aidez-moi !
 ]],
 }
 
 dialog{
-  id = "cave2.mrshroomyes",
+  id = "escape.soldiers.1",
   text = [[
-Parfait, je te donne ce champignon !
-J'espère que tu pourras vraiment
-m'aider
-A très très très bientôt ! ;)
+Que fais-tu debout à cette
+heure ? Tu es trop petit
+pour veiller si tard !
+Allez, rentre à la maison !
 ]],
 }
 
 dialog{
-  id = "cave2.paradoxshroom",
+  id = "escape.soldiers.2",
   text = [[
-N'avait-il pas besoin d'un
-champignon ?
-
-N'est-ce point pour cela que vous
-acceptiez ?
-
-Ho... puis au fond qui
-s'en préoccupe...
-Allez lui rendre la champignon.....
-Ou gardez-le ? 
+Si tu te perds, appuie sur le
+bouton Carte pour visualiser
+le plan.
+Tu as compris ?
 ]],
 }
 
 dialog{
-  id = "cave2.receptionist",
+  id = "escape.soldiers.3",
   text = [[
-Oui ?..
-Que voulez-vous ?
+Tu as l'air plutôt costaud pour
+un enfant. Combien tu peux
+soulever ? Appuie sur
+Action en touchant un
+objet pour le soulever.
+]],
+}
+
+dialog{
+  id = "escape.soldiers.4",
+  text = [[
+Je parie que tu meurs d'envie
+de te servir d'une épée !
+Quand tu en auras une,
+appuie sur Attaque
+pour t'en servir.
+]],
+}
+
+dialog{
+  id = "escape.soldiers.5",
+  text = [[
+Cette marque lumineuse sur le
+plan indique ta destination.
+]],
+}
+
+dialog{
+  id = "escape.soldiers.6",
+  text = [[
+On trouve souvent des objets
+précieux dans les coffres.
+Quand tu es devant le coffre,
+aapuie sur Action
+pour l'ouvrir.
+]],
+}
+
+dialog{
+  id = "escape.soldiers.7",
+  text = [[
+En nous parlant, tu vas
+apprendre plein de choses !
+Tu comprendras plus tard !
+]],
+}
+
+dialog{
+  id = "escape.soldiers.front_castle",
+  text = [[
+N'entre pas dans le château,
+petit ! Les gosses, ça dort
+tôt ! Va te coucher !
+]],
+}
+
+dialog{
+  id = "escape.soldiers.tower",
+  text = [[
+Après qu'Agahnim qit pris le
+pouvoir, tout le monde s'est
+mis à agir bizarrement. Je
+crains que ce ne soit plus
+qu'une question de temps
+avant que je sois atteint
+à mon tour.
+]],
+}
+
+dialog{
+  id = "escape.uncle",
+  text = [[
+Je pars faire un petit tour.
+Je serai de retour au petit
+matin. Ne sors pas de la
+maison ! Ne t'inquiète pas !
+]],
+}
+
+dialog{
+  id = "escape.uncle_dead",
+  text = [[
+Oh Link, je ne voulais pas
+que tu sois mêlé à cela.
+Je t'avais dit de rester à la
+maison. Prends mon épée, mon
+bouclier et écoute-moi bien.
+Pour concentrer tout le
+pouvoir dans l'épée, maintiens
+Attaque appuyé, puis
+relâche-le en utilisant la
+technique secrète transmise
+par notre peuple. Link
+Tu... peux... y arr...iver ! Sauve
+Princ... Zeld... Tu es son...
+sauv...
+]],
+}
+
+dialog{
+  id = "escape.zelda_backseat",
+  skip = "current",
+  text = [[
+A l'aide !
+Je suis dans le donjon du
+château.
+Je sais qu'il y a une allée
+secrète juste à côté du
+château qui mène jusqu'au
+jardin à l'intérieur.
+]],
+}
+
+dialog{
+  id = "escape.zelda_following_1",
+  text = [[
+Il y a un passage secret dans
+la salle du trône qui conduit au
+Sanctuaire.
+Je suis sûre que le Maître du
+Sanctuaire nous aidera.
+]],
+}
+
+dialog{
+  id = "escape.zelda_following_2",
+  text = [[
+Ce blason doit s'ouvrir en
+coulissant. Tu as la Lanterne ?
+C'est indispensabble car il fait
+rudement sombre la-dedans.
+Si tu es prêts, allons-y.
+Aide-moi à pousser le blason
+par la gauche !
+]],
+}
+
+dialog{
+  id = "escape.zelda_following_3",
+  text = [[
+Une fois franchi ces égouts,
+nous serons très proches
+du Sanctuaire !
+Soyons prudents !
+]],
+}
+
+dialog{
+  id = "escape.zelda_following_4",
+  text = [[
+Le Sanctuaire se trouve juste
+derrière cette porte.
+Tire le levier vers toi, là.
+]],
+}
+
+dialog{
+  id = "escape.zelda_following_5",
+  text = [[
+Il faut tirer le levier pour
+ouvrir la porte. Appuie sur
+Action ainsi que sur Bas.
+]],
+}
+
+dialog{
+  id = "escape.zelda_rescued",
+  text = [[
+Merci, Link. Je sentais bien
+que tu te rapprochais.
+]],
+}
+
+dialog{
+  id = "escape.zelda_rescued_question",
+  text = [[
+Link, écoute-moi bien.
+Le sorcier Agahnim contrôle
+par un charme tous
+les soldats dans le château.
+Je crains le pire pour
+mon père. Ce sorcier est un
+monstre très cruel, doté de
+terribles pouvoirs magiques.
+
+Tu as compris ?
+$? Oui !
+$? Non, pas du tout !
+]],
+}
+
+dialog{
+  id = "escape.zelda_rescued_yes",
+  text = [[
+Fuyons, avant que le sorcier
+ne remarque notre disparition.
+Je connais une allée secrète,
+mais il faut d'abord monter
+au Rez-de-chaussée.
 ]],
 }
 
@@ -712,6 +707,26 @@ Améliore ton équipement pour ça !
 }
 
 dialog{
+  id = "sanctuary.priest_default",
+  skip = "current",
+  text = [[
+Va voir l'Ancien du village.
+Ensuite, récupère l'Epée
+de Légende.
+]],
+}
+
+dialog{
+  id = "sanctuary.zelda_default",
+  skip = "current",
+  text = [[
+Link, sois prudent là-bas !
+Je sais que tu peux
+sauver Hyrule.
+]],
+}
+
+dialog{
   id = "save_quit",
   text = [[
             $? Continuer
@@ -721,93 +736,13 @@ dialog{
 }
 
 dialog{
-  id = "shop1.item1",
+  id = "sign.escape",
+  skip = "all",
   text = [[
-Tu veux ça ? Vraiment ?...
-Bon tu fais comme tu veux, 
-c'est ton argent après tout
-]],
-}
-
-dialog{
-  id = "shop1.item2",
-  text = [[
-Tu veux ça ? Vraiment ?
-Bon bah n'hésite pas comme ça !
-Allons !  :wink: :wink:
-]],
-}
-
-dialog{
-  id = "shop1.item3",
-  text = [[
-Tu veux ça ? Vraiment ?...
-Cela me parait parfaitement futile...
-mais soit.
-]],
-}
-
-dialog{
-  id = "shop1.item4",
-  text = [[
-Heu... t'es vraiment sur de vouloir ça ?
-C'est à dire que... enfin... en fait...
-...
-]],
-}
-
-dialog{
-  id = "shop1.shoper",
-  text = [[
-Va vers les articles, pas vers moi...
-]],
-}
-
-dialog{
-  id = "test.answer",
-  a = "a",
-  b = "b",
-  c = "c",
-  text = [[
-a = "a"
-b = "b"
-c = "c"
-]],
-}
-
-dialog{
-  id = "test.defineA",
-  text = [[
-Défini A
-
-
-$? 1
-$? 10
-$? 30
-]],
-}
-
-dialog{
-  id = "test.defineB",
-  text = [[
-Défini B
-
-
-$? 2
-$? 20
-$? 200
-]],
-}
-
-dialog{
-  id = "test.defineC",
-  text = [[
-Défini C
-
-
-$? 3
-$? 33
-$? 66
+J'offre 100 rubis à l'homme
+qui retrouvera les jeunes
+filles descendants des 7 Sages.
+Signé : MACRON
 ]],
 }
 

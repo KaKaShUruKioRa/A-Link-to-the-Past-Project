@@ -1963,10 +1963,10 @@ custom_entity{
 sensor{
   name = "sensor_zelda_dialog",
   layer = 1,
-  x = 680,
-  y = 173,
+  x = 720,
+  y = 93,
   enabled_at_start = false,
-  width = 192,
+  width = 112,
   height = 16,
 }
 

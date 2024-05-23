@@ -16922,6 +16922,7 @@ npc{
   direction = 3,
   subtype = 1,
   sprite = "npc/soldier_intro",
+  behavior = "dialog#escape.soldiers.front_castle",
 }
 
 npc{
@@ -19655,6 +19656,7 @@ npc{
   direction = 3,
   subtype = 1,
   sprite = "npc/soldier_intro",
+  behavior = "dialog#escape.soldiers.tower",
 }
 
 door{

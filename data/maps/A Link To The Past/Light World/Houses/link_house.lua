@@ -43,7 +43,7 @@ function map:on_started(destination)
 
     -- Show intro message.
     dialog_box:set_style("empty")
-    game:start_dialog("NoBigKey", function()     
+    game:start_dialog("escape.intro", function()     
       sol.audio.play_music("beginning")
       night_overlay:fade_out(80,function()
         sol.timer.start(map, 1000, function()
@@ -52,7 +52,7 @@ function map:on_started(destination)
           bed:get_sprite():set_animation("hero_waking")
           uncle:get_sprite():set_direction(2)
           dialog_box:set_style("box")
-          game:start_dialog("NoBigKey", function()
+          game:start_dialog("escape.uncle", function()
             local m = sol.movement.create("path")
             m:set_path{4,4,4,4,4,4,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6}
             m:set_speed(40)

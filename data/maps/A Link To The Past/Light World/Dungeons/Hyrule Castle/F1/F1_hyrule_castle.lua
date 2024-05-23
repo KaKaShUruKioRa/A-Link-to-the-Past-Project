@@ -36,11 +36,11 @@ end
 
 function sensor_zelda_dialog:on_activated()
   map:set_entities_enabled("sensor_zelda_dialog",false)
-  game:start_dialog("NoBigKey")
+  game:start_dialog("escape.zelda_following_1")
   game:set_value("zelda_rescued_dialog_1",true)
 end
 function sensor_zelda_dialog_2:on_activated()
   map:set_entities_enabled("sensor_zelda_dialog",false)
-  game:start_dialog("NoBigKey")
+  game:start_dialog("escape.zelda_following_1")
   game:set_value("zelda_rescued_dialog_1",true)
 end

@@ -63,6 +63,6 @@ end
 
 function sensor_zelda_dialog:on_activated()
   self:set_enabled(false)
-  game:start_dialog("NoBigKey")
+  game:start_dialog("escape.zelda_following_2")
   game:set_value("zelda_rescued_dialog_2",true)
 end
