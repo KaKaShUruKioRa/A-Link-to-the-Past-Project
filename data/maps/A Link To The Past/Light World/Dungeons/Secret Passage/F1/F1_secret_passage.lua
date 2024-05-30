@@ -69,6 +69,59 @@ function sensor_zelda_dialog_2:on_activated()
   game:set_value("zelda_rescued_dialog_5",true)
 end
 
+local function make_enemies_fall(shadow, enemy, enemy_spot)
+  local x, y, layer = enemy_spot:get_position()
+  local enemy_entity = map:create_custom_entity({
+    name = "falling_enemy_1",
+    sprite = "enemies/dungeons/rope",
+    x = x,
+    y = y - 144,
+    width = 16,
+    height = 16,
+    layer = layer + 1,
+    direction = 0
+  })
+  enemy_entity:get_sprite():set_direction(3)
+
+  sol.audio.play_sound("jump")
+
+  shadow:set_enabled(true)
+  sol.timer.start(map, 500, function()
+    shadow:get_sprite():set_animation("big")
+  end)
+
+  local m = sol.movement.create("straight")
+  m:set_max_distance(144)
+  m:set_ignore_obstacles(true)
+  m:set_speed(144)
+  m:set_angle(3 * math.pi / 2)
+  m:start(enemy_entity,function()
+    enemy_entity:set_enabled(false)
+    shadow:set_enabled(false)
+    enemy:set_enabled(true)
+  end)
+end
+
+function wrong_switch:on_activated()
+  sol.timer.start(map, 100, function()
+    sol.audio.play_sound("wrong")
+    local i = 0
+    sol.timer.start(map, 700, function()
+      sol.timer.start(map, 300, function()
+        i = i + 1
+        make_enemies_fall(map:get_entity("shadow_"..i), map:get_entity("enemy_"..i), map:get_entity("enemy_spot_"..i))
+        if i < 7 then return true end
+      end)
+    end)
+  end)
+end
+
+function auto_door_2:on_opened()
+  sol.timer.start(map, 100, function()
+    sol.audio.play_sound("secret")
+  end)
+end
+
 local function priest_question()
   game:start_dialog("escape.end_3",function(answer)
     if answer == 2 then

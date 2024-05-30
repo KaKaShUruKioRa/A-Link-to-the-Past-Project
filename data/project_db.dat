@@ -588,6 +588,8 @@ sprite{ id = "entities/hammer_stake_yellow", description = "Hammer Stake Yellow"
 sprite{ id = "entities/hookshot", description = "Hookshot" }
 sprite{ id = "entities/ice_beam", description = "Ice Beam" }
 sprite{ id = "entities/items", description = "Items" }
+sprite{ id = "entities/pull_lever_bottom", description = "Levier a tirer (bas)" }
+sprite{ id = "entities/pull_lever_top", description = "Levier a tirer (haut)" }
 sprite{ id = "entities/rain", description = "Effet de pluie" }
 sprite{ id = "entities/rupee_icon", description = "Rupee icon" }
 sprite{ id = "entities/shadow", description = "Shadow" }
@@ -2687,6 +2689,8 @@ file{ path = "sprites/entities/hookshot.png", author = "Nintendo", license = "Pr
 file{ path = "sprites/entities/ice_beam.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/ice_beam.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/entities/items.dat", author = "Christopho, Mehdi Khelifi", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/pull_lever_bottom.dat", author = "ZeldoRetro", }
+file{ path = "sprites/entities/pull_lever_top.dat", author = "ZeldoRetro", }
 file{ path = "sprites/entities/rain.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/rain.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/entities/rupee_icon.dat", author = "Christopho", license = "CC BY-SA 4.0" }

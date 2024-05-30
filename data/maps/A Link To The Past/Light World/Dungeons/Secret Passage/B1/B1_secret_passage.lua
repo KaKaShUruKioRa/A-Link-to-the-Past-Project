@@ -34,6 +34,13 @@ end)
 
 function map:on_started(destination)
 
+  local ground=game:get_value("tp_ground")
+  if ground=="hole" then
+    hero:set_visible(false)
+  else
+    hero:set_visible()
+  end
+
   if destination == stair_w then
     dark_on = true
     map:set_light(0)
