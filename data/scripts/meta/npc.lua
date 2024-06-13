@@ -24,6 +24,13 @@ function npc_meta:on_interaction()
     game:start_dialog(name,function() dialog_box:set_style("box") end)
   end
 
+  --Pancartes
+  if name:match("^sign") then
+    if game:get_value("intro_done") then
+      game:start_dialog(name)
+    else game:start_dialog("sign.escape") end
+  end
+
   --Stèles en hylien
   if name:match("^hs") then
     game:set_dialog_style("stone")

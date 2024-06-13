@@ -28,7 +28,7 @@ function map:on_started(destination)
     sol.timer.start(map,5000,function()
       sol.audio.play_sound("rain_in",true)
       return true
-    end)
+    end):set_suspended_with_map(false)
   end
 
   if game:get_value("zelda_rescued_dialog_1") then sensor_zelda_dialog:set_enabled(false) end

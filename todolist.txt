@@ -1,8 +1,5 @@
 - Effets sonores
-- Levier avant sanctu
 
-- Dialogues non skippables ?
-- Allignement dialogues ?
 - Palettes ennemis
 - Effet électrocution
 - Effets de chute / eau ennemis / entités ?

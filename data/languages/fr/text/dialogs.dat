@@ -1,10 +1,10 @@
 dialog{
-  id = "NoMagic",
+  id = "NoBigKey",
   skip = "all",
   text = [[
-Tu es à court de pouvoirs
-magiques ! Tu ne peux pas
-utiliser cet objet maintenant.
+Hein ? c'est fermé a clé !
+Si tu avais une Grande Clé,
+tu pourrais ouvrir 
 ]],
 }
 
@@ -173,10 +173,11 @@ avec des grands trous et cherche...
 
 dialog{
   id = "_treasure.dungeons/small_key.1",
+  skip = "all",
   text = [[
 Tu as obtenu une petite clé !
-Tu peux ouvrir des portes fermées
-à clé !
+Tu peux ouvrir des portes
+fermées à clé !
 ]],
 }
 
@@ -250,6 +251,7 @@ avec ça !
 
 dialog{
   id = "_treasure.inventory/boomerang.1",
+  skip = "all",
   text = [[
 Tu as le Boomerang ! Fais un
 essai ! Pour choisir un objet,
@@ -338,6 +340,7 @@ en être complétement retournés.
 
 dialog{
   id = "_treasure.inventory/lantern.1",
+  skip = "all",
   text = [[
 Tu as la Lanterne !
 Maintenant tu peux allumer les
@@ -366,6 +369,7 @@ Il reste encore deux Pendentifs !
 
 dialog{
   id = "escape.end_1",
+  skip = "none",
   text = [[
 Princesse Zelda, vous êtes
 vivante ! Link, c'est toi
@@ -375,23 +379,25 @@ qui l'a sauvée ?
 
 dialog{
   id = "escape.end_2",
+  skip = "none",
   text = [[
-Oui, c'est Link qui m'a
-aidée à m'échapper du donjon !
-Quand j'étais prisonnière, le
-sorcier a dit "Une fois que
-j'en aurai fini avec toi,
-ma dernière victime, le sceau
+Oui, c'est Link qui m'a aidée
+à m'échapper du donjon !
+
+Quand j'étais prisonnière,
+le sorcier a dit "Une fois que
+j'en aurai fini avec toi, ma
+dernière victime, le sceau
 des Sages s'ouvrira."
+
 Link, ne laisse pas le pays
 d'Hyrule tomber entre les
 griffes du sorcier.
 S'il ouvre le sceau des 7 Sages,
 une Force Démoniaque
 s'emparera de cette terre.
-Avant que cela n'arrive,
-et qu'il ne soit trop tard,
-tue le sorcier pour
+Avant que cela n'arrive, et qu'il ne
+soit trop tard, tue le sorcier pour
 l'empêcher de détruire Hyrule.
 Tu peux réussir ! Tu le peux !
 ]],
@@ -399,28 +405,26 @@ Tu peux réussir ! Tu le peux !
 
 dialog{
   id = "escape.end_3",
+  skip = "none",
   text = [[
-Je crains qu'une puissance
-diabolique guide les actions du
-sorcier et augmente son
-pouvoir magique. La seule arme
-assez forte pour vaincre le
-sorcier est l'Epée de Légende.
+Je crains qu'une puissance diabolique
+guide les actions du sorcier et
+augmente son pouvoir magique.
+La seule arme assez forte pour
+vaincre le sorcier est l'Epée
+de Légende.
 L'histoire dit qu'un des Anciens
 du village est le descendant
 de l'un des Sages.
-Peut-être, pourra-t-il
-t'en dire plus. Je vais
-t'indiquer sa maison sur ton
-plan. Mais fais attention,
-car désormais les soldats du
-château vont tout faire pour
-te retrouver ! Je vais cacher
-la princesse Zelda ici.
+Peut-être, pourra-t-il t'en dire plus.
+Je vais t'indiquer sa maison
+sur ton plan.
+Mais fais attention, car désormais
+les soldats du château vont tout
+faire pour te retrouver !
+Je vais cacher la princesse Zelda ici.
 Ne t'inquiète pas !
 Va chercher l'Ancien !
-
-
 Tu as compris ?
 $? Oui.
 $? Non, rien du tout.
@@ -429,30 +433,31 @@ $? Non, rien du tout.
 
 dialog{
   id = "escape.intro",
+  skip = "none",
   text = [[
-A l'aide !
+$2A l'aide !
 A l'aide !
 
 Je suis prisonnière dans le
 donjon du château.
-Je m'appelle Zelda. Le sorcier
-Agahnim a ensorcelé les autres
-jeunes filles enlevées. Il ne
-reste plus que moi. Agahnim a
-pris le contrôle du château et
-il s'efforce maintenant
-d'ouvrir le sceau des 7 Sages.
+Je m'appelle Zelda.
+Le sorcier Agahnim a ensorcelé
+les autres jeunes filles enlevées.
+Il ne reste plus que moi.
+Agahnim a pris le contrôle du château
+et il s'efforce maintenant d'ouvrir
+le sceau des 7 Sages.
 Je suis dans le donjon du
-château. Aidez-moi !
+château.
+Aidez-moi !
 ]],
 }
 
 dialog{
   id = "escape.soldiers.1",
   text = [[
-Que fais-tu debout à cette
-heure ? Tu es trop petit
-pour veiller si tard !
+Que fais-tu debout à cette heure ?
+Tu es trop petit pour veiller si tard.
 Allez, rentre à la maison !
 ]],
 }
@@ -460,20 +465,22 @@ Allez, rentre à la maison !
 dialog{
   id = "escape.soldiers.2",
   text = [[
-Si tu te perds, appuie sur le
-bouton Carte pour visualiser
-le plan.
+Si tu te perds, appuie sur le bouton
+Carte pour visualiser le plan.
 Tu as compris ?
+Bon, il n'y a pas encore de plan
+ni de Carte, mais elle viendra
+dans le futur ! Crois-moi petit.
 ]],
 }
 
 dialog{
   id = "escape.soldiers.3",
   text = [[
-Tu as l'air plutôt costaud pour
-un enfant. Combien tu peux
-soulever ? Appuie sur
-Action en touchant un
+Tu as l'air plutôt costaud pour un
+enfant. Combien tu peux soulever ?
+
+Appuie sur Action en touchant un
 objet pour le soulever.
 ]],
 }
@@ -481,11 +488,9 @@ objet pour le soulever.
 dialog{
   id = "escape.soldiers.4",
   text = [[
-Je parie que tu meurs d'envie
-de te servir d'une épée !
-Quand tu en auras une,
-appuie sur Attaque
-pour t'en servir.
+Je parie que tu meurs d'envie de te
+servir d'une épée ! Quand tu en auras
+une, presse Attaque pour l'utiliser.
 ]],
 }
 
@@ -494,6 +499,10 @@ dialog{
   text = [[
 Cette marque lumineuse sur le
 plan indique ta destination.
+
+Bon, il n'y a pas encore de plan
+ni de Carte, mais elle viendra
+dans le futur ! Crois-moi petit.
 ]],
 }
 
@@ -502,9 +511,9 @@ dialog{
   text = [[
 On trouve souvent des objets
 précieux dans les coffres.
+
 Quand tu es devant le coffre,
-aapuie sur Action
-pour l'ouvrir.
+appuie sur Action pour l'ouvrir.
 ]],
 }
 
@@ -520,71 +529,68 @@ Tu comprendras plus tard !
 dialog{
   id = "escape.soldiers.front_castle",
   text = [[
-N'entre pas dans le château,
-petit ! Les gosses, ça dort
-tôt ! Va te coucher !
+N'entre pas dans le château, petit !
+Les gosses, ça dort tôt !
+Va te coucher !
 ]],
 }
 
 dialog{
   id = "escape.soldiers.tower",
   text = [[
-Après qu'Agahnim qit pris le
+Après qu'Agahnim ait pris le
 pouvoir, tout le monde s'est
-mis à agir bizarrement. Je
-crains que ce ne soit plus
-qu'une question de temps
-avant que je sois atteint
-à mon tour.
+mis à agir bizarrement.
+Je crains que ce ne soit plus
+qu'une question de temps avant
+que je sois atteint à mon tour.
 ]],
 }
 
 dialog{
   id = "escape.uncle",
+  skip = "none",
   text = [[
-Je pars faire un petit tour.
-Je serai de retour au petit
-matin. Ne sors pas de la
-maison ! Ne t'inquiète pas !
+Je pars faire un petit tour. Je serai
+de retour au petit matin. Ne sors pas
+de la maison ! Ne t'inquiète pas !
 ]],
 }
 
 dialog{
   id = "escape.uncle_dead",
+  skip = "none",
   text = [[
 Oh Link, je ne voulais pas
-que tu sois mêlé à cela.
-Je t'avais dit de rester à la
-maison. Prends mon épée, mon
-bouclier et écoute-moi bien.
-Pour concentrer tout le
-pouvoir dans l'épée, maintiens
-Attaque appuyé, puis
-relâche-le en utilisant la
-technique secrète transmise
-par notre peuple. Link
-Tu... peux... y arr...iver ! Sauve
-Princ... Zeld... Tu es son...
-sauv...
+que tu sois mêlé à cela. Je
+t'avais dit de rester à la maison.
+Prends mon épée, mon bouclier
+et écoute-moi bien. Pour concentrer
+tout le pouvoir dans l'épée,
+maintiens Attaque appuyé, puis
+relâche-le en utilisant la technique
+secrète transmise par notre peuple.
+$1Link tu... peux... y arr...iver !
+$0 Sauve Princ... Zeld...
+Tu es son...$0 sauv...$0
 ]],
 }
 
 dialog{
   id = "escape.zelda_backseat",
-  skip = "current",
   text = [[
-A l'aide !
-Je suis dans le donjon du
-château.
-Je sais qu'il y a une allée
-secrète juste à côté du
-château qui mène jusqu'au
-jardin à l'intérieur.
+$2A l'aide !
+Je suis dans le donjon du château.
+
+Je sais qu'il y a une allée secrète
+juste à côté du château qui mène
+jusqu'au jardin à l'intérieur.
 ]],
 }
 
 dialog{
   id = "escape.zelda_following_1",
+  skip = "none",
   text = [[
 Il y a un passage secret dans
 la salle du trône qui conduit au
@@ -596,11 +602,14 @@ Sanctuaire nous aidera.
 
 dialog{
   id = "escape.zelda_following_2",
+  skip = "none",
   text = [[
-Ce blason doit s'ouvrir en
-coulissant. Tu as la Lanterne ?
+Ce blason doit s'ouvrir en coulissant.
+Tu as la Lanterne ?
+
 C'est indispensabble car il fait
 rudement sombre la-dedans.
+
 Si tu es prêts, allons-y.
 Aide-moi à pousser le blason
 par la gauche !
@@ -609,16 +618,17 @@ par la gauche !
 
 dialog{
   id = "escape.zelda_following_3",
+  skip = "none",
   text = [[
-Une fois franchi ces égouts,
-nous serons très proches
-du Sanctuaire !
+Une fois franchi ces égouts, nous
+serons très proches du Sanctuaire !
 Soyons prudents !
 ]],
 }
 
 dialog{
   id = "escape.zelda_following_4",
+  skip = "none",
   text = [[
 Le Sanctuaire se trouve juste
 derrière cette porte.
@@ -628,15 +638,17 @@ Tire le levier vers toi, là.
 
 dialog{
   id = "escape.zelda_following_5",
+  skip = "none",
   text = [[
-Il faut tirer le levier pour
-ouvrir la porte. Appuie sur
-Action ainsi que sur Bas.
+Il faut tirer le levier pour ouvrir
+la porte. Maintiens Action enfoncé
+et appuie sur la direction Bas.
 ]],
 }
 
 dialog{
   id = "escape.zelda_rescued",
+  skip = "none",
   text = [[
 Merci, Link. Je sentais bien
 que tu te rapprochais.
@@ -645,16 +657,14 @@ que tu te rapprochais.
 
 dialog{
   id = "escape.zelda_rescued_question",
+  skip = "none",
   text = [[
-Link, écoute-moi bien.
-Le sorcier Agahnim contrôle
-par un charme tous
-les soldats dans le château.
-Je crains le pire pour
-mon père. Ce sorcier est un
-monstre très cruel, doté de
-terribles pouvoirs magiques.
-
+Link, écoute-moi bien. Le sorcier
+Agahnim contrôle par un charme
+tous les soldats dans le château.
+Je crains le pire pour mon père.
+Ce sorcier est un monstre très cruel,
+doté de terribles pouvoirs magiques.
 Tu as compris ?
 $? Oui !
 $? Non, pas du tout !
@@ -663,9 +673,11 @@ $? Non, pas du tout !
 
 dialog{
   id = "escape.zelda_rescued_yes",
+  skip = "none",
   text = [[
 Fuyons, avant que le sorcier
 ne remarque notre disparition.
+
 Je connais une allée secrète,
 mais il faut d'abord monter
 au Rez-de-chaussée.
@@ -736,13 +748,23 @@ dialog{
 }
 
 dialog{
+  id = "sign.default",
+  skip = "all",
+  text = [[
+RECHERCHE LINK. C'est le criminel
+qui a enlevé Zelda.
+Appelez un soldat si vous l'apercevez.
+]],
+}
+
+dialog{
   id = "sign.escape",
   skip = "all",
   text = [[
 J'offre 100 rubis à l'homme
 qui retrouvera les jeunes
 filles descendants des 7 Sages.
-Signé : MACRON
+Signé : LE ROI
 ]],
 }
 

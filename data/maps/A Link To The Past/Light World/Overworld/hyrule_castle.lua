@@ -14,9 +14,9 @@ function map:on_started()
       sol.timer.start(map, 80, function()
         map:set_entities_enabled("intro_bg_dark",true)
         sol.audio.play_sound("quake")
-      end)
+      end):set_suspended_with_map(false)
       return true
-    end)
+    end):set_suspended_with_map(false)
   else
     sol.audio.play_music("overworld")
   end
@@ -27,7 +27,7 @@ function map:on_started()
   end
 
   if not game:get_value("get_sword_1") then
-    sol.timer.start(map,30000,function()
+    sol.timer.start(map,math.random(20000,29999),function()
       local dialog_box = game:get_dialog_box()
       dialog_box:set_style("empty")
       game:start_dialog("escape.zelda_backseat",function() dialog_box:set_style("box") end)

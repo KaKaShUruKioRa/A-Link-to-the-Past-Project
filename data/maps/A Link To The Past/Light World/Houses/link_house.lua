@@ -16,7 +16,7 @@ function map:on_started(destination)
     sol.timer.start(map,5000,function()
       sol.audio.play_sound("rain_in",true)
       return true
-    end)
+    end):set_suspended_with_map(false)
   end
 
   if destination ~= newgame then

@@ -129,6 +129,7 @@ local function priest_question()
       priest:get_sprite():set_direction(3)
       game:set_value("intro_done",true)
       altar_pushed = true
+      altar:set_layer(0)
       hero:unfreeze()
     else priest_question()
     end
@@ -140,10 +141,12 @@ function auto_separator_5:on_activated(direction4)
     local i = 0
     sol.audio.play_music("sanctuary")
     if not altar_pushed then
+      altar_wall:set_layer(1)
+      altar:set_layer(1)
       hero:freeze()
       local m = sol.movement.create("straight")
       m:set_angle(3 * math.pi / 2)
-      m:set_max_distance(48)
+      m:set_max_distance(72)
       m:set_ignore_obstacles(true)
       m:start(hero,function()
         sol.timer.start(map,100,function()
@@ -151,8 +154,6 @@ function auto_separator_5:on_activated(direction4)
           altar:set_position(x + 1, y)
           i = i + 1
           if i >= 32 then
-            altar_opened:set_enabled(true)
-            altar_closed:set_enabled(false)
             if not game:get_value("intro_done") then
               game:set_value("follower_zelda_on",false)
               zelda_follower:set_enabled(false)
@@ -176,6 +177,7 @@ function auto_separator_5:on_activated(direction4)
               end)
             else
               altar_pushed = true
+              altar:set_layer(0)
               hero:unfreeze()
             end
           else return true end

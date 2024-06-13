@@ -9,6 +9,12 @@ local separator_manager = require("scripts/maps/separator_manager")
 separator_manager:manage_map(map)
 
 function map:on_started(destination)
+  curtain_1:set_cut_method("pixel")
+  curtain_2:set_cut_method("pixel")
+  curtain_3:set_cut_method("pixel")
+  curtain_4:set_cut_method("pixel")
+  curtain_5:set_cut_method("pixel")
+  curtain_6:set_cut_method("pixel")
   if destination == secret_passage then
     if game:get_value("follower_zelda_on") then
         zelda_follower:set_enabled(true)
@@ -34,7 +40,7 @@ function map:on_started(destination)
     sol.timer.start(map,5000,function()
       sol.audio.play_sound("rain_in",true)
       return true
-    end)
+    end):set_suspended_with_map(false)
   end
 
   if game:get_value("zelda_rescued_dialog_2") then sensor_zelda_dialog:set_enabled(false) end

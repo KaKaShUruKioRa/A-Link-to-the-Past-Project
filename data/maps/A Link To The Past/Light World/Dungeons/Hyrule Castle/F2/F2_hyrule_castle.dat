@@ -1748,6 +1748,16 @@ tile{
   pattern = "barrier.2-1",
 }
 
+sensor{
+  name = "sensor_zelda_dialog",
+  layer = 1,
+  x = 720,
+  y = 93,
+  enabled_at_start = false,
+  width = 112,
+  height = 16,
+}
+
 dynamic_tile{
   name = "altar_closed",
   layer = 1,
@@ -1820,6 +1830,7 @@ jumper{
 }
 
 destructible{
+  name = "curtain_1",
   layer = 1,
   x = 656,
   y = 157,
@@ -1831,6 +1842,7 @@ destructible{
 }
 
 destructible{
+  name = "curtain_2",
   layer = 1,
   x = 656,
   y = 205,
@@ -1842,6 +1854,7 @@ destructible{
 }
 
 destructible{
+  name = "curtain_3",
   layer = 1,
   x = 656,
   y = 253,
@@ -1853,6 +1866,7 @@ destructible{
 }
 
 destructible{
+  name = "curtain_6",
   layer = 1,
   x = 880,
   y = 253,
@@ -1864,6 +1878,7 @@ destructible{
 }
 
 destructible{
+  name = "curtain_5",
   layer = 1,
   x = 880,
   y = 205,
@@ -1875,6 +1890,7 @@ destructible{
 }
 
 destructible{
+  name = "curtain_4",
   layer = 1,
   x = 880,
   y = 157,
@@ -1958,16 +1974,6 @@ custom_entity{
   direction = 3,
   sprite = "npc/zelda",
   model = "follower",
-}
-
-sensor{
-  name = "sensor_zelda_dialog",
-  layer = 1,
-  x = 720,
-  y = 93,
-  enabled_at_start = false,
-  width = 112,
-  height = 16,
 }
 
 tile{
