@@ -5717,18 +5717,6 @@ wall{
   stops_blocks = true,
 }
 
-door{
-  layer = 1,
-  x = 120,
-  y = 296,
-  direction = 1,
-  sprite = "doors/door_d1_small_key",
-  savegame_variable = "hyrule_castle_key_2_opened",
-  opening_method = "interaction_if_savegame_variable",
-  opening_condition = "hyrule_castle_small_keys",
-  opening_condition_consumed = true,
-}
-
 sensor{
   name = "sensor_falling_auto_door_2_s_open",
   layer = 1,
@@ -5818,6 +5806,27 @@ custom_entity{
   direction = 3,
   sprite = "npc/zelda",
   model = "follower",
+}
+
+door{
+  name = "auto_door_2_back_2",
+  layer = 1,
+  x = 120,
+  y = 296,
+  direction = 1,
+  sprite = "doors/door_d1_normal",
+}
+
+door{
+  layer = 1,
+  x = 120,
+  y = 296,
+  direction = 1,
+  sprite = "doors/door_d1_small_key",
+  savegame_variable = "hyrule_castle_key_2_opened",
+  opening_method = "interaction_if_savegame_variable",
+  opening_condition = "hyrule_castle_small_keys",
+  opening_condition_consumed = true,
 }
 
 tile{
