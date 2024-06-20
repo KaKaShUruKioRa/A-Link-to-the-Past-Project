@@ -120,7 +120,7 @@ end
 
 function savegames_menu:on_started()
 
-  --sol.audio.play_music("selection")
+  sol.audio.play_music("game_over")
 
   build_layout()
   read_savegames()

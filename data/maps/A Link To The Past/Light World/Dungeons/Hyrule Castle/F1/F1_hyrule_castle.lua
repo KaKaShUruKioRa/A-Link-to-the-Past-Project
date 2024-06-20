@@ -31,7 +31,7 @@ function map:on_started(destination)
     end):set_suspended_with_map(false)
   end
 
-  if game:get_value("zelda_rescued_dialog_1") then sensor_zelda_dialog:set_enabled(false) end
+  if game:get_value("zelda_rescued_dialog_1") then sensor_zelda_dialog:set_enabled(false) sensor_zelda_dialog_2:set_enabled(false) end
 end
 
 function sensor_zelda_dialog:on_activated()

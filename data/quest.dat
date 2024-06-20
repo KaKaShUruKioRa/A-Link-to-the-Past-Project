@@ -2,51 +2,17 @@ quest{
   solarus_version = "1.6",
   write_dir = "A Link to the Past",
   title = "The Legend of Zelda : A Link to the Past",
-  short_description = "Ce jeu est un projet de refonte du jeu The Legend of Zelda : A Link to the Past (SNES) avec Solarus Quest Editor sur PC !",
+  short_description = "Ce project est un Remake de The Legend of Zelda : A Link to the Past (SNES) avec Solarus sur PC !",
   long_description = [[
-Présentation
+  Présentation
 
-The Legend of Zelda: A Link to the Past Project est un remake du classique et cultissime jeu de la Super Nintendo (SNES), premièrement publié en 1991 (1992 en Europe) que l'on retrouvera sur Game Boy Advance en 2002, avec The Legend of Zelda : Four Swords, un jeu multijoueur.
-The Legend of Zelda: A Link to the Past sera maintes fois réédité sur les différentes consoles de Nintendo dans le futur, et aura le droit également à un jeu hommage sur Nintendo 3DS nommé  The Legend of Zelda: A Link Between Worlds, qui reprendra les idées de gameplay, le voyage entre deux mondes, dans une histoire originale et quelques idées modernes de gameplay !
+Ce remake, réalisé avec Solarus, utilise les éléments graphiques reprenant les personnages, les ennemis et les paysages du jeu original The Legend of Zelda: A Link to the Past de la Super Nintendo (SNES) (1991 en Europe). A quelques différences près (notamment dues à la mordernité du Moteur Solarus), le jeu ressemblera quasi trait pour trait à ce jeu d'antan.
 
+  Synopsis
 
-Description
-
-Ce remake, réalisé avec Solarus, utilise les éléments graphiques de la version Super Nintendo (SNES), reprenant les personnages, les ennemis et les paysages du jeu d'antan. 
-
-A quelques différences près (notamment dues à la mordernité du Moteur Solarus, et du système PC), le jeu ressemblera quasi trait pour trait à l'original découvert sur Super Nintendo (SNES).
-
-Scénario
-
-Link se réveille chez lui, après avoir reçu un appel de détresse télépathique d'une jeune femme, Zelda, Princesse du Royaume d'Hyrule !
-En pleine tempête, l'Oncle de notre Héro, sort à l'extérieur, armé d'une épée et d'un bouclier, pour se rendre au Château d'Hyrule.
-Link décide alors de suivre ce dernier et ainsi répondre à la demande de la Princesse Zelda.
-
-C'est ainsi que vous incarnerez Link et vivrez ainsi son aventure, sauvant la Princesse Zelda, ainsi que le Royaume d'Hyrule menacé par des Forces Obscures !
-
-Système de jeu
-
-Ce jeu reproduit le système de jeu de The Legend of Zelda: A Link to the Past (SNES) quelque peu modernisé par le Moteur Solarus ! 
-Un peu plus dynamique, grâce à la plateforme PC, avec un système modernes d'assignation de touches, vous pourrez jouer à la manette ou au clavier selon vos préférences.
-
-Durée de vie
-
-Pour les joueurs qui découvriraient éventuellement ce titre, voire même la série entière (ou simplement les jeux Zelda 2D), la durée de vie du jeu complet est estimée à environ une 30ènes d'heures pour les complétionnistes.
-
-Développement
-
-Ce jeu est un projet actuellement en cours de développement.  
-Vous pourrez tout de même jouer aux versions démos à chaque mise à jour.  
-
-v0.2.x
-Cette version contient :
-- La map du Light OverWorld, avec jumper, sans ennemis, et des grottes, des maisons, et des donjons génériques...
--Map Light OverWorld créée entièrement par KaKaShUruKioRa.
-- Le tout premier donjon de jeu, à savoir Eastern Palace, où vous pourrez obtenir un objet et combattre jusqu'au boss final du donjon.   
-Il n'y aura cependant pas de Carte et de Boussole pour le moment.  
--Map Eastern Palace créée par ZeldoRetro et Boss développé par DarkDavy15. ]],
+Link se réveille chez lui, après avoir reçu un appel de détresse télépathique d'une jeune femme, Zelda, Princesse du Royaume d'Hyrule ! En pleine tempête, l'Oncle de notre Héro, sort à l'extérieur, armé d'une épée et d'un bouclier, pour se rendre au Château d'Hyrule. Link décide alors de suivre ce dernier et ainsi répondre à la demande de la Princesse Zelda. C'est ainsi que vous incarnerez Link et vivrez ainsi son aventure, sauvant la Princesse Zelda, ainsi que le Royaume d'Hyrule menacé par des Forces Obscures !]],
   author = "KaKaShUruKioRan ZeldoRetro, DarkDavy15",
-  quest_version = "0.2.0",
+  quest_version = "0.3.0",
   release_date = "",
   website = "https://play.spotify.com/artist/2nRyP56IOlGpXgG1yuOpZ2",
   normal_quest_size = "256x224",
