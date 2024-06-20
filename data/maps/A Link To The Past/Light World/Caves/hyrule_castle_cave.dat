@@ -11,16 +11,6 @@ properties{
 
 tile{
   layer = -1,
-  x = 0,
-  y = 0,
-  width = 512,
-  height = 512,
-  pattern = "1",
-  tileset = "blueprint/hyrule_castle_cave",
-}
-
-tile{
-  layer = -1,
   x = 216,
   y = 112,
   width = 32,

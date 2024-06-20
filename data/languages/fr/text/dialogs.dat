@@ -2,9 +2,9 @@ dialog{
   id = "NoBigKey",
   skip = "all",
   text = [[
-Hein ? c'est fermé a clé !
+Hein ? C'est fermé à clé !
 Si tu avais une Grande Clé,
-tu pourrais ouvrir 
+tu pourrais l'ouvrir
 ]],
 }
 
@@ -362,8 +362,30 @@ dialog{
   text = [[
 Tu as gagné le Pendentif du
 Courage ! $0
-Apporte-le à Sahasrahla !
-Il reste encore deux Pendentifs !
+]],
+}
+
+dialog{
+  id = "demo.part_one",
+  text = [[
+Link, c'est moi, Le Développeur.
+Tu as terminé la Première Partie,
+de cette Démo...
+Je t'invite à te rendre à l'Est du Monde, 
+trouver le Palais,
+dans lequel se cache un Boss à défaire !
+]],
+}
+
+dialog{
+  id = "demo.part_two",
+  text = [[
+Link, c'est moi, Le Développeur.
+Tu as terminé la Deuxième Partie,
+de cette Démo,
+et donc la Démo elle-même...
+Je te remercie et te dis :
+à la prochaine Mise à Jour !
 ]],
 }
 
@@ -607,10 +629,10 @@ dialog{
 Ce blason doit s'ouvrir en coulissant.
 Tu as la Lanterne ?
 
-C'est indispensabble car il fait
+C'est indispensable car il fait
 rudement sombre la-dedans.
 
-Si tu es prêts, allons-y.
+Si tu es prêt, allons-y.
 Aide-moi à pousser le blason
 par la gauche !
 ]],

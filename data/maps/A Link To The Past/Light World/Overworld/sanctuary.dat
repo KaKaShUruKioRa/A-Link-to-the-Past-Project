@@ -4390,6 +4390,15 @@ door{
   opening_method = "interaction",
 }
 
+sensor{
+  name = "sensor_demo_part_one_ended",
+  layer = 0,
+  x = 344,
+  y = 101,
+  width = 32,
+  height = 16,
+}
+
 tile{
   layer = 1,
   x = 288,
