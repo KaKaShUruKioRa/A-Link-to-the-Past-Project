@@ -156,6 +156,8 @@ end
 -- Triforce
 function title_screen:step_1()
   self.step = 1
+
+  sol.audio.play_music("title_screen")
   
   self:reset_timer()
   
@@ -319,7 +321,8 @@ function title_screen:skip_menu()
 
   -- Quits after a fade to black.
   self.black_surface:fade_in(20, function()
-    -- Quit the menu
+    -- Quit the menu    
+    sol.audio.stop_music()
     sol.menu.stop(self)
   end)
 end

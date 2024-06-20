@@ -1,0 +1,8 @@
+- Effets sonores
+
+- Palettes ennemis
+- Effet électrocution
+- Effets de chute / eau ennemis / entités ?
+
+
+

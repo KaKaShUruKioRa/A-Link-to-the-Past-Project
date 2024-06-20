@@ -4,10 +4,10 @@ properties{
   width = 512,
   height = 512,
   min_layer = 0,
-  max_layer = 2,
+  max_layer = 3,
   world = "Light World",
   tileset = "out/outside_lightworld_main",
-  music = "overworld",
+  music = "same",
 }
 
 tile{
@@ -4634,16 +4634,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 144,
-  y = 184,
-  width = 96,
-  height = 72,
-  pattern = "7494",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 0,
   x = 72,
   y = 232,
   width = 8,
@@ -5013,16 +5003,6 @@ tile{
   width = 8,
   height = 8,
   pattern = "5919",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 0,
-  x = 184,
-  y = 256,
-  width = 16,
-  height = 16,
-  pattern = "6020",
   tileset = "out/outside_lightworld_buildings",
 }
 
@@ -6164,6 +6144,46 @@ tile{
   pattern = "1034",
 }
 
+tile{
+  layer = 0,
+  x = 184,
+  y = 256,
+  width = 16,
+  height = 16,
+  pattern = "6008",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+wall{
+  name = "intro_wall_2",
+  layer = 0,
+  x = 208,
+  y = 488,
+  enabled_at_start = false,
+  width = 48,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  name = "intro_wall",
+  layer = 0,
+  x = 480,
+  y = 376,
+  enabled_at_start = false,
+  width = 8,
+  height = 56,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
 destructible{
   name = "bush_link_house_0",
   layer = 0,
@@ -6468,7 +6488,7 @@ teletransporter{
   name = "tp_house_link_house_0",
   layer = 0,
   x = 184,
-  y = 248,
+  y = 256,
   width = 16,
   height = 16,
   destination_map = "A Link To The Past/Light World/Houses/link_house",
@@ -6481,7 +6501,7 @@ jumper{
   x = 280,
   y = 176,
   width = 8,
-  height = 152,
+  height = 168,
   direction = 0,
   jump_length = 40,
 }
@@ -6502,7 +6522,7 @@ jumper{
   layer = 0,
   x = 120,
   y = 344,
-  width = 144,
+  width = 160,
   height = 8,
   direction = 6,
   jump_length = 56,
@@ -6576,15 +6596,85 @@ wall{
   stops_projectiles = true,
 }
 
-jumper{
-  name = "jump_link_house_8",
+door{
   layer = 0,
-  x = 264,
-  y = 328,
-  width = 24,
-  height = 24,
-  direction = 7,
-  jump_length = 42,
+  x = 184,
+  y = 256,
+  direction = 3,
+  sprite = "doors/door_outside_house",
+  opening_method = "interaction",
+}
+
+destination{
+  name = "dest_house_link_house_0",
+  layer = 0,
+  x = 192,
+  y = 285,
+  direction = 3,
+}
+
+npc{
+  name = "intro_soldier_1",
+  layer = 0,
+  x = 488,
+  y = 397,
+  enabled_at_start = false,
+  direction = 2,
+  subtype = 1,
+  sprite = "npc/soldier_intro",
+}
+
+npc{
+  name = "intro_soldier_2",
+  layer = 0,
+  x = 488,
+  y = 429,
+  enabled_at_start = false,
+  direction = 2,
+  subtype = 1,
+  sprite = "npc/soldier_intro",
+}
+
+npc{
+  name = "intro_soldier_3",
+  layer = 0,
+  x = 216,
+  y = 501,
+  enabled_at_start = false,
+  direction = 1,
+  subtype = 1,
+  sprite = "npc/soldier_intro",
+}
+
+npc{
+  name = "intro_soldier_4",
+  layer = 0,
+  x = 248,
+  y = 501,
+  enabled_at_start = false,
+  direction = 1,
+  subtype = 1,
+  sprite = "npc/soldier_intro",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 248,
+  width = 80,
+  height = 8,
+  pattern = "7494",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 184,
+  width = 96,
+  height = 64,
+  pattern = "7494",
+  tileset = "out/outside_lightworld_buildings",
 }
 
 tile{
@@ -7451,11 +7541,28 @@ destination{
   direction = 3,
 }
 
-destination{
-  name = "dest_house_link_house_0",
-  layer = 2,
-  x = 192,
-  y = 285,
-  direction = 3,
+custom_entity{
+  name = "intro_rain",
+  layer = 3,
+  x = 8,
+  y = 13,
+  enabled_at_start = false,
+  width = 512,
+  height = 512,
+  direction = 0,
+  sprite = "entities/rain",
+  tiled = true,
+}
+
+dynamic_tile{
+  name = "intro_bg_dark",
+  layer = 3,
+  x = 0,
+  y = 0,
+  enabled_at_start = false,
+  width = 512,
+  height = 512,
+  pattern = "10444",
+  tileset = "out/outside_special",
 }
 

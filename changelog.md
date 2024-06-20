@@ -1,111 +1,156 @@
 # Changelog
 
-## The Legend of Zelda A Link to the Past (Solarus Edition) 0.2.0 (2024-03-28)
+## The Legend of Zelda A Link to the Past (Solarus Edition) 0.3.0
 
-`Changements du ?? ????? 2024` v0.2.1 (hotfix)
-
-🐛Bug
-
-__--------------------------------------------------------------------------------------------------------------__
-
-`Changements du 28 Mars 2024` v0.2.0  
+`Changes on June 20, 2024` v0.3.0
 
 🗺**Overworld**
-- __Light Overworld__ : 
-* Ajout du **Eastern Palace**
-* Ajout du **Sanctuary**
+- __Light Overworld__:
+  * Added **Hyrule Castle Cave**
+  * Added **Hyrule Castle**
+  * Added the **Secret Passage**
 
-🗺**Eastern Palace**
-- Ajout d'un Système pour les Transitions de Map (Séparateur qui reset de certains ennemis)
-- Ajout de l'**Arc** et des **Pegassus Boots**
-- Ajout du Systèmes de Gestion des Salles Sombres et de leurs éclairages (Torche/Lanterne)
-- Ajout des **EyeGores Red** & **Green**, **Evil Tiles**, **Skelletons**, et **Canonballs**
-- AJout du Boss **Armos Knight**, sa Récompense, son Médaillon
-- Metatables de gestion des **Switch**, des **Small Keys** & **Boss Keys**
-- AJout d'un Système de Gestion des **Drops d'Objets** sur les Ennemis (Prizes Packs)
-- Ajout Dialogues de **Sahasrahla**, de l'**Arc**, des **Rubis**, des **Coffres**, des **Small Keys** & **Boss Keys** 
+🗺**Link House**
+- Added friendly **Guards** blocking access to the **Overworld** during the game Introduction
+- Added **Rain**, **Gloom**
+- Added **Rain Sound**
+- Added **Dialogue** for **Guards**, **Sign**
 
-🎮**GameFix**
-- Correction du Crash de Game Over
+🗺**Hyrule Castle**
+- Added **Destructible Curtain**
+- Added **Dialogue** for **Guards**, **Zelda**
+- Added various **Blue** & **Green Soldiers**
+- Added **Hyrule Castle Cave** where the **Uncle** is located
+- Added the **Electric Barrier** preventing access to **Hyrule Tower**
+- Added the **Boomerang**
+- Added **Mini-Boss Knight Chain & Ball** guarding **Princess Zelda**
+- Added the quest to **Escort Zelda** from the Castle to the Sanctuary
+- Added the **Pushable Emblem** with Zelda to enter the **Secret Passage**
 
-**HUD**
-- Adaptation du HUD, des Menus pour le format **A Link to the Past** (256x224)
+🗺**Secret Passage**
+- Added **Rats**, **Keeses** & **Ropes**
+- Added **Levers to Pull**
 
-🗃**Organisation**
-- Créations des **BluePrints** pour les **Light Dungeons** dans les TileSets
-- Mise à jour des Tilesets (pour **Sanctuary**)
-- Ajout d'une Dossier de **Ressources/Images** pour les **Artworks**
+🗺**Sanctuary**
+- Added **Dialogues** for **Zelda** and the **Priest**
+- Added the **Heart Container** in the chest
 
-## The Legend of Zelda A Link to the Past (Solarus Edition) 0.1.1 (2022-01-21)
+🗺**House**
+- __Link's House__: Link starts asleep in his bed, Zelda talks to him telepathically, and Link's Uncle goes outside
 
-__--------------------------------------------------------------------------------------------------------------__
-
-`Changements du 23 Février 2024` v0.1.2 (hotfix)
-
-🗺**Overworld**
-- __Light Overworld__ : 
-- Correction des Bancs de KaKaRiKo
-- Correction d'une Superposition de Tiles Décoratives au dessus de Link House
-
-- __Dark Overworld__ : Liens de toutes les Maisons avec le Dark World
-
-🗺**KaKaRiKo Village**
-- Correction d'un Jumper qui faisait SoftLock dans un Mur
-
-🗺**Library**
-- Correction d'une Tile dans Library
-
-🎮**GameFix**
-- Correction d'une Bug avec le Joystick des Manettes dans les Menus (Le Sélecteur ne s'affole plus)
-- Correction de Choix Décalé dans le *game_manager.lua*
-- Correction des points de vie du Joueur dans le Savegame
-
-**HUD**
-- Correction des Points de vie afficher dans le HUD
-
-🗃**Organisation**
-- Créations des BluePrints pour les Light Dungeons dans les TileSets
-- Créations des Dossiers All Floors et Map All Floors pour les Light Dungeons
-
-__--------------------------------------------------------------------------------------------------------------__
-
-`Changements du 21 Janvier 2022` v0.1.1 (hotfix)
-
-🗺**Overworld**
-- __Light Overworld__ : Liens de toutes les Grottes, Maisons et Dunjon avec le Light World
-- __Dark Overworld__ : Liens de toutes les Maisons avec le Dark World
-
-🗃**Organisation**
-- Création des Fichiers .dat pour les Maisons du Light World et du Dark World
-- Création des Fichiers .dat pour les Grottes du Light World et du Dark World
-- Création des Fichiers .dat pour les Donjons du Light World et du Dark World
-
-__--------------------------------------------------------------------------------------------------------------__
-
-`Changements du 14 Janvier 2022` v0.1.0  
-
-🗺**Overworld**
-- __Light Overworld__ : Création de la carte générale 
-* Répartition de l'Overworld en différente zone, jouable dans une moindre mesure (sans ennemis)
-
-🗺**Maison**
-- __Maison de Link__ : Première map intérieur, la maison de link qui donne sur le monde extérieur
+📱**HUD**
+- Added **Music** for **Title Screen** and **Savegames Menus**
 
 📟**Script**
-- Ajout de __Debug.lua__
-- Ajout de __Console.lua__
-- Ajout de 3 "Custom Entity" pour les Grosses Pierres Blanches, Noires, et Fracassable.
+- Added meta/__map.lua__
+- Added __ceiling_drop_manager.lua__
+- Added __electric_barrier.lua__
 
-**Debug**
-- __Secret Room__ : Salle secrète avec pleins d'objets, de téléporteur vers les différentes zones, maisons, grottes, et donjons pour faciliter les tests 
-- Reprise des Scripts Debug/Console de The Only One Projet
+🗃**Organization**
+- Added a **/devdate** folder for **Developers**
 
-🗃**Organisation**
-- Création des Dossiers dans data/maps A Link to the Past
-    * Répartition des deux mondes Light et Dark Overworld
-    * Répartition des Overworld, Maisons, Grottes, Donjons
-- Création des Dossiers dans data/maps Archived
-    * Répartition des Secret Room et des Owerworlds
-    * Répartition Secret Dimension, Overworld, Maisons, Grottes, Donjons
-- Ajout et Modification des Logos/Icônes et Artwork
-- Ajout et Description du ReadMe
+__--------------------------------------------------------------------------------------------------------------__
+
+## The Legend of Zelda A Link to the Past (Solarus Edition) 0.2.0
+
+`Changes on March 28, 2024` v0.2.0  
+
+🗺**Overworld**
+- __Light Overworld__:
+  * Added **Eastern Palace**
+  * Added **Sanctuary**
+
+🗺**Eastern Palace**
+- Added a System for Map Transitions (Separator that resets certain enemies)
+- Added the **Bow** and **Pegasus Boots**
+- Added Systems for Managing Dark Rooms and their Lighting (Torch/Lantern)
+- Added **EyeGores Red** & **Green**, **Evil Tiles**, **Skeletons**, and **Cannonballs**
+- Added the Boss **Armos Knight**, his Reward, his Medallion
+- Management metatables for **Switches**, **Small Keys** & **Boss Keys**
+- Added a System for Managing **Enemy Item Drops** (Prize Packs)
+- Added Dialogues for **Sahasrahla**, the **Bow**, **Rupees**, **Chests**, **Small Keys** & **Boss Keys**
+
+🎮**GameFix**
+- Fixed Game Over Crash
+
+📱**HUD**
+- Adapted the HUD, Menus to the **A Link to the Past** format (256x224)
+
+🗃**Organization**
+- Created **Blueprints** for **Light Dungeons** in TileSets
+- Updated Tilesets (for **Sanctuary**)
+- Added a **Resources/Images** Folder for **Artworks**
+
+__--------------------------------------------------------------------------------------------------------------__
+
+## The Legend of Zelda A Link to the Past (Solarus Edition) 0.1.2
+
+`Changes on February 23, 2024` v0.1.2 (hotfix)
+
+🗺**Overworld**
+- __Light Overworld__:
+  * Fixed the Benches in Kakariko
+  * Fixed a Decorative Tile Overlay above Link's House
+
+- __Dark Overworld__: Linked all Houses to the Dark World
+
+🗺**Kakariko Village**
+- Fixed a Jumper causing a SoftLock in a Wall
+
+🗺**Library**
+- Fixed a Tile in the Library
+
+🎮**GameFix**
+- Fixed a Bug with the Controller Joystick in the Menus (The Selector no longer goes crazy)
+- Fixed Offset Choices in *game_manager.lua*
+- Fixed Player Health Points in the Savegame
+
+📱**HUD**
+- Fixed the Display of Health Points in the HUD
+
+🗃**Organization**
+- Created Blueprints for Light Dungeons in TileSets
+- Created All Floors and Map All Floors Folders for Light Dungeons
+
+__--------------------------------------------------------------------------------------------------------------__
+
+`Changes on January 21, 2022` v0.1.1 (hotfix)
+
+🗺**Overworld**
+- __Light Overworld__: Links to all Caves, Houses, and Dungeons in the Light World
+- __Dark Overworld__: Links to all Houses in the Dark World
+
+🗃**Organization**
+- Created .dat Files for Light World and Dark World Houses
+- Created .dat Files for Light World and Dark World Caves
+- Created .dat Files for Light World and Dark World Dungeons
+
+__--------------------------------------------------------------------------------------------------------------__
+
+`Changes on January 14, 2022` v0.1.0  
+
+🗺**Overworld**
+- __Light Overworld__: Created the general map
+  * Division of the Overworld into different zones, playable to some extent (without enemies)
+
+🗺**House**
+- __Link's House__: First interior map, Link's house opening to the outside world
+
+📟**Script**
+- Added __Debug.lua__
+- Added __Console.lua__
+- Added 3 "Custom Entities" for Large White, Black, and Breakable Stones
+
+🧠**Debug**
+- __Secret Room__: Secret room with lots of items, teleporters to various zones, houses, caves, and dungeons for easier testing
+- Reused Debug/Console Scripts from The Only One Project
+
+🗃**Organization**
+- Created Folders in data/maps A Link to the Past
+    * Division of Light and Dark Overworlds
+    * Division of Overworld, Houses, Caves, Dungeons
+- Created Folders in data/maps Archived
+    * Division of Secret Room and Overworlds
+    * Division of Secret Dimension, Overworld, Houses, Caves, Dungeons
+- Added and Modified Logos/Icons and Artwork
+- Added and Described the README

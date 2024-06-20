@@ -1,24 +1,207 @@
--- Lua script of map Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/F6/.
--- This script is executed every time the hero enters this map.
-
--- Feel free to modify the code below.
--- You can add more events and remove the ones you don't need.
-
--- See the Solarus Lua API documentation:
--- http://www.solarus-games.org/doc/latest
-
 local map = ...
 local game = map:get_game()
 
--- Event called at initialization time, as soon as this map is loaded.
-function map:on_started()
+local door_manager = require("scripts/maps/door_manager")
+door_manager:manage_map(map)
+local chest_manager = require("scripts/maps/chest_manager")
+chest_manager:manage_map(map)
+local separator_manager = require("scripts/maps/separator_manager")
+separator_manager:manage_map(map)
 
-  -- You can initialize the movement and sprites of various
-  -- map entities here.
+local altar_pushed = false
+
+--GESTION DE LUMIERE DANS LA PIECE ET NIVEAUX D'OBSCURITE
+require("scripts/maps/light_manager.lua")
+local dark = sol.surface.create(320,240)
+dark:set_opacity(150)
+dark:fill_color({0, 0, 0})
+for torch in map:get_entities("timed_torch_") do
+  function torch:on_lit() 
+    local opacity = dark:get_opacity()
+    dark:set_opacity(opacity - 50)
+    sol.timer.start(10000,function() 
+      local opacity2 = dark:get_opacity()
+      dark:set_opacity(opacity2 + 50) 
+    end)
+  end
+end
+map:register_event("on_draw", function(map, dst_surface)
+  if dark_on then dark:draw(dst_surface) end
+end)
+
+function map:on_started(destination)
+
+  if destination == sanctuary then sol.audio.play_music("sanctuary") end
+
+  if destination == stair_e or destination == stair_w then
+    map:set_tileset("dungeon/blue")
+    dark_on = true
+    map:set_light(0)
+  end
+
+  if game:get_value("follower_zelda_on") then
+    sensor_zelda_dialog:set_enabled(true)
+    sensor_zelda_dialog_2:set_enabled(true)
+    sol.timer.start(map,1600,function()
+      zelda_follower:set_enabled(true)
+      zelda_follower:set_position(hero:get_position())
+      zelda:set_enabled(false)
+    end)
+  end
+
+  if game:get_value("zelda_rescued_dialog_4") then sensor_zelda_dialog:set_enabled(false) end
+  if game:get_value("zelda_rescued_dialog_5") then sensor_zelda_dialog_2:set_enabled(false) end
+  
 end
 
--- Event called after the opening transition effect of the map,
--- that is, when the player takes control of the hero.
-function map:on_opening_transition_finished()
+function map:on_finished()
+  dark_on = false
+end
+
+function sensor_zelda_dialog:on_activated()
+  self:set_enabled(false)
+  game:start_dialog("escape.zelda_following_4")
+  game:set_value("zelda_rescued_dialog_4",true)
+end
+function sensor_zelda_dialog_2:on_activated()
+  self:set_enabled(false)
+  game:start_dialog("escape.zelda_following_5")
+  game:set_value("zelda_rescued_dialog_5",true)
+end
+
+local function make_enemies_fall(shadow, enemy, enemy_spot)
+  local x, y, layer = enemy_spot:get_position()
+  local enemy_entity = map:create_custom_entity({
+    name = "falling_enemy_1",
+    sprite = "enemies/dungeons/rope",
+    x = x,
+    y = y - 144,
+    width = 16,
+    height = 16,
+    layer = layer + 1,
+    direction = 0
+  })
+  enemy_entity:get_sprite():set_direction(3)
+
+  sol.audio.play_sound("jump")
+
+  shadow:set_enabled(true)
+  sol.timer.start(map, 500, function()
+    shadow:get_sprite():set_animation("big")
+  end)
+
+  local m = sol.movement.create("straight")
+  m:set_max_distance(144)
+  m:set_ignore_obstacles(true)
+  m:set_speed(144)
+  m:set_angle(3 * math.pi / 2)
+  m:start(enemy_entity,function()
+    enemy_entity:set_enabled(false)
+    shadow:set_enabled(false)
+    enemy:set_enabled(true)
+  end)
+end
+
+function wrong_switch:on_activated()
+  sol.timer.start(map, 100, function()
+    sol.audio.play_sound("wrong")
+    local i = 0
+    sol.timer.start(map, 700, function()
+      sol.timer.start(map, 300, function()
+        i = i + 1
+        make_enemies_fall(map:get_entity("shadow_"..i), map:get_entity("enemy_"..i), map:get_entity("enemy_spot_"..i))
+        if i < 7 then return true end
+      end)
+    end)
+  end)
+end
+
+function auto_door_2:on_opened()
+  sol.timer.start(map, 100, function()
+    sol.audio.play_sound("secret")
+  end)
+end
+
+local function priest_question()
+  game:start_dialog("escape.end_3",function(answer)
+    if answer == 2 then
+      zelda:get_sprite():set_direction(3)
+      priest:get_sprite():set_direction(3)
+      game:set_value("intro_done",true)
+      altar_pushed = true
+      altar:set_layer(0)
+      hero:unfreeze()
+    else priest_question()
+    end
+  end)
+end
+
+function auto_separator_5:on_activated(direction4)
+  if direction4 == 3 then
+    local i = 0
+    sol.audio.play_music("sanctuary")
+    if not altar_pushed then
+      altar_wall:set_layer(1)
+      altar:set_layer(1)
+      hero:freeze()
+      local m = sol.movement.create("straight")
+      m:set_angle(3 * math.pi / 2)
+      m:set_max_distance(72)
+      m:set_ignore_obstacles(true)
+      m:start(hero,function()
+        sol.timer.start(map,100,function()
+          local x, y = altar:get_position()
+          altar:set_position(x + 1, y)
+          i = i + 1
+          if i >= 32 then
+            if not game:get_value("intro_done") then
+              game:set_value("follower_zelda_on",false)
+              zelda_follower:set_enabled(false)
+              zelda_2:set_enabled(true)
+              priest:get_sprite():set_direction(1)
+              game:start_dialog("escape.end_1",function()
+                local m = sol.movement.create("path")
+                m:set_path{6,6,6,6,6,6,0,0,6,6,6}
+                m:set_speed(48)
+                m:set_ignore_obstacles(true)
+                m:start(zelda_2,function()
+                  zelda:set_enabled(true)
+                  zelda_2:set_enabled(false)
+                  zelda:get_sprite():set_direction(1)
+                  game:start_dialog("escape.end_2",function()
+                    sol.timer.start(map, 100, function()
+                      priest_question()
+                    end)
+                  end)
+                end)
+              end)
+            else
+              altar_pushed = true
+              altar:set_layer(0)
+              hero:unfreeze()
+            end
+          else return true end
+        end)
+      end)
+    end
+  else sol.audio.play_music("castle") end
+end
+
+function map:on_update()
+
+  -- npc turn toward hero
+  local x, y = priest:get_position()
+  local turn_toward = sol.movement.create("target")
+  turn_toward:set_target(hero, -x, -y)
+  turn_toward:set_speed(0)
+  priest:get_sprite():set_direction(turn_toward:get_direction4())
+  turn_toward:start(priest)
+
+  local x, y = zelda:get_position()
+  local turn_toward = sol.movement.create("target")
+  turn_toward:set_target(hero, -x, -y)
+  turn_toward:set_speed(0)
+  zelda:get_sprite():set_direction(turn_toward:get_direction4())
+  turn_toward:start(zelda)
 
 end

@@ -4,6 +4,8 @@ require("scripts/multi_events")
 
 local npc_meta = sol.main.get_metatable("npc")
 
+local i = 0
+
 function npc_meta:on_interaction()
   local game = self:get_game()
   local name = self:get_name()
@@ -22,6 +24,13 @@ function npc_meta:on_interaction()
     game:start_dialog(name,function() dialog_box:set_style("box") end)
   end
 
+  --Pancartes
+  if name:match("^sign") then
+    if game:get_value("intro_done") then
+      game:start_dialog(name)
+    else game:start_dialog("sign.escape") end
+  end
+
   --Stèles en hylien
   if name:match("^hs") then
     game:set_dialog_style("stone")
@@ -31,6 +40,13 @@ function npc_meta:on_interaction()
       return
     end
     game:start_dialog(name)
+  end
+
+  --Soldats: disent des dialogues tutoriels
+  if name:match("^intro_soldier") then
+    i = i + 1
+    if i == 8 then i = 1 end
+    game:start_dialog("escape.soldiers."..i)
   end
 
 end

@@ -1,0 +1,24 @@
+animation{
+  name = "normal",
+  src_image = "enemies/electric_barrier.png",
+  frame_delay = 120,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 80, frame_height = 24, origin_x = 40, origin_y = 21, num_frames = 2, num_columns = 1 },
+    { x = 0, y = 0, frame_width = 80, frame_height = 24, origin_x = 40, origin_y = 21, num_frames = 2, num_columns = 1 },
+    { x = 0, y = 0, frame_width = 80, frame_height = 24, origin_x = 40, origin_y = 21, num_frames = 2, num_columns = 1 },
+    { x = 0, y = 0, frame_width = 80, frame_height = 24, origin_x = 40, origin_y = 21, num_frames = 2, num_columns = 1 },
+  },
+}
+animation{
+  name = "hurt",
+  src_image = "enemies/electric_barrier.png",
+  frame_delay = 120,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 80, frame_height = 24, origin_x = 40, origin_y = 21, num_frames = 2, num_columns = 1 },
+    { x = 0, y = 0, frame_width = 80, frame_height = 24, origin_x = 40, origin_y = 21, num_frames = 2, num_columns = 1 },
+    { x = 0, y = 0, frame_width = 80, frame_height = 24, origin_x = 40, origin_y = 21, num_frames = 2, num_columns = 1 },
+    { x = 0, y = 0, frame_width = 80, frame_height = 24, origin_x = 40, origin_y = 21, num_frames = 2, num_columns = 1 },
+  },
+}

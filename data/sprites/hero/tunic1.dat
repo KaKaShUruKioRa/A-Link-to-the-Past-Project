@@ -83,6 +83,16 @@ animation{
   },
 }
 animation{
+  name = "electrocuted",
+  src_image = "hero/hurt.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+    { x = 24, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+    { x = 48, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+    { x = 72, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+  },
+}
+animation{
   name = "falling",
   src_image = "hero/falling.png",
   frame_delay = 125,

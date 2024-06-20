@@ -6,7 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "dungeon/light_brown",
-  music = "beginning",
+  music = "village",
 }
 
 tile{
@@ -178,15 +178,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "door.2.support.2-1",
-}
-
-tile{
-  layer = 0,
-  x = 56,
-  y = 56,
-  width = 32,
-  height = 40,
-  pattern = "bed.default",
 }
 
 tile{
@@ -477,21 +468,65 @@ tile{
   pattern = "door.2",
 }
 
+tile{
+  layer = 0,
+  x = 120,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "floor.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 200,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 200,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 216,
+  width = 16,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 56,
+  width = 32,
+  height = 40,
+  pattern = "bed.default",
+}
+
 destination{
   name = "dest_map_link_house_0",
   layer = 0,
   x = 128,
-  y = 205,
+  y = 181,
   direction = 1,
 }
 
 chest{
-  name = "chest_link_house_0",
+  name = "chest_lantern",
   layer = 0,
   x = 200,
   y = 157,
-  treasure_name = "inventory/lantern",
-  treasure_savegame_variable = "got_lantern",
+  treasure_savegame_variable = "link_house_chest_opened",
   sprite = "entities/chest",
 }
 
@@ -503,16 +538,6 @@ destructible{
   treasure_name = "consumables/heart",
   sprite = "destructibles/vase",
   destruction_sound = "stone",
-}
-
-npc{
-  name = "uncle",
-  layer = 0,
-  x = 176,
-  y = 93,
-  direction = 3,
-  subtype = 1,
-  sprite = "npc/uncle",
 }
 
 destructible{
@@ -538,21 +563,10 @@ destructible{
 destination{
   name = "dest_start",
   layer = 0,
-  x = 72,
-  y = 85,
+  x = 128,
+  y = 125,
   direction = 3,
   default = true,
-}
-
-jumper{
-  name = "jump_link_house_0",
-  layer = 0,
-  x = 80,
-  y = 64,
-  width = 8,
-  height = 24,
-  direction = 0,
-  jump_length = 24,
 }
 
 teletransporter{
@@ -566,30 +580,59 @@ teletransporter{
   destination = "dest_house_link_house_0",
 }
 
-wall{
+destination{
+  name = "sortie_lit",
   layer = 0,
-  x = 136,
-  y = 208,
-  width = 8,
-  height = 16,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
+  x = 72,
+  y = 69,
+  direction = 3,
 }
 
-wall{
+npc{
+  name = "bed",
   layer = 0,
-  x = 112,
-  y = 208,
-  width = 8,
-  height = 16,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
+  x = 72,
+  y = 69,
+  direction = 3,
+  subtype = 0,
+  sprite = "entities/bed",
+}
+
+destination{
+  name = "newgame",
+  layer = 0,
+  x = 72,
+  y = 69,
+  direction = 3,
+}
+
+npc{
+  name = "snores",
+  layer = 0,
+  x = 80,
+  y = 61,
+  direction = 3,
+  subtype = 0,
+  sprite = "entities/snores",
+}
+
+npc{
+  name = "uncle",
+  layer = 0,
+  x = 176,
+  y = 93,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/uncle",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 200,
+  width = 64,
+  height = 8,
+  pattern = "door_cache.2-1",
 }
 
 tile{

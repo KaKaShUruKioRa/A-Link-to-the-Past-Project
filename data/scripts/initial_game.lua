@@ -14,13 +14,12 @@ function initial_game:initialize_new_savegame(game)
 
   -- You can modify this function to set the initial life and equipment
   -- and the starting location.
-  game:set_starting_location("A Link To The Past/Light World/Houses/link_house", "dest_start")
+  game:set_starting_location("A Link To The Past/Light World/Houses/link_house", "newgame")
 
   game:set_max_life(12)
   game:set_life(game:get_max_life())
-  game:set_max_money(100)
+  game:set_max_money(999)
   game:set_ability("lift", 0)
-  game:set_ability("sword", 1)
   game:get_item("equipment/tunic"):set_variant(1)
   game:get_item("equipment/piece_of_heart_counter"):set_variant(1)
   

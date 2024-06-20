@@ -1,24 +1,46 @@
--- Lua script of map Non_Playable Zone/hyrule_castle_npz.
--- This script is executed every time the hero enters this map.
-
--- Feel free to modify the code below.
--- You can add more events and remove the ones you don't need.
-
--- See the Solarus Lua API documentation:
--- http://www.solarus-games.org/doc/latest
-
 local map = ...
 local game = map:get_game()
 
 -- Event called at initialization time, as soon as this map is loaded.
 function map:on_started()
 
-  -- You can initialize the movement and sprites of various
-  -- map entities here.
+  if not game:get_value("intro_done") then
+    map:set_entities_enabled("intro_",true)
+    sol.audio.play_music("beginning")
+    sol.audio.play_sound("rain_out",true)
+    sol.timer.start(map,5000,function()
+      sol.audio.play_sound("rain_out",true)
+      map:set_entities_enabled("intro_bg_dark",false)
+      sol.timer.start(map, 80, function()
+        map:set_entities_enabled("intro_bg_dark",true)
+        sol.audio.play_sound("quake")
+      end):set_suspended_with_map(false)
+      return true
+    end):set_suspended_with_map(false)
+  else
+    sol.audio.play_music("overworld")
+  end
+
+  if game:get_value("follower_zelda_on") then
+      zelda_follower:set_enabled(true)
+      zelda_follower:set_position(hero:get_position())
+  end
+
+  if not game:get_value("get_sword_1") then
+    sol.timer.start(map,math.random(20000,29999),function()
+      local dialog_box = game:get_dialog_box()
+      dialog_box:set_style("empty")
+      game:start_dialog("escape.zelda_backseat",function() dialog_box:set_style("box") end)
+    end)
+  end
+  
 end
 
--- Event called after the opening transition effect of the map,
--- that is, when the player takes control of the hero.
-function map:on_opening_transition_finished()
-
+function bush_secret:on_lifting()
+  sol.audio.play_sound("secret")
+  bush_secret_ground:set_enabled(false)
+end
+function bush_secret:on_cut()
+  sol.audio.play_sound("secret")
+  bush_secret_ground:set_enabled(false)
 end
