@@ -9,5 +9,6 @@ local separator_manager = require("scripts/maps/separator_manager")
 separator_manager:manage_map(map)
 
 function map:on_started(destination)
-
+  --Carte obtenue
+  if game:get_value("desert_map") then auto_chest_map:set_enabled(true) end
 end

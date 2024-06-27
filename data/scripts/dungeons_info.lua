@@ -45,6 +45,21 @@ local dungeons_info = {
       y = 480 + 224,
     },
   },
+  ["desert_palace"] = {
+    floor_width = 1536,
+    floor_height = 2048,
+    lowest_floor = -1,
+    highest_floor = 1,
+    maps = {
+      "A Link To The Past/Light World/Dungeons/Desert Palace/B1/B1_desert_palace","A Link To The Past/Light World/Dungeons/Desert Palace/F1/F1_desert_palace","A Link To The Past/Light World/Dungeons/Desert Palace/F2/F2_desert_palace"
+    },
+    boss = {
+      floor = 1,
+      savegame_variable = "desert_boss",
+      x = 960,
+      y = 480 + 224,
+    },
+  },
 }
 
 return dungeons_info
