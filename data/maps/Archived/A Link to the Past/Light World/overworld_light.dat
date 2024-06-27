@@ -306554,24 +306554,6 @@ tile{
 
 tile{
   layer = 2,
-  x = 3264,
-  y = 232,
-  width = 16,
-  height = 8,
-  pattern = "9",
-}
-
-tile{
-  layer = 2,
-  x = 3264,
-  y = 200,
-  width = 16,
-  height = 8,
-  pattern = "9",
-}
-
-tile{
-  layer = 2,
   x = 2992,
   y = 200,
   width = 16,
