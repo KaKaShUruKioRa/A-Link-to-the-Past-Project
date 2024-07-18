@@ -13,7 +13,7 @@ end
 
 function enemy:on_restarted()
   local m = sol.movement.create("path_finding")
-  m:set_speed(32)
+  m:set_speed(40)
   sol.timer.start(enemy, math.random(3000,5000), function() enemy:disappear() end)
   m:start(self)
 end

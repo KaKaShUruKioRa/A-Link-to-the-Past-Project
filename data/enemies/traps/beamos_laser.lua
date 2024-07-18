@@ -76,7 +76,7 @@ end
 
 -- Create additional impact effect on hurt hero.
 enemy:register_event("on_attacking_hero", function(enemy, hero, enemy_sprite)
-	enemy:get_game():remove_life(2)
+	enemy:get_game():remove_life(3)
   hero:start_hurt(enemy, 1)
 end)
 

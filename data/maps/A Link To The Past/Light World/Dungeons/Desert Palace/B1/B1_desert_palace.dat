@@ -7860,6 +7860,33 @@ tile{
   pattern = "floor_pot",
 }
 
+tile{
+  layer = 1,
+  x = 1296,
+  y = 1200,
+  width = 24,
+  height = 144,
+  pattern = "2761",
+}
+
+tile{
+  layer = 1,
+  x = 1496,
+  y = 1200,
+  width = 24,
+  height = 144,
+  pattern = "2761",
+}
+
+sensor{
+  name = "bonk_sensor",
+  layer = 1,
+  x = 312,
+  y = 1133,
+  width = 48,
+  height = 48,
+}
+
 wall{
   layer = 1,
   x = 752,
@@ -7870,14 +7897,6 @@ wall{
   stops_npcs = true,
   stops_blocks = true,
   stops_projectiles = true,
-}
-
-destination{
-  name = "entree_3",
-  layer = 1,
-  x = 768,
-  y = 2005,
-  direction = 1,
 }
 
 wall{
@@ -8260,22 +8279,6 @@ chest{
   treasure_name = "dungeons/big_key",
   treasure_savegame_variable = "desert_big_key",
   sprite = "entities/chest",
-}
-
-enemy{
-  layer = 1,
-  x = 1304,
-  y = 1245,
-  direction = 3,
-  breed = "traps/trap_fixed",
-}
-
-enemy{
-  layer = 1,
-  x = 1512,
-  y = 1245,
-  direction = 3,
-  breed = "traps/trap_fixed",
 }
 
 block{
@@ -9362,6 +9365,32 @@ enemy{
   y = 1437,
   direction = 0,
   breed = "traps/beamos",
+}
+
+wall{
+  layer = 1,
+  x = 1312,
+  y = 1200,
+  width = 8,
+  height = 144,
+  stops_hero = true,
+}
+
+wall{
+  layer = 1,
+  x = 1496,
+  y = 1200,
+  width = 8,
+  height = 144,
+  stops_hero = true,
+}
+
+destination{
+  name = "entree_3",
+  layer = 1,
+  x = 768,
+  y = 2005,
+  direction = 1,
 }
 
 tile{
@@ -10877,10 +10906,91 @@ separator{
 }
 
 pickable{
+  name = "torch_key",
   layer = 2,
   x = 325,
   y = 1132,
   treasure_name = "dungeons/small_key",
   treasure_savegame_variable = "desert_key_4",
+}
+
+wall{
+  layer = 2,
+  x = 1296,
+  y = 1184,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 2,
+  x = 1296,
+  y = 1344,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 2,
+  x = 1504,
+  y = 1344,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 2,
+  x = 1504,
+  y = 1184,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+enemy{
+  layer = 2,
+  x = 1304,
+  y = 1245,
+  properties = {
+    {
+      key = "direction_look",
+      value = "0",
+    },
+  },
+  direction = 3,
+  breed = "traps/cannon",
+}
+
+enemy{
+  layer = 2,
+  x = 1512,
+  y = 1245,
+  properties = {
+    {
+      key = "direction_look",
+      value = "2",
+    },
+  },
+  direction = 3,
+  breed = "traps/cannon",
 }
 

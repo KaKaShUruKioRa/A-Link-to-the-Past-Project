@@ -2057,123 +2057,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 848,
-  y = 864,
-  width = 16,
-  height = 16,
-  pattern = "floor.19-1",
-}
-
-tile{
-  layer = 1,
-  x = 848,
-  y = 896,
-  width = 16,
-  height = 16,
-  pattern = "floor.19-1",
-}
-
-tile{
-  layer = 1,
-  x = 848,
-  y = 912,
-  width = 16,
-  height = 16,
-  pattern = "floor.19-1",
-}
-
-tile{
-  layer = 1,
-  x = 864,
-  y = 912,
-  width = 16,
-  height = 16,
-  pattern = "floor.19-1",
-}
-
-tile{
-  layer = 1,
-  x = 848,
-  y = 944,
-  width = 16,
-  height = 16,
-  pattern = "floor.19-1",
-}
-
-tile{
-  layer = 1,
-  x = 928,
-  y = 896,
-  width = 16,
-  height = 16,
-  pattern = "floor.19-1",
-}
-
-tile{
-  layer = 1,
-  x = 928,
-  y = 944,
-  width = 16,
-  height = 16,
-  pattern = "floor.19-1",
-}
-
-tile{
-  layer = 1,
-  x = 912,
-  y = 912,
-  width = 16,
-  height = 16,
-  pattern = "floor.19-1",
-}
-
-tile{
-  layer = 1,
-  x = 928,
-  y = 912,
-  width = 16,
-  height = 16,
-  pattern = "floor.19-1",
-}
-
-tile{
-  layer = 1,
-  x = 928,
-  y = 864,
-  width = 16,
-  height = 16,
-  pattern = "floor.19-1",
-}
-
-tile{
-  layer = 1,
-  x = 912,
-  y = 880,
-  width = 16,
-  height = 16,
-  pattern = "floor.19-1",
-}
-
-tile{
-  layer = 1,
-  x = 864,
-  y = 880,
-  width = 16,
-  height = 16,
-  pattern = "floor.19-1",
-}
-
-tile{
-  layer = 1,
-  x = 880,
-  y = 864,
-  width = 32,
-  height = 80,
-  pattern = "floor.19-1",
-}
-
-tile{
-  layer = 1,
   x = 808,
   y = 840,
   width = 8,
@@ -2431,6 +2314,15 @@ tile{
   width = 64,
   height = 16,
   pattern = "floor_pot",
+}
+
+sensor{
+  name = "evil_tiles_sensor_1",
+  layer = 1,
+  x = 888,
+  y = 981,
+  width = 32,
+  height = 16,
 }
 
 wall{
@@ -2877,6 +2769,7 @@ enemy{
 }
 
 dynamic_tile{
+  name = "sliding_wall_3",
   layer = 1,
   x = 656,
   y = 680,
@@ -2886,21 +2779,13 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "sliding_wall_2",
   layer = 1,
   x = 656,
   y = 568,
   width = 24,
   height = 112,
   pattern = "wall.3-2",
-}
-
-dynamic_tile{
-  layer = 1,
-  x = 656,
-  y = 544,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner.1-2",
 }
 
 destructible{
@@ -3054,6 +2939,246 @@ enemy{
   y = 1181,
   direction = 0,
   breed = "traps/beamos",
+}
+
+dynamic_tile{
+  name = "evil_tile_after_1",
+  layer = 1,
+  x = 880,
+  y = 896,
+  width = 16,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+dynamic_tile{
+  name = "evil_tile_after_2",
+  layer = 1,
+  x = 896,
+  y = 896,
+  width = 16,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+dynamic_tile{
+  name = "evil_tile_after_3",
+  layer = 1,
+  x = 864,
+  y = 880,
+  width = 16,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+dynamic_tile{
+  name = "evil_tile_after_4",
+  layer = 1,
+  x = 912,
+  y = 912,
+  width = 16,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+dynamic_tile{
+  name = "evil_tile_after_5",
+  layer = 1,
+  x = 912,
+  y = 880,
+  width = 16,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+dynamic_tile{
+  name = "evil_tile_after_6",
+  layer = 1,
+  x = 864,
+  y = 912,
+  width = 16,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+dynamic_tile{
+  name = "evil_tile_after_7",
+  layer = 1,
+  x = 880,
+  y = 864,
+  width = 16,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+dynamic_tile{
+  name = "evil_tile_after_8",
+  layer = 1,
+  x = 896,
+  y = 928,
+  width = 16,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+dynamic_tile{
+  name = "evil_tile_after_9",
+  layer = 1,
+  x = 896,
+  y = 864,
+  width = 16,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+dynamic_tile{
+  name = "evil_tile_after_10",
+  layer = 1,
+  x = 880,
+  y = 928,
+  width = 16,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+dynamic_tile{
+  name = "evil_tile_after_11",
+  layer = 1,
+  x = 848,
+  y = 864,
+  width = 16,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+dynamic_tile{
+  name = "evil_tile_after_12",
+  layer = 1,
+  x = 928,
+  y = 944,
+  width = 16,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+dynamic_tile{
+  name = "evil_tile_after_13",
+  layer = 1,
+  x = 928,
+  y = 864,
+  width = 16,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+dynamic_tile{
+  name = "evil_tile_after_14",
+  layer = 1,
+  x = 848,
+  y = 944,
+  width = 16,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+dynamic_tile{
+  name = "evil_tile_after_15",
+  layer = 1,
+  x = 848,
+  y = 896,
+  width = 16,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+dynamic_tile{
+  name = "evil_tile_after_16",
+  layer = 1,
+  x = 928,
+  y = 912,
+  width = 16,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+dynamic_tile{
+  name = "evil_tile_after_17",
+  layer = 1,
+  x = 928,
+  y = 896,
+  width = 16,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+dynamic_tile{
+  name = "evil_tile_after_18",
+  layer = 1,
+  x = 848,
+  y = 912,
+  width = 16,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+dynamic_tile{
+  name = "evil_tile_after_19",
+  layer = 1,
+  x = 880,
+  y = 880,
+  width = 16,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+dynamic_tile{
+  name = "evil_tile_after_20",
+  layer = 1,
+  x = 896,
+  y = 912,
+  width = 16,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+dynamic_tile{
+  name = "evil_tile_after_21",
+  layer = 1,
+  x = 896,
+  y = 880,
+  width = 16,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+dynamic_tile{
+  name = "evil_tile_after_22",
+  layer = 1,
+  x = 880,
+  y = 912,
+  width = 16,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+dynamic_tile{
+  name = "before_slide_1",
+  layer = 1,
+  x = 624,
+  y = 544,
+  width = 32,
+  height = 8,
+  pattern = "door_cache.1-2",
+}
+
+dynamic_tile{
+  name = "before_slide_2",
+  layer = 1,
+  x = 624,
+  y = 544,
+  width = 32,
+  height = 8,
+  pattern = "door_top.closed.1-2",
 }
 
 tile{
@@ -3561,6 +3686,7 @@ tile{
 }
 
 dynamic_tile{
+  name = "after_slide",
   layer = 2,
   x = 608,
   y = 544,
@@ -3571,6 +3697,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "after_slide_2",
   layer = 2,
   x = 624,
   y = 544,
@@ -3671,11 +3798,352 @@ separator{
 }
 
 dynamic_tile{
+  name = "sliding_wall_4",
   layer = 2,
   x = 592,
   y = 544,
   width = 64,
   height = 160,
   pattern = "ceiling.1",
+}
+
+enemy{
+  name = "evil_tile_enemy_1",
+  layer = 2,
+  x = 888,
+  y = 909,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
+  direction = 3,
+  breed = "traps/evil_tile",
+}
+
+enemy{
+  name = "evil_tile_enemy_2",
+  layer = 2,
+  x = 904,
+  y = 909,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
+  direction = 3,
+  breed = "traps/evil_tile",
+}
+
+enemy{
+  name = "evil_tile_enemy_3",
+  layer = 2,
+  x = 872,
+  y = 893,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
+  direction = 3,
+  breed = "traps/evil_tile",
+}
+
+enemy{
+  name = "evil_tile_enemy_4",
+  layer = 2,
+  x = 920,
+  y = 925,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
+  direction = 3,
+  breed = "traps/evil_tile",
+}
+
+enemy{
+  name = "evil_tile_enemy_5",
+  layer = 2,
+  x = 920,
+  y = 893,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
+  direction = 3,
+  breed = "traps/evil_tile",
+}
+
+enemy{
+  name = "evil_tile_enemy_6",
+  layer = 2,
+  x = 872,
+  y = 925,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
+  direction = 3,
+  breed = "traps/evil_tile",
+}
+
+enemy{
+  name = "evil_tile_enemy_7",
+  layer = 2,
+  x = 888,
+  y = 877,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
+  direction = 3,
+  breed = "traps/evil_tile",
+}
+
+enemy{
+  name = "evil_tile_enemy_8",
+  layer = 2,
+  x = 904,
+  y = 941,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
+  direction = 3,
+  breed = "traps/evil_tile",
+}
+
+enemy{
+  name = "evil_tile_enemy_9",
+  layer = 2,
+  x = 904,
+  y = 877,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
+  direction = 3,
+  breed = "traps/evil_tile",
+}
+
+enemy{
+  name = "evil_tile_enemy_10",
+  layer = 2,
+  x = 888,
+  y = 941,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
+  direction = 3,
+  breed = "traps/evil_tile",
+}
+
+enemy{
+  name = "evil_tile_enemy_11",
+  layer = 2,
+  x = 856,
+  y = 877,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
+  direction = 3,
+  breed = "traps/evil_tile",
+}
+
+enemy{
+  name = "evil_tile_enemy_12",
+  layer = 2,
+  x = 936,
+  y = 957,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
+  direction = 3,
+  breed = "traps/evil_tile",
+}
+
+enemy{
+  name = "evil_tile_enemy_13",
+  layer = 2,
+  x = 936,
+  y = 877,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
+  direction = 3,
+  breed = "traps/evil_tile",
+}
+
+enemy{
+  name = "evil_tile_enemy_14",
+  layer = 2,
+  x = 856,
+  y = 957,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
+  direction = 3,
+  breed = "traps/evil_tile",
+}
+
+enemy{
+  name = "evil_tile_enemy_15",
+  layer = 2,
+  x = 856,
+  y = 909,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
+  direction = 3,
+  breed = "traps/evil_tile",
+}
+
+enemy{
+  name = "evil_tile_enemy_16",
+  layer = 2,
+  x = 936,
+  y = 925,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
+  direction = 3,
+  breed = "traps/evil_tile",
+}
+
+enemy{
+  name = "evil_tile_enemy_17",
+  layer = 2,
+  x = 936,
+  y = 909,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
+  direction = 3,
+  breed = "traps/evil_tile",
+}
+
+enemy{
+  name = "evil_tile_enemy_18",
+  layer = 2,
+  x = 856,
+  y = 925,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
+  direction = 3,
+  breed = "traps/evil_tile",
+}
+
+enemy{
+  name = "evil_tile_enemy_19",
+  layer = 2,
+  x = 888,
+  y = 893,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
+  direction = 3,
+  breed = "traps/evil_tile",
+}
+
+enemy{
+  name = "evil_tile_enemy_20",
+  layer = 2,
+  x = 904,
+  y = 925,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
+  direction = 3,
+  breed = "traps/evil_tile",
+}
+
+enemy{
+  name = "evil_tile_enemy_21",
+  layer = 2,
+  x = 904,
+  y = 893,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
+  direction = 3,
+  breed = "traps/evil_tile",
+}
+
+enemy{
+  name = "evil_tile_enemy_22",
+  layer = 2,
+  x = 888,
+  y = 925,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
+  direction = 3,
+  breed = "traps/evil_tile",
+}
+
+dynamic_tile{
+  name = "sliding_wall_1",
+  layer = 2,
+  x = 656,
+  y = 544,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1-2",
 }
 
