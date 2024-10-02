@@ -1,0 +1,34 @@
+animation{
+  name = "normal",
+  src_image = "enemies/dungeons/devalant_red.png",
+  frame_delay = 150,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 21, num_frames = 2 },
+  },
+}
+animation{
+  name = "appearing",
+  src_image = "enemies/dungeons/devalant_red.png",
+  frame_delay = 300,
+  directions = {
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 21, num_frames = 3 },
+  },
+}
+animation{
+  name = "disappearing",
+  src_image = "enemies/dungeons/devalant_red.png",
+  frame_delay = 300,
+  directions = {
+    { x = 0, y = 64, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 21, num_frames = 3 },
+  },
+}
+animation{
+  name = "hurt",
+  src_image = "enemies/dungeons/devalant_red.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 96, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 21, num_frames = 3 },
+  },
+}

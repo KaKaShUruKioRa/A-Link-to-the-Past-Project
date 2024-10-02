@@ -8323,7 +8323,7 @@ enemy{
   x = 1128,
   y = 1117,
   direction = 3,
-  breed = "dungeons/popo",
+  breed = "dungeons/leever_green",
 }
 
 enemy{
@@ -8332,7 +8332,7 @@ enemy{
   x = 1192,
   y = 1117,
   direction = 3,
-  breed = "dungeons/popo",
+  breed = "dungeons/leever_green",
 }
 
 enemy{
@@ -8341,7 +8341,7 @@ enemy{
   x = 1128,
   y = 1197,
   direction = 3,
-  breed = "dungeons/popo",
+  breed = "dungeons/leever_green",
 }
 
 enemy{
@@ -8350,16 +8350,7 @@ enemy{
   x = 1192,
   y = 1197,
   direction = 3,
-  breed = "dungeons/popo",
-}
-
-enemy{
-  name = "auto_enemy_auto_door_2_5",
-  layer = 1,
-  x = 1160,
-  y = 1157,
-  direction = 3,
-  breed = "dungeons/popo",
+  breed = "dungeons/leever_green",
 }
 
 custom_entity{
@@ -9020,67 +9011,12 @@ destructible{
 }
 
 enemy{
-  layer = 1,
-  x = 400,
-  y = 1421,
-  direction = 3,
-  breed = "dungeons/popo",
-}
-
-enemy{
-  layer = 1,
-  x = 448,
-  y = 1677,
-  direction = 3,
-  breed = "dungeons/popo",
-}
-
-enemy{
+  name = "quicksand_1",
   layer = 1,
   x = 320,
   y = 1805,
-  direction = 3,
-  breed = "dungeons/popo",
-}
-
-enemy{
-  layer = 1,
-  x = 888,
-  y = 1421,
-  direction = 3,
-  breed = "dungeons/popo",
-}
-
-enemy{
-  layer = 1,
-  x = 648,
-  y = 1421,
-  direction = 3,
-  breed = "dungeons/popo",
-}
-
-enemy{
-  layer = 1,
-  x = 1096,
-  y = 1461,
-  direction = 3,
-  breed = "dungeons/popo",
-}
-
-enemy{
-  layer = 1,
-  x = 1120,
-  y = 1773,
-  direction = 3,
-  breed = "dungeons/popo",
-}
-
-enemy{
-  layer = 1,
-  x = 1168,
-  y = 1973,
-  direction = 3,
-  breed = "dungeons/popo",
+  direction = 0,
+  breed = "dungeons/quicksand",
 }
 
 enemy{
@@ -9391,6 +9327,492 @@ destination{
   x = 768,
   y = 2005,
   direction = 1,
+}
+
+stream{
+  name = "quicksand_1_flux_1",
+  layer = 1,
+  x = 312,
+  y = 1797,
+  enabled_at_start = false,
+  direction = 7,
+}
+
+stream{
+  name = "quicksand_1_flux_2",
+  layer = 1,
+  x = 328,
+  y = 1797,
+  enabled_at_start = false,
+  direction = 5,
+}
+
+stream{
+  name = "quicksand_1_flux_3",
+  layer = 1,
+  x = 328,
+  y = 1813,
+  enabled_at_start = false,
+  direction = 3,
+}
+
+stream{
+  name = "quicksand_1_flux_4",
+  layer = 1,
+  x = 312,
+  y = 1813,
+  enabled_at_start = false,
+  direction = 1,
+}
+
+enemy{
+  name = "quicksand_1_devalant",
+  layer = 1,
+  x = 320,
+  y = 1805,
+  enabled_at_start = false,
+  direction = 0,
+  breed = "dungeons/devalant_blue",
+}
+
+enemy{
+  name = "quicksand_2",
+  layer = 1,
+  x = 888,
+  y = 1421,
+  direction = 0,
+  breed = "dungeons/quicksand",
+}
+
+stream{
+  name = "quicksand_2_flux_1",
+  layer = 1,
+  x = 880,
+  y = 1413,
+  enabled_at_start = false,
+  direction = 7,
+}
+
+stream{
+  name = "quicksand_2_flux_2",
+  layer = 1,
+  x = 896,
+  y = 1413,
+  enabled_at_start = false,
+  direction = 5,
+}
+
+stream{
+  name = "quicksand_2_flux_4",
+  layer = 1,
+  x = 896,
+  y = 1429,
+  enabled_at_start = false,
+  direction = 3,
+}
+
+stream{
+  name = "quicksand_2_flux_3",
+  layer = 1,
+  x = 880,
+  y = 1429,
+  enabled_at_start = false,
+  direction = 1,
+}
+
+enemy{
+  name = "quicksand_2_devalant",
+  layer = 1,
+  x = 888,
+  y = 1421,
+  enabled_at_start = false,
+  direction = 0,
+  breed = "dungeons/devalant_red",
+}
+
+enemy{
+  name = "quicksand_3",
+  layer = 1,
+  x = 448,
+  y = 1677,
+  direction = 0,
+  breed = "dungeons/quicksand",
+}
+
+stream{
+  name = "quicksand_3_flux_5",
+  layer = 1,
+  x = 440,
+  y = 1669,
+  enabled_at_start = false,
+  direction = 7,
+}
+
+stream{
+  name = "quicksand_3_flux_1",
+  layer = 1,
+  x = 456,
+  y = 1669,
+  enabled_at_start = false,
+  direction = 5,
+}
+
+stream{
+  name = "quicksand_3_flux_7",
+  layer = 1,
+  x = 456,
+  y = 1685,
+  enabled_at_start = false,
+  direction = 3,
+}
+
+stream{
+  name = "quicksand_3_flux_2",
+  layer = 1,
+  x = 440,
+  y = 1685,
+  enabled_at_start = false,
+  direction = 1,
+}
+
+enemy{
+  name = "quicksand_3_devalant",
+  layer = 1,
+  x = 448,
+  y = 1677,
+  enabled_at_start = false,
+  direction = 0,
+  breed = "dungeons/devalant_red",
+}
+
+enemy{
+  name = "quicksand_4",
+  layer = 1,
+  x = 400,
+  y = 1421,
+  direction = 0,
+  breed = "dungeons/quicksand",
+}
+
+stream{
+  name = "quicksand_4_flux_6",
+  layer = 1,
+  x = 392,
+  y = 1413,
+  enabled_at_start = false,
+  direction = 7,
+}
+
+stream{
+  name = "quicksand_4_flux_3",
+  layer = 1,
+  x = 408,
+  y = 1413,
+  enabled_at_start = false,
+  direction = 5,
+}
+
+stream{
+  name = "quicksand_4_flux_8",
+  layer = 1,
+  x = 408,
+  y = 1429,
+  enabled_at_start = false,
+  direction = 3,
+}
+
+stream{
+  name = "quicksand_4_flux_4",
+  layer = 1,
+  x = 392,
+  y = 1429,
+  enabled_at_start = false,
+  direction = 1,
+}
+
+enemy{
+  name = "quicksand_4_devalant",
+  layer = 1,
+  x = 400,
+  y = 1421,
+  enabled_at_start = false,
+  direction = 0,
+  breed = "dungeons/devalant_red",
+}
+
+enemy{
+  name = "quicksand_5",
+  layer = 1,
+  x = 648,
+  y = 1421,
+  direction = 0,
+  breed = "dungeons/quicksand",
+}
+
+stream{
+  name = "quicksand_5_flux_5",
+  layer = 1,
+  x = 640,
+  y = 1413,
+  enabled_at_start = false,
+  direction = 7,
+}
+
+stream{
+  name = "quicksand_5_flux_6",
+  layer = 1,
+  x = 656,
+  y = 1413,
+  enabled_at_start = false,
+  direction = 5,
+}
+
+stream{
+  name = "quicksand_5_flux_7",
+  layer = 1,
+  x = 656,
+  y = 1429,
+  enabled_at_start = false,
+  direction = 3,
+}
+
+stream{
+  name = "quicksand_5_flux_8",
+  layer = 1,
+  x = 640,
+  y = 1429,
+  enabled_at_start = false,
+  direction = 1,
+}
+
+enemy{
+  name = "quicksand_5_devalant",
+  layer = 1,
+  x = 648,
+  y = 1421,
+  enabled_at_start = false,
+  direction = 0,
+  breed = "dungeons/devalant_red",
+}
+
+enemy{
+  name = "quicksand_6",
+  layer = 1,
+  x = 1120,
+  y = 1773,
+  direction = 0,
+  breed = "dungeons/quicksand",
+}
+
+stream{
+  name = "quicksand_6_flux_5",
+  layer = 1,
+  x = 1112,
+  y = 1765,
+  enabled_at_start = false,
+  direction = 7,
+}
+
+stream{
+  name = "quicksand_6_flux_6",
+  layer = 1,
+  x = 1128,
+  y = 1765,
+  enabled_at_start = false,
+  direction = 5,
+}
+
+stream{
+  name = "quicksand_6_flux_7",
+  layer = 1,
+  x = 1128,
+  y = 1781,
+  enabled_at_start = false,
+  direction = 3,
+}
+
+stream{
+  name = "quicksand_6_flux_8",
+  layer = 1,
+  x = 1112,
+  y = 1781,
+  enabled_at_start = false,
+  direction = 1,
+}
+
+enemy{
+  name = "quicksand_6_devalant",
+  layer = 1,
+  x = 1120,
+  y = 1773,
+  enabled_at_start = false,
+  direction = 0,
+  breed = "dungeons/devalant_blue",
+}
+
+enemy{
+  name = "quicksand_7",
+  layer = 1,
+  x = 1168,
+  y = 1973,
+  direction = 0,
+  breed = "dungeons/quicksand",
+}
+
+stream{
+  name = "quicksand_7_flux_5",
+  layer = 1,
+  x = 1160,
+  y = 1965,
+  enabled_at_start = false,
+  direction = 7,
+}
+
+stream{
+  name = "quicksand_7_flux_6",
+  layer = 1,
+  x = 1176,
+  y = 1965,
+  enabled_at_start = false,
+  direction = 5,
+}
+
+stream{
+  name = "quicksand_7_flux_7",
+  layer = 1,
+  x = 1176,
+  y = 1981,
+  enabled_at_start = false,
+  direction = 3,
+}
+
+stream{
+  name = "quicksand_7_flux_8",
+  layer = 1,
+  x = 1160,
+  y = 1981,
+  enabled_at_start = false,
+  direction = 1,
+}
+
+enemy{
+  name = "quicksand_7_devalant",
+  layer = 1,
+  x = 1168,
+  y = 1973,
+  enabled_at_start = false,
+  direction = 0,
+  breed = "dungeons/devalant_red",
+}
+
+enemy{
+  name = "quicksand_8",
+  layer = 1,
+  x = 1104,
+  y = 1461,
+  direction = 0,
+  breed = "dungeons/quicksand",
+}
+
+stream{
+  name = "quicksand_8_flux_5",
+  layer = 1,
+  x = 1096,
+  y = 1453,
+  enabled_at_start = false,
+  direction = 7,
+}
+
+stream{
+  name = "quicksand_8_flux_6",
+  layer = 1,
+  x = 1112,
+  y = 1453,
+  enabled_at_start = false,
+  direction = 5,
+}
+
+stream{
+  name = "quicksand_8_flux_7",
+  layer = 1,
+  x = 1112,
+  y = 1469,
+  enabled_at_start = false,
+  direction = 3,
+}
+
+stream{
+  name = "quicksand_8_flux_8",
+  layer = 1,
+  x = 1096,
+  y = 1469,
+  enabled_at_start = false,
+  direction = 1,
+}
+
+enemy{
+  name = "quicksand_8_devalant",
+  layer = 1,
+  x = 1104,
+  y = 1461,
+  enabled_at_start = false,
+  direction = 0,
+  breed = "dungeons/devalant_red",
+}
+
+enemy{
+  name = "quicksand_9",
+  layer = 1,
+  x = 1160,
+  y = 1157,
+  direction = 0,
+  breed = "dungeons/quicksand",
+}
+
+stream{
+  name = "quicksand_9_flux_5",
+  layer = 1,
+  x = 1152,
+  y = 1149,
+  enabled_at_start = false,
+  direction = 7,
+}
+
+stream{
+  name = "quicksand_9_flux_6",
+  layer = 1,
+  x = 1168,
+  y = 1149,
+  enabled_at_start = false,
+  direction = 5,
+}
+
+stream{
+  name = "quicksand_9_flux_7",
+  layer = 1,
+  x = 1168,
+  y = 1165,
+  enabled_at_start = false,
+  direction = 3,
+}
+
+stream{
+  name = "quicksand_9_flux_8",
+  layer = 1,
+  x = 1152,
+  y = 1165,
+  enabled_at_start = false,
+  direction = 1,
+}
+
+enemy{
+  name = "quicksand_9_devalant",
+  layer = 1,
+  x = 1160,
+  y = 1157,
+  enabled_at_start = false,
+  direction = 0,
+  breed = "dungeons/devalant_red",
 }
 
 tile{

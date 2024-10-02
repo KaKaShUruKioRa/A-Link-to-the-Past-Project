@@ -22,6 +22,7 @@ function enemy:on_created()
   enemy:set_size(16, 16)
   enemy:set_origin(8, 13)
   self:set_invincible()
+  enemy:set_property("is_major","true")
   self:set_can_attack(false)
   self.is_exhausted = false -- True after a shoot and before a delay.
 end
@@ -80,7 +81,7 @@ function sprite:on_frame_changed(animation, frame)
     local hero_angle = math.atan2(y - hero_y, hero_x - x)
 
     if math.abs(enemy_angle - hero_angle) % (math.pi * 2.0) <= triggering_angle then
-      if enemy:is_in_same_region(hero) then enemy:start_firing() end
+      if enemy:is_in_same_region(hero) and enemy:get_distance(hero) <= 256 then enemy:start_firing() end
     end
   end
 end

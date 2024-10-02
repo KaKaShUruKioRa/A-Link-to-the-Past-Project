@@ -85,6 +85,7 @@ enemy:register_event("on_created", function(enemy)
   enemy:set_life(1)
   enemy:set_size(4, 4)
   enemy:set_origin(2, 2)
+  enemy:set_property("is_major","true")
   enemy:set_minimum_shield_needed(3) -- Mirror shield.
 end)
 

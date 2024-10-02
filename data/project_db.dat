@@ -491,6 +491,8 @@ sprite{ id = "enemies/dark_world/taros_red", description = "Red Tarosu" }
 sprite{ id = "enemies/dark_world/taros_red_weapon", description = "Red Tarosu's weapon" }
 sprite{ id = "enemies/dungeons/bari_blue", description = "Blue Bari" }
 sprite{ id = "enemies/dungeons/chasupa", description = "Chasupa" }
+sprite{ id = "enemies/dungeons/devalant_blue", description = "Devalant bleu" }
+sprite{ id = "enemies/dungeons/devalant_red", description = "Devalant rouge" }
 sprite{ id = "enemies/dungeons/eyegore_green", description = "Green Eyegore" }
 sprite{ id = "enemies/dungeons/eyegore_red", description = "Red Eyegore" }
 sprite{ id = "enemies/dungeons/freezor", description = "Freezor" }
@@ -507,6 +509,7 @@ sprite{ id = "enemies/dungeons/leever_red", description = "Leever rouge" }
 sprite{ id = "enemies/dungeons/pengator", description = "Pengator" }
 sprite{ id = "enemies/dungeons/pike_auto", description = "Pike (always moving)" }
 sprite{ id = "enemies/dungeons/popo", description = "Popo" }
+sprite{ id = "enemies/dungeons/quicksand", description = "Sable mouvant" }
 sprite{ id = "enemies/dungeons/rat", description = "Rat" }
 sprite{ id = "enemies/dungeons/rolling_spike_trap", description = "Rolling Spike Trap" }
 sprite{ id = "enemies/dungeons/rope", description = "Serpent" }
@@ -981,6 +984,8 @@ enemy{ id = "dark_world/taros_blue", description = "Taros Blue" }
 enemy{ id = "dark_world/taros_red", description = "Taros Red" }
 enemy{ id = "dungeons/bari_blue", description = "Bari Blue" }
 enemy{ id = "dungeons/chasupa", description = "Chasupa" }
+enemy{ id = "dungeons/devalant_blue", description = "Devalant bleu" }
+enemy{ id = "dungeons/devalant_red", description = "Devalant rouge" }
 enemy{ id = "dungeons/eyegore_green", description = "Eyegore Green" }
 enemy{ id = "dungeons/eyegore_red", description = "Eyegore Red" }
 enemy{ id = "dungeons/freezor", description = "Freezor" }
@@ -997,6 +1002,7 @@ enemy{ id = "dungeons/leever_red", description = "Leever rouge" }
 enemy{ id = "dungeons/pengator", description = "Pengator" }
 enemy{ id = "dungeons/pike_auto", description = "Pike (always moving)" }
 enemy{ id = "dungeons/popo", description = "Popo" }
+enemy{ id = "dungeons/quicksand", description = "Sable mouvant" }
 enemy{ id = "dungeons/rat", description = "Rat" }
 enemy{ id = "dungeons/rolling_spike_trap", description = "Rolling Spike Trap" }
 enemy{ id = "dungeons/rope", description = "Serpent" }
@@ -1094,6 +1100,8 @@ file{ path = "enemies/dark_world/taros_red.lua", author = "Christopho", license 
 file{ path = "enemies/dungeons", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/bari_blue.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/chasupa.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/dungeons/devalant_blue.lua", author = "ZeldoRetro", }
+file{ path = "enemies/dungeons/devalant_red.lua", author = "ZeldoRetro", }
 file{ path = "enemies/dungeons/eyegore_green.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/dungeons/eyegore_red.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/dungeons/freezor.lua", author = "Christopho", license = "GPL v3" }
@@ -1110,6 +1118,7 @@ file{ path = "enemies/dungeons/leever_red.lua", author = "Vlag", }
 file{ path = "enemies/dungeons/pengator.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/pike_auto.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/popo.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/dungeons/quicksand.lua", author = "ZeldoRetro", }
 file{ path = "enemies/dungeons/rat.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/rolling_spike_trap.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/rope.lua", author = "ZeldoRetro", license = "GPL v3" }
@@ -2230,7 +2239,6 @@ file{ path = "maps/Archived/Autres/test_map/dungeon_entrance.dat", author = "KaK
 file{ path = "maps/Archived/Autres/test_map/dungeon_entrance.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/Autres/test_map/test_map.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/Autres/test_map/test_map.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/lib/evil_tiles.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "musics", license = "Proprietary (Fair use)" }
 file{ path = "musics/agahnim.it", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "musics/beginning.it", author = "Nintendo", license = "Proprietary (Fair use)" }
@@ -2530,6 +2538,8 @@ file{ path = "sprites/enemies/dungeons/bari_blue.dat", author = "Christopho", li
 file{ path = "sprites/enemies/dungeons/bari_blue.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/dungeons/chasupa.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/dungeons/chasupa.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/enemies/dungeons/devalant_blue.dat", author = "ZeldoRetro", }
+file{ path = "sprites/enemies/dungeons/devalant_red.dat", author = "ZeldoRetro", }
 file{ path = "sprites/enemies/dungeons/eyegore_green.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/dungeons/eyegore_green.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/dungeons/eyegore_red.dat", author = "Christopho", license = "CC BY-SA 4.0" }
@@ -2559,6 +2569,7 @@ file{ path = "sprites/enemies/dungeons/pike.png", author = "Nintendo", license =
 file{ path = "sprites/enemies/dungeons/pike_auto.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/dungeons/popo.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/dungeons/popo.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/enemies/dungeons/quicksand.dat", author = "ZeldoRetro", }
 file{ path = "sprites/enemies/dungeons/rat.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/dungeons/rat.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/dungeons/rolling_spike_trap.dat", author = "Christopho", license = "CC BY-SA 4.0" }
