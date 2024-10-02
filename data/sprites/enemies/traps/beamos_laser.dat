@@ -1,0 +1,18 @@
+animation{
+  name = "walking",
+  src_image = "enemies/traps/beamos_laser.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 4, frame_height = 4, origin_x = 2, origin_y = 2 },
+    { x = 0, y = 0, frame_width = 4, frame_height = 4, origin_x = 2, origin_y = 2 },
+    { x = 0, y = 0, frame_width = 4, frame_height = 4, origin_x = 2, origin_y = 2 },
+    { x = 0, y = 0, frame_width = 4, frame_height = 4, origin_x = 2, origin_y = 2 },
+  },
+}
+animation{
+  name = "destroy",
+  src_image = "entities/impact.png",
+  frame_delay = 50,
+  directions = {
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 4, origin_y = 4, num_frames = 4 },
+  },
+}

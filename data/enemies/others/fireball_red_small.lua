@@ -25,7 +25,7 @@ end
 local function go(angle)
 
   local movement = sol.movement.create("straight")
-  movement:set_speed(192)
+  movement:set_speed(144)
   movement:set_angle(angle)
   movement:set_smooth(false)
 

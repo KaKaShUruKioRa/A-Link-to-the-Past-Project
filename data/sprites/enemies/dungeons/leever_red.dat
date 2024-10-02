@@ -1,0 +1,80 @@
+animation{
+  name = "walking",
+  src_image = "enemies/dungeons/leever.png",
+  frame_delay = 70,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 144, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 2 },
+    { x = 0, y = 144, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 2 },
+    { x = 0, y = 144, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 2 },
+    { x = 0, y = 144, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 2 },
+  },
+}
+animation{
+  name = "appearing",
+  src_image = "enemies/dungeons/leever.png",
+  frame_delay = 80,
+  directions = {
+    { x = 0, y = 168, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 6 },
+    { x = 0, y = 168, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 6 },
+    { x = 0, y = 168, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 6 },
+    { x = 0, y = 168, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 6 },
+  },
+}
+animation{
+  name = "disappearing",
+  src_image = "enemies/dungeons/leever.png",
+  frame_delay = 80,
+  directions = {
+    { x = 0, y = 192, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 6 },
+    { x = 0, y = 192, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 6 },
+    { x = 0, y = 192, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 6 },
+    { x = 0, y = 192, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 6 },
+  },
+}
+animation{
+  name = "hurt",
+  src_image = "enemies/dungeons/leever.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 48, y = 144, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 3 },
+    { x = 48, y = 144, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 3 },
+    { x = 48, y = 144, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 3 },
+    { x = 48, y = 144, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 3 },
+  },
+}
+animation{
+  name = "immobilized",
+  src_image = "enemies/dungeons/leever.png",
+  directions = {
+    { x = 80, y = 144, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21 },
+    { x = 80, y = 144, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21 },
+    { x = 80, y = 144, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21 },
+    { x = 80, y = 144, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21 },
+  },
+}
+animation{
+  name = "invisible",
+  src_image = "enemies/dungeons/leever.png",
+  frame_delay = 70,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 113, y = 0, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21 },
+    { x = 113, y = 0, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21 },
+    { x = 113, y = 0, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21 },
+    { x = 113, y = 0, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21 },
+  },
+}
+animation{
+  name = "shaking",
+  src_image = "enemies/dungeons/leever.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 80, y = 144, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 2 },
+    { x = 80, y = 144, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 2 },
+    { x = 80, y = 144, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 2 },
+    { x = 80, y = 144, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 2 },
+  },
+}

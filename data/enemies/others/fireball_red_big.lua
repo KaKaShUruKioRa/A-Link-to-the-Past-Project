@@ -34,7 +34,7 @@ end
 function enemy:go(angle)
 
   local movement = sol.movement.create("straight")
-  movement:set_speed(192)
+  movement:set_speed(14)
   movement:set_angle(angle)
   movement:set_smooth(false)
   movement:set_max_distance(400)

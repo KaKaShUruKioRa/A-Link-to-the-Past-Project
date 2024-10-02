@@ -492,6 +492,8 @@ sprite{ id = "enemies/dark_world/taros_red", description = "Red Tarosu" }
 sprite{ id = "enemies/dark_world/taros_red_weapon", description = "Red Tarosu's weapon" }
 sprite{ id = "enemies/dungeons/bari_blue", description = "Blue Bari" }
 sprite{ id = "enemies/dungeons/chasupa", description = "Chasupa" }
+sprite{ id = "enemies/dungeons/devalant_blue", description = "Devalant bleu" }
+sprite{ id = "enemies/dungeons/devalant_red", description = "Devalant rouge" }
 sprite{ id = "enemies/dungeons/eyegore_green", description = "Green Eyegore" }
 sprite{ id = "enemies/dungeons/eyegore_red", description = "Red Eyegore" }
 sprite{ id = "enemies/dungeons/freezor", description = "Freezor" }
@@ -502,13 +504,18 @@ sprite{ id = "enemies/dungeons/hardhat_beetle_blue", description = "Blue Hardhat
 sprite{ id = "enemies/dungeons/hardhat_beetle_red", description = "Red Hardhat Beetle" }
 sprite{ id = "enemies/dungeons/helmasaur_red", description = "Red Helmasaur" }
 sprite{ id = "enemies/dungeons/keese", description = "Keese" }
+sprite{ id = "enemies/dungeons/leever_blue", description = "Leever bleu" }
+sprite{ id = "enemies/dungeons/leever_green", description = "Leever vert" }
+sprite{ id = "enemies/dungeons/leever_red", description = "Leever rouge" }
 sprite{ id = "enemies/dungeons/pengator", description = "Pengator" }
 sprite{ id = "enemies/dungeons/pike_auto", description = "Pike (always moving)" }
 sprite{ id = "enemies/dungeons/popo", description = "Popo" }
+sprite{ id = "enemies/dungeons/quicksand", description = "Sable mouvant" }
 sprite{ id = "enemies/dungeons/rat", description = "Rat" }
 sprite{ id = "enemies/dungeons/rolling_spike_trap", description = "Rolling Spike Trap" }
 sprite{ id = "enemies/dungeons/rope", description = "Serpent" }
 sprite{ id = "enemies/dungeons/skeleton_blue", description = "Blue Stalfos" }
+sprite{ id = "enemies/dungeons/skeleton_bone", description = "Skeleton (Bone)" }
 sprite{ id = "enemies/dungeons/skeleton_red", description = "Red Stalfos" }
 sprite{ id = "enemies/dungeons/stalfos_grey", description = "Grey Stalfos" }
 sprite{ id = "enemies/dungeons/stalfos_knight", description = "Stalfos Knight" }
@@ -556,11 +563,16 @@ sprite{ id = "enemies/soldiers/sword_soldier_blue", description = "Blue Sword So
 sprite{ id = "enemies/soldiers/sword_soldier_blue_weapon", description = "enemies/soldiers/sword_soldier_blue_weapon" }
 sprite{ id = "enemies/soldiers/sword_soldier_green", description = "Green Sword Soldier" }
 sprite{ id = "enemies/soldiers/sword_soldier_green_weapon", description = "enemies/soldiers/sword_soldier_green_weapon" }
+sprite{ id = "enemies/traps/beamos", description = "Beamos" }
+sprite{ id = "enemies/traps/beamos_laser", description = "Beamos (laser)" }
 sprite{ id = "enemies/traps/boulder", description = "Boulder" }
 sprite{ id = "enemies/traps/cactus", description = "Cactus" }
+sprite{ id = "enemies/traps/cannon", description = "Cannon mobile" }
+sprite{ id = "enemies/traps/cannon_projectile", description = "Canon (projectile)" }
 sprite{ id = "enemies/traps/cannonball", description = "Boulet de canon" }
 sprite{ id = "enemies/traps/cannonball_big", description = "Gros boulet de canon" }
 sprite{ id = "enemies/traps/cannonball_hand", description = "Main (obstacle)" }
+sprite{ id = "enemies/traps/evil_tile", description = "Dalle piégée" }
 sprite{ id = "enemies/traps/fire_fairy", description = "Fire Fairy" }
 sprite{ id = "enemies/traps/medusa", description = "Medusa" }
 sprite{ id = "enemies/traps/medusa_blue", description = "Blue Medusa" }
@@ -576,6 +588,7 @@ sprite{ id = "entities/block", description = "Block" }
 sprite{ id = "entities/bomb", description = "Bomb" }
 sprite{ id = "entities/boomerang1", description = "Boomerang 1" }
 sprite{ id = "entities/boomerang2", description = "Boomerang 2" }
+sprite{ id = "entities/cannon_smoke", description = "Effet de fumme (canon)" }
 sprite{ id = "entities/chest", description = "Chest" }
 sprite{ id = "entities/crystal", description = "Crystal" }
 sprite{ id = "entities/crystal_block", description = "Crystal block" }
@@ -588,6 +601,7 @@ sprite{ id = "entities/hammer_stake_green", description = "Hammer Stake Green" }
 sprite{ id = "entities/hammer_stake_yellow", description = "Hammer Stake Yellow" }
 sprite{ id = "entities/hookshot", description = "Hookshot" }
 sprite{ id = "entities/ice_beam", description = "Ice Beam" }
+sprite{ id = "entities/impact", description = "impact" }
 sprite{ id = "entities/items", description = "Items" }
 sprite{ id = "entities/pull_lever_bottom", description = "Levier a tirer (bas)" }
 sprite{ id = "entities/pull_lever_top", description = "Levier a tirer (haut)" }
@@ -971,6 +985,8 @@ enemy{ id = "dark_world/taros_blue", description = "Taros Blue" }
 enemy{ id = "dark_world/taros_red", description = "Taros Red" }
 enemy{ id = "dungeons/bari_blue", description = "Bari Blue" }
 enemy{ id = "dungeons/chasupa", description = "Chasupa" }
+enemy{ id = "dungeons/devalant_blue", description = "Devalant bleu" }
+enemy{ id = "dungeons/devalant_red", description = "Devalant rouge" }
 enemy{ id = "dungeons/eyegore_green", description = "Eyegore Green" }
 enemy{ id = "dungeons/eyegore_red", description = "Eyegore Red" }
 enemy{ id = "dungeons/freezor", description = "Freezor" }
@@ -981,9 +997,13 @@ enemy{ id = "dungeons/hardhat_beetle_blue", description = "Hardhat Beetle Blue" 
 enemy{ id = "dungeons/hardhat_beetle_red", description = "Hardhat Beetle Red" }
 enemy{ id = "dungeons/helmasaur_red", description = "Helmasaur Red" }
 enemy{ id = "dungeons/keese", description = "Keese" }
+enemy{ id = "dungeons/leever_blue", description = "Leever bleu" }
+enemy{ id = "dungeons/leever_green", description = "Leever vert" }
+enemy{ id = "dungeons/leever_red", description = "Leever rouge" }
 enemy{ id = "dungeons/pengator", description = "Pengator" }
 enemy{ id = "dungeons/pike_auto", description = "Pike (always moving)" }
 enemy{ id = "dungeons/popo", description = "Popo" }
+enemy{ id = "dungeons/quicksand", description = "Sable mouvant" }
 enemy{ id = "dungeons/rat", description = "Rat" }
 enemy{ id = "dungeons/rolling_spike_trap", description = "Rolling Spike Trap" }
 enemy{ id = "dungeons/rope", description = "Serpent" }
@@ -1022,8 +1042,13 @@ enemy{ id = "soldiers/soldier_simple_green", description = "Soldat vert simple" 
 enemy{ id = "soldiers/spear_soldier_red", description = "Spear Soldier Red" }
 enemy{ id = "soldiers/sword_soldier_blue", description = "Sword Soldier Blue" }
 enemy{ id = "soldiers/sword_soldier_green", description = "Sword Soldier Green" }
+enemy{ id = "traps/beamos", description = "Beamos" }
+enemy{ id = "traps/beamos_laser", description = "Beamos (laser)" }
+enemy{ id = "traps/cannon", description = "Canon mobile" }
+enemy{ id = "traps/cannon_projectile", description = "Zazak (flamme)" }
 enemy{ id = "traps/cannonball", description = "Boulet de canon" }
 enemy{ id = "traps/cannonball_big", description = "Gros boulet de canon" }
+enemy{ id = "traps/evil_tile", description = "Dalle piégée" }
 enemy{ id = "traps/fire_fairy", description = "Fire Fairy" }
 enemy{ id = "traps/medusa", description = "Medusa" }
 enemy{ id = "traps/trap_auto", description = "Mooving trap" }
@@ -1076,6 +1101,8 @@ file{ path = "enemies/dark_world/taros_red.lua", author = "Christopho", license 
 file{ path = "enemies/dungeons", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/bari_blue.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/chasupa.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/dungeons/devalant_blue.lua", author = "ZeldoRetro", }
+file{ path = "enemies/dungeons/devalant_red.lua", author = "ZeldoRetro", }
 file{ path = "enemies/dungeons/eyegore_green.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/dungeons/eyegore_red.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/dungeons/freezor.lua", author = "Christopho", license = "GPL v3" }
@@ -1086,9 +1113,13 @@ file{ path = "enemies/dungeons/hardhat_beetle_blue.lua", author = "Christopho", 
 file{ path = "enemies/dungeons/hardhat_beetle_red.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/helmasaur_red.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/keese.lua", author = "Christopho, Razdarac", license = "GPL v3" }
+file{ path = "enemies/dungeons/leever_blue.lua", author = "Vlag", }
+file{ path = "enemies/dungeons/leever_green.lua", author = "Vlag", }
+file{ path = "enemies/dungeons/leever_red.lua", author = "Vlag", }
 file{ path = "enemies/dungeons/pengator.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/pike_auto.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/popo.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/dungeons/quicksand.lua", author = "ZeldoRetro", }
 file{ path = "enemies/dungeons/rat.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/rolling_spike_trap.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/rope.lua", author = "ZeldoRetro", license = "GPL v3" }
@@ -1136,8 +1167,13 @@ file{ path = "enemies/soldiers/spear_soldier_red.lua", author = "Christopho", li
 file{ path = "enemies/soldiers/sword_soldier_blue.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/soldiers/sword_soldier_green.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/traps", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/traps/beamos.lua", author = "Vlag, ZeldoRetro", }
+file{ path = "enemies/traps/beamos_laser.lua", author = "Vlag, ZeldoRetro", }
+file{ path = "enemies/traps/cannon.lua", author = "ZeldoRetro", }
+file{ path = "enemies/traps/cannon_projectile.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/traps/cannonball.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/traps/cannonball_big.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "enemies/traps/evil_tile.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/traps/fire_fairy.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/traps/medusa.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/traps/trap_auto.lua", author = "Christopho", license = "GPL v3" }
@@ -2505,6 +2541,8 @@ file{ path = "sprites/enemies/dungeons/bari_blue.dat", author = "Christopho", li
 file{ path = "sprites/enemies/dungeons/bari_blue.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/dungeons/chasupa.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/dungeons/chasupa.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/enemies/dungeons/devalant_blue.dat", author = "ZeldoRetro", }
+file{ path = "sprites/enemies/dungeons/devalant_red.dat", author = "ZeldoRetro", }
 file{ path = "sprites/enemies/dungeons/eyegore_green.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/dungeons/eyegore_green.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/dungeons/eyegore_red.dat", author = "Christopho", license = "CC BY-SA 4.0" }
@@ -2525,12 +2563,16 @@ file{ path = "sprites/enemies/dungeons/helmasaur_red.dat", author = "Christopho"
 file{ path = "sprites/enemies/dungeons/helmasaur_red.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/dungeons/keese.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/dungeons/keese.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/enemies/dungeons/leever_blue.dat", author = "ZeldoRetro", }
+file{ path = "sprites/enemies/dungeons/leever_green.dat", author = "ZeldoRetro", }
+file{ path = "sprites/enemies/dungeons/leever_red.dat", author = "ZeldoRetro", }
 file{ path = "sprites/enemies/dungeons/pengator.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/dungeons/pengator.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/dungeons/pike.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/dungeons/pike_auto.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/dungeons/popo.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/dungeons/popo.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/enemies/dungeons/quicksand.dat", author = "ZeldoRetro", }
 file{ path = "sprites/enemies/dungeons/rat.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/dungeons/rat.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/dungeons/rolling_spike_trap.dat", author = "Christopho", license = "CC BY-SA 4.0" }
@@ -2539,6 +2581,7 @@ file{ path = "sprites/enemies/dungeons/rope.dat", author = "Christopho", license
 file{ path = "sprites/enemies/dungeons/rope.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/dungeons/skeleton_blue.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/dungeons/skeleton_blue.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/enemies/dungeons/skeleton_bone.dat", author = "ZeldoRetro", }
 file{ path = "sprites/enemies/dungeons/skeleton_red.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/dungeons/skeleton_red.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/dungeons/stalfos_grey.dat", author = "Christopho", license = "CC BY-SA 4.0" }
@@ -2632,14 +2675,19 @@ file{ path = "sprites/enemies/soldiers/sword_soldier_green.dat", author = "Chris
 file{ path = "sprites/enemies/soldiers/sword_soldier_green.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/soldiers/sword_soldier_green_weapon.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/traps", license = "Mixed" }
+file{ path = "sprites/enemies/traps/beamos.dat", author = "ZeldoRetro", }
+file{ path = "sprites/enemies/traps/beamos_laser.dat", author = "ZeldoRetro", }
 file{ path = "sprites/enemies/traps/boulder.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/traps/boulder.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/traps/cactus.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/traps/cactus.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/enemies/traps/cannon.dat", author = "ZeldoRetro", }
+file{ path = "sprites/enemies/traps/cannon_projectile.dat", author = "ZeldoRetro", }
 file{ path = "sprites/enemies/traps/cannonball.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/traps/cannonball.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/traps/cannonball_big.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/traps/cannonball_hand.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/traps/evil_tile.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/traps/fire_fairy.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/traps/fire_fairy.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/traps/medusa.dat", author = "Christopho", license = "CC BY-SA 4.0" }
@@ -2666,6 +2714,7 @@ file{ path = "sprites/entities/bomb.png", author = "Nintendo", license = "Propri
 file{ path = "sprites/entities/boomerang.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/entities/boomerang1.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/boomerang2.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/cannon_smoke.dat", author = "ZeldoRetro", }
 file{ path = "sprites/entities/chest.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/chest.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/entities/crystal.dat", author = "Christopho", license = "CC BY-SA 4.0" }
@@ -2691,6 +2740,8 @@ file{ path = "sprites/entities/hookshot.dat", author = "Christopho", license = "
 file{ path = "sprites/entities/hookshot.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/entities/ice_beam.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/ice_beam.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/entities/impact.dat", author = "Vlag", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/impact.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/entities/items.dat", author = "Christopho, Mehdi Khelifi", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/pull_lever_bottom.dat", author = "ZeldoRetro", }
 file{ path = "sprites/entities/pull_lever_top.dat", author = "ZeldoRetro", }

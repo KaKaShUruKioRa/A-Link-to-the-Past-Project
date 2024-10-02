@@ -2,7 +2,7 @@ dialog{
   id = "NoBigKey",
   skip = "all",
   text = [[
-Hein ? c'est fermé a clé !
+Hein ? C'est fermé à clé !
 Si tu avais une Grande Clé,
 tu pourrais ouvrir 
 ]],
@@ -607,10 +607,10 @@ dialog{
 Ce blason doit s'ouvrir en coulissant.
 Tu as la Lanterne ?
 
-C'est indispensabble car il fait
+C'est indispensable car il fait
 rudement sombre la-dedans.
 
-Si tu es prêts, allons-y.
+Si tu es prêt, allons-y.
 Aide-moi à pousser le blason
 par la gauche !
 ]],
