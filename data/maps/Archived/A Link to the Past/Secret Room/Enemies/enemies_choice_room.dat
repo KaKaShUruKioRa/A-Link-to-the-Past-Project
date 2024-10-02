@@ -11684,19 +11684,19 @@ stream{
 }
 
 sensor{
-  name = "lanmola",
+  name = "devalant_blue",
   layer = 1,
   x = 384,
-  y = 189,
+  y = 213,
   width = 16,
   height = 16,
 }
 
 sensor{
-  name = "agahnim_1",
+  name = "eyegore_green",
   layer = 1,
   x = 896,
-  y = 197,
+  y = 213,
   width = 16,
   height = 16,
 }
@@ -12000,7 +12000,63 @@ custom_entity{
   width = 16,
   height = 16,
   direction = 3,
-  sprite = "enemies/light_world/vulture",
+}
+
+custom_entity{
+  name = "spawn_enemy_2",
+  layer = 1,
+  x = 384,
+  y = 125,
+  properties = {
+    {
+      key = "name",
+      value = "dungeons/devalant_blue",
+    },
+  },
+  width = 16,
+  height = 16,
+  direction = 3,
+}
+
+custom_entity{
+  name = "spawn_enemy_3",
+  layer = 1,
+  x = 384,
+  y = 125,
+  properties = {
+    {
+      key = "name",
+      value = "dungeons/quicksand",
+    },
+  },
+  width = 16,
+  height = 16,
+  direction = 3,
+}
+
+sensor{
+  name = "quicksand",
+  layer = 1,
+  x = 384,
+  y = 213,
+  width = 16,
+  height = 16,
+}
+
+custom_entity{
+  name = "spawn_enemy_4",
+  layer = 1,
+  x = 896,
+  y = 133,
+  properties = {
+    {
+      key = "name",
+      value = "dungeons/eyegore_green",
+    },
+  },
+  width = 16,
+  height = 16,
+  direction = 3,
 }
 
 tile{

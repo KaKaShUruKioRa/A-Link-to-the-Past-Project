@@ -1,6 +1,9 @@
 local enemy = ...
 local going_hero = false
 local timer
+local timer_awakening = 500
+local timer_asleep = 2000
+local timer_following = 3000
 
 --Eyegore green
 
@@ -65,7 +68,7 @@ function enemy:check_hero()
     self:awakens()
   end
 -- TODO #21 : Timing d'ouverture de l'oeil lié à la vérification de pressence du Héro... trop lent
-  timer = sol.timer.start(self, 1000, function() self:check_hero() end)
+  timer = sol.timer.start(self, timer_awakening, function() self:check_hero() end)
 end
 
 function enemy:sleep()
@@ -76,15 +79,13 @@ function enemy:sleep()
   self:set_attack_consequence("explosion", "protected")
   self:get_sprite():set_animation("sleeping",function()
     self:get_sprite():set_animation("immobilized")
-    going_hero = false
-    self:check_hero()
   end)
+  timer = sol.timer.start(self, timer_asleep, function() going_hero = false self:check_hero() end)
 end
 
 function enemy:awakens()
-  self:get_sprite():set_animation("awakening",function()
-    self:go_hero()
-  end)
+  self:get_sprite():set_animation("awakening",function() end)
+  timer = sol.timer.start(self, timer_awakening, function() self:go_hero() end)  
 end
 
 function enemy:on_movement_changed(movement)
@@ -92,6 +93,8 @@ function enemy:on_movement_changed(movement)
     local direction4 = movement:get_direction4()
     local sprite = self:get_sprite()
     sprite:set_direction(direction4)
+    timer_following = timer_following - 25
+    print(timer_following)
 end
 
 function enemy:go_hero()
@@ -107,7 +110,8 @@ function enemy:go_hero()
   m:set_speed(56)
   m:start(self)
   going_hero = true
-  sol.timer.start(self,3000,function() 
+  sol.timer.start(self,timer_following,function()
+    timer_following = 3000  
     m:stop(self)
     self:sleep() 
   end)

@@ -30,9 +30,11 @@ function debug:on_key_pressed(key, modifiers)
     if game ~= nil and game:get_map() ~= nil then
       hero = game:get_map():get_entity("hero")
     end
-
+    
     if key == "p" then
       game:add_life(4)
+    elseif key == ")" then
+      hero:teleport("Archived/A Link to the Past/Secret Room/Enemies/enemies_choice_room")
     elseif key == "m" then
       game:remove_life(4)
     elseif key == "o" then
