@@ -17,7 +17,7 @@ tile_pattern{
   y = 816,
   width = 16,
   height = 16,
-  repeat_mode = "none",
+  repeat_mode = "horizontal",
 }
 
 tile_pattern{
@@ -71257,7 +71257,7 @@ tile_pattern{
   y = 288,
   width = 16,
   height = 16,
-  repeat_mode = "none",
+  repeat_mode = "horizontal",
 }
 
 tile_pattern{
@@ -71409,7 +71409,7 @@ tile_pattern{
   y = 304,
   width = 16,
   height = 8,
-  repeat_mode = "none",
+  repeat_mode = "horizontal",
 }
 
 tile_pattern{
@@ -71536,7 +71536,7 @@ tile_pattern{
   y = 832,
   width = 16,
   height = 8,
-  repeat_mode = "none",
+  repeat_mode = "horizontal",
 }
 
 tile_pattern{

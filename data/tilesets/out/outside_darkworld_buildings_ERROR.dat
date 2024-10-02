@@ -58458,7 +58458,7 @@ tile_pattern{
   y = 1128,
   width = 8,
   height = 8,
-  repeat_mode = "none",
+  repeat_mode = "vertical",
 }
 
 tile_pattern{
@@ -58491,7 +58491,7 @@ tile_pattern{
   y = 1128,
   width = 8,
   height = 8,
-  repeat_mode = "none",
+  repeat_mode = "vertical",
 }
 
 tile_pattern{
