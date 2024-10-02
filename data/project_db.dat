@@ -364,6 +364,7 @@ map{ id = "Archived/A Link to the Past/Secret Room/Caves/secret_darkcaves", desc
 map{ id = "Archived/A Link to the Past/Secret Room/Caves/secret_lightcaves", description = "Secret Light Caves" }
 map{ id = "Archived/A Link to the Past/Secret Room/Dungeons/secret_darkdungeons", description = "Secret Dark Dungeons" }
 map{ id = "Archived/A Link to the Past/Secret Room/Dungeons/secret_lightdungeons", description = "Secret Light Dungeons" }
+map{ id = "Archived/A Link to the Past/Secret Room/Enemies/enemies_choice_room", description = "Archived/A Link to the Past/Secret Room/Ennemies/ennemies_choice_room" }
 map{ id = "Archived/A Link to the Past/Secret Room/Houses/secret_darkhouses", description = "Secret Dark Houses" }
 map{ id = "Archived/A Link to the Past/Secret Room/Houses/secret_lighthouses", description = "Secret Light Houses" }
 map{ id = "Archived/A Link to the Past/Secret Room/Overworld/secret_darkworld", description = "Secret DarkWorld" }
@@ -2176,6 +2177,8 @@ file{ path = "maps/Archived/A Link to the Past/Secret Room/Dungeons/secret_darkd
 file{ path = "maps/Archived/A Link to the Past/Secret Room/Dungeons/secret_darkdungeons.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Secret Room/Dungeons/secret_lightdungeons.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Secret Room/Dungeons/secret_lightdungeons.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Archived/A Link to the Past/Secret Room/Enemies/enemies_choice_room.dat", author = "Adenothe", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Archived/A Link to the Past/Secret Room/Enemies/enemies_choice_room.lua", author = "Adenothe", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Secret Room/Houses", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Secret Room/Houses/secret_darkhouses.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Secret Room/Houses/secret_darkhouses.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
