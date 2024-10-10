@@ -94,7 +94,6 @@ function enemy:on_movement_changed(movement)
     local sprite = self:get_sprite()
     sprite:set_direction(direction4)
     timer_following = timer_following - 25
-    print(timer_following)
 end
 
 function enemy:go_hero()

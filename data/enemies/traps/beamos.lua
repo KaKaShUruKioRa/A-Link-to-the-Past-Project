@@ -15,18 +15,23 @@ local triggering_angle = angle_per_frame * 1.5
 local start_shooting_delay = 300
 local pause_duration = 300
 local is_exhausted_duration = 600
+local create_shooting_delay = 500
+local start_shooting = false
+local laser_direction
 
 -- Properties
 function enemy:on_created()
 
   enemy:set_size(16, 16)
-  enemy:set_origin(8, 13)
   self:set_invincible()
+  self:set_damage(4)
   enemy:set_property("is_major","true")
-  self:set_can_attack(false)
   self.is_exhausted = false -- True after a shoot and before a delay.
+  sol.timer.start(500, function()
+    start_shooting = true
+  end)
 end
-
+  
 -- Function to start firing.
 function enemy:start_firing()
 
@@ -53,7 +58,8 @@ function enemy:start_firing()
       x = x,
       y = y - 13,
       layer = layer,
-      direction = enemy:get_sprite():get_frame()
+      direction = laser_direction,
+      name = laser_direction
     })
     sol.audio.play_sound("lightning")
 
@@ -74,14 +80,17 @@ end
 -- Check if the beamos is facing the hero at each frame change, then stop and shoot.
 function sprite:on_frame_changed(animation, frame)
 
-  if not enemy.is_exhausted then
+  if (not enemy.is_exhausted) and start_shooting then
     local x, y, _ = enemy:get_position()
     local hero_x, hero_y, _ = hero:get_position()
     local enemy_angle = frame * angle_per_frame - math.pi * 0.5 -- Frame 0 of the sprite faces the south.
     local hero_angle = math.atan2(y - hero_y, hero_x - x)
 
     if math.abs(enemy_angle - hero_angle) % (math.pi * 2.0) <= triggering_angle then
-      if enemy:is_in_same_region(hero) and enemy:get_distance(hero) <= 256 then enemy:start_firing() end
+      if enemy:is_in_same_region(hero) and enemy:get_distance(hero) <= 256 then 
+        laser_direction = hero_angle
+        enemy:start_firing() 
+      end
     end
   end
 end

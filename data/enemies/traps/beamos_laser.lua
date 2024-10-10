@@ -91,8 +91,10 @@ end)
 
 -- Restart settings.
 enemy:register_event("on_restarted", function(enemy)
-
-  angle = enemy:get_angle(hero)
+  angle = enemy:get_name()
+  local laser_direction = angle:match("(.-)%_")
+  if laser_direction ~= nil then angle = laser_direction end
+  angle = tonumber(angle)
   enemy:set_obstacle_behavior("flying")
   enemy:set_can_hurt_hero_running(true)
   enemy:set_invincible(true)

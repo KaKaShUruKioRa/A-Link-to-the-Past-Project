@@ -12,7 +12,6 @@ function map:on_started()
         if entity:get_type() == "custom_entity" then
           local x, y, layer = entity:get_position()
           local breed = entity:get_property("name")
-          print(breed)
           local parts = {}
           for part in string.gmatch(breed, "/(.*)") do
             table.insert(parts, part)
@@ -24,7 +23,7 @@ function map:on_started()
                 enemies:remove()
               end
             end
-            map:create_enemy({breed = breed, layer = layer, x = x, y = y, direction = 3, name = entity_name})
+            map:create_enemy({breed = breed, layer = layer, x = x, y = y, direction = 1, name = entity_name})
           end
         end
       end

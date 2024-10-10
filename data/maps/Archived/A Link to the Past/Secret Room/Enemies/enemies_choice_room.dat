@@ -11702,10 +11702,10 @@ sensor{
 }
 
 sensor{
-  name = "helmasaur",
+  name = "beamos",
   layer = 1,
   x = 1152,
-  y = 197,
+  y = 213,
   width = 16,
   height = 16,
 }
@@ -12052,6 +12052,22 @@ custom_entity{
     {
       key = "name",
       value = "dungeons/eyegore_green",
+    },
+  },
+  width = 16,
+  height = 16,
+  direction = 3,
+}
+
+custom_entity{
+  name = "spawn_enemy_5",
+  layer = 1,
+  x = 1152,
+  y = 125,
+  properties = {
+    {
+      key = "name",
+      value = "traps/beamos",
     },
   },
   width = 16,
