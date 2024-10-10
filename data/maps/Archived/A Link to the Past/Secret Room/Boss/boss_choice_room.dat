@@ -6,7 +6,7 @@ properties{
   min_layer = -8,
   max_layer = 7,
   world = "Secret Room",
-  tileset = "dungeon/green",
+  tileset = "dungeon/brown",
 }
 
 tile{
@@ -9117,7 +9117,7 @@ enemy{
   y = 125,
   enabled_at_start = false,
   direction = 0,
-  breed = "dark_world/ropa",
+  breed = "bosses/lanmola",
 }
 
 enemy{
@@ -12049,7 +12049,7 @@ sensor{
   name = "lanmola",
   layer = 1,
   x = 384,
-  y = 189,
+  y = 197,
   width = 16,
   height = 16,
 }
@@ -12231,8 +12231,8 @@ destination{
 destination{
   name = "destination",
   layer = 1,
-  x = 64,
-  y = 373,
+  x = 384,
+  y = 325,
   direction = 0,
   starting_location_mode = "yes",
 }
