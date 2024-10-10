@@ -26,7 +26,7 @@ function map:start_evil_tiles()
   -- Plays a sound repeatedly as long as at least one tile is moving.
   local function repeat_sound()
 
-    sol.audio.play_sound("walk_on_grass")
+    if map:get_entity("evil_tile_after_1"):is_in_same_region(map:get_hero()) then sol.audio.play_sound("walk_on_grass") end
 
     -- Repeat the sound until the last tile starts animation "destroy".
     local again = false

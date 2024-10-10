@@ -60,6 +60,21 @@ local dungeons_info = {
       y = 480 + 224,
     },
   },
+  ["tower_of_hera"] = {
+    floor_width = 512,
+    floor_height = 512,
+    lowest_floor = 0,
+    highest_floor = 5,
+    maps = {
+      "A Link To The Past/Light World/Dungeons/Tower of Hera/F1/F1_tower_of_hera","A Link To The Past/Light World/Dungeons/Tower of Hera/F2/F2_tower_of_hera","A Link To The Past/Light World/Dungeons/Tower of Hera/F3/F3_tower_of_hera","A Link To The Past/Light World/Dungeons/Tower of Hera/F4/F4_tower_of_hera","A Link To The Past/Light World/Dungeons/Tower of Hera/F5/F5_tower_of_hera","A Link To The Past/Light World/Dungeons/Tower of Hera/F6/F6_tower_of_hera"
+    },
+    boss = {
+      floor = 1,
+      savegame_variable = "tower_of_hera_boss",
+      x = 960,
+      y = 480 + 224,
+    },
+  },
 }
 
 return dungeons_info

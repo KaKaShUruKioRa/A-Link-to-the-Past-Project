@@ -69,7 +69,7 @@ function enemy:disappear()
     self:set_can_attack(false)
     self:stop_movement()
     sprite:set_animation("destroy")
-    sol.audio.play_sound("stone")
+    if enemy:is_in_same_region(enemy:get_map():get_hero()) then sol.audio.play_sound("stone") end
     sol.timer.stop_all(self)
   end
 end

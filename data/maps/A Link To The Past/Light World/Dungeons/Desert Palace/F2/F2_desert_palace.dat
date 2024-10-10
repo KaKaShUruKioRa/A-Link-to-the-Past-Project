@@ -3181,6 +3181,71 @@ dynamic_tile{
   pattern = "door_top.closed.1-2",
 }
 
+enemy{
+  name = "boss",
+  layer = 1,
+  x = 640,
+  y = 357,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
+  direction = 3,
+  breed = "bosses/moldorm",
+  treasure_name = "consumables/heart_container",
+}
+
+custom_entity{
+  name = "key_item_spot",
+  layer = 1,
+  x = 640,
+  y = 397,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "shadow",
+  layer = 1,
+  x = 640,
+  y = 397,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/shadow",
+}
+
+door{
+  name = "auto_door_6",
+  layer = 1,
+  x = 632,
+  y = 472,
+  direction = 3,
+  sprite = "doors/door_d1_normal",
+}
+
+sensor{
+  name = "sensor_falling_auto_door_6_n_open",
+  layer = 1,
+  x = 640,
+  y = 525,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "sensor_boss",
+  layer = 1,
+  x = 632,
+  y = 469,
+  width = 32,
+  height = 16,
+}
+
 tile{
   layer = 2,
   x = 512,
@@ -3800,9 +3865,9 @@ separator{
 dynamic_tile{
   name = "sliding_wall_4",
   layer = 2,
-  x = 592,
+  x = 512,
   y = 544,
-  width = 64,
+  width = 144,
   height = 160,
   pattern = "ceiling.1",
 }

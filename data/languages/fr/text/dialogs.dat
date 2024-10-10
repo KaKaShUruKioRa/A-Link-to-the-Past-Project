@@ -191,6 +191,15 @@ profonde !
 }
 
 dialog{
+  id = "_treasure.equipment/glove.1",
+  text = [[
+Tu as récupéré le Gant de la
+Puissance !$0 Tu dois ressentir
+la force dans tes mains.
+]],
+}
+
+dialog{
   id = "_treasure.equipment/shield.1",
   text = [[
 Tu as trouvé
@@ -251,9 +260,8 @@ avec ça !
 
 dialog{
   id = "_treasure.inventory/boomerang.1",
-  skip = "all",
   text = [[
-Tu as le Boomerang ! Fais un
+Tu as le Boomerang ! $0Fais un
 essai ! Pour choisir un objet,
 appuie sur Pause.
 ]],
@@ -364,6 +372,22 @@ Tu as gagné le Pendentif du
 Courage ! $0
 Apporte-le à Sahasrahla !
 Il reste encore deux Pendentifs !
+]],
+}
+
+dialog{
+  id = "_treasure.quest/pendant_of_power.1",
+  text = [[
+Tu as gagné le Pendentif du
+Pouvoir ! $0
+]],
+}
+
+dialog{
+  id = "_treasure.quest/pendant_of_wisdom.1",
+  text = [[
+Tu as gagné le Pendentif de
+Sagesse ! $0
 ]],
 }
 
@@ -685,6 +709,24 @@ au Rez-de-chaussée.
 }
 
 dialog{
+  id = "misc.pendants_all",
+  text = [[
+Bravo ! Tu as les 3 Pendentifs !
+Pars maintenant aux Bois Perdus
+pour retrouver l'Epée de Légende.
+]],
+}
+
+dialog{
+  id = "misc.pendants_only_one",
+  text = [[
+Tu te rapproches de ton objectif
+qui est de trouver les 3 Pendentifs.
+Pars à la recherche du dernier !
+]],
+}
+
+dialog{
   id = "on_look.cant_lift",
   text = [[
 Tu ne peut pas soulever ça !
@@ -765,6 +807,15 @@ J'offre 100 rubis à l'homme
 qui retrouvera les jeunes
 filles descendants des 7 Sages.
 Signé : LE ROI
+]],
+}
+
+dialog{
+  id = "ts.hint_desert",
+  text = [[
+Link, c'est moi, Sahasrahla.
+Tu dois retrouver impérativement
+les trésors de chaque donjon.
 ]],
 }
 

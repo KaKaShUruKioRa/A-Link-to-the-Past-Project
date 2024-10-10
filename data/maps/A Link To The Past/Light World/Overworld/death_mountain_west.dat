@@ -21725,7 +21725,7 @@ teletransporter{
   width = 16,
   height = 16,
   destination_map = "A Link To The Past/Light World/Dungeons/Tower of Hera/F2/F2_tower_of_hera",
-  destination = "dest_map_F2_tower_of_hero_0",
+  destination = "entree",
 }
 
 jumper{
@@ -21887,7 +21887,7 @@ destination{
   name = "dest_dungeon_cemetery_0",
   layer = 0,
   x = 760,
-  y = 149,
+  y = 157,
   direction = 3,
 }
 

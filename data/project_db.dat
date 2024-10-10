@@ -123,7 +123,7 @@ map{ id = "A Link To The Past/Light World/Dungeons/Desert Palace/B1/B1_desert_pa
 map{ id = "A Link To The Past/Light World/Dungeons/Desert Palace/F1/F1_desert_palace", description = "F1 Desert Palace" }
 map{ id = "A Link To The Past/Light World/Dungeons/Desert Palace/F2/F2_desert_palace", description = "F2 Desert Palace" }
 map{ id = "A Link To The Past/Light World/Dungeons/Eastern Palace/F1/F1_eastern_palace", description = "F1 Eastern Palace" }
-map{ id = "A Link To The Past/Light World/Dungeons/Eastern Palace/F1/F1_secret_fairy", description = "B1 Secret Fairy" }
+map{ id = "A Link To The Past/Light World/Dungeons/Eastern Palace/F1/F1_secret_fairy", description = "Secret Fairy" }
 map{ id = "A Link To The Past/Light World/Dungeons/Eastern Palace/F2/F2_eastern_palace", description = "F2 Eastern Palace" }
 map{ id = "A Link To The Past/Light World/Dungeons/Hyrule Castle Tower/F1/F1_hyrule_castle_tower", description = "F1 Hyrule Castle Tower" }
 map{ id = "A Link To The Past/Light World/Dungeons/Hyrule Castle Tower/F2/F2_hyrule_castle_tower", description = "F2 Hyrule Castle Tower" }
@@ -140,12 +140,13 @@ map{ id = "A Link To The Past/Light World/Dungeons/Hyrule Castle/F2/F2_hyrule_ca
 map{ id = "A Link To The Past/Light World/Dungeons/Secret Passage/B1/B1_secret_passage", description = "B1 Secret Passage" }
 map{ id = "A Link To The Past/Light World/Dungeons/Secret Passage/F1/F1_secret_passage", description = "F1 Secret Passage" }
 map{ id = "A Link To The Past/Light World/Dungeons/Secret Passage/F2/F2_secret_passage", description = "F2 Secret Passage" }
-map{ id = "A Link To The Past/Light World/Dungeons/Tower of Hera/F1/F1_tower_of_hera", description = "F1 Tower of Hero" }
-map{ id = "A Link To The Past/Light World/Dungeons/Tower of Hera/F2/F2_tower_of_hera", description = "F2 Tower of Hero" }
-map{ id = "A Link To The Past/Light World/Dungeons/Tower of Hera/F3/F3_tower_of_hera", description = "F3 Tower of Hero" }
-map{ id = "A Link To The Past/Light World/Dungeons/Tower of Hera/F4/F4_tower_of_hera", description = "F4 Tower of Hero" }
-map{ id = "A Link To The Past/Light World/Dungeons/Tower of Hera/F5/F5_tower_of_hera", description = "F5 Tower of Hero" }
-map{ id = "A Link To The Past/Light World/Dungeons/Tower of Hera/F6/F6_tower_of_hera", description = "F6 Tower of Hero" }
+map{ id = "A Link To The Past/Light World/Dungeons/Tower of Hera/F1/F1_tower_of_hera", description = "F1 Tower of Hera" }
+map{ id = "A Link To The Past/Light World/Dungeons/Tower of Hera/F1/secret_fairy", description = "Secret Fairy" }
+map{ id = "A Link To The Past/Light World/Dungeons/Tower of Hera/F2/F2_tower_of_hera", description = "F2 Tower of Hera" }
+map{ id = "A Link To The Past/Light World/Dungeons/Tower of Hera/F3/F3_tower_of_hera", description = "F3 Tower of Hera" }
+map{ id = "A Link To The Past/Light World/Dungeons/Tower of Hera/F4/F4_tower_of_hera", description = "F4 Tower of Hera" }
+map{ id = "A Link To The Past/Light World/Dungeons/Tower of Hera/F5/F5_tower_of_hera", description = "F5 Tower of Hera" }
+map{ id = "A Link To The Past/Light World/Dungeons/Tower of Hera/F6/F6_tower_of_hera", description = "F6 Tower of Hera" }
 map{ id = "A Link To The Past/Light World/Houses/Kakariko/blind_hideout", description = "Blind Hideout" }
 map{ id = "A Link To The Past/Light World/Houses/Kakariko/chickens_house", description = "Chickens' House" }
 map{ id = "A Link To The Past/Light World/Houses/Kakariko/denouncer_left", description = "Denouncer Left" }
@@ -1102,8 +1103,8 @@ file{ path = "enemies/dungeons/bari_blue.lua", author = "Christopho", license = 
 file{ path = "enemies/dungeons/chasupa.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/devalant_blue.lua", author = "ZeldoRetro", }
 file{ path = "enemies/dungeons/devalant_red.lua", author = "ZeldoRetro", }
-file{ path = "enemies/dungeons/eyegore_green.lua", author = "ZeldoRetro", license = "GPL v3" }
-file{ path = "enemies/dungeons/eyegore_red.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "enemies/dungeons/eyegore_green.lua", author = "Razdarac", license = "GPL v3" }
+file{ path = "enemies/dungeons/eyegore_red.lua", author = "Razdarac", license = "GPL v3" }
 file{ path = "enemies/dungeons/freezor.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/gibdo.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/goriya_green.lua", author = "Christopho", license = "GPL v3" }
@@ -1662,6 +1663,8 @@ file{ path = "maps/A Link To The Past/Light World/Dungeons/Tower of Hera", autho
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Tower of Hera/F1", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Tower of Hera/F1/F1_tower_of_hera.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Tower of Hera/F1/F1_tower_of_hera.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Dungeons/Tower of Hera/F1/secret_fairy.dat", author = "ZeldoRetro", }
+file{ path = "maps/A Link To The Past/Light World/Dungeons/Tower of Hera/F1/secret_fairy.lua", author = "ZeldoRetro", }
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Tower of Hera/F2", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Tower of Hera/F2/F2_tower_of_hera.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Tower of Hera/F2/F2_tower_of_hera.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
