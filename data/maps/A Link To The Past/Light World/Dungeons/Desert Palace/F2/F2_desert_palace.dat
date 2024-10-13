@@ -3182,19 +3182,19 @@ dynamic_tile{
 }
 
 enemy{
-  name = "boss",
+  name = "lamnola_1",
   layer = 1,
   x = 640,
-  y = 357,
+  y = 349,
+  enabled_at_start = false,
   properties = {
     {
       key = "is_major",
       value = "true",
     },
   },
-  direction = 3,
-  breed = "bosses/moldorm",
-  treasure_name = "consumables/heart_container",
+  direction = 0,
+  breed = "bosses/lanmola",
 }
 
 custom_entity{
@@ -3244,6 +3244,38 @@ sensor{
   y = 469,
   width = 32,
   height = 16,
+}
+
+enemy{
+  name = "lamnola_2",
+  layer = 1,
+  x = 584,
+  y = 445,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
+  direction = 0,
+  breed = "bosses/lanmola",
+}
+
+enemy{
+  name = "lamnola_3",
+  layer = 1,
+  x = 696,
+  y = 445,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
+  direction = 0,
+  breed = "bosses/lanmola",
 }
 
 tile{

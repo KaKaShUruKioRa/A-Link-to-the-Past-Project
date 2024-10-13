@@ -25,9 +25,8 @@ function map:on_started(destination)
   -- Dalles piégées
   map:set_entities_enabled("evil_tile_", false)
 
-  --Pendentif obtenue : Boss ne revient pas
+  --Pendentif obtenu : Boss ne revient pas
   if game:get_value("get_pendant_of_power") then
-    boss:set_enabled(false)
     sensor_boss:set_enabled(false)
     sensor_falling_auto_door_6_n_open:set_enabled(false)
     map:set_doors_open("auto_door_6")
@@ -82,6 +81,42 @@ for torch in map:get_entities("wall_torch") do
           game:set_value("desert_palace_sliding_wall",true)
         end)
       end,1000,5000)     
+    end
+  end
+end
+
+--BOSS : ACTIVATION LAMNOLAS, MORT ET RÉCUPÉRATION PENDENTIF
+
+function sensor_boss:on_activated()
+    self:set_enabled(false)
+    hero:freeze()
+    sol.timer.start(map,200,function()
+      sol.audio.play_music("boss")
+      hero:unfreeze()
+      local m = sol.movement.create("straight")
+      m:set_max_distance(16)
+      m:set_angle(math.pi / 2)
+      m:start(map:get_camera())
+      local i = 1
+      sol.timer.start(map, math.random(100,500), function()
+        map:get_entity("lamnola_"..i):set_enabled(true)
+        i = i + 1
+        return i < 4
+      end)
+    end)
+end
+
+for enemy in map:get_entities("lamnola_") do
+  function enemy:on_dead()
+    local x, y, layer = enemy:get_position()
+    if not map:has_entities("lamnola_") then
+      map:create_pickable{
+        treasure_name = "consumables/heart_container",
+        treasure_variant = 1,
+        x = x,
+        y = y,
+        layer = layer
+      }
     end
   end
 end

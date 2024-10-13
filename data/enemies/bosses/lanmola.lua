@@ -36,6 +36,7 @@ function enemy:on_created()
   enemy:set_life(16)
   enemy:set_damage(1)
   enemy:set_hurt_style("boss")
+  enemy:set_push_hero_on_sword(true)
   enemy:set_pushed_back_when_hurt(false)
   enemy:set_can_attack(false)
 
