@@ -51,14 +51,15 @@ function enemy:on_restarted()
     sprite:set_animation("immobilized")
     if (sol.main.get_distance(x, y, hero:get_position()) < 64)
     and enemy:is_in_same_region(hero) then
-      sprite:set_animation("awakening", function()
-        state = 1
-        enemy:set_vulnerable(true)
-        enemy:set_can_attack(true)
-        step = 20
-        sprite:set_animation("walking")
-        enemy:restart()
-      end)
+      sprite:set_animation("awakening")
+        sol.timer.start(enemy, 1200, function()
+          state = 1
+          enemy:set_vulnerable(true)
+          enemy:set_can_attack(true)
+          step = 20
+          sprite:set_animation("walking")
+          enemy:restart()
+        end)
     else
       sol.timer.start(enemy, 200, function()
         enemy:restart()
