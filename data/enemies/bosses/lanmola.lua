@@ -12,6 +12,9 @@ local speed = 0.4
 local state = 0
 local frame = 0
 local angle_calcul = math.rad(math.random(0, 360))
+local underground_delay = 0
+local flight_duration = 0
+local projectiles_random_direction = 0
 local on_hurted = 0
 
 local x, y, layer = enemy:get_position()
@@ -67,29 +70,41 @@ end
 local children = {}
 
 local function shoot()
-
-  -- Where to create the projectile.
-  local dxy = {
-    {  8,  -4 },
-    {  0, -13 },
-    { -8,  -4 },
-    {  0,   0 },
-  }
   
   sol.audio.play_sound("stone")
-  for i = 0, 3 do
-    local stone = enemy:create_enemy({
-      breed = "others/octorok_stone",
-      x = 0,
-      y = 0,
-      x = dxy[i + 1][1],
-      y = dxy[i + 1][2],
-    })
-    children[#children + 1] = stone
-    stone:get_sprite():set_opacity(0)
-    stone:create_sprite("enemies/" .. enemy:get_breed(), "lanmola_projo")
-    stone:get_sprite("lanmola_projo"):set_animation("projectile_1")
-    stone:go(i)
+  local lanmola_count = 0
+  for entity in map:get_entities_by_type("enemy") do
+    if(entity:get_breed() == "bosses/lanmola") then    
+      lanmola_count = lanmola_count + 1
+    end
+  end
+  if(lanmola_count == 1) then
+    for i = 0, 7 do
+      local stone = enemy:create_enemy({
+        breed = "others/octorok_stone",
+        x = 0,
+        y = 0,
+      })
+      children[#children + 1] = stone
+      stone:get_sprite():set_opacity(0)
+      stone:create_sprite("enemies/" .. enemy:get_breed(), "lanmola_projo")
+      stone:get_sprite("lanmola_projo"):set_animation("projectile_1")
+      stone:go(i/2)
+    end
+  else
+    projectiles_random_direction = math.random(0,1)
+    for i = 0, 3 do
+      local stone = enemy:create_enemy({
+        breed = "others/octorok_stone",
+        x = 0,
+        y = 0,
+      })
+      children[#children + 1] = stone
+      stone:get_sprite():set_opacity(0)
+      stone:create_sprite("enemies/" .. enemy:get_breed(), "lanmola_projo")
+      stone:get_sprite("lanmola_projo"):set_animation("projectile_1")
+      stone:go(i + projectiles_random_direction/2)
+    end
   end
 end
 
@@ -149,9 +164,7 @@ function enemy:on_update()
     if frame >= 200 then
       sprite[0]:set_animation("shadow")
       frame = 0
-      z_jump = 0.5
       z = 0
-      angle_calcul = math.rad(math.random(0, 360))
       state = 2
       for i = 1, 7 do
         sprite[i]:set_xy(0, 0)
@@ -231,13 +244,28 @@ function enemy:on_update()
   end
 
   if (state == 0) then
+    if (frame < 2) then
+      underground_delay = math.random(150, 300)
+    end
     x = x+(math.cos(math.random(0,360))*(speed*32))
     y = y-(math.sin(math.random(0,360))*(speed*32))
-    if frame >= 200 then
+    if frame >= underground_delay then
+      local angle_colision = true
+      local frame_count = 0
+      while angle_colision and frame_count < 300 do
+        angle_colision = false
+        frame_count = frame_count + 1
+        z_jump = math.random(30, 50)/100
+        flight_duration = z_jump/z_gravity
+        angle_calcul = math.rad(math.random(0, 360))
+        for f = 0, 3 * flight_duration do
+          if(enemy:test_obstacles(math.cos(angle_calcul) * speed * f, (- math.sin(angle_calcul)) * speed * f)) then
+            angle_colision = true
+          end
+        end     
+      end
       frame = 0
-      z_jump = 0.5
       z = 0
-      angle_calcul = math.rad(math.random(0, 360))
       state = 1
       sprite[0]:set_animation("emerging")
       sprite[0]:set_opacity(255)

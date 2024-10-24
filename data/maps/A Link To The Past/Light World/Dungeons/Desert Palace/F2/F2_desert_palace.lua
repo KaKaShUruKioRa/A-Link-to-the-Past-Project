@@ -97,12 +97,6 @@ function sensor_boss:on_activated()
       m:set_max_distance(16)
       m:set_angle(math.pi / 2)
       m:start(map:get_camera())
-      local i = 1
-      sol.timer.start(map, math.random(100,500), function()
-        map:get_entity("lamnola_"..i):set_enabled(true)
-        i = i + 1
-        return i < 4
-      end)
     end)
 end
 

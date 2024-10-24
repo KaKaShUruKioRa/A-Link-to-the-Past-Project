@@ -9111,16 +9111,6 @@ enemy{
 }
 
 enemy{
-  name = "lanmola_debug",
-  layer = 1,
-  x = 384,
-  y = 125,
-  enabled_at_start = false,
-  direction = 0,
-  breed = "bosses/lanmola",
-}
-
-enemy{
   name = "agahnim_1_debug",
   layer = 1,
   x = 896,
@@ -12437,6 +12427,54 @@ sensor{
   y = 197,
   width = 16,
   height = 16,
+}
+
+enemy{
+  name = "lanmola_1",
+  layer = 1,
+  x = 384,
+  y = 85,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
+  direction = 0,
+  breed = "bosses/lanmola",
+}
+
+enemy{
+  name = "lanmola_2",
+  layer = 1,
+  x = 328,
+  y = 173,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
+  direction = 0,
+  breed = "bosses/lanmola",
+}
+
+enemy{
+  name = "lanmola_3",
+  layer = 1,
+  x = 440,
+  y = 173,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
+  direction = 0,
+  breed = "bosses/lanmola",
 }
 
 tile{

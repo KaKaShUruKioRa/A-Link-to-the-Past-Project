@@ -33,6 +33,8 @@ function debug:on_key_pressed(key, modifiers)
 
     if key == "," then    
       hero:teleport("Archived/A Link to the Past/Secret Room/secret_room")
+    elseif key == "=" then
+      hero:teleport("Archived/A Link to the Past/Secret Room/Boss/boss_choice_room")
     elseif key == "p" then
       game:add_life(4)
     elseif key == "m" then
