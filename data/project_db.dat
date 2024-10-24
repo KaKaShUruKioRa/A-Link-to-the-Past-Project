@@ -380,6 +380,7 @@ tileset{ id = "blueprint/dark_overworld", description = "Dark Overworld BluePrin
 tileset{ id = "blueprint/desert_palace", description = "Desert Palace BluePrint" }
 tileset{ id = "blueprint/eastern", description = "Eastern Palace" }
 tileset{ id = "blueprint/eastern_palace", description = "Eastern Palace BluePrint" }
+tileset{ id = "blueprint/houses_light", description = "Houses Light Blueprint" }
 tileset{ id = "blueprint/hyrule_castle", description = "Hyrule Castle BluePrint" }
 tileset{ id = "blueprint/hyrule_castle_cave", description = "Hyrule Castle Cave" }
 tileset{ id = "blueprint/hyrule_castle_secret_passage", description = "Hyrule Castle Secret Passage" }
@@ -3032,6 +3033,9 @@ file{ path = "tilesets/blueprint/eastern.tiles.png", author = "ZeldoRetro", lice
 file{ path = "tilesets/blueprint/eastern_palace.dat", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "tilesets/blueprint/eastern_palace.tiles a.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "tilesets/blueprint/eastern_palace.tiles.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
+file{ path = "tilesets/blueprint/houses_light.dat", author = "ZeldoRetro", }
+file{ path = "tilesets/blueprint/houses_light.entities.png", author = "ZeldoRetro", }
+file{ path = "tilesets/blueprint/houses_light.tiles.png", author = "ZeldoRetro", }
 file{ path = "tilesets/blueprint/hyrule_castle.dat", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "tilesets/blueprint/hyrule_castle.tiles.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "tilesets/blueprint/hyrule_castle_secret_passage.dat", author = "ZeldoRetro", license = "GPL v3" }
