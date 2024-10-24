@@ -376,6 +376,7 @@ map{ id = "Archived/Autres/blue_print/outside_store", description = "Archived/Au
 map{ id = "Archived/Autres/test_map/dungeon_entrance", description = "Archived/Autres/test_map/dungeon_entrance" }
 map{ id = "Archived/Autres/test_map/test_map", description = "Archived/Autres/test_map/test_map" }
 
+tileset{ id = "blueprint/caves_light", description = "Caves Light Blueprint" }
 tileset{ id = "blueprint/dark_overworld", description = "Dark Overworld BluePrint" }
 tileset{ id = "blueprint/desert_palace", description = "Desert Palace BluePrint" }
 tileset{ id = "blueprint/eastern", description = "Eastern Palace" }
@@ -3022,6 +3023,9 @@ file{ path = "sprites/switches/switch_d4-6.dat", author = "FFomega", license = "
 file{ path = "sprites/switches/switch_d4-7.dat", author = "FFomega", license = "CC BY-SA 4.0" }
 file{ path = "tilesets", license = "Mixed" }
 file{ path = "tilesets/blueprint", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
+file{ path = "tilesets/blueprint/caves_light.dat", author = "ZeldoRetro", }
+file{ path = "tilesets/blueprint/caves_light.entities.png", author = "ZeldoRetro", }
+file{ path = "tilesets/blueprint/caves_light.tiles.png", author = "ZeldoRetro", }
 file{ path = "tilesets/blueprint/dark_overworld.dat", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "tilesets/blueprint/dark_overworld.tiles b.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "tilesets/blueprint/dark_overworld.tiles.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
@@ -3034,7 +3038,6 @@ file{ path = "tilesets/blueprint/eastern_palace.dat", author = "KaKaShUruKioRa",
 file{ path = "tilesets/blueprint/eastern_palace.tiles a.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "tilesets/blueprint/eastern_palace.tiles.png", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "tilesets/blueprint/houses_light.dat", author = "ZeldoRetro", }
-file{ path = "tilesets/blueprint/houses_light.entities.png", author = "ZeldoRetro", }
 file{ path = "tilesets/blueprint/houses_light.tiles.png", author = "ZeldoRetro", }
 file{ path = "tilesets/blueprint/hyrule_castle.dat", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "tilesets/blueprint/hyrule_castle.tiles.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }

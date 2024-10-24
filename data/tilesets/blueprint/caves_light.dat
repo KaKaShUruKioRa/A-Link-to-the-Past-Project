@@ -1,0 +1,408 @@
+background_color{ 0, 255, 0 }
+tile_pattern{
+  id = "1",
+  ground = "traversable",
+  default_layer = -1,
+  x = 0,
+  y = 0,
+  width = 512,
+  height = 512,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "1_10",
+  ground = "traversable",
+  default_layer = -1,
+  x = 512,
+  y = 1280,
+  width = 512,
+  height = 512,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "1_11",
+  ground = "traversable",
+  default_layer = -1,
+  x = 0,
+  y = 1280,
+  width = 512,
+  height = 512,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "1_12",
+  ground = "traversable",
+  default_layer = -1,
+  x = 2560,
+  y = 1792,
+  width = 512,
+  height = 512,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "1_13",
+  ground = "traversable",
+  default_layer = -1,
+  x = 2048,
+  y = 1792,
+  width = 512,
+  height = 512,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "1_14",
+  ground = "traversable",
+  default_layer = -1,
+  x = 1536,
+  y = 1792,
+  width = 512,
+  height = 512,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "1_15",
+  ground = "traversable",
+  default_layer = -1,
+  x = 1024,
+  y = 1792,
+  width = 512,
+  height = 512,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "1_16",
+  ground = "traversable",
+  default_layer = -1,
+  x = 512,
+  y = 1792,
+  width = 512,
+  height = 512,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "1_17",
+  ground = "traversable",
+  default_layer = -1,
+  x = 0,
+  y = 1792,
+  width = 512,
+  height = 512,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "1_18",
+  ground = "traversable",
+  default_layer = -1,
+  x = 0,
+  y = 2304,
+  width = 512,
+  height = 512,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "1_19",
+  ground = "traversable",
+  default_layer = -1,
+  x = 0,
+  y = 2816,
+  width = 512,
+  height = 512,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "1_2",
+  ground = "traversable",
+  default_layer = -1,
+  x = 768,
+  y = 0,
+  width = 512,
+  height = 512,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "1_20",
+  ground = "traversable",
+  default_layer = -1,
+  x = 512,
+  y = 2304,
+  width = 512,
+  height = 512,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "1_21",
+  ground = "traversable",
+  default_layer = -1,
+  x = 1536,
+  y = 2304,
+  width = 512,
+  height = 512,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "1_22",
+  ground = "traversable",
+  default_layer = -1,
+  x = 1024,
+  y = 2304,
+  width = 512,
+  height = 512,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "1_23",
+  ground = "traversable",
+  default_layer = -1,
+  x = 512,
+  y = 2816,
+  width = 512,
+  height = 512,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "1_24",
+  ground = "traversable",
+  default_layer = -1,
+  x = 1024,
+  y = 2816,
+  width = 512,
+  height = 512,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "1_3",
+  ground = "traversable",
+  default_layer = -1,
+  x = 1280,
+  y = 0,
+  width = 512,
+  height = 512,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "1_4",
+  ground = "traversable",
+  default_layer = -1,
+  x = 768,
+  y = 512,
+  width = 512,
+  height = 512,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "1_5",
+  ground = "traversable",
+  default_layer = -1,
+  x = 1792,
+  y = 512,
+  width = 512,
+  height = 512,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "1_6",
+  ground = "traversable",
+  default_layer = -1,
+  x = 2560,
+  y = 1280,
+  width = 512,
+  height = 512,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "1_7",
+  ground = "traversable",
+  default_layer = -1,
+  x = 2048,
+  y = 1280,
+  width = 512,
+  height = 512,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "1_8",
+  ground = "traversable",
+  default_layer = -1,
+  x = 1536,
+  y = 1280,
+  width = 512,
+  height = 512,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "1_9",
+  ground = "traversable",
+  default_layer = -1,
+  x = 1024,
+  y = 1280,
+  width = 512,
+  height = 512,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "2",
+  ground = "traversable",
+  default_layer = -1,
+  x = 512,
+  y = 0,
+  width = 256,
+  height = 512,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "2_2",
+  ground = "traversable",
+  default_layer = -1,
+  x = 1792,
+  y = 0,
+  width = 256,
+  height = 512,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "2_3",
+  ground = "traversable",
+  default_layer = -1,
+  x = 512,
+  y = 512,
+  width = 256,
+  height = 512,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "2_4",
+  ground = "traversable",
+  default_layer = -1,
+  x = 256,
+  y = 512,
+  width = 256,
+  height = 512,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "2_5",
+  ground = "traversable",
+  default_layer = -1,
+  x = 0,
+  y = 768,
+  width = 256,
+  height = 512,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "2_6",
+  ground = "traversable",
+  default_layer = -1,
+  x = 1536,
+  y = 512,
+  width = 256,
+  height = 512,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "3",
+  ground = "traversable",
+  default_layer = -1,
+  x = 0,
+  y = 512,
+  width = 256,
+  height = 256,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "3_2",
+  ground = "traversable",
+  default_layer = -1,
+  x = 256,
+  y = 1024,
+  width = 256,
+  height = 256,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "3_3",
+  ground = "traversable",
+  default_layer = -1,
+  x = 512,
+  y = 1024,
+  width = 256,
+  height = 256,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "3_5",
+  ground = "traversable",
+  default_layer = -1,
+  x = 1280,
+  y = 768,
+  width = 256,
+  height = 256,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "3_6",
+  ground = "traversable",
+  default_layer = -1,
+  x = 1536,
+  y = 1024,
+  width = 256,
+  height = 256,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "3_7",
+  ground = "traversable",
+  default_layer = -1,
+  x = 1280,
+  y = 1024,
+  width = 256,
+  height = 256,
+  repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "4",
+  ground = "traversable",
+  default_layer = -1,
+  x = 2304,
+  y = 512,
+  width = 512,
+  height = 768,
+  repeat_mode = "none",
+}
+
