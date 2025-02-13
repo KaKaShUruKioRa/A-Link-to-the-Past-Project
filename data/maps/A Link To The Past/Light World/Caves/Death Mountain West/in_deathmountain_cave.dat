@@ -3,457 +3,54 @@ properties{
   y = 0,
   width = 1024,
   height = 512,
-  min_layer = 0,
+  min_layer = -1,
   max_layer = 2,
   tileset = "dungeon/dark_brown",
   music = "cave",
 }
 
 tile{
-  layer = 0,
-  x = 288,
-  y = 32,
-  width = 192,
-  height = 176,
-  pattern = "floor.16-1",
+  layer = -1,
+  x = 0,
+  y = 0,
+  width = 512,
+  height = 512,
+  pattern = "1_11",
+  tileset = "blueprint/caves_light",
 }
 
 tile{
-  layer = 0,
-  x = 488,
-  y = 16,
-  width = 8,
-  height = 304,
-  pattern = "ceiling.2",
-}
-
-tile{
-  layer = 0,
-  x = 472,
-  y = 72,
-  width = 24,
-  height = 224,
-  pattern = "wall.4-3",
-}
-
-tile{
-  layer = 0,
-  x = 896,
-  y = 200,
-  width = 96,
-  height = 96,
-  pattern = "floor.16-1",
-}
-
-tile{
-  layer = 0,
-  x = 968,
-  y = 216,
-  width = 40,
-  height = 104,
-  pattern = "ceiling.2",
-}
-
-tile{
-  layer = 0,
-  x = 800,
-  y = 40,
-  width = 192,
-  height = 176,
-  pattern = "floor.16-1",
-}
-
-tile{
-  layer = 0,
-  x = 952,
-  y = 192,
-  width = 32,
-  height = 8,
-  pattern = "wall_border.2-3",
-}
-
-tile{
-  layer = 0,
-  x = 944,
-  y = 200,
-  width = 8,
-  height = 96,
-  pattern = "wall_border.4-3",
-}
-
-tile{
-  layer = 0,
-  x = 872,
-  y = 80,
-  width = 64,
-  height = 48,
-  pattern = "rock.5",
-}
-
-tile{
-  layer = 0,
-  x = 560,
-  y = 168,
-  width = 8,
-  height = 16,
-  pattern = "hole.3",
-}
-
-tile{
-  layer = 0,
-  x = 560,
-  y = 160,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.1",
-}
-
-tile{
-  layer = 0,
-  x = 568,
-  y = 160,
-  width = 16,
-  height = 8,
-  pattern = "hole.1",
+  layer = -1,
+  x = 512,
+  y = 0,
+  width = 512,
+  height = 512,
+  pattern = "1_10",
+  tileset = "blueprint/caves_light",
 }
 
 tile{
   layer = 0,
   x = 584,
-  y = 160,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.2",
-}
-
-tile{
-  layer = 0,
-  x = 584,
-  y = 168,
-  width = 8,
-  height = 16,
-  pattern = "hole.4",
-}
-
-tile{
-  layer = 0,
-  x = 584,
-  y = 184,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.4",
-}
-
-tile{
-  layer = 0,
-  x = 560,
-  y = 184,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.3",
-}
-
-tile{
-  layer = 0,
-  x = 568,
-  y = 184,
-  width = 16,
-  height = 8,
-  pattern = "hole.2",
-}
-
-tile{
-  layer = 0,
-  x = 560,
-  y = 160,
-  width = 32,
-  height = 32,
-  pattern = "hole",
-}
-
-tile{
-  layer = 0,
-  x = 544,
-  y = 40,
-  width = 192,
-  height = 176,
-  pattern = "floor.16-1",
-}
-
-tile{
-  layer = 0,
-  x = 560,
-  y = 184,
-  width = 32,
-  height = 8,
-  pattern = "wall_border.2-3",
-}
-
-tile{
-  layer = 0,
-  x = 552,
-  y = 224,
-  width = 24,
-  height = 48,
-  pattern = "wall_low.3-2",
-}
-
-tile{
-  layer = 0,
-  x = 208,
-  y = 176,
-  width = 32,
-  height = 144,
-  pattern = "ceiling.2",
-}
-
-tile{
-  layer = 0,
-  x = 272,
-  y = 24,
-  width = 8,
-  height = 296,
-  pattern = "ceiling.2",
-}
-
-tile{
-  layer = 0,
-  x = 48,
-  y = 208,
-  width = 40,
-  height = 264,
-  pattern = "ceiling.2",
-}
-
-tile{
-  layer = 0,
-  x = 64,
-  y = 392,
-  width = 128,
-  height = 64,
-  pattern = "floor.16-1",
-}
-
-tile{
-  layer = 0,
-  x = 80,
-  y = 224,
-  width = 112,
-  height = 160,
+  y = 88,
+  width = 368,
+  height = 352,
   pattern = "floor.16-2",
 }
 
 tile{
   layer = 0,
-  x = 320,
-  y = 224,
-  width = 128,
-  height = 48,
-  pattern = "floor.16-2",
-}
-
-tile{
-  layer = 0,
-  x = 48,
-  y = 176,
-  width = 192,
-  height = 40,
-  pattern = "ceiling.2",
-}
-
-tile{
-  layer = 0,
-  x = 272,
-  y = 40,
-  width = 24,
-  height = 176,
-  pattern = "wall.3-3",
-}
-
-tile{
-  layer = 0,
-  x = 216,
+  x = 728,
   y = 280,
-  width = 16,
-  height = 16,
-  pattern = "wall_low_diag.top.4-3",
-}
-
-tile{
-  layer = 0,
-  x = 200,
-  y = 304,
-  width = 16,
-  height = 16,
-  pattern = "wall_diag.4-3",
-}
-
-tile{
-  layer = 0,
-  x = 208,
-  y = 296,
-  width = 16,
-  height = 16,
-  pattern = "wall_diag.4-3",
-}
-
-tile{
-  layer = 0,
-  x = 216,
-  y = 288,
-  width = 16,
-  height = 16,
-  pattern = "wall_diag.4-3",
-}
-
-tile{
-  layer = 0,
-  x = 224,
-  y = 280,
-  width = 16,
-  height = 16,
-  pattern = "wall_diag.4-3",
-}
-
-tile{
-  layer = 0,
-  x = 112,
-  y = 208,
-  width = 16,
-  height = 16,
-  pattern = "wall_low_diag.bottom.1-3",
-}
-
-tile{
-  layer = 0,
-  x = 88,
-  y = 232,
-  width = 16,
-  height = 16,
-  pattern = "wall_low_diag.bottom.1-3",
-}
-
-tile{
-  layer = 0,
-  x = 96,
-  y = 224,
-  width = 16,
-  height = 16,
-  pattern = "wall_low_diag.bottom.1-3",
-}
-
-tile{
-  layer = 0,
-  x = 48,
-  y = 256,
-  width = 24,
-  height = 192,
-  pattern = "wall.3-3",
-}
-
-tile{
-  layer = 0,
-  x = 48,
-  y = 248,
-  width = 16,
-  height = 16,
-  pattern = "wall_diag.1-3",
-}
-
-tile{
-  layer = 0,
-  x = 120,
-  y = 200,
-  width = 16,
-  height = 16,
-  pattern = "wall_low_diag.bottom.1-3",
-}
-
-tile{
-  layer = 0,
-  x = 96,
-  y = 240,
-  width = 16,
-  height = 16,
-  pattern = "wall_low_diag.border.1-3",
-}
-
-tile{
-  layer = 0,
-  x = 104,
-  y = 232,
-  width = 16,
-  height = 16,
-  pattern = "wall_low_diag.border.1-3",
-}
-
-tile{
-  layer = 0,
-  x = 112,
-  y = 224,
-  width = 16,
-  height = 16,
-  pattern = "wall_low_diag.border.1-3",
-}
-
-tile{
-  layer = 0,
-  x = 48,
-  y = 464,
-  width = 160,
+  width = 8,
   height = 8,
-  pattern = "ceiling.2",
+  pattern = "947",
 }
 
 tile{
   layer = 0,
-  x = 176,
-  y = 392,
-  width = 8,
-  height = 48,
-  pattern = "wall_border.4-3",
-}
-
-tile{
-  layer = 0,
-  x = 72,
-  y = 392,
-  width = 8,
-  height = 48,
-  pattern = "wall_border.3-3",
-}
-
-tile{
-  layer = 0,
-  x = 200,
-  y = 304,
-  width = 8,
-  height = 168,
-  pattern = "ceiling.2",
-}
-
-tile{
-  layer = 0,
-  x = 72,
-  y = 256,
-  width = 24,
-  height = 112,
-  pattern = "wall_low.3-2",
-}
-
-tile{
-  layer = 0,
-  x = 160,
-  y = 320,
-  width = 24,
-  height = 48,
-  pattern = "wall_low.4-2",
-}
-
-tile{
-  layer = 0,
-  x = 168,
-  y = 296,
+  x = 728,
+  y = 280,
   width = 16,
   height = 16,
   pattern = "wall_low_diag.border.3-3",
@@ -461,449 +58,197 @@ tile{
 
 tile{
   layer = 0,
-  x = 96,
-  y = 256,
-  width = 8,
-  height = 112,
-  pattern = "wall_low_border.3-3",
-}
-
-tile{
-  layer = 0,
-  x = 152,
-  y = 320,
-  width = 8,
-  height = 48,
-  pattern = "wall_low_border.4-3",
-}
-
-tile{
-  layer = 0,
-  x = 160,
-  y = 304,
-  width = 16,
-  height = 16,
-  pattern = "wall_low_diag.border.3-3",
-}
-
-tile{
-  layer = 0,
-  x = 192,
-  y = 304,
-  width = 16,
-  height = 16,
-  pattern = "wall_low_diag.top.4-3",
-}
-
-tile{
-  layer = 0,
-  x = 176,
-  y = 304,
-  width = 16,
-  height = 16,
-  pattern = "wall_low_diag.bottom.4-3",
-}
-
-tile{
-  layer = 0,
-  x = 128,
-  y = 200,
-  width = 64,
-  height = 24,
-  pattern = "wall_low.1-2",
-}
-
-tile{
-  layer = 0,
-  x = 192,
-  y = 256,
-  width = 24,
-  height = 32,
-  pattern = "wall_low.4-2",
-}
-
-tile{
-  layer = 0,
-  x = 128,
-  y = 224,
-  width = 64,
-  height = 8,
-  pattern = "wall_low_border.1-3",
-}
-
-tile{
-  layer = 0,
-  x = 184,
-  y = 232,
-  width = 8,
-  height = 64,
-  pattern = "wall_low_border.4-3",
-}
-
-tile{
-  layer = 0,
-  x = 192,
-  y = 224,
-  width = 24,
-  height = 16,
-  pattern = "wall_low.4-2",
-}
-
-tile{
-  layer = 0,
-  x = 160,
-  y = 368,
-  width = 24,
-  height = 24,
-  pattern = "wall_low.corner.4-2",
-}
-
-tile{
-  layer = 0,
-  x = 192,
-  y = 200,
-  width = 24,
-  height = 24,
-  pattern = "wall_low.corner.2-2",
-}
-
-tile{
-  layer = 0,
-  x = 184,
-  y = 224,
-  width = 8,
-  height = 8,
-  pattern = "wall_low_border.corner.2-3",
-}
-
-tile{
-  layer = 0,
-  x = 328,
-  y = 264,
-  width = 112,
-  height = 8,
-  pattern = "wall_low_border.2-3",
-}
-
-tile{
-  layer = 0,
-  x = 328,
-  y = 232,
-  width = 112,
-  height = 8,
-  pattern = "wall_low_border.1-3",
-}
-
-tile{
-  layer = 0,
-  x = 320,
-  y = 240,
-  width = 8,
-  height = 32,
-  pattern = "wall_low_border.3-3",
-}
-
-tile{
-  layer = 0,
-  x = 440,
-  y = 240,
-  width = 8,
-  height = 32,
-  pattern = "wall_low_border.4-3",
-}
-
-tile{
-  layer = 0,
-  x = 304,
-  y = 40,
-  width = 160,
-  height = 8,
-  pattern = "wall_border.1-3",
-}
-
-tile{
-  layer = 0,
-  x = 272,
-  y = 16,
-  width = 216,
-  height = 8,
-  pattern = "ceiling.2",
-}
-
-tile{
-  layer = 0,
-  x = 296,
-  y = 16,
-  width = 176,
-  height = 24,
-  pattern = "wall.1-3",
-}
-
-tile{
-  layer = 0,
-  x = 448,
-  y = 232,
-  width = 24,
-  height = 48,
-  pattern = "wall_low.4-2",
-}
-
-tile{
-  layer = 0,
-  x = 320,
-  y = 272,
-  width = 128,
+  x = 880,
+  y = 448,
+  width = 32,
   height = 24,
   pattern = "wall_low.2-2",
 }
 
 tile{
   layer = 0,
-  x = 320,
-  y = 208,
-  width = 128,
-  height = 24,
-  pattern = "wall_low.1-2",
-}
-
-tile{
-  layer = 0,
-  x = 296,
-  y = 48,
-  width = 8,
-  height = 160,
-  pattern = "wall_border.3-3",
-}
-
-tile{
-  layer = 0,
-  x = 464,
-  y = 48,
-  width = 8,
-  height = 160,
-  pattern = "wall_border.4-3",
-}
-
-tile{
-  layer = 0,
-  x = 272,
-  y = 312,
-  width = 224,
-  height = 8,
-  pattern = "ceiling.2",
-}
-
-tile{
-  layer = 0,
-  x = 296,
-  y = 296,
-  width = 176,
-  height = 24,
-  pattern = "wall.2-3",
-}
-
-tile{
-  layer = 0,
-  x = 272,
-  y = 16,
+  x = 552,
+  y = 248,
   width = 24,
-  height = 24,
-  pattern = "wall.corner.1-3",
-}
-
-tile{
-  layer = 0,
-  x = 472,
-  y = 16,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner.2-3",
-}
-
-tile{
-  layer = 0,
-  x = 296,
-  y = 40,
-  width = 8,
-  height = 8,
-  pattern = "wall_border.corner.1-3",
-}
-
-tile{
-  layer = 0,
-  x = 464,
-  y = 40,
-  width = 8,
-  height = 8,
-  pattern = "wall_border.corner.2-3",
-}
-
-tile{
-  layer = 0,
-  x = 296,
-  y = 200,
-  width = 8,
-  height = 8,
-  pattern = "barrier.border-1",
-}
-
-tile{
-  layer = 0,
-  x = 304,
-  y = 200,
-  width = 32,
-  height = 8,
-  pattern = "barrier.1-1",
-}
-
-tile{
-  layer = 0,
-  x = 336,
-  y = 200,
-  width = 8,
-  height = 8,
-  pattern = "barrier.border-1",
-}
-
-tile{
-  layer = 0,
-  x = 400,
-  y = 200,
-  width = 8,
-  height = 8,
-  pattern = "barrier.border-1",
-}
-
-tile{
-  layer = 0,
-  x = 408,
-  y = 200,
-  width = 56,
-  height = 8,
-  pattern = "barrier.1-1",
-}
-
-tile{
-  layer = 0,
-  x = 464,
-  y = 200,
-  width = 8,
-  height = 8,
-  pattern = "barrier.border-1",
-}
-
-tile{
-  layer = 0,
-  x = 448,
-  y = 272,
-  width = 24,
-  height = 24,
-  pattern = "wall_low.corner.4-2",
-}
-
-tile{
-  layer = 0,
-  x = 448,
-  y = 208,
-  width = 24,
-  height = 24,
-  pattern = "wall_low.corner.2-2",
-}
-
-tile{
-  layer = 0,
-  x = 296,
-  y = 208,
-  width = 24,
-  height = 24,
-  pattern = "wall_low.corner.1-2",
-}
-
-tile{
-  layer = 0,
-  x = 296,
-  y = 256,
-  width = 24,
-  height = 16,
+  height = 32,
   pattern = "wall_low.3-2",
 }
 
 tile{
   layer = 0,
-  x = 320,
-  y = 232,
-  width = 8,
-  height = 8,
-  pattern = "wall_low_border.corner.1-3",
+  x = 72,
+  y = 88,
+  width = 368,
+  height = 352,
+  pattern = "floor.16-2",
 }
 
 tile{
   layer = 0,
-  x = 440,
-  y = 264,
-  width = 8,
-  height = 8,
-  pattern = "wall_low_border.corner.4-3",
-}
-
-tile{
-  layer = 0,
-  x = 320,
-  y = 264,
-  width = 8,
-  height = 8,
-  pattern = "wall_low_border.corner.3-3",
-}
-
-tile{
-  layer = 0,
-  x = 440,
-  y = 232,
-  width = 8,
-  height = 8,
-  pattern = "wall_low_border.corner.2-3",
-}
-
-tile{
-  layer = 0,
-  x = 304,
-  y = 240,
+  x = 240,
+  y = 208,
   width = 16,
   height = 16,
-  pattern = "door_blast.3",
+  pattern = "wall_low_diag.bottom.2-3",
 }
 
 tile{
   layer = 0,
-  x = 304,
-  y = 256,
-  width = 16,
+  x = 80,
+  y = 104,
+  width = 184,
   height = 8,
-  pattern = "door.3.low_support.2-2",
+  pattern = "947",
 }
 
 tile{
   layer = 0,
-  x = 304,
-  y = 232,
-  width = 16,
+  x = 376,
+  y = 176,
+  width = 8,
   height = 8,
-  pattern = "door.3.low_support.1-2",
+  pattern = "947",
 }
 
 tile{
   layer = 0,
-  x = 272,
-  y = 296,
+  x = 376,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 376,
+  y = 176,
+  width = 8,
+  height = 80,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 376,
+  y = 168,
+  width = 8,
+  height = 80,
+  pattern = "wall_low_border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 448,
+  y = 248,
   width = 24,
-  height = 24,
-  pattern = "wall.corner.3-3",
+  height = 32,
+  pattern = "wall_low.4-2",
 }
 
 tile{
   layer = 0,
-  x = 192,
-  y = 240,
+  x = 64,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 88,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 88,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 432,
+  width = 32,
+  height = 16,
+  pattern = "floor.16-2",
+}
+
+tile{
+  layer = 0,
+  x = 888,
+  y = 448,
+  width = 16,
+  height = 16,
+  pattern = "door_main.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 904,
+  y = 448,
+  width = 8,
+  height = 16,
+  pattern = "door_main.2.support.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 880,
+  y = 448,
+  width = 8,
+  height = 16,
+  pattern = "door_main.2.support.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 888,
+  y = 464,
+  width = 16,
+  height = 16,
+  pattern = "floor.6-1",
+}
+
+tile{
+  layer = 0,
+  x = 888,
+  y = 480,
+  width = 16,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 880,
+  y = 464,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 904,
+  y = 464,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 448,
+  y = 256,
   width = 16,
   height = 16,
   pattern = "door_blast.4",
@@ -911,8 +256,26 @@ tile{
 
 tile{
   layer = 0,
-  x = 192,
-  y = 232,
+  x = 560,
+  y = 256,
+  width = 16,
+  height = 16,
+  pattern = "door_blast.3",
+}
+
+tile{
+  layer = 0,
+  x = 560,
+  y = 248,
+  width = 16,
+  height = 8,
+  pattern = "door.3.low_support.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 448,
+  y = 248,
   width = 16,
   height = 8,
   pattern = "door.4.low_support.1-2",
@@ -920,8 +283,17 @@ tile{
 
 tile{
   layer = 0,
-  x = 192,
-  y = 256,
+  x = 560,
+  y = 272,
+  width = 16,
+  height = 8,
+  pattern = "door.3.low_support.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 448,
+  y = 272,
   width = 16,
   height = 8,
   pattern = "door.4.low_support.2-2",
@@ -929,89 +301,512 @@ tile{
 
 tile{
   layer = 0,
-  x = 216,
-  y = 176,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner.2-3",
+  x = 464,
+  y = 256,
+  width = 96,
+  height = 16,
+  pattern = "floor.21-2",
 }
 
 tile{
   layer = 0,
-  x = 120,
-  y = 176,
+  x = 464,
+  y = 248,
   width = 96,
-  height = 24,
-  pattern = "wall.1-3",
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 464,
+  y = 272,
+  width = 96,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 928,
+  y = 80,
+  width = 32,
+  height = 32,
+  pattern = "hole",
+}
+
+tile{
+  layer = 0,
+  x = 936,
+  y = 80,
+  width = 16,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 928,
+  y = 88,
+  width = 8,
+  height = 16,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 952,
+  y = 88,
+  width = 8,
+  height = 16,
+  pattern = "hole.4",
+}
+
+tile{
+  layer = 0,
+  x = 936,
+  y = 104,
+  width = 16,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 928,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 952,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.2",
+}
+
+tile{
+  layer = 0,
+  x = 928,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.3",
+}
+
+tile{
+  layer = 0,
+  x = 952,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.4",
+}
+
+tile{
+  layer = 0,
+  x = 416,
+  y = 416,
+  width = 32,
+  height = 32,
+  pattern = "hole",
+}
+
+tile{
+  layer = 0,
+  x = 424,
+  y = 416,
+  width = 16,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 416,
+  y = 424,
+  width = 8,
+  height = 16,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 424,
+  width = 8,
+  height = 16,
+  pattern = "hole.4",
+}
+
+tile{
+  layer = 0,
+  x = 424,
+  y = 440,
+  width = 16,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 416,
+  y = 416,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 416,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.2",
+}
+
+tile{
+  layer = 0,
+  x = 416,
+  y = 440,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.3",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 440,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.4",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = -32,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = -32,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = -32,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 232,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 232,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.4-3",
 }
 
 tile{
   layer = 0,
   x = 72,
-  y = 368,
-  width = 24,
-  height = 24,
-  pattern = "wall_low.corner.3-2",
-}
-
-tile{
-  layer = 0,
-  x = 296,
-  y = 272,
-  width = 24,
-  height = 24,
-  pattern = "wall_low.corner.3-2",
-}
-
-tile{
-  layer = 0,
-  x = 176,
-  y = 288,
-  width = 16,
-  height = 16,
-  pattern = "wall_low_diag.border.3-3",
-}
-
-tile{
-  layer = 0,
-  x = 208,
-  y = 288,
-  width = 16,
-  height = 16,
-  pattern = "wall_low_diag.top.4-3",
-}
-
-tile{
-  layer = 0,
-  x = 192,
-  y = 288,
-  width = 16,
-  height = 16,
-  pattern = "wall_low_diag.bottom.4-3",
-}
-
-tile{
-  layer = 0,
-  x = 152,
-  y = 360,
+  y = 240,
   width = 8,
   height = 8,
-  pattern = "wall_low_border.corner.4-3",
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 240,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 240,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 248,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 248,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 248,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 256,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 256,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 256,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 264,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 264,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 264,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.4-3",
 }
 
 tile{
   layer = 0,
   x = 104,
-  y = 360,
-  width = 48,
+  y = 272,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 272,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 272,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 280,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 280,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 280,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 288,
+  width = 24,
+  height = 128,
+  pattern = "wall_low.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 288,
+  width = 8,
+  height = 120,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 416,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 416,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 336,
+  width = 24,
+  height = 80,
+  pattern = "wall_low.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 416,
+  width = 32,
+  height = 24,
+  pattern = "wall_low.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 320,
+  width = 8,
+  height = 88,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 408,
+  width = 32,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 408,
+  width = 16,
   height = 8,
   pattern = "wall_low_border.2-3",
 }
 
 tile{
   layer = 0,
-  x = 96,
-  y = 360,
+  x = 136,
+  y = 320,
+  width = 8,
+  height = 96,
+  pattern = "wall_low_border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 288,
+  width = 8,
+  height = 128,
+  pattern = "wall_low_border.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 408,
   width = 8,
   height = 8,
   pattern = "wall_low_border.corner.3-3",
@@ -1019,16 +814,1231 @@ tile{
 
 tile{
   layer = 0,
-  x = 96,
-  y = 368,
+  x = 136,
+  y = 408,
+  width = 8,
+  height = 8,
+  pattern = "wall_low_border.corner.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = -48,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = -56,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = -56,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 96,
+  width = 8,
+  height = 144,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 96,
+  width = 24,
+  height = 144,
+  pattern = "wall_low.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 96,
+  width = 8,
+  height = 144,
+  pattern = "wall_low_border.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 72,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 72,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 80,
+  width = 208,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = -48,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = -56,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = -56,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 384,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 360,
+  y = 160,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 376,
+  y = 152,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 360,
+  y = 152,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 352,
+  y = 152,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 352,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 360,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 336,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 352,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 336,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 336,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 88,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 88,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 72,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 72,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 80,
+  width = 208,
+  height = 8,
+  pattern = "wall_low_border.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 56,
+  width = 208,
+  height = 24,
+  pattern = "wall_low.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 384,
+  y = 248,
   width = 64,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 256,
+  width = 8,
+  height = 16,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 376,
+  y = 272,
+  width = 72,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 376,
+  y = 280,
+  width = 8,
+  height = 144,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 384,
+  y = 416,
+  width = 32,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 440,
+  width = 48,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 384,
+  y = 176,
+  width = 24,
+  height = 64,
+  pattern = "wall_low.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 400,
+  y = 224,
+  width = 48,
+  height = 24,
+  pattern = "wall_low.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 384,
+  y = 224,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner_reverse.2-2b",
+}
+
+tile{
+  layer = 0,
+  x = 448,
+  y = 224,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 448,
+  y = 280,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 400,
+  y = 280,
+  width = 48,
   height = 24,
   pattern = "wall_low.2-2",
 }
 
 tile{
   layer = 0,
-  x = 152,
+  x = 384,
+  y = 296,
+  width = 24,
+  height = 112,
+  pattern = "wall_low.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 400,
+  y = 392,
+  width = 48,
+  height = 24,
+  pattern = "wall_low.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 384,
+  y = 280,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner_reverse.4-2b",
+}
+
+tile{
+  layer = 0,
+  x = 384,
+  y = 392,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner_reverse.2-2b",
+}
+
+tile{
+  layer = 0,
+  x = 448,
+  y = 392,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 448,
+  y = 416,
+  width = 24,
+  height = 32,
+  pattern = "wall_low.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 448,
+  y = 448,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 256,
+  width = 8,
+  height = 16,
+  pattern = "wall_low_border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 384,
+  y = 272,
+  width = 64,
+  height = 8,
+  pattern = "wall_low_border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 272,
+  width = 8,
+  height = 8,
+  pattern = "wall_low_border.corner.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 376,
+  y = 280,
+  width = 8,
+  height = 128,
+  pattern = "wall_low_border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 376,
+  y = 272,
+  width = 8,
+  height = 8,
+  pattern = "wall_low_border.corner_reverse.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 384,
+  y = 416,
+  width = 32,
+  height = 8,
+  pattern = "wall_low_border.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 376,
+  y = 416,
+  width = 8,
+  height = 8,
+  pattern = "wall_low_border.corner_reverse.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 376,
+  y = 400,
+  width = 8,
+  height = 16,
+  pattern = "wall_low_border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 384,
+  y = 248,
+  width = 64,
+  height = 8,
+  pattern = "wall_low_border.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 376,
+  y = 248,
+  width = 8,
+  height = 8,
+  pattern = "wall_low_border.corner_reverse.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 248,
+  width = 8,
+  height = 8,
+  pattern = "wall_low_border.corner.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 352,
+  y = 424,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 424,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 424,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 360,
+  y = 432,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 336,
+  y = 432,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 352,
+  y = 432,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 440,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 440,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 352,
+  y = 448,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 360,
+  y = 456,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 448,
+  width = 80,
+  height = 24,
+  pattern = "wall_low.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 440,
+  width = 48,
+  height = 8,
+  pattern = "wall_low_border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 352,
+  y = 360,
+  width = 8,
+  height = 72,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 352,
+  y = 368,
+  width = 8,
+  height = 64,
+  pattern = "wall_low_border.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 352,
+  y = 360,
+  width = 8,
+  height = 8,
+  pattern = "wall_low_border.corner_reverse.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 384,
+  width = 24,
+  height = 48,
+  pattern = "wall_low.3-2",
+}
+
+tile{
+  layer = 0,
+  x = -40,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = -48,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = -48,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 360,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 360,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 376,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 352,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 352,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 368,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 344,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 344,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 360,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 336,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 336,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 352,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 328,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 328,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 344,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 320,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 320,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 336,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 312,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 312,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 328,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 360,
+  width = 96,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 360,
+  width = 96,
+  height = 8,
+  pattern = "wall_low_border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 368,
+  width = 80,
+  height = 24,
+  pattern = "wall_low.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 368,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner_reverse.3-2b",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 312,
+  width = 72,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 312,
+  width = 64,
+  height = 8,
+  pattern = "wall_low_border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 136,
   y = 312,
   width = 8,
   height = 8,
@@ -1037,124 +2047,1591 @@ tile{
 
 tile{
   layer = 0,
-  x = 184,
+  x = 160,
   y = 320,
-  width = 24,
-  height = 128,
-  pattern = "wall.4-3",
-}
-
-tile{
-  layer = 0,
-  x = 80,
-  y = 440,
-  width = 96,
-  height = 8,
-  pattern = "wall_border.2-3",
-}
-
-tile{
-  layer = 0,
-  x = 176,
-  y = 440,
-  width = 8,
-  height = 8,
-  pattern = "wall_border.corner.4-3",
-}
-
-tile{
-  layer = 0,
-  x = 72,
-  y = 440,
-  width = 8,
-  height = 8,
-  pattern = "wall_border.corner.3-3",
-}
-
-tile{
-  layer = 0,
-  x = 72,
-  y = 392,
-  width = 8,
-  height = 8,
-  pattern = "barrier.border-1",
-}
-
-tile{
-  layer = 0,
-  x = 80,
-  y = 392,
-  width = 24,
-  height = 8,
-  pattern = "barrier.1-1",
-}
-
-tile{
-  layer = 0,
-  x = 104,
-  y = 392,
-  width = 8,
-  height = 8,
-  pattern = "barrier.border-1",
+  width = 48,
+  height = 24,
+  pattern = "wall_low.2-2",
 }
 
 tile{
   layer = 0,
   x = 144,
-  y = 392,
+  y = 320,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner_reverse.4-2",
+}
+
+tile{
+  layer = 0,
+  x = -24,
+  y = 128,
   width = 8,
   height = 8,
-  pattern = "barrier.border-1",
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = -24,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.2-3",
+}
+
+tile{
+  layer = 0,
+  x = -24,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.2-3",
 }
 
 tile{
   layer = 0,
   x = 152,
-  y = 392,
-  width = 24,
-  height = 8,
-  pattern = "barrier.1-1",
-}
-
-tile{
-  layer = 0,
-  x = 176,
-  y = 392,
+  y = 288,
   width = 8,
   height = 8,
-  pattern = "barrier.border-1",
+  pattern = "947",
 }
 
 tile{
   layer = 0,
-  x = 72,
-  y = 448,
-  width = 112,
-  height = 24,
-  pattern = "wall.2-3",
+  x = 152,
+  y = 264,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.2-3",
 }
 
 tile{
   layer = 0,
-  x = 184,
-  y = 448,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner.4-3",
+  x = 152,
+  y = 280,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.2-3",
 }
 
 tile{
   layer = 0,
-  x = 48,
-  y = 448,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner.3-3",
+  x = 144,
+  y = 280,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 256,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 272,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 272,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 248,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 264,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 264,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 240,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 256,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 256,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 232,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 248,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.2-3",
 }
 
 tile{
   layer = 0,
   x = 112,
+  y = 248,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 240,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 240,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 232,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 208,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 224,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 216,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 208,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 208,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 288,
+  width = 64,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 104,
+  width = 8,
+  height = 104,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 288,
+  width = 64,
+  height = 8,
+  pattern = "wall_low_border.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 112,
+  width = 8,
+  height = 96,
+  pattern = "wall_low_border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 128,
+  width = 24,
+  height = 80,
+  pattern = "wall_low.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "wall_low_border.corner_reverse.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 104,
+  width = 176,
+  height = 8,
+  pattern = "wall_low_border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 80,
+  width = 32,
+  height = 32,
+  pattern = "hole",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 88,
+  width = 8,
+  height = 16,
+  pattern = "hole.4",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 80,
+  width = 16,
+  height = 8,
+  pattern = "hole.1",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.2",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 88,
+  width = 8,
+  height = 16,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 104,
+  width = 16,
+  height = 8,
+  pattern = "hole.2",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.3",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.4",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 152,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 152,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 152,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 160,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 184,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 112,
+  width = 176,
+  height = 24,
+  pattern = "wall_low.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 112,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner_reverse.4-2b",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 104,
+  width = 16,
+  height = 8,
+  pattern = "wall_low_border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 336,
+  y = 176,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 336,
+  y = 184,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 336,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 352,
+  y = 192,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 208,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 360,
+  y = 200,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 352,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 208,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 360,
+  y = 208,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 216,
+  width = 8,
+  height = 128,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 216,
+  width = 8,
+  height = 112,
+  pattern = "wall_low_border.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 320,
+  width = 8,
+  height = 16,
+  pattern = "wall_low_border.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 336,
+  width = 8,
+  height = 8,
+  pattern = "wall_low_border.corner_reverse.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 216,
+  width = 24,
+  height = 112,
+  pattern = "wall_low.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 240,
+  width = 8,
+  height = 104,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 336,
+  width = 112,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 336,
+  width = 8,
+  height = 8,
+  pattern = "wall_low_border.corner_reverse.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 336,
+  width = 112,
+  height = 8,
+  pattern = "wall_low_border.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 240,
+  width = 8,
+  height = 96,
+  pattern = "wall_low_border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 312,
+  width = 80,
+  height = 24,
+  pattern = "wall_low.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 312,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner_reverse.1-2b",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 232,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 224,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 240,
+  width = 24,
+  height = 80,
+  pattern = "wall_low.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 312,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner_reverse.2-2b",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 224,
+  width = 16,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 232,
+  width = 8,
+  height = 64,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 224,
+  width = 8,
+  height = 64,
+  pattern = "wall_low_border.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 224,
+  width = 16,
+  height = 8,
+  pattern = "wall_low_border.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 224,
+  width = 8,
+  height = 8,
+  pattern = "wall_low_border.corner.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 288,
+  width = 8,
+  height = 8,
+  pattern = "wall_low_border.corner_reverse.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 264,
+  width = 48,
+  height = 24,
+  pattern = "wall_low.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 224,
+  width = 24,
+  height = 48,
+  pattern = "wall_low.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 264,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner_reverse.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 200,
+  width = 16,
+  height = 24,
+  pattern = "wall_low.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 200,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 256,
+  width = 8,
+  height = 16,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 248,
+  width = 56,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 272,
+  width = 56,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 624,
+  y = 280,
+  width = 8,
+  height = 168,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 632,
+  y = 440,
+  width = 16,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 624,
+  y = 80,
+  width = 8,
+  height = 168,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 632,
+  y = 80,
+  width = 16,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 648,
+  y = 80,
+  width = 8,
+  height = 184,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 656,
+  y = 448,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 632,
+  y = 440,
+  width = 16,
+  height = 8,
+  pattern = "wall_low_border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 624,
+  y = 440,
+  width = 8,
+  height = 8,
+  pattern = "wall_low_border.corner.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 272,
+  width = 48,
+  height = 8,
+  pattern = "wall_low_border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 272,
+  width = 8,
+  height = 8,
+  pattern = "wall_low_border.corner.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 624,
+  y = 280,
+  width = 8,
+  height = 160,
+  pattern = "wall_low_border.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 624,
+  y = 272,
+  width = 8,
+  height = 8,
+  pattern = "wall_low_border.corner_reverse.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 552,
+  y = 280,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 552,
+  y = 224,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 224,
+  width = 32,
+  height = 24,
+  pattern = "wall_low.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 600,
+  y = 80,
+  width = 24,
+  height = 160,
+  pattern = "wall_low.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 600,
+  y = 224,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner_reverse.1-2b",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 256,
+  width = 8,
+  height = 16,
+  pattern = "wall_low_border.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 248,
+  width = 48,
+  height = 8,
+  pattern = "wall_low_border.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 248,
+  width = 8,
+  height = 8,
+  pattern = "wall_low_border.corner.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 624,
+  y = 88,
+  width = 8,
+  height = 160,
+  pattern = "wall_low_border.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 624,
+  y = 248,
+  width = 8,
+  height = 8,
+  pattern = "wall_low_border.corner_reverse.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 624,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "wall_low_border.corner.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 632,
+  y = 80,
+  width = 16,
+  height = 8,
+  pattern = "wall_low_border.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 648,
+  y = 80,
+  width = 8,
+  height = 176,
+  pattern = "wall_low_border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 648,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "wall_low_border.corner.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 648,
+  y = 256,
+  width = 8,
+  height = 8,
+  pattern = "wall_low_border.corner_reverse.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 600,
+  y = 56,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 624,
+  y = 56,
+  width = 32,
+  height = 24,
+  pattern = "wall_low.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 656,
+  y = 56,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 656,
+  y = 80,
+  width = 24,
+  height = 160,
+  pattern = "wall_low.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 600,
+  y = 448,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 624,
+  y = 448,
+  width = 32,
+  height = 24,
+  pattern = "wall_low.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 600,
+  y = 288,
+  width = 24,
+  height = 160,
+  pattern = "wall_low.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 280,
+  width = 32,
+  height = 24,
+  pattern = "wall_low.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 600,
+  y = 280,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner_reverse.3-2b",
+}
+
+tile{
+  layer = 0,
+  x = 928,
+  y = 208,
+  width = 8,
+  height = 152,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 880,
+  y = 352,
+  width = 48,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 880,
+  y = 360,
+  width = 8,
+  height = 80,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 928,
+  y = 112,
+  width = 8,
+  height = 72,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 952,
+  y = 112,
+  width = 8,
+  height = 272,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 904,
+  y = 376,
+  width = 48,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 904,
+  y = 384,
+  width = 8,
+  height = 56,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 904,
+  y = 384,
+  width = 8,
+  height = 64,
+  pattern = "wall_low_border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 880,
+  y = 360,
+  width = 8,
+  height = 80,
+  pattern = "wall_low_border.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 880,
   y = 440,
   width = 32,
   height = 8,
@@ -1163,368 +3640,161 @@ tile{
 
 tile{
   layer = 0,
-  x = 120,
-  y = 448,
-  width = 16,
-  height = 16,
-  pattern = "door_main.2-3",
-}
-
-tile{
-  layer = 0,
-  x = 136,
-  y = 448,
+  x = 952,
+  y = 112,
   width = 8,
-  height = 16,
-  pattern = "door_main.2.support.2-3",
+  height = 272,
+  pattern = "wall_low_border.4-3",
 }
 
 tile{
   layer = 0,
-  x = 112,
-  y = 448,
+  x = 928,
+  y = 112,
   width = 8,
-  height = 16,
-  pattern = "door_main.2.support.1-3",
+  height = 64,
+  pattern = "wall_low_border.3-3",
 }
 
 tile{
   layer = 0,
-  x = 120,
-  y = 464,
-  width = 16,
-  height = 24,
-  pattern = "ceiling.2",
-}
-
-tile{
-  layer = 0,
-  x = 64,
-  y = 232,
-  width = 16,
-  height = 16,
-  pattern = "wall_diag.1-3",
-}
-
-tile{
-  layer = 0,
-  x = 80,
-  y = 240,
-  width = 16,
-  height = 16,
-  pattern = "wall_low_diag.bottom.1-3",
-}
-
-tile{
-  layer = 0,
-  x = 64,
-  y = 240,
-  width = 16,
-  height = 16,
-  pattern = "wall_low_diag.top.1-3",
-}
-
-tile{
-  layer = 0,
-  x = 72,
-  y = 224,
-  width = 16,
-  height = 16,
-  pattern = "wall_diag.1-3",
-}
-
-tile{
-  layer = 0,
-  x = 104,
-  y = 216,
-  width = 16,
-  height = 16,
-  pattern = "wall_low_diag.bottom.1-3",
-}
-
-tile{
-  layer = 0,
-  x = 80,
-  y = 216,
-  width = 16,
-  height = 16,
-  pattern = "wall_diag.1-3",
-}
-
-tile{
-  layer = 0,
-  x = 88,
-  y = 208,
-  width = 16,
-  height = 16,
-  pattern = "wall_diag.1-3",
-}
-
-tile{
-  layer = 0,
-  x = 96,
-  y = 200,
-  width = 16,
-  height = 16,
-  pattern = "wall_diag.1-3",
-}
-
-tile{
-  layer = 0,
-  x = 104,
-  y = 192,
-  width = 16,
-  height = 16,
-  pattern = "wall_diag.1-3",
-}
-
-tile{
-  layer = 0,
-  x = 112,
-  y = 184,
-  width = 16,
-  height = 16,
-  pattern = "wall_diag.1-3",
-}
-
-tile{
-  layer = 0,
-  x = 120,
+  x = 928,
   y = 176,
-  width = 16,
-  height = 16,
-  pattern = "wall_diag.1-3",
-}
-
-tile{
-  layer = 0,
-  x = 56,
-  y = 240,
-  width = 16,
-  height = 16,
-  pattern = "wall_diag.1-3",
-}
-
-tile{
-  layer = 0,
-  x = 376,
-  y = 208,
-  width = 16,
-  height = 8,
-  pattern = "stairs_inner_up.1.top-2",
-}
-
-tile{
-  layer = 0,
-  x = 392,
-  y = 208,
   width = 8,
   height = 8,
-  pattern = "stairs_inner_up.1.top.border.2-2",
+  pattern = "wall_low_border.corner_reverse.1-3",
 }
 
 tile{
   layer = 0,
-  x = 368,
-  y = 216,
-  width = 8,
-  height = 24,
-  pattern = "stairs_inner_up.1.border.1-2",
-}
-
-tile{
-  layer = 0,
-  x = 376,
-  y = 216,
-  width = 16,
-  height = 24,
-  pattern = "stairs_inner_up.1-2",
-}
-
-tile{
-  layer = 0,
-  x = 368,
-  y = 208,
-  width = 8,
-  height = 8,
-  pattern = "stairs_inner_up.1.top.border.1-2",
-}
-
-tile{
-  layer = 0,
-  x = 392,
-  y = 216,
-  width = 8,
-  height = 24,
-  pattern = "stairs_inner_up.1.border.2-2",
-}
-
-tile{
-  layer = 0,
-  x = 360,
-  y = 88,
+  x = 912,
+  y = 376,
   width = 48,
-  height = 48,
-  pattern = "rock.5",
-}
-
-tile{
-  layer = 0,
-  x = 408,
-  y = 88,
-  width = 16,
-  height = 48,
-  pattern = "rock.6",
-}
-
-tile{
-  layer = 0,
-  x = 408,
-  y = 128,
-  width = 16,
-  height = 16,
-  pattern = "rock.9",
-}
-
-tile{
-  layer = 0,
-  x = 344,
-  y = 88,
-  width = 16,
-  height = 48,
-  pattern = "rock.4",
-}
-
-tile{
-  layer = 0,
-  x = 408,
-  y = 80,
-  width = 16,
-  height = 8,
-  pattern = "rock.3",
-}
-
-tile{
-  layer = 0,
-  x = 344,
-  y = 80,
-  width = 16,
-  height = 8,
-  pattern = "rock.1",
-}
-
-tile{
-  layer = 0,
-  x = 360,
-  y = 128,
-  width = 48,
-  height = 16,
-  pattern = "rock.8",
-}
-
-tile{
-  layer = 0,
-  x = 360,
-  y = 80,
-  width = 48,
-  height = 8,
-  pattern = "rock.2",
-}
-
-tile{
-  layer = 0,
-  x = 344,
-  y = 128,
-  width = 16,
-  height = 16,
-  pattern = "rock.7",
-}
-
-tile{
-  layer = 0,
-  x = 784,
-  y = 24,
-  width = 8,
-  height = 296,
-  pattern = "ceiling.2",
-}
-
-tile{
-  layer = 0,
-  x = 832,
-  y = 224,
-  width = 48,
-  height = 48,
-  pattern = "floor.16-2",
-}
-
-tile{
-  layer = 0,
-  x = 784,
-  y = 40,
-  width = 24,
-  height = 176,
-  pattern = "wall.3-3",
-}
-
-tile{
-  layer = 0,
-  x = 840,
-  y = 264,
-  width = 32,
   height = 8,
   pattern = "wall_low_border.2-3",
 }
 
 tile{
   layer = 0,
-  x = 840,
-  y = 240,
-  width = 32,
+  x = 952,
+  y = 376,
+  width = 8,
+  height = 8,
+  pattern = "wall_low_border.corner.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 904,
+  y = 376,
+  width = 8,
+  height = 8,
+  pattern = "wall_low_border.corner_reverse.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 880,
+  y = 352,
+  width = 48,
   height = 8,
   pattern = "wall_low_border.1-3",
 }
 
 tile{
   layer = 0,
-  x = 832,
-  y = 240,
+  x = 928,
+  y = 208,
   width = 8,
-  height = 32,
+  height = 144,
   pattern = "wall_low_border.3-3",
 }
 
 tile{
   layer = 0,
-  x = 816,
-  y = 40,
-  width = 160,
+  x = 928,
+  y = 352,
+  width = 8,
   height = 8,
-  pattern = "wall_border.1-3",
-}
-
-tile{
-  layer = 0,
-  x = 784,
-  y = 16,
-  width = 216,
-  height = 8,
-  pattern = "ceiling.2",
-}
-
-tile{
-  layer = 0,
-  x = 808,
-  y = 16,
-  width = 176,
-  height = 24,
-  pattern = "wall.1-3",
+  pattern = "wall_low_border.corner_reverse.1-3",
 }
 
 tile{
   layer = 0,
   x = 880,
-  y = 232,
+  y = 352,
+  width = 8,
+  height = 8,
+  pattern = "wall_low_border.corner.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 856,
+  y = 448,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 912,
+  y = 448,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 856,
+  y = 352,
+  width = 24,
+  height = 96,
+  pattern = "wall_low.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 856,
+  y = 328,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 880,
+  y = 328,
+  width = 32,
+  height = 24,
+  pattern = "wall_low.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 904,
+  y = 224,
+  width = 24,
+  height = 112,
+  pattern = "wall_low.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 904,
+  y = 328,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner_reverse.1-2b",
+}
+
+tile{
+  layer = 0,
+  x = 912,
+  y = 400,
   width = 24,
   height = 48,
   pattern = "wall_low.4-2",
@@ -1532,143 +3802,26 @@ tile{
 
 tile{
   layer = 0,
-  x = 832,
-  y = 272,
-  width = 48,
+  x = 928,
+  y = 384,
+  width = 32,
   height = 24,
   pattern = "wall_low.2-2",
 }
 
 tile{
   layer = 0,
-  x = 832,
-  y = 216,
-  width = 64,
-  height = 24,
-  pattern = "wall_low.1-2",
-}
-
-tile{
-  layer = 0,
-  x = 808,
-  y = 48,
-  width = 8,
-  height = 160,
-  pattern = "wall_border.3-3",
-}
-
-tile{
-  layer = 0,
-  x = 976,
-  y = 48,
-  width = 8,
-  height = 144,
-  pattern = "wall_border.4-3",
-}
-
-tile{
-  layer = 0,
-  x = 784,
-  y = 312,
-  width = 224,
-  height = 8,
-  pattern = "ceiling.2",
-}
-
-tile{
-  layer = 0,
-  x = 1000,
-  y = 16,
-  width = 8,
-  height = 208,
-  pattern = "ceiling.2",
-}
-
-tile{
-  layer = 0,
-  x = 984,
-  y = 40,
-  width = 24,
-  height = 160,
-  pattern = "wall.4-3",
-}
-
-tile{
-  layer = 0,
-  x = 808,
-  y = 296,
-  width = 144,
-  height = 24,
-  pattern = "wall.2-3",
-}
-
-tile{
-  layer = 0,
-  x = 784,
-  y = 16,
+  x = 912,
+  y = 384,
   width = 24,
   height = 24,
-  pattern = "wall.corner.1-3",
+  pattern = "wall_low.corner_reverse.4-2b",
 }
 
 tile{
   layer = 0,
-  x = 984,
-  y = 16,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner.2-3",
-}
-
-tile{
-  layer = 0,
-  x = 808,
-  y = 40,
-  width = 8,
-  height = 8,
-  pattern = "wall_border.corner.1-3",
-}
-
-tile{
-  layer = 0,
-  x = 976,
-  y = 40,
-  width = 8,
-  height = 8,
-  pattern = "wall_border.corner.2-3",
-}
-
-tile{
-  layer = 0,
-  x = 808,
-  y = 208,
-  width = 8,
-  height = 8,
-  pattern = "barrier.border-1",
-}
-
-tile{
-  layer = 0,
-  x = 816,
-  y = 208,
-  width = 16,
-  height = 8,
-  pattern = "barrier.1-1",
-}
-
-tile{
-  layer = 0,
-  x = 832,
-  y = 208,
-  width = 8,
-  height = 8,
-  pattern = "barrier.border-1",
-}
-
-tile{
-  layer = 0,
-  x = 880,
-  y = 272,
+  x = 960,
+  y = 384,
   width = 24,
   height = 24,
   pattern = "wall_low.corner.4-2",
@@ -1676,8 +3829,17 @@ tile{
 
 tile{
   layer = 0,
-  x = 880,
-  y = 216,
+  x = 960,
+  y = 80,
+  width = 24,
+  height = 304,
+  pattern = "wall_low.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 960,
+  y = 56,
   width = 24,
   height = 24,
   pattern = "wall_low.corner.2-2",
@@ -1685,449 +3847,17 @@ tile{
 
 tile{
   layer = 0,
-  x = 808,
-  y = 216,
-  width = 24,
-  height = 24,
-  pattern = "wall_low.corner.1-2",
-}
-
-tile{
-  layer = 0,
-  x = 808,
-  y = 232,
-  width = 24,
-  height = 32,
-  pattern = "wall_low.3-2",
-}
-
-tile{
-  layer = 0,
-  x = 832,
-  y = 240,
-  width = 8,
-  height = 8,
-  pattern = "wall_low_border.corner.1-3",
-}
-
-tile{
-  layer = 0,
-  x = 832,
-  y = 264,
-  width = 8,
-  height = 8,
-  pattern = "wall_low_border.corner.3-3",
-}
-
-tile{
-  layer = 0,
-  x = 816,
-  y = 248,
-  width = 16,
-  height = 16,
-  pattern = "door_blast.3",
-}
-
-tile{
-  layer = 0,
-  x = 816,
-  y = 264,
-  width = 16,
-  height = 8,
-  pattern = "door.3.low_support.2-2",
-}
-
-tile{
-  layer = 0,
-  x = 816,
-  y = 240,
-  width = 16,
-  height = 8,
-  pattern = "door.3.low_support.1-2",
-}
-
-tile{
-  layer = 0,
-  x = 784,
-  y = 296,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner.3-3",
-}
-
-tile{
-  layer = 0,
-  x = 808,
-  y = 272,
-  width = 24,
-  height = 24,
-  pattern = "wall_low.corner.3-2",
-}
-
-tile{
-  layer = 0,
-  x = 848,
-  y = 216,
-  width = 16,
-  height = 8,
-  pattern = "stairs_inner_up.1.top-2",
-}
-
-tile{
-  layer = 0,
-  x = 864,
-  y = 216,
-  width = 8,
-  height = 8,
-  pattern = "stairs_inner_up.1.top.border.2-2",
-}
-
-tile{
-  layer = 0,
-  x = 840,
-  y = 224,
-  width = 8,
-  height = 24,
-  pattern = "stairs_inner_up.1.border.1-2",
-}
-
-tile{
-  layer = 0,
-  x = 848,
-  y = 224,
-  width = 16,
-  height = 24,
-  pattern = "stairs_inner_up.1-2",
-}
-
-tile{
-  layer = 0,
-  x = 840,
-  y = 216,
-  width = 8,
-  height = 8,
-  pattern = "stairs_inner_up.1.top.border.1-2",
-}
-
-tile{
-  layer = 0,
-  x = 864,
-  y = 224,
-  width = 8,
-  height = 24,
-  pattern = "stairs_inner_up.1.border.2-2",
-}
-
-tile{
-  layer = 0,
-  x = 888,
-  y = 152,
-  width = 16,
-  height = 48,
-  pattern = "rock.5",
-}
-
-tile{
-  layer = 0,
-  x = 904,
-  y = 152,
-  width = 16,
-  height = 48,
-  pattern = "rock.6",
-}
-
-tile{
-  layer = 0,
-  x = 904,
-  y = 200,
-  width = 16,
-  height = 16,
-  pattern = "rock.9",
-}
-
-tile{
-  layer = 0,
-  x = 872,
-  y = 152,
-  width = 16,
-  height = 48,
-  pattern = "rock.4",
-}
-
-tile{
-  layer = 0,
-  x = 936,
-  y = 72,
-  width = 16,
-  height = 8,
-  pattern = "rock.3",
-}
-
-tile{
-  layer = 0,
-  x = 856,
-  y = 72,
-  width = 16,
-  height = 8,
-  pattern = "rock.1",
-}
-
-tile{
-  layer = 0,
-  x = 888,
-  y = 200,
-  width = 16,
-  height = 16,
-  pattern = "rock.8",
-}
-
-tile{
-  layer = 0,
-  x = 872,
-  y = 72,
-  width = 64,
-  height = 8,
-  pattern = "rock.2",
-}
-
-tile{
-  layer = 0,
-  x = 872,
-  y = 200,
-  width = 16,
-  height = 16,
-  pattern = "rock.7",
-}
-
-tile{
-  layer = 0,
-  x = 528,
-  y = 24,
-  width = 8,
-  height = 296,
-  pattern = "ceiling.2",
-}
-
-tile{
-  layer = 0,
-  x = 576,
-  y = 224,
-  width = 128,
-  height = 48,
-  pattern = "floor.16-2",
-}
-
-tile{
-  layer = 0,
-  x = 528,
-  y = 64,
-  width = 24,
-  height = 128,
-  pattern = "wall.3-3",
-}
-
-tile{
-  layer = 0,
-  x = 584,
-  y = 264,
-  width = 112,
-  height = 8,
-  pattern = "wall_low_border.2-3",
-}
-
-tile{
-  layer = 0,
-  x = 584,
-  y = 240,
-  width = 112,
-  height = 8,
-  pattern = "wall_low_border.1-3",
-}
-
-tile{
-  layer = 0,
-  x = 696,
-  y = 240,
-  width = 8,
-  height = 32,
-  pattern = "wall_low_border.4-3",
-}
-
-tile{
-  layer = 0,
-  x = 560,
-  y = 40,
-  width = 160,
-  height = 8,
-  pattern = "wall_border.1-3",
-}
-
-tile{
-  layer = 0,
-  x = 528,
-  y = 16,
-  width = 216,
-  height = 8,
-  pattern = "ceiling.2",
-}
-
-tile{
-  layer = 0,
-  x = 552,
-  y = 16,
-  width = 176,
-  height = 24,
-  pattern = "wall.1-3",
-}
-
-tile{
-  layer = 0,
-  x = 576,
-  y = 272,
-  width = 128,
-  height = 24,
-  pattern = "wall_low.2-2",
-}
-
-tile{
-  layer = 0,
-  x = 576,
-  y = 216,
-  width = 128,
+  x = 928,
+  y = 56,
+  width = 32,
   height = 24,
   pattern = "wall_low.1-2",
 }
 
 tile{
   layer = 0,
-  x = 552,
-  y = 40,
-  width = 8,
-  height = 144,
-  pattern = "wall_border.3-3",
-}
-
-tile{
-  layer = 0,
-  x = 720,
-  y = 48,
-  width = 8,
-  height = 160,
-  pattern = "wall_border.4-3",
-}
-
-tile{
-  layer = 0,
-  x = 528,
-  y = 312,
-  width = 224,
-  height = 8,
-  pattern = "ceiling.2",
-}
-
-tile{
-  layer = 0,
-  x = 744,
-  y = 16,
-  width = 8,
-  height = 304,
-  pattern = "ceiling.2",
-}
-
-tile{
-  layer = 0,
-  x = 728,
-  y = 40,
-  width = 24,
-  height = 176,
-  pattern = "wall.4-3",
-}
-
-tile{
-  layer = 0,
-  x = 552,
-  y = 296,
-  width = 176,
-  height = 24,
-  pattern = "wall.2-3",
-}
-
-tile{
-  layer = 0,
-  x = 528,
-  y = 16,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner.1-3",
-}
-
-tile{
-  layer = 0,
-  x = 728,
-  y = 16,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner.2-3",
-}
-
-tile{
-  layer = 0,
-  x = 552,
-  y = 40,
-  width = 8,
-  height = 8,
-  pattern = "wall_border.corner.1-3",
-}
-
-tile{
-  layer = 0,
-  x = 720,
-  y = 40,
-  width = 8,
-  height = 8,
-  pattern = "wall_border.corner.2-3",
-}
-
-tile{
-  layer = 0,
-  x = 656,
-  y = 208,
-  width = 8,
-  height = 8,
-  pattern = "barrier.border-1",
-}
-
-tile{
-  layer = 0,
-  x = 664,
-  y = 208,
-  width = 56,
-  height = 8,
-  pattern = "barrier.1-1",
-}
-
-tile{
-  layer = 0,
-  x = 720,
-  y = 208,
-  width = 8,
-  height = 8,
-  pattern = "barrier.border-1",
-}
-
-tile{
-  layer = 0,
-  x = 704,
-  y = 272,
-  width = 24,
-  height = 24,
-  pattern = "wall_low.corner.4-2",
-}
-
-tile{
-  layer = 0,
-  x = 552,
-  y = 216,
+  x = 904,
+  y = 56,
   width = 24,
   height = 24,
   pattern = "wall_low.corner.1-2",
@@ -2135,152 +3865,575 @@ tile{
 
 tile{
   layer = 0,
-  x = 696,
+  x = 904,
+  y = 80,
+  width = 24,
+  height = 80,
+  pattern = "wall_low.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 280,
+  width = 16,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 280,
+  width = 16,
+  height = 8,
+  pattern = "wall_low_border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = -24,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = -24,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.3-3",
+}
+
+tile{
+  layer = 0,
+  x = -24,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 744,
+  y = 296,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 272,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 272,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 288,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 760,
   y = 264,
   width = 8,
   height = 8,
-  pattern = "wall_low_border.corner.4-3",
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 760,
+  y = 264,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 760,
+  y = 280,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 768,
+  y = 256,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 768,
+  y = 256,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 768,
+  y = 272,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 776,
+  y = 248,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 776,
+  y = 248,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 776,
+  y = 264,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 240,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 240,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 256,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 792,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 792,
+  y = 232,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 792,
+  y = 248,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 800,
+  y = 224,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 800,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 800,
+  y = 240,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 808,
+  y = 216,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 808,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 808,
+  y = 232,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 816,
+  y = 208,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 816,
+  y = 208,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 816,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 824,
+  y = 200,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 824,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 824,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 720,
+  y = 288,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 720,
+  y = 288,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 720,
+  y = 304,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 712,
+  y = 296,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 712,
+  y = 296,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 712,
+  y = 312,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 704,
+  y = 304,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 704,
+  y = 304,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 704,
+  y = 320,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.4-3",
 }
 
 tile{
   layer = 0,
   x = 696,
-  y = 240,
+  y = 312,
   width = 8,
   height = 8,
-  pattern = "wall_low_border.corner.2-3",
+  pattern = "947",
 }
 
 tile{
   layer = 0,
-  x = 728,
-  y = 296,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner.4-3",
-}
-
-tile{
-  layer = 0,
-  x = 552,
-  y = 272,
-  width = 24,
-  height = 24,
-  pattern = "wall_low.corner.3-2",
-}
-
-tile{
-  layer = 0,
-  x = 632,
-  y = 216,
-  width = 16,
-  height = 8,
-  pattern = "stairs_inner_up.1.top-2",
-}
-
-tile{
-  layer = 0,
-  x = 648,
-  y = 216,
-  width = 8,
-  height = 8,
-  pattern = "stairs_inner_up.1.top.border.2-2",
-}
-
-tile{
-  layer = 0,
-  x = 624,
-  y = 224,
-  width = 8,
-  height = 24,
-  pattern = "stairs_inner_up.1.border.1-2",
-}
-
-tile{
-  layer = 0,
-  x = 632,
-  y = 224,
-  width = 16,
-  height = 24,
-  pattern = "stairs_inner_up.1-2",
-}
-
-tile{
-  layer = 0,
-  x = 624,
-  y = 216,
-  width = 8,
-  height = 8,
-  pattern = "stairs_inner_up.1.top.border.1-2",
-}
-
-tile{
-  layer = 0,
-  x = 648,
-  y = 224,
-  width = 8,
-  height = 24,
-  pattern = "stairs_inner_up.1.border.2-2",
-}
-
-tile{
-  layer = 0,
-  x = 528,
-  y = 296,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner.3-3",
-}
-
-tile{
-  layer = 0,
-  x = 472,
-  y = 296,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner.4-3",
-}
-
-tile{
-  layer = 0,
-  x = 536,
-  y = 48,
+  x = 696,
+  y = 312,
   width = 16,
   height = 16,
-  pattern = "door_blast.3",
+  pattern = "wall_low_diag.border.3-3",
 }
 
 tile{
   layer = 0,
-  x = 536,
-  y = 64,
+  x = 696,
+  y = 328,
   width = 16,
-  height = 8,
-  pattern = "door.3.low_support.2-2",
+  height = 16,
+  pattern = "wall_low_diag.bottom.4-3",
 }
 
 tile{
   layer = 0,
-  x = 536,
-  y = 40,
-  width = 16,
-  height = 8,
-  pattern = "door.3.low_support.1-2",
-}
-
-tile{
-  layer = 0,
-  x = 872,
-  y = 240,
+  x = 688,
+  y = 320,
   width = 8,
-  height = 32,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 320,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 680,
+  y = 328,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 680,
+  y = 328,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 672,
+  y = 336,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 672,
+  y = 336,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 664,
+  y = 344,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 664,
+  y = 344,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 656,
+  y = 352,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 656,
+  y = 352,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 648,
+  y = 360,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 648,
+  y = 360,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 648,
+  y = 368,
+  width = 8,
+  height = 80,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 648,
+  y = 368,
+  width = 8,
+  height = 80,
   pattern = "wall_low_border.4-3",
 }
 
 tile{
   layer = 0,
-  x = 872,
-  y = 264,
+  x = 648,
+  y = 440,
   width = 8,
   height = 8,
   pattern = "wall_low_border.corner.4-3",
@@ -2288,152 +4441,404 @@ tile{
 
 tile{
   layer = 0,
-  x = 872,
-  y = 232,
+  x = 656,
+  y = 368,
+  width = 24,
+  height = 80,
+  pattern = "wall_low.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 832,
+  y = 200,
+  width = 104,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 928,
+  y = 200,
   width = 8,
   height = 8,
-  pattern = "wall_low_border.corner.2-3",
+  pattern = "wall_low_border.corner_reverse.3-3",
 }
 
 tile{
   layer = 0,
-  x = 920,
-  y = 296,
+  x = 832,
+  y = 200,
+  width = 96,
+  height = 8,
+  pattern = "wall_low_border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 832,
+  y = 208,
+  width = 80,
+  height = 24,
+  pattern = "wall_low.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 904,
+  y = 208,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner_reverse.3-2b",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 336,
   width = 16,
   height = 16,
-  pattern = "door_main.2-3",
+  pattern = "wall_low_diag.bottom.4-3",
 }
 
 tile{
   layer = 0,
-  x = 936,
-  y = 296,
-  width = 8,
+  x = 680,
+  y = 344,
+  width = 16,
   height = 16,
-  pattern = "door_main.2.support.2-3",
+  pattern = "wall_low_diag.bottom.4-3",
 }
 
 tile{
   layer = 0,
-  x = 912,
-  y = 296,
-  width = 8,
+  x = 672,
+  y = 352,
+  width = 16,
   height = 16,
-  pattern = "door_main.2.support.1-3",
+  pattern = "wall_low_diag.bottom.4-3",
 }
 
 tile{
   layer = 0,
-  x = 920,
-  y = 312,
+  x = 736,
+  y = 288,
   width = 16,
   height = 24,
-  pattern = "ceiling.2",
+  pattern = "wall_low.2-2",
 }
 
 tile{
   layer = 0,
-  x = 912,
-  y = 288,
-  width = 32,
-  height = 8,
-  pattern = "wall_border.2-3",
-}
-
-tile{
-  layer = 0,
-  x = 576,
-  y = 240,
-  width = 8,
-  height = 32,
-  pattern = "wall_low_border.3-3",
-}
-
-tile{
-  layer = 0,
-  x = 576,
-  y = 240,
+  x = 848,
+  y = 168,
   width = 8,
   height = 8,
-  pattern = "wall_low_border.corner.1-3",
+  pattern = "947",
 }
 
 tile{
   layer = 0,
-  x = 576,
-  y = 264,
-  width = 8,
-  height = 8,
-  pattern = "wall_low_border.corner.3-3",
-}
-
-tile{
-  layer = 0,
-  x = 704,
-  y = 248,
+  x = 848,
+  y = 144,
   width = 16,
   height = 16,
-  pattern = "door_blast.4",
+  pattern = "wall_low_diag.bottom.2-3",
 }
 
 tile{
   layer = 0,
-  x = 704,
-  y = 240,
-  width = 16,
-  height = 8,
-  pattern = "door.4.low_support.1-2",
-}
-
-tile{
-  layer = 0,
-  x = 704,
-  y = 264,
-  width = 16,
-  height = 8,
-  pattern = "door.4.low_support.2-2",
-}
-
-tile{
-  layer = 0,
-  x = 464,
-  y = 40,
-  width = 8,
-  height = 8,
-  pattern = "wall_low_border.corner.2-3",
-}
-
-tile{
-  layer = 0,
-  x = 472,
-  y = 48,
+  x = 848,
+  y = 160,
   width = 16,
   height = 16,
-  pattern = "door_blast.4",
+  pattern = "wall_low_diag.border.2-3",
 }
 
 tile{
   layer = 0,
-  x = 472,
-  y = 40,
-  width = 16,
+  x = 840,
+  y = 160,
+  width = 8,
   height = 8,
-  pattern = "door.4.low_support.1-2",
+  pattern = "947",
 }
 
 tile{
   layer = 0,
-  x = 472,
-  y = 64,
+  x = 840,
+  y = 136,
   width = 16,
-  height = 8,
-  pattern = "door.4.low_support.2-2",
+  height = 16,
+  pattern = "wall_low_diag.bottom.2-3",
 }
 
 tile{
   layer = 0,
-  x = 584,
-  y = 248,
+  x = 840,
+  y = 152,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 832,
+  y = 152,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 832,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 832,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 824,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 824,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 824,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 816,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 816,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 816,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 856,
+  y = 176,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 856,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 152,
+  width = 48,
+  height = 24,
+  pattern = "wall_low.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 904,
+  y = 152,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner_reverse.1-2b",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 176,
+  width = 64,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 176,
+  width = 64,
+  height = 8,
+  pattern = "wall_low_border.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 808,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 808,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 808,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 800,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 800,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 800,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 792,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 792,
+  y = 88,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 792,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 776,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 776,
+  y = 88,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 768,
+  y = 80,
   width = 16,
   height = 16,
   pattern = "floor_pot",
@@ -2441,8 +4846,26 @@ tile{
 
 tile{
   layer = 0,
-  x = 704,
-  y = 216,
+  x = 768,
+  y = 96,
+  width = 8,
+  height = 16,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 768,
+  y = 96,
+  width = 8,
+  height = 16,
+  pattern = "wall_low_border.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 56,
   width = 24,
   height = 24,
   pattern = "wall_low.corner.2-2",
@@ -2450,899 +4873,494 @@ tile{
 
 tile{
   layer = 0,
-  x = 584,
-  y = 40,
-  width = 32,
-  height = 32,
-  pattern = "hole",
-}
-
-tile{
-  layer = 0,
-  x = 584,
-  y = 40,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.1",
-}
-
-tile{
-  layer = 0,
-  x = 608,
-  y = 64,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.4",
-}
-
-tile{
-  layer = 0,
-  x = 584,
-  y = 64,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.3",
-}
-
-tile{
-  layer = 0,
-  x = 608,
-  y = 40,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.2",
-}
-
-tile{
-  layer = 0,
-  x = 584,
-  y = 48,
-  width = 8,
-  height = 16,
-  pattern = "hole.3",
-}
-
-tile{
-  layer = 0,
-  x = 592,
-  y = 40,
+  x = 768,
+  y = 56,
   width = 16,
-  height = 8,
-  pattern = "hole.1",
+  height = 24,
+  pattern = "wall_low.1-2",
 }
 
 tile{
   layer = 0,
-  x = 608,
-  y = 48,
-  width = 8,
+  x = 744,
+  y = 56,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 80,
+  width = 24,
   height = 16,
-  pattern = "hole.4",
+  pattern = "wall_low.4-2",
 }
 
 tile{
   layer = 0,
-  x = 592,
-  y = 64,
+  x = 744,
+  y = 104,
   width = 16,
-  height = 8,
-  pattern = "hole.2",
+  height = 16,
+  pattern = "wall_low_diag.bottom.3-3",
 }
 
 tile{
   layer = 0,
-  x = 584,
-  y = 88,
-  width = 8,
-  height = 96,
-  pattern = "wall_border.4-3",
-}
-
-tile{
-  layer = 0,
-  x = 592,
-  y = 104,
-  width = 24,
-  height = 96,
-  pattern = "wall.4-3",
-}
-
-tile{
-  layer = 0,
-  x = 528,
-  y = 192,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner.3-3",
-}
-
-tile{
-  layer = 0,
-  x = 552,
-  y = 192,
-  width = 48,
-  height = 24,
-  pattern = "wall.2-3",
-}
-
-tile{
-  layer = 0,
-  x = 592,
-  y = 192,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner.4-3",
-}
-
-tile{
-  layer = 0,
-  x = 608,
-  y = 88,
-  width = 80,
-  height = 24,
-  pattern = "wall.2-3",
-}
-
-tile{
-  layer = 0,
-  x = 592,
-  y = 88,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner_reverse.4-3b",
-}
-
-tile{
-  layer = 0,
-  x = 592,
-  y = 80,
-  width = 96,
-  height = 8,
-  pattern = "wall_border.2-3",
-}
-
-tile{
-  layer = 0,
-  x = 664,
-  y = 88,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner_reverse.3-3b",
-}
-
-tile{
-  layer = 0,
-  x = 584,
-  y = 80,
+  x = 776,
+  y = 112,
   width = 8,
   height = 8,
-  pattern = "wall_border.corner_reverse.4-3",
+  pattern = "947",
 }
 
 tile{
   layer = 0,
-  x = 688,
-  y = 80,
+  x = 752,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 768,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 120,
   width = 8,
   height = 8,
-  pattern = "wall_border.corner_reverse.3-3",
+  pattern = "947",
 }
 
 tile{
   layer = 0,
-  x = 688,
-  y = 88,
-  width = 8,
-  height = 96,
-  pattern = "wall_border.3-3",
+  x = 760,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.3-3",
 }
 
 tile{
   layer = 0,
-  x = 688,
-  y = 184,
+  x = 776,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 792,
+  y = 128,
   width = 8,
   height = 8,
-  pattern = "wall_border.corner_reverse.1-3",
+  pattern = "947",
 }
 
 tile{
   layer = 0,
-  x = 664,
-  y = 104,
-  width = 24,
-  height = 64,
-  pattern = "wall.3-3",
+  x = 768,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.3-3",
 }
 
 tile{
   layer = 0,
-  x = 616,
+  x = 784,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 800,
   y = 136,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 792,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 744,
+  y = 80,
   width = 24,
   height = 32,
-  pattern = "wall.3-3",
+  pattern = "wall_low.3-2",
 }
 
 tile{
   layer = 0,
-  x = 640,
-  y = 136,
-  width = 24,
-  height = 32,
-  pattern = "wall.4-3",
-}
-
-tile{
-  layer = 0,
-  x = 616,
-  y = 112,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner.1-3",
-}
-
-tile{
-  layer = 0,
-  x = 640,
-  y = 112,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner.2-3",
-}
-
-tile{
-  layer = 0,
-  x = 664,
-  y = 160,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner_reverse.1-3b",
-}
-
-tile{
-  layer = 0,
-  x = 640,
-  y = 160,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner_reverse.2-3b",
-}
-
-tile{
-  layer = 0,
-  x = 584,
-  y = 184,
+  x = 800,
+  y = 176,
   width = 8,
   height = 8,
-  pattern = "wall_border.corner.4-3",
+  pattern = "947",
 }
 
 tile{
   layer = 0,
-  x = 552,
-  y = 184,
-  width = 8,
-  height = 8,
-  pattern = "wall_border.corner.3-3",
-}
-
-tile{
-  layer = 0,
-  x = 616,
+  x = 776,
   y = 168,
   width = 16,
   height = 16,
-  pattern = "wall_diag.1-3",
+  pattern = "wall_low_diag.bottom.1-3",
 }
 
 tile{
   layer = 0,
-  x = 632,
+  x = 792,
   y = 168,
   width = 16,
   height = 16,
-  pattern = "wall_diag.border.1-3",
+  pattern = "wall_low_diag.border.1-3",
 }
 
 tile{
   layer = 0,
-  x = 624,
+  x = 792,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 768,
   y = 176,
   width = 16,
   height = 16,
-  pattern = "wall_diag.border.1-3",
+  pattern = "wall_low_diag.bottom.1-3",
 }
 
 tile{
   layer = 0,
-  x = 640,
-  y = 184,
-  width = 48,
+  x = 784,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 192,
+  width = 8,
   height = 8,
-  pattern = "wall_border.1-3",
+  pattern = "947",
 }
 
 tile{
   layer = 0,
-  x = 616,
+  x = 760,
   y = 184,
   width = 16,
   height = 16,
-  pattern = "wall_diag.border.1-3",
+  pattern = "wall_low_diag.bottom.1-3",
 }
 
 tile{
   layer = 0,
-  x = 632,
+  x = 776,
   y = 184,
-  width = 8,
-  height = 8,
-  pattern = "wall_border.1-3-cut",
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.1-3",
 }
 
 tile{
   layer = 0,
-  x = 616,
+  x = 776,
   y = 200,
   width = 8,
   height = 8,
-  pattern = "wall_border.3-3-cut",
+  pattern = "947",
 }
 
 tile{
   layer = 0,
-  x = 616,
+  x = 752,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 768,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 768,
   y = 208,
   width = 8,
   height = 8,
-  pattern = "wall_border.corner.3-3",
+  pattern = "947",
 }
 
 tile{
   layer = 0,
-  x = 624,
-  y = 192,
-  width = 8,
-  height = 8,
-  pattern = "wall_border.corner_reverse.1-3",
-}
-
-tile{
-  layer = 0,
-  x = 624,
-  y = 184,
-  width = 8,
-  height = 8,
-  pattern = "wall_border.corner.1-3",
-}
-
-tile{
-  layer = 0,
-  x = 616,
-  y = 192,
-  width = 8,
-  height = 8,
-  pattern = "wall_border.corner.1-3",
-}
-
-tile{
-  layer = 0,
-  x = 648,
-  y = 56,
-  width = 32,
-  height = 32,
-  pattern = "hole",
-}
-
-tile{
-  layer = 0,
-  x = 648,
-  y = 56,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.1",
-}
-
-tile{
-  layer = 0,
-  x = 672,
-  y = 80,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.4",
-}
-
-tile{
-  layer = 0,
-  x = 648,
-  y = 80,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.3",
-}
-
-tile{
-  layer = 0,
-  x = 672,
-  y = 56,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.2",
-}
-
-tile{
-  layer = 0,
-  x = 648,
-  y = 64,
-  width = 8,
-  height = 16,
-  pattern = "hole.3",
-}
-
-tile{
-  layer = 0,
-  x = 656,
-  y = 56,
-  width = 16,
-  height = 8,
-  pattern = "hole.1",
-}
-
-tile{
-  layer = 0,
-  x = 672,
-  y = 64,
-  width = 8,
-  height = 16,
-  pattern = "hole.4",
-}
-
-tile{
-  layer = 0,
-  x = 656,
-  y = 80,
-  width = 16,
-  height = 8,
-  pattern = "hole.2",
-}
-
-tile{
-  layer = 0,
-  x = 832,
-  y = 160,
-  width = 40,
-  height = 32,
-  pattern = "hole",
-}
-
-tile{
-  layer = 0,
-  x = 832,
-  y = 160,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.1",
-}
-
-tile{
-  layer = 0,
-  x = 864,
-  y = 184,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.4",
-}
-
-tile{
-  layer = 0,
-  x = 832,
-  y = 184,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.3",
-}
-
-tile{
-  layer = 0,
-  x = 864,
-  y = 160,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.2",
-}
-
-tile{
-  layer = 0,
-  x = 832,
-  y = 168,
-  width = 8,
-  height = 16,
-  pattern = "hole.3",
-}
-
-tile{
-  layer = 0,
-  x = 840,
-  y = 160,
-  width = 24,
-  height = 8,
-  pattern = "hole.1",
-}
-
-tile{
-  layer = 0,
-  x = 864,
-  y = 168,
-  width = 8,
-  height = 16,
-  pattern = "hole.4",
-}
-
-tile{
-  layer = 0,
-  x = 840,
-  y = 184,
-  width = 24,
-  height = 8,
-  pattern = "hole.2",
-}
-
-tile{
-  layer = 0,
-  x = 952,
-  y = 224,
-  width = 24,
-  height = 80,
-  pattern = "wall.4-3",
-}
-
-tile{
-  layer = 0,
-  x = 904,
-  y = 288,
-  width = 8,
-  height = 8,
-  pattern = "wall_border.corner.3-3",
-}
-
-tile{
-  layer = 0,
-  x = 944,
-  y = 288,
-  width = 8,
-  height = 8,
-  pattern = "wall_border.corner.4-3",
-}
-
-tile{
-  layer = 0,
-  x = 808,
-  y = 72,
-  width = 32,
-  height = 48,
-  pattern = "hole",
-}
-
-tile{
-  layer = 0,
-  x = 808,
-  y = 72,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.1",
-}
-
-tile{
-  layer = 0,
-  x = 832,
-  y = 112,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.4",
-}
-
-tile{
-  layer = 0,
-  x = 808,
-  y = 112,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.3",
-}
-
-tile{
-  layer = 0,
-  x = 832,
-  y = 72,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.2",
-}
-
-tile{
-  layer = 0,
-  x = 808,
-  y = 80,
-  width = 8,
-  height = 32,
-  pattern = "hole.3",
-}
-
-tile{
-  layer = 0,
-  x = 816,
-  y = 72,
-  width = 16,
-  height = 8,
-  pattern = "hole.1",
-}
-
-tile{
-  layer = 0,
-  x = 832,
-  y = 80,
-  width = 8,
-  height = 32,
-  pattern = "hole.4",
-}
-
-tile{
-  layer = 0,
-  x = 816,
-  y = 112,
-  width = 16,
-  height = 8,
-  pattern = "hole.2",
-}
-
-tile{
-  layer = 0,
-  x = 400,
-  y = 144,
-  width = 40,
-  height = 56,
-  pattern = "hole",
-}
-
-tile{
-  layer = 0,
-  x = 400,
-  y = 144,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.1",
-}
-
-tile{
-  layer = 0,
-  x = 432,
-  y = 192,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.4",
-}
-
-tile{
-  layer = 0,
-  x = 400,
-  y = 192,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.3",
-}
-
-tile{
-  layer = 0,
-  x = 432,
-  y = 144,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.2",
-}
-
-tile{
-  layer = 0,
-  x = 400,
-  y = 152,
-  width = 8,
-  height = 40,
-  pattern = "hole.3",
-}
-
-tile{
-  layer = 0,
-  x = 408,
-  y = 144,
-  width = 24,
-  height = 8,
-  pattern = "hole.1",
-}
-
-tile{
-  layer = 0,
-  x = 432,
-  y = 152,
-  width = 8,
-  height = 40,
-  pattern = "hole.4",
-}
-
-tile{
-  layer = 0,
-  x = 408,
-  y = 192,
-  width = 24,
-  height = 8,
-  pattern = "hole.2",
-}
-
-tile{
-  layer = 0,
-  x = 968,
+  x = 744,
   y = 200,
-  width = 32,
-  height = 24,
-  pattern = "wall.2-3",
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.1-3",
 }
 
 tile{
   layer = 0,
-  x = 952,
+  x = 760,
   y = 200,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner_reverse.4-3b",
-}
-
-tile{
-  layer = 0,
-  x = 936,
-  y = 128,
   width = 16,
   height = 16,
-  pattern = "rock.9",
+  pattern = "wall_low_diag.border.1-3",
 }
 
 tile{
   layer = 0,
-  x = 936,
-  y = 80,
-  width = 16,
-  height = 48,
-  pattern = "rock.6",
-}
-
-tile{
-  layer = 0,
-  x = 872,
-  y = 128,
-  width = 64,
-  height = 16,
-  pattern = "rock.8",
-}
-
-tile{
-  layer = 0,
-  x = 856,
-  y = 80,
-  width = 16,
-  height = 48,
-  pattern = "rock.4",
-}
-
-tile{
-  layer = 0,
-  x = 904,
-  y = 144,
-  width = 16,
-  height = 8,
-  pattern = "rock.3",
-}
-
-tile{
-  layer = 0,
-  x = 872,
-  y = 144,
-  width = 16,
-  height = 8,
-  pattern = "rock.1",
-}
-
-tile{
-  layer = 0,
-  x = 888,
-  y = 144,
-  width = 16,
-  height = 8,
-  pattern = "rock.2",
-}
-
-tile{
-  layer = 0,
-  x = 856,
-  y = 128,
-  width = 16,
-  height = 16,
-  pattern = "rock.7",
-}
-
-tile{
-  layer = 0,
-  x = 976,
-  y = 192,
-  width = 8,
-  height = 8,
-  pattern = "wall_border.corner.4-3",
-}
-
-tile{
-  layer = 0,
-  x = 944,
-  y = 192,
-  width = 8,
-  height = 8,
-  pattern = "wall_border.corner_reverse.4-3",
-}
-
-tile{
-  layer = 0,
-  x = 984,
-  y = 200,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner.4-3",
-}
-
-tile{
-  layer = 0,
-  x = 952,
-  y = 296,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner.4-3",
-}
-
-tile{
-  layer = 0,
-  x = 808,
-  y = 248,
-  width = 8,
-  height = 16,
-  pattern = "ceiling.2",
-}
-
-tile{
-  layer = 0,
-  x = 904,
+  x = 760,
   y = 216,
   width = 8,
   height = 8,
-  pattern = "barrier.border-1",
+  pattern = "947",
 }
 
 tile{
   layer = 0,
-  x = 904,
+  x = 736,
+  y = 208,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 208,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 776,
+  y = 144,
+  width = 24,
+  height = 32,
+  pattern = "wall_low.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 800,
+  y = 144,
+  width = 8,
+  height = 32,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 800,
+  y = 144,
+  width = 8,
+  height = 32,
+  pattern = "wall_low_border.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 752,
   y = 224,
   width = 8,
-  height = 56,
-  pattern = "barrier.2-1",
+  height = 8,
+  pattern = "947",
 }
 
 tile{
   layer = 0,
-  x = 904,
-  y = 280,
+  x = 728,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 744,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 744,
+  y = 232,
   width = 8,
   height = 8,
-  pattern = "barrier.border-1",
+  pattern = "947",
 }
 
 tile{
   layer = 0,
-  x = 552,
-  y = 160,
+  x = 720,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 240,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 712,
+  y = 232,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 728,
+  y = 232,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 672,
+  y = 232,
+  width = 48,
+  height = 24,
+  pattern = "wall_low.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 656,
+  y = 232,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner_reverse.2-2b",
+}
+
+tile{
+  layer = 0,
+  x = 728,
+  y = 248,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 720,
+  y = 240,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 720,
+  y = 256,
+  width = 8,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 712,
+  y = 248,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 656,
+  y = 256,
+  width = 64,
+  height = 8,
+  pattern = "947",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 256,
+  width = 32,
+  height = 8,
+  pattern = "wall_low_border.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 656,
+  y = 256,
   width = 32,
   height = 32,
   pattern = "hole",
@@ -3350,53 +5368,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 552,
-  y = 160,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.1",
-}
-
-tile{
-  layer = 0,
-  x = 576,
-  y = 184,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.4",
-}
-
-tile{
-  layer = 0,
-  x = 552,
-  y = 184,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.3",
-}
-
-tile{
-  layer = 0,
-  x = 576,
-  y = 160,
-  width = 8,
-  height = 8,
-  pattern = "hole.corner.2",
-}
-
-tile{
-  layer = 0,
-  x = 552,
-  y = 168,
-  width = 8,
-  height = 16,
-  pattern = "hole.3",
-}
-
-tile{
-  layer = 0,
-  x = 560,
-  y = 160,
+  x = 664,
+  y = 256,
   width = 16,
   height = 8,
   pattern = "hole.1",
@@ -3404,8 +5377,17 @@ tile{
 
 tile{
   layer = 0,
-  x = 576,
-  y = 168,
+  x = 656,
+  y = 264,
+  width = 8,
+  height = 16,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 680,
+  y = 264,
   width = 8,
   height = 16,
   pattern = "hole.4",
@@ -3413,8 +5395,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 560,
-  y = 184,
+  x = 664,
+  y = 280,
   width = 16,
   height = 8,
   pattern = "hole.2",
@@ -3422,222 +5404,113 @@ tile{
 
 tile{
   layer = 0,
-  x = 624,
-  y = 208,
+  x = 656,
+  y = 256,
   width = 8,
   height = 8,
-  pattern = "wall_border.corner_reverse.3-3",
+  pattern = "hole.corner.1",
 }
 
-wall{
+tile{
   layer = 0,
-  x = 720,
-  y = 240,
-  width = 96,
-  height = 8,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 0,
-  x = 720,
-  y = 264,
-  width = 96,
-  height = 8,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 0,
-  x = 208,
+  x = 680,
   y = 256,
-  width = 96,
+  width = 8,
   height = 8,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
+  pattern = "hole.corner.2",
+}
+
+tile{
+  layer = 0,
+  x = 656,
+  y = 280,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.3",
+}
+
+tile{
+  layer = 0,
+  x = 680,
+  y = 280,
+  width = 8,
+  height = 8,
+  pattern = "hole.corner.4",
 }
 
 wall{
   layer = 0,
-  x = 208,
-  y = 232,
-  width = 96,
-  height = 8,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-destination{
-  name = "dest_map_in_deathmountain_cave_0",
-  layer = 0,
-  x = 128,
-  y = 469,
-  direction = 1,
-}
-
-teletransporter{
-  name = "tp_map_in_deathmountain_cave_0",
-  layer = 0,
-  x = 120,
-  y = 464,
+  x = 888,
+  y = 448,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/lumberjack_south",
-  destination = "dest_cave_lumberjack_south_1",
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
 }
 
 wall{
   layer = 0,
-  x = 136,
-  y = 472,
-  width = 8,
+  x = 448,
+  y = 256,
+  width = 128,
   height = 16,
-  stops_hero = true,
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 0,
-  x = 112,
-  y = 472,
-  width = 8,
-  height = 16,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 0,
-  x = 488,
-  y = 64,
-  width = 48,
-  height = 8,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 0,
-  x = 488,
-  y = 40,
-  width = 48,
-  height = 8,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
 }
 
 destination{
   name = "dest_map_in_deathmountain_cave_1",
   layer = 0,
-  x = 928,
-  y = 317,
+  x = 896,
+  y = 445,
   direction = 1,
 }
 
 teletransporter{
   name = "tp_map_in_deathmountain_cave_1",
   layer = 0,
-  x = 920,
-  y = 312,
+  x = 888,
+  y = 464,
   width = 16,
   height = 16,
   destination_map = "A Link To The Past/Light World/Overworld/death_mountain_west",
   destination = "dest_cave_deathmountain_west_5",
 }
 
-wall{
-  layer = 0,
-  x = 936,
-  y = 320,
-  width = 8,
-  height = 16,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 0,
-  x = 912,
-  y = 320,
-  width = 8,
-  height = 16,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
 sensor{
   name = "sensor_grandpa_follower",
   layer = 0,
-  x = 240,
-  y = 245,
-  width = 48,
-  height = 32,
-}
-
-sensor{
-  name = "grandpa_dialog_first_meeting_1",
-  layer = 0,
-  x = 328,
-  y = 245,
+  x = 504,
+  y = 269,
   width = 16,
-  height = 48,
+  height = 16,
 }
 
 sensor{
   name = "grandpa_dialog_pot_heart",
   layer = 0,
-  x = 608,
-  y = 253,
-  width = 16,
-  height = 32,
+  x = 776,
+  y = 117,
+  width = 32,
+  height = 16,
 }
 
 sensor{
   name = "grandpa_dialog_warning_hole",
   layer = 0,
-  x = 568,
-  y = 53,
-  width = 32,
-  height = 48,
+  x = 608,
+  y = 261,
+  width = 16,
+  height = 32,
 }
 
 destructible{
   name = "vase_grandpa_house_2",
   layer = 0,
-  x = 592,
-  y = 261,
+  x = 776,
+  y = 93,
   treasure_name = "consumables/heart",
   sprite = "destructibles/vase",
   destruction_sound = "stone",
@@ -3646,79 +5519,222 @@ destructible{
 sensor{
   name = "grandpa_dialog_turn_right",
   layer = 0,
-  x = 848,
-  y = 85,
+  x = 912,
+  y = 189,
   width = 16,
   height = 32,
-}
-
-jumper{
-  layer = 0,
-  x = 112,
-  y = 384,
-  width = 32,
-  height = 8,
-  direction = 2,
-  jump_length = 40,
 }
 
 sensor{
   name = "grandpa_dialog_first_meeting_0",
   layer = 0,
-  x = 184,
-  y = 237,
+  x = 520,
+  y = 269,
   width = 16,
-  height = 48,
+  height = 16,
 }
 
 tile{
   layer = 1,
-  x = 720,
-  y = 240,
-  width = 96,
-  height = 32,
+  x = -16,
+  y = 192,
+  width = 8,
+  height = 8,
   pattern = "ceiling.2",
 }
 
 tile{
   layer = 1,
-  x = 488,
+  x = 248,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 240,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 240,
+  y = 184,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 144,
+  width = 8,
+  height = 64,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = -48,
+  y = 192,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 320,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = -56,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 48,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 64,
   y = 40,
-  width = 48,
-  height = 32,
+  width = 8,
+  height = 8,
   pattern = "ceiling.2",
 }
 
 tile{
   layer = 1,
-  x = 208,
-  y = 232,
-  width = 96,
-  height = 32,
+  x = 72,
+  y = 32,
+  width = 8,
+  height = 8,
   pattern = "ceiling.2",
 }
 
 tile{
   layer = 1,
-  x = 296,
-  y = 232,
+  x = 16,
+  y = 88,
   width = 8,
-  height = 32,
-  pattern = "door_top.low.3-3",
+  height = 8,
+  pattern = "ceiling.2",
 }
 
 tile{
   layer = 1,
-  x = 208,
-  y = 232,
-  width = 8,
-  height = 32,
-  pattern = "door_top.low.4-3",
+  x = 16,
+  y = 88,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.1-3",
 }
 
 tile{
   layer = 1,
-  x = 112,
+  x = 24,
+  y = 88,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 8,
+  y = -56,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 96,
+  width = 8,
+  height = 144,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 8,
+  y = -24,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 488,
+  width = 112,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 472,
+  width = 80,
+  height = 24,
+  pattern = "wall.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 464,
+  width = 64,
+  height = 8,
+  pattern = "floor_small.1",
+}
+
+tile{
+  layer = 1,
+  x = 864,
+  y = 464,
+  width = 64,
+  height = 8,
+  pattern = "door_cache_low.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 880,
   y = 464,
   width = 32,
   height = 8,
@@ -3727,62 +5743,107 @@ tile{
 
 tile{
   layer = 1,
-  x = 216,
-  y = 200,
-  width = 24,
-  height = 80,
-  pattern = "wall.4-3",
-}
-
-tile{
-  layer = 1,
-  x = 272,
-  y = 216,
-  width = 24,
-  height = 80,
-  pattern = "wall.3-3",
-}
-
-tile{
-  layer = 1,
-  x = 808,
-  y = 240,
-  width = 8,
-  height = 32,
-  pattern = "door_top.low.3-3",
-}
-
-tile{
-  layer = 1,
-  x = 784,
-  y = 216,
-  width = 24,
-  height = 80,
-  pattern = "wall.3-3",
-}
-
-tile{
-  layer = 1,
-  x = 528,
-  y = 216,
-  width = 24,
-  height = 80,
-  pattern = "wall.3-3",
-}
-
-tile{
-  layer = 1,
-  x = 912,
-  y = 312,
+  x = 112,
+  y = 464,
   width = 32,
   height = 8,
-  pattern = "cave_entry_top.1",
+  pattern = "door_main.2.floor.1-3",
 }
 
 tile{
   layer = 1,
-  x = 720,
-  y = 240,
+  x = 120,
+  y = 472,
+  width = 16,
+  height = 16,
+  pattern = "door_main.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 472,
+  width = 8,
+  height = 16,
+  pattern = "door_main.2.support.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = 472,
+  width = 8,
+  height = 16,
+  pattern = "door_main.2.support.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 488,
+  width = 16,
+  height = 16,
+  pattern = "floor.6-1",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 504,
+  width = 16,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = 488,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 488,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 552,
+  y = 232,
+  width = 8,
+  height = 64,
+  pattern = "door_cache_low.3-2",
+}
+
+tile{
+  layer = 1,
+  x = 464,
+  y = 232,
+  width = 8,
+  height = 64,
+  pattern = "door_cache_low.4-2",
+}
+
+tile{
+  layer = 1,
+  x = 552,
+  y = 248,
+  width = 8,
+  height = 32,
+  pattern = "door_cache_low.3-2",
+}
+
+tile{
+  layer = 1,
+  x = 464,
+  y = 248,
   width = 8,
   height = 32,
   pattern = "door_top.low.4-3",
@@ -3790,8 +5851,1205 @@ tile{
 
 tile{
   layer = 1,
-  x = 728,
-  y = 216,
+  x = 552,
+  y = 248,
+  width = 8,
+  height = 32,
+  pattern = "door_top.low.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 288,
+  width = 8,
+  height = 208,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 184,
+  y = 360,
+  width = 8,
+  height = 136,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 440,
+  width = 8,
+  height = 32,
+  pattern = "floor_small.1",
+}
+
+tile{
+  layer = 1,
+  x = 160,
+  y = 440,
+  width = 8,
+  height = 32,
+  pattern = "floor_small.1",
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = 440,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 440,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 440,
+  width = 16,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 160,
+  y = 440,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 440,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 440,
+  width = 16,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 464,
+  width = 16,
+  height = 8,
+  pattern = "wall_border.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 464,
+  width = 16,
+  height = 8,
+  pattern = "wall_border.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 464,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 160,
+  y = 464,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 448,
+  width = 8,
+  height = 16,
+  pattern = "wall_border.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 160,
+  y = 448,
+  width = 8,
+  height = 16,
+  pattern = "wall_border.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 448,
+  width = 64,
+  height = 16,
+  pattern = "floor.16-2",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 440,
+  width = 16,
+  height = 8,
+  pattern = "2761",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 472,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 344,
+  width = 24,
+  height = 128,
+  pattern = "wall.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = -32,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 8,
+  y = -32,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 240,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 24,
+  y = 232,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 232,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 24,
+  y = 248,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 240,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 24,
+  y = 240,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 256,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 248,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 248,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 264,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 256,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 256,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 272,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 264,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 264,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 280,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 272,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 272,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 288,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 280,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 288,
+  width = 24,
+  height = 192,
+  pattern = "wall.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 472,
+  width = 8,
+  height = 16,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 472,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 96,
+  width = 24,
+  height = 144,
+  pattern = "wall.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 8,
+  y = -56,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = -56,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 24,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 24,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 72,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 72,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 40,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 40,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 32,
+  width = 208,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = -56,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 104,
+  y = -56,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 424,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 416,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 408,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 416,
+  y = 160,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 408,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 400,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 408,
+  y = 152,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 400,
+  y = 152,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 392,
+  y = 152,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 400,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 392,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 384,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 392,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 384,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 376,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 384,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 376,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 368,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 376,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 368,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 360,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 368,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 360,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 352,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 360,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 352,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 344,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 352,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 344,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 336,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 344,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 336,
+  y = 88,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 328,
+  y = 88,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 336,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 328,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 320,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 328,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 320,
+  y = 72,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 312,
+  y = 72,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 312,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 312,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 304,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 304,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 304,
+  y = 48,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 40,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 32,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 40,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 32,
+  width = 208,
+  height = 24,
+  pattern = "wall.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 424,
+  y = 176,
+  width = 8,
+  height = 32,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 432,
+  y = 200,
+  width = 64,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 488,
+  y = 208,
+  width = 8,
+  height = 112,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 424,
+  y = 320,
+  width = 72,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 424,
+  y = 328,
+  width = 8,
+  height = 40,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 424,
+  y = 368,
+  width = 72,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 488,
+  y = 376,
+  width = 8,
+  height = 120,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 360,
+  y = 488,
+  width = 128,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 408,
+  y = 176,
+  width = 24,
+  height = 32,
+  pattern = "wall.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 424,
+  y = 200,
+  width = 48,
+  height = 24,
+  pattern = "wall.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 408,
+  y = 200,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 472,
+  y = 200,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 472,
+  y = 224,
   width = 24,
   height = 80,
   pattern = "wall.4-3",
@@ -3799,20 +7057,2758 @@ tile{
 
 tile{
   layer = 1,
-  x = 488,
-  y = 40,
+  x = 472,
+  y = 304,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 424,
+  y = 304,
+  width = 48,
+  height = 24,
+  pattern = "wall.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 408,
+  y = 320,
+  width = 24,
+  height = 64,
+  pattern = "wall.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 424,
+  y = 368,
+  width = 48,
+  height = 24,
+  pattern = "wall.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 408,
+  y = 304,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.4-3b",
+}
+
+tile{
+  layer = 1,
+  x = 408,
+  y = 368,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.2-3b",
+}
+
+tile{
+  layer = 1,
+  x = 472,
+  y = 368,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 472,
+  y = 392,
+  width = 24,
+  height = 80,
+  pattern = "wall.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 304,
+  y = 432,
   width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 312,
+  y = 424,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 304,
+  y = 424,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 312,
+  y = 440,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 320,
+  y = 432,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 312,
+  y = 432,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 320,
+  y = 448,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 328,
+  y = 440,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 320,
+  y = 440,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 328,
+  y = 456,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 336,
+  y = 448,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 328,
+  y = 448,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 336,
+  y = 464,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 336,
+  y = 456,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 344,
+  y = 472,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 344,
+  y = 464,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 352,
+  y = 480,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 352,
+  y = 472,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 360,
+  y = 488,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 360,
+  y = 480,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 368,
+  y = 472,
+  width = 112,
+  height = 24,
+  pattern = "wall.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 472,
+  y = 472,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 304,
+  y = 408,
+  width = 8,
+  height = 24,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 408,
+  width = 56,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 304,
+  y = 400,
+  width = 24,
   height = 32,
-  pattern = "door_top.4-3",
+  pattern = "wall.3-3",
+}
+
+tile{
+  layer = 1,
+  x = -48,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.3-3",
+}
+
+tile{
+  layer = 1,
+  x = -48,
+  y = 184,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 408,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 392,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 400,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 240,
+  y = 400,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 240,
+  y = 384,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 240,
+  y = 392,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 232,
+  y = 392,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 232,
+  y = 376,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 232,
+  y = 384,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 224,
+  y = 384,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 224,
+  y = 368,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 224,
+  y = 376,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 376,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 360,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 368,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 368,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 352,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 360,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 184,
+  y = 360,
+  width = 24,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 200,
+  y = 344,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 256,
+  y = 392,
+  width = 64,
+  height = 24,
+  pattern = "wall.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 304,
+  y = 392,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.3-3b",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 344,
+  width = 32,
+  height = 24,
+  pattern = "wall.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 344,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.4-3b",
+}
+
+tile{
+  layer = 1,
+  x = -16,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = -24,
+  y = 88,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.2-3",
+}
+
+tile{
+  layer = 1,
+  x = -24,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 160,
+  y = 240,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 248,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 240,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 232,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 224,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 232,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 216,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 128,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 128,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 128,
+  y = 208,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 208,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = 208,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 240,
+  width = 16,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 104,
+  y = 144,
+  width = 24,
+  height = 64,
+  pattern = "wall.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 152,
+  width = 144,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 256,
+  y = 152,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 256,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 256,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 264,
+  y = 160,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 264,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 264,
+  y = 152,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 152,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 176,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 192,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 184,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 304,
+  y = 200,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 304,
+  y = 184,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 304,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 312,
+  y = 208,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 312,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 312,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 320,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 136,
+  width = 144,
+  height = 24,
+  pattern = "wall.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 104,
+  y = 136,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.4-3b",
+}
+
+tile{
+  layer = 1,
+  x = 320,
+  y = 216,
+  width = 8,
+  height = 80,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 232,
+  width = 8,
+  height = 64,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 304,
+  y = 288,
+  width = 16,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 320,
+  y = 216,
+  width = 24,
+  height = 80,
+  pattern = "wall.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 288,
+  width = 32,
+  height = 24,
+  pattern = "wall.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 320,
+  y = 288,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.1-3b",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 232,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 232,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 232,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 224,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 216,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 264,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 240,
+  width = 24,
+  height = 64,
+  pattern = "wall.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 288,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.2-3b",
+}
+
+tile{
+  layer = 1,
+  x = 240,
+  y = 176,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 232,
+  y = 184,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 232,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 256,
+  y = 192,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 264,
+  y = 200,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 256,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 208,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 264,
+  y = 208,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 176,
+  width = 8,
+  height = 64,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 184,
+  y = 176,
+  width = 56,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 160,
+  y = 240,
+  width = 32,
+  height = 24,
+  pattern = "wall.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 200,
+  width = 24,
+  height = 48,
+  pattern = "wall.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 176,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 240,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.1-3b",
+}
+
+tile{
+  layer = 1,
+  x = 192,
+  y = 176,
+  width = 16,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 192,
+  y = 176,
+  width = 48,
+  height = 24,
+  pattern = "wall.1-3",
 }
 
 tile{
   layer = 1,
   x = 528,
+  y = 200,
+  width = 8,
+  height = 128,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 536,
+  y = 200,
+  width = 48,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 576,
+  y = 32,
+  width = 8,
+  height = 168,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 584,
+  y = 32,
+  width = 112,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 696,
+  y = 32,
+  width = 8,
+  height = 184,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 704,
+  y = 208,
+  width = 16,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 536,
+  y = 320,
+  width = 48,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 576,
+  y = 328,
+  width = 8,
+  height = 160,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 576,
+  y = 488,
+  width = 128,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 696,
+  y = 368,
+  width = 8,
+  height = 120,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 680,
+  y = 368,
+  width = 24,
+  height = 112,
+  pattern = "wall.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 680,
+  y = 472,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 576,
+  y = 472,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 600,
+  y = 472,
+  width = 80,
+  height = 24,
+  pattern = "wall.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 576,
+  y = 328,
+  width = 24,
+  height = 144,
+  pattern = "wall.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 528,
+  y = 304,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 552,
+  y = 304,
+  width = 32,
+  height = 24,
+  pattern = "wall.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 576,
+  y = 304,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.3-3b",
+}
+
+tile{
+  layer = 1,
+  x = 528,
+  y = 200,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 528,
+  y = 224,
+  width = 24,
+  height = 80,
+  pattern = "wall.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 552,
+  y = 200,
+  width = 32,
+  height = 24,
+  pattern = "wall.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 576,
+  y = 56,
+  width = 24,
+  height = 144,
+  pattern = "wall.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 576,
+  y = 200,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.1-3b",
+}
+
+tile{
+  layer = 1,
+  x = 576,
+  y = 32,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 600,
+  y = 32,
+  width = 80,
+  height = 24,
+  pattern = "wall.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 680,
+  y = 32,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 680,
+  y = 56,
+  width = 24,
+  height = 160,
+  pattern = "wall.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 688,
+  y = 208,
+  width = 32,
+  height = 24,
+  pattern = "wall.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 680,
+  y = 208,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.2-3b",
+}
+
+tile{
+  layer = 1,
+  x = 832,
+  y = 248,
+  width = 48,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 880,
+  y = 248,
+  width = 8,
+  height = 64,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 832,
+  y = 304,
+  width = 48,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 832,
+  y = 312,
+  width = 8,
+  height = 184,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 840,
+  y = 488,
+  width = 112,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 952,
+  y = 432,
+  width = 8,
+  height = 64,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 952,
+  y = 424,
+  width = 56,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 1000,
+  y = 32,
+  width = 8,
+  height = 392,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 880,
+  y = 32,
+  width = 120,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 880,
   y = 40,
   width = 8,
+  height = 96,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 864,
+  y = 128,
+  width = 16,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 864,
+  y = 128,
+  width = 32,
+  height = 24,
+  pattern = "wall.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 880,
+  y = 56,
+  width = 24,
+  height = 80,
+  pattern = "wall.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 880,
+  y = 128,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.1-3b",
+}
+
+tile{
+  layer = 1,
+  x = 880,
+  y = 32,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 904,
+  y = 32,
+  width = 80,
+  height = 24,
+  pattern = "wall.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 984,
+  y = 32,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 984,
+  y = 56,
+  width = 24,
+  height = 352,
+  pattern = "wall.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 984,
+  y = 408,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 952,
+  y = 408,
+  width = 32,
+  height = 24,
+  pattern = "wall.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 936,
+  y = 424,
+  width = 24,
+  height = 48,
+  pattern = "wall.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 936,
+  y = 408,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.4-3b",
+}
+
+tile{
+  layer = 1,
+  x = 936,
+  y = 472,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 856,
+  y = 472,
+  width = 80,
+  height = 24,
+  pattern = "wall.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 832,
+  y = 472,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 832,
+  y = 328,
+  width = 24,
+  height = 144,
+  pattern = "wall.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 832,
+  y = 304,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 856,
+  y = 304,
+  width = 32,
+  height = 24,
+  pattern = "wall.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 880,
+  y = 248,
+  width = 24,
+  height = 64,
+  pattern = "wall.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 880,
+  y = 304,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.1-3b",
+}
+
+tile{
+  layer = 1,
+  x = -24,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.4-3",
+}
+
+tile{
+  layer = 1,
+  x = -24,
+  y = 184,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 752,
+  y = 328,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 744,
+  y = 312,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 744,
+  y = 320,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 760,
+  y = 320,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 752,
+  y = 304,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 752,
+  y = 312,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 768,
+  y = 312,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 760,
+  y = 296,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 760,
+  y = 304,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 776,
+  y = 304,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 768,
+  y = 288,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 768,
+  y = 296,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 784,
+  y = 296,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 776,
+  y = 280,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 776,
+  y = 288,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 792,
+  y = 288,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 784,
+  y = 272,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 784,
+  y = 280,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 800,
+  y = 280,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 792,
+  y = 264,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 792,
+  y = 272,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 808,
+  y = 272,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 800,
+  y = 256,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 800,
+  y = 264,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 816,
+  y = 264,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 808,
+  y = 248,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 808,
+  y = 256,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 824,
+  y = 256,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 816,
+  y = 240,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 816,
+  y = 248,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 832,
+  y = 248,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 824,
+  y = 232,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 824,
+  y = 240,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 728,
+  y = 336,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 720,
+  y = 320,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 720,
+  y = 328,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 720,
+  y = 344,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 712,
+  y = 328,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 712,
+  y = 336,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 712,
+  y = 352,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 704,
+  y = 336,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 704,
+  y = 344,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 704,
+  y = 360,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 696,
+  y = 344,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 696,
+  y = 352,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 832,
+  y = 232,
+  width = 64,
+  height = 24,
+  pattern = "wall.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 880,
+  y = 232,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.3-3b",
+}
+
+tile{
+  layer = 1,
+  x = 688,
+  y = 352,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 736,
+  y = 328,
+  width = 16,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 736,
+  y = 312,
+  width = 16,
+  height = 24,
+  pattern = "wall.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 856,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 848,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 848,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 848,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 840,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 840,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 840,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 832,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 832,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 832,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 824,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 824,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 816,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 824,
+  y = 32,
+  width = 8,
+  height = 64,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 720,
+  y = 32,
+  width = 104,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 720,
+  y = 40,
+  width = 8,
+  height = 80,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 744,
+  y = 32,
+  width = 64,
+  height = 24,
+  pattern = "wall.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 808,
+  y = 48,
+  width = 24,
+  height = 48,
+  pattern = "wall.4-3",
+}
+
+tile{
+  layer = 1,
+  x = 824,
+  y = 48,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 808,
+  y = 32,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 720,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 728,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 720,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 728,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 736,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 728,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 736,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 744,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 736,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 744,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 752,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 744,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 720,
+  y = 48,
+  width = 24,
+  height = 64,
+  pattern = "wall.3-3",
+}
+
+tile{
+  layer = 1,
+  x = 720,
+  y = 32,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 752,
+  y = 144,
+  width = 8,
   height = 32,
-  pattern = "door_top.3-3",
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 752,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 752,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 760,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 744,
+  y = 176,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 744,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 752,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 736,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 736,
+  y = 184,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 744,
+  y = 184,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 728,
+  y = 192,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 728,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 736,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 720,
+  y = 200,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
+  x = 720,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 728,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 720,
+  y = 208,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.1-3",
+}
+
+tile{
+  layer = 1,
+  x = 752,
+  y = 144,
+  width = 24,
+  height = 32,
+  pattern = "wall.3-3",
+}
+
+wall{
+  layer = 1,
+  x = 120,
+  y = 472,
+  width = 16,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
 }
 
 custom_entity{
@@ -3828,189 +9824,950 @@ custom_entity{
   model = "follower",
 }
 
-enemy{
-  name = "keese_in_deathmountain_cave_0",
+destination{
+  name = "dest_map_in_deathmountain_cave_0",
   layer = 1,
-  x = 88,
-  y = 325,
-  direction = 0,
-  breed = "dungeons/keese",
-  treasure_name = "prize_packs/1",
+  x = 128,
+  y = 469,
+  direction = 1,
 }
 
-enemy{
-  name = "keese_in_deathmountain_cave_1",
+teletransporter{
+  name = "tp_map_in_deathmountain_cave_0",
   layer = 1,
-  x = 200,
-  y = 277,
-  direction = 0,
-  breed = "dungeons/keese",
-  treasure_name = "prize_packs/1",
+  x = 120,
+  y = 488,
+  width = 16,
+  height = 16,
+  destination_map = "A Link To The Past/Light World/Overworld/lumberjack_south",
+  destination = "dest_cave_lumberjack_south_1",
 }
 
-enemy{
-  name = "keese_in_deathmountain_cave_2",
+jumper{
   layer = 1,
-  x = 200,
-  y = 229,
-  direction = 0,
-  breed = "dungeons/keese",
-  treasure_name = "prize_packs/1",
-}
-
-enemy{
-  name = "keese_in_deathmountain_cave_3",
-  layer = 1,
-  x = 384,
-  y = 141,
-  direction = 0,
-  breed = "dungeons/keese",
-  treasure_name = "prize_packs/1",
-}
-
-enemy{
-  name = "keese_in_deathmountain_cave_4",
-  layer = 1,
-  x = 552,
-  y = 181,
-  direction = 0,
-  breed = "dungeons/keese",
-  treasure_name = "prize_packs/1",
-}
-
-enemy{
-  name = "keese_in_deathmountain_cave_5",
-  layer = 1,
-  x = 560,
-  y = 205,
-  direction = 0,
-  breed = "dungeons/keese",
-  treasure_name = "prize_packs/1",
-}
-
-enemy{
-  name = "keese_in_deathmountain_cave_6",
-  layer = 1,
-  x = 576,
-  y = 205,
-  direction = 0,
-  breed = "dungeons/keese",
-  treasure_name = "prize_packs/1",
-}
-
-enemy{
-  name = "keese_in_deathmountain_cave_7",
-  layer = 1,
-  x = 592,
-  y = 181,
-  direction = 0,
-  breed = "dungeons/keese",
-  treasure_name = "prize_packs/1",
-}
-
-enemy{
-  name = "keese_in_deathmountain_cave_8",
-  layer = 1,
-  x = 680,
-  y = 181,
-  direction = 0,
-  breed = "dungeons/keese",
-  treasure_name = "prize_packs/1",
-}
-
-enemy{
-  name = "keese_in_deathmountain_cave_9",
-  layer = 1,
-  x = 800,
-  y = 157,
-  direction = 0,
-  breed = "dungeons/keese",
-  treasure_name = "prize_packs/1",
-}
-
-enemy{
-  name = "keese_in_deathmountain_cave_10",
-  layer = 1,
-  x = 888,
-  y = 45,
-  direction = 0,
-  breed = "dungeons/keese",
-  treasure_name = "prize_packs/1",
-}
-
-enemy{
-  name = "keese_in_deathmountain_cave_11",
-  layer = 1,
-  x = 984,
-  y = 181,
-  direction = 0,
-  breed = "dungeons/keese",
-  treasure_name = "prize_packs/1",
-}
-
-enemy{
-  name = "keese_in_deathmountain_cave_12",
-  layer = 1,
-  x = 976,
-  y = 213,
-  direction = 0,
-  breed = "dungeons/keese",
-  treasure_name = "prize_packs/1",
-}
-
-enemy{
-  name = "keese_in_deathmountain_cave_13",
-  layer = 1,
-  x = 960,
-  y = 237,
-  direction = 0,
-  breed = "dungeons/keese",
-  treasure_name = "prize_packs/1",
-}
-
-enemy{
-  name = "keese_in_deathmountain_cave_14",
-  layer = 1,
-  x = 952,
-  y = 269,
-  direction = 0,
-  breed = "dungeons/keese",
-  treasure_name = "prize_packs/1",
+  x = 112,
+  y = 432,
+  width = 32,
+  height = 8,
+  direction = 2,
+  jump_length = 40,
 }
 
 tile{
   layer = 2,
-  x = 208,
-  y = 320,
-  width = 816,
-  height = 192,
+  x = 248,
+  y = 176,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 96,
+  y = 488,
+  width = 64,
+  height = 8,
+  pattern = "door_cache.2-3",
+}
+
+tile{
+  layer = 2,
+  x = 112,
+  y = 488,
+  width = 32,
+  height = 8,
+  pattern = "cave_entry_top.1",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = -24,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 16,
+  y = 248,
+  width = 8,
+  height = 16,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 24,
+  y = 256,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 32,
+  y = 264,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 40,
+  y = 272,
+  width = 8,
+  height = 8,
   pattern = "ceiling.2",
 }
 
 tile{
   layer = 2,
   x = 48,
-  y = 472,
-  width = 160,
-  height = 40,
+  y = 280,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 56,
+  y = 288,
+  width = 8,
+  height = 8,
   pattern = "ceiling.2",
 }
 
 tile{
   layer = 2,
   x = 0,
-  y = 176,
-  width = 48,
-  height = 336,
+  y = -56,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 16,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 24,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 32,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 40,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 48,
+  y = 48,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 56,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 64,
+  y = 32,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 128,
+  y = -56,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 424,
+  y = 160,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 416,
+  y = 152,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 408,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 400,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 392,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 384,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 376,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 368,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 360,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 352,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 344,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 336,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 320,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 328,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 312,
+  y = 48,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 304,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 296,
+  y = 32,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 304,
+  y = 440,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 312,
+  y = 448,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 320,
+  y = 456,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 328,
+  y = 464,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 336,
+  y = 472,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 344,
+  y = 480,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 352,
+  y = 488,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = -48,
+  y = 200,
+  width = 8,
+  height = 8,
   pattern = "ceiling.2",
 }
 
 tile{
   layer = 2,
   x = 240,
+  y = 408,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 232,
+  y = 400,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 224,
+  y = 392,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 216,
+  y = 384,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 208,
+  y = 376,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 192,
+  y = 368,
+  width = 16,
+  height = 128,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = -16,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 160,
+  y = 176,
+  width = 16,
+  height = 64,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 152,
+  y = 224,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 144,
+  y = 216,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 136,
+  y = 208,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 256,
+  y = 160,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 264,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 272,
+  y = 176,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 280,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 288,
+  y = 192,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 296,
+  y = 200,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 304,
+  y = 208,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 304,
+  y = 216,
+  width = 16,
+  height = 72,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 296,
+  y = 224,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 288,
+  y = 216,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 240,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 256,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 264,
+  y = 192,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 272,
+  y = 200,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 280,
+  y = 208,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 128,
+  y = 160,
+  width = 112,
+  height = 16,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 240,
+  y = 160,
+  width = 16,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 248,
+  y = 168,
+  width = 16,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 256,
+  y = 176,
+  width = 16,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 264,
+  y = 184,
+  width = 16,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 272,
+  y = 192,
+  width = 16,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 280,
+  y = 200,
+  width = 16,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 288,
+  y = 208,
+  width = 16,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 296,
+  y = 216,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 128,
   y = 176,
   width = 32,
-  height = 144,
+  height = 32,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 144,
+  y = 208,
+  width = 16,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 152,
+  y = 216,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 208,
+  y = 384,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 224,
+  y = 400,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 232,
+  y = 408,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 224,
+  y = 408,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 208,
+  y = 392,
+  width = 16,
+  height = 24,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 208,
+  y = 416,
+  width = 96,
+  height = 80,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 344,
+  y = 488,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 328,
+  y = 472,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 312,
+  y = 456,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 304,
+  y = 448,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 304,
+  y = 456,
+  width = 8,
+  height = 40,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 312,
+  y = 480,
+  width = 32,
+  height = 16,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 312,
+  y = 464,
+  width = 16,
+  height = 16,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 496,
+  width = 512,
+  height = 16,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 296,
+  width = 64,
+  height = 200,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 0,
+  width = 16,
+  height = 296,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 32,
+  y = 272,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 48,
+  y = 288,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 32,
+  y = 280,
+  width = 16,
+  height = 16,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 16,
+  y = 264,
+  width = 16,
+  height = 32,
   pattern = "ceiling.2",
 }
 
@@ -4018,25 +10775,394 @@ tile{
   layer = 2,
   x = 496,
   y = 0,
-  width = 32,
-  height = 320,
+  width = 16,
+  height = 496,
   pattern = "ceiling.2",
 }
 
 tile{
   layer = 2,
-  x = 0,
+  x = 432,
+  y = 328,
+  width = 64,
+  height = 40,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 16,
   y = 0,
-  width = 272,
+  width = 480,
+  height = 32,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 432,
+  y = 32,
+  width = 64,
+  height = 168,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 56,
+  y = 32,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 32,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 16,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 16,
+  y = 32,
+  width = 16,
+  height = 40,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 32,
+  y = 32,
+  width = 16,
+  height = 24,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 48,
+  y = 32,
+  width = 8,
+  height = 16,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 304,
+  y = 32,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 424,
+  y = 152,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 408,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 392,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 376,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 360,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 344,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 328,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 312,
+  y = 32,
+  width = 8,
+  height = 16,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 320,
+  y = 32,
+  width = 112,
+  height = 24,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 336,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 368,
+  y = 88,
+  width = 16,
+  height = 16,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 400,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 416,
+  y = 120,
+  width = 16,
+  height = 32,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 384,
+  y = 88,
+  width = 48,
+  height = 32,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 352,
+  y = 56,
+  width = 80,
+  height = 32,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = -16,
+  y = 200,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 736,
+  y = 336,
+  width = 24,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 760,
+  y = 328,
+  width = 8,
+  height = 16,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 768,
+  y = 320,
+  width = 16,
   height = 176,
   pattern = "ceiling.2",
 }
 
 tile{
   layer = 2,
-  x = 256,
+  x = 776,
+  y = 312,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 784,
+  y = 304,
+  width = 48,
+  height = 192,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 792,
+  y = 296,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 800,
+  y = 288,
+  width = 16,
+  height = 16,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 808,
+  y = 280,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 816,
+  y = 272,
+  width = 16,
+  height = 32,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 824,
+  y = 264,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 832,
+  y = 256,
+  width = 48,
+  height = 48,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 728,
+  y = 344,
+  width = 40,
+  height = 152,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 720,
+  y = 352,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 712,
+  y = 360,
+  width = 16,
+  height = 136,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 704,
+  y = 368,
+  width = 8,
+  height = 128,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 512,
   y = 0,
-  width = 256,
+  width = 16,
+  height = 496,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 512,
+  y = 496,
+  width = 512,
   height = 16,
   pattern = "ceiling.2",
 }
@@ -4046,74 +11172,185 @@ tile{
   x = 1008,
   y = 0,
   width = 16,
-  height = 320,
+  height = 496,
   pattern = "ceiling.2",
 }
 
 tile{
   layer = 2,
-  x = 768,
-  y = 0,
-  width = 256,
-  height = 16,
+  x = 528,
+  y = 328,
+  width = 48,
+  height = 168,
   pattern = "ceiling.2",
 }
 
 tile{
   layer = 2,
-  x = 752,
+  x = 960,
+  y = 432,
+  width = 48,
+  height = 64,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 528,
   y = 0,
+  width = 480,
+  height = 32,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 528,
+  y = 32,
+  width = 48,
+  height = 168,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 856,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 848,
+  y = 104,
   width = 32,
-  height = 320,
+  height = 8,
   pattern = "ceiling.2",
 }
 
 tile{
   layer = 2,
-  x = 512,
-  y = 0,
-  width = 256,
+  x = 840,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 832,
+  y = 32,
+  width = 48,
+  height = 64,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 704,
+  y = 32,
+  width = 16,
+  height = 176,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 720,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 736,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 864,
+  y = 112,
+  width = 16,
   height = 16,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 840,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 848,
+  y = 88,
+  width = 32,
+  height = 16,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 736,
+  y = 144,
+  width = 16,
+  height = 32,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 736,
+  y = 176,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 720,
+  y = 128,
+  width = 16,
+  height = 64,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 720,
+  y = 192,
+  width = 8,
+  height = 8,
   pattern = "ceiling.2",
 }
 
 destination{
   name = "dest_secret",
   layer = 2,
-  x = 640,
-  y = 168,
-  direction = 3,
-}
-
-destination{
-  name = "dest_hole_in_deathmountain_cave_0",
-  layer = 2,
   x = 384,
-  y = 165,
+  y = 268,
   direction = 3,
 }
 
 separator{
   layer = 2,
-  x = 256,
-  y = 0,
+  x = 504,
+  y = -8,
   width = 16,
-  height = 512,
-}
-
-separator{
-  layer = 2,
-  x = 768,
-  y = 0,
-  width = 16,
-  height = 512,
-}
-
-separator{
-  layer = 2,
-  x = 512,
-  y = 0,
-  width = 16,
-  height = 512,
+  height = 528,
 }
 

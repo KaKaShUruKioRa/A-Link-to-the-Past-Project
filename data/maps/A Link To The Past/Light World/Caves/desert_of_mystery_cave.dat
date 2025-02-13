@@ -863,7 +863,7 @@ tile{
   y = 464,
   width = 64,
   height = 8,
-  pattern = "door_cache.2-3",
+  pattern = "door_cache_low.2-2",
 }
 
 tile{

@@ -90,7 +90,6 @@ map{ id = "A Link To The Past/Light World/Caves/Death Mountain East/F2_deathmoun
 map{ id = "A Link To The Past/Light World/Caves/Death Mountain East/F2_deathmountain_east_middle_cave", description = "F2 Deathmountain East Middle Cave" }
 map{ id = "A Link To The Past/Light World/Caves/Death Mountain East/F2_spiral_cave", description = "F2 Spiral Cave" }
 map{ id = "A Link To The Past/Light World/Caves/Death Mountain East/turtle_rock_cave", description = "Turtle Rock Cave" }
-map{ id = "A Link To The Past/Light World/Caves/Death Mountain West/B1_deathmountain_west_cave_0", description = "B1 Deathmountain West Cave" }
 map{ id = "A Link To The Past/Light World/Caves/Death Mountain West/F1_deathmountain_west_cave_0", description = "F1 Deahtmountain_West Cave" }
 map{ id = "A Link To The Past/Light World/Caves/Death Mountain West/F2_deathmountain_west_cave_0", description = "F2 Deathmountain West Cave" }
 map{ id = "A Link To The Past/Light World/Caves/Death Mountain West/grandpa_cave", description = "GrandPa Cave" }
@@ -125,7 +124,7 @@ map{ id = "A Link To The Past/Light World/Dungeons/Desert Palace/B1/B1_desert_pa
 map{ id = "A Link To The Past/Light World/Dungeons/Desert Palace/F1/F1_desert_palace", description = "F1 Desert Palace" }
 map{ id = "A Link To The Past/Light World/Dungeons/Desert Palace/F2/F2_desert_palace", description = "F2 Desert Palace" }
 map{ id = "A Link To The Past/Light World/Dungeons/Eastern Palace/F1/F1_eastern_palace", description = "F1 Eastern Palace" }
-map{ id = "A Link To The Past/Light World/Dungeons/Eastern Palace/F1/F1_secret_fairy", description = "B1 Secret Fairy" }
+map{ id = "A Link To The Past/Light World/Dungeons/Eastern Palace/F1/secret_fairy", description = "Secret Fairy" }
 map{ id = "A Link To The Past/Light World/Dungeons/Eastern Palace/F2/F2_eastern_palace", description = "F2 Eastern Palace" }
 map{ id = "A Link To The Past/Light World/Dungeons/Hyrule Castle Tower/F1/F1_hyrule_castle_tower", description = "F1 Hyrule Castle Tower" }
 map{ id = "A Link To The Past/Light World/Dungeons/Hyrule Castle Tower/F2/F2_hyrule_castle_tower", description = "F2 Hyrule Castle Tower" }
@@ -1582,8 +1581,6 @@ file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain East/F2_s
 file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain East/turtle_rock_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain East/turtle_rock_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain West", author = "KaKaShUruKioRa", }
-file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain West/B1_deathmountain_west_cave_0.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain West/B1_deathmountain_west_cave_0.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain West/F1_deathmountain_west_cave_0.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain West/F1_deathmountain_west_cave_0.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain West/F2_deathmountain_west_cave_0.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
@@ -1660,8 +1657,8 @@ file{ path = "maps/A Link To The Past/Light World/Dungeons/Eastern Palace", auth
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Eastern Palace/F1", author = "ZeldoRetro", }
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Eastern Palace/F1/F1_eastern_palace.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Eastern Palace/F1/F1_eastern_palace.lua", author = "ZeldoRetro", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Dungeons/Eastern Palace/F1/F1_secret_fairy.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Dungeons/Eastern Palace/F1/F1_secret_fairy.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Dungeons/Eastern Palace/F1/secret_fairy.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Dungeons/Eastern Palace/F1/secret_fairy.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Eastern Palace/F2", author = "ZeldoRetro", }
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Eastern Palace/F2/F2_eastern_palace.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Eastern Palace/F2/F2_eastern_palace.lua", author = "ZeldoRetro", license = "GPL v3" }

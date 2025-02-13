@@ -3888,7 +3888,7 @@ teletransporter{
   y = 1144,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Dungeons/Eastern Palace/F1/F1_secret_fairy",
+  destination_map = "A Link To The Past/Light World/Dungeons/Eastern Palace/F1/secret_fairy",
   destination = "_same",
 }
 
@@ -3898,7 +3898,7 @@ teletransporter{
   y = 1144,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Dungeons/Eastern Palace/F1/F1_secret_fairy",
+  destination_map = "A Link To The Past/Light World/Dungeons/Eastern Palace/F1/secret_fairy",
   destination = "_same",
 }
 

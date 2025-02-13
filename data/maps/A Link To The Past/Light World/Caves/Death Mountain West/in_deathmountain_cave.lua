@@ -40,7 +40,6 @@ function grandpa_start_dialog()
   if grandpa_follower:is_enabled() then
     self:set_enabled(false)
     grandpa_dialog_first_meeting_0:set_enabled(false)
-    grandpa_dialog_first_meeting_1:set_enabled(false)
     grandpa_dialog_warning_hole:set_enabled(false)
     grandpa_dialog_pot_heart:set_enabled(false)
     grandpa_dialog_turn_right:set_enabled(false)
@@ -61,15 +60,6 @@ end
 function grandpa_dialog_first_meeting_0:on_activated()
   if grandpa_follower:is_enabled() then
     self:set_enabled(false)
-    grandpa_dialog_first_meeting_1:set_enabled(false)
-    game:start_dialog("npc.grandpa.first_meeting")
-  end
-end
-
-function grandpa_dialog_first_meeting_1:on_activated()
-  if grandpa_follower:is_enabled() then
-    self:set_enabled(false)
-    grandpa_dialog_first_meeting_0:set_enabled(false)
     game:start_dialog("npc.grandpa.first_meeting")
   end
 end
