@@ -3124,7 +3124,7 @@ teletransporter{
   y = 496,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/lost_wood",
+  destination_map = "A Link to the Past/Light World/Overworld/lost_wood",
   destination = "dest_map_lost_wood_0",
 }
 

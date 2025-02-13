@@ -1427,7 +1427,7 @@ teletransporter{
   y = 464,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/plain_of_ruins_south",
+  destination_map = "A Link to the Past/Light World/Overworld/plain_of_ruins_south",
   destination = "dest_cave_plain_of_ruins_south_0",
 }
 

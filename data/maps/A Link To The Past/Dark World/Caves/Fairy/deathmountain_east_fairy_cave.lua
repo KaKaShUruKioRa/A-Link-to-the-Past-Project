@@ -1,4 +1,4 @@
--- Lua script of map A Link To The Past/Light World/Caves/Death Mountain East/F1_spiral_cave - Copie.
+-- Lua script of map A Link to the Past/Dark World/Caves/Fairy/deathmountain_east_fairy_cave.
 -- This script is executed every time the hero enters this map.
 
 -- Feel free to modify the code below.

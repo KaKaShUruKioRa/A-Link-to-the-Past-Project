@@ -5824,27 +5824,6 @@ tile{
   pattern = "975",
 }
 
-destination{
-  name = "dest_vortex_H2_lake_of_ill_omen_0",
-  layer = 0,
-  x = 128,
-  y = 301,
-  direction = 1,
-}
-
-teletransporter{
-  name = "vortex_H2_lake_of_ill_omen_0",
-  layer = 0,
-  x = 120,
-  y = 304,
-  width = 16,
-  height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/F7_ice_lake",
-  destination = "dest_vortex_H8_river_hylia_south_0",
-  sprite = "entities/teletransporter_vortex",
-  sound = "warp",
-}
-
 jumper{
   name = "jump_H2_lake_of_ill_omen_6",
   layer = 0,
@@ -6203,6 +6182,24 @@ jumper{
   height = 8,
   direction = 3,
   jump_length = 52,
+}
+
+enemy{
+  name = "enemy_ropa_H2_lake_of_ill_omen_0",
+  layer = 0,
+  x = 384,
+  y = 261,
+  direction = 3,
+  breed = "dark_world/ropa",
+}
+
+enemy{
+  name = "enemy_ku_H2_lake_of_ill_omen_0",
+  layer = 0,
+  x = 424,
+  y = 165,
+  direction = 3,
+  breed = "light_world/zora_underwater",
 }
 
 tile{

@@ -522,7 +522,7 @@ teletransporter{
   y = 200,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/kakariko_village",
+  destination_map = "A Link to the Past/Light World/Overworld/kakariko_village",
   destination = "dest_house_kakariko_village_5",
 }
 

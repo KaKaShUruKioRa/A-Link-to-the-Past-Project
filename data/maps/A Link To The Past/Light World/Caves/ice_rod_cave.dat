@@ -1761,7 +1761,7 @@ teletransporter{
   y = 464,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/river_hylia_north",
+  destination_map = "A Link to the Past/Light World/Overworld/river_hylia_north",
   destination = "dest_cave_river_hylia_north_0",
 }
 
@@ -1806,7 +1806,7 @@ teletransporter{
   y = 464,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/river_hylia_north",
+  destination_map = "A Link to the Past/Light World/Overworld/river_hylia_north",
   destination = "dest_cave_river_hylia_north_1",
 }
 

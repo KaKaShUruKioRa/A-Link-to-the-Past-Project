@@ -924,7 +924,7 @@ teletransporter{
   y = 480,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/hyrule_castle",
+  destination_map = "A Link to the Past/Light World/Overworld/hyrule_castle",
   destination = "dest_dungeon_hyrule_castle_3",
 }
 

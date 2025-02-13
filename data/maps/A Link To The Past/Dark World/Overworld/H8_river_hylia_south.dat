@@ -5981,8 +5981,8 @@ teletransporter{
   y = 192,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/C3_sanctuary_lake",
-  destination = "dest_vortex_C3_santuary_lake_0",
+  destination_map = "A Link to the Past/Dark World/Overworld/F3_wooden_bridge_north",
+  destination = "dest_vortex_F3_wooden_bridge_north_0",
   sprite = "entities/teletransporter_vortex",
   sound = "warp",
 }
@@ -6089,6 +6089,33 @@ jumper{
   height = 8,
   direction = 6,
   jump_length = 100,
+}
+
+enemy{
+  name = "enemy_slarok_H8_river_hylia_south_0",
+  layer = 0,
+  x = 360,
+  y = 109,
+  direction = 0,
+  breed = "light_world/octorok",
+}
+
+enemy{
+  name = "enemy_slarok_H8_river_hylia_south_1",
+  layer = 0,
+  x = 248,
+  y = 381,
+  direction = 0,
+  breed = "light_world/octorok",
+}
+
+enemy{
+  name = "enemy_pikit_H8_river_hylia_south_0",
+  layer = 0,
+  x = 368,
+  y = 357,
+  direction = 0,
+  breed = "dark_world/ropa",
 }
 
 tile{
@@ -8012,9 +8039,36 @@ destination{
   name = "dest_secret",
   layer = 1,
   x = 376,
-  y = 125,
+  y = 221,
   direction = 3,
   default = true,
+}
+
+enemy{
+  name = "enemy_zirro_green_H8_river_hylia_south_1",
+  layer = 1,
+  x = 264,
+  y = 93,
+  direction = 0,
+  breed = "light_world/poe",
+}
+
+enemy{
+  name = "enemy_zirro_green_H8_river_hylia_south_2",
+  layer = 1,
+  x = 216,
+  y = 301,
+  direction = 0,
+  breed = "light_world/poe",
+}
+
+enemy{
+  name = "enemy_ku_H8_river_hylia_south_0",
+  layer = 0,
+  x = 152,
+  y = 245,
+  direction = 3,
+  breed = "light_world/zora_underwater",
 }
 
 teletransporter{
@@ -8025,7 +8079,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/F7_ice_lake",
+  destination_map = "A Link to the Past/Dark World/Overworld/F7_ice_lake",
   destination = "_side",
 }
 
@@ -8037,7 +8091,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/H7_river_hylia_north",
+  destination_map = "A Link to the Past/Dark World/Overworld/H7_river_hylia_north",
   destination = "_side",
 }
 

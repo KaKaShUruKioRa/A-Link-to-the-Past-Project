@@ -6026,7 +6026,7 @@ teletransporter{
   y = 256,
   width = 16,
   height = 64,
-  destination_map = "A Link To The Past/Light World/Overworld/under_stone_bridge",
+  destination_map = "A Link to the Past/Light World/Overworld/under_stone_bridge",
   destination = "dest_map_under_stone_bridge_0",
 }
 
@@ -6674,7 +6674,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/link_house",
+  destination_map = "A Link to the Past/Light World/Overworld/link_house",
   destination = "_side",
 }
 
@@ -6686,7 +6686,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/lake_hylia",
+  destination_map = "A Link to the Past/Light World/Overworld/lake_hylia",
   destination = "_side",
 }
 
@@ -6698,7 +6698,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/plain_hylia",
+  destination_map = "A Link to the Past/Light World/Overworld/plain_hylia",
   destination = "_side",
 }
 
@@ -6710,7 +6710,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/plain_of_rocks",
+  destination_map = "A Link to the Past/Light World/Overworld/plain_of_rocks",
   destination = "_side",
 }
 

@@ -1463,7 +1463,7 @@ teletransporter{
   y = 312,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/death_mountain_west",
+  destination_map = "A Link to the Past/Light World/Overworld/death_mountain_west",
   destination = "dest_cave_deathmountain_west_4",
 }
 
@@ -1508,7 +1508,7 @@ teletransporter{
   y = 416,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Houses/grandpa_house",
+  destination_map = "A Link to the Past/Light World/Houses/grandpa_house",
   destination = "dest_cave_grandpa_house_0",
 }
 

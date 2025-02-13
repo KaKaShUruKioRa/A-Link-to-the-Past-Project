@@ -6082,7 +6082,7 @@ teletransporter{
   y = 304,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/lake_hylia",
+  destination_map = "A Link to the Past/Light World/Overworld/lake_hylia",
   destination = "dest_vortex_lake_hylia_0",
   sprite = "entities/teletransporter_vortex",
   sound = "warp",
@@ -6225,7 +6225,7 @@ teletransporter{
   y = -8,
   width = 56,
   height = 8,
-  destination_map = "A Link To The Past/Light World/Overworld/zoras waterfall",
+  destination_map = "A Link to the Past/Light World/Overworld/zoras waterfall",
   destination = "_side",
 }
 
@@ -6247,7 +6247,7 @@ teletransporter{
   y = 32,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/Fairy/waterfall_pond",
+  destination_map = "A Link to the Past/Light World/Caves/Fairy/waterfall_pond",
   destination = "dest_map_waterfall_pond_0",
 }
 
@@ -7351,7 +7351,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/death_mountain_east",
+  destination_map = "A Link to the Past/Light World/Overworld/death_mountain_east",
   destination = "_side",
 }
 
@@ -7363,7 +7363,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/waterfall_south",
+  destination_map = "A Link to the Past/Light World/Overworld/waterfall_south",
   destination = "_side",
 }
 
@@ -7375,7 +7375,7 @@ teletransporter{
   width = 304,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/turtle_rock",
+  destination_map = "A Link to the Past/Light World/Overworld/turtle_rock",
 }
 
 destination{

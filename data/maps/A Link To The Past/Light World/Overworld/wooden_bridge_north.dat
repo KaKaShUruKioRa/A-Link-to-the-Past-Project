@@ -5822,7 +5822,7 @@ teletransporter{
   y = 240,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/wooden_bridge_north_cave",
+  destination_map = "A Link to the Past/Light World/Caves/wooden_bridge_north_cave",
   destination = "dest_hole_wooden_bridge_north_cave_0",
 }
 
@@ -5841,7 +5841,7 @@ teletransporter{
   y = 144,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/great_swamp",
+  destination_map = "A Link to the Past/Light World/Overworld/great_swamp",
   destination = "dest_vortex_great_swamp_0",
   sprite = "entities/teletransporter_vortex",
   sound = "warp",
@@ -6297,7 +6297,7 @@ teletransporter{
   y = 88,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/wooden_bridge_north_cave",
+  destination_map = "A Link to the Past/Light World/Caves/wooden_bridge_north_cave",
   destination = "dest_map_wooden_bridge_north_cave_0",
 }
 
@@ -7001,7 +7001,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/cemetery",
+  destination_map = "A Link to the Past/Light World/Overworld/cemetery",
   destination = "_side",
 }
 
@@ -7013,7 +7013,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/wooden_bridge",
+  destination_map = "A Link to the Past/Light World/Overworld/wooden_bridge",
   destination = "_side",
 }
 
@@ -7025,7 +7025,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/magic_shop",
+  destination_map = "A Link to the Past/Light World/Overworld/magic_shop",
   destination = "_side",
 }
 
@@ -7037,7 +7037,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/death_mountain_east",
+  destination_map = "A Link to the Past/Light World/Overworld/death_mountain_east",
   destination = "_side",
 }
 

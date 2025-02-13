@@ -6112,28 +6112,8 @@ tile{
   pattern = "977",
 }
 
-destination{
-  name = "dest_vortex_santuary_lake_0",
-  layer = 0,
-  x = 240,
-  y = 253,
-  direction = 1,
-}
-
-teletransporter{
-  name = "vortex_C3_sanctuary_lake_0",
-  layer = 0,
-  x = 232,
-  y = 256,
-  width = 16,
-  height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/H8_river_hylia_south",
-  destination = "dest_vortex_river_hylia_south_0",
-  sprite = "entities/teletransporter_vortex",
-  sound = "warp",
-}
-
 wall{
+  name = "wall_C3_sanctuary_lake_2",
   layer = 0,
   x = 0,
   y = 200,
@@ -6147,6 +6127,7 @@ wall{
 }
 
 wall{
+  name = "wall_C3_sanctuary_lake_3",
   layer = 0,
   x = 0,
   y = 248,
@@ -6160,6 +6141,7 @@ wall{
 }
 
 wall{
+  name = "wall_C3_sanctuary_lake_4",
   layer = 0,
   x = 0,
   y = 296,
@@ -6173,6 +6155,7 @@ wall{
 }
 
 wall{
+  name = "wall_C3_sanctuary_lake_1",
   layer = 0,
   x = 312,
   y = 136,
@@ -6186,6 +6169,7 @@ wall{
 }
 
 wall{
+  name = "wall_C3_sanctuary_lake_0",
   layer = 0,
   x = 336,
   y = 88,
@@ -6199,7 +6183,7 @@ wall{
 }
 
 jumper{
-  name = "jump_C3_sanctuary_lake_sanctuary_lake_1",
+  name = "jump_C3_sanctuary_lake_6",
   layer = 0,
   x = 480,
   y = 280,
@@ -6210,7 +6194,7 @@ jumper{
 }
 
 jumper{
-  name = "jump_C3_sanctuary_lake_sanctuary_lake_2",
+  name = "jump_C3_sanctuary_lake_3",
   layer = 0,
   x = 400,
   y = 232,
@@ -6221,6 +6205,7 @@ jumper{
 }
 
 wall{
+  name = "wall_C3_sanctuary_lake_5",
   layer = 0,
   x = 0,
   y = 440,
@@ -6234,11 +6219,12 @@ wall{
 }
 
 wall{
+  name = "wall_C3_sanctuary_lake_8",
   layer = 0,
   x = 0,
   y = 488,
   width = 120,
-  height = 40,
+  height = 24,
   stops_hero = true,
   stops_npcs = true,
   stops_enemies = true,
@@ -6247,6 +6233,7 @@ wall{
 }
 
 wall{
+  name = "wall_C3_sanctuary_lake_7",
   layer = 0,
   x = 224,
   y = 472,
@@ -6260,6 +6247,7 @@ wall{
 }
 
 wall{
+  name = "wall_C3_sanctuary_lake_6",
   layer = 0,
   x = 352,
   y = 440,
@@ -6273,11 +6261,12 @@ wall{
 }
 
 wall{
+  name = "wall_C3_sanctuary_lake_9",
   layer = 0,
   x = 328,
   y = 488,
   width = 96,
-  height = 40,
+  height = 24,
   stops_hero = true,
   stops_npcs = true,
   stops_enemies = true,
@@ -6286,7 +6275,7 @@ wall{
 }
 
 jumper{
-  name = "jump_C3_sanctuary_lake_sanctuary_lake_3",
+  name = "jump_C3_sanctuary_lake_0",
   layer = 0,
   x = 168,
   y = 88,
@@ -6297,7 +6286,7 @@ jumper{
 }
 
 jumper{
-  name = "jump_C3_sanctuary_lake_sanctuary_lake_4",
+  name = "jump_C3_sanctuary_lake_1",
   layer = 0,
   x = 200,
   y = 88,
@@ -6308,7 +6297,7 @@ jumper{
 }
 
 jumper{
-  name = "jump_C3_sanctuary_lake_sanctuary_lake_5",
+  name = "jump_C3_sanctuary_lake_2",
   layer = 0,
   x = 56,
   y = 168,
@@ -6319,7 +6308,7 @@ jumper{
 }
 
 jumper{
-  name = "jump_C3_sanctuary_lake_sanctuary_lake_9",
+  name = "jump_C3_sanctuary_lake_5",
   layer = 0,
   x = 456,
   y = 256,
@@ -6330,7 +6319,7 @@ jumper{
 }
 
 jumper{
-  name = "jump_C3_sanctuary_lake_sanctuary_lake_10",
+  name = "jump_C3_sanctuary_lake_4",
   layer = 0,
   x = 440,
   y = 240,
@@ -6340,20 +6329,8 @@ jumper{
   jump_length = 48,
 }
 
-teletransporter{
-  name = "vortex_C3_sanctuary_lake_sanctuary_lake_5",
-  layer = 0,
-  x = 232,
-  y = 256,
-  width = 16,
-  height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/overworld_light",
-  sprite = "entities/teletransporter_vortex",
-  sound = "warp",
-}
-
 destructible{
-  name = "bush_C3_sanctuary_lake_sanctuary_lake_478",
+  name = "bush_C3_sanctuary_lake_22",
   layer = 0,
   x = 264,
   y = 461,
@@ -6363,7 +6340,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_C3_sanctuary_lake_sanctuary_lake_479",
+  name = "bush_C3_sanctuary_lake_23",
   layer = 0,
   x = 312,
   y = 461,
@@ -6373,7 +6350,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_C3_sanctuary_lake_sanctuary_lake_480",
+  name = "bush_C3_sanctuary_lake_19",
   layer = 0,
   x = 248,
   y = 445,
@@ -6383,7 +6360,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_C3_sanctuary_lake_sanctuary_lake_481",
+  name = "bush_C3_sanctuary_lake_18",
   layer = 0,
   x = 232,
   y = 445,
@@ -6393,7 +6370,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_C3_sanctuary_lake_sanctuary_lake_482",
+  name = "bush_C3_sanctuary_lake_21",
   layer = 0,
   x = 312,
   y = 445,
@@ -6403,7 +6380,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_C3_sanctuary_lake_sanctuary_lake_483",
+  name = "bush_C3_sanctuary_lake_20",
   layer = 0,
   x = 296,
   y = 445,
@@ -6413,7 +6390,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_C3_sanctuary_lake_sanctuary_lake_32",
+  name = "bush_C3_sanctuary_lake_2",
   layer = 0,
   x = 376,
   y = 173,
@@ -6423,7 +6400,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_C3_sanctuary_lake_sanctuary_lake_35",
+  name = "bush_C3_sanctuary_lake_3",
   layer = 0,
   x = 392,
   y = 173,
@@ -6433,7 +6410,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_C3_sanctuary_lake_sanctuary_lake_36",
+  name = "bush_C3_sanctuary_lake_6",
   layer = 0,
   x = 392,
   y = 189,
@@ -6443,7 +6420,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_C3_sanctuary_lake_sanctuary_lake_37",
+  name = "bush_C3_sanctuary_lake_5",
   layer = 0,
   x = 376,
   y = 189,
@@ -6453,7 +6430,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_C3_sanctuary_lake_sanctuary_lake_130",
+  name = "bush_C3_sanctuary_lake_15",
   layer = 0,
   x = 408,
   y = 317,
@@ -6463,7 +6440,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_C3_sanctuary_lake_sanctuary_lake_184",
+  name = "bush_C3_sanctuary_lake_14",
   layer = 0,
   x = 104,
   y = 317,
@@ -6473,7 +6450,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_C3_sanctuary_lake_sanctuary_lake_185",
+  name = "bush_C3_sanctuary_lake_0",
   layer = 0,
   x = 392,
   y = 157,
@@ -6483,7 +6460,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_C3_sanctuary_lake_sanctuary_lake_186",
+  name = "bush_C3_sanctuary_lake_1",
   layer = 0,
   x = 408,
   y = 157,
@@ -6493,7 +6470,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_C3_sanctuary_lake_sanctuary_lake_187",
+  name = "bush_C3_sanctuary_lake_4",
   layer = 0,
   x = 408,
   y = 173,
@@ -6503,7 +6480,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_C3_sanctuary_lake_sanctuary_lake_188",
+  name = "bush_C3_sanctuary_lake_7",
   layer = 0,
   x = 408,
   y = 189,
@@ -6513,7 +6490,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_C3_sanctuary_lake_sanctuary_lake_463",
+  name = "bush_C3_sanctuary_lake_12",
   layer = 0,
   x = 88,
   y = 301,
@@ -6523,7 +6500,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_C3_sanctuary_lake_sanctuary_lake_464",
+  name = "bush_C3_sanctuary_lake_10",
   layer = 0,
   x = 88,
   y = 269,
@@ -6533,7 +6510,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_C3_sanctuary_lake_sanctuary_lake_465",
+  name = "bush_C3_sanctuary_lake_13",
   layer = 0,
   x = 88,
   y = 317,
@@ -6543,7 +6520,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_C3_sanctuary_lake_sanctuary_lake_466",
+  name = "bush_C3_sanctuary_lake_16",
   layer = 0,
   x = 88,
   y = 333,
@@ -6553,7 +6530,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_C3_sanctuary_lake_sanctuary_lake_467",
+  name = "bush_C3_sanctuary_lake_17",
   layer = 0,
   x = 88,
   y = 349,
@@ -6563,7 +6540,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_C3_sanctuary_lake_sanctuary_lake_468",
+  name = "bush_C3_sanctuary_lake_8",
   layer = 0,
   x = 72,
   y = 253,
@@ -6573,7 +6550,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_C3_sanctuary_lake_sanctuary_lake_469",
+  name = "bush_C3_sanctuary_lake_9",
   layer = 0,
   x = 72,
   y = 269,
@@ -6583,7 +6560,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_C3_sanctuary_lake_sanctuary_lake_470",
+  name = "bush_C3_sanctuary_lake_11",
   layer = 0,
   x = 72,
   y = 285,
@@ -6593,12 +6570,48 @@ destructible{
 }
 
 destructible{
-  name = "sign_C3_sanctuary_lake_sanctuary_lake_11",
+  name = "sign_C3_sanctuary_lake_0",
   layer = 0,
   x = 328,
   y = 365,
   sprite = "entities/sign_brown",
   destruction_sound = "stone",
+}
+
+enemy{
+  name = "enemy_moblin_C3_sanctuary_lake_0",
+  layer = 0,
+  x = 344,
+  y = 221,
+  direction = 3,
+  breed = "dark_world/moblin",
+}
+
+enemy{
+  name = "enemy_taros_blue_C3_sanctuary_lake_0",
+  layer = 0,
+  x = 120,
+  y = 277,
+  direction = 2,
+  breed = "dark_world/taros_blue",
+}
+
+enemy{
+  name = "enemy_moblin_C3_sanctuary_lake_1",
+  layer = 0,
+  x = 232,
+  y = 397,
+  direction = 3,
+  breed = "dark_world/moblin",
+}
+
+enemy{
+  name = "enemy_taros_blue_C3_sanctuary_lake_1",
+  layer = 0,
+  x = 328,
+  y = 381,
+  direction = 3,
+  breed = "dark_world/taros_blue",
 }
 
 tile{
@@ -7041,7 +7054,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/B3_fortune_teller",
+  destination_map = "A Link to the Past/Dark World/Overworld/B3_fortune_teller",
   destination = "_side",
 }
 
@@ -7053,7 +7066,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/C4_hyrule_forest",
+  destination_map = "A Link to the Past/Dark World/Overworld/C4_hyrule_forest",
   destination = "_side",
 }
 
@@ -7065,7 +7078,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/D3_sanctuary",
+  destination_map = "A Link to the Past/Dark World/Overworld/D3_sanctuary",
   destination = "_side",
 }
 
@@ -7077,29 +7090,15 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/C2_lumberjack_south",
+  destination_map = "A Link to the Past/Dark World/Overworld/C2_lumberjack_south",
   destination = "_side",
 }
 
 destination{
   name = "dest_secret",
   layer = 2,
-  x = 336,
-  y = 221,
+  x = 296,
+  y = 157,
   direction = 3,
-}
-
-wall{
-  name = "coor_zone_16",
-  layer = 2,
-  x = 0,
-  y = 0,
-  width = 8,
-  height = 8,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
 }
 

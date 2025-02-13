@@ -3243,15 +3243,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 288,
-  y = 592,
-  width = 16,
-  height = 16,
-  pattern = "926",
-}
-
-tile{
-  layer = 0,
   x = 256,
   y = 576,
   width = 16,
@@ -20999,29 +20990,8 @@ tile{
   tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
-destination{
-  name = "dest_vortex_ice_lake_0",
-  layer = 0,
-  x = 672,
-  y = 701,
-  direction = 0,
-}
-
-teletransporter{
-  name = "river_vortex_0",
-  layer = 0,
-  x = 648,
-  y = 688,
-  width = 16,
-  height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/H2_lake_of_ill_omen",
-  destination = "dest_vortex_waterfall_of_wishing_0",
-  sprite = "entities/teletransporter_vortex",
-  sound = "warp",
-}
-
 jumper{
-  name = "jump_ice_lake_34",
+  name = "jump_F7_ice_lake_34",
   layer = 0,
   x = 216,
   y = 488,
@@ -21032,7 +21002,7 @@ jumper{
 }
 
 jumper{
-  name = "jump_ice_lake_10",
+  name = "jump_F7_ice_lake_10",
   layer = 0,
   x = 920,
   y = 224,
@@ -21043,7 +21013,7 @@ jumper{
 }
 
 jumper{
-  name = "jump_ice_lake_13",
+  name = "jump_F7_ice_lake_13",
   layer = 0,
   x = 888,
   y = 216,
@@ -21054,7 +21024,7 @@ jumper{
 }
 
 jumper{
-  name = "jump_ice_lake_14",
+  name = "jump_F7_ice_lake_14",
   layer = 0,
   x = 832,
   y = 168,
@@ -21065,7 +21035,7 @@ jumper{
 }
 
 jumper{
-  name = "jump_ice_lake_31",
+  name = "jump_F7_ice_lake_31",
   layer = 0,
   x = 840,
   y = 216,
@@ -21076,7 +21046,7 @@ jumper{
 }
 
 jumper{
-  name = "jump_ice_lake_16",
+  name = "jump_F7_ice_lake_16",
   layer = 0,
   x = 256,
   y = 184,
@@ -21087,7 +21057,7 @@ jumper{
 }
 
 jumper{
-  name = "jump_ice_lake_18",
+  name = "jump_F7_ice_lake_18",
   layer = 0,
   x = 360,
   y = 152,
@@ -21098,7 +21068,7 @@ jumper{
 }
 
 jumper{
-  name = "jump_ice_lake_22",
+  name = "jump_F7_ice_lake_22",
   layer = 0,
   x = 304,
   y = 152,
@@ -21109,7 +21079,7 @@ jumper{
 }
 
 jumper{
-  name = "jump_ice_lake_17",
+  name = "jump_F7_ice_lake_17",
   layer = 0,
   x = 272,
   y = 168,
@@ -21120,7 +21090,7 @@ jumper{
 }
 
 jumper{
-  name = "jump_ice_lake_19",
+  name = "jump_F7_ice_lake_19",
   layer = 0,
   x = 240,
   y = 184,
@@ -21131,7 +21101,7 @@ jumper{
 }
 
 jumper{
-  name = "jump_ice_lake_15",
+  name = "jump_F7_ice_lake_15",
   layer = 0,
   x = 128,
   y = 440,
@@ -21142,7 +21112,7 @@ jumper{
 }
 
 jumper{
-  name = "jump_ice_lake_25",
+  name = "jump_F7_ice_lake_25",
   layer = 0,
   x = 104,
   y = 456,
@@ -21153,7 +21123,7 @@ jumper{
 }
 
 jumper{
-  name = "jump_ice_lake_30",
+  name = "jump_F7_ice_lake_30",
   layer = 0,
   x = 920,
   y = 880,
@@ -21164,29 +21134,29 @@ jumper{
 }
 
 teletransporter{
-  name = "tp_house_ice_lake_0",
+  name = "tp_house_F7_ice_lake_0",
   layer = 0,
   x = 88,
-  y = 208,
+  y = 200,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/F7_ice_lake",
-  destination = "dest_secret",
+  destination_map = "A Link to the Past/Dark World/Houses/ice_lake_shop",
+  destination = "dest_map_hylia_shop_0",
 }
 
 teletransporter{
-  name = "tp_dungeon_cave_ice_lake_1",
+  name = "tp_dungeon_F7_ice_lake_0",
   layer = 0,
   x = 696,
   y = 456,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/F7_ice_lake",
-  destination = "dest_secret",
+  destination_map = "A Link to the Past/Dark World/Dungeons/Ice Palace/F1/F1_ice_palace",
+  destination = "dest_map_F1_ice_palace_0",
 }
 
 jumper{
-  name = "jump_ice_lake_35",
+  name = "jump_F7_ice_lake_35",
   layer = 0,
   x = 288,
   y = 152,
@@ -21210,7 +21180,7 @@ wall{
 }
 
 jumper{
-  name = "jump_ice_lake_41",
+  name = "jump_F7_ice_lake_41",
   layer = 0,
   x = 248,
   y = 808,
@@ -21229,18 +21199,6 @@ teletransporter{
   height = 8,
   transition = "scrolling",
   destination_map = "A Link to the Past/Dark World/Overworld/G6_plain_hylia",
-  destination = "_side",
-}
-
-teletransporter{
-  name = "border_F7_ice_lake_west",
-  layer = 0,
-  x = -8,
-  y = 0,
-  width = 8,
-  height = 1024,
-  transition = "scrolling",
-  destination_map = "A Link to the Past/Dark World/Overworld/D7_great_swamp",
   destination = "_side",
 }
 
@@ -21319,11 +21277,113 @@ destructible{
 }
 
 destination{
-  name = "dest_dungeon_ice_lake_1",
+  name = "dest_dungeon_F7_ice_lake_0",
   layer = 0,
   x = 704,
   y = 485,
   direction = 3,
+}
+
+enemy{
+  name = "enemy_slarok_F7_ice_lake_0",
+  layer = 0,
+  x = 888,
+  y = 925,
+  direction = 0,
+  breed = "light_world/octorok",
+}
+
+enemy{
+  name = "enemy_ropa_F7_ice_lake_0",
+  layer = 0,
+  x = 136,
+  y = 917,
+  direction = 3,
+  breed = "dark_world/ropa",
+}
+
+enemy{
+  name = "enemy_taros_blue_F7_ice_lake_0",
+  layer = 0,
+  x = 152,
+  y = 125,
+  direction = 1,
+  breed = "dark_world/taros_blue",
+}
+
+enemy{
+  name = "enemy_taros_blue_F7_ice_lake_1",
+  layer = 0,
+  x = 184,
+  y = 157,
+  direction = 1,
+  breed = "dark_world/taros_blue",
+}
+
+enemy{
+  name = "enemy_pikit_F7_ice_lake_0",
+  layer = 0,
+  x = 128,
+  y = 381,
+  direction = 0,
+  breed = "dark_world/ropa",
+}
+
+enemy{
+  name = "enemy_slarok_F7_ice_lake_1",
+  layer = 0,
+  x = 888,
+  y = 925,
+  direction = 0,
+  breed = "light_world/octorok",
+}
+
+enemy{
+  name = "enemy_slarok_F7_ice_lake_2",
+  layer = 0,
+  x = 120,
+  y = 317,
+  direction = 0,
+  breed = "light_world/octorok",
+}
+
+enemy{
+  name = "enemy_pikit_F7_ice_lake_1",
+  layer = 0,
+  x = 792,
+  y = 517,
+  direction = 0,
+  breed = "dark_world/ropa",
+}
+
+enemy{
+  name = "enemy_pikit_F7_ice_lake_2",
+  layer = 0,
+  x = 680,
+  y = 621,
+  direction = 0,
+  breed = "dark_world/ropa",
+}
+
+teletransporter{
+  name = "border_F7_ice_lake_west",
+  layer = 0,
+  x = -8,
+  y = 0,
+  width = 8,
+  height = 1024,
+  transition = "scrolling",
+  destination_map = "A Link to the Past/Dark World/Overworld/D7_great_swamp",
+  destination = "_side",
+}
+
+enemy{
+  name = "enemy_pikit_F7_ice_lake_3",
+  layer = 0,
+  x = 360,
+  y = 757,
+  direction = 0,
+  breed = "dark_world/ropa",
 }
 
 tile{
@@ -26290,11 +26350,110 @@ teletransporter{
   destination = "_side",
 }
 
+enemy{
+  name = "enemy_ku_F7_ice_lake_3",
+  layer = 1,
+  x = 800,
+  y = 837,
+  direction = 3,
+  breed = "light_world/zora_underwater",
+}
+
+enemy{
+  name = "enemy_ku_F7_ice_lake_4",
+  layer = 1,
+  x = 480,
+  y = 901,
+  direction = 3,
+  breed = "light_world/zora_underwater",
+}
+
+enemy{
+  name = "enemy_zirro_blue_F7_ice_lake_5",
+  layer = 1,
+  x = 168,
+  y = 861,
+  direction = 0,
+  breed = "light_world/poe",
+}
+
+enemy{
+  name = "enemy_ku_F7_ice_lake_0",
+  layer = 1,
+  x = 792,
+  y = 181,
+  direction = 3,
+  breed = "light_world/zora_underwater",
+}
+
+enemy{
+  name = "enemy_zirro_blue_F7_ice_lake_1",
+  layer = 1,
+  x = 656,
+  y = 285,
+  direction = 0,
+  breed = "light_world/poe",
+}
+
+enemy{
+  name = "enemy_zirro_green_F7_ice_lake_0",
+  layer = 1,
+  x = 384,
+  y = 317,
+  direction = 0,
+  breed = "light_world/poe",
+}
+
+enemy{
+  name = "enemy_zirro_green_F7_ice_lake_2",
+  layer = 1,
+  x = 296,
+  y = 629,
+  direction = 0,
+  breed = "light_world/poe",
+}
+
+enemy{
+  name = "enemy_ku_F7_ice_lake_1",
+  layer = 1,
+  x = 472,
+  y = 501,
+  direction = 3,
+  breed = "light_world/zora_underwater",
+}
+
+enemy{
+  name = "enemy_zirro_green_F7_ice_lake_3",
+  layer = 1,
+  x = 456,
+  y = 813,
+  direction = 0,
+  breed = "light_world/poe",
+}
+
+enemy{
+  name = "enemy_ku_F7_ice_lake_2",
+  layer = 1,
+  x = 672,
+  y = 725,
+  direction = 3,
+  breed = "light_world/zora_underwater",
+}
+
+enemy{
+  name = "enemy_zirro_green_F7_ice_lake_1",
+  layer = 1,
+  x = 872,
+  y = 333,
+  direction = 0,
+  breed = "light_world/poe",
+}
+
 destination{
-  name = "dest_house_ice_lake_0",
+  name = "dest_house_F7_ice_lake_0",
   layer = 2,
   x = 96,
-  y = 237,
+  y = 229,
   direction = 3,
 }
 
@@ -26304,19 +26463,5 @@ destination{
   x = 416,
   y = 141,
   direction = 3,
-}
-
-wall{
-  name = "coor_zone_37",
-  layer = 2,
-  x = 0,
-  y = 0,
-  width = 8,
-  height = 8,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
 }
 

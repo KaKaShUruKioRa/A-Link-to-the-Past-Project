@@ -1427,8 +1427,8 @@ teletransporter{
   y = 464,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/plain_hylia",
-  destination = "dest_cave_plain_hylia_0",
+  destination_map = "A Link to the Past/Dark World/Overworld/G6_plain_hylia",
+  destination = "dest_cave_G6_plain_hylia_0",
 }
 
 wall{
@@ -1483,6 +1483,37 @@ pickable{
   x = 384,
   y = 117,
   treasure_name = "consumables/fairy",
+}
+
+jumper{
+  name = "jump_plain_hylia_fairy_cave_0",
+  layer = 0,
+  x = 344,
+  y = 208,
+  width = 24,
+  height = 8,
+  direction = 6,
+  jump_length = 40,
+}
+
+jumper{
+  name = "jump_plain_hylia_fairy_cave_1",
+  layer = 0,
+  x = 400,
+  y = 208,
+  width = 24,
+  height = 8,
+  direction = 6,
+  jump_length = 40,
+}
+
+tile{
+  layer = 1,
+  x = 232,
+  y = 216,
+  width = 48,
+  height = 56,
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -1596,9 +1627,10 @@ tile{
 destination{
   name = "dest_secret",
   layer = 2,
-  x = 256,
-  y = 253,
+  x = 384,
+  y = 189,
   direction = 3,
+  default = true,
 }
 
 separator{

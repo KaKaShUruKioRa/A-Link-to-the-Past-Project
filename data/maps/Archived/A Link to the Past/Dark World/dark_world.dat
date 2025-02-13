@@ -18305,7 +18305,7 @@ teletransporter{
   y = 1280,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/overworld_light",
+  destination_map = "A Link to the Past/Light World/Overworld/overworld_light",
   sprite = "entities/teletransporter_vortex",
   sound = "warp",
 }
@@ -18317,7 +18317,7 @@ teletransporter{
   y = 1168,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/overworld_light",
+  destination_map = "A Link to the Past/Light World/Overworld/overworld_light",
   sprite = "entities/teletransporter_vortex",
   sound = "warp",
 }
@@ -24453,15 +24453,6 @@ tile{
   height = 8,
   pattern = "9681",
   tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = -4,
-  x = 280,
-  y = 3384,
-  width = 48,
-  height = 48,
-  pattern = "1341_2",
 }
 
 tile{
@@ -37621,6 +37612,15 @@ tile{
   width = 8,
   height = 24,
   pattern = "4050",
+}
+
+tile{
+  layer = -4,
+  x = 280,
+  y = 3384,
+  width = 48,
+  height = 48,
+  pattern = "14",
 }
 
 tile{
@@ -159828,7 +159828,7 @@ teletransporter{
   y = 2928,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/overworld_light",
+  destination_map = "A Link to the Past/Light World/Overworld/overworld_light",
   sprite = "entities/teletransporter_yellow",
   sound = "warp",
 }
@@ -168573,7 +168573,7 @@ tile{
   y = 1728,
   width = 32,
   height = 32,
-  pattern = "1085",
+  pattern = "1084",
 }
 
 tile{
@@ -169796,7 +169796,7 @@ tile{
   y = 2848,
   width = 32,
   height = 32,
-  pattern = "1085",
+  pattern = "1084",
 }
 
 tile{
@@ -177523,7 +177523,7 @@ tile{
   y = 2688,
   width = 32,
   height = 32,
-  pattern = "1085",
+  pattern = "1084",
 }
 
 tile{
@@ -179366,7 +179366,7 @@ tile{
   y = 416,
   width = 32,
   height = 32,
-  pattern = "1085",
+  pattern = "1084",
 }
 
 tile{
@@ -179375,7 +179375,7 @@ tile{
   y = 288,
   width = 32,
   height = 32,
-  pattern = "1085",
+  pattern = "1084",
 }
 
 tile{
@@ -179384,7 +179384,7 @@ tile{
   y = 192,
   width = 32,
   height = 32,
-  pattern = "1085",
+  pattern = "1084",
 }
 
 tile{
@@ -179393,7 +179393,7 @@ tile{
   y = 160,
   width = 32,
   height = 32,
-  pattern = "1085",
+  pattern = "1084",
 }
 
 tile{
@@ -179402,7 +179402,7 @@ tile{
   y = 160,
   width = 32,
   height = 32,
-  pattern = "1085",
+  pattern = "1084",
 }
 
 tile{
@@ -180012,7 +180012,7 @@ tile{
   y = 288,
   width = 32,
   height = 32,
-  pattern = "1085",
+  pattern = "1084",
 }
 
 tile{
@@ -183306,7 +183306,7 @@ tile{
   y = 1888,
   width = 32,
   height = 32,
-  pattern = "1085",
+  pattern = "1084",
 }
 
 tile{
@@ -183315,7 +183315,7 @@ tile{
   y = 1696,
   width = 32,
   height = 32,
-  pattern = "1085",
+  pattern = "1084",
 }
 
 tile{
@@ -184393,7 +184393,7 @@ tile{
   y = 2464,
   width = 32,
   height = 32,
-  pattern = "1085",
+  pattern = "1084",
 }
 
 tile{
@@ -185924,7 +185924,7 @@ tile{
   y = 2784,
   width = 32,
   height = 32,
-  pattern = "1085",
+  pattern = "1084",
 }
 
 tile{
@@ -192613,7 +192613,7 @@ tile{
   y = 2880,
   width = 32,
   height = 32,
-  pattern = "1085",
+  pattern = "1084",
 }
 
 tile{
@@ -225706,7 +225706,7 @@ tile{
   y = 3168,
   width = 32,
   height = 32,
-  pattern = "1085",
+  pattern = "1084",
 }
 
 tile{
@@ -242294,7 +242294,7 @@ tile{
   x = 1216,
   y = 2128,
   width = 8,
-  height = 8,
+  height = 16,
   pattern = "6247",
   tileset = "out/outside_darkworld_buildings_ERROR",
 }
@@ -308843,6 +308843,26 @@ tile{
   width = 8,
   height = 8,
   pattern = "13892",
+}
+
+tile{
+  layer = 0,
+  x = 1232,
+  y = 2192,
+  width = 8,
+  height = 8,
+  pattern = "5919",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 1256,
+  y = 2192,
+  width = 8,
+  height = 8,
+  pattern = "5920",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 wall{

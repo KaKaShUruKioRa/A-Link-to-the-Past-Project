@@ -2163,14 +2163,14 @@ tile{
   y = 128,
   width = 32,
   height = 32,
-  pattern = "1085",
+  pattern = "1084",
 }
 
 tile{
   layer = 0,
   x = 0,
   y = 80,
-  width = 48,
+  width = 192,
   height = 40,
   pattern = "2202",
 }
@@ -2179,14 +2179,14 @@ tile{
   layer = 0,
   x = 0,
   y = 120,
-  width = 48,
+  width = 192,
   height = 8,
   pattern = "2203",
 }
 
 tile{
   layer = 0,
-  x = 48,
+  x = 192,
   y = 80,
   width = 8,
   height = 40,
@@ -2555,16 +2555,6 @@ tile{
   width = 8,
   height = 8,
   pattern = "5919",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
-  x = 360,
-  y = 304,
-  width = 16,
-  height = 16,
-  pattern = "6020",
   tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
@@ -3913,6 +3903,16 @@ tile{
   pattern = "14795",
 }
 
+tile{
+  layer = 0,
+  x = 360,
+  y = 304,
+  width = 16,
+  height = 16,
+  pattern = "6008",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
 jumper{
   name = "jump_B6_shooting_gallery_2",
   layer = 0,
@@ -3927,10 +3927,10 @@ jumper{
 jumper{
   name = "jump_B6_shooting_gallery_4",
   layer = 0,
-  x = 80,
-  y = 168,
-  width = 96,
-  height = 96,
+  x = 112,
+  y = 200,
+  width = 64,
+  height = 64,
   direction = 5,
   jump_length = 36,
 }
@@ -3961,9 +3961,9 @@ jumper{
   name = "jump_B6_shooting_gallery_7",
   layer = 0,
   x = 272,
-  y = 352,
-  width = 24,
-  height = 24,
+  y = 360,
+  width = 16,
+  height = 16,
   direction = 7,
   jump_length = 36,
 }
@@ -4027,9 +4027,9 @@ jumper{
   name = "jump_B6_shooting_gallery_14",
   layer = 0,
   x = 248,
-  y = 176,
-  width = 32,
-  height = 32,
+  y = 192,
+  width = 16,
+  height = 16,
   direction = 7,
   jump_length = 36,
 }
@@ -4082,9 +4082,9 @@ jumper{
   name = "jump_B6_shooting_gallery_21",
   layer = 0,
   x = 192,
-  y = 104,
-  width = 48,
-  height = 48,
+  y = 128,
+  width = 24,
+  height = 24,
   direction = 7,
   jump_length = 36,
 }
@@ -4156,8 +4156,8 @@ teletransporter{
   y = 304,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/B6_shooting_gallery",
-  destination = "dest_house_B6_shooting_gallery_0",
+  destination_map = "A Link to the Past/Dark World/Houses/shooting_gallery",
+  destination = "dest_map_shooting_gallery_0",
 }
 
 destination{
@@ -4516,7 +4516,7 @@ jumper{
   width = 16,
   height = 16,
   direction = 7,
-  jump_length = 36,
+  jump_length = 56,
 }
 
 jumper{
@@ -4528,6 +4528,60 @@ jumper{
   height = 8,
   direction = 6,
   jump_length = 56,
+}
+
+jumper{
+  name = "jump_B6_shooting_gallery_19",
+  layer = 0,
+  x = 216,
+  y = 112,
+  width = 16,
+  height = 16,
+  direction = 7,
+  jump_length = 44,
+}
+
+jumper{
+  name = "jump_B6_shooting_gallery_20",
+  layer = 0,
+  x = 264,
+  y = 176,
+  width = 16,
+  height = 16,
+  direction = 7,
+  jump_length = 44,
+}
+
+jumper{
+  name = "jump_B6_shooting_gallery_24",
+  layer = 0,
+  x = 288,
+  y = 344,
+  width = 16,
+  height = 16,
+  direction = 7,
+  jump_length = 56,
+}
+
+jumper{
+  name = "jump_B6_shooting_gallery_6",
+  layer = 0,
+  x = 80,
+  y = 168,
+  width = 32,
+  height = 32,
+  direction = 5,
+  jump_length = 56,
+}
+
+npc{
+  name = "blacksmith_frog",
+  layer = 0,
+  x = 104,
+  y = 157,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/frog",
 }
 
 tile{
@@ -4824,7 +4878,7 @@ tile{
   layer = 1,
   x = 0,
   y = 104,
-  width = 48,
+  width = 192,
   height = 8,
   pattern = "1453",
 }
@@ -4833,7 +4887,7 @@ tile{
   layer = 1,
   x = 0,
   y = 56,
-  width = 48,
+  width = 192,
   height = 48,
   pattern = "1455",
 }
@@ -5137,7 +5191,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 48,
+  x = 192,
   y = 56,
   width = 8,
   height = 48,
@@ -5256,7 +5310,7 @@ tile{
   layer = 1,
   x = 0,
   y = 48,
-  width = 48,
+  width = 192,
   height = 8,
   pattern = "1451",
 }
@@ -5458,7 +5512,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/A7_swamp_of_evil",
+  destination_map = "A Link to the Past/Dark World/Overworld/A7_swamp_of_evil",
   destination = "_side",
 }
 
@@ -5470,7 +5524,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/C6_haunted_grove",
+  destination_map = "A Link to the Past/Dark World/Overworld/C6_haunted_grove",
   destination = "_side",
 }
 
@@ -5482,7 +5536,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/A4_village_of_outcasts",
+  destination_map = "A Link to the Past/Dark World/Overworld/A4_village_of_outcasts",
   destination = "_side",
 }
 
@@ -5494,7 +5548,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/A6_shovel_game",
+  destination_map = "A Link to the Past/Dark World/Overworld/A6_shovel_game",
   destination = "_side",
 }
 
@@ -5504,5 +5558,6 @@ destination{
   x = 200,
   y = 245,
   direction = 3,
+  default = true,
 }
 

@@ -4179,15 +4179,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 96,
-  y = 128,
-  width = 32,
-  height = 32,
-  pattern = "1375",
-}
-
-tile{
-  layer = 0,
   x = 336,
   y = 112,
   width = 16,
@@ -4357,7 +4348,7 @@ tile{
   y = 96,
   width = 32,
   height = 32,
-  pattern = "1085",
+  pattern = "1084",
 }
 
 tile{
@@ -4596,15 +4587,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 144,
-  y = 64,
-  width = 32,
-  height = 8,
-  pattern = "991",
-}
-
-tile{
-  layer = 0,
   x = 384,
   y = 128,
   width = 16,
@@ -4772,15 +4754,6 @@ tile{
   width = 16,
   height = 8,
   pattern = "1202",
-}
-
-tile{
-  layer = 0,
-  x = 64,
-  y = 72,
-  width = 32,
-  height = 8,
-  pattern = "1062",
 }
 
 tile{
@@ -6469,6 +6442,42 @@ tile{
   pattern = "980",
 }
 
+tile{
+  layer = 0,
+  x = 104,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "1896",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 152,
+  width = 16,
+  height = 8,
+  pattern = "1895",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 136,
+  width = 8,
+  height = 24,
+  pattern = "1893",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 136,
+  width = 8,
+  height = 24,
+  pattern = "1894",
+}
+
 destructible{
   name = "stone_white_H7_river_hylia_north_29",
   layer = 0,
@@ -6877,25 +6886,25 @@ jumper{
 }
 
 teletransporter{
-  name = "tp_cave_H8_river_hylia_south_0",
+  name = "tp_cave_H7_river_hylia_north_0",
   layer = 0,
   x = 72,
-  y = 72,
+  y = 80,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/kakariko_village",
-  destination = "dest_secret",
+  destination_map = "A Link to the Past/Dark World/Caves/Fairy/river_hylia_north_fairy_cave",
+  destination = "dest_map_river_hylia_north_fairy_cave_0",
 }
 
 teletransporter{
-  name = "tp_cave_H8_river_hylia_south_1",
+  name = "tp_cave_H7_river_hylia_north_1",
   layer = 0,
   x = 152,
   y = 72,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/kakariko_village",
-  destination = "dest_secret",
+  destination_map = "A Link to the Past/Dark World/Caves/river_hylia_north_cave",
+  destination = "dest_map_river_hylia_north_cave_0",
 }
 
 jumper{
@@ -6973,6 +6982,108 @@ jumper{
   height = 16,
   direction = 4,
   jump_length = 56,
+}
+
+destination{
+  name = "dest_cave_H7_river_hylia_north_0",
+  layer = 0,
+  x = 80,
+  y = 101,
+  direction = 3,
+}
+
+destination{
+  name = "dest_cave_H7_river_hylia_north_1",
+  layer = 0,
+  x = 160,
+  y = 93,
+  direction = 3,
+}
+
+stairs{
+  name = "stair_down_F1_death_mountain_east_1",
+  layer = 0,
+  x = 104,
+  y = 136,
+  direction = 1,
+  subtype = 3,
+}
+
+teletransporter{
+  name = "tp_cave_H7_river_hylia_north_2",
+  layer = 0,
+  x = 104,
+  y = 136,
+  width = 16,
+  height = 16,
+  destination_map = "A Link to the Past/Dark World/Caves/river_hylia_north_secret_cave",
+  destination = "dest_map_river_hylia_north_secret_cave_0",
+}
+
+destination{
+  name = "dest_cave_H7_river_hylia_north_2",
+  layer = 0,
+  x = 112,
+  y = 157,
+  direction = 3,
+}
+
+wall{
+  layer = 0,
+  x = 96,
+  y = 128,
+  width = 32,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+enemy{
+  name = "enemy_slarok_H7_river_hylia_north_0",
+  layer = 0,
+  x = 280,
+  y = 149,
+  direction = 0,
+  breed = "light_world/octorok",
+}
+
+enemy{
+  name = "enemy_stal_H7_river_hylia_north_0",
+  layer = 0,
+  x = 152,
+  y = 173,
+  direction = 3,
+  breed = "dark_world/stal",
+}
+
+enemy{
+  name = "enemy_slarok_H7_river_hylia_north_1",
+  layer = 0,
+  x = 384,
+  y = 285,
+  direction = 0,
+  breed = "light_world/octorok",
+}
+
+enemy{
+  name = "enemy_ku_H7_river_hylia_north_0",
+  layer = 0,
+  x = 136,
+  y = 285,
+  direction = 3,
+  breed = "light_world/zora_underwater",
+}
+
+enemy{
+  name = "enemy_ku_H7_river_hylia_north_1",
+  layer = 0,
+  x = 296,
+  y = 445,
+  direction = 3,
+  breed = "light_world/zora_underwater",
 }
 
 tile{
@@ -7677,6 +7788,51 @@ tile{
   pattern = "969",
 }
 
+tile{
+  layer = 1,
+  x = 64,
+  y = 72,
+  width = 32,
+  height = 8,
+  pattern = "1062",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 64,
+  width = 32,
+  height = 8,
+  pattern = "991",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 128,
+  width = 32,
+  height = 8,
+  pattern = "1682",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 128,
+  width = 32,
+  height = 8,
+  pattern = "1892",
+}
+
+enemy{
+  name = "enemy_zirro_blue_H7_river_hylia_north_0",
+  layer = 1,
+  x = 216,
+  y = 173,
+  direction = 0,
+  breed = "light_world/poe",
+}
+
 teletransporter{
   name = "border_H7_river_hylia_north_west",
   layer = 2,
@@ -7685,7 +7841,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/F7_ice_lake",
+  destination_map = "A Link to the Past/Dark World/Overworld/F7_ice_lake",
   destination = "_side",
 }
 
@@ -7697,7 +7853,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/H8_river_hylia_south",
+  destination_map = "A Link to the Past/Dark World/Overworld/H8_river_hylia_south",
   destination = "_side",
 }
 
@@ -7709,7 +7865,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/H6_deadend_east",
+  destination_map = "A Link to the Past/Dark World/Overworld/H6_deadend_east",
   destination = "_side",
 }
 

@@ -12,6 +12,25 @@ properties{
 
 tile{
   layer = 0,
+  x = 48,
+  y = 0,
+  width = 384,
+  height = 488,
+  pattern = "14667",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 88,
+  width = 16,
+  height = 8,
+  pattern = "6259",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
   x = 448,
   y = 0,
   width = 64,
@@ -475,15 +494,6 @@ tile{
   y = 0,
   width = 32,
   height = 152,
-  pattern = "14667",
-}
-
-tile{
-  layer = 0,
-  x = 48,
-  y = 0,
-  width = 384,
-  height = 488,
   pattern = "14667",
 }
 
@@ -2360,7 +2370,7 @@ tile{
   y = 416,
   width = 32,
   height = 32,
-  pattern = "1085",
+  pattern = "1084",
 }
 
 tile{
@@ -3804,16 +3814,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 208,
-  y = 128,
-  width = 8,
-  height = 16,
-  pattern = "5974",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
   x = 264,
   y = 184,
   width = 8,
@@ -4109,6 +4109,56 @@ tile{
   pattern = "1072",
 }
 
+tile{
+  layer = 0,
+  x = 200,
+  y = 72,
+  width = 48,
+  height = 16,
+  pattern = "6259",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "6259",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 128,
+  width = 8,
+  height = 16,
+  pattern = "5974",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "5919",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "5920",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
 wall{
   layer = 0,
   x = 360,
@@ -4378,6 +4428,109 @@ destructible{
   weight = 2,
 }
 
+wall{
+  layer = 0,
+  x = 176,
+  y = 64,
+  width = 16,
+  height = 56,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 256,
+  y = 64,
+  width = 16,
+  height = 56,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 192,
+  y = 64,
+  width = 64,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+enemy{
+  name = "enemy_bone_cucco_C5_blacksmiths_house_0",
+  layer = 0,
+  x = 312,
+  y = 285,
+  direction = 0,
+  breed = "light_world/chicken",
+}
+
+enemy{
+  name = "enemy_bone_cucco_C5_blacksmiths_house_1",
+  layer = 0,
+  x = 280,
+  y = 317,
+  direction = 0,
+  breed = "light_world/chicken",
+}
+
+enemy{
+  name = "enemy_bone_cucco_C5_blacksmiths_house_2",
+  layer = 0,
+  x = 416,
+  y = 349,
+  direction = 0,
+  breed = "light_world/chicken",
+}
+
+enemy{
+  name = "enemy_bone_cucco_C5_blacksmiths_house_3",
+  layer = 0,
+  x = 152,
+  y = 365,
+  direction = 0,
+  breed = "light_world/chicken",
+}
+
+enemy{
+  name = "enemy_bone_cucco_C5_blacksmiths_house_4",
+  layer = 0,
+  x = 280,
+  y = 381,
+  direction = 0,
+  breed = "light_world/chicken",
+}
+
+pickable{
+  name = "treasure_red_sword_C5_blacksmiths_house_0",
+  layer = 0,
+  x = 224,
+  y = 93,
+  treasure_name = "equipment/sword",
+  treasure_variant = 3,
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 104,
+  width = 40,
+  height = 16,
+  pattern = "65",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
 tile{
   layer = 1,
   x = 192,
@@ -4480,31 +4633,11 @@ tile{
 
 tile{
   layer = 1,
-  x = 200,
-  y = 72,
-  width = 48,
-  height = 16,
-  pattern = "6259",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 1,
   x = 256,
   y = 80,
   width = 8,
   height = 16,
   pattern = "6254",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 1,
-  x = 192,
-  y = 88,
-  width = 16,
-  height = 8,
-  pattern = "6259",
   tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
@@ -4543,7 +4676,7 @@ tile{
   x = 192,
   y = 80,
   width = 8,
-  height = 8,
+  height = 16,
   pattern = "6247",
   tileset = "out/outside_darkworld_buildings_ERROR",
 }
@@ -4605,16 +4738,6 @@ tile{
   width = 32,
   height = 8,
   pattern = "6258",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 1,
-  x = 200,
-  y = 104,
-  width = 8,
-  height = 8,
-  pattern = "6259",
   tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
@@ -5044,16 +5167,6 @@ tile{
   pattern = "1455",
 }
 
-tile{
-  layer = 1,
-  x = 216,
-  y = 104,
-  width = 40,
-  height = 16,
-  pattern = "65",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
 teletransporter{
   name = "border_C5_blacksmiths_house_west",
   layer = 2,
@@ -5062,7 +5175,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/A4_village_of_outcasts",
+  destination_map = "A Link to the Past/Dark World/Overworld/A4_village_of_outcasts",
   destination = "_side",
 }
 
@@ -5074,7 +5187,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/D4_pyramid",
+  destination_map = "A Link to the Past/Dark World/Overworld/D4_pyramid",
   destination = "_side",
 }
 
@@ -5086,7 +5199,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/C4_hyrule_forest",
+  destination_map = "A Link to the Past/Dark World/Overworld/C4_hyrule_forest",
   destination = "_side",
 }
 
@@ -5098,7 +5211,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/C6_haunted_grove",
+  destination_map = "A Link to the Past/Dark World/Overworld/C6_haunted_grove",
   destination = "_side",
 }
 

@@ -4598,6 +4598,33 @@ destructible{
   can_be_cut = true,
 }
 
+enemy{
+  name = "enemy_taros_blue_C7_plain_of_ruins_north_0",
+  layer = 0,
+  x = 264,
+  y = 221,
+  direction = 3,
+  breed = "dark_world/taros_blue",
+}
+
+enemy{
+  name = "enemy_taros_blue_C7_plain_of_ruins_north_1",
+  layer = 0,
+  x = 312,
+  y = 237,
+  direction = 0,
+  breed = "dark_world/taros_blue",
+}
+
+enemy{
+  name = "enemy_ropa_C7_plain_of_ruins_north_0",
+  layer = 0,
+  x = 184,
+  y = 381,
+  direction = 3,
+  breed = "dark_world/ropa",
+}
+
 tile{
   layer = 1,
   x = 40,
@@ -6874,7 +6901,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/A7_swamp_of_evil",
+  destination_map = "A Link to the Past/Dark World/Overworld/A7_swamp_of_evil",
   destination = "_side",
 }
 
@@ -6886,7 +6913,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/C8_plain_of_ruins_south",
+  destination_map = "A Link to the Past/Dark World/Overworld/C8_plain_of_ruins_south",
   destination = "_side",
 }
 
@@ -6898,7 +6925,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/D7_great_swamp",
+  destination_map = "A Link to the Past/Dark World/Overworld/D7_great_swamp",
   destination = "_side",
 }
 
@@ -6910,7 +6937,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/C6_haunted_grove",
+  destination_map = "A Link to the Past/Dark World/Overworld/C6_haunted_grove",
   destination = "_side",
 }
 

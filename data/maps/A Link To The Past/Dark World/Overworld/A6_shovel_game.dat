@@ -1475,7 +1475,7 @@ tile{
   y = 288,
   width = 32,
   height = 32,
-  pattern = "1085",
+  pattern = "1084",
 }
 
 tile{
@@ -2675,12 +2675,39 @@ tile{
   pattern = "1110",
 }
 
+tile{
+  layer = 0,
+  x = 176,
+  y = 328,
+  width = 8,
+  height = 40,
+  pattern = "260",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 328,
+  width = 8,
+  height = 40,
+  pattern = "261",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 328,
+  width = 16,
+  height = 40,
+  pattern = "262",
+}
+
 jumper{
   name = "jump_A6_shovel_game_0",
   layer = 0,
-  x = 96,
+  x = 208,
   y = 328,
-  width = 192,
+  width = 40,
   height = 8,
   direction = 6,
   jump_length = 56,
@@ -2903,6 +2930,16 @@ destructible{
   sprite = "destructibles/bush_purple",
   destruction_sound = "bush",
   can_be_cut = true,
+}
+
+npc{
+  name = "npc_A6_shovel_game_0",
+  layer = 0,
+  x = 232,
+  y = 285,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/old_man",
 }
 
 tile{
@@ -4605,7 +4642,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/A7_swamp_of_evil",
+  destination_map = "A Link to the Past/Dark World/Overworld/A7_swamp_of_evil",
   destination = "_side",
 }
 
@@ -4617,7 +4654,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/B6_shooting_gallery",
+  destination_map = "A Link to the Past/Dark World/Overworld/B6_shooting_gallery",
   destination = "_side",
 }
 
@@ -4629,7 +4666,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/A4_village_of_outcasts",
+  destination_map = "A Link to the Past/Dark World/Overworld/A4_village_of_outcasts",
   destination = "_side",
 }
 
@@ -4639,5 +4676,6 @@ destination{
   x = 232,
   y = 221,
   direction = 3,
+  default = true,
 }
 

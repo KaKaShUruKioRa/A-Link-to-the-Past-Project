@@ -4795,6 +4795,69 @@ destructible{
   can_be_cut = true,
 }
 
+enemy{
+  name = "enemy_slarok_H3_lake_of_ill_omen_south_2",
+  layer = 0,
+  x = 232,
+  y = 237,
+  direction = 0,
+  breed = "light_world/octorok",
+}
+
+enemy{
+  name = "enemy_slarok_H3_lake_of_ill_omen_south_3",
+  layer = 0,
+  x = 232,
+  y = 429,
+  direction = 0,
+  breed = "light_world/octorok",
+}
+
+enemy{
+  name = "enemy_slarok_H3_lake_of_ill_omen_south_4",
+  layer = 0,
+  x = 216,
+  y = 445,
+  direction = 0,
+  breed = "light_world/octorok",
+}
+
+enemy{
+  name = "enemy_stal_H3_lake_of_ill_omen_south_0",
+  layer = 0,
+  x = 232,
+  y = 269,
+  direction = 3,
+  breed = "dark_world/stal",
+}
+
+enemy{
+  name = "enemy_slarok_H3_lake_of_ill_omen_south_0",
+  layer = 0,
+  x = 368,
+  y = 141,
+  direction = 0,
+  breed = "light_world/octorok",
+}
+
+enemy{
+  name = "enemy_slarok_H3_lake_of_ill_omen_south_1",
+  layer = 0,
+  x = 392,
+  y = 181,
+  direction = 0,
+  breed = "light_world/octorok",
+}
+
+enemy{
+  name = "enemy_ku_H3_lake_of_ill_omen_south_0",
+  layer = 0,
+  x = 176,
+  y = 93,
+  direction = 3,
+  breed = "light_world/zora_underwater",
+}
+
 tile{
   layer = 1,
   x = 432,

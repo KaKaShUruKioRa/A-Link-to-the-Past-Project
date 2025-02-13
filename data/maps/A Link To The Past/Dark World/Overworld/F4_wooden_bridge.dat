@@ -5034,6 +5034,60 @@ destructible{
   weight = 1,
 }
 
+enemy{
+  name = "enemy_moblin_F4_wooden_bridge_0",
+  layer = 0,
+  x = 392,
+  y = 189,
+  direction = 3,
+  breed = "dark_world/moblin",
+}
+
+enemy{
+  name = "enemy_stal_F4_wooden_bridge_0",
+  layer = 0,
+  x = 376,
+  y = 237,
+  direction = 3,
+  breed = "dark_world/stal",
+}
+
+enemy{
+  name = "enemy_moblin_F4_wooden_bridge_1",
+  layer = 0,
+  x = 440,
+  y = 253,
+  direction = 3,
+  breed = "dark_world/moblin",
+}
+
+enemy{
+  name = "enemy_hinox_F4_wooden_bridge_0",
+  layer = 0,
+  x = 128,
+  y = 157,
+  direction = 3,
+  breed = "dark_world/hinox",
+}
+
+enemy{
+  name = "enemy_snap_dragon_F4_wooden_bridge_0",
+  layer = 0,
+  x = 104,
+  y = 197,
+  direction = 3,
+  breed = "dark_world/snap_dragon",
+}
+
+enemy{
+  name = "enemy_taros_blue_F4_wooden_bridge_0",
+  layer = 0,
+  x = 136,
+  y = 261,
+  direction = 3,
+  breed = "dark_world/taros_blue",
+}
+
 tile{
   layer = 1,
   x = 464,
@@ -5897,7 +5951,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/D4_pyramid",
+  destination_map = "A Link to the Past/Dark World/Overworld/D4_pyramid",
   destination = "_side",
 }
 
@@ -5909,7 +5963,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/F5_plain_of_rocks",
+  destination_map = "A Link to the Past/Dark World/Overworld/F5_plain_of_rocks",
   destination = "_side",
 }
 
@@ -5921,7 +5975,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/G4_dark_ruins",
+  destination_map = "A Link to the Past/Dark World/Overworld/G4_dark_ruins",
   destination = "_side",
 }
 
@@ -5933,7 +5987,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/F3_wooden_bridge_north",
+  destination_map = "A Link to the Past/Dark World/Overworld/F3_wooden_bridge_north",
   destination = "_side",
 }
 

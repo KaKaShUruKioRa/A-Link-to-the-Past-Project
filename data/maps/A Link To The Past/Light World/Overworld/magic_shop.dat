@@ -4244,7 +4244,7 @@ teletransporter{
   y = 336,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Houses/magic_shop",
+  destination_map = "A Link to the Past/Light World/Houses/magic_shop",
   destination = "dest_map_magic_shop_0",
 }
 
@@ -7024,7 +7024,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/wooden_bridge_north",
+  destination_map = "A Link to the Past/Light World/Overworld/wooden_bridge_north",
   destination = "_side",
 }
 
@@ -7036,7 +7036,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/eastern_ruins",
+  destination_map = "A Link to the Past/Light World/Overworld/eastern_ruins",
   destination = "_side",
 }
 
@@ -7048,7 +7048,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/waterfall_south",
+  destination_map = "A Link to the Past/Light World/Overworld/waterfall_south",
   destination = "_side",
 }
 
@@ -7060,7 +7060,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/death_mountain_east",
+  destination_map = "A Link to the Past/Light World/Overworld/death_mountain_east",
   destination = "_side",
 }
 

@@ -925,7 +925,7 @@ teletransporter{
   y = 480,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/death_mountain_west",
+  destination_map = "A Link to the Past/Light World/Overworld/death_mountain_west",
   destination = "dest_dungeon_cemetery_0",
 }
 

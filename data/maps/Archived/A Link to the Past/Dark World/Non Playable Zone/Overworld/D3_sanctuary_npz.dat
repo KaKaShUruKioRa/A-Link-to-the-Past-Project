@@ -2216,51 +2216,6 @@ tile{
   tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
-tile{
-  layer = -2,
-  x = 72,
-  y = 160,
-  width = 8,
-  height = 32,
-  pattern = "1124",
-}
-
-tile{
-  layer = -2,
-  x = 48,
-  y = 160,
-  width = 8,
-  height = 32,
-  pattern = "1122",
-}
-
-tile{
-  layer = -2,
-  x = 56,
-  y = 184,
-  width = 16,
-  height = 8,
-  pattern = "1126",
-}
-
-tile{
-  layer = -2,
-  x = 56,
-  y = 168,
-  width = 16,
-  height = 16,
-  pattern = "1125",
-}
-
-tile{
-  layer = -2,
-  x = 56,
-  y = 160,
-  width = 16,
-  height = 8,
-  pattern = "1123",
-}
-
 destructible{
   name = "bush_D3_sanctuary_38",
   layer = -2,
@@ -2935,16 +2890,6 @@ destructible{
   can_be_cut = true,
   damage_on_enemies = 0,
   ground = "grass",
-}
-
-destructible{
-  name = "stone_white_D3_sanctuary_1",
-  layer = -2,
-  x = 56,
-  y = 173,
-  sprite = "destructibles/stone_big_dw_1",
-  destruction_sound = "stone",
-  weight = 1,
 }
 
 destructible{

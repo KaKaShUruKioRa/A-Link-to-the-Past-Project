@@ -2625,7 +2625,7 @@ tile{
   y = 416,
   width = 32,
   height = 32,
-  pattern = "1085",
+  pattern = "1084",
 }
 
 tile{
@@ -4513,7 +4513,7 @@ tile{
   x = 192,
   y = 80,
   width = 8,
-  height = 8,
+  height = 16,
   pattern = "6247",
   tileset = "out/outside_darkworld_buildings_ERROR",
 }
@@ -4615,6 +4615,26 @@ tile{
   width = 8,
   height = 24,
   pattern = "6254_2",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "5919",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "5920",
   tileset = "out/outside_darkworld_buildings_ERROR",
 }
 

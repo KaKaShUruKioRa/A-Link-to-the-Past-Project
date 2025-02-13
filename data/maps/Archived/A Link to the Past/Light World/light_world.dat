@@ -167674,7 +167674,7 @@ teletransporter{
   y = 1376,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/overworld_light",
+  destination_map = "A Link to the Past/Light World/Overworld/overworld_light",
   sprite = "entities/teletransporter_yellow",
   sound = "warp",
 }
@@ -172100,7 +172100,7 @@ teletransporter{
   y = 3152,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/overworld_light",
+  destination_map = "A Link to the Past/Light World/Overworld/overworld_light",
   sprite = "entities/teletransporter_yellow",
   sound = "warp",
 }
@@ -185641,7 +185641,7 @@ teletransporter{
   y = 3552,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/overworld_light",
+  destination_map = "A Link to the Past/Light World/Overworld/overworld_light",
   sprite = "entities/teletransporter_yellow",
   sound = "warp",
 }
@@ -364086,7 +364086,7 @@ teletransporter{
   y = 1032,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/overworld_light",
+  destination_map = "A Link to the Past/Light World/Overworld/overworld_light",
   destination = "in_forest_dest_0",
 }
 
@@ -364097,7 +364097,7 @@ teletransporter{
   y = 1032,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/overworld_light",
+  destination_map = "A Link to the Past/Light World/Overworld/overworld_light",
   destination = "in_forest_dest_1",
 }
 
@@ -364108,7 +364108,7 @@ teletransporter{
   y = 1032,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/overworld_light",
+  destination_map = "A Link to the Past/Light World/Overworld/overworld_light",
   destination = "in_forest_dest_2",
 }
 

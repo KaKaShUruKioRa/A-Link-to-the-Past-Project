@@ -4651,6 +4651,51 @@ destructible{
   ground = "grass",
 }
 
+enemy{
+  name = "enemy_ropa_E3_cemetery_0",
+  layer = 0,
+  x = 328,
+  y = 221,
+  direction = 3,
+  breed = "dark_world/ropa",
+}
+
+enemy{
+  name = "enemy_ropa_E3_cemetery_1",
+  layer = 0,
+  x = 408,
+  y = 269,
+  direction = 3,
+  breed = "dark_world/ropa",
+}
+
+enemy{
+  name = "enemy_ropa_E3_cemetery_2",
+  layer = 0,
+  x = 120,
+  y = 253,
+  direction = 3,
+  breed = "dark_world/ropa",
+}
+
+enemy{
+  name = "enemy_ropa_E3_cemetery_3",
+  layer = 0,
+  x = 216,
+  y = 333,
+  direction = 3,
+  breed = "dark_world/ropa",
+}
+
+enemy{
+  name = "enemy_hinox_E3_cemetery_0",
+  layer = 0,
+  x = 280,
+  y = 413,
+  direction = 3,
+  breed = "dark_world/hinox",
+}
+
 tile{
   layer = 1,
   x = 80,
@@ -5129,7 +5174,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/D3_sanctuary",
+  destination_map = "A Link to the Past/Dark World/Overworld/D3_sanctuary",
   destination = "_side",
 }
 
@@ -5141,7 +5186,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/D4_pyramid",
+  destination_map = "A Link to the Past/Dark World/Overworld/D4_pyramid",
   destination = "_side",
 }
 
@@ -5153,7 +5198,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/F3_wooden_bridge_north",
+  destination_map = "A Link to the Past/Dark World/Overworld/F3_wooden_bridge_north",
   destination = "_side",
 }
 
@@ -5165,7 +5210,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/D1_death_mountain_west",
+  destination_map = "A Link to the Past/Dark World/Overworld/D1_death_mountain_west",
   destination = "_side",
 }
 

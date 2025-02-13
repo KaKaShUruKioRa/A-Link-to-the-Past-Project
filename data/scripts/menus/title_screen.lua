@@ -1,5 +1,5 @@
--- A Link To The Past title screen.
--- Made by Olivier Clero, based on the original title screen from A Link To The Past.
+-- A Link to the Past title screen.
+-- Made by Olivier Clero, based on the original title screen from A Link to the Past.
 -- Usage:
 -- local title_screen = require("menus/title_screen")
 -- sol.menu.start(title_screen)

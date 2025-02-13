@@ -2860,15 +2860,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 304,
-  y = 96,
-  width = 128,
-  height = 32,
-  pattern = "1058",
-}
-
-tile{
-  layer = 0,
   x = 312,
   y = 224,
   width = 80,
@@ -2921,7 +2912,7 @@ tile{
   y = 416,
   width = 32,
   height = 32,
-  pattern = "1085",
+  pattern = "1084",
 }
 
 tile{
@@ -2930,7 +2921,7 @@ tile{
   y = 288,
   width = 32,
   height = 32,
-  pattern = "1085",
+  pattern = "1084",
 }
 
 tile{
@@ -2939,7 +2930,7 @@ tile{
   y = 192,
   width = 32,
   height = 32,
-  pattern = "1085",
+  pattern = "1084",
 }
 
 tile{
@@ -2948,7 +2939,7 @@ tile{
   y = 160,
   width = 32,
   height = 32,
-  pattern = "1085",
+  pattern = "1084",
 }
 
 tile{
@@ -2957,7 +2948,7 @@ tile{
   y = 160,
   width = 32,
   height = 32,
-  pattern = "1085",
+  pattern = "1084",
 }
 
 tile{
@@ -3557,7 +3548,7 @@ tile{
   y = 288,
   width = 32,
   height = 32,
-  pattern = "1085",
+  pattern = "1084",
 }
 
 tile{
@@ -3626,23 +3617,40 @@ tile{
 
 tile{
   layer = 0,
-  x = 344,
-  y = 224,
+  x = 448,
+  y = 144,
   width = 16,
   height = 16,
-  pattern = "6020",
-  tileset = "out/outside_darkworld_buildings_ERROR",
+  pattern = "969",
+}
+
+tile{
+  layer = 0,
+  x = 448,
+  y = 160,
+  width = 16,
+  height = 96,
+  pattern = "975",
+}
+
+tile{
+  layer = 0,
+  x = 448,
+  y = 152,
+  width = 8,
+  height = 104,
+  pattern = "454",
 }
 
 teletransporter{
   name = "tp_house_C1_lumberjack_0",
   layer = 0,
   x = 344,
-  y = 224,
+  y = 216,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Houses/lumberjack_shop",
-  destination = "dest_map_C1_lumberjack_house_0",
+  destination_map = "A Link to the Past/Dark World/Houses/lumberjack_shop",
+  destination = "dest_map_lumberjack_house_0",
 }
 
 wall{
@@ -3792,7 +3800,7 @@ destination{
   name = "dest_house_C1_lumberjack_0",
   layer = 0,
   x = 352,
-  y = 253,
+  y = 237,
   direction = 3,
 }
 
@@ -4104,6 +4112,33 @@ destructible{
   sprite = "destructibles/bush_purple",
   destruction_sound = "bush",
   can_be_cut = true,
+}
+
+enemy{
+  name = "enemy_moblin_C1_lumberjack_0",
+  layer = 0,
+  x = 232,
+  y = 405,
+  direction = 3,
+  breed = "dark_world/moblin",
+}
+
+enemy{
+  name = "enemy_snap_dragon_C1_lumberjack_0",
+  layer = 0,
+  x = 200,
+  y = 285,
+  direction = 3,
+  breed = "dark_world/snap_dragon",
+}
+
+enemy{
+  name = "enemy_snap_dragon_C1_lumberjack_1",
+  layer = 0,
+  x = 184,
+  y = 325,
+  direction = 3,
+  breed = "dark_world/snap_dragon",
 }
 
 tile{
@@ -4537,42 +4572,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "952",
-}
-
-tile{
-  layer = 1,
-  x = 448,
-  y = 152,
-  width = 8,
-  height = 104,
-  pattern = "454",
-}
-
-tile{
-  layer = 1,
-  x = 448,
-  y = 144,
-  width = 16,
-  height = 16,
-  pattern = "969",
-}
-
-tile{
-  layer = 1,
-  x = 448,
-  y = 160,
-  width = 16,
-  height = 32,
-  pattern = "975",
-}
-
-tile{
-  layer = 1,
-  x = 448,
-  y = 160,
-  width = 16,
-  height = 96,
-  pattern = "975",
 }
 
 tile{
@@ -5943,9 +5942,18 @@ tile{
   pattern = "1451",
 }
 
+tile{
+  layer = 1,
+  x = 304,
+  y = 96,
+  width = 128,
+  height = 32,
+  pattern = "1058",
+}
+
 destination{
   name = "dest_secret",
-  layer = 1,
+  layer = 2,
   x = 248,
   y = 253,
   direction = 3,
@@ -5959,7 +5967,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/C2_C1_lumberjack_south",
+  destination_map = "A Link to the Past/Dark World/Overworld/C2_lumberjack_south",
   destination = "_side",
 }
 
@@ -5971,7 +5979,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/D1_death_mountain_west",
+  destination_map = "A Link to the Past/Dark World/Overworld/D1_death_mountain_west",
   destination = "_side",
 }
 
@@ -5982,7 +5990,7 @@ teletransporter{
   y = 120,
   width = 8,
   height = 80,
-  destination_map = "A Link To The Past/Dark World/Overworld/A1_skeleton_forest",
+  destination_map = "A Link to the Past/Dark World/Overworld/A1_skeleton_forest",
   destination = "_side",
 }
 

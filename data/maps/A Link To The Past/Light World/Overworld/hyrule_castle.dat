@@ -13643,7 +13643,7 @@ teletransporter{
   y = 160,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/hyrule_castle_cave",
+  destination_map = "A Link to the Past/Light World/Caves/hyrule_castle_cave",
   destination = "dest_hole_hyrule_castle_cave_0",
 }
 
@@ -16887,7 +16887,7 @@ teletransporter{
   y = 248,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Dungeons/Hyrule Castle/F1/F1_hyrule_castle",
+  destination_map = "A Link to the Past/Light World/Dungeons/Hyrule Castle/F1/F1_hyrule_castle",
 }
 
 teletransporter{
@@ -16897,7 +16897,7 @@ teletransporter{
   y = 216,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/hyrule_castle_cave",
+  destination_map = "A Link to the Past/Light World/Caves/hyrule_castle_cave",
   destination = "dest_map_hyrule_castle_cave_0",
 }
 
@@ -19530,7 +19530,7 @@ teletransporter{
   y = 40,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Dungeons/Hyrule Castle/F2/F2_hyrule_castle",
+  destination_map = "A Link to the Past/Light World/Dungeons/Hyrule Castle/F2/F2_hyrule_castle",
 }
 
 teletransporter{
@@ -19540,7 +19540,7 @@ teletransporter{
   y = 40,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Dungeons/Hyrule Castle/F2/F2_hyrule_castle",
+  destination_map = "A Link to the Past/Light World/Dungeons/Hyrule Castle/F2/F2_hyrule_castle",
 }
 
 teletransporter{
@@ -19550,7 +19550,7 @@ teletransporter{
   y = 88,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Dungeons/Hyrule Castle Tower/F1/F1_hyrule_castle_tower",
+  destination_map = "A Link to the Past/Light World/Dungeons/Hyrule Castle Tower/F1/F1_hyrule_castle_tower",
 }
 
 destination{
@@ -19585,7 +19585,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/hyrule_forest",
+  destination_map = "A Link to the Past/Light World/Overworld/hyrule_forest",
   destination = "_side",
 }
 
@@ -19597,7 +19597,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/link_forest",
+  destination_map = "A Link to the Past/Light World/Overworld/link_forest",
   destination = "_side",
 }
 
@@ -19609,7 +19609,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/wooden_bridge",
+  destination_map = "A Link to the Past/Light World/Overworld/wooden_bridge",
   destination = "_side",
 }
 
@@ -19621,7 +19621,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/sanctuary",
+  destination_map = "A Link to the Past/Light World/Overworld/sanctuary",
   destination = "_side",
 }
 
@@ -19633,7 +19633,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/link_house",
+  destination_map = "A Link to the Past/Light World/Overworld/link_house",
   destination = "_side",
 }
 
@@ -19645,7 +19645,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/cemetery",
+  destination_map = "A Link to the Past/Light World/Overworld/cemetery",
   destination = "_side",
 }
 
@@ -19657,7 +19657,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/blacksmiths_house",
+  destination_map = "A Link to the Past/Light World/Overworld/blacksmiths_house",
   destination = "_side",
 }
 
@@ -19669,7 +19669,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/plain_of_rocks",
+  destination_map = "A Link to the Past/Light World/Overworld/plain_of_rocks",
   destination = "_side",
 }
 

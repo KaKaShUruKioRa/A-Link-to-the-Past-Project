@@ -7,7 +7,7 @@ properties{
   max_layer = 2,
   world = "Dark World",
   tileset = "out/outside_darkworld_main",
-  music = "dark_world",
+  music = "dark_mountain",
 }
 
 tile{
@@ -7230,33 +7230,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 736,
-  y = 576,
-  width = 32,
-  height = 16,
-  pattern = "1335",
-}
-
-tile{
-  layer = 0,
-  x = 744,
-  y = 600,
-  width = 16,
-  height = 8,
-  pattern = "1334",
-}
-
-tile{
-  layer = 0,
-  x = 744,
-  y = 592,
-  width = 16,
-  height = 8,
-  pattern = "1336",
-}
-
-tile{
-  layer = 0,
   x = 584,
   y = 80,
   width = 48,
@@ -7334,33 +7307,6 @@ tile{
   width = 8,
   height = 32,
   pattern = "1333",
-}
-
-tile{
-  layer = 0,
-  x = 576,
-  y = 560,
-  width = 32,
-  height = 16,
-  pattern = "1335",
-}
-
-tile{
-  layer = 0,
-  x = 584,
-  y = 584,
-  width = 16,
-  height = 8,
-  pattern = "1334",
-}
-
-tile{
-  layer = 0,
-  x = 584,
-  y = 576,
-  width = 16,
-  height = 8,
-  pattern = "1336",
 }
 
 tile{
@@ -7532,33 +7478,6 @@ tile{
   width = 8,
   height = 32,
   pattern = "1333",
-}
-
-tile{
-  layer = 0,
-  x = 224,
-  y = 496,
-  width = 32,
-  height = 16,
-  pattern = "1335",
-}
-
-tile{
-  layer = 0,
-  x = 232,
-  y = 520,
-  width = 16,
-  height = 8,
-  pattern = "1334",
-}
-
-tile{
-  layer = 0,
-  x = 232,
-  y = 512,
-  width = 16,
-  height = 8,
-  pattern = "1336",
 }
 
 tile{
@@ -15199,8 +15118,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 152,
-  y = 224,
+  x = 192,
+  y = 232,
   width = 16,
   height = 48,
   pattern = "8008",
@@ -15219,7 +15138,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 136,
+  x = 120,
   y = 224,
   width = 16,
   height = 32,
@@ -15229,7 +15148,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 168,
+  x = 176,
   y = 224,
   width = 16,
   height = 32,
@@ -15278,18 +15197,18 @@ tile{
 }
 
 teletransporter{
-  name = "tp_dungeon_A1_skeleton_forest_1",
+  name = "tp_hole_dungeon_A1_skeleton_forest_0",
   layer = 0,
-  x = 752,
-  y = 16,
+  x = 488,
+  y = 360,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/A1_skeleton_forest",
-  destination = "dest_secret",
+  destination_map = "A Link to the Past/Dark World/Dungeons/Skull Woods/B1/B1_skull_woods",
+  destination = "dest_hole_B1_skull_woods_0",
 }
 
 destination{
-  name = "dest_map_A1_skeleton_forest_1",
+  name = "dest_map_A1_skeleton_forest_0",
   layer = 0,
   x = 96,
   y = 989,
@@ -15297,7 +15216,7 @@ destination{
 }
 
 destination{
-  name = "dest_map_A1_skeleton_forest_2",
+  name = "dest_map_A1_skeleton_forest_1",
   layer = 0,
   x = 384,
   y = 989,
@@ -15305,7 +15224,7 @@ destination{
 }
 
 destination{
-  name = "dest_map_A1_skeleton_forest_3",
+  name = "dest_map_A1_skeleton_forest_2",
   layer = 0,
   x = 912,
   y = 989,
@@ -15313,29 +15232,28 @@ destination{
 }
 
 teletransporter{
-  name = "tp_map_A1_skeleton_forest_1",
+  name = "tp_map_A1_skeleton_forest_0",
   layer = 0,
   x = 88,
   y = 992,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/A3_entrance_skeleton_forest",
-  destination = "dest_map_entrance_A1_skeleton_forest_1",
+  destination_map = "A Link to the Past/Dark World/Overworld/A3_entrance_skeleton_forest",
 }
 
 teletransporter{
-  name = "tp_map_A1_skeleton_forest_2",
+  name = "tp_map_A1_skeleton_forest_1",
   layer = 0,
   x = 376,
   y = 992,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/A3_entrance_skeleton_forest",
-  destination = "dest_map_entrance_A1_skeleton_forest_2",
+  destination_map = "A Link to the Past/Dark World/Overworld/A3_entrance_skeleton_forest",
+  destination = "dest_map_A3_entrance_skeleton_forest_1",
 }
 
 destination{
-  name = "dest_map_A1_skeleton_forest_0",
+  name = "dest_dungeon_A1_skeleton_forest_0",
   layer = 0,
   x = 160,
   y = 221,
@@ -15349,8 +15267,8 @@ teletransporter{
   y = 192,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/A1_skeleton_forest",
-  destination = "dest_secret",
+  destination_map = "A Link to the Past/Dark World/Dungeons/Skull Woods/B1/B1_skull_woods",
+  destination = "dest_map_B1_skull_woods_0",
 }
 
 wall{
@@ -15526,7 +15444,7 @@ wall{
   layer = 0,
   x = 944,
   y = 936,
-  width = 48,
+  width = 80,
   height = 48,
   stops_hero = true,
   stops_npcs = true,
@@ -15539,7 +15457,7 @@ wall{
   layer = 0,
   x = 920,
   y = 888,
-  width = 48,
+  width = 104,
   height = 40,
   stops_hero = true,
   stops_npcs = true,
@@ -15632,19 +15550,6 @@ wall{
   y = 312,
   width = 48,
   height = 24,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 0,
-  x = 736,
-  y = 584,
-  width = 32,
-  height = 8,
   stops_hero = true,
   stops_npcs = true,
   stops_enemies = true,
@@ -15757,80 +15662,79 @@ wall{
 }
 
 teletransporter{
-  name = "tp_map_A1_skeleton_forest_3",
+  name = "tp_map_A1_skeleton_forest_2",
   layer = 0,
   x = 904,
   y = 992,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/B3_fortune_teller",
-  destination = "dest_map_fortune_teller_3",
+  destination_map = "A Link to the Past/Dark World/Overworld/B3_fortune_teller",
 }
 
 teletransporter{
   name = "tp_dungeon_A1_skeleton_forest_2",
   layer = 0,
-  x = 488,
-  y = 360,
+  x = 232,
+  y = 512,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/A1_skeleton_forest",
-  destination = "dest_secret",
+  destination_map = "A Link to the Past/Dark World/Dungeons/Skull Woods/B1/B1_skull_woods",
+  destination = "dest_map_B1_skull_woods_1",
 }
 
 teletransporter{
-  name = "tp_dungeon_A1_skeleton_forest_3",
+  name = "tp_hole_dungeon_A1_skeleton_forest_1",
   layer = 0,
-  x = 232,
+  x = 768,
   y = 528,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/A1_skeleton_forest",
-  destination = "dest_secret",
+  destination_map = "A Link to the Past/Dark World/Dungeons/Skull Woods/B1/B1_skull_woods",
+  destination = "dest_hole_B1_skull_woods_1",
 }
 
 teletransporter{
   name = "tp_dungeon_A1_skeleton_forest_4",
   layer = 0,
   x = 584,
-  y = 592,
+  y = 576,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/A1_skeleton_forest",
-  destination = "dest_secret",
+  destination_map = "A Link to the Past/Dark World/Dungeons/Skull Woods/B1/B1_skull_woods",
+  destination = "dest_map_B1_skull_woods_2",
 }
 
 teletransporter{
   name = "tp_dungeon_A1_skeleton_forest_5",
   layer = 0,
   x = 744,
-  y = 608,
+  y = 592,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/A1_skeleton_forest",
-  destination = "dest_secret",
+  destination_map = "A Link to the Past/Dark World/Dungeons/Skull Woods/B1/B1_skull_woods",
+  destination = "dest_map_B1_skull_woods_3",
 }
 
 teletransporter{
-  name = "tp_dungeon_A1_skeleton_forest_6",
+  name = "tp_hole_dungeon_A1_skeleton_forest_2",
   layer = 0,
   x = 792,
   y = 680,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/A1_skeleton_forest",
-  destination = "dest_secret",
+  destination_map = "A Link to the Past/Dark World/Dungeons/Skull Woods/B1/B1_skull_woods",
+  destination = "dest_hole_B1_skull_woods_3",
 }
 
 teletransporter{
-  name = "tp_dungeon_A1_skeleton_forest_7",
+  name = "tp_hole_dungeon_A1_skeleton_forest_3",
   layer = 0,
   x = 632,
   y = 712,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/A1_skeleton_forest",
-  destination = "dest_secret",
+  destination_map = "A Link to the Past/Dark World/Dungeons/Skull Woods/B1/B1_skull_woods",
+  destination = "dest_hole_B1_skull_woods_2",
 }
 
 destructible{
@@ -16224,16 +16128,6 @@ destructible{
 }
 
 destructible{
-  name = "bush_A1_skeleton_forest_38",
-  layer = 0,
-  x = 776,
-  y = 541,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
   name = "stone_A1_skeleton_forest_0",
   layer = 0,
   x = 696,
@@ -16390,6 +16284,284 @@ wall{
   stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
+}
+
+destination{
+  name = "dest_dungeon_A1_skeleton_forest_1",
+  layer = 0,
+  x = 240,
+  y = 533,
+  direction = 3,
+}
+
+destination{
+  name = "dest_dungeon_A1_skeleton_forest_2",
+  layer = 0,
+  x = 592,
+  y = 597,
+  direction = 3,
+}
+
+destination{
+  name = "dest_dungeon_A1_skeleton_forest_3",
+  layer = 0,
+  x = 752,
+  y = 613,
+  direction = 3,
+}
+
+wall{
+  layer = 0,
+  x = 920,
+  y = 408,
+  width = 48,
+  height = 24,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 736,
+  y = 576,
+  width = 32,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 224,
+  y = 496,
+  width = 32,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 576,
+  y = 560,
+  width = 32,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 944,
+  y = 840,
+  width = 88,
+  height = 40,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+enemy{
+  name = "enemy_ropa_A1_skeleton_forest_0",
+  layer = 0,
+  x = 432,
+  y = 125,
+  direction = 3,
+  breed = "dark_world/ropa",
+}
+
+enemy{
+  name = "enemy_ropa_A1_skeleton_forest_3",
+  layer = 0,
+  x = 280,
+  y = 269,
+  direction = 3,
+  breed = "dark_world/ropa",
+}
+
+enemy{
+  name = "enemy_ropa_A1_skeleton_forest_2",
+  layer = 0,
+  x = 824,
+  y = 189,
+  direction = 3,
+  breed = "dark_world/ropa",
+}
+
+enemy{
+  name = "enemy_snap_dragon_A1_skeleton_forest_0",
+  layer = 0,
+  x = 792,
+  y = 173,
+  direction = 3,
+  breed = "dark_world/snap_dragon",
+}
+
+enemy{
+  name = "enemy_ropa_A1_skeleton_forest_1",
+  layer = 0,
+  x = 760,
+  y = 141,
+  direction = 3,
+  breed = "dark_world/ropa",
+}
+
+enemy{
+  name = "enemy_ropa_A1_skeleton_forest_4",
+  layer = 0,
+  x = 664,
+  y = 333,
+  direction = 3,
+  breed = "dark_world/ropa",
+}
+
+enemy{
+  name = "enemy_ropa_A1_skeleton_forest_5",
+  layer = 0,
+  x = 568,
+  y = 365,
+  direction = 3,
+  breed = "dark_world/ropa",
+}
+
+enemy{
+  name = "enemy_pikit_A1_skeleton_forest_0",
+  layer = 0,
+  x = 920,
+  y = 381,
+  direction = 0,
+  breed = "dark_world/ropa",
+}
+
+enemy{
+  name = "enemy_ropa_A1_skeleton_forest_7",
+  layer = 0,
+  x = 728,
+  y = 541,
+  direction = 3,
+  breed = "dark_world/ropa",
+}
+
+enemy{
+  name = "enemy_ropa_A1_skeleton_forest_10",
+  layer = 0,
+  x = 808,
+  y = 653,
+  direction = 3,
+  breed = "dark_world/ropa",
+}
+
+enemy{
+  name = "enemy_ropa_A1_skeleton_forest_12",
+  layer = 0,
+  x = 896,
+  y = 813,
+  direction = 3,
+  breed = "dark_world/ropa",
+}
+
+enemy{
+  name = "enemy_ropa_A1_skeleton_forest_6",
+  layer = 0,
+  x = 168,
+  y = 493,
+  direction = 3,
+  breed = "dark_world/ropa",
+}
+
+enemy{
+  name = "enemy_ropa_A1_skeleton_forest_8",
+  layer = 0,
+  x = 168,
+  y = 541,
+  direction = 3,
+  breed = "dark_world/ropa",
+}
+
+enemy{
+  name = "enemy_pikit_A1_skeleton_forest_1",
+  layer = 0,
+  x = 184,
+  y = 645,
+  direction = 0,
+  breed = "dark_world/ropa",
+}
+
+enemy{
+  name = "enemy_pikit_A1_skeleton_forest_2",
+  layer = 0,
+  x = 648,
+  y = 893,
+  direction = 0,
+  breed = "dark_world/ropa",
+}
+
+enemy{
+  name = "enemy_ropa_A1_skeleton_forest_9",
+  layer = 0,
+  x = 424,
+  y = 605,
+  direction = 3,
+  breed = "dark_world/ropa",
+}
+
+enemy{
+  name = "enemy_ropa_A1_skeleton_forest_11",
+  layer = 0,
+  x = 488,
+  y = 781,
+  direction = 3,
+  breed = "dark_world/ropa",
+}
+
+enemy{
+  name = "enemy_ropa_A1_skeleton_forest_13",
+  layer = 0,
+  x = 232,
+  y = 909,
+  direction = 3,
+  breed = "dark_world/ropa",
+}
+
+enemy{
+  name = "enemy_ropa_A1_skeleton_forest_14",
+  layer = 0,
+  x = 264,
+  y = 909,
+  direction = 3,
+  breed = "dark_world/ropa",
+}
+
+enemy{
+  name = "enemy_ropa_A1_skeleton_forest_15",
+  layer = 0,
+  x = 400,
+  y = 909,
+  direction = 3,
+  breed = "dark_world/ropa",
+}
+
+enemy{
+  name = "enemy_stal_A1_skeleton_forest_0",
+  layer = 0,
+  x = 472,
+  y = 957,
+  direction = 3,
+  breed = "dark_world/stal",
 }
 
 tile{
@@ -22632,42 +22804,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 696,
-  y = 704,
-  width = 8,
-  height = 16,
-  pattern = "1354",
-}
-
-tile{
-  layer = 1,
-  x = 752,
-  y = 704,
-  width = 8,
-  height = 16,
-  pattern = "1355",
-}
-
-tile{
-  layer = 1,
-  x = 704,
-  y = 720,
-  width = 48,
-  height = 16,
-  pattern = "1356",
-}
-
-tile{
-  layer = 1,
-  x = 704,
-  y = 704,
-  width = 48,
-  height = 16,
-  pattern = "1353",
-}
-
-tile{
-  layer = 1,
   x = 672,
   y = 752,
   width = 8,
@@ -23334,15 +23470,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 1016,
-  y = 424,
-  width = 48,
-  height = 8,
-  pattern = "1453",
-}
-
-tile{
-  layer = 1,
   x = 608,
   y = 56,
   width = 96,
@@ -23659,15 +23786,6 @@ tile{
 tile{
   layer = 1,
   x = 920,
-  y = 888,
-  width = 48,
-  height = 48,
-  pattern = "1455",
-}
-
-tile{
-  layer = 1,
-  x = 920,
   y = 784,
   width = 48,
   height = 8,
@@ -23696,15 +23814,6 @@ tile{
   layer = 1,
   x = 912,
   y = 888,
-  width = 8,
-  height = 48,
-  pattern = "1444",
-}
-
-tile{
-  layer = 1,
-  x = 976,
-  y = 856,
   width = 8,
   height = 48,
   pattern = "1444",
@@ -25730,16 +25839,7 @@ tile{
   layer = 1,
   x = 328,
   y = 496,
-  width = 48,
-  height = 8,
-  pattern = "1451",
-}
-
-tile{
-  layer = 1,
-  x = 376,
-  y = 496,
-  width = 96,
+  width = 144,
   height = 8,
   pattern = "1451",
 }
@@ -26896,6 +26996,106 @@ tile{
   pattern = "1401",
 }
 
+tile{
+  layer = 1,
+  x = 736,
+  y = 576,
+  width = 32,
+  height = 16,
+  pattern = "1335",
+}
+
+tile{
+  layer = 1,
+  x = 576,
+  y = 560,
+  width = 32,
+  height = 16,
+  pattern = "1335",
+}
+
+tile{
+  layer = 1,
+  x = 224,
+  y = 496,
+  width = 32,
+  height = 16,
+  pattern = "1335",
+}
+
+tile{
+  layer = 1,
+  x = 744,
+  y = 592,
+  width = 16,
+  height = 8,
+  pattern = "1336",
+}
+
+tile{
+  layer = 1,
+  x = 584,
+  y = 576,
+  width = 16,
+  height = 8,
+  pattern = "1336",
+}
+
+tile{
+  layer = 1,
+  x = 232,
+  y = 512,
+  width = 16,
+  height = 8,
+  pattern = "1336",
+}
+
+tile{
+  layer = 1,
+  x = 744,
+  y = 600,
+  width = 16,
+  height = 8,
+  pattern = "1334",
+}
+
+tile{
+  layer = 1,
+  x = 584,
+  y = 584,
+  width = 16,
+  height = 8,
+  pattern = "1334",
+}
+
+tile{
+  layer = 1,
+  x = 232,
+  y = 520,
+  width = 16,
+  height = 8,
+  pattern = "1334",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 8,
+  width = 1024,
+  height = 1024,
+  pattern = "12372",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 8,
+  width = 1024,
+  height = 1024,
+  pattern = "10440",
+  tileset = "out/outside_special",
+}
+
 teletransporter{
   name = "border_A1_skeleton_forest_south",
   layer = 2,
@@ -26904,7 +27104,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/A3_entrance_skeleton_forest",
+  destination_map = "A Link to the Past/Dark World/Overworld/A3_entrance_skeleton_forest",
   destination = "_side",
 }
 
@@ -26916,7 +27116,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/B3_fortune_teller",
+  destination_map = "A Link to the Past/Dark World/Overworld/B3_fortune_teller",
   destination = "_side",
 }
 
@@ -26928,7 +27128,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/C2_lumberjack_south",
+  destination_map = "A Link to the Past/Dark World/Overworld/C2_lumberjack_south",
   destination = "_side",
 }
 
@@ -26939,7 +27139,7 @@ teletransporter{
   y = 120,
   width = 8,
   height = 64,
-  destination_map = "A Link To The Past/Dark World/Overworld/C1_lumberjack",
+  destination_map = "A Link to the Past/Dark World/Overworld/C1_lumberjack",
   destination = "_side",
 }
 
@@ -26949,5 +27149,6 @@ destination{
   x = 480,
   y = 485,
   direction = 3,
+  default = true,
 }
 

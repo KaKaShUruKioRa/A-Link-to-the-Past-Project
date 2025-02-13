@@ -611,7 +611,7 @@ teletransporter{
   y = 256,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/overworld_light",
+  destination_map = "A Link to the Past/Light World/Overworld/overworld_light",
   sprite = "entities/teletransporter_vortex",
   sound = "warp",
 }

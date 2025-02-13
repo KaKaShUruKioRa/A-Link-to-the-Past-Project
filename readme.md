@@ -1,4 +1,4 @@
-![A Link To The Past logo](data/logos/logo.jpg)
+![A Link to the Past logo](data/logos/logo.jpg)
 
 # The Legend of Zelda : A Link to the Past
 

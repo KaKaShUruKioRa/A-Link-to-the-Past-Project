@@ -5286,24 +5286,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 472,
-  y = 168,
-  width = 16,
-  height = 24,
-  pattern = "14667_2",
-}
-
-tile{
-  layer = 0,
-  x = 472,
-  y = 176,
-  width = 8,
-  height = 8,
-  pattern = "1045",
-}
-
-tile{
-  layer = 0,
   x = 496,
   y = 176,
   width = 16,
@@ -5345,8 +5327,8 @@ teletransporter{
   y = 200,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/C2_lumberjack_south",
-  destination = "dest_secret",
+  destination_map = "A Link to the Past/Dark World/Caves/F1_lumberjack_south_cave",
+  destination = "dest_map_F1_lumberjack_south_cave_0",
 }
 
 jumper{
@@ -5675,6 +5657,77 @@ destructible{
   sprite = "destructibles/stone_big_dw_1",
   destruction_sound = "stone",
   weight = 1,
+}
+
+destination{
+  name = "dest_C2_lumberjack_south_cave_1",
+  layer = 0,
+  x = 432,
+  y = 221,
+  direction = 3,
+}
+
+enemy{
+  name = "enemy_moblin_C2_lumberjack_south_2",
+  layer = 0,
+  x = 360,
+  y = 325,
+  direction = 3,
+  breed = "dark_world/moblin",
+}
+
+enemy{
+  name = "enemy_moblin_C2_lumberjack_south_0",
+  layer = 0,
+  x = 184,
+  y = 245,
+  direction = 3,
+  breed = "dark_world/moblin",
+}
+
+enemy{
+  name = "enemy_moblin_C2_lumberjack_south_1",
+  layer = 0,
+  x = 136,
+  y = 269,
+  direction = 3,
+  breed = "dark_world/moblin",
+}
+
+enemy{
+  name = "enemy_ropa_C2_lumberjack_south_0",
+  layer = 0,
+  x = 232,
+  y = 397,
+  direction = 3,
+  breed = "dark_world/ropa",
+}
+
+enemy{
+  name = "enemy_stal_C2_lumberjack_south_0",
+  layer = 0,
+  x = 328,
+  y = 429,
+  direction = 3,
+  breed = "dark_world/stal",
+}
+
+tile{
+  layer = 1,
+  x = 472,
+  y = 168,
+  width = 16,
+  height = 24,
+  pattern = "14667_2",
+}
+
+tile{
+  layer = 1,
+  x = 472,
+  y = 176,
+  width = 8,
+  height = 8,
+  pattern = "1045",
 }
 
 tile{
@@ -7169,8 +7222,8 @@ teletransporter{
   y = 104,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/C2_lumberjack_south",
-  destination = "dest_secret",
+  destination_map = "A Link to the Past/Dark World/Caves/F2_lumberjack_south_cave",
+  destination = "dest_map_F2_lumberjack_south_cave_0",
 }
 
 jumper{
@@ -7184,6 +7237,41 @@ jumper{
   jump_length = 90,
 }
 
+destination{
+  name = "dest_C2_lumberjack_south_cave_0",
+  layer = 1,
+  x = 448,
+  y = 125,
+  direction = 3,
+}
+
+pickable{
+  name = "piece_of_heart_C2_lumberjack_south_0",
+  layer = 1,
+  x = 392,
+  y = 141,
+  treasure_name = "consumables/piece_of_heart",
+  treasure_savegame_variable = "piece_of_heart_C2_lumberjack_south_0",
+}
+
+enemy{
+  name = "enemy_dacto_C2_lumberjack_south_0",
+  layer = 1,
+  x = 312,
+  y = 317,
+  direction = 0,
+  breed = "dungeons/chasupa",
+}
+
+enemy{
+  name = "enemy_dacto_C2_lumberjack_south_1",
+  layer = 1,
+  x = 312,
+  y = 333,
+  direction = 0,
+  breed = "dungeons/chasupa",
+}
+
 teletransporter{
   name = "border_C2_lumberjack_south_west",
   layer = 2,
@@ -7192,7 +7280,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/A1_skeleton_forest",
+  destination_map = "A Link to the Past/Dark World/Overworld/A1_skeleton_forest",
   destination = "_side",
 }
 
@@ -7204,7 +7292,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/C3_sanctuary_lake",
+  destination_map = "A Link to the Past/Dark World/Overworld/C3_sanctuary_lake",
   destination = "_side",
 }
 
@@ -7216,7 +7304,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/D1_death_mountain_west",
+  destination_map = "A Link to the Past/Dark World/Overworld/D1_death_mountain_west",
   destination = "_side",
 }
 
@@ -7228,7 +7316,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/C1_lumberjack",
+  destination_map = "A Link to the Past/Dark World/Overworld/C1_lumberjack",
   destination = "_side",
 }
 
@@ -7238,5 +7326,6 @@ destination{
   x = 264,
   y = 224,
   direction = 3,
+  default = true,
 }
 

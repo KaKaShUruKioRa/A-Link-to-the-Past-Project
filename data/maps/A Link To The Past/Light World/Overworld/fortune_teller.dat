@@ -2267,16 +2267,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 208,
-  y = 216,
-  width = 96,
-  height = 72,
-  pattern = "7494",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 0,
   x = 296,
   y = 280,
   width = 8,
@@ -3620,7 +3610,7 @@ teletransporter{
   y = 8,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/lost_wood",
+  destination_map = "A Link to the Past/Light World/Overworld/lost_wood",
   destination = "dest_map_lost_wood_3",
 }
 
@@ -3842,7 +3832,7 @@ teletransporter{
   y = 280,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Houses/fortune_teller_north",
+  destination_map = "A Link to the Past/Light World/Houses/fortune_teller_north",
   destination = "dest_map_fortune_teller_north_0",
 }
 
@@ -3852,6 +3842,16 @@ destination{
   x = 256,
   y = 309,
   direction = 3,
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 216,
+  width = 96,
+  height = 64,
+  pattern = "7494",
+  tileset = "out/outside_lightworld_buildings",
 }
 
 tile{
@@ -3876,10 +3876,10 @@ tile{
 
 tile{
   layer = 1,
-  x = 224,
+  x = 216,
   y = 208,
-  width = 64,
-  height = 8,
+  width = 80,
+  height = 80,
   pattern = "7494",
   tileset = "out/outside_lightworld_buildings",
 }
@@ -4816,7 +4816,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/entrance_lost_wood",
+  destination_map = "A Link to the Past/Light World/Overworld/entrance_lost_wood",
   destination = "_side",
 }
 
@@ -4828,7 +4828,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/kakariko_village",
+  destination_map = "A Link to the Past/Light World/Overworld/kakariko_village",
   destination = "_side",
 }
 
@@ -4840,7 +4840,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/sanctuary_lake",
+  destination_map = "A Link to the Past/Light World/Overworld/sanctuary_lake",
   destination = "_side",
 }
 
@@ -4852,7 +4852,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/lost_wood",
+  destination_map = "A Link to the Past/Light World/Overworld/lost_wood",
   destination = "_side",
 }
 

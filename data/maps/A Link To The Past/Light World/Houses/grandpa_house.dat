@@ -520,7 +520,7 @@ teletransporter{
   y = 64,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/Death Mountain West/grandpa_cave",
+  destination_map = "A Link to the Past/Light World/Caves/Death Mountain West/grandpa_cave",
   destination = "dest_map_grandpa_0",
 }
 
@@ -569,7 +569,7 @@ teletransporter{
   y = 200,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/death_mountain_west",
+  destination_map = "A Link to the Past/Light World/Overworld/death_mountain_west",
   destination = "dest_house_cemetery_0",
 }
 

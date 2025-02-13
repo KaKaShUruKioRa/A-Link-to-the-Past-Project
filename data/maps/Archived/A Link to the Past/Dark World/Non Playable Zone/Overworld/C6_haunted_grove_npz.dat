@@ -3832,7 +3832,7 @@ tile{
   y = 224,
   width = 32,
   height = 32,
-  pattern = "1085",
+  pattern = "1084",
 }
 
 tile{

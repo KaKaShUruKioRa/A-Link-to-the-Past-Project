@@ -5939,7 +5939,7 @@ teletransporter{
   y = 168,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Dungeons/Secret Passage/B1/B1_secret_passage",
+  destination_map = "A Link to the Past/Light World/Dungeons/Secret Passage/B1/B1_secret_passage",
   destination = "dest_map_B1_secret_passage_0",
 }
 
@@ -5950,7 +5950,7 @@ teletransporter{
   y = 184,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/cemetery_tomb",
+  destination_map = "A Link to the Past/Light World/Caves/cemetery_tomb",
   destination = "dest_map_cemetery_tomb_0",
 }
 
@@ -6761,7 +6761,7 @@ teletransporter{
   y = 88,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/cemetry_cave",
+  destination_map = "A Link to the Past/Light World/Caves/cemetry_cave",
   destination = "dest_map_cemetery_cave_0",
 }
 
@@ -6790,7 +6790,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/sanctuary",
+  destination_map = "A Link to the Past/Light World/Overworld/sanctuary",
   destination = "_side",
 }
 
@@ -6802,7 +6802,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/hyrule_castle",
+  destination_map = "A Link to the Past/Light World/Overworld/hyrule_castle",
   destination = "_side",
 }
 
@@ -6814,7 +6814,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/wooden_bridge_north",
+  destination_map = "A Link to the Past/Light World/Overworld/wooden_bridge_north",
   destination = "_side",
 }
 
@@ -6826,7 +6826,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/death_mountain_west",
+  destination_map = "A Link to the Past/Light World/Overworld/death_mountain_west",
   destination = "_side",
 }
 

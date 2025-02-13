@@ -21,6 +21,66 @@ tile{
 
 tile{
   layer = 0,
+  x = 848,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "8298",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "55",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 96,
+  width = 240,
+  height = 96,
+  pattern = "7820",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 64,
+  width = 16,
+  height = 8,
+  pattern = "14727",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 72,
+  width = 8,
+  height = 24,
+  pattern = "8299",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 856,
+  y = 72,
+  width = 8,
+  height = 24,
+  pattern = "8300",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
   x = 960,
   y = 64,
   width = 16,
@@ -217,16 +277,6 @@ tile{
   width = 32,
   height = 8,
   pattern = "1341_2",
-}
-
-tile{
-  layer = 0,
-  x = 848,
-  y = 80,
-  width = 16,
-  height = 16,
-  pattern = "7838",
-  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -713,16 +763,6 @@ tile{
   width = 8,
   height = 88,
   pattern = "13735",
-}
-
-tile{
-  layer = 0,
-  x = 736,
-  y = 96,
-  width = 240,
-  height = 96,
-  pattern = "7820",
-  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -2540,15 +2580,6 @@ tile{
   y = 816,
   width = 16,
   height = 16,
-  pattern = "454",
-}
-
-tile{
-  layer = 0,
-  x = 848,
-  y = 96,
-  width = 8,
-  height = 80,
   pattern = "454",
 }
 
@@ -11523,16 +11554,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 848,
-  y = 64,
-  width = 16,
-  height = 16,
-  pattern = "55",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
   x = 864,
   y = 64,
   width = 16,
@@ -11553,16 +11574,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 848,
-  y = 80,
-  width = 16,
-  height = 16,
-  pattern = "8298",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
   x = 640,
   y = 936,
   width = 48,
@@ -11570,22 +11581,50 @@ tile{
   pattern = "2203",
 }
 
+tile{
+  layer = 0,
+  x = 400,
+  y = 512,
+  width = 16,
+  height = 8,
+  pattern = "438",
+  tileset = "out/outside_special",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 80,
+  width = 8,
+  height = 96,
+  pattern = "454",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "454",
+}
+
 teletransporter{
   name = "tp_dungeon_G4_dark_ruins_0",
   layer = 0,
   x = 848,
-  y = 72,
+  y = 56,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Dungeons/Dark palace/F1/F1_dark_palace",
-  destination = "dest_secret",
+  destination_map = "A Link to the Past/Dark World/Dungeons/Dark Palace/F1/F1_dark_palace",
+  destination = "dest_map_F1_dark_palace_0",
 }
 
 destination{
   name = "dest_dungeon_G4_dark_ruins_0",
   layer = 0,
   x = 856,
-  y = 93,
+  y = 77,
   direction = 3,
 }
 
@@ -11593,10 +11632,10 @@ teletransporter{
   name = "tp_house_G4_dark_ruins_0",
   layer = 0,
   x = 400,
-  y = 512,
+  y = 504,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Houses/dark_hideout",
+  destination_map = "A Link to the Past/Dark World/Houses/dark_hideout",
   destination = "dest_map_dark_hideout_0",
 }
 
@@ -11604,7 +11643,7 @@ destination{
   name = "dest_house_G4_dark_ruins_0",
   layer = 0,
   x = 408,
-  y = 533,
+  y = 525,
   direction = 3,
 }
 
@@ -12555,6 +12594,178 @@ wall{
   stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
+}
+
+enemy{
+  name = "enemy_ropa_G4_dark_ruins_7",
+  layer = 0,
+  x = 608,
+  y = 797,
+  direction = 3,
+  breed = "dark_world/ropa",
+}
+
+enemy{
+  name = "enemy_hinox_G4_dark_ruins_1",
+  layer = 0,
+  x = 856,
+  y = 877,
+  direction = 3,
+  breed = "dark_world/hinox",
+}
+
+enemy{
+  name = "enemy_ropa_G4_dark_ruins_4",
+  layer = 0,
+  x = 856,
+  y = 397,
+  direction = 3,
+  breed = "dark_world/ropa",
+}
+
+enemy{
+  name = "enemy_ropa_G4_dark_ruins_2",
+  layer = 0,
+  x = 792,
+  y = 269,
+  direction = 3,
+  breed = "dark_world/ropa",
+}
+
+enemy{
+  name = "enemy_ropa_G4_dark_ruins_8",
+  layer = 0,
+  x = 120,
+  y = 861,
+  direction = 3,
+  breed = "dark_world/ropa",
+}
+
+enemy{
+  name = "enemy_snap_dragon_G4_dark_ruins_1",
+  layer = 0,
+  x = 152,
+  y = 909,
+  direction = 3,
+  breed = "dark_world/snap_dragon",
+}
+
+enemy{
+  name = "enemy_hinox_G4_dark_ruins_2",
+  layer = 0,
+  x = 360,
+  y = 893,
+  direction = 3,
+  breed = "dark_world/hinox",
+}
+
+enemy{
+  name = "enemy_moblin_G4_dark_ruins_2",
+  layer = 0,
+  x = 168,
+  y = 621,
+  direction = 3,
+  breed = "dark_world/moblin",
+}
+
+enemy{
+  name = "enemy_moblin_G4_dark_ruins_3",
+  layer = 0,
+  x = 200,
+  y = 701,
+  direction = 3,
+  breed = "dark_world/moblin",
+}
+
+enemy{
+  name = "enemy_ropa_G4_dark_ruins_0",
+  layer = 0,
+  x = 216,
+  y = 77,
+  direction = 3,
+  breed = "dark_world/ropa",
+}
+
+enemy{
+  name = "enemy_ropa_G4_dark_ruins_3",
+  layer = 0,
+  x = 56,
+  y = 285,
+  direction = 3,
+  breed = "dark_world/ropa",
+}
+
+enemy{
+  name = "enemy_ropa_G4_dark_ruins_1",
+  layer = 0,
+  x = 632,
+  y = 157,
+  direction = 3,
+  breed = "dark_world/ropa",
+}
+
+enemy{
+  name = "enemy_hinox_G4_dark_ruins_0",
+  layer = 0,
+  x = 672,
+  y = 397,
+  direction = 3,
+  breed = "dark_world/hinox",
+}
+
+enemy{
+  name = "enemy_moblin_G4_dark_ruins_0",
+  layer = 0,
+  x = 664,
+  y = 365,
+  direction = 3,
+  breed = "dark_world/moblin",
+}
+
+enemy{
+  name = "enemy_ropa_G4_dark_ruins_6",
+  layer = 0,
+  x = 680,
+  y = 493,
+  direction = 3,
+  breed = "dark_world/ropa",
+}
+
+enemy{
+  name = "enemy_moblin_G4_dark_ruins_1",
+  layer = 0,
+  x = 816,
+  y = 589,
+  direction = 0,
+  breed = "dark_world/moblin",
+}
+
+enemy{
+  name = "enemy_snap_dragon_G4_dark_ruins_0",
+  layer = 0,
+  x = 856,
+  y = 661,
+  direction = 3,
+  breed = "dark_world/snap_dragon",
+}
+
+enemy{
+  name = "enemy_ropa_G4_dark_ruins_5",
+  layer = 0,
+  x = 296,
+  y = 429,
+  direction = 3,
+  breed = "dark_world/ropa",
+}
+
+npc{
+  name = "npc_monkey",
+  layer = 0,
+  x = -8,
+  y = -3,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/monkey",
 }
 
 tile{
@@ -13792,16 +14003,6 @@ tile{
   height = 16,
   pattern = "8055",
   tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 1,
-  x = 400,
-  y = 512,
-  width = 16,
-  height = 8,
-  pattern = "438",
-  tileset = "out/outside_special",
 }
 
 tile{
@@ -19138,6 +19339,15 @@ tile{
   height = 8,
   pattern = "58_16",
   tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+enemy{
+  name = "enemy_dacto_G4_dark_ruins_0",
+  layer = 1,
+  x = 664,
+  y = 893,
+  direction = 0,
+  breed = "dungeons/chasupa",
 }
 
 teletransporter{

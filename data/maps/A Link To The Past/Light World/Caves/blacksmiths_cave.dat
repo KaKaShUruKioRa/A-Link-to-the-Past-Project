@@ -1339,7 +1339,8 @@ teletransporter{
   y = 464,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/lumberjack_cave",
+  destination_map = "A Link to the Past/Light World/Overworld/blacksmiths_house",
+  destination = "dest_cave_blacksmiths_house_0",
 }
 
 wall{
@@ -1366,6 +1367,15 @@ wall{
   stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
+}
+
+tile{
+  layer = 1,
+  x = 232,
+  y = 200,
+  width = 48,
+  height = 80,
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -1407,9 +1417,9 @@ tile{
 tile{
   layer = 1,
   x = 272,
-  y = 216,
+  y = 200,
   width = 24,
-  height = 80,
+  height = 96,
   pattern = "wall.3-3",
 }
 

@@ -7374,7 +7374,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/magic_shop",
+  destination_map = "A Link to the Past/Light World/Overworld/magic_shop",
   destination = "_side",
 }
 
@@ -7386,7 +7386,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/eastern_ruins",
+  destination_map = "A Link to the Past/Light World/Overworld/eastern_ruins",
   destination = "_side",
 }
 
@@ -7398,7 +7398,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/waterfall_of_wishing",
+  destination_map = "A Link to the Past/Light World/Overworld/waterfall_of_wishing",
   destination = "_side",
 }
 

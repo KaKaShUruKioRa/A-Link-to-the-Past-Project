@@ -1461,7 +1461,7 @@ tile{
   y = 352,
   width = 32,
   height = 32,
-  pattern = "1085",
+  pattern = "1084",
 }
 
 tile{
@@ -1470,7 +1470,7 @@ tile{
   y = 160,
   width = 32,
   height = 32,
-  pattern = "1085",
+  pattern = "1084",
 }
 
 tile{
@@ -2428,16 +2428,6 @@ tile{
   tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
-tile{
-  layer = 0,
-  x = 328,
-  y = 336,
-  width = 16,
-  height = 16,
-  pattern = "6020",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
 wall{
   layer = 0,
   x = 120,
@@ -2579,18 +2569,6 @@ wall{
   stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
-}
-
-teletransporter{
-  name = "tp_house_C4_hyrule_forest_0",
-  layer = 0,
-  x = 336,
-  y = 384,
-  width = 16,
-  height = 16,
-  destination_map = "A Link To The Past/Dark World/Houses/shield_shop",
-  destination = "dest_map_shield_shop_0",
-  sprite = "entities/star",
 }
 
 destination{
@@ -3039,6 +3017,108 @@ destructible{
   sprite = "destructibles/bush_purple",
   destruction_sound = "bush",
   can_be_cut = true,
+}
+
+teletransporter{
+  name = "tp_house_C4_hyrule_forest_1",
+  layer = 0,
+  x = 328,
+  y = 336,
+  width = 16,
+  height = 16,
+  destination_map = "A Link to the Past/Dark World/Houses/shield_shop",
+  destination = "dest_map_shield_shop_0",
+}
+
+jumper{
+  name = "jump_C4_hyrule_forest_0",
+  layer = 0,
+  x = 272,
+  y = 256,
+  width = 16,
+  height = 8,
+  direction = 6,
+  jump_length = 36,
+}
+
+jumper{
+  name = "jump_C4_hyrule_forest_1",
+  layer = 0,
+  x = 272,
+  y = 304,
+  width = 16,
+  height = 8,
+  direction = 6,
+  jump_length = 36,
+}
+
+jumper{
+  name = "jump_C4_hyrule_forest_2",
+  layer = 0,
+  x = 272,
+  y = 416,
+  width = 16,
+  height = 8,
+  direction = 6,
+  jump_length = 36,
+}
+
+wall{
+  layer = 0,
+  x = 288,
+  y = 256,
+  width = 96,
+  height = 72,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+enemy{
+  name = "enemy_moblin_C4_hyrule_forest_0",
+  layer = 0,
+  x = 248,
+  y = 141,
+  direction = 3,
+  breed = "dark_world/moblin",
+}
+
+enemy{
+  name = "enemy_moblin_C4_hyrule_forest_1",
+  layer = 0,
+  x = 344,
+  y = 205,
+  direction = 3,
+  breed = "dark_world/moblin",
+}
+
+enemy{
+  name = "enemy_stal_C4_hyrule_forest_0",
+  layer = 0,
+  x = 296,
+  y = 221,
+  direction = 3,
+  breed = "dark_world/stal",
+}
+
+enemy{
+  name = "enemy_moblin_C4_hyrule_forest_2",
+  layer = 0,
+  x = 232,
+  y = 413,
+  direction = 3,
+  breed = "dark_world/moblin",
+}
+
+enemy{
+  name = "enemy_hinox_C4_hyrule_forest_0",
+  layer = 0,
+  x = 184,
+  y = 253,
+  direction = 3,
+  breed = "dark_world/hinox",
 }
 
 tile{
@@ -3960,7 +4040,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/A4_village_of_outcasts",
+  destination_map = "A Link to the Past/Dark World/Overworld/A4_village_of_outcasts",
   destination = "_side",
 }
 
@@ -3972,7 +4052,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/C5_blacksmiths_house",
+  destination_map = "A Link to the Past/Dark World/Overworld/C5_blacksmiths_house",
   destination = "_side",
 }
 
@@ -3984,7 +4064,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/D4_pyramid",
+  destination_map = "A Link to the Past/Dark World/Overworld/D4_pyramid",
   destination = "_side",
 }
 
@@ -3996,7 +4076,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/C3_sanctuary_lake",
+  destination_map = "A Link to the Past/Dark World/Overworld/C3_sanctuary_lake",
   destination = "_side",
 }
 

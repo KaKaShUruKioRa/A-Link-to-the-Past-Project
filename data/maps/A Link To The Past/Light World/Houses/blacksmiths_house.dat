@@ -522,7 +522,7 @@ teletransporter{
   y = 200,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/blacksmiths_house",
+  destination_map = "A Link to the Past/Light World/Overworld/blacksmiths_house",
   destination = "dest_house_blacksmiths_house_0",
 }
 
@@ -595,7 +595,7 @@ tile{
   layer = 2,
   x = 0,
   y = 208,
-  width = 248,
+  width = 256,
   height = 16,
   pattern = "ceiling.2",
 }

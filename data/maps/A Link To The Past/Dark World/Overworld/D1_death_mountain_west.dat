@@ -7,7 +7,7 @@ properties{
   max_layer = 2,
   world = "Dark World",
   tileset = "out/outside_darkworld_main",
-  music = "rabbit",
+  music = "dark_mountain",
 }
 
 tile{
@@ -7401,15 +7401,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 112,
-  y = 752,
-  width = 32,
-  height = 8,
-  pattern = "1711",
-}
-
-tile{
-  layer = 0,
   x = 120,
   y = 760,
   width = 16,
@@ -8648,15 +8639,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "1717",
-}
-
-tile{
-  layer = 0,
-  x = 800,
-  y = 576,
-  width = 32,
-  height = 8,
-  pattern = "1711",
 }
 
 tile{
@@ -21201,16 +21183,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 704,
-  y = 112,
-  width = 128,
-  height = 16,
-  pattern = "8198",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
   x = 680,
   y = 96,
   width = 8,
@@ -21454,7 +21426,7 @@ tile{
   x = 776,
   y = 80,
   width = 8,
-  height = 24,
+  height = 104,
   pattern = "10818",
   tileset = "out/outside_darkworld_buildings_ERROR",
 }
@@ -21464,7 +21436,7 @@ tile{
   x = 752,
   y = 80,
   width = 8,
-  height = 24,
+  height = 104,
   pattern = "10817",
   tileset = "out/outside_darkworld_buildings_ERROR",
 }
@@ -21484,7 +21456,7 @@ tile{
   x = 760,
   y = 88,
   width = 16,
-  height = 16,
+  height = 104,
   pattern = "9477",
   tileset = "out/outside_darkworld_buildings_ERROR",
 }
@@ -21526,16 +21498,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "9480",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
-  x = 752,
-  y = 104,
-  width = 32,
-  height = 8,
-  pattern = "8202_2",
   tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
@@ -23507,6 +23469,26 @@ tile{
   pattern = "3979",
 }
 
+tile{
+  layer = 0,
+  x = 752,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "10820",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 776,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "10819",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
 jumper{
   name = "jump_D1_death_mountain_west_11",
   layer = 0,
@@ -23574,7 +23556,7 @@ jumper{
 }
 
 jumper{
-  name = "jump_D1_death_mountain_west_24",
+  name = "jump_D1_death_mountain_west_0",
   layer = 0,
   x = 688,
   y = 232,
@@ -23642,8 +23624,8 @@ jumper{
 jumper{
   name = "jump_D1_death_mountain_west_2",
   layer = 0,
-  x = 224,
-  y = 728,
+  x = 216,
+  y = 720,
   width = 32,
   height = 32,
   direction = 5,
@@ -23673,14 +23655,14 @@ jumper{
 }
 
 jumper{
-  name = "jump_D1_death_mountain_west_41",
+  name = "jump_D1_death_mountain_west_19",
   layer = 0,
   x = 648,
   y = 272,
   width = 8,
   height = 32,
   direction = 0,
-  jump_length = 54,
+  jump_length = 56,
 }
 
 teletransporter{
@@ -23690,8 +23672,8 @@ teletransporter{
   y = 584,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/D1_death_mountain_west",
-  destination = "dest_secret",
+  destination_map = "A Link to the Past/Dark World/Caves/deathmountain_west_cave",
+  destination = "dest_map_F2_deathmountain_west_0",
 }
 
 teletransporter{
@@ -23701,23 +23683,23 @@ teletransporter{
   y = 760,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/D1_death_mountain_west",
-  destination = "dest_secret",
+  destination_map = "A Link to the Past/Dark World/Caves/Fairy/deathmountain_west_fairy_cave",
+  destination = "dest_map_out_deathmountain_cave_0",
 }
 
 jumper{
-  name = "jump_D1_death_mountain_west_48",
+  name = "jump_D1_death_mountain_west_8",
   layer = 0,
   x = 792,
   y = 504,
   width = 16,
   height = 8,
   direction = 6,
-  jump_length = 216,
+  jump_length = 120,
 }
 
 jumper{
-  name = "jump_D1_death_mountain_west_10",
+  name = "jump_D1_death_mountain_west_7",
   layer = 0,
   x = 792,
   y = 632,
@@ -23761,18 +23743,18 @@ jumper{
 }
 
 jumper{
-  name = "jump_D1_death_mountain_west_29",
+  name = "jump_D1_death_mountain_west_20",
   layer = 0,
   x = 624,
   y = 304,
-  width = 32,
-  height = 32,
+  width = 24,
+  height = 24,
   direction = 7,
   jump_length = 36,
 }
 
 jumper{
-  name = "jump_D1_death_mountain_west_44",
+  name = "jump_D1_death_mountain_west_10",
   layer = 0,
   x = 648,
   y = 248,
@@ -23805,7 +23787,7 @@ jumper{
 }
 
 jumper{
-  name = "jump_D1_death_mountain_west_52",
+  name = "jump_D1_death_mountain_west_9",
   layer = 0,
   x = 672,
   y = 232,
@@ -23822,8 +23804,8 @@ teletransporter{
   y = 64,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/D1_death_mountain_west",
-  destination = "dest_secret",
+  destination_map = "A Link to the Past/Dark World/Dungeons/Ganon Tower/F2/F2_ganon_tower",
+  destination = "dest_map_F2_ganon_tower_0",
 }
 
 jumper{
@@ -23906,12 +23888,12 @@ jumper{
 jumper{
   name = "jump_D1_death_mountain_west_34",
   layer = 0,
-  x = 200,
-  y = 704,
-  width = 24,
-  height = 24,
+  x = 184,
+  y = 688,
+  width = 16,
+  height = 16,
   direction = 5,
-  jump_length = 96,
+  jump_length = 112,
 }
 
 jumper{
@@ -24125,125 +24107,209 @@ destructible{
   weight = 1,
 }
 
+destination{
+  name = "dest_dungeon_D1_death_mountain_west_0",
+  layer = 0,
+  x = 768,
+  y = 85,
+  direction = 3,
+}
+
+destination{
+  name = "dest_cave_D1_death_mountain_west_0",
+  layer = 0,
+  x = 816,
+  y = 605,
+  direction = 3,
+}
+
+destination{
+  name = "dest_cave_D1_death_mountain_west_1",
+  layer = 0,
+  x = 128,
+  y = 781,
+  direction = 3,
+}
+
 jumper{
-  name = "jump_D1_death_mountain_west_21",
-  layer = 1,
+  name = "jump_D1_death_mountain_west_214",
+  layer = 0,
   x = 264,
   y = 312,
-  width = 16,
+  width = 24,
   height = 8,
   direction = 6,
-  jump_length = 88,
+  jump_length = 56,
 }
 
 jumper{
   name = "jump_D1_death_mountain_west_5",
-  layer = 1,
+  layer = 0,
   x = 480,
-  y = 288,
+  y = 280,
   width = 16,
   height = 16,
-  direction = 3,
-  jump_length = 32,
+  direction = 7,
+  jump_length = 56,
 }
 
 jumper{
   name = "jump_D1_death_mountain_west_6",
-  layer = 1,
-  x = 424,
+  layer = 0,
+  x = 432,
   y = 280,
-  width = 24,
-  height = 24,
-  direction = 1,
-  jump_length = 32,
+  width = 16,
+  height = 16,
+  direction = 5,
+  jump_length = 56,
 }
 
 jumper{
-  name = "jump_D1_death_mountain_west_43",
-  layer = 1,
-  x = 376,
+  name = "jump_D1_death_mountain_west_25",
+  layer = 0,
+  x = 368,
   y = 280,
-  width = 48,
+  width = 64,
   height = 8,
-  direction = 2,
-  jump_length = 32,
+  direction = 6,
+  jump_length = 56,
 }
 
 jumper{
-  name = "jump_D1_death_mountain_west_26",
-  layer = 1,
+  name = "jump_D1_death_mountain_west_24",
+  layer = 0,
   x = 448,
   y = 296,
   width = 32,
   height = 8,
-  direction = 2,
-  jump_length = 32,
+  direction = 6,
+  jump_length = 56,
 }
 
 jumper{
-  name = "jump_D1_death_mountain_west_27",
-  layer = 1,
+  name = "jump_D1_death_mountain_west_23",
+  layer = 0,
   x = 496,
   y = 280,
-  width = 56,
+  width = 64,
   height = 8,
-  direction = 2,
-  jump_length = 32,
+  direction = 6,
+  jump_length = 56,
 }
 
 jumper{
-  name = "jump_D1_death_mountain_west_28",
-  layer = 1,
-  x = 320,
+  name = "jump_D1_death_mountain_west_26",
+  layer = 0,
+  x = 352,
   y = 280,
-  width = 56,
-  height = 56,
+  width = 16,
+  height = 16,
   direction = 7,
   jump_length = 56,
 }
 
 jumper{
   name = "jump_D1_death_mountain_west_18",
-  layer = 1,
-  x = 552,
-  y = 280,
-  width = 56,
-  height = 56,
+  layer = 0,
+  x = 576,
+  y = 296,
+  width = 32,
+  height = 32,
+  direction = 5,
+  jump_length = 42,
+}
+
+jumper{
+  name = "jump_D1_death_mountain_west_16",
+  layer = 0,
+  x = 288,
+  y = 312,
+  width = 16,
+  height = 16,
   direction = 5,
   jump_length = 56,
 }
 
 jumper{
-  name = "jump_D1_death_mountain_west_16",
-  layer = 1,
-  x = 280,
-  y = 312,
-  width = 24,
-  height = 24,
-  direction = 5,
-  jump_length = 48,
-}
-
-jumper{
-  name = "jump_D1_death_mountain_west_53",
-  layer = 1,
+  name = "jump_D1_death_mountain_west_22",
+  layer = 0,
   x = 608,
   y = 328,
   width = 16,
   height = 8,
   direction = 6,
-  jump_length = 76,
+  jump_length = 56,
 }
 
 jumper{
-  name = "jump_D1_death_mountain_west_54",
-  layer = 1,
+  name = "jump_D1_death_mountain_west_27",
+  layer = 0,
   x = 304,
   y = 328,
   width = 16,
   height = 8,
   direction = 6,
-  jump_length = 76,
+  jump_length = 56,
+}
+
+jumper{
+  name = "jump_D1_death_mountain_west_28",
+  layer = 0,
+  x = 560,
+  y = 280,
+  width = 16,
+  height = 16,
+  direction = 5,
+  jump_length = 56,
+}
+
+jumper{
+  name = "jump_D1_death_mountain_west_29",
+  layer = 0,
+  x = 320,
+  y = 296,
+  width = 32,
+  height = 32,
+  direction = 7,
+  jump_length = 42,
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = 752,
+  width = 32,
+  height = 8,
+  pattern = "1711",
+}
+
+tile{
+  layer = 1,
+  x = 800,
+  y = 576,
+  width = 32,
+  height = 8,
+  pattern = "1711",
+}
+
+tile{
+  layer = 1,
+  x = 704,
+  y = 112,
+  width = 128,
+  height = 16,
+  pattern = "8198",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 1,
+  x = 752,
+  y = 104,
+  width = 32,
+  height = 8,
+  pattern = "8202_2",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -24704,7 +24770,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/C1_lumberjack",
+  destination_map = "A Link to the Past/Dark World/Overworld/C1_lumberjack",
   destination = "_side",
 }
 
@@ -24716,7 +24782,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/D3_sanctuary",
+  destination_map = "A Link to the Past/Dark World/Overworld/D3_sanctuary",
   destination = "_side",
 }
 
@@ -24728,7 +24794,7 @@ teletransporter{
   width = 8,
   height = 1024,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/F1_death_mountain_east",
+  destination_map = "A Link to the Past/Dark World/Overworld/F1_death_mountain_east",
   destination = "_side",
 }
 
@@ -24740,7 +24806,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/C2_lumberjack_south",
+  destination_map = "A Link to the Past/Dark World/Overworld/C2_lumberjack_south",
   destination = "_side",
 }
 
@@ -24752,7 +24818,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/E3_cemetery",
+  destination_map = "A Link to the Past/Dark World/Overworld/E3_cemetery",
   destination = "_side",
 }
 

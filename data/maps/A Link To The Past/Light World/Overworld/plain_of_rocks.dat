@@ -5603,7 +5603,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/hyrule_castle",
+  destination_map = "A Link to the Past/Light World/Overworld/hyrule_castle",
   destination = "_side",
 }
 
@@ -5615,7 +5615,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/stone_bridge",
+  destination_map = "A Link to the Past/Light World/Overworld/stone_bridge",
   destination = "_side",
 }
 
@@ -5627,7 +5627,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/eastern_ruins",
+  destination_map = "A Link to the Past/Light World/Overworld/eastern_ruins",
   destination = "_side",
 }
 
@@ -5639,7 +5639,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/wooden_bridge",
+  destination_map = "A Link to the Past/Light World/Overworld/wooden_bridge",
   destination = "_side",
 }
 

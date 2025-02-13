@@ -1478,7 +1478,7 @@ tile{
 }
 
 destination{
-  name = "dest_map_A3_entrance_skeleton_forest_1",
+  name = "dest_map_A3_entrance_skeleton_forest_0",
   layer = 0,
   x = 96,
   y = 37,
@@ -1837,29 +1837,29 @@ wall{
 }
 
 teletransporter{
-  name = "tp_map_A3_entrance_skeleton_forest_2",
+  name = "tp_map_A3_entrance_skeleton_forest_0",
   layer = 0,
   x = 88,
   y = 8,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/A1_skeleton_forest",
-  destination = "dest_map_skeleton_forest_1",
+  destination_map = "A Link to the Past/Dark World/Overworld/A1_skeleton_forest",
+  destination = "dest_map_A1_skeleton_forest_0",
 }
 
 teletransporter{
-  name = "tp_map_A3_entrance_skeleton_forest_3",
+  name = "tp_map_A3_entrance_skeleton_forest_1",
   layer = 0,
   x = 376,
   y = 8,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/A1_skeleton_forest",
-  destination = "dest_map_skeleton_forest_2",
+  destination_map = "A Link to the Past/Dark World/Overworld/A1_skeleton_forest",
+  destination = "dest_map_A1_skeleton_forest_1",
 }
 
 destination{
-  name = "dest_map_A3_entrance_skeleton_forest_2",
+  name = "dest_map_A3_entrance_skeleton_forest_1",
   layer = 0,
   x = 384,
   y = 37,
@@ -1867,17 +1867,7 @@ destination{
 }
 
 destructible{
-  name = "bush_A3_entrance_skeleton_forest_519",
-  layer = 0,
-  x = 120,
-  y = 285,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_A3_entrance_skeleton_forest_520",
+  name = "bush_A3_entrance_skeleton_forest_1",
   layer = 0,
   x = 152,
   y = 253,
@@ -1887,7 +1877,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_A3_entrance_skeleton_forest_521",
+  name = "bush_A3_entrance_skeleton_forest_0",
   layer = 0,
   x = 104,
   y = 141,
@@ -1907,107 +1897,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_A3_entrance_skeleton_forest_515",
-  layer = 0,
-  x = 344,
-  y = 333,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_A3_entrance_skeleton_forest_723",
-  layer = 0,
-  x = 360,
-  y = 333,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_A3_entrance_skeleton_forest_724",
-  layer = 0,
-  x = 376,
-  y = 317,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_A3_entrance_skeleton_forest_725",
-  layer = 0,
-  x = 392,
-  y = 317,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_A3_entrance_skeleton_forest_726",
-  layer = 0,
-  x = 408,
-  y = 333,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_A3_entrance_skeleton_forest_728",
-  layer = 0,
-  x = 424,
-  y = 333,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_A3_entrance_skeleton_forest_740",
-  layer = 0,
-  x = 312,
-  y = 349,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_A3_entrance_skeleton_forest_742",
-  layer = 0,
-  x = 360,
-  y = 381,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_A3_entrance_skeleton_forest_516",
-  layer = 0,
-  x = 312,
-  y = 237,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_A3_entrance_skeleton_forest_761",
-  layer = 0,
-  x = 328,
-  y = 253,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_A3_entrance_skeleton_forest_691",
+  name = "bush_A3_entrance_skeleton_forest_2",
   layer = 0,
   x = 168,
   y = 253,
@@ -2017,7 +1907,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_A3_entrance_skeleton_forest_692",
+  name = "bush_A3_entrance_skeleton_forest_3",
   layer = 0,
   x = 184,
   y = 253,
@@ -2026,8 +1916,35 @@ destructible{
   can_be_cut = true,
 }
 
+enemy{
+  name = "enemy_moblin_A3_entrance_skeleton_forest_0",
+  layer = 0,
+  x = 88,
+  y = 205,
+  direction = 3,
+  breed = "dark_world/moblin",
+}
+
+enemy{
+  name = "enemy_moblin_A3_entrance_skeleton_forest_1",
+  layer = 0,
+  x = 136,
+  y = 397,
+  direction = 3,
+  breed = "dark_world/moblin",
+}
+
+enemy{
+  name = "enemy_bone_cucco__A3_entrance_skeleton_forest_0",
+  layer = 0,
+  x = 408,
+  y = 317,
+  direction = 0,
+  breed = "light_world/chicken",
+}
+
 destructible{
-  name = "bush_A3_entrance_skeleton_forest_693",
+  name = "bush_A3_entrance_skeleton_forest_4",
   layer = 0,
   x = 200,
   y = 253,
@@ -2037,7 +1954,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_A3_entrance_skeleton_forest_694",
+  name = "bush_A3_entrance_skeleton_forest_5",
   layer = 0,
   x = 216,
   y = 253,
@@ -2047,7 +1964,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_A3_entrance_skeleton_forest_695",
+  name = "bush_A3_entrance_skeleton_forest_6",
   layer = 0,
   x = 232,
   y = 253,
@@ -2057,7 +1974,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_A3_entrance_skeleton_forest_696",
+  name = "bush_A3_entrance_skeleton_forest_7",
   layer = 0,
   x = 248,
   y = 253,
@@ -2067,7 +1984,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_A3_entrance_skeleton_forest_697",
+  name = "bush_A3_entrance_skeleton_forest_8",
   layer = 0,
   x = 264,
   y = 253,
@@ -2077,7 +1994,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_A3_entrance_skeleton_forest_698",
+  name = "bush_A3_entrance_skeleton_forest_9",
   layer = 0,
   x = 280,
   y = 253,
@@ -2087,7 +2004,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_A3_entrance_skeleton_forest_699",
+  name = "bush_A3_entrance_skeleton_forest_10",
   layer = 0,
   x = 296,
   y = 253,
@@ -2097,10 +2014,110 @@ destructible{
 }
 
 destructible{
-  name = "bush_A3_entrance_skeleton_forest_702",
+  name = "bush_A3_entrance_skeleton_forest_11",
   layer = 0,
   x = 312,
   y = 253,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_A3_entrance_skeleton_forest_12",
+  layer = 0,
+  x = 328,
+  y = 253,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_A3_entrance_skeleton_forest_13",
+  layer = 0,
+  x = 120,
+  y = 285,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_A3_entrance_skeleton_forest_14",
+  layer = 0,
+  x = 376,
+  y = 317,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_A3_entrance_skeleton_forest_15",
+  layer = 0,
+  x = 392,
+  y = 317,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_A3_entrance_skeleton_forest_16",
+  layer = 0,
+  x = 344,
+  y = 333,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_A3_entrance_skeleton_forest_17",
+  layer = 0,
+  x = 360,
+  y = 333,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_A3_entrance_skeleton_forest_18",
+  layer = 0,
+  x = 408,
+  y = 333,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_A3_entrance_skeleton_forest_19",
+  layer = 0,
+  x = 424,
+  y = 333,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_A3_entrance_skeleton_forest_20",
+  layer = 0,
+  x = 312,
+  y = 349,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_A3_entrance_skeleton_forest_21",
+  layer = 0,
+  x = 360,
+  y = 381,
   sprite = "destructibles/bush_purple",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -3501,6 +3518,15 @@ tile{
   pattern = "1452",
 }
 
+enemy{
+  name = "enemy_hyu_A3_entrance_skeleton_forest_0",
+  layer = 1,
+  x = 368,
+  y = 181,
+  direction = 0,
+  breed = "light_world/poe",
+}
+
 teletransporter{
   name = "border_A3_entrance_skeleton_forest_south",
   layer = 2,
@@ -3509,7 +3535,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/A4_village_of_outcasts",
+  destination_map = "A Link to the Past/Dark World/Overworld/A4_village_of_outcasts",
   destination = "_side",
 }
 
@@ -3521,7 +3547,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/B3_fortune_teller",
+  destination_map = "A Link to the Past/Dark World/Overworld/B3_fortune_teller",
   destination = "_side",
 }
 
@@ -3533,14 +3559,15 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "",
+  destination_map = "A Link to the Past/Dark World/Overworld/A1_skeleton_forest",
+  destination = "_side",
 }
 
 destination{
   name = "dest_secret",
   layer = 2,
-  x = 352,
-  y = 189,
+  x = 344,
+  y = 253,
   direction = 3,
 }
 

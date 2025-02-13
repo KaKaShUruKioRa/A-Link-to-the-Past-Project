@@ -4687,7 +4687,7 @@ tile{
   y = 96,
   width = 32,
   height = 32,
-  pattern = "1085",
+  pattern = "1084",
 }
 
 tile{

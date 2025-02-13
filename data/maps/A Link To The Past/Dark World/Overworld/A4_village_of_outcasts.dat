@@ -12,6 +12,55 @@ properties{
 
 tile{
   layer = 0,
+  x = 0,
+  y = 168,
+  width = 960,
+  height = 824,
+  pattern = "14667",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 848,
+  width = 16,
+  height = 16,
+  pattern = "6008",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 848,
+  width = 16,
+  height = 16,
+  pattern = "5999",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 424,
+  y = 848,
+  width = 16,
+  height = 16,
+  pattern = "5999",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 416,
+  y = 648,
+  width = 8,
+  height = 8,
+  pattern = "6259",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
   x = 1008,
   y = 400,
   width = 16,
@@ -345,15 +394,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 0,
-  y = 168,
-  width = 960,
-  height = 824,
-  pattern = "14667",
-}
-
-tile{
-  layer = 0,
   x = 960,
   y = 768,
   width = 64,
@@ -449,16 +489,6 @@ tile{
   width = 32,
   height = 32,
   pattern = "907",
-}
-
-tile{
-  layer = 0,
-  x = 440,
-  y = 848,
-  width = 16,
-  height = 16,
-  pattern = "6008",
-  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -6902,26 +6932,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 352,
-  y = 600,
-  width = 16,
-  height = 40,
-  pattern = "65",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
-  x = 368,
-  y = 648,
-  width = 40,
-  height = 16,
-  pattern = "65",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
   x = 408,
   y = 672,
   width = 32,
@@ -7042,16 +7052,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 608,
-  y = 792,
-  width = 16,
-  height = 96,
-  pattern = "65",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
   x = 664,
   y = 896,
   width = 32,
@@ -7122,36 +7122,6 @@ tile{
   width = 48,
   height = 8,
   pattern = "959",
-}
-
-tile{
-  layer = 0,
-  x = 168,
-  y = 312,
-  width = 80,
-  height = 48,
-  pattern = "65",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
-  x = 808,
-  y = 376,
-  width = 80,
-  height = 48,
-  pattern = "65",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
-  x = 784,
-  y = 584,
-  width = 88,
-  height = 48,
-  pattern = "65",
-  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -8290,16 +8260,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 424,
-  y = 848,
-  width = 16,
-  height = 16,
-  pattern = "5999",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
   x = 416,
   y = 840,
   width = 8,
@@ -8660,16 +8620,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 824,
-  y = 640,
-  width = 16,
-  height = 16,
-  pattern = "6020",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
   x = 840,
   y = 640,
   width = 8,
@@ -8750,16 +8700,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 200,
-  y = 368,
-  width = 16,
-  height = 16,
-  pattern = "6020",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
   x = 216,
   y = 368,
   width = 8,
@@ -8795,16 +8735,6 @@ tile{
   width = 8,
   height = 8,
   pattern = "5919",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
-  x = 840,
-  y = 432,
-  width = 16,
-  height = 16,
-  pattern = "6020",
   tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
@@ -12454,16 +12384,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 624,
-  y = 784,
-  width = 8,
-  height = 8,
-  pattern = "65",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
   x = 560,
   y = 568,
   width = 8,
@@ -13122,7 +13042,7 @@ tile{
   y = 192,
   width = 32,
   height = 32,
-  pattern = "1085",
+  pattern = "1084",
 }
 
 tile{
@@ -13591,16 +13511,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 456,
-  y = 848,
-  width = 16,
-  height = 16,
-  pattern = "5999",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
   x = 80,
   y = 896,
   width = 64,
@@ -13836,26 +13746,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "5974",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
-  x = 688,
-  y = 848,
-  width = 16,
-  height = 40,
-  pattern = "65",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
-  x = 624,
-  y = 872,
-  width = 40,
-  height = 16,
-  pattern = "65",
   tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
@@ -14276,6 +14166,95 @@ tile{
   pattern = "973",
 }
 
+tile{
+  layer = 0,
+  x = 432,
+  y = 848,
+  width = 8,
+  height = 16,
+  pattern = "93",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 848,
+  width = 8,
+  height = 16,
+  pattern = "93_2",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 848,
+  width = 16,
+  height = 16,
+  pattern = "5999",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 368,
+  width = 16,
+  height = 16,
+  pattern = "6008",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 840,
+  y = 432,
+  width = 16,
+  height = 16,
+  pattern = "6008",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 824,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "6008",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 504,
+  y = 448,
+  width = 16,
+  height = 16,
+  pattern = "12344",
+  tileset = "out/outside_special",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 448,
+  width = 160,
+  height = 8,
+  pattern = "6161",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+stairs{
+  name = "stair_down_A4_village_of_outcasts_0",
+  layer = 0,
+  x = 504,
+  y = 448,
+  direction = 1,
+  subtype = 3,
+}
+
 jumper{
   name = "jump_A4_village_of_outcasts_0",
   layer = 0,
@@ -14294,7 +14273,7 @@ teletransporter{
   y = 368,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Houses/Outcasts/chance_game_house",
+  destination_map = "A Link to the Past/Dark World/Houses/Outcasts/chance_game_house",
   destination = "dest_map_chance_game_house_0",
 }
 
@@ -14564,7 +14543,7 @@ teletransporter{
   y = 432,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Houses/Outcasts/outcast_house",
+  destination_map = "A Link to the Past/Dark World/Houses/Outcasts/outcast_house",
   destination = "dest_map_outcast_house_0",
 }
 
@@ -14572,10 +14551,10 @@ teletransporter{
   name = "tp_house_A4_village_of_outcasts_2",
   layer = 0,
   x = 824,
-  y = 640,
+  y = 632,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Houses/Outcasts/outcast_shop",
+  destination_map = "A Link to the Past/Dark World/Houses/Outcasts/outcast_shop",
   destination = "dest_map_outcast_shop_0",
 }
 
@@ -14766,7 +14745,7 @@ teletransporter{
   y = 848,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Houses/Outcasts/outcast_shelter",
+  destination_map = "A Link to the Past/Dark World/Houses/Outcasts/outcast_shelter",
   destination = "dest_map_outcast_shelter_0",
 }
 
@@ -14790,7 +14769,7 @@ destination{
   name = "dest_house_village_of_outcast_2",
   layer = 0,
   x = 832,
-  y = 669,
+  y = 661,
   direction = 3,
 }
 
@@ -15988,6 +15967,247 @@ wall{
   stops_projectiles = true,
 }
 
+wall{
+  layer = 0,
+  x = 352,
+  y = 600,
+  width = 16,
+  height = 64,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 424,
+  y = 640,
+  width = 24,
+  height = 24,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 608,
+  y = 784,
+  width = 16,
+  height = 104,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 688,
+  y = 848,
+  width = 16,
+  height = 40,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+teletransporter{
+  name = "tp_dungeon_A4_village_of_outcasts_0",
+  layer = 0,
+  x = 504,
+  y = 448,
+  width = 16,
+  height = 16,
+  destination_map = "A Link to the Past/Dark World/Dungeons/Thieves Town/B1/B1_thieves_town",
+  destination = "dest_map_B1_thieves_town_0",
+}
+
+destination{
+  name = "dest_dungeon_A4_village_of_outcasts_0",
+  layer = 0,
+  x = 512,
+  y = 477,
+  direction = 3,
+}
+
+enemy{
+  name = "enemy_moblin_A4_village_of_outcasts_0",
+  layer = 0,
+  x = 312,
+  y = 109,
+  direction = 3,
+  breed = "dark_world/moblin",
+}
+
+enemy{
+  name = "enemy_moblin_A4_village_of_outcasts_1",
+  layer = 0,
+  x = 856,
+  y = 173,
+  direction = 3,
+  breed = "dark_world/moblin",
+}
+
+enemy{
+  name = "enemy_taros_blue_A4_village_of_outcasts_0",
+  layer = 0,
+  x = 120,
+  y = 453,
+  direction = 1,
+  breed = "dark_world/taros_blue",
+}
+
+enemy{
+  name = "enemy_pikku_A4_village_of_outcasts_0",
+  layer = 0,
+  x = 744,
+  y = 389,
+  direction = 3,
+  breed = "dungeons/eyegore_red",
+}
+
+enemy{
+  name = "enemy_pikku_A4_village_of_outcasts_1",
+  layer = 0,
+  x = 216,
+  y = 637,
+  direction = 0,
+  breed = "dungeons/eyegore_red",
+}
+
+enemy{
+  name = "enemy_bone_cucco__A4_village_of_outcasts_0",
+  layer = 0,
+  x = 632,
+  y = 645,
+  direction = 2,
+  breed = "light_world/chicken",
+}
+
+enemy{
+  name = "enemy_taros_blue_A4_village_of_outcasts_1",
+  layer = 0,
+  x = 824,
+  y = 765,
+  direction = 1,
+  breed = "dark_world/taros_blue",
+}
+
+enemy{
+  name = "enemy_bone_cucco__A4_village_of_outcasts_1",
+  layer = 0,
+  x = 360,
+  y = 845,
+  direction = 2,
+  breed = "light_world/chicken",
+}
+
+enemy{
+  name = "enemy_bone_cucco__A4_village_of_outcasts_2",
+  layer = 0,
+  x = 344,
+  y = 893,
+  direction = 2,
+  breed = "light_world/chicken",
+}
+
+enemy{
+  name = "enemy_moblin_A4_village_of_outcasts_2",
+  layer = 0,
+  x = 360,
+  y = 749,
+  direction = 0,
+  breed = "dark_world/moblin",
+}
+
+tile{
+  layer = 1,
+  x = 352,
+  y = 600,
+  width = 16,
+  height = 40,
+  pattern = "65",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 1,
+  x = 368,
+  y = 648,
+  width = 40,
+  height = 16,
+  pattern = "65",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 1,
+  x = 608,
+  y = 792,
+  width = 16,
+  height = 96,
+  pattern = "65",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 312,
+  width = 80,
+  height = 48,
+  pattern = "65",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 1,
+  x = 808,
+  y = 376,
+  width = 80,
+  height = 48,
+  pattern = "65",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 1,
+  x = 784,
+  y = 584,
+  width = 88,
+  height = 48,
+  pattern = "65",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 1,
+  x = 688,
+  y = 848,
+  width = 16,
+  height = 40,
+  pattern = "65",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 1,
+  x = 624,
+  y = 872,
+  width = 40,
+  height = 16,
+  pattern = "65",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
 tile{
   layer = 1,
   x = 408,
@@ -16912,16 +17132,6 @@ tile{
   width = 8,
   height = 8,
   pattern = "6252",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 1,
-  x = 416,
-  y = 648,
-  width = 8,
-  height = 8,
-  pattern = "6259",
   tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
@@ -19492,6 +19702,42 @@ destination{
   direction = 3,
 }
 
+enemy{
+  name = "enemy_hyu_A4_village_of_outcasts_0",
+  layer = 1,
+  x = 696,
+  y = 197,
+  direction = 0,
+  breed = "light_world/poe",
+}
+
+enemy{
+  name = "enemy_hyu_A4_village_of_outcasts_1",
+  layer = 1,
+  x = 392,
+  y = 581,
+  direction = 0,
+  breed = "light_world/poe",
+}
+
+enemy{
+  name = "enemy_hyu_A4_village_of_outcasts_2",
+  layer = 1,
+  x = 456,
+  y = 637,
+  direction = 0,
+  breed = "light_world/poe",
+}
+
+enemy{
+  name = "enemy_hyu_A4_village_of_outcasts_3",
+  layer = 1,
+  x = 712,
+  y = 837,
+  direction = 0,
+  breed = "light_world/poe",
+}
+
 teletransporter{
   name = "border_A4_village_of_outcasts_south",
   layer = 2,
@@ -19500,7 +19746,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/B6_shooting_gallery",
+  destination_map = "A Link to the Past/Dark World/Overworld/B6_shooting_gallery",
   destination = "_side",
 }
 
@@ -19512,7 +19758,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/C4_hyrule_forest",
+  destination_map = "A Link to the Past/Dark World/Overworld/C4_hyrule_forest",
   destination = "_side",
 }
 
@@ -19524,7 +19770,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/A3_entrance_skeleton_forest",
+  destination_map = "A Link to the Past/Dark World/Overworld/A3_entrance_skeleton_forest",
   destination = "_side",
 }
 
@@ -19536,7 +19782,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/B3_fortune_teller",
+  destination_map = "A Link to the Past/Dark World/Overworld/B3_fortune_teller",
   destination = "_side",
 }
 
@@ -19548,7 +19794,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/C5_blacksmiths_house",
+  destination_map = "A Link to the Past/Dark World/Overworld/C5_blacksmiths_house",
   destination = "_side",
 }
 
@@ -19560,7 +19806,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/A6_shovel_game",
+  destination_map = "A Link to the Past/Dark World/Overworld/A6_shovel_game",
   destination = "_side",
 }
 

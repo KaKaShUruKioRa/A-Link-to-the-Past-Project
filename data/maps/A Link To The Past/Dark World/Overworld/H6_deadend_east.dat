@@ -4824,8 +4824,8 @@ teletransporter{
   y = 296,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/H6_deadend_east",
-  destination = "dest_secret",
+  destination_map = "A Link to the Past/Dark World/Caves/deadend_east_cave",
+  destination = "dest_map_deadend_east_fairy_cave_0",
 }
 
 destructible{
@@ -4902,16 +4902,6 @@ destructible{
   weight = 1,
 }
 
-destructible{
-  name = "stone_H6_deadend_east_0",
-  layer = 0,
-  x = 408,
-  y = 381,
-  sprite = "destructibles/stone_small_dw_2",
-  destruction_sound = "stone",
-  weight = 2,
-}
-
 jumper{
   name = "jump_H6_deadend_east_5",
   layer = 0,
@@ -4932,6 +4922,50 @@ jumper{
   height = 16,
   direction = 7,
   jump_length = 32,
+}
+
+destination{
+  name = "dest_cave_H6_deadend_east_0",
+  layer = 0,
+  x = 432,
+  y = 317,
+  direction = 3,
+}
+
+enemy{
+  name = "enemy_snap_dragon_H6_deadend_east_0",
+  layer = 0,
+  x = 216,
+  y = 141,
+  direction = 3,
+  breed = "dark_world/snap_dragon",
+}
+
+enemy{
+  name = "enemy_snap_dragon_H6_deadend_east_1",
+  layer = 0,
+  x = 248,
+  y = 141,
+  direction = 3,
+  breed = "dark_world/snap_dragon",
+}
+
+enemy{
+  name = "enemy_snap_dragon_H6_deadend_east_2",
+  layer = 0,
+  x = 232,
+  y = 189,
+  direction = 3,
+  breed = "dark_world/snap_dragon",
+}
+
+enemy{
+  name = "enemy_stal_H6_deadend_east_0",
+  layer = 0,
+  x = 152,
+  y = 381,
+  direction = 3,
+  breed = "dark_world/stal",
 }
 
 tile{
@@ -6833,6 +6867,15 @@ tile{
   pattern = "68",
 }
 
+enemy{
+  name = "enemy_dacto_H6_deadend_east_0",
+  layer = 1,
+  x = 376,
+  y = 205,
+  direction = 0,
+  breed = "dungeons/chasupa",
+}
+
 destination{
   name = "dest_secret",
   layer = 2,
@@ -6849,7 +6892,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/G6_plain_hylia",
+  destination_map = "A Link to the Past/Dark World/Overworld/G6_plain_hylia",
   destination = "_side",
 }
 
@@ -6861,7 +6904,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/G4_dark_ruins",
+  destination_map = "A Link to the Past/Dark World/Overworld/G4_dark_ruins",
   destination = "_side",
 }
 
@@ -6873,7 +6916,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/H7_river_hylia_north",
+  destination_map = "A Link to the Past/Dark World/Overworld/H7_river_hylia_north",
   destination = "_side",
 }
 

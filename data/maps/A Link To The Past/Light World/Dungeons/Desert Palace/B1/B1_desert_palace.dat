@@ -924,7 +924,7 @@ teletransporter{
   y = 480,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/desert_of_mystery",
+  destination_map = "A Link to the Past/Light World/Overworld/desert_of_mystery",
   destination = "dest_dungeon_desert_of_mystery_3",
 }
 

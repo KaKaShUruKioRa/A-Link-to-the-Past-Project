@@ -3231,7 +3231,7 @@ tile{
   y = 416,
   width = 32,
   height = 32,
-  pattern = "1085",
+  pattern = "1084",
 }
 
 tile{
@@ -3240,7 +3240,7 @@ tile{
   y = 288,
   width = 32,
   height = 32,
-  pattern = "1085",
+  pattern = "1084",
 }
 
 tile{
@@ -3249,7 +3249,7 @@ tile{
   y = 192,
   width = 32,
   height = 32,
-  pattern = "1085",
+  pattern = "1084",
 }
 
 tile{
@@ -3258,7 +3258,7 @@ tile{
   y = 160,
   width = 32,
   height = 32,
-  pattern = "1085",
+  pattern = "1084",
 }
 
 tile{
@@ -3267,7 +3267,7 @@ tile{
   y = 160,
   width = 32,
   height = 32,
-  pattern = "1085",
+  pattern = "1084",
 }
 
 tile{
@@ -3877,7 +3877,7 @@ tile{
   y = 288,
   width = 32,
   height = 32,
-  pattern = "1085",
+  pattern = "1084",
 }
 
 tile{

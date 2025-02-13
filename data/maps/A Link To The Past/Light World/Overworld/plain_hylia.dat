@@ -4076,7 +4076,7 @@ teletransporter{
   y = 72,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/Fairy/plain_hylia_fairy_cave",
+  destination_map = "A Link to the Past/Light World/Caves/Fairy/plain_hylia_fairy_cave",
   destination = "dest_map_plain_hylia_fairy_cave_0",
 }
 
@@ -5493,7 +5493,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/stone_bridge",
+  destination_map = "A Link to the Past/Light World/Overworld/stone_bridge",
   destination = "_side",
 }
 
@@ -5505,7 +5505,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/lake_hylia",
+  destination_map = "A Link to the Past/Light World/Overworld/lake_hylia",
   destination = "_side",
 }
 
@@ -5517,7 +5517,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/deadend_east",
+  destination_map = "A Link to the Past/Light World/Overworld/deadend_east",
   destination = "_side",
 }
 
@@ -5529,7 +5529,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/eastern_ruins",
+  destination_map = "A Link to the Past/Light World/Overworld/eastern_ruins",
   destination = "_side",
 }
 

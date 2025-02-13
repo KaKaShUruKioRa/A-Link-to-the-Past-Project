@@ -1901,7 +1901,7 @@ tile{
   y = 352,
   width = 32,
   height = 32,
-  pattern = "1085",
+  pattern = "1084",
 }
 
 tile{
@@ -1910,7 +1910,7 @@ tile{
   y = 160,
   width = 32,
   height = 32,
-  pattern = "1085",
+  pattern = "1084",
 }
 
 tile{

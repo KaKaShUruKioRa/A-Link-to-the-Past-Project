@@ -26963,7 +26963,7 @@ teletransporter{
   y = 1024,
   width = 48,
   height = 8,
-  destination_map = "A Link To The Past/Light World/Overworld/waterfall_of_wishing",
+  destination_map = "A Link to the Past/Light World/Overworld/waterfall_of_wishing",
   destination = "_side",
 }
 
@@ -27042,7 +27042,7 @@ teletransporter{
   y = 1016,
   width = 32,
   height = 8,
-  destination_map = "A Link To The Past/Light World/Overworld/waterfall_of_wishing",
+  destination_map = "A Link to the Past/Light World/Overworld/waterfall_of_wishing",
   destination = "dest_map_waterfall_of_wishing_0",
 }
 

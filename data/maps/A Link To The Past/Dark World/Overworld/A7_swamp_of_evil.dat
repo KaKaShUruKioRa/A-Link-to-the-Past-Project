@@ -21,6 +21,194 @@ tile{
 
 tile{
   layer = 0,
+  x = 152,
+  y = 248,
+  width = 496,
+  height = 96,
+  pattern = "111",
+}
+
+tile{
+  layer = 0,
+  x = 336,
+  y = 288,
+  width = 8,
+  height = 8,
+  pattern = "9689",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 272,
+  width = 16,
+  height = 16,
+  pattern = "7899",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 272,
+  width = 16,
+  height = 16,
+  pattern = "7899",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 280,
+  width = 16,
+  height = 16,
+  pattern = "7899",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 288,
+  width = 16,
+  height = 16,
+  pattern = "7899",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 288,
+  width = 16,
+  height = 16,
+  pattern = "7899",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 336,
+  y = 288,
+  width = 16,
+  height = 96,
+  pattern = "7899",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 368,
+  width = 64,
+  height = 16,
+  pattern = "7899",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 288,
+  width = 16,
+  height = 96,
+  pattern = "7899",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 288,
+  width = 16,
+  height = 16,
+  pattern = "7899",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 288,
+  width = 16,
+  height = 16,
+  pattern = "7899",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 272,
+  width = 16,
+  height = 32,
+  pattern = "7899",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 288,
+  width = 16,
+  height = 16,
+  pattern = "7899",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 296,
+  width = 80,
+  height = 80,
+  pattern = "7910",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 280,
+  width = 16,
+  height = 16,
+  pattern = "7910",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 408,
+  width = 80,
+  height = 32,
+  pattern = "112",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 384,
+  width = 16,
+  height = 16,
+  pattern = "7899",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 312,
+  width = 48,
+  height = 48,
+  pattern = "213",
+  tileset = "out/outside_special",
+}
+
+tile{
+  layer = 0,
   x = 256,
   y = 824,
   width = 16,
@@ -79,15 +267,6 @@ tile{
   y = 736,
   width = 24,
   height = 48,
-  pattern = "111",
-}
-
-tile{
-  layer = 0,
-  x = 152,
-  y = 248,
-  width = 496,
-  height = 96,
   pattern = "111",
 }
 
@@ -354,76 +533,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 304,
-  y = 272,
-  width = 16,
-  height = 16,
-  pattern = "7899",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
-  x = 304,
-  y = 280,
-  width = 16,
-  height = 16,
-  pattern = "7899",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
-  x = 312,
-  y = 288,
-  width = 16,
-  height = 16,
-  pattern = "7899",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
-  x = 304,
-  y = 288,
-  width = 16,
-  height = 16,
-  pattern = "7899",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
-  x = 296,
-  y = 272,
-  width = 16,
-  height = 16,
-  pattern = "7899",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
-  x = 264,
-  y = 288,
-  width = 16,
-  height = 16,
-  pattern = "7899",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
-  x = 272,
-  y = 368,
-  width = 64,
-  height = 16,
-  pattern = "7899",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
   x = 784,
   y = 952,
   width = 16,
@@ -554,15 +663,6 @@ tile{
   y = 240,
   width = 56,
   height = 72,
-  pattern = "112",
-}
-
-tile{
-  layer = 0,
-  x = 264,
-  y = 408,
-  width = 80,
-  height = 32,
   pattern = "112",
 }
 
@@ -3310,94 +3410,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 256,
-  y = 288,
-  width = 16,
-  height = 96,
-  pattern = "7899",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
-  x = 296,
-  y = 384,
-  width = 16,
-  height = 16,
-  pattern = "7899",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
-  x = 288,
-  y = 272,
-  width = 16,
-  height = 32,
-  pattern = "7899",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
-  x = 280,
-  y = 288,
-  width = 16,
-  height = 16,
-  pattern = "7899",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
-  x = 336,
-  y = 288,
-  width = 8,
-  height = 8,
-  pattern = "9689",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
-  x = 328,
-  y = 288,
-  width = 16,
-  height = 16,
-  pattern = "7899",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
-  x = 296,
-  y = 280,
-  width = 16,
-  height = 16,
-  pattern = "129",
-}
-
-tile{
-  layer = 0,
-  x = 336,
-  y = 288,
-  width = 16,
-  height = 96,
-  pattern = "7899",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
-  x = 264,
-  y = 296,
-  width = 80,
-  height = 80,
-  pattern = "129",
-}
-
-tile{
-  layer = 0,
   x = 272,
   y = 360,
   width = 8,
@@ -3674,15 +3686,6 @@ tile{
   height = 8,
   pattern = "9681",
   tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
-  x = 280,
-  y = 312,
-  width = 48,
-  height = 48,
-  pattern = "1341_2",
 }
 
 tile{
@@ -9640,7 +9643,7 @@ tile{
 tile{
   layer = 0,
   x = 288,
-  y = 208,
+  y = 96,
   width = 32,
   height = 32,
   pattern = "7888",
@@ -11484,16 +11487,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 448,
-  y = 184,
-  width = 8,
-  height = 16,
-  pattern = "9583",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
   x = 456,
   y = 176,
   width = 16,
@@ -11524,16 +11517,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 440,
-  y = 176,
-  width = 16,
-  height = 16,
-  pattern = "7887",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
   x = 136,
   y = 160,
   width = 48,
@@ -11559,16 +11542,6 @@ tile{
   width = 16,
   height = 32,
   pattern = "7886",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
-  x = 152,
-  y = 176,
-  width = 16,
-  height = 16,
-  pattern = "7887",
   tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
@@ -11644,16 +11617,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 152,
-  y = 192,
-  width = 16,
-  height = 8,
-  pattern = "38",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
   x = 440,
   y = 208,
   width = 16,
@@ -11669,16 +11632,6 @@ tile{
   width = 16,
   height = 8,
   pattern = "9051",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
-  x = 440,
-  y = 192,
-  width = 16,
-  height = 8,
-  pattern = "38",
   tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
@@ -12064,16 +12017,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 296,
-  y = 176,
-  width = 16,
-  height = 24,
-  pattern = "7880",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
   x = 288,
   y = 168,
   width = 32,
@@ -12085,7 +12028,7 @@ tile{
 tile{
   layer = 0,
   x = 296,
-  y = 232,
+  y = 224,
   width = 16,
   height = 16,
   pattern = "9052",
@@ -12109,16 +12052,6 @@ tile{
   width = 24,
   height = 8,
   pattern = "7870",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
-  x = 296,
-  y = 200,
-  width = 16,
-  height = 16,
-  pattern = "7881",
   tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
@@ -15546,26 +15479,183 @@ tile{
   pattern = "253",
 }
 
+tile{
+  layer = 0,
+  x = 312,
+  y = 400,
+  width = 8,
+  height = 48,
+  pattern = "84_3",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 400,
+  width = 8,
+  height = 48,
+  pattern = "84_3",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 392,
+  width = 16,
+  height = 56,
+  pattern = "7910",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 392,
+  width = 16,
+  height = 56,
+  pattern = "7892",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
 teletransporter{
   name = "tp_cave_A7_swamp_of_evil_0",
+  layer = 0,
+  x = 152,
+  y = 192,
+  width = 16,
+  height = 16,
+  destination_map = "A Link to the Past/Dark World/Caves/swamp_of_evil_block_cave",
+  destination = "dest_map_swamp_of_evil_block_cave_0",
+}
+
+teletransporter{
+  name = "tp_dungeon_A7_swamp_of_evil_1",
+  layer = 0,
+  x = 440,
+  y = 192,
+  width = 16,
+  height = 16,
+  destination_map = "A Link to the Past/Dark World/Caves/Fairy/swamp_of_evil_fairy_cave",
+  destination = "dest_map_swamp_of_evil_fairy_cave_0",
+}
+
+destination{
+  name = "dest_cave_A7_swamp_of_evil_cave_1",
+  layer = 0,
+  x = 448,
+  y = 221,
+  direction = 3,
+}
+
+teletransporter{
+  name = "tp_cave_A7_swamp_of_evil_2",
   layer = 0,
   x = 808,
   y = 296,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/A7_swamp_of_evil",
-  destination = "dest_secret",
+  destination_map = "A Link to the Past/Dark World/Caves/informant_cave",
+  destination = "dest_map_swamp_of_evil_cave_0",
 }
 
 teletransporter{
-  name = "tp_dungeon_A7_swamp_of_evil_3",
+  name = "tp_dungeon_A7_swamp_of_evil_0",
   layer = 0,
   x = 296,
-  y = 176,
+  y = 208,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/A7_swamp_of_evil",
-  destination = "dest_secret",
+  destination_map = "A Link to the Past/Dark World/Dungeons/Misery Mire/F1/F1_misery_mire",
+  destination = "dest_map_F1_misery_mire_0",
+}
+
+destination{
+  name = "dest_cave_A7_swamp_of_evil_cave_2",
+  layer = 0,
+  x = 816,
+  y = 317,
+  direction = 3,
+}
+
+destination{
+  name = "dest_dungeon_A7_swamp_of_evil_0",
+  layer = 0,
+  x = 304,
+  y = 237,
+  direction = 3,
+}
+
+destination{
+  name = "dest_cave_A7_swamp_of_evil_cave_0",
+  layer = 0,
+  x = 160,
+  y = 213,
+  direction = 3,
+}
+
+enemy{
+  name = "enemy_ku_A7_swamp_of_evil_1",
+  layer = 0,
+  x = 312,
+  y = 565,
+  direction = 3,
+  breed = "light_world/zora_underwater",
+}
+
+enemy{
+  name = "enemy_ku_A7_swamp_of_evil_0",
+  layer = 0,
+  x = 696,
+  y = 453,
+  direction = 3,
+  breed = "light_world/zora_underwater",
+}
+
+enemy{
+  name = "enemy_ku_A7_swamp_of_evil_2",
+  layer = 0,
+  x = 544,
+  y = 701,
+  direction = 3,
+  breed = "light_world/zora_underwater",
+}
+
+enemy{
+  name = "enemy_swamola_A7_swamp_of_evil_0",
+  layer = 0,
+  x = 472,
+  y = 541,
+  direction = 0,
+  breed = "light_world/geldman",
+}
+
+enemy{
+  name = "enemy_swamola_A7_swamp_of_evil_2",
+  layer = 0,
+  x = 680,
+  y = 717,
+  direction = 0,
+  breed = "light_world/geldman",
+}
+
+enemy{
+  name = "enemy_swamola_A7_swamp_of_evil_3",
+  layer = 0,
+  x = 384,
+  y = 837,
+  direction = 0,
+  breed = "light_world/geldman",
+}
+
+enemy{
+  name = "enemy_swamola_A7_swamp_of_evil_1",
+  layer = 0,
+  x = 208,
+  y = 653,
+  direction = 0,
+  breed = "light_world/geldman",
 }
 
 tile{
@@ -16358,66 +16448,6 @@ tile{
   width = 8,
   height = 8,
   pattern = "13892",
-}
-
-tile{
-  layer = 1,
-  x = 280,
-  y = 208,
-  width = 8,
-  height = 16,
-  pattern = "7896",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 1,
-  x = 320,
-  y = 208,
-  width = 8,
-  height = 16,
-  pattern = "7897",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 1,
-  x = 312,
-  y = 200,
-  width = 8,
-  height = 16,
-  pattern = "7897",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 1,
-  x = 304,
-  y = 200,
-  width = 8,
-  height = 16,
-  pattern = "7897",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 1,
-  x = 288,
-  y = 200,
-  width = 8,
-  height = 16,
-  pattern = "7896",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 1,
-  x = 296,
-  y = 200,
-  width = 8,
-  height = 16,
-  pattern = "7896",
-  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -21775,6 +21805,126 @@ tile{
   pattern = "1058",
 }
 
+tile{
+  layer = 1,
+  x = 152,
+  y = 192,
+  width = 16,
+  height = 8,
+  pattern = "38",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 1,
+  x = 440,
+  y = 192,
+  width = 16,
+  height = 8,
+  pattern = "38",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 1,
+  x = 440,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "7887",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "7887",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 88,
+  width = 8,
+  height = 16,
+  pattern = "7896",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 1,
+  x = 320,
+  y = 88,
+  width = 8,
+  height = 16,
+  pattern = "7897",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 1,
+  x = 312,
+  y = 80,
+  width = 8,
+  height = 16,
+  pattern = "7897",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 1,
+  x = 304,
+  y = 80,
+  width = 8,
+  height = 16,
+  pattern = "7897",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 80,
+  width = 8,
+  height = 16,
+  pattern = "7896",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 80,
+  width = 8,
+  height = 16,
+  pattern = "7896",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 176,
+  width = 16,
+  height = 24,
+  pattern = "7880",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "7881",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
 jumper{
   name = "jump_A7_swamp_of_evil_20",
   layer = 1,
@@ -21808,28 +21958,6 @@ jumper{
   jump_length = 32,
 }
 
-teletransporter{
-  name = "tp_dungeon_A7_swamp_of_evil_1",
-  layer = 1,
-  x = 152,
-  y = 200,
-  width = 16,
-  height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/A7_swamp_of_evil",
-  destination = "dest_secret",
-}
-
-teletransporter{
-  name = "tp_dungeon_A7_swamp_of_evil_2",
-  layer = 1,
-  x = 440,
-  y = 200,
-  width = 16,
-  height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/A7_swamp_of_evil",
-  destination = "dest_secret",
-}
-
 destructible{
   name = "bush_A7_swamp_of_evil_765",
   layer = 1,
@@ -21856,6 +21984,25 @@ destination{
   x = 496,
   y = 509,
   direction = 3,
+  default = true,
+}
+
+enemy{
+  name = "enemy_dacto_A7_swamp_of_evil_2",
+  layer = 1,
+  x = 120,
+  y = 653,
+  direction = 0,
+  breed = "dungeons/chasupa",
+}
+
+enemy{
+  name = "enemy_dacto_A7_swamp_of_evil_0",
+  layer = 1,
+  x = 536,
+  y = 445,
+  direction = 0,
+  breed = "dungeons/chasupa",
 }
 
 teletransporter{
@@ -21866,7 +22013,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/C8_plain_of_ruins_south",
+  destination_map = "A Link to the Past/Dark World/Overworld/C8_plain_of_ruins_south",
   destination = "_side",
 }
 
@@ -21878,7 +22025,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/A6_shovel_game",
+  destination_map = "A Link to the Past/Dark World/Overworld/A6_shovel_game",
   destination = "_side",
 }
 
@@ -21890,7 +22037,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/B6_shooting_gallery",
+  destination_map = "A Link to the Past/Dark World/Overworld/B6_shooting_gallery",
   destination = "_side",
 }
 
@@ -21902,7 +22049,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/C7_plain_of_ruins_north",
+  destination_map = "A Link to the Past/Dark World/Overworld/C7_plain_of_ruins_north",
   destination = "_side",
 }
 

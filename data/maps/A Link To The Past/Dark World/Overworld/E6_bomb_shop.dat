@@ -5787,16 +5787,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 184,
-  y = 256,
-  width = 16,
-  height = 16,
-  pattern = "6020",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
   x = 280,
   y = 176,
   width = 8,
@@ -6061,13 +6051,14 @@ wall{
 }
 
 teletransporter{
-  name = "tp_house_bomb_shop_0",
+  name = "tp_house_E6_bomb_shop_0",
   layer = 0,
   x = 184,
   y = 256,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Houses/link_house",
+  destination_map = "A Link to the Past/Dark World/Houses/bomb_shop",
+  destination = "dest_map_bomb_shop_0",
 }
 
 jumper{
@@ -6170,7 +6161,7 @@ jumper{
 }
 
 destination{
-  name = "dest_house_bomb_shop_0",
+  name = "dest_house_E6_bomb_shop_0",
   layer = 0,
   x = 192,
   y = 285,
@@ -6475,6 +6466,51 @@ destructible{
   sprite = "destructibles/bush_purple",
   destruction_sound = "bush",
   can_be_cut = true,
+}
+
+enemy{
+  name = "enemy_moblin_E6_bomb_shop_0",
+  layer = 0,
+  x = 344,
+  y = 173,
+  direction = 3,
+  breed = "dark_world/moblin",
+}
+
+enemy{
+  name = "enemy_snap_dragon_E6_bomb_shop_0",
+  layer = 0,
+  x = 352,
+  y = 109,
+  direction = 3,
+  breed = "dark_world/snap_dragon",
+}
+
+enemy{
+  name = "enemy_moblin_E6_bomb_shop_1",
+  layer = 0,
+  x = 328,
+  y = 221,
+  direction = 3,
+  breed = "dark_world/moblin",
+}
+
+enemy{
+  name = "enemy_hinox_E6_bomb_shop_0",
+  layer = 0,
+  x = 328,
+  y = 365,
+  direction = 3,
+  breed = "dark_world/hinox",
+}
+
+enemy{
+  name = "enemy_ropa_E6_bomb_shop_0",
+  layer = 0,
+  x = 160,
+  y = 413,
+  direction = 3,
+  breed = "dark_world/ropa",
 }
 
 tile{
@@ -7225,7 +7261,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/D6_link_forest",
+  destination_map = "A Link to the Past/Dark World/Overworld/D6_link_forest",
   destination = "_side",
 }
 
@@ -7237,7 +7273,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/D7_great_swamp",
+  destination_map = "A Link to the Past/Dark World/Overworld/D7_great_swamp",
   destination = "_side",
 }
 
@@ -7249,7 +7285,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/F6_stone_bridge",
+  destination_map = "A Link to the Past/Dark World/Overworld/F6_stone_bridge",
   destination = "_side",
 }
 
@@ -7261,7 +7297,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Dark World/Overworld/D4_pyramid",
+  destination_map = "A Link to the Past/Dark World/Overworld/D4_pyramid",
   destination = "_side",
 }
 

@@ -10984,7 +10984,7 @@ teletransporter{
   y = 24,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Houses/bandit_house",
+  destination_map = "A Link to the Past/Light World/Houses/bandit_house",
   destination = "dest_map_bandit_house_0",
 }
 
@@ -11019,7 +11019,7 @@ teletransporter{
   y = 992,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/entrance_lost_wood",
+  destination_map = "A Link to the Past/Light World/Overworld/entrance_lost_wood",
   destination = "dest_map_entrance_lost_wood_1",
 }
 
@@ -11030,7 +11030,7 @@ teletransporter{
   y = 992,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/entrance_lost_wood",
+  destination_map = "A Link to the Past/Light World/Overworld/entrance_lost_wood",
   destination = "dest_map_entrance_lost_wood_2",
 }
 
@@ -11449,7 +11449,7 @@ teletransporter{
   y = 528,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/lost_wood_cave",
+  destination_map = "A Link to the Past/Light World/Caves/lost_wood_cave",
   destination = "dest_hole_lost_wood_cave_0",
 }
 
@@ -11460,7 +11460,7 @@ teletransporter{
   y = 592,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/lost_wood_cave",
+  destination_map = "A Link to the Past/Light World/Caves/lost_wood_cave",
   destination = "dest_map_lost_wood_cave_0",
 }
 
@@ -11471,7 +11471,7 @@ teletransporter{
   y = 168,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/sacred_grove",
+  destination_map = "A Link to the Past/Light World/Overworld/sacred_grove",
   destination = "dest_map_sacred_grove_0",
 }
 
@@ -11898,7 +11898,7 @@ teletransporter{
   y = 992,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/fortune_teller",
+  destination_map = "A Link to the Past/Light World/Overworld/fortune_teller",
   destination = "dest_map_fortune_teller_3",
 }
 
@@ -18909,7 +18909,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/entrance_lost_wood",
+  destination_map = "A Link to the Past/Light World/Overworld/entrance_lost_wood",
   destination = "_side",
 }
 
@@ -18921,7 +18921,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/fortune_teller",
+  destination_map = "A Link to the Past/Light World/Overworld/fortune_teller",
   destination = "_side",
 }
 
@@ -18933,7 +18933,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/lumberjack_south",
+  destination_map = "A Link to the Past/Light World/Overworld/lumberjack_south",
   destination = "_side",
 }
 
@@ -18944,7 +18944,7 @@ teletransporter{
   y = 120,
   width = 8,
   height = 64,
-  destination_map = "A Link To The Past/Light World/Overworld/lumberjack",
+  destination_map = "A Link to the Past/Light World/Overworld/lumberjack",
   destination = "_side",
 }
 

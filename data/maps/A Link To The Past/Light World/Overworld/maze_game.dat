@@ -3534,7 +3534,7 @@ teletransporter{
   y = 368,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Houses/twins_house",
+  destination_map = "A Link to the Past/Light World/Houses/twins_house",
   destination = "dest_map_twins_house_0",
 }
 
@@ -5455,7 +5455,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/desert_of_mystery",
+  destination_map = "A Link to the Past/Light World/Overworld/desert_of_mystery",
   destination = "_side",
 }
 
@@ -5467,7 +5467,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/library",
+  destination_map = "A Link to the Past/Light World/Overworld/library",
   destination = "_side",
 }
 
@@ -5479,7 +5479,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/kakariko_village",
+  destination_map = "A Link to the Past/Light World/Overworld/kakariko_village",
   destination = "_side",
 }
 

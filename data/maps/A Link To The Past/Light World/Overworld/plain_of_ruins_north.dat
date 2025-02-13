@@ -6464,7 +6464,7 @@ teletransporter{
   y = 296,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/plain_of_ruins_north_cave",
+  destination_map = "A Link to the Past/Light World/Caves/plain_of_ruins_north_cave",
   destination = "dest_map_plain_of_ruins_north_cave_0",
 }
 
@@ -6533,7 +6533,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/desert_of_mystery",
+  destination_map = "A Link to the Past/Light World/Overworld/desert_of_mystery",
   destination = "_side",
 }
 
@@ -6545,7 +6545,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/plain_of_ruins_south",
+  destination_map = "A Link to the Past/Light World/Overworld/plain_of_ruins_south",
   destination = "_side",
 }
 
@@ -6557,7 +6557,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/great_swamp",
+  destination_map = "A Link to the Past/Light World/Overworld/great_swamp",
   destination = "_side",
 }
 
@@ -6569,7 +6569,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/haunted_grove",
+  destination_map = "A Link to the Past/Light World/Overworld/haunted_grove",
   destination = "_side",
 }
 

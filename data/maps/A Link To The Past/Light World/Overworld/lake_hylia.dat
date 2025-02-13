@@ -17488,7 +17488,7 @@ teletransporter{
   y = 688,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/waterfall_of_wishing",
+  destination_map = "A Link to the Past/Light World/Overworld/waterfall_of_wishing",
   destination = "dest_vortex_waterfall_of_wishing_0",
   sprite = "entities/teletransporter_vortex",
   sound = "warp",
@@ -17530,8 +17530,8 @@ teletransporter{
   y = 480,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/lake_hylia",
-  destination = "dest_secret",
+  destination_map = "A Link to the Past/Dark World/Overworld/F7_ice_lake",
+  destination = "_same",
   sprite = "entities/teletransporter_blue",
   sound = "warp",
 }
@@ -18102,7 +18102,7 @@ teletransporter{
   y = 200,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Houses/fortune_teller_south",
+  destination_map = "A Link to the Past/Light World/Houses/fortune_teller_south",
   destination = "dest_map_fortune_teller_south_0",
 }
 
@@ -18113,7 +18113,7 @@ teletransporter{
   y = 56,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Houses/hylia_shop",
+  destination_map = "A Link to the Past/Light World/Houses/hylia_shop",
   destination = "dest_map_hylia_shop_0",
 }
 
@@ -18124,7 +18124,7 @@ teletransporter{
   y = 768,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/lake_hylia_cave",
+  destination_map = "A Link to the Past/Light World/Caves/lake_hylia_cave",
   destination = "dest_map_lake_hylia_cave_0",
 }
 
@@ -18246,7 +18246,7 @@ teletransporter{
   y = 408,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/Fairy/pond_of_hapiness",
+  destination_map = "A Link to the Past/Light World/Caves/Fairy/pond_of_hapiness",
   destination = "dest_map_pond_of_hapiness_0",
 }
 
@@ -23381,7 +23381,7 @@ teletransporter{
   width = 8,
   height = 1024,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/great_swamp",
+  destination_map = "A Link to the Past/Light World/Overworld/great_swamp",
   destination = "_side",
 }
 
@@ -23393,7 +23393,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/river_hylia_north",
+  destination_map = "A Link to the Past/Light World/Overworld/river_hylia_north",
   destination = "_side",
 }
 
@@ -23405,7 +23405,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/stone_bridge",
+  destination_map = "A Link to the Past/Light World/Overworld/stone_bridge",
   destination = "_side",
 }
 
@@ -23417,7 +23417,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/river_hylia_south",
+  destination_map = "A Link to the Past/Light World/Overworld/river_hylia_south",
   destination = "_side",
 }
 
@@ -23429,7 +23429,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/plain_hylia",
+  destination_map = "A Link to the Past/Light World/Overworld/plain_hylia",
   destination = "_side",
 }
 

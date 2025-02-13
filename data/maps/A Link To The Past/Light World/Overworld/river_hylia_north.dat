@@ -6885,7 +6885,7 @@ teletransporter{
   y = 80,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/ice_rod_cave",
+  destination_map = "A Link to the Past/Light World/Caves/ice_rod_cave",
   destination = "dest_map_ice_rod_cave_0",
 }
 
@@ -6896,7 +6896,7 @@ teletransporter{
   y = 72,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/ice_rod_cave",
+  destination_map = "A Link to the Past/Light World/Caves/ice_rod_cave",
   destination = "dest_map_ice_rod_cave_1",
 }
 
@@ -7699,7 +7699,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/lake_hylia",
+  destination_map = "A Link to the Past/Light World/Overworld/lake_hylia",
   destination = "_side",
 }
 
@@ -7711,7 +7711,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/river_hylia_south",
+  destination_map = "A Link to the Past/Light World/Overworld/river_hylia_south",
   destination = "_side",
 }
 
@@ -7723,7 +7723,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/deadend_east",
+  destination_map = "A Link to the Past/Light World/Overworld/deadend_east",
   destination = "_side",
 }
 

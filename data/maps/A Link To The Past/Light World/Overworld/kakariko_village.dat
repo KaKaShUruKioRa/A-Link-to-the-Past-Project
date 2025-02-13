@@ -6337,36 +6337,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 576,
-  y = 120,
-  width = 160,
-  height = 56,
-  pattern = "7494",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 0,
-  x = 160,
-  y = 312,
-  width = 96,
-  height = 56,
-  pattern = "7494",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 0,
-  x = 800,
-  y = 376,
-  width = 96,
-  height = 56,
-  pattern = "7494",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 0,
   x = 352,
   y = 600,
   width = 96,
@@ -13398,7 +13368,7 @@ teletransporter{
   y = 200,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/kakariko_village_cave",
+  destination_map = "A Link to the Past/Light World/Caves/kakariko_village_cave",
   destination = "dest_map_kakariko_village_cave_0",
 }
 
@@ -13420,7 +13390,7 @@ teletransporter{
   y = 368,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Houses/Kakariko/denouncer_left",
+  destination_map = "A Link to the Past/Light World/Houses/Kakariko/denouncer_left",
   destination = "dest_map_denouncer_left_0",
 }
 
@@ -15498,7 +15468,7 @@ teletransporter{
   y = 200,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/kakariko_village_cave",
+  destination_map = "A Link to the Past/Light World/Caves/kakariko_village_cave",
   destination = "dest_hole_kakariko_village_cave_0",
 }
 
@@ -15509,7 +15479,7 @@ teletransporter{
   y = 176,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Houses/Kakariko/elders_house",
+  destination_map = "A Link to the Past/Light World/Houses/Kakariko/elders_house",
   destination = "dest_map_elders_house_0",
 }
 
@@ -15520,7 +15490,7 @@ teletransporter{
   y = 176,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Houses/Kakariko/blind_hideout",
+  destination_map = "A Link to the Past/Light World/Houses/Kakariko/blind_hideout",
   destination = "dest_map_blind_hideout_0",
 }
 
@@ -15531,7 +15501,7 @@ teletransporter{
   y = 432,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Houses/Kakariko/denouncer_right",
+  destination_map = "A Link to the Past/Light World/Houses/Kakariko/denouncer_right",
   destination = "dest_map_denouncer_right_0",
 }
 
@@ -15542,7 +15512,7 @@ teletransporter{
   y = 640,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Houses/Kakariko/turf_house",
+  destination_map = "A Link to the Past/Light World/Houses/Kakariko/turf_house",
 }
 
 teletransporter{
@@ -15552,7 +15522,7 @@ teletransporter{
   y = 656,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Houses/Kakariko/sick_house",
+  destination_map = "A Link to the Past/Light World/Houses/Kakariko/sick_house",
 }
 
 teletransporter{
@@ -15562,7 +15532,7 @@ teletransporter{
   y = 672,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Houses/Kakariko/chickens_house",
+  destination_map = "A Link to the Past/Light World/Houses/Kakariko/chickens_house",
   destination = "dest_map_chickens_house_0",
 }
 
@@ -15753,7 +15723,7 @@ teletransporter{
   y = 776,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Houses/Kakariko/milk_bar",
+  destination_map = "A Link to the Past/Light World/Houses/Kakariko/milk_bar",
   destination = "dest_map_milk_bar_0",
 }
 
@@ -15764,7 +15734,7 @@ teletransporter{
   y = 848,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Houses/Kakariko/kakariko_shop",
+  destination_map = "A Link to the Past/Light World/Houses/Kakariko/kakariko_shop",
   destination = "dest_kakariko_shop_0",
 }
 
@@ -15775,7 +15745,7 @@ teletransporter{
   y = 896,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Houses/Kakariko/rats_house",
+  destination_map = "A Link to the Past/Light World/Houses/Kakariko/rats_house",
   destination = "dest_rats_house_0",
 }
 
@@ -15786,7 +15756,7 @@ teletransporter{
   y = 896,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Houses/Kakariko/milk_bar",
+  destination_map = "A Link to the Past/Light World/Houses/Kakariko/milk_bar",
   destination = "dest_map_milk_bar_1",
 }
 
@@ -15809,7 +15779,7 @@ teletransporter{
   y = 176,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Houses/Kakariko/elders_house",
+  destination_map = "A Link to the Past/Light World/Houses/Kakariko/elders_house",
   destination = "dest_map_elders_house_1",
 }
 
@@ -15969,6 +15939,146 @@ npc{
 
 tile{
   layer = 1,
+  x = 608,
+  y = 792,
+  width = 96,
+  height = 96,
+  pattern = "7514",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 616,
+  y = 784,
+  width = 80,
+  height = 112,
+  pattern = "7514",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 592,
+  y = 600,
+  width = 96,
+  height = 48,
+  pattern = "7514",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 600,
+  y = 592,
+  width = 80,
+  height = 64,
+  pattern = "7514",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 784,
+  y = 584,
+  width = 96,
+  height = 48,
+  pattern = "7514",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 792,
+  y = 576,
+  width = 80,
+  height = 64,
+  pattern = "7514",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 352,
+  y = 600,
+  width = 96,
+  height = 64,
+  pattern = "7514",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 360,
+  y = 592,
+  width = 80,
+  height = 80,
+  pattern = "7514",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 576,
+  y = 120,
+  width = 160,
+  height = 48,
+  pattern = "7494",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 592,
+  y = 112,
+  width = 136,
+  height = 64,
+  pattern = "7494",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 800,
+  y = 376,
+  width = 96,
+  height = 48,
+  pattern = "7494",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 808,
+  y = 368,
+  width = 80,
+  height = 64,
+  pattern = "7494",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 160,
+  y = 312,
+  width = 96,
+  height = 48,
+  pattern = "7494",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 304,
+  width = 80,
+  height = 64,
+  pattern = "7494",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
   x = 632,
   y = 792,
   width = 48,
@@ -15999,16 +16109,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 624,
-  y = 784,
-  width = 64,
-  height = 8,
-  pattern = "7514",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
   x = 592,
   y = 584,
   width = 16,
@@ -16024,16 +16124,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "7478",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
-  x = 608,
-  y = 592,
-  width = 64,
-  height = 8,
-  pattern = "7514",
   tileset = "out/outside_lightworld_buildings",
 }
 
@@ -16059,16 +16149,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 800,
-  y = 576,
-  width = 64,
-  height = 8,
-  pattern = "7514",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
   x = 352,
   y = 584,
   width = 16,
@@ -16084,26 +16164,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "7478",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
-  x = 368,
-  y = 592,
-  width = 64,
-  height = 8,
-  pattern = "7514",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
-  x = 816,
-  y = 368,
-  width = 64,
-  height = 8,
-  pattern = "7494",
   tileset = "out/outside_lightworld_buildings",
 }
 
@@ -16129,16 +16189,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 592,
-  y = 112,
-  width = 128,
-  height = 8,
-  pattern = "7494",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
   x = 576,
   y = 104,
   width = 16,
@@ -16154,16 +16204,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "7412",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
-  x = 176,
-  y = 304,
-  width = 64,
-  height = 8,
-  pattern = "7494",
   tileset = "out/outside_lightworld_buildings",
 }
 
@@ -19536,7 +19576,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/library",
+  destination_map = "A Link to the Past/Light World/Overworld/library",
   destination = "_side",
 }
 
@@ -19548,7 +19588,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/hyrule_forest",
+  destination_map = "A Link to the Past/Light World/Overworld/hyrule_forest",
   destination = "_side",
 }
 
@@ -19560,7 +19600,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/entrance_lost_wood",
+  destination_map = "A Link to the Past/Light World/Overworld/entrance_lost_wood",
   destination = "_side",
 }
 
@@ -19572,7 +19612,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/fortune_teller",
+  destination_map = "A Link to the Past/Light World/Overworld/fortune_teller",
   destination = "_side",
 }
 
@@ -19584,7 +19624,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/blacksmiths_house",
+  destination_map = "A Link to the Past/Light World/Overworld/blacksmiths_house",
   destination = "_side",
 }
 
@@ -19596,7 +19636,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/maze_game",
+  destination_map = "A Link to the Past/Light World/Overworld/maze_game",
   destination = "_side",
 }
 
