@@ -5168,7 +5168,7 @@ teletransporter{
   y = 200,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/Death Mountain West/in_deathmountain_cave",
+  destination_map = "A Link to the Past/Light World/Caves/Death Mountain West/in_deathmountain_cave",
   destination = "dest_map_in_deathmountain_cave_0",
 }
 
@@ -7290,7 +7290,7 @@ teletransporter{
   y = 104,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/Death Mountain West/out_deathmountain_cave",
+  destination_map = "A Link to the Past/Light World/Caves/Death Mountain West/out_deathmountain_cave",
   destination = "dest_map_out_deathmountain_cave_0",
 }
 
@@ -7330,7 +7330,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/lost_wood",
+  destination_map = "A Link to the Past/Light World/Overworld/lost_wood",
   destination = "_side",
 }
 
@@ -7342,7 +7342,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/sanctuary_lake",
+  destination_map = "A Link to the Past/Light World/Overworld/sanctuary_lake",
   destination = "_side",
 }
 
@@ -7354,7 +7354,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/death_mountain_west",
+  destination_map = "A Link to the Past/Light World/Overworld/death_mountain_west",
   destination = "_side",
 }
 
@@ -7366,7 +7366,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/lumberjack",
+  destination_map = "A Link to the Past/Light World/Overworld/lumberjack",
   destination = "_side",
 }
 

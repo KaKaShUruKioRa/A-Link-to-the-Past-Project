@@ -3447,7 +3447,7 @@ teletransporter{
   y = 64,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Dungeons/Secret Passage/F1/F1_secret_passage",
+  destination_map = "A Link to the Past/Light World/Dungeons/Secret Passage/F1/F1_secret_passage",
   destination = "sanctuary",
 }
 
@@ -3458,7 +3458,7 @@ teletransporter{
   y = 168,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/sanctuary_cave",
+  destination_map = "A Link to the Past/Light World/Caves/sanctuary_cave",
   destination = "dest_map_sanctuary_cave_0",
 }
 
@@ -4843,7 +4843,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/sanctuary_lake",
+  destination_map = "A Link to the Past/Light World/Overworld/sanctuary_lake",
   destination = "_side",
 }
 
@@ -4855,7 +4855,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/hyrule_castle",
+  destination_map = "A Link to the Past/Light World/Overworld/hyrule_castle",
   destination = "_side",
 }
 
@@ -4867,7 +4867,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/cemetery",
+  destination_map = "A Link to the Past/Light World/Overworld/cemetery",
   destination = "_side",
 }
 
@@ -4879,15 +4879,16 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/death_mountain_west",
+  destination_map = "A Link to the Past/Light World/Overworld/death_mountain_west",
   destination = "_side",
 }
 
 destination{
   name = "dest_secret",
   layer = 2,
-  x = 256,
-  y = 256,
+  x = 352,
+  y = 360,
   direction = 3,
+  default = true,
 }
 

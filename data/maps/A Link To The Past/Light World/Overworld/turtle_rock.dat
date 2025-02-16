@@ -7703,7 +7703,7 @@ teletransporter{
   y = 224,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/turtle_rock",
+  destination_map = "A Link to the Past/Dark World/Overworld/H1_turtle_rock",
   destination = "_same",
   sprite = "entities/teletransporter_blue",
   sound = "warp",
@@ -7767,7 +7767,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/death_mountain_east",
+  destination_map = "A Link to the Past/Light World/Overworld/death_mountain_east",
   destination = "_side",
 }
 
@@ -7779,15 +7779,16 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/waterfall_of_wishing",
+  destination_map = "A Link to the Past/Light World/Overworld/waterfall_of_wishing",
   destination = "_side",
 }
 
 destination{
   name = "dest_secret",
   layer = 2,
-  x = 256,
-  y = 256,
+  x = 240,
+  y = 192,
   direction = 3,
+  default = true,
 }
 

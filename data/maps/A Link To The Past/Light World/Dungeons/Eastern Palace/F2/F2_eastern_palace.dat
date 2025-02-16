@@ -3463,7 +3463,7 @@ teletransporter{
   y = 808,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Dungeons/Eastern Palace/F1/F1_eastern_palace",
+  destination_map = "A Link to the Past/Light World/Dungeons/Eastern Palace/F1/F1_eastern_palace",
   destination = "stair_n",
 }
 
@@ -5181,5 +5181,14 @@ separator{
   y = 776,
   width = 16,
   height = 240,
+}
+
+destination{
+  name = "dest_secret",
+  layer = 2,
+  x = 640,
+  y = 909,
+  direction = 3,
+  default = true,
 }
 

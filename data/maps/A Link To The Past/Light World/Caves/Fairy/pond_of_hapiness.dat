@@ -1427,7 +1427,7 @@ teletransporter{
   y = 464,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/lake_hylia",
+  destination_map = "A Link to the Past/Light World/Overworld/lake_hylia",
   destination = "dest_cave_lake_hylia_0",
 }
 
@@ -1483,6 +1483,15 @@ pickable{
   x = 384,
   y = 117,
   treasure_name = "consumables/fairy",
+}
+
+tile{
+  layer = 1,
+  x = 232,
+  y = 216,
+  width = 48,
+  height = 56,
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -1596,9 +1605,10 @@ tile{
 destination{
   name = "dest_secret",
   layer = 2,
-  x = 256,
+  x = 384,
   y = 253,
   direction = 3,
+  default = true,
 }
 
 separator{

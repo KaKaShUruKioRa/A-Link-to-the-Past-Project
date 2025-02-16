@@ -3734,7 +3734,7 @@ tile{
   y = 144,
   width = 8,
   height = 16,
-  pattern = "6198",
+  pattern = "25",
   tileset = "out/outside_lightworld_buildings",
 }
 
@@ -5104,42 +5104,6 @@ tile{
   tileset = "out/outside_lightworld_buildings",
 }
 
-tile{
-  layer = 0,
-  x = 328,
-  y = 256,
-  width = 8,
-  height = 8,
-  pattern = "13734",
-}
-
-tile{
-  layer = 0,
-  x = 320,
-  y = 256,
-  width = 8,
-  height = 8,
-  pattern = "7286",
-}
-
-tile{
-  layer = 0,
-  x = 328,
-  y = 240,
-  width = 8,
-  height = 8,
-  pattern = "4023",
-}
-
-tile{
-  layer = 0,
-  x = 320,
-  y = 240,
-  width = 8,
-  height = 8,
-  pattern = "4024",
-}
-
 custom_entity{
   name = "stake_hammer_blacksmiths_house_0",
   layer = 0,
@@ -5178,15 +5142,6 @@ tile{
   width = 8,
   height = 8,
   pattern = "13985",
-}
-
-tile{
-  layer = 1,
-  x = 264,
-  y = 224,
-  width = 16,
-  height = 16,
-  pattern = "454",
 }
 
 tile{

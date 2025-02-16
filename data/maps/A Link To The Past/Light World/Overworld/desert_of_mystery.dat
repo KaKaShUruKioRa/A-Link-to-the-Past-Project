@@ -7246,7 +7246,7 @@ teletransporter{
   y = 176,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Dungeons/Desert Palace/B1/B1_desert_palace",
+  destination_map = "A Link to the Past/Light World/Dungeons/Desert Palace/B1/B1_desert_palace",
   destination = "entree_3",
 }
 
@@ -7374,7 +7374,7 @@ teletransporter{
   y = 296,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/desert_of_mystery_cave",
+  destination_map = "A Link to the Past/Light World/Caves/desert_of_mystery_cave",
   destination = "dest_map_desert_of_mystery_cave_0",
 }
 
@@ -15601,6 +15601,39 @@ tile{
   pattern = "1111",
 }
 
+teletransporter{
+  name = "tp_dungeon_desert_of_mystery_0",
+  layer = 1,
+  x = 296,
+  y = 56,
+  width = 16,
+  height = 16,
+  destination_map = "A Link to the Past/Light World/Dungeons/Desert Palace/F1/F1_desert_palace",
+  destination = "entree",
+}
+
+teletransporter{
+  name = "tp_dungeon_desert_of_mystery_1",
+  layer = 1,
+  x = 136,
+  y = 168,
+  width = 16,
+  height = 16,
+  destination_map = "A Link to the Past/Light World/Dungeons/Desert Palace/B1/B1_desert_palace",
+  destination = "entree_1",
+}
+
+teletransporter{
+  name = "tp_dungeon_desert_of_mystery_2",
+  layer = 1,
+  x = 456,
+  y = 168,
+  width = 16,
+  height = 16,
+  destination_map = "A Link to the Past/Light World/Dungeons/Desert Palace/B1/B1_desert_palace",
+  destination = "entree_2",
+}
+
 jumper{
   name = "jump_desert_of_mystery_20",
   layer = 1,
@@ -15670,7 +15703,7 @@ teletransporter{
   y = 944,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/swamp_of_evil",
+  destination_map = "A Link to the Past/Dark World/Overworld/A7_swamp_of_evil",
   destination = "_same",
   sprite = "entities/teletransporter_blue",
   sound = "warp",
@@ -15904,35 +15937,13 @@ jumper{
 }
 
 teletransporter{
-  name = "tp_dungeon_desert_of_mystery_0",
-  layer = 1,
-  x = 296,
-  y = 56,
-  width = 16,
-  height = 16,
-  destination_map = "A Link To The Past/Light World/Dungeons/Desert Palace/F1/F1_desert_palace",
-  destination = "entree",
-}
-
-teletransporter{
-  name = "tp_dungeon_desert_of_mystery_1",
-  layer = 1,
-  x = 136,
-  y = 168,
-  width = 16,
-  height = 16,
-  destination_map = "A Link To The Past/Light World/Dungeons/Desert Palace/B1/B1_desert_palace",
-  destination = "entree_1",
-}
-
-teletransporter{
   name = "tp_cave_desert_of_mystery_0",
   layer = 1,
   x = 712,
   y = 104,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/block_cave",
+  destination_map = "A Link to the Past/Light World/Caves/block_cave",
   destination = "dest_map_block_cave_0",
 }
 
@@ -15987,17 +15998,6 @@ destination{
   x = 720,
   y = 141,
   direction = 3,
-}
-
-teletransporter{
-  name = "tp_dungeon_desert_of_mystery_2",
-  layer = 1,
-  x = 456,
-  y = 168,
-  width = 16,
-  height = 16,
-  destination_map = "A Link To The Past/Light World/Dungeons/Desert Palace/B1/B1_desert_palace",
-  destination = "entree_2",
 }
 
 wall{
@@ -16162,7 +16162,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/plain_of_ruins_south",
+  destination_map = "A Link to the Past/Light World/Overworld/plain_of_ruins_south",
   destination = "_side",
 }
 
@@ -16174,7 +16174,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/maze_game",
+  destination_map = "A Link to the Past/Light World/Overworld/maze_game",
   destination = "_side",
 }
 
@@ -16186,7 +16186,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/library",
+  destination_map = "A Link to the Past/Light World/Overworld/library",
   destination = "_side",
 }
 
@@ -16198,15 +16198,16 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/plain_of_ruins_north",
+  destination_map = "A Link to the Past/Light World/Overworld/plain_of_ruins_north",
   destination = "_side",
 }
 
 destination{
   name = "dest_secret",
   layer = 2,
-  x = 512,
-  y = 512,
+  x = 408,
+  y = 520,
   direction = 3,
+  default = true,
 }
 

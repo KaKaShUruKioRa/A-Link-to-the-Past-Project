@@ -1436,7 +1436,7 @@ teletransporter{
   y = 464,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/death_mountain_east",
+  destination_map = "A Link to the Past/Light World/Overworld/death_mountain_east",
   destination = "dest_cave_deathmountain_east_7",
 }
 
@@ -1473,7 +1473,7 @@ teletransporter{
   y = 24,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/Death Mountain east/F2_deathmountain_east_cave_0",
+  destination_map = "A Link to the Past/Light World/Caves/Death Mountain east/F2_deathmountain_east_cave_0",
   destination = "dest_stair_F2_deathmountain_east_cave_0",
 }
 
@@ -1501,7 +1501,7 @@ teletransporter{
   y = 24,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/Death Mountain east/B1_deathmountain_east_cave_0",
+  destination_map = "A Link to the Past/Light World/Caves/Death Mountain east/B1_deathmountain_east_cave_0",
   destination = "dest_stair_B1_deathmountain_east_cave_0",
 }
 
@@ -1660,7 +1660,7 @@ tile{
 destination{
   name = "dest_secret",
   layer = 2,
-  x = 256,
+  x = 384,
   y = 253,
   direction = 3,
 }

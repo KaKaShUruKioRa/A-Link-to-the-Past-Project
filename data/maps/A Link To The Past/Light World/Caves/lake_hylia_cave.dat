@@ -1337,7 +1337,7 @@ teletransporter{
   y = 464,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/lake_hylia",
+  destination_map = "A Link to the Past/Light World/Overworld/lake_hylia",
   destination = "dest_cave_lake_hylia_1",
 }
 
@@ -1602,6 +1602,7 @@ destination{
   x = 384,
   y = 160,
   direction = 3,
+  default = true,
 }
 
 separator{

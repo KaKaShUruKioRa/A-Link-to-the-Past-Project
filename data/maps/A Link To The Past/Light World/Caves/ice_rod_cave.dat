@@ -1941,7 +1941,7 @@ teletransporter{
   y = 464,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/river_hylia_north",
+  destination_map = "A Link to the Past/Light World/Overworld/river_hylia_north",
   destination = "dest_cave_river_hylia_north_0",
 }
 
@@ -1986,7 +1986,7 @@ teletransporter{
   y = 480,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/river_hylia_north",
+  destination_map = "A Link to the Past/Light World/Overworld/river_hylia_north",
   destination = "dest_cave_river_hylia_north_1",
 }
 
@@ -2316,9 +2316,10 @@ separator{
 destination{
   name = "dest_secret",
   layer = 2,
-  x = 168,
+  x = 152,
   y = 149,
   direction = 3,
+  default = true,
 }
 
 separator{

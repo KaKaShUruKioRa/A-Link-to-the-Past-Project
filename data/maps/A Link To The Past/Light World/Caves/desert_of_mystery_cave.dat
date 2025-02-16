@@ -1139,7 +1139,7 @@ teletransporter{
   y = 464,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/desert_of_mystery",
+  destination_map = "A Link to the Past/Light World/Overworld/desert_of_mystery",
   destination = "dest_cave_desert_of_mystery_1",
 }
 
@@ -1292,9 +1292,10 @@ tile{
 destination{
   name = "dest_secret",
   layer = 2,
-  x = 256,
+  x = 144,
   y = 256,
   direction = 3,
+  default = true,
 }
 
 separator{

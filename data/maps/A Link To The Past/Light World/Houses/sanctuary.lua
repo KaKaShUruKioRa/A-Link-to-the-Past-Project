@@ -1,4 +1,4 @@
--- Lua script of map A Link To The Past/Light World/Houses/sanctuary.
+-- Lua script of map A Link to the Past/Light World/Houses/sanctuary.
 -- This script is executed every time the hero enters this map.
 
 -- Feel free to modify the code below.

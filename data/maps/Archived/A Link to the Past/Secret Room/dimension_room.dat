@@ -4095,6 +4095,17 @@ wall{
   stops_blocks = true,
 }
 
+teletransporter{
+  name = "tp_blueprint_placeholder_map",
+  layer = 0,
+  x = 448,
+  y = 240,
+  width = 16,
+  height = 16,
+  destination_map = "Archived/Autres/blue_print/A Link to the Past/World/Overworld/COORDONNEE_MAPNAME",
+  destination = "dest_secret",
+}
+
 tile{
   layer = 1,
   x = 56,

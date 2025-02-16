@@ -693,7 +693,7 @@ teletransporter{
   y = 424,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/eastern_ruins",
+  destination_map = "A Link to the Past/Light World/Overworld/eastern_ruins",
   destination = "dest_house_eastern_ruins_0",
 }
 
@@ -960,6 +960,7 @@ destination{
   x = 128,
   y = 301,
   direction = 3,
+  default = true,
 }
 
 separator{

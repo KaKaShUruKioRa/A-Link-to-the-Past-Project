@@ -748,7 +748,7 @@ teletransporter{
   y = 1512,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/desert_of_mystery",
+  destination_map = "A Link to the Past/Light World/Overworld/desert_of_mystery",
   destination = "dest_dungeon_desert_of_mystery_0",
 }
 
@@ -937,7 +937,7 @@ teletransporter{
   y = 1064,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Dungeons/Desert Palace/F2/F2_desert_palace",
+  destination_map = "A Link to the Past/Light World/Dungeons/Desert Palace/F2/F2_desert_palace",
   destination = "stair",
 }
 
@@ -1774,5 +1774,14 @@ enemy{
   },
   direction = 3,
   breed = "traps/evil_tile",
+}
+
+destination{
+  name = "dest_secret",
+  layer = 2,
+  x = 640,
+  y = 1349,
+  direction = 3,
+  default = true,
 }
 

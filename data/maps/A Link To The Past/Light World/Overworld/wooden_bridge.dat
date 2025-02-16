@@ -3642,7 +3642,7 @@ tile{
   x = 464,
   y = 192,
   width = 8,
-  height = 120,
+  height = 128,
   pattern = "454",
 }
 
@@ -6593,7 +6593,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/hyrule_castle",
+  destination_map = "A Link to the Past/Light World/Overworld/hyrule_castle",
   destination = "_side",
 }
 
@@ -6605,7 +6605,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/plain_of_rocks",
+  destination_map = "A Link to the Past/Light World/Overworld/plain_of_rocks",
   destination = "_side",
 }
 
@@ -6617,7 +6617,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/eastern_ruins",
+  destination_map = "A Link to the Past/Light World/Overworld/eastern_ruins",
   destination = "_side",
 }
 
@@ -6629,15 +6629,16 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/wooden_bridge_north",
+  destination_map = "A Link to the Past/Light World/Overworld/wooden_bridge_north",
   destination = "_side",
 }
 
 destination{
   name = "dest_secret",
   layer = 2,
-  x = 248,
-  y = 248,
+  x = 216,
+  y = 216,
   direction = 3,
+  default = true,
 }
 

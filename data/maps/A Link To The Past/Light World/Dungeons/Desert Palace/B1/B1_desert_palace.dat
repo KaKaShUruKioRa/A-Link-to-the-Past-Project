@@ -7904,7 +7904,7 @@ teletransporter{
   y = 2024,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/desert_of_mystery",
+  destination_map = "A Link to the Past/Light World/Overworld/desert_of_mystery",
   destination = "dest_dungeon_desert_of_mystery_3",
 }
 
@@ -7933,7 +7933,7 @@ teletransporter{
   y = 2024,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/desert_of_mystery",
+  destination_map = "A Link to the Past/Light World/Overworld/desert_of_mystery",
   destination = "dest_dungeon_desert_of_mystery_1",
 }
 
@@ -7962,7 +7962,7 @@ teletransporter{
   y = 2024,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/desert_of_mystery",
+  destination_map = "A Link to the Past/Light World/Overworld/desert_of_mystery",
   destination = "dest_dungeon_desert_of_mystery_2",
 }
 
@@ -11344,5 +11344,14 @@ enemy{
   },
   direction = 3,
   breed = "traps/cannon",
+}
+
+destination{
+  name = "dest_secret",
+  layer = 2,
+  x = 760,
+  y = 1357,
+  direction = 3,
+  default = true,
 }
 

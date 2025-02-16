@@ -5073,7 +5073,7 @@ teletransporter{
   y = 216,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/blacksmiths_cave",
+  destination_map = "A Link to the Past/Light World/Caves/blacksmiths_cave",
   destination = "dest_map_blacksmiths_cave_0",
 }
 
@@ -5107,7 +5107,7 @@ teletransporter{
   y = 248,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/blacksmiths_cave",
+  destination_map = "A Link to the Past/Light World/Caves/blacksmiths_cave",
   destination = "dest_hole_blacksmiths_cave_0",
 }
 
@@ -5118,7 +5118,7 @@ teletransporter{
   y = 128,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Houses/blacksmiths_house",
+  destination_map = "A Link to the Past/Light World/Houses/blacksmiths_house",
   destination = "dest_map_blacksmiths_house_0",
 }
 
@@ -5702,7 +5702,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/kakariko_village",
+  destination_map = "A Link to the Past/Light World/Overworld/kakariko_village",
   destination = "_side",
 }
 
@@ -5714,7 +5714,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/hyrule_castle",
+  destination_map = "A Link to the Past/Light World/Overworld/hyrule_castle",
   destination = "_side",
 }
 
@@ -5726,7 +5726,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/hyrule_forest",
+  destination_map = "A Link to the Past/Light World/Overworld/hyrule_forest",
   destination = "_side",
 }
 
@@ -5738,15 +5738,16 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/haunted_grove",
+  destination_map = "A Link to the Past/Light World/Overworld/haunted_grove",
   destination = "_side",
 }
 
 destination{
   name = "dest_secret",
   layer = 2,
-  x = 256,
-  y = 256,
+  x = 224,
+  y = 312,
   direction = 3,
+  default = true,
 }
 

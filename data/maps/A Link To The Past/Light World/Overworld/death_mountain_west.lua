@@ -146,6 +146,14 @@ function warp_death_mountain_west_0:on_activated()
   hero:teleport(game:get_map():get_id(), "_same", "fade")
 end
 
+function npc_ether_stele_death_mountain_west_0:on_interaction()
+  if game:has_item("equipment/book_of_mudora") then
+    game:start_dialog("uncrypted.ether_stele")
+  else
+    game:start_dialog("crypted.ether_stele")
+  end  
+end
+
 -- Event called after the opening transition effect of the map,
 -- that is, when the player takes control of the hero.
 function map:on_opening_transition_finished(destination)

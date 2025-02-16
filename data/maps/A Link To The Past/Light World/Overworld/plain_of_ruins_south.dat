@@ -3482,7 +3482,7 @@ teletransporter{
   y = 328,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/plain_of_ruins_south_cave",
+  destination_map = "A Link to the Past/Light World/Caves/plain_of_ruins_south_cave",
   destination = "dest_map_plain_of_ruins_south_cave_0",
 }
 
@@ -3514,7 +3514,7 @@ teletransporter{
   y = 56,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/Fairy/plain_of_ruins_south_fairy_cave",
+  destination_map = "A Link to the Past/Light World/Caves/Fairy/plain_of_ruins_south_fairy_cave",
   destination = "dest_map_plain_of_ruins_south_fairy_cave_0",
 }
 
@@ -6294,7 +6294,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/desert_of_mystery",
+  destination_map = "A Link to the Past/Light World/Overworld/desert_of_mystery",
   destination = "_side",
 }
 
@@ -6306,7 +6306,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/great_swamp",
+  destination_map = "A Link to the Past/Light World/Overworld/great_swamp",
   destination = "_side",
 }
 
@@ -6318,16 +6318,17 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/plain_of_ruins_north",
+  destination_map = "A Link to the Past/Light World/Overworld/plain_of_ruins_north",
   destination = "_side",
 }
 
 destination{
   name = "dest_secret",
   layer = 2,
-  x = 256,
-  y = 248,
+  x = 248,
+  y = 224,
   direction = 3,
+  default = true,
 }
 
 enemy{

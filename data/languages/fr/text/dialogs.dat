@@ -165,12 +165,60 @@ fermées à clé !
 }
 
 dialog{
+  id = "_treasure.equipment/bombos_medallion.1",
+  text = [[
+This is the Bombos Medallion! $0
+Its magic makes the ground
+explode with power!
+Watch your Magic Meter!
+]],
+}
+
+dialog{
   id = "_treasure.equipment/book_of_mudora.1",
   text = [[
 Tu as trouvé le Livre de
 Mudora ! Il te permet de
 déchiffrer l'ancienne langue
 des Hyliens !
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/cane_of_byrna.1",
+  text = [[
+You got the Cane Of Byrna! $0
+If you swing it once, a ring of
+light will protect you!
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/cane_of_somaria.1",
+  text = [[
+You got the Cane Of Somaria! $0
+It will be very helpful if you
+make proper use of it!
+What a mysterious cane!
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/ether_medallion.1",
+  text = [[
+This is the Ether Medallion! $0
+Its magic controls the upper
+atmosphere and polar wind!
+Watch your Magic Meter!
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/fire_rod.1",
+  text = [[
+You found the Fire Rod! $0
+This rod commands the red fire!
+But watch your Magic Meter!
 ]],
 }
 
@@ -184,6 +232,15 @@ profonde !
 }
 
 dialog{
+  id = "_treasure.equipment/flute.1",
+  text = [[
+Oh! Here is the Flute! $0
+Its music surely has some
+mysterious power!
+]],
+}
+
+dialog{
   id = "_treasure.equipment/glove.1",
   text = [[
 Tu as récupéré le Gant de la
@@ -193,9 +250,29 @@ la force dans tes mains.
 }
 
 dialog{
+  id = "_treasure.equipment/glove.2",
+  text = [[
+You got the Titan's Mitt! $0
+Now you can lift the heaviest
+stones that were once
+impossible to budge.
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/hookshot.1",
+  text = [[
+BOING! This is the Hook Shot! $0
+It extends and contracts and...
+BOING! It can grapple many
+things!
+]],
+}
+
+dialog{
   id = "_treasure.equipment/moon_pearl.1",
   text = [[
-Tu as trouvé la Perle de Lune !
+Tu as trouvé la Perle de Lune ! $0
 Elle protége le Héros des
 effets changeants du
 Pouvoir d'Or !
@@ -215,38 +292,56 @@ un court instant.
 }
 
 dialog{
+  id = "_treasure.equipment/quake_medallion.1",
+  text = [[
+This is the Quake Medallion! $0
+Its magic causes the ground
+to shake and defeats
+nearby enemies!
+Watch your Magic Meter!
+]],
+}
+
+dialog{
   id = "_treasure.equipment/shield.1",
   text = [[
-Tu as trouvé
-un Bouclier de Merde !
-Te voici prêt à rater tes esquives !
+Tu as trouvé un Bouclier ! $0
 ]],
 }
 
 dialog{
   id = "_treasure.equipment/shield.2",
   text = [[
-Tu as trouvé
-un Bouclier de Merde !
-Te voici prêt à rater tes esquives !
+Your shield is improved!
+Now you can defend yourself
+against fireballs!
 ]],
 }
 
 dialog{
   id = "_treasure.equipment/shield.3",
   text = [[
-Tu as trouvé
-un Bouclier de Merde !
-Te voici prêt à rater tes esquives !
+You found the Mirror Shield!
+You can now reflect beams
+that your old shield
+couldn't block!
 ]],
 }
 
 dialog{
   id = "_treasure.equipment/sword.3",
   text = [[
-Tu as trouvé l'Epée de Merde !
-Te voici prêt à couper des putains
-de buisson !
+Your sword is tempered-up!
+Now hold it!
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/sword.4",
+  text = [[
+Your sword is stronger!
+You can feel its power
+throbbing in your hand!
 ]],
 }
 
@@ -337,14 +432,11 @@ jusqu'à ce que tu n'en aies plus.
 dialog{
   id = "_treasure.inventory/hammer.1",
   text = [[
-Tu reçois le marteau béni des fées !
-Tu ne deviendras pas forgeron avec
-ça...
-Néanmois tu peux t'en servir pour
-frapper  tes ennemis ou abaisser
-des plots !
-Certains ennemis peuvent même
-en être complétement retournés.
+You got the Magic Hammer! $0
+You can drive the wooden
+stakes down into the ground!
+You can use it to pound on
+other things too!
 ]],
 }
 
@@ -352,7 +444,7 @@ dialog{
   id = "_treasure.inventory/ice_rod.1",
   text = [[
 Tu as trouvé la Baguette de
-Glace ! Ses bourrasques
+Glace ! $0 Ses bourrasques
 magiques glacent l'air.
 Mais surveille ton Compteur 
 Magique !
@@ -435,11 +527,29 @@ utiliser cet objet maintenant.
 }
 
 dialog{
+  id = "crypted.bombos_stele",
+  text = [[
+     †»†§†»†§†»»»»†§†»†§
+     †§††»†§†»†§
+     †»†§††»†§§»††§
+]],
+}
+
+dialog{
   id = "crypted.desert_stone",
   text = [[
       |}|{|}|{|{|
       |{|}|}|{|}
      ||{|}{|{{}|
+]],
+}
+
+dialog{
+  id = "crypted.ether_stele",
+  text = [[
+     {}{}{}{}{}{}{{{}
+     {|}}|{|}{|}{|}|{
+     }{}{}{}|}|
 ]],
 }
 
@@ -990,6 +1100,24 @@ normal, n'est-ce pas ?
 }
 
 dialog{
+  id = "npc.saharaslara.master_sword",
+  text = [[
+Soudain Sahasrahla te 
+contacte par télépathie.
+{Link}, c'est merveilleux que
+tu aies trouvé Excalibur 
+qui fait battre en retraite le 
+Démon. Avec cette épée étin-
+celante, je pense que tu 
+peux dévier les pouvoirs 
+diaboliques du sorcier.
+Le destin de cette terre est 
+entre tes main.
+Je t'en supplie ! {Link}.
+]],
+}
+
+dialog{
   id = "npc.sahasrahla.first_meeting",
   text = [[
 Je suis bien Sahasrahla,
@@ -1237,11 +1365,29 @@ N'oublie pas la Perle de Lune !
 }
 
 dialog{
+  id = "uncrypted.bombos_stele",
+  text = [[
+Hold up the Master Sword and
+you will get the magic of
+Bombos.
+]],
+}
+
+dialog{
   id = "uncrypted.desert_stone",
   text = [[
 Pour t'ouvrir un chemin,
 fais une pière
 et elle sera exaucée.
+]],
+}
+
+dialog{
+  id = "uncrypted.ether_stele",
+  text = [[
+Lève Excalibur et
+tu obtiendras la Magie de
+l'Ether.
 ]],
 }
 
@@ -1255,24 +1401,6 @@ obtiendra.
 Excalibur retrouvera,
 préservant la pureté de
 la lignée des Chevaliers.
-]],
-}
-
-dialog{
-  id = "npc.saharaslara.master_sword",
-  text = [[
-Soudain Sahasrahla te 
-contacte par télépathie.
-{Link}, c'est merveilleux que
-tu aies trouvé Excalibur 
-qui fait battre en retraite le 
-Démon. Avec cette épée étin-
-celante, je pense que tu 
-peux dévier les pouvoirs 
-diaboliques du sorcier.
-Le destin de cette terre est 
-entre tes main.
-Je t'en supplie ! {Link}.
 ]],
 }
 

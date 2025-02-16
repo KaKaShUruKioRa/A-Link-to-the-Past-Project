@@ -17334,16 +17334,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 376,
-  y = 736,
-  width = 16,
-  height = 16,
-  pattern = "8314",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 0,
   x = 352,
   y = 808,
   width = 16,
@@ -17873,7 +17863,7 @@ teletransporter{
   y = 80,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/great_swamp",
+  destination_map = "A Link to the Past/Dark World/Overworld/D7_great_swamp",
   destination = "_same",
   sprite = "entities/teletransporter_blue",
   sound = "warp",
@@ -17886,7 +17876,7 @@ teletransporter{
   y = 288,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/wooden_bridge_north",
+  destination_map = "A Link to the Past/Light World/Overworld/wooden_bridge_north",
   destination = "dest_vortex_wooden_bridge_north_0",
   sprite = "entities/teletransporter_vortex",
   sound = "warp",
@@ -29035,19 +29025,19 @@ teletransporter{
   y = 112,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/great_swamp_cave",
+  destination_map = "A Link to the Past/Light World/Caves/great_swamp_cave",
   destination = "dest_map_great_swamp_cave_0",
 }
 
 teletransporter{
-  name = "tp_dungeon_great_swamp_0",
+  name = "tp_cave_great_swamp_1",
   layer = 0,
   x = 376,
-  y = 752,
+  y = 744,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/great_swamp",
-  destination = "dest_dungeon_great_swamp_0",
+  destination_map = "A Link to the Past/Light World/Overworld/great_swamp",
+  destination = "dest_cave_great_swamp_1",
 }
 
 custom_entity{
@@ -29293,6 +29283,14 @@ enemy{
   direction = 3,
   breed = "light_world/octorok",
   treasure_name = "prize_packs/1",
+}
+
+destination{
+  name = "dest_cave_great_swamp_1",
+  layer = 0,
+  x = 384,
+  y = 773,
+  direction = 3,
 }
 
 tile{
@@ -33431,6 +33429,16 @@ tile{
   tileset = "out/outside_lightworld_buildings",
 }
 
+tile{
+  layer = 1,
+  x = 376,
+  y = 736,
+  width = 16,
+  height = 16,
+  pattern = "8314",
+  tileset = "out/outside_lightworld_buildings",
+}
+
 enemy{
   name = "crow_great_swamp_1",
   layer = 1,
@@ -33477,7 +33485,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/plain_of_ruins_north",
+  destination_map = "A Link to the Past/Light World/Overworld/plain_of_ruins_north",
   destination = "_side",
 }
 
@@ -33489,7 +33497,7 @@ teletransporter{
   width = 8,
   height = 1024,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/lake_hylia",
+  destination_map = "A Link to the Past/Light World/Overworld/lake_hylia",
   destination = "_side",
 }
 
@@ -33501,7 +33509,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/link_forest",
+  destination_map = "A Link to the Past/Light World/Overworld/link_forest",
   destination = "_side",
 }
 
@@ -33513,7 +33521,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/link_house",
+  destination_map = "A Link to the Past/Light World/Overworld/link_house",
   destination = "_side",
 }
 
@@ -33523,6 +33531,7 @@ destination{
   x = 568,
   y = 568,
   direction = 3,
+  default = true,
 }
 
 teletransporter{
@@ -33533,7 +33542,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/plain_of_ruins_south",
+  destination_map = "A Link to the Past/Light World/Overworld/plain_of_ruins_south",
   destination = "_side",
 }
 
@@ -33557,10 +33566,3 @@ enemy{
   treasure_name = "prize_packs/1",
 }
 
-destination{
-  name = "dest_dungeon_great_swamp_0",
-  layer = 0,
-  x = 384,
-  y = 781,
-  direction = 3,
-}

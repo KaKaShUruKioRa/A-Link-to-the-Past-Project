@@ -4827,7 +4827,7 @@ teletransporter{
   y = 368,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/deadend_east",
+  destination_map = "A Link to the Past/Dark World/Overworld/H6_deadend_east",
   destination = "_same",
   sprite = "entities/teletransporter_blue",
   sound = "warp",
@@ -5049,7 +5049,7 @@ teletransporter{
   y = 296,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/Fairy/deadend_east_fairy_cave",
+  destination_map = "A Link to the Past/Light World/Caves/Fairy/deadend_east_fairy_cave",
   destination = "dest_map_deadend_east_fairy_cave_0",
 }
 
@@ -6962,7 +6962,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/eastern_ruins",
+  destination_map = "A Link to the Past/Light World/Overworld/eastern_ruins",
   destination = "_side",
 }
 
@@ -6974,7 +6974,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/plain_hylia",
+  destination_map = "A Link to the Past/Light World/Overworld/plain_hylia",
   destination = "_side",
 }
 
@@ -6986,7 +6986,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/river_hylia_north",
+  destination_map = "A Link to the Past/Light World/Overworld/river_hylia_north",
   destination = "_side",
 }
 
@@ -6996,5 +6996,6 @@ destination{
   x = 256,
   y = 256,
   direction = 3,
+  default = true,
 }
 

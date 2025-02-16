@@ -15,7 +15,7 @@ function item:on_using()
     sol.audio.play_sound("warp")
     hero:teleport(game:get_starting_location())
   
-  elseif map:get_id() == "A Link To The Past/Light World/Overworld/death_mountain_west" and map:get_tileset() == "out/outside_darkworld_main" then
+  elseif map:get_id() == "A Link to the Past/Light World/Overworld/death_mountain_west" and map:get_tileset() == "out/outside_darkworld_main" then
     sol.audio.play_sound("world_warp")
 
     hero:teleport(game:get_map():get_id(), "_same")

@@ -1751,7 +1751,7 @@ teletransporter{
   y = 488,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/hyrule_castle",
+  destination_map = "A Link to the Past/Light World/Overworld/hyrule_castle",
   destination = "dest_cave_hyrule_castle_0",
 }
 
@@ -1901,5 +1901,14 @@ separator{
   y = 248,
   width = 528,
   height = 16,
+}
+
+destination{
+  name = "dest_secret",
+  layer = 2,
+  x = 128,
+  y = 357,
+  direction = 3,
+  default = true,
 }
 

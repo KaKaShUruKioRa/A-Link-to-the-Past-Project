@@ -2956,22 +2956,21 @@ tile{
 
 tile{
   layer = 0,
-  x = 224,
-  y = 232,
-  width = 16,
-  height = 8,
-  pattern = "6154",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 0,
   x = 440,
   y = 368,
   width = 16,
   height = 16,
   pattern = "6008",
   tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 232,
+  width = 16,
+  height = 8,
+  pattern = "17",
 }
 
 destructible{
@@ -3534,7 +3533,7 @@ teletransporter{
   y = 368,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Houses/twins_house",
+  destination_map = "A Link to the Past/Light World/Houses/twins_house",
   destination = "dest_map_twins_house_0",
 }
 
@@ -3549,7 +3548,7 @@ destination{
 npc{
   name = "red_lady",
   layer = 0,
-  x = 408,
+  x = 472,
   y = 397,
   direction = 3,
   subtype = 1,
@@ -5495,7 +5494,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/desert_of_mystery",
+  destination_map = "A Link to the Past/Light World/Overworld/desert_of_mystery",
   destination = "_side",
 }
 
@@ -5507,7 +5506,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/library",
+  destination_map = "A Link to the Past/Light World/Overworld/library",
   destination = "_side",
 }
 
@@ -5519,15 +5518,16 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/kakariko_village",
+  destination_map = "A Link to the Past/Light World/Overworld/kakariko_village",
   destination = "_side",
 }
 
 destination{
   name = "dest_secret",
   layer = 2,
-  x = 264,
+  x = 232,
   y = 224,
   direction = 3,
+  default = true,
 }
 

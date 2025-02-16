@@ -2381,7 +2381,7 @@ teletransporter{
   y = 1064,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Dungeons/Desert Palace/F1/F1_desert_palace",
+  destination_map = "A Link to the Past/Light World/Dungeons/Desert Palace/F1/F1_desert_palace",
   destination = "stair",
 }
 
@@ -4203,5 +4203,14 @@ dynamic_tile{
   width = 24,
   height = 24,
   pattern = "wall.corner.1-2",
+}
+
+destination{
+  name = "dest_secret",
+  layer = 2,
+  x = 944,
+  y = 1325,
+  direction = 3,
+  default = true,
 }
 

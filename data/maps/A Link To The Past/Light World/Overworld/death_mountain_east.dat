@@ -23791,7 +23791,7 @@ teletransporter{
   y = 248,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/Death Mountain East/F2_deathmountain_east_cave_0",
+  destination_map = "A Link to the Past/Light World/Caves/Death Mountain East/F2_deathmountain_east_cave_0",
 }
 
 teletransporter{
@@ -23801,7 +23801,7 @@ teletransporter{
   y = 360,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/Death Mountain East/F2_spiral_cave",
+  destination_map = "A Link to the Past/Light World/Caves/Death Mountain East/F2_spiral_cave",
   destination = "dest_map_F2_spiral_cave_0",
 }
 
@@ -23812,7 +23812,7 @@ teletransporter{
   y = 360,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/Death Mountain East/turtle_rock_cave",
+  destination_map = "A Link to the Past/Light World/Caves/Death Mountain East/turtle_rock_cave",
   destination = "dest_map_turtle_cave_0",
 }
 
@@ -23823,7 +23823,7 @@ teletransporter{
   y = 456,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/Death Mountain East/F2_deathmountain_east_middle_cave",
+  destination_map = "A Link to the Past/Light World/Caves/Death Mountain East/F2_deathmountain_east_middle_cave",
   destination = "dest_map_F2_deathmountain_east_middle_0",
 }
 
@@ -23834,7 +23834,7 @@ teletransporter{
   y = 520,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/Death Mountain East/F1_spiral_cave",
+  destination_map = "A Link to the Past/Light World/Caves/Death Mountain East/F1_spiral_cave",
   destination = "dest_map_F1_spiral_cave_0",
 }
 
@@ -23845,7 +23845,7 @@ teletransporter{
   y = 552,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/Death Mountain East/F1_deathmountain_east_middle_cave",
+  destination_map = "A Link to the Past/Light World/Caves/Death Mountain East/F1_deathmountain_east_middle_cave",
   destination = "dest_map_F1_deathmountain_east_middle_0",
 }
 
@@ -23856,7 +23856,7 @@ teletransporter{
   y = 584,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/Fairy/deathmountain_east_fairy_cave",
+  destination_map = "A Link to the Past/Light World/Caves/Fairy/deathmountain_east_fairy_cave",
   destination = "dest_map_deathmountain_east_fairy_cave_0",
 }
 
@@ -23867,7 +23867,7 @@ teletransporter{
   y = 584,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/Death Mountain East/F1_deathmountain_east_cave_0",
+  destination_map = "A Link to the Past/Light World/Caves/Death Mountain East/F1_deathmountain_east_cave_0",
 }
 
 teletransporter{
@@ -23877,7 +23877,7 @@ teletransporter{
   y = 872,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/Death Mountain East/B1_deathmountain_east_cave_0",
+  destination_map = "A Link to the Past/Light World/Caves/Death Mountain East/B1_deathmountain_east_cave_0",
 }
 
 custom_entity{
@@ -25363,7 +25363,7 @@ teletransporter{
   width = 8,
   height = 1024,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/death_mountain_west",
+  destination_map = "A Link to the Past/Light World/Overworld/death_mountain_west",
   destination = "_side",
 }
 
@@ -25375,7 +25375,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/wooden_bridge_north",
+  destination_map = "A Link to the Past/Light World/Overworld/wooden_bridge_north",
   destination = "_side",
 }
 
@@ -25387,7 +25387,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/turtle_rock",
+  destination_map = "A Link to the Past/Light World/Overworld/turtle_rock",
   destination = "_side",
 }
 
@@ -25399,7 +25399,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/magic_shop",
+  destination_map = "A Link to the Past/Light World/Overworld/magic_shop",
   destination = "_side",
 }
 
@@ -25411,15 +25411,16 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/waterfall_of_wishing",
+  destination_map = "A Link to the Past/Light World/Overworld/waterfall_of_wishing",
   destination = "_side",
 }
 
 destination{
   name = "dest_secret",
   layer = 2,
-  x = 512,
-  y = 512,
+  x = 784,
+  y = 296,
   direction = 3,
+  default = true,
 }
 

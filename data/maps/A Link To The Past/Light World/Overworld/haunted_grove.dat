@@ -5679,7 +5679,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/library",
+  destination_map = "A Link to the Past/Light World/Overworld/library",
   destination = "_side",
 }
 
@@ -5691,7 +5691,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/plain_of_ruins_north",
+  destination_map = "A Link to the Past/Light World/Overworld/plain_of_ruins_north",
   destination = "_side",
 }
 
@@ -5703,7 +5703,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/link_forest",
+  destination_map = "A Link to the Past/Light World/Overworld/link_forest",
   destination = "_side",
 }
 
@@ -5715,15 +5715,16 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/blacksmiths_house",
+  destination_map = "A Link to the Past/Light World/Overworld/blacksmiths_house",
   destination = "_side",
 }
 
 destination{
   name = "dest_secret",
   layer = 2,
-  x = 256,
-  y = 256,
+  x = 216,
+  y = 352,
   direction = 3,
+  default = true,
 }
 

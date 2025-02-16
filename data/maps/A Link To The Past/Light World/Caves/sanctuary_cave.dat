@@ -1391,7 +1391,7 @@ teletransporter{
   y = 464,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/sanctuary",
+  destination_map = "A Link to the Past/Light World/Overworld/sanctuary",
   destination = "dest_cave_sanctuary_0",
 }
 
@@ -1541,9 +1541,10 @@ tile{
 destination{
   name = "dest_secret",
   layer = 2,
-  x = 256,
+  x = 384,
   y = 256,
   direction = 3,
+  default = true,
 }
 
 separator{

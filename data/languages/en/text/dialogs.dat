@@ -1,829 +1,1389 @@
 dialog{
-  id = "Dungeon1.ArrowSecret",
-  text = [[
-Looks like something...
-moved somewhere in the dungeon... 
-]],
-}
-
-dialog{
-  id = "Dungeon1.GreatFairy.Ask",
-  text = [[
-Hello young hero!
-         What is your visit worth to me?
-         $? I need care
-     $? Do you have something for me 
-]],
-}
-
-dialog{
-  id = "Dungeon1.GreatFairy.GiveItem",
-  text = [[
-Here it is !
-It's a very powerful hammer,
-blessed by the fairies which gives it a
-immeasurable strength. 
-]],
-}
-
-dialog{
-  id = "Dungeon1.GreatFairy.Heal",
-  text = [[
-I will heal your wounds young hero ...
-
-You really need it! 
-]],
-}
-
-dialog{
-  id = "Dungeon1.GreatFairy.NoMoreItem",
-  text = [[
-Sorry young hero,
-I unfortunately have nothing more to offer you.
-I can only wish you
-good fortune in your quest!
-Also, don't hesitate to come and see me,
-when you're hurt ...
-
-I will heal your wounds. 
-]],
-}
-
-dialog{
-  id = "Dungeon1.GreatFairy.Search",
-  text = [[
-It turns out that I keep a treasure
-in the fountain...
-just time for me
-to look for it... 
-]],
-}
-
-dialog{
-  id = "Dungeon1.GreatFairy.UselessHeal",
-  text = [[
-Come back to me when you have some
-really need young hero.
-
-So I'll be there to heal your wounds. 
-]],
-}
-
-dialog{
-  id = "Indices.HelpCondamned",
-  text = [[
-Hint :
-
-It is possible that some safes are
-definitively condemned by traps. 
-]],
-}
-
-dialog{
-  id = "Indices.HelpFragile",
-  text = [[
-Hint:
-
-If you find fragile areas maybe
-that with a little weight they can give way. 
-]],
-}
-
-dialog{
-  id = "Indices.HelpGourou",
-  text = [[
-Hint:
-
-Don't anger the Supreme Grand Chief.
-Take the time to think it over! 
-]],
-}
-
-dialog{
-  id = "Indices.HelpLie",
-  text = [[
-Hint:
-
-There are lies in this dungeon.
-All is not what it seems. 
-]],
-}
-
-dialog{
-  id = "Indices.HelpLocked",
-  text = [[
-Hint:
-
-If you're stuck push the block
-to where you can.
-]],
-}
-
-dialog{
-  id = "Indices.HelpMaxLife",
-  text = [[
-Index :
-
-Does this dungeon seem extremely dangerous?
-Come back healthier...
-]],
-}
-
-dialog{
-  id = "Indices.HelpTriforce",
-  text = [[
-Hint:
-
-The triforce is waiting for something! 
-]],
-}
-
-dialog{
-  id = "Indices.HitHeart",
-  text = [[
-Hint :
-
-Strike right in the heart! 
-]],
-}
-
-dialog{
-  id = "Indices.IndiceQuestion",
-  text = [[
-Do you want to activate this hint?
-
-                    $? Yes
-                    $? No 
-]],
-}
-
-dialog{
-  id = "Intro_World_Good.Cave_Sewer",
-  text = [[
-Access to sewers:
-
-Dangerous zone ! Do not enter without
-a guide.
-]],
-}
-
-dialog{
-  id = "Intro_World_Good.House_Link",
-  text = [[
-Link's House:
-
-Push the door and enter. 
-]],
-}
-
-dialog{
-  id = "Intro_World_Good.NGuard",
-  text = [[
-But where do you come from? 
-]],
-}
-
-dialog{
-  id = "Intro_World_Good.No_Trepassing",
-  text = [[
-Sorry, but you can't pass!
-
-I can't tell you more!
-Please move on! 
-]],
-}
-
-dialog{
-  id = "Intro_World_Good.Pulling_Guard",
-  text = [[
-I finally managed to unlock this cave ...
-
-Pfiou ... I can't take it anymore. 
-]],
-}
-
-dialog{
-  id = "Intro_World_Good.SGuard",
-  text = [[
-We were ordered
-to let people circulate
-$ 0
-$ 3 Please circulate now ... 
-]],
-}
-
-dialog{
   id = "NoBigKey",
+  skip = "all",
   text = [[
-You can't open it ...
-You need the big key for that!
+Eh? It's locked!
+If you had the Big Key, you
+might be able to open it!
 ]],
 }
 
 dialog{
   id = "NoRupees",
   text = [[
-You can't open it ...
-You need more Rubies for that!
+Hey kid!
+You can open a chest after
+paying Rupees!
 ]],
 }
 
 dialog{
   id = "NoSmallKey",
   text = [[
-You can't open it ...
-You need a small key for that!
-]],
-}
-
-dialog{
-  id = "World_Good.Guard",
-  text = [[
-Ho ... the weather is nice now!
-
-I think I can relax from now on !
-]],
-}
-
-dialog{
-  id = "World_Good.Sewer.EndGame",
-  text = [[
-Congratulations to you !
-You have completed the game.
-You can continue walking around if you wish
-but there is not much more.
-]],
-}
-
-dialog{
-  id = "World_Good.Sewer.RupeeDoor",
-  text = [[
-Insert 20 Rupees by pulling the door!
-
-Yes, that's it, pull the door! 
+You can't open it...  
+You need a small key for that !
 ]],
 }
 
 dialog{
   id = "_bush",
   text = [[
-You can lift the bushes,
-where to cut them well with your sword!
 ]],
 }
 
 dialog{
   id = "_crystal",
   text = [[
-Hit the cristal with your, 
-or something else !
-By doing this, you will raise the plots
-and lower others.
 ]],
 }
 
 dialog{
   id = "_shop.amount_full",
   text = [[
-Tu ne peux en acheter plus !
+You can't carry any more
+now, but you may need
+some later!
+]],
+}
 
-Tu es déjà plein.
+dialog{
+  id = "_shop.no_bottle",
+  text = [[
+No no no... I can't sell the
+merchandise because you don't
+have an empty bottle.
 ]],
 }
 
 dialog{
   id = "_shop.not_enough_money",
   text = [[
-Tu n'as pas assez d'argent !
-
-Qui essaies-tu d'arnaquer là ?...
+I'm sorry, but you don't
+seem to have enough Rupees...
 ]],
 }
 
 dialog{
   id = "_shop.question",
   text = [[
-Prix : $v rubis.
-           $? Acheter !
-           $? Ne pas acheter !
+Prix : $v rupees.
+           $? Buy !
+           $? Do not Buy !
 ]],
 }
 
 dialog{
   id = "_treasure.consumables/heart.1",
   text = [[
-You get a Heart!
-
-It gives you back a heart. 
-]],
-}
-
-dialog{
-  id = "_treasure.consumables/heart_container.1",
-  text = [[
-You get a Heart Container!
-
-It increases your heart total. 
+Thank you very much.
+You can recover one Heart.
 ]],
 }
 
 dialog{
   id = "_treasure.consumables/piece_of_heart.1",
   text = [[
-You get a Piece of Heart!
+You found a piece of Heart!
 
-When you have gathered four
-you will get an additional Heart. 
+
+When you have collected
+four you will get
+an additional Heart.
 ]],
 }
 
 dialog{
   id = "_treasure.consumables/rupee.1",
   text = [[
-You found a Green Ruby! 
+You found a Green Rupee !
 ]],
 }
 
 dialog{
   id = "_treasure.consumables/rupee.2",
   text = [[
-You found a Blue Ruby!
-
-It is worth 5 Green Rubies! 
+You found a Blue Rupee !
+His value is 5 Rupees !
 ]],
 }
 
 dialog{
   id = "_treasure.consumables/rupee.3",
   text = [[
-You found a Red Ruby!
-
-It is worth 20 Red Rubies! 
+You found a Red Rupee !
+His value is 20 Rupees !
 ]],
 }
 
 dialog{
   id = "_treasure.consumables/rupee.4",
   text = [[
-You found 50 Rubies! 
+You found 50 Rupees !
 ]],
 }
 
 dialog{
   id = "_treasure.consumables/rupee.5",
   text = [[
-You found 100 Rubies! 
+You found 100 Rupees !
 ]],
 }
 
 dialog{
   id = "_treasure.consumables/rupee.6",
   text = [[
-You found 300 Rubies! 
+You found 300 Rupees !
 ]],
 }
 
 dialog{
   id = "_treasure.dungeons/big_key.1",
   text = [[
-You got the big key!
-
-With this you can open the big chest
-as well as the door of the Great Door of the Boss! 
+You got the Big Key! $0
+This is the master key of the
+dungeon. It can open many
+locks that small keys cannot.
 ]],
 }
 
 dialog{
   id = "_treasure.dungeons/compass.1",
   text = [[
-You got the Dungeon Compass!
-
-Thanks to her you can know your position in
-the dungeon as well as the chest locations.
-
-
-"Oh but that's awesome" you might say ...
-But in fact, well, it's broken so ...
-No compass? No compass! 
+You found the Compass!
+Now you can pinpoint the
+lair of the dungeon's evil
+master!
 ]],
 }
 
 dialog{
   id = "_treasure.dungeons/map.1",
   text = [[
-You got the Dungeon Map!
-
-Thanks to her you can know the distribution
-of the dungeon rooms.
-
-But hey, this doesn't actually work,
-so bah ... get out of the way ....
-
-No, I'm kidding.
-If you're stuck go back to the theaters
-with big holes and looks for ... 
+You got the Map!
+You can use it to see your
+current position and the rest
+of the dungeon (Press X).
 ]],
 }
 
 dialog{
   id = "_treasure.dungeons/small_key.1",
+  skip = "all",
   text = [[
-You got a little key!
+You got a small key !
+You can open a closed door !
+]],
+}
 
-You can open locked doors! 
+dialog{
+  id = "_treasure.equipment/bombos_medallion.1",
+  text = [[
+This is the Bombos Medallion! $0
+Its magic makes the ground
+explode with power!
+Watch your Magic Meter!
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/book_of_mudora.1",
+  text = [[
+You found the Book of Mudora! $0
+You can use it to read the
+ancient language of the Hylia!
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/cane_of_byrna.1",
+  text = [[
+You got the Cane Of Byrna! $0
+If you swing it once, a ring of
+light will protect you!
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/cane_of_somaria.1",
+  text = [[
+You got the Cane Of Somaria! $0
+It will be very helpful if you
+make proper use of it!
+What a mysterious cane!
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/ether_medallion.1",
+  text = [[
+This is the Ether Medallion! $0
+Its magic controls the upper
+atmosphere and polar wind!
+Watch your Magic Meter!
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/fire_rod.1",
+  text = [[
+You found the Fire Rod! $0
+This rod commands the red fire!
+But watch your Magic Meter!
 ]],
 }
 
 dialog{
   id = "_treasure.equipment/flippers.1",
   text = [[
-You found the Palms!
+You bought Zora's Flippers! $0
+With these you should be able
+to swim even in deep water!
+]],
+}
 
-You can now swim in deep water! 
+dialog{
+  id = "_treasure.equipment/flute.1",
+  text = [[
+Oh! Here is the Flute! $0
+Its music surely has some
+mysterious power!
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/glove.1",
+  text = [[
+You got the Power Glove! $0
+You can feel strength in both
+hands! You can pick up and
+carry stones now!
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/glove.2",
+  text = [[
+You got the Titan's Mitt! $0
+Now you can lift the heaviest
+stones that were once
+impossible to budge.
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/hookshot.1",
+  text = [[
+BOING! This is the Hook Shot! $0
+It extends and contracts and...
+BOING! It can grapple many
+things!
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/moon_pearl.1",
+  text = [[
+You found the Moon Pearl!
+This protects The Hero from
+the changing effects of the
+Golden Power.
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/pegasus_shoes.1",
+  text = [[
+He gives you the Pegasus
+Shoes! Now you can execute a
+devastating dash attack!
+(Hold the A Button
+for a short time.)
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/quake_medallion.1",
+  text = [[
+This is the Quake Medallion! $0
+Its magic causes the ground
+to shake and defeats
+nearby enemies!
+Watch your Magic Meter!
 ]],
 }
 
 dialog{
   id = "_treasure.equipment/shield.1",
   text = [[
-You found
-a Shield of Shit!
-
-Here you are ready to miss your dodges! 
+You found a Shield ! $0
 ]],
 }
 
 dialog{
   id = "_treasure.equipment/shield.2",
   text = [[
-You found
-a Shield of Shit!
-
-Here you are ready to miss your dodges! 
+Your shield is improved!
+Now you can defend yourself
+against fireballs!
 ]],
 }
 
 dialog{
   id = "_treasure.equipment/shield.3",
   text = [[
-You found
-a Shield of Shit!
-
-Here you are ready to miss your dodges! 
-]],
-}
-
-dialog{
-  id = "_treasure.equipment/sword.1",
-  text = [[
-You found a sword!
-
-With this one you will be able to defend yourself
-against monsters!
-
-And also be able to cut hedges.
-Great ! 
-]],
-}
-
-dialog{
-  id = "_treasure.equipment/sword.2",
-  text = [[
-You found
-the Sword of Shit!
-
-Here you are, ready to cut some fucking bushes! 
+You found the Mirror Shield!
+You can now reflect beams
+that your old shield
+couldn't block!
 ]],
 }
 
 dialog{
   id = "_treasure.equipment/sword.3",
   text = [[
-You found
-the Sword of Shit!
+Your sword is tempered-up!
+Now hold it!
+]],
+}
 
-Here you are, ready to cut some fucking bushes! 
+dialog{
+  id = "_treasure.equipment/sword.4",
+  text = [[
+Your sword is stronger!
+You can feel its power
+throbbing in your hand!
 ]],
 }
 
 dialog{
   id = "_treasure.inventory/bombs.1",
   text = [[
-You get a Bag of Bombs!
+You got some Bombs!
+You can pick up and throw
+a Bomb you placed
+(Press the A Button)!
+]],
+}
 
-You will be able to blow up a lot of things
-like enemies or walls ...
-
-Be careful not to hurt yourself with this! 
+dialog{
+  id = "_treasure.inventory/boomerang.1",
+  text = [[
+You got the Boomerang!
+Give it a try! (To select an
+item, press the Start Button. )
 ]],
 }
 
 dialog{
   id = "_treasure.inventory/bottle_1.1",
   text = [[
-You get an empty jar!
-
-You can store things like ...
-water, bees, seeds, etc.
-
-But also potions and fairies!
-
-
-
-Ha ... and ... it doesn't work,
-so give up the idea of using it 
+This is a Magic Bottle!
+You can store an item
+inside and then use it later!
 ]],
 }
 
 dialog{
   id = "_treasure.inventory/bottle_2.1",
   text = [[
-You get an empty jar!
-
-You can store things like ...
-water, bees, seeds, etc.
-
-But also potions and fairies! 
+This is a Magic Bottle!
+You can store an item
+inside and then use it later!
 ]],
 }
 
 dialog{
   id = "_treasure.inventory/bottle_3.1",
   text = [[
-You get an empty jar!
-
-You can store things like ...
-water, bees, seeds, etc.
-
-But also potions and fairies! 
+This is a Magic Bottle!
+You can store an item
+inside and then use it later!
 ]],
 }
 
 dialog{
   id = "_treasure.inventory/bottle_4.1",
   text = [[
-You get an empty jar!
-
-You can store things like ...
-water, bees, seeds, etc.
-
-But also potions and fairies! 
+This is a Magic Bottle!
+You can store an item
+inside and then use it later!
 ]],
 }
 
 dialog{
   id = "_treasure.inventory/bow.1",
   text = [[
-You get the bow!
-Well, with that you can shoot arrows.
-It is particularly effective against
-some enemies.
-
-But it can also be used to trigger
-secret or non-secret switches. 
+You found the Bow! $0
+You can shoot arrows until you
+run out!
 ]],
 }
 
 dialog{
   id = "_treasure.inventory/hammer.1",
   text = [[
-You receive the blessed hammer of the fairies!
+You got the Magic Hammer! $0
+You can drive the wooden
+stakes down into the ground!
+You can use it to pound on
+other things too!
+]],
+}
 
-You won't become a blacksmith with this ...
-
-Nevertheless you can use it to hit
-your enemies or lower plots!
-Some enemies can even be
-completely returned. 
+dialog{
+  id = "_treasure.inventory/ice_rod.1",
+  text = [[
+You found the Ice Rod! $0
+Its chill magic blasts the air!
+But watch your Magic Meter!
 ]],
 }
 
 dialog{
   id = "_treasure.inventory/lantern.1",
+  skip = "all",
   text = [[
-You get the lantern!
+You got the Lamp!
+Now you can light torches and
+see your way in darkness.
+]],
+}
 
-Thanks to this you will be able to light
-the very dark areas around you!
-Or light torches ... see ...
-
-SET ON FIRE !!!!!! 
+dialog{
+  id = "_treasure.inventory/magic_mirror.1",
+  text = [[
+He gave you the Magic Mirror!
+This mirror is blue, clear and
+beautiful...
+You feel like it is going to
+absorb you into another world...
 ]],
 }
 
 dialog{
   id = "_treasure.quest/mushroom.1",
   text = [[
-But... !?
+This Mushroom smells like sweet
+rotten fruit...
+You can give this to anyone
+who wants it (Select it and
+press the Y Button).
 ]],
 }
 
 dialog{
-  id = "cave2.dontfeedthetroll",
+  id = "_treasure.quest/pendant_of_courage.1",
   text = [[
-Veuillez ne pas parler au troll derrière
-cette pancarte !
-
-Don't feed the troll !
+You won the Pendant Of
+Courage! Take it to
+Sahasrahla!
+Two Pendants remain!
 ]],
 }
 
 dialog{
-  id = "cave2.mrshroom1st",
+  id = "_treasure.quest/pendant_of_power.1",
   text = [[
-Salut ! 
-Je suis dans cette grotte depuis un moment,
-mais je n'ai trouvé aucun champignon.
-
-Peut-être pourrais-tu m'aider ?
-            $? Bien sur !
-            $? J'ai pas que ça à faire !
+You won the Pendant Of Power!
+Your goal of finding three
+Pendants is in sight!
+Go for the last one! $0
 ]],
 }
 
 dialog{
-  id = "cave2.mrshroomno",
+  id = "_treasure.quest/pendant_of_wisdom.1",
   text = [[
-
-Pffff, allez casse-toi d'ma grotte !
-
-Raclure !
+You won the Pendant Of Wisdom!
+With this, you have collected
+all three Pendants! Go now to
+the Lost Woods to get
+the Master Sword!
 ]],
 }
 
 dialog{
-  id = "cave2.mrshroomquest",
+  id = "a_utiliser_plus_tard._treasure/heart_receptable.1",
   text = [[
-Alors, tu l'as trouvé ce champignon ?
+You found a Heart Container!
+                {Coeur}
 ]],
 }
 
 dialog{
-  id = "cave2.mrshroomyes",
+  id = "a_utiliser_plus_tard.out_of_magic",
   text = [[
-Parfait, je te donne ce champignon !
-J'espère que tu pourras vraiment m'aider
-
-A très très très bientôt ! ;)
+You are short on Magic Power!
+You can't use this item now.
+Watch your Magic Meter!
 ]],
 }
 
 dialog{
-  id = "cave2.paradoxshroom",
+  id = "crypted.bombos_stele",
   text = [[
-
-N'avait-il pas besoin d'un champignon ?
-N'est-ce point pour cela que vous acceptiez ?
-
-
-Ho... puis au fond qui s'en préoccupe...
-Allez lui rendre la champignon.....
-Ou gardez-le ? 
+     †»†§†»†§†»»»»†§†»†§
+     †§††»†§†»†§
+     †»†§††»†§§»††§
 ]],
 }
 
 dialog{
-  id = "cave2.receptionist",
+  id = "crypted.desert_stone",
   text = [[
-Oui ?..
+      |}|{|}|{|{|
+      |{|}|}|{|}
+     ||{|}{|{{}|
+]],
+}
 
-Que voulez-vous ?
+dialog{
+  id = "crypted.ether_stele",
+  text = [[
+     {}{}{}{}{}{}{{{}
+     {|}}|{|}{|}{|}|{
+     }{}{}{}|}|
+]],
+}
+
+dialog{
+  id = "crypted.grove_stone",
+  text = [[
+      |{|}|{|}|{{{{|}|{|}
+      |}||{|}|{|}
+      |{|}||{|}}{||}
+]],
+}
+
+dialog{
+  id = "escape.end_1",
+  skip = "none",
+  text = [[
+Princess Zelda, you are safe!
+Is this your doing, Link?
+]],
+}
+
+dialog{
+  id = "escape.end_2",
+  skip = "none",
+  text = [[
+Yes, it was Link who helped
+me escape from the dungeon!
+When I was captive the wizard
+said, "Once I have finished with
+you, the final one, the seal of
+the wise men will open."
+.........
+Link, you must not let the
+land of Hyrule fall into the
+wizard's clutches.
+If he releases the seal of the
+seven wise men, evil power will
+overwhelm this land.
+Before that happens...
+before it's too late... destroy
+the wizard before he destroys
+all of Hyrule! You can do it!
+You can...
+]],
+}
+
+dialog{
+  id = "escape.end_3",
+  skip = "none",
+  text = [[
+I sense that a mighty evil
+force guides the wizard's
+actions and augments his
+magical power. The only
+weapon potent enough to
+defeat the wizard is the
+legendary Master Sword.
+It is said that the village elder
+is a descendant of one of the
+seven wise men. Maybe
+he can tell you more...
+I will mark his house on your
+map. But watch your every
+move! I am certain that the
+castle soldiers will be looking
+for you now! .........*7t
+I will hide Princess Zelda here.
+Do not worry! Seek the elder!
+.........
+
+
+Do you understand?
+$? Yes
+$? Not at all
+]],
+}
+
+dialog{
+  id = "escape.intro",
+  skip = "none",
+  text = [[
+C*8DHelp me...
+B
+Please help me...
+I am a prisoner in the dungeon
+of the castle.
+My name is Zelda.
+The wizard, Agahnim, has done...
+something to the other missing
+girls. Now only I remain...
+Agahnim has seized control of
+the castle and is now trying to
+open the seven wise men's
+seal. ...  ...
+I am in the dungeon of the
+castle.
+Please help me...
+]],
+}
+
+dialog{
+  id = "escape.soldiers.1",
+  text = [[
+What're you doing up this late,
+kid? You can stay up when
+you're grown up! Now go home!
+]],
+}
+
+dialog{
+  id = "escape.soldiers.2",
+  text = [[
+I see you brought a map so you
+don't get lost. (Press the
+X Button to see your map).
+]],
+}
+
+dialog{
+  id = "escape.soldiers.3",
+  text = [[
+You look strong for a kid. How
+much can you lift? (Press the
+A Button while touching a thing
+to lift it.)
+]],
+}
+
+dialog{
+  id = "escape.soldiers.4",
+  text = [[
+I'll bet you can't wait until you
+are old enough to use a sword!
+(Press the B Button to use
+your sword when you get it.)
+]],
+}
+
+dialog{
+  id = "escape.soldiers.5",
+  text = [[
+That mark on your map must be
+your destination.
+
+You can often find valuables
+in chests. (Press the A
+Button in front of a chest to
+open it.)
+]],
+}
+
+dialog{
+  id = "escape.soldiers.6",
+  text = [[
+You can often find valuables
+in chests. (Press the A
+Button in front of a chest to
+open it.)
+]],
+}
+
+dialog{
+  id = "escape.soldiers.7",
+  text = [[
+Us soldiers have been around,
+kid. You can learn a lot from
+us. But you already know that!
+]],
+}
+
+dialog{
+  id = "escape.soldiers.front_castle",
+  text = [[
+Hey hey! You're not allowed in
+the castle, son!
+Go home and get some sleep!
+]],
+}
+
+dialog{
+  id = "escape.soldiers.tower",
+  text = [[
+After Agahnim took over,
+everyone began to act
+strangely.
+I suppose it's only
+a matter of time before
+I'm affected, too.
+]],
+}
+
+dialog{
+  id = "escape.uncle",
+  skip = "none",
+  text = [[
+Link, I'm going out for a
+while. I'll be back by morning.
+Don't leave the house.
+]],
+}
+
+dialog{
+  id = "escape.uncle_dead",
+  skip = "none",
+  text = [[
+Unnh... Link, I didn't want
+you involved in this... I told
+you not to leave the house...
+Take my sword and shield and
+listen. You can focus power in
+the blade (hold the B Button).
+...Then release it using the
+secret technique handed down
+by our people...
+Link, you can do it!
+Save the Princess...
+Zelda is your...$0 ...$0 ...
+
+]],
+}
+
+dialog{
+  id = "escape.zelda_backseat",
+  text = [[
+C*8DHelp me...
+I am in the dungeon of the
+castle.
+I know there is a hidden path
+from outside of the castle to
+the garden inside.
+]],
+}
+
+dialog{
+  id = "escape.zelda_following_1",
+  skip = "none",
+  text = [[
+There is a secret passage in
+the throne room that leads to
+Sanctuary. I'm sure the old
+man there will help us.
+]],
+}
+
+dialog{
+  id = "escape.zelda_following_2",
+  skip = "none",
+  text = [[
+That ornamental shelf should
+open. Do you have a light?
+It's pitch dark inside and you
+can't see without one.
+If you're ready, let's go!
+Help me push it from the left!
+]],
+}
+
+dialog{
+  id = "escape.zelda_following_3",
+  skip = "none",
+  text = [[
+After passing through these
+sewers, we will be very close
+to Sanctuary!
+Let's be careful!
+]],
+}
+
+dialog{
+  id = "escape.zelda_following_4",
+  skip = "none",
+  text = [[
+Sanctuary is just beyond that
+door. Pull the switch over
+there.
+]],
+}
+
+dialog{
+  id = "escape.zelda_following_5",
+  skip = "none",
+  text = [[
+You have to pull the lever to
+open the door. (Press the A
+Button and hold Down on the
+Control Pad. )
+]],
+}
+
+dialog{
+  id = "escape.zelda_rescued",
+  skip = "none",
+  text = [[
+Thank you, Link. I had a
+feeling you were getting close.
+
+]],
+}
+
+dialog{
+  id = "escape.zelda_rescued_question",
+  skip = "none",
+  text = [[
+Link, listen carefully. The
+wizard is magically controlling
+all the soldiers in the castle.
+I fear the worst for
+my father...
+The wizard is an inhuman fiend
+with strong magical powers!
+...  ...  ...
+
+Do you understand?
+$? Yes
+$? Not at all
+]],
+}
+
+dialog{
+  id = "escape.zelda_rescued_yes",
+  skip = "none",
+  text = [[
+All right, let's get out of here
+before the wizard notices. I
+know a secret path, but first
+we have to go to the
+first floor. Let's  go!
+]],
+}
+
+dialog{
+  id = "misc.pendants_all",
+  text = [[
+You won the Pendant Of Wisdom!
+With this, you have collected
+all three Pendants! Go now to
+the Lost Woods to get
+the Master Sword!
+]],
+}
+
+dialog{
+  id = "misc.pendants_only_one",
+  text = [[
+Your goal of finding three
+Pendants is in sight!
+Go for the last one! $0
+]],
+}
+
+dialog{
+  id = "npc.aginah.after_pendant",
+  text = [[
+Your trial in the desert has
+made you stronger. The blood
+of the Hero must be in your
+veins...
+]],
+}
+
+dialog{
+  id = "npc.aginah.book_of_mudora",
+  text = [[
+You found the Book of Mudora!
+You can use it to read the
+ancient language of the Hylia!
+]],
+}
+
+dialog{
+  id = "npc.aginah.first_meeting",
+  text = [[
+I am Aginah. I sense something
+is happening in the Golden Land
+the seven wise men sealed...
+This must be an omen of the
+Great Cataclysm foretold by
+the people of Hylian blood...
+... ... ...
+The prophecy says, "The Hero
+will stand in the desert holding
+the Book Of Mudora."
+If you have the Book Of Mudora
+you can read the language of
+the Hylia People.
+It should be in the house of
+books in the village...
+You must get it!
+If you are the person who will
+be The Hero...
+]],
+}
+
+dialog{
+  id = "npc.cursed_bully.meeting",
+  text = [[
+What do you want?!
+Do you have something to say
+to me, silly rabbit?!
+I came here to get the Power
+Of Gold but now I'm a freak and
+I can't go back to the real
+world! If I only had the Moon
+Pearl from the Tower Of Hera, I
+could go back to my original
+shape! I've got good reason
+to be stressed out!
+So back off! Shoo shoo!
+]],
+}
+
+dialog{
+  id = "npc.cursed_bully.moon_pearl",
+  text = [[
+WOW! Your shape didn't change!
+You got the Moon Pearl, huh?
+]],
+}
+
+dialog{
+  id = "npc.grandpa.arrived",
+  text = [[
+The missing maidens are still
+alive somewhere. I believe that
+a Hero will rescue them...
+I wait for that day...
+Uhh... These are dangerous
+times... I talked too much.
+Anyway... Thank you for your
+kindness to an old man like me.
+Uhh... I wanted to give you
+this. If you wander into
+a magical transporter, gaze
+into this mirror.
+]],
+}
+
+dialog{
+  id = "npc.grandpa.at_home",
+  text = [[
+The wizard has deceived the
+King, and now he is trying to
+open the way to the
+Dark World. To complete
+your quest, you will need
+the Moon Pearl, which is in the
+tower on top of the mountain.
+All I can do for you now is to
+comfort your weariness...
+Come back here any time.
+]],
+}
+
+dialog{
+  id = "npc.grandpa.first_meeting",
+  text = [[
+I don't know who you are, but
+if you are going to go up
+the mountain, will you take me
+with you? I lost my lamp,
+so...
+]],
+}
+
+dialog{
+  id = "npc.grandpa.moon_perl",
+  text = [[
+*3The Moon Pearl will protect its
+bearer from the magical air of
+the Golden Land, so you can
+keep your human shape there.
+All I can do for you now is
+comfort your weariness... 
+Come back here any time.
+]],
+}
+
+dialog{
+  id = "npc.grandpa.pot_heart",
+  text = [[
+Uhh... There must be a Heart in
+the bottle.
+]],
+}
+
+dialog{
+  id = "npc.grandpa.turn_right",
+  text = [[
+Uhh... Turn right here...  ...
+You know, I have a
+granddaughter who is your
+age... The King took her to the
+castle and she never returned.
+Kidnapping those maidens must
+be part of the wizard's plot!
+I'm sure he is trying to
+somehow use the power of the
+descendants of the wise
+men...
+]],
+}
+
+dialog{
+  id = "npc.grandpa.warning_hole",
+  text = [[
+Uhhh... Watch your step.
+There are holes in the ground.
+Could you turn right here?
+Young man, are you also going
+to the mountain to look for the
+Golden Power?
+Just ahead is a mountain full
+of monsters. Many people have
+vanished in this mountain while
+looking for the Golden Power.
+]],
+}
+
+dialog{
+  id = "npc.pink_ball.meeting",
+  text = [[
+Oh? Who are you, Mr. Bunny?
+This world is like the real
+world, but evil has twisted it.
+The Golden Power is what
+changed your shape to reflect
+what is in your heart and mind.
+I am always changing my mind,
+so I turned into a ball...
+But if you have a ball called
+the Moon Pearl, you can keep
+your original shape here.
+]],
+}
+
+dialog{
+  id = "npc.pink_ball.moon_pearl",
+  text = [[
+You didn't change your shape?
+You aren't just a normal guy,
+are you?
+]],
+}
+
+dialog{
+  id = "npc.saharaslara.master_sword",
+  text = [[
+C*8DSuddenly, Sahasrahla contacts
+you telepathically...
+... ... ...
+Link, it is extraordinary
+that you won the Master Sword
+that makes evil retreat...
+With this shining sword, I
+believe you can deflect the
+wizard's evil powers.
+
+The destiny of this land
+is in your hands.
+Please, Link...
+]],
+}
+
+dialog{
+  id = "npc.sahasrahla.first_meeting",
+  text = [[
+I am, indeed, Sahasrahla, the
+village elder and a descendent
+of the seven wise men.
+...  ... Oh really?
+Link, I am surprised a young
+man like you is searching for
+the sword of evil's bane.
+Not just anyone can use that
+weapon. Legends say only the
+Hero who has won the three
+Pendants can wield the sword.
+]],
+}
+
+dialog{
+  id = "npc.sahasrahla.first_meeting_answer",
+  text = [[
+Good. As a test, can you
+retrieve the Pendant Of
+Courage from the East Palace?
+If you bring it here, I will tell
+you more of the legend and
+give you a magical artifact.*7t
+Now, go forward to the palace.
+]],
+}
+
+dialog{
+  id = "npc.sahasrahla.first_meeting_question",
+  text = [[
+Do you really want to find it?
+$? Yeah!
+$? Of Course!
+]],
+}
+
+dialog{
+  id = "npc.sahasrahla.give_courage_pendent",
+  text = [[
+Oh!? You got the Pendant Of
+Courage! Now I will tell you
+more of the legend...
+Three or four generations ago,
+an order of knights protected
+the royalty of the Hylia.
+These Knights Of Hyrule were
+also guardians of the Pendant
+Of Courage.
+Unfortunately, most of them
+were destroyed in the great
+war against evil that took
+place when the seven wise men
+created their seal. Among the
+descendants of the Knights Of
+Hyrule a hero must appear.
+...I see. Link, I believe you.
+You should get the remaining
+Pendants.
+And carry this with you.
+This is a treasure passed down
+by the families of the wise
+men. I want you to have it.
+]],
+}
+
+dialog{
+  id = "npc.sahasrahla.ice_rod",
+  text = [[
+C*6H*8D*3Through evil magic, he began
+to make descendants of the
+seven wise men vanish, one
+F
+after another.
+F
+]],
+}
+
+dialog{
+  id = "npc.sahasrahla.pegasus_gifted",
+  text = [[
+Check out the cave east of
+Lake Hylia. Strange and
+wonderful things live in it...
+]],
+}
+
+dialog{
+  id = "npc.sahasrahla.repeat_information",
+  text = [[
+C*6H*8D*3Through evil magic, he began
+to make descendants of the
+seven wise men vanish, one
+F
+after another.
+F
+]],
+}
+
+dialog{
+  id = "npc.thief.it_s_a_secret",
+  text = [[
+It is a secret
 ]],
 }
 
 dialog{
   id = "on_look.cant_lift",
   text = [[
-You can't lift this!
-
-You don't have what it takes for that! 
+This is too heavy...
+You need something to lift this.
 ]],
 }
 
 dialog{
   id = "on_looked.cant_cut",
   text = [[
-t would take enough to cut that ...
-
-A sword for example? 
+You need something to cut this
 ]],
 }
 
 dialog{
   id = "on_looked.cant_lift",
   text = [[
-It's too heavy...
-
-You need special equipment
-to be able to lift that! 
+This is too heavy...
+You need something to lift this.
 ]],
 }
 
 dialog{
   id = "on_looked.still_cant_lift",
   text = [[
-It's much too heavy ...
+This is too heavy...
+You need a better equipment to lift this.
+]],
+}
 
-You don't have the right equipment ...
-Upgrade your gear for that! 
+dialog{
+  id = "sanctuary.priest_default",
+  skip = "current",
+  text = [[
+Meet the elder of the village
+and get the Master Sword.
+]],
+}
+
+dialog{
+  id = "sanctuary.zelda_default",
+  skip = "current",
+  text = [[
+Link, be careful out there!
+I know you can save Hyrule!
 ]],
 }
 
 dialog{
   id = "save_quit",
   text = [[
-            $? To continue
-           $? Save and exit
-          $? Quit without saving
+            $? Continue
+         $? Save & Quit
+     $? Quit without Save
 ]],
 }
 
 dialog{
-  id = "shop1.item1",
+  id = "sign.death_moutain_west",
   text = [[
-Tu veux ça ? Vraiment ?...
-
-Bon tu fais comme tu veux, 
-c'est ton argent après tout
+This cave leads to the path
+back to Kakariko Village.
 ]],
 }
 
 dialog{
-  id = "shop1.item2",
+  id = "sign.default",
+  skip = "all",
   text = [[
-Tu veux ça ? Vraiment ?
-
-Bon bah n'hésite pas comme ça ! Allons !
-:wink: :wink:
+WANTED! This is the
+criminal who kidnapped Zelda.
+Call a soldier if you see him!
 ]],
 }
 
 dialog{
-  id = "shop1.item3",
+  id = "sign.escape",
+  skip = "all",
   text = [[
-Tu veux ça ? Vraiment ?...
-
-Cela me parait parfaitement futile...
-mais soit.
+I will give 100 Rupees to the
+man who finds the descendants
+of the wise men.  THE KING
 ]],
 }
 
 dialog{
-  id = "shop1.item4",
+  id = "ts.hint_desert",
   text = [[
-Heu... t'es vraiment sur de vouloir ça ?
-C'est à dire que...
-enfin... en fait...
-...
+CLink, it is I, Sahasrahla.
+You must never fail to find all
+the treasures in each dungeon.
 ]],
 }
 
 dialog{
-  id = "shop1.shoper",
+  id = "ts.hint_eastern",
   text = [[
-Va vers les articles, pas vers moi...
+CLink, it is I, Sahasrahla. I
+can talk to you telepathically
+when you touch these tiles.
+Here is a hint. You can use the
+treasure hidden in this palace
+to defeat armored foes.
 ]],
 }
 
 dialog{
-  id = "test.answer",
-  a = "a",
-  b = "b",
-  c = "c",
+  id = "ts.hint_hera_1",
   text = [[
-a = "a"
-b = "b"
-c = "c"
+CLink, it is I, Sahasrahla the
+elder. I have some advice...
+In the dungeons, you can gaze
+into the Magic Mirror to return
+to the entrance at any time.
+Do not forget this!
 ]],
 }
 
 dialog{
-  id = "test.defineA",
+  id = "ts.hint_hera_2",
   text = [[
-Défini A
-$? 1
-$? 10
-$? 30
+CLink, it is I, Sahasrahla the
+elder. An orb known as the
+Moon Pearl is in this tower.
+Whoever holds the Moon Pearl is
+protected so that his form will
+not change in the Dark World.
+You must find it and escape
+from the tower!
+Don't forget the Moon Pearl...
 ]],
 }
 
 dialog{
-  id = "test.defineB",
+  id = "uncrypted.bombos_stele",
   text = [[
-Défini B
-$? 2
-$? 20
-$? 200
+Hold up the Master Sword and
+you will get the magic of
+Bombos.
 ]],
 }
 
 dialog{
-  id = "test.defineC",
+  id = "uncrypted.desert_stone",
   text = [[
-Défini C
-$? 3
-$? 33
-$? 66
+To open the way to go forward,
+Make your wish here
+And it will be granted.
+]],
+}
+
+dialog{
+  id = "uncrypted.ether_stele",
+  text = [[
+Hold up the Master Sword and
+you will get the magic of
+Ether.
+]],
+}
+
+dialog{
+  id = "uncrypted.grove_stone",
+  text = [[
+The Hero's triumph on
+Cataclysm's Eve
+Wins three symbols of virtue.
+The Master Sword he will then
+retrieve,
+Keeping the Knight's line true.
 ]],
 }
 

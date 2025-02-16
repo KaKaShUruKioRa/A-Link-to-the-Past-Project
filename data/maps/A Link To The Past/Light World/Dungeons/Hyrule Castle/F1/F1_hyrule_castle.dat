@@ -3656,7 +3656,7 @@ teletransporter{
   y = 976,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/hyrule_castle",
+  destination_map = "A Link to the Past/Light World/Overworld/hyrule_castle",
   destination = "dest_dungeon_hyrule_castle_3",
 }
 
@@ -4060,7 +4060,7 @@ teletransporter{
   y = 88,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Dungeons/Hyrule Castle/B1/B1_hyrule_castle",
+  destination_map = "A Link to the Past/Light World/Dungeons/Hyrule Castle/B1/B1_hyrule_castle",
   destination = "stair_rdc",
 }
 
@@ -8167,7 +8167,7 @@ teletransporter{
   y = 1000,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/hyrule_castle",
+  destination_map = "A Link to the Past/Light World/Overworld/hyrule_castle",
   destination = "dest_dungeon_hyrule_castle_0",
 }
 
@@ -8219,7 +8219,7 @@ teletransporter{
   y = 1000,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/hyrule_castle",
+  destination_map = "A Link to the Past/Light World/Overworld/hyrule_castle",
   destination = "dest_dungeon_hyrule_castle_1",
 }
 
@@ -8298,7 +8298,7 @@ teletransporter{
   y = 552,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Dungeons/Hyrule Castle/F2/F2_hyrule_castle",
+  destination_map = "A Link to the Past/Light World/Dungeons/Hyrule Castle/F2/F2_hyrule_castle",
   destination = "stair_throne",
 }
 
@@ -9290,5 +9290,14 @@ separator{
   y = 248,
   width = 496,
   height = 16,
+}
+
+destination{
+  name = "dest_secret",
+  layer = 2,
+  x = 768,
+  y = 141,
+  direction = 3,
+  default = true,
 }
 

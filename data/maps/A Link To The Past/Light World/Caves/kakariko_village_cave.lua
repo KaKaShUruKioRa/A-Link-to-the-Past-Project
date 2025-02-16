@@ -1,4 +1,4 @@
--- Lua script of map A Link To The Past/Light World/Caves/lost_wood_cave - Copie (19).
+-- Lua script of map A Link to the Past/Light World/Caves/kakariko_village_cave.
 -- This script is executed every time the hero enters this map.
 
 -- Feel free to modify the code below.

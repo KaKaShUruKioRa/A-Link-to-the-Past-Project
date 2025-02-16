@@ -2,6 +2,12 @@
 
 __--------------------------------------------------------------------------------------------------------------__
 
+## The Legend of Zelda A Link to the Past (Solarus Edition) 0.5.0
+
+`Changes on February 15, 2025` v0.5.0
+
+__--------------------------------------------------------------------------------------------------------------__
+
 ## The Legend of Zelda A Link to the Past (Solarus Edition) 0.4.1
 
 `Changes on December 10, 2024` v0.4.1 (hotfix)

@@ -1,4 +1,4 @@
--- Lua script of map A Link To The Past/Dark World/Houses/shooting_gallery.
+-- Lua script of map A Link to the Past/Dark World/Houses/shooting_gallery.
 -- This script is executed every time the hero enters this map.
 
 -- Feel free to modify the code below.

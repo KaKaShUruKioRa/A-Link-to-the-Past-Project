@@ -1,8 +1,8 @@
 quest{
   solarus_version = "1.6",
-  write_dir = "A Link to the Past",
+  write_dir = "a-link-to-the-past",
   title = "The Legend of Zelda : A Link to the Past",
-  short_description = "Ce project est un Remake de The Legend of Zelda : A Link to the Past (SNES) avec Solarus sur PC !",
+  short_description = "Ce projet est un Remake de The Legend of Zelda : A Link to the Past (SNES) avec Solarus sur PC !",
   long_description = [[
   Présentation
 
@@ -12,7 +12,7 @@ Ce remake, réalisé avec Solarus, utilise les éléments graphiques reprenant l
 
 Link se réveille chez lui, après avoir reçu un appel de détresse télépathique d'une jeune femme, Zelda, Princesse du Royaume d'Hyrule ! En pleine tempête, l'Oncle de notre Héro, sort à l'extérieur, armé d'une épée et d'un bouclier, pour se rendre au Château d'Hyrule. Link décide alors de suivre ce dernier et ainsi répondre à la demande de la Princesse Zelda. C'est ainsi que vous incarnerez Link et vivrez ainsi son aventure, sauvant la Princesse Zelda, ainsi que le Royaume d'Hyrule menacé par des Forces Obscures !]],
   author = "KaKaShUruKioRa, ZeldoRetro, DarkDavy15, Adenothe",
-  quest_version = "0.4.1",
+  quest_version = "0.5.0",
   release_date = "",
   website = "https://kakashurukiora.itch.io/the-legend-of-zelda-a-link-to-the-past-fr",
   normal_quest_size = "256x224",
