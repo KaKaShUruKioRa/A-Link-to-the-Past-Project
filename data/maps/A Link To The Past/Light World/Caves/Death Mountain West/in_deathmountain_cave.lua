@@ -20,7 +20,7 @@ separator_manager:manage_map(map)
 --GESTION DE LUMIERE DANS LA PIECE
 require("scripts/maps/light_manager.lua")
 local dark = sol.surface.create(320,240)
-dark:set_opacity(150)
+dark:set_opacity(50)
 dark:fill_color({0, 0, 0})
 map:register_event("on_draw", function(map, dst_surface)
   if dark_on then dark:draw(dst_surface) end
