@@ -21,6 +21,6 @@ end
 function enemy:on_restarted()
 
   local movement = sol.movement.create("target")
-  movement:set_speed(64)
+  movement:set_speed(32)
   movement:start(enemy)
 end

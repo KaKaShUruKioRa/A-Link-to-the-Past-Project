@@ -4252,16 +4252,6 @@ destructible{
 }
 
 destructible{
-  name = "big_stone_D3_sanctuary_0",
-  layer = 0,
-  x = 232,
-  y = 157,
-  sprite = "destructibles/stone_big_dw_1",
-  destruction_sound = "stone",
-  weight = 1,
-}
-
-destructible{
   name = "stone_white_D3_sanctuary_63",
   layer = 0,
   x = 232,
@@ -4464,6 +4454,18 @@ enemy{
   y = 397,
   direction = 3,
   breed = "dark_world/snap_dragon",
+}
+
+custom_entity{
+  name = "big_stone_white_D3_sanctuary_0",
+  layer = 0,
+  x = 232,
+  y = 157,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "destructibles/stone_big_dw_1",
+  model = "stone_big_white",
 }
 
 tile{

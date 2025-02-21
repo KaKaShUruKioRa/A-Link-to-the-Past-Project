@@ -90,7 +90,9 @@ local function change_world(to_dark)
   -- Faire Apparaitre/Disparaitre des Murret au changement de Monde(Dark/Light)
   for dynamic_tile in map:get_entities_by_type("dynamic_tile") do
       if dynamic_tile:get_name() ~= nil then
-        dynamic_tile:set_enabled(to_dark)
+        if not string.match(dynamic_tile:get_name(), "protected_") then -- si la tile n'est pas protected
+          dynamic_tile:set_enabled(to_dark)
+        end
       elseif dynamic_tile:get_name() == nil then
         dynamic_tile:set_enabled(not to_dark)    
       end
@@ -141,9 +143,11 @@ function grandpa_dialog_arrived:on_activated()
 end
 
 function warp_death_mountain_west_0:on_activated()
-  warp_death_mountain_west_0:set_enabled(false)
-  sol.audio.play_sound("world_warp")
-  hero:teleport(game:get_map():get_id(), "_same", "fade")
+  if not game:has_item("equipment/moon_pearl") then  
+    warp_death_mountain_west_0:set_enabled(false)
+    sol.audio.play_sound("world_warp")
+    hero:teleport(game:get_map():get_id(), "_same", "fade")
+  end
 end
 
 function npc_ether_stele_death_mountain_west_0:on_interaction()
@@ -158,23 +162,26 @@ end
 -- that is, when the player takes control of the hero.
 function map:on_opening_transition_finished(destination)
   --Si à la fin d'une transistion, on est dans le Light World, on transoforme la Map en Light World 
-  if destination == nil then
-    local pos_hero_x = hero:get_position() 
-    if map:get_tileset() == "out/outside_darkworld_main" then
-      --Si on est dans un Mur (Représanté par les Sensor Mirror_warp_protect*) On retourne dans le Dark World    
-      change_world(false)
 
-      for sensor_mirror_warp_protect in map:get_entities("sensor_mirror_warp_protect_") do
-        if sensor_mirror_warp_protect:overlaps(hero) then
-          sol.audio.play_sound("world_warp")
-          hero:teleport(game:get_map():get_id(), "_same", "fade")
+  if not game:has_item("equipment/moon_pearl") then  
+    if destination == nil then
+      local pos_hero_x = hero:get_position() 
+      if map:get_tileset() == "out/outside_darkworld_main" then
+        --Si on est dans un Mur (Représanté par les Sensor Mirror_warp_protect*) On retourne dans le Dark World    
+        change_world(false)
+
+        for sensor_mirror_warp_protect in map:get_entities("sensor_mirror_warp_protect_") do
+          if sensor_mirror_warp_protect:overlaps(hero) then
+            sol.audio.play_sound("world_warp")
+            hero:teleport(game:get_map():get_id(), "_same", "fade")
+          end
         end
+
+      --Si à la fin d'une Transistion, on est dans le Dark World, on transoforme la Map en Dark World
+      elseif map:get_tileset() == "out/outside_lightworld_main" and pos_hero_x < 944  then 
+        change_world(true)
+
       end
-
-    --Si à la fin d'une Transistion, on est dans le Dark World, on transoforme la Map en Dark World
-    elseif map:get_tileset() == "out/outside_lightworld_main" and pos_hero_x < 944  then 
-      change_world(true)
-
     end
   end
 end

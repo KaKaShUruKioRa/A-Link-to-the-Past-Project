@@ -17777,6 +17777,15 @@ tile{
   pattern = "126",
 }
 
+tile{
+  layer = 0,
+  x = 544,
+  y = 832,
+  width = 32,
+  height = 32,
+  pattern = "1375",
+}
+
 destructible{
   name = "grass_D7_great_swamp_1437",
   layer = 0,
@@ -18259,7 +18268,7 @@ destructible{
   layer = 0,
   x = 136,
   y = 717,
-  sprite = "entities/sign_brown",
+  sprite = "entities/sign_yellow",
   destruction_sound = "stone",
 }
 
@@ -28257,59 +28266,6 @@ destructible{
   ground = "grass",
 }
 
-destructible{
-  name = "big_stone_D7_great_swamp_2",
-  layer = 0,
-  x = 168,
-  y = 365,
-  sprite = "destructibles/stone_big_dw_1",
-  destruction_sound = "stone",
-  weight = 1,
-}
-
-destructible{
-  name = "big_stone_D7_great_swamp_3",
-  layer = 0,
-  x = 552,
-  y = 845,
-  sprite = "destructibles/stone_big_dw_1",
-  destruction_sound = "stone",
-  weight = 1,
-}
-
-destructible{
-  name = "hammer_stake_D7_great_swamp_3",
-  layer = 0,
-  x = 440,
-  y = 141,
-  sprite = "entities/hammer_stake_brown",
-  destruction_sound = "hammer_stake",
-  weight = -1,
-  damage_on_enemies = 0,
-}
-
-destructible{
-  name = "hammer_stake_D7_great_swamp_4",
-  layer = 0,
-  x = 440,
-  y = 157,
-  sprite = "entities/hammer_stake_brown",
-  destruction_sound = "hammer_stake",
-  weight = -1,
-  damage_on_enemies = 0,
-}
-
-destructible{
-  name = "hammer_stake_D7_great_swamp_5",
-  layer = 0,
-  x = 440,
-  y = 173,
-  sprite = "entities/hammer_stake_brown",
-  destruction_sound = "hammer_stake",
-  weight = -1,
-  damage_on_enemies = 0,
-}
-
 destination{
   name = "dest_cave_D7_great_swamp_0",
   layer = 0,
@@ -28450,6 +28406,79 @@ enemy{
   y = 893,
   direction = 3,
   breed = "dark_world/ropa",
+}
+
+custom_entity{
+  name = "big_stone_white_D7_great_swamp_0",
+  layer = 0,
+  x = 168,
+  y = 365,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "destructibles/stone_big_dw_1",
+  model = "stone_big_white",
+}
+
+custom_entity{
+  name = "hammer_stake_dark_D7_great_swamp_0",
+  layer = 0,
+  x = 440,
+  y = 141,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hammer_stake_dark",
+  model = "hammer_stake",
+}
+
+custom_entity{
+  name = "hammer_stake_dark_D7_great_swamp_1",
+  layer = 0,
+  x = 440,
+  y = 157,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hammer_stake_dark",
+  model = "hammer_stake",
+}
+
+custom_entity{
+  name = "hammer_stake_dark_D7_great_swamp_2",
+  layer = 0,
+  x = 440,
+  y = 173,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hammer_stake_dark",
+  model = "hammer_stake",
+}
+
+custom_entity{
+  name = "big_stone_white_D7_great_swamp_1",
+  layer = 0,
+  x = 552,
+  y = 845,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "destructibles/stone_big_dw_1",
+  model = "stone_big_white",
+}
+
+teletransporter{
+  name = "warp_temp_Dw_to_Lw",
+  layer = 0,
+  x = 296,
+  y = 104,
+  width = 16,
+  height = 16,
+  destination_map = "A Link to the Past/Light World/Overworld/great_swamp",
+  destination = "_same",
+  sprite = "entities/teletransporter_blue",
+  sound = "world_warp",
 }
 
 tile{

@@ -5,7 +5,7 @@ properties{
   height = 512,
   min_layer = 0,
   max_layer = 2,
-  world = "Misery Mire",
+  world = "misery_mire",
   floor = -2,
   tileset = "dungeon/light_green",
   music = "dark_world_dungeon",
@@ -752,18 +752,9 @@ tile{
 tile{
   layer = 0,
   x = 320,
-  y = 88,
+  y = 104,
   width = 8,
-  height = 8,
-  pattern = "barrier.border-1",
-}
-
-tile{
-  layer = 0,
-  x = 320,
-  y = 96,
-  width = 8,
-  height = 104,
+  height = 96,
   pattern = "barrier.2-1",
 }
 
@@ -1406,6 +1397,15 @@ tile{
   pattern = "door_blast.3.support.2-1",
 }
 
+tile{
+  layer = 0,
+  x = 320,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
 teletransporter{
   name = "tp_warp_B2_misery_mire_0",
   layer = 0,
@@ -1417,14 +1417,6 @@ teletransporter{
   destination = "dest_warp_F1_misery_mire_0",
   sprite = "entities/teletransporter_blue",
   sound = "warp",
-}
-
-destination{
-  name = "dest_stair_down_B2_misery_mire_0",
-  layer = 0,
-  x = 128,
-  y = 421,
-  direction = 3,
 }
 
 stairs{
@@ -1538,48 +1530,56 @@ enemy{
 }
 
 enemy{
-  name = "enemy_stalfos_blue_B2_misery_mire_0",
+  name = "enemy_skeleton_blue_B2_misery_mire_0",
   layer = 0,
   x = 360,
   y = 69,
   direction = 3,
-  breed = "dungeons/stalfos_blue",
+  breed = "dungeons/skeleton_blue",
 }
 
 enemy{
-  name = "enemy_stalfos_blue_B2_misery_mire_1",
+  name = "enemy_skeleton_blue_B2_misery_mire_1",
   layer = 0,
   x = 328,
   y = 325,
   direction = 3,
-  breed = "dungeons/stalfos_blue",
+  breed = "dungeons/skeleton_blue",
 }
 
 enemy{
-  name = "enemy_stalfos_blue_B2_misery_mire_2",
+  name = "enemy_skeleton_blue_B2_misery_mire_2",
   layer = 0,
   x = 424,
   y = 405,
   direction = 3,
-  breed = "dungeons/stalfos_blue",
+  breed = "dungeons/skeleton_blue",
 }
 
 enemy{
-  name = "enemy_stalfos_blue_B2_misery_mire_3",
+  name = "enemy_skeleton_blue_B2_misery_mire_3",
   layer = 0,
   x = 80,
   y = 141,
   direction = 3,
-  breed = "dungeons/stalfos_blue",
+  breed = "dungeons/skeleton_blue",
 }
 
 enemy{
-  name = "enemy_stalfos_blue_B2_misery_mire_4",
+  name = "enemy_skeleton_blue_B2_misery_mire_4",
   layer = 0,
   x = 192,
   y = 181,
   direction = 3,
-  breed = "dungeons/stalfos_blue",
+  breed = "dungeons/skeleton_blue",
+}
+
+destination{
+  name = "dest_stair_down_B2_misery_mire_0",
+  layer = 0,
+  x = 128,
+  y = 405,
+  direction = 3,
 }
 
 tile{
@@ -1826,6 +1826,7 @@ destination{
 }
 
 separator{
+  name = "auto_separator_vertical_B2_misery_mire_0",
   layer = 2,
   x = 248,
   y = 0,
@@ -1834,9 +1835,10 @@ separator{
 }
 
 separator{
+  name = "auto_separator_horizontal_B2_misery_mire_0",
   layer = 2,
   x = 0,
-  y = 248,
+  y = 240,
   width = 512,
   height = 16,
 }

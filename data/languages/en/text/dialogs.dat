@@ -139,7 +139,7 @@ You found 300 Rupees !
 dialog{
   id = "_treasure.dungeons/big_key.1",
   text = [[
-You got the Big Key! $0
+You got the Big Key!$0 
 This is the master key of the
 dungeon. It can open many
 locks that small keys cannot.
@@ -176,66 +176,18 @@ You can open a closed door !
 }
 
 dialog{
-  id = "_treasure.equipment/bombos_medallion.1",
-  text = [[
-This is the Bombos Medallion! $0
-Its magic makes the ground
-explode with power!
-Watch your Magic Meter!
-]],
-}
-
-dialog{
   id = "_treasure.equipment/book_of_mudora.1",
   text = [[
-You found the Book of Mudora! $0
+You found the Book of Mudora!$0 
 You can use it to read the
 ancient language of the Hylia!
 ]],
 }
 
 dialog{
-  id = "_treasure.equipment/cane_of_byrna.1",
-  text = [[
-You got the Cane Of Byrna! $0
-If you swing it once, a ring of
-light will protect you!
-]],
-}
-
-dialog{
-  id = "_treasure.equipment/cane_of_somaria.1",
-  text = [[
-You got the Cane Of Somaria! $0
-It will be very helpful if you
-make proper use of it!
-What a mysterious cane!
-]],
-}
-
-dialog{
-  id = "_treasure.equipment/ether_medallion.1",
-  text = [[
-This is the Ether Medallion! $0
-Its magic controls the upper
-atmosphere and polar wind!
-Watch your Magic Meter!
-]],
-}
-
-dialog{
-  id = "_treasure.equipment/fire_rod.1",
-  text = [[
-You found the Fire Rod! $0
-This rod commands the red fire!
-But watch your Magic Meter!
-]],
-}
-
-dialog{
   id = "_treasure.equipment/flippers.1",
   text = [[
-You bought Zora's Flippers! $0
+You bought Zora's Flippers!$0 
 With these you should be able
 to swim even in deep water!
 ]],
@@ -244,7 +196,7 @@ to swim even in deep water!
 dialog{
   id = "_treasure.equipment/flute.1",
   text = [[
-Oh! Here is the Flute! $0
+Oh! Here is the Flute!$0 
 Its music surely has some
 mysterious power!
 ]],
@@ -253,7 +205,7 @@ mysterious power!
 dialog{
   id = "_treasure.equipment/glove.1",
   text = [[
-You got the Power Glove! $0
+You got the Power Glove!$0 
 You can feel strength in both
 hands! You can pick up and
 carry stones now!
@@ -263,7 +215,7 @@ carry stones now!
 dialog{
   id = "_treasure.equipment/glove.2",
   text = [[
-You got the Titan's Mitt! $0
+You got the Titan's Mitt!$0 
 Now you can lift the heaviest
 stones that were once
 impossible to budge.
@@ -271,19 +223,9 @@ impossible to budge.
 }
 
 dialog{
-  id = "_treasure.equipment/hookshot.1",
-  text = [[
-BOING! This is the Hook Shot! $0
-It extends and contracts and...
-BOING! It can grapple many
-things!
-]],
-}
-
-dialog{
   id = "_treasure.equipment/moon_pearl.1",
   text = [[
-You found the Moon Pearl!
+You found the Moon Pearl!$0 
 This protects The Hero from
 the changing effects of the
 Golden Power.
@@ -302,24 +244,6 @@ for a short time.)
 }
 
 dialog{
-  id = "_treasure.equipment/quake_medallion.1",
-  text = [[
-This is the Quake Medallion! $0
-Its magic causes the ground
-to shake and defeats
-nearby enemies!
-Watch your Magic Meter!
-]],
-}
-
-dialog{
-  id = "_treasure.equipment/shield.1",
-  text = [[
-You found a Shield ! $0
-]],
-}
-
-dialog{
   id = "_treasure.equipment/shield.2",
   text = [[
 Your shield is improved!
@@ -331,7 +255,7 @@ against fireballs!
 dialog{
   id = "_treasure.equipment/shield.3",
   text = [[
-You found the Mirror Shield!
+You found the Mirror Shield!$0 
 You can now reflect beams
 that your old shield
 couldn't block!
@@ -356,9 +280,37 @@ throbbing in your hand!
 }
 
 dialog{
+  id = "_treasure.equipment/tunic.2",
+  text = [[
+You found the Blue Mail!$0 
+This armor reduces the damage
+that you take from enemies!
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/tunic.3",
+  text = [[
+You found the Red Mail!$0 
+This provides even better
+protection than the Blue Mail!
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/bombos_medallion.1",
+  text = [[
+This is the Bombos Medallion!$0 
+Its magic makes the ground
+explode with power!
+Watch your Magic Meter!
+]],
+}
+
+dialog{
   id = "_treasure.inventory/bombs.1",
   text = [[
-You got some Bombs!
+You got some Bombs!$0 
 You can pick up and throw
 a Bomb you placed
 (Press the A Button)!
@@ -375,9 +327,18 @@ item, press the Start Button. )
 }
 
 dialog{
+  id = "_treasure.inventory/boomerang.2",
+  text = [[
+You got the Magical Boomerang!
+You can throw this faster and
+farther than your old one!
+]],
+}
+
+dialog{
   id = "_treasure.inventory/bottle_1.1",
   text = [[
-This is a Magic Bottle!
+This is a Magic Bottle!$0
 You can store an item
 inside and then use it later!
 ]],
@@ -386,7 +347,7 @@ inside and then use it later!
 dialog{
   id = "_treasure.inventory/bottle_2.1",
   text = [[
-This is a Magic Bottle!
+This is a Magic Bottle!$0
 You can store an item
 inside and then use it later!
 ]],
@@ -395,7 +356,7 @@ inside and then use it later!
 dialog{
   id = "_treasure.inventory/bottle_3.1",
   text = [[
-This is a Magic Bottle!
+This is a Magic Bottle!$0
 You can store an item
 inside and then use it later!
 ]],
@@ -404,7 +365,7 @@ inside and then use it later!
 dialog{
   id = "_treasure.inventory/bottle_4.1",
   text = [[
-This is a Magic Bottle!
+This is a Magic Bottle!$0
 You can store an item
 inside and then use it later!
 ]],
@@ -413,16 +374,62 @@ inside and then use it later!
 dialog{
   id = "_treasure.inventory/bow.1",
   text = [[
-You found the Bow! $0
+You found the Bow!$0 
 You can shoot arrows until you
 run out!
 ]],
 }
 
 dialog{
+  id = "_treasure.inventory/bow.2",
+  text = [[
+These are the Silver Arrows
+you need to defeat Ganon!
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/cane_of_byrna.1",
+  text = [[
+You got the Cane Of Byrna!$0 
+If you swing it once, a ring of
+light will protect you!
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/cane_of_somaria.1",
+  text = [[
+You got the Cane Of Somaria!$0 
+It will be very helpful if you
+make proper use of it!
+What a mysterious cane!
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/ether_medallion.1",
+  text = [[
+This is the Ether Medallion!$0 
+Its magic controls the upper
+atmosphere and polar wind!
+Watch your Magic Meter!
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/fire_rod.1",
+  text = [[
+You found the Fire Rod!$0 
+This rod commands the red fire!
+But watch your Magic Meter!
+]],
+}
+
+dialog{
   id = "_treasure.inventory/hammer.1",
   text = [[
-You got the Magic Hammer! $0
+You got the Magic Hammer!$0 
 You can drive the wooden
 stakes down into the ground!
 You can use it to pound on
@@ -431,9 +438,19 @@ other things too!
 }
 
 dialog{
+  id = "_treasure.inventory/hookshot.1",
+  text = [[
+BOING! This is the Hook Shot!$0 
+It extends and contracts and...
+BOING! It can grapple many
+things!
+]],
+}
+
+dialog{
   id = "_treasure.inventory/ice_rod.1",
   text = [[
-You found the Ice Rod! $0
+You found the Ice Rod!$0 
 Its chill magic blasts the air!
 But watch your Magic Meter!
 ]],
@@ -443,9 +460,18 @@ dialog{
   id = "_treasure.inventory/lantern.1",
   skip = "all",
   text = [[
-You got the Lamp!
+You got the Lamp!$0 
 Now you can light torches and
 see your way in darkness.
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/magic_cape.1",
+  text = [[
+This is the Magic Cape!$0
+You are invisible when you wear
+it! Watch your Magic Meter!
 ]],
 }
 
@@ -457,6 +483,17 @@ This mirror is blue, clear and
 beautiful...
 You feel like it is going to
 absorb you into another world...
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/quake_medallion.1",
+  text = [[
+This is the Quake Medallion!$0 
+Its magic causes the ground
+to shake and defeats
+nearby enemies!
+Watch your Magic Meter!
 ]],
 }
 
@@ -487,7 +524,7 @@ dialog{
 You won the Pendant Of Power!
 Your goal of finding three
 Pendants is in sight!
-Go for the last one! $0
+Go for the last one!$0 
 ]],
 }
 
@@ -552,6 +589,143 @@ dialog{
       |{|}|{|}|{{{{|}|{|}
       |}||{|}|{|}
       |{|}||{|}}{||}
+]],
+}
+
+dialog{
+  id = "end.triforce",
+  text = [[
+Welcome, Link...
+I  am  the  Essence  Of  The
+Triforce.
+...  ...  ... 
+ 
+The Triforce will grant the
+wishes in the heart and mind of
+the person who touches it. 
+ 
+If a person with a good heart
+touches it, it will make his good
+wishes come true... If an evil-
+hearted person touches it, it
+grants his evil wishes. 
+ 
+The stronger the wish, the
+more powerful the Triforce's
+expression of that wish. 
+ 
+Ganon's wish was to conquer
+the world. That wish changed
+the Golden Land to the Dark
+World. 
+ 
+Ganon was building up his
+power here so he could conquer
+the Light World and make his
+wish come completely true. 
+ 
+But now, you have totally
+destroyed Ganon. His Dark
+World will vanish. 
+ 
+The Triforce is waiting for a
+new owner. Its Golden Power is
+in your hands... 
+ 
+Now, touch it with a wish in
+your heart.
+... ... ... ...
+]],
+}
+
+dialog{
+  id = "enemy.agahnim1.after_ritual",
+  text = [[
+Ho ho ho... With this, the
+seal of the seven wise men is
+at last broken.
+It is now only a matter of time
+before evil power covers this
+land...
+After all, the legendary Hero
+cannot defeat us, the tribe of
+evil, when we are armed with
+the Power of Gold.
+Ho ho ho... Now, I must go!
+]],
+}
+
+dialog{
+  id = "enemy.agahnim1.before_ritual",
+  text = [[
+Ahah... Link!
+I have been waiting for you!
+Heh heh heh...
+I was hoping I could make Zelda
+vanish in front of your eyes.
+Behold! The last moment of
+Princess Zelda!
+]],
+}
+
+dialog{
+  id = "enemy.agahnim1.defeated",
+  text = [[
+Grrrrugh! Well met! Like the
+true Hero that you are...
+But I am not ready to admit
+defeat yet. I will draw you
+into the Dark World!
+]],
+}
+
+dialog{
+  id = "enemy.agahnim1.introduction",
+  text = [[
+Oh, so?... You mean to say you
+would like to be totally
+destroyed? Well, I can make
+your wish come true!
+]],
+}
+
+dialog{
+  id = "enemy.agahnim2.introduction",
+  text = [[
+Ho ho ho! It's great that you
+could come all the way here,
+Link.
+I'm very happy to see you
+again, but
+you'd better believe that we
+will not have a third meeting!
+Prepare to meet your doom!
+]],
+}
+
+dialog{
+  id = "enemy.ganon.interlude",
+  text = [[
+You are doing well, lad. But
+can you break through this
+secret technique of Darkness?
+En Garde!
+]],
+}
+
+dialog{
+  id = "enemy.ganon.introduction",
+  text = [[
+I never imagined a boy like you
+could give me so much trouble.
+It's unbelievable that you
+defeated my alterego, Agahnim
+the Dark Wizard, twice!
+But I will never give you the
+Triforce. I will destroy you
+and make my wish to conquer
+both Light and Dark Worlds
+come true without delay.
 ]],
 }
 
@@ -624,7 +798,7 @@ dialog{
   id = "escape.intro",
   skip = "none",
   text = [[
-C*8DHelp me...
+Help me...
 B
 Please help me...
 I am a prisoner in the dungeon
@@ -767,7 +941,7 @@ Zelda is your...$0 ...$0 ...
 dialog{
   id = "escape.zelda_backseat",
   text = [[
-C*8DHelp me...
+Help me...
 I am in the dungeon of the
 castle.
 I know there is a hidden path
@@ -889,7 +1063,7 @@ dialog{
   text = [[
 Your goal of finding three
 Pendants is in sight!
-Go for the last one! $0
+Go for the last one!$0 
 ]],
 }
 
@@ -1088,21 +1262,37 @@ are you?
 }
 
 dialog{
-  id = "npc.saharaslara.master_sword",
+  id = "npc.sahasrahla.dark_world",
   text = [[
-C*8DSuddenly, Sahasrahla contacts
-you telepathically...
-... ... ...
-Link, it is extraordinary
-that you won the Master Sword
-that makes evil retreat...
-With this shining sword, I
-believe you can deflect the
-wizard's evil powers.
-
-The destiny of this land
-is in your hands.
-Please, Link...
+Link, it is I, Sahasrahla.
+I am communicating to you
+across the void through
+telepathy... The place where
+you now stand was the Golden
+Land, but evil power turned it
+into the Dark World. The
+wizard has broken the wise
+men's seal and opened a gate
+to link the worlds
+at Hyrule Castle. In
+order to save this half of the
+world, the Light World, you
+must win back the Golden
+Power. You must also rescue
+the seven maidens who Agahnim
+sent to the Dark World. As
+members of the blood-line of
+the seven wise men, they have
+power that will surely help you.
+The maidens are locked in
+hidden dungeons full of evil
+creatures and dangerous traps.
+The Palace of Darkness should
+be your first goal in this world!*7t
+Link, I can rely on only
+you. Please make this old
+man's wishes come true.
+I beg you!
 ]],
 }
 
@@ -1187,6 +1377,25 @@ F
 }
 
 dialog{
+  id = "npc.sahasrahla.master_sword",
+  text = [[
+Suddenly, Sahasrahla contacts
+you telepathically...
+... ... ...
+Link, it is extraordinary
+that you won the Master Sword
+that makes evil retreat...
+With this shining sword, I
+believe you can deflect the
+wizard's evil powers.
+
+The destiny of this land
+is in your hands.
+Please, Link...
+]],
+}
+
+dialog{
   id = "npc.sahasrahla.pegasus_gifted",
   text = [[
 Check out the cave east of
@@ -1267,8 +1476,8 @@ dialog{
   id = "save_quit",
   text = [[
             $? Continue
-         $? Save & Quit
-     $? Quit without Save
+           $? Save & Quit
+        $? Quit without Save
 ]],
 }
 
@@ -1301,9 +1510,21 @@ of the wise men.  THE KING
 }
 
 dialog{
+  id = "ts.hint_castle_tower",
+  text = [[
+Listen well, Link.
+Even with the Master Sword,
+you cannot inflict physical
+harm on the wizard.
+You must find a way to return
+his own evil magic power to him.
+]],
+}
+
+dialog{
   id = "ts.hint_desert",
   text = [[
-CLink, it is I, Sahasrahla.
+Link, it is I, Sahasrahla.
 You must never fail to find all
 the treasures in each dungeon.
 ]],
@@ -1312,7 +1533,7 @@ the treasures in each dungeon.
 dialog{
   id = "ts.hint_eastern",
   text = [[
-CLink, it is I, Sahasrahla. I
+Link, it is I, Sahasrahla. I
 can talk to you telepathically
 when you touch these tiles.
 Here is a hint. You can use the
@@ -1324,7 +1545,7 @@ to defeat armored foes.
 dialog{
   id = "ts.hint_hera_1",
   text = [[
-CLink, it is I, Sahasrahla the
+Link, it is I, Sahasrahla the
 elder. I have some advice...
 In the dungeons, you can gaze
 into the Magic Mirror to return
@@ -1336,7 +1557,7 @@ Do not forget this!
 dialog{
   id = "ts.hint_hera_2",
   text = [[
-CLink, it is I, Sahasrahla the
+Link, it is I, Sahasrahla the
 elder. An orb known as the
 Moon Pearl is in this tower.
 Whoever holds the Moon Pearl is
@@ -1345,6 +1566,64 @@ not change in the Dark World.
 You must find it and escape
 from the tower!
 Don't forget the Moon Pearl...
+]],
+}
+
+dialog{
+  id = "ts.hint_ice_palace_1",
+  text = [[
+Link, the magic flames will
+protect you inside this icy
+dungeon.
+]],
+}
+
+dialog{
+  id = "ts.hint_ice_palace_2",
+  text = [[
+CYou cannot destroy the
+Skeleton Knight with the sword
+alone. When he collapses, he is
+vulnerable to another weapon.
+]],
+}
+
+dialog{
+  id = "ts.hint_ice_palace_3",
+  text = [[
+Link, do not use all your
+magic power if you do not
+possess the Medicine Of Magic.
+Now, get ready to go into the
+depths of this dungeon.
+]],
+}
+
+dialog{
+  id = "ts.hint_misery_mire",
+  text = [[
+Link, it is I, Sahasrahla
+the elder! You must set fire
+to four torches to open
+the way forward.
+]],
+}
+
+dialog{
+  id = "ts.hint_pyramid_of_power",
+  text = [[
+BAbracadabra alakazam!
+You will need Silver Arrows to
+give Ganon his last moment.
+]],
+}
+
+dialog{
+  id = "ts.hint_thieves_town",
+  text = [[
+Link... It's me, Zelda...
+Don't be deceived by the magic
+of Blind the Thief! Be careful!
 ]],
 }
 

@@ -26957,11 +26957,11 @@ tile{
 }
 
 teletransporter{
-  name = "tp_map_zoras_waterfall_0",
+  name = "tp_map_zoras_waterfall_2",
   layer = 0,
-  x = 128,
+  x = 136,
   y = 1024,
-  width = 48,
+  width = 40,
   height = 8,
   destination_map = "A Link to the Past/Light World/Overworld/waterfall_of_wishing",
   destination = "_side",
@@ -27039,9 +27039,9 @@ teletransporter{
   name = "tp_map_zoras_waterfall_1",
   layer = 0,
   x = 176,
-  y = 1016,
+  y = 1008,
   width = 32,
-  height = 8,
+  height = 16,
   destination_map = "A Link to the Past/Light World/Overworld/waterfall_of_wishing",
   destination = "dest_map_waterfall_of_wishing_0",
 }
@@ -27976,6 +27976,17 @@ enemy{
   direction = 3,
   breed = "light_world/zora_underwater",
   treasure_name = "prize_packs/1",
+}
+
+teletransporter{
+  name = "tp_map_zoras_waterfall_0",
+  layer = 0,
+  x = 112,
+  y = 1008,
+  width = 24,
+  height = 16,
+  destination_map = "A Link to the Past/Light World/Overworld/waterfall_of_wishing",
+  destination = "dest_map_waterfall_of_wishing_0",
 }
 
 tile{

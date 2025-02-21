@@ -22,3 +22,19 @@ end
 function map:on_opening_transition_finished()
 
 end
+
+function npc_cursed_bully_D1_death_moutain_west_0:on_interaction()
+  if not game:has_item("equipment/moon_pearl") then  
+    game:start_dialog("npc.cursed_bully.meeting")
+  else
+    game:start_dialog("npc.cursed_bully.moon_pearl")
+  end
+end
+
+function npc_pink_ball_D1_death_moutain_west_0:on_interaction()
+  if not game:has_item("equipment/moon_pearl") then  
+    game:start_dialog("npc.pink_ball.meeting")
+  else
+    game:start_dialog("npc.pink_ball.moon_pearl")
+  end
+end

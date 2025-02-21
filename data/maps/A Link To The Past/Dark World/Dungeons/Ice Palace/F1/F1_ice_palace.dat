@@ -5,7 +5,7 @@ properties{
   height = 512,
   min_layer = 0,
   max_layer = 2,
-  world = "Ice Palace",
+  world = "ice_palace",
   floor = 0,
   tileset = "dungeon/light_blue",
   music = "dark_world_dungeon",
@@ -1113,14 +1113,6 @@ teletransporter{
   sound = "warp",
 }
 
-destination{
-  name = "dest_stair_up_F1_ice_palace_0",
-  layer = 0,
-  x = 128,
-  y = 205,
-  direction = 1,
-}
-
 teletransporter{
   name = "tp_stair_down_F1_ice_palace_0",
   layer = 0,
@@ -1164,7 +1156,7 @@ enemy{
   name = "enemy_freezor_FLOOR_DUNGEONNAME_0",
   layer = 0,
   x = 88,
-  y = 309,
+  y = 317,
   direction = 3,
   breed = "dungeons/freezor",
 }
@@ -1230,6 +1222,23 @@ wall{
   stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
+}
+
+destination{
+  name = "dest_stair_up_F1_ice_palace_0",
+  layer = 0,
+  x = 128,
+  y = 221,
+  direction = 1,
+}
+
+npc{
+  name = "ts.hint_ice_palace_1",
+  layer = 0,
+  x = 120,
+  y = 301,
+  direction = 3,
+  subtype = 0,
 }
 
 tile{
@@ -1458,7 +1467,7 @@ destination{
 }
 
 separator{
-  name = "separator_vertical_F1_ice_palace_0",
+  name = "auto_separator_vertical_F1_ice_palace_0",
   layer = 2,
   x = 248,
   y = 0,
@@ -1467,10 +1476,10 @@ separator{
 }
 
 separator{
-  name = "separator_horizontal_F1_ice_palace_0",
+  name = "auto_separator_horizontal_F1_ice_palace_0",
   layer = 2,
   x = 0,
-  y = 248,
+  y = 240,
   width = 512,
   height = 16,
 }

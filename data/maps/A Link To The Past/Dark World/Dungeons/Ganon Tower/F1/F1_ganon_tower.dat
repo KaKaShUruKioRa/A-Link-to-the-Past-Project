@@ -5,7 +5,7 @@ properties{
   height = 512,
   min_layer = 0,
   max_layer = 2,
-  world = "Ganon Tower",
+  world = "ganon_tower",
   floor = 0,
   tileset = "dungeon/gray_pink",
   music = "dark_world_dungeon",
@@ -1757,6 +1757,41 @@ tile{
   pattern = "hole.corner.4",
 }
 
+wall{
+  layer = 0,
+  x = 112,
+  y = 56,
+  width = 32,
+  height = 24,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+teletransporter{
+  name = "tp_stair_up_F1_ganon_tower_",
+  layer = 0,
+  x = 120,
+  y = 288,
+  width = 16,
+  height = 16,
+  destination_map = "A Link to the Past/Dark World/Dungeons/Ganon Tower/F2/F2_ganon_tower",
+  destination = "dest_stair_up_F2_ganon_tower_0",
+}
+
+teletransporter{
+  name = "tp_stair_down_F1_ganon_tower_0",
+  layer = 0,
+  x = 120,
+  y = 208,
+  width = 16,
+  height = 16,
+  destination_map = "A Link to the Past/Dark World/Dungeons/Ganon Tower/B1/B1_ganon_tower",
+  destination = "dest_stair_down_B1_ganon_tower_0",
+}
+
 teletransporter{
   name = "tp_warp_F1_ganon_tower_0",
   layer = 0,
@@ -1857,25 +1892,6 @@ stairs{
   subtype = 3,
 }
 
-destination{
-  name = "dest_stair_up_F1_ganon_tower_0",
-  layer = 0,
-  x = 128,
-  y = 205,
-  direction = 1,
-}
-
-teletransporter{
-  name = "tp_stair_down_F1_ganon_tower_0",
-  layer = 0,
-  x = 120,
-  y = 208,
-  width = 16,
-  height = 16,
-  destination_map = "A Link to the Past/Dark World/Dungeons/Ganon Tower/B1/B1_ganon_tower",
-  destination = "dest_stair_down_B1_ganon_tower_0",
-}
-
 stairs{
   name = "stair_up_F1_ganon_tower_0",
   layer = 0,
@@ -1889,19 +1905,8 @@ destination{
   name = "dest_stair_down_F1_ganon_tower_0",
   layer = 0,
   x = 128,
-  y = 317,
+  y = 301,
   direction = 3,
-}
-
-teletransporter{
-  name = "tp_stair_up_F1_ganon_tower_",
-  layer = 0,
-  x = 120,
-  y = 288,
-  width = 16,
-  height = 16,
-  destination_map = "A Link to the Past/Dark World/Dungeons/Ganon Tower/F2/F2_ganon_tower",
-  destination = "dest_stair_up_F2_ganon_tower_0",
 }
 
 teletransporter{
@@ -1913,16 +1918,6 @@ teletransporter{
   height = 32,
   destination_map = "A Link to the Past/Dark World/Dungeons/Ganon Tower/B1/B1_ganon_tower",
   destination = "dest_hole_B1_ganon_tower_0",
-}
-
-pickable{
-  name = "treasure_red_mail_F1_ganon_tower_0",
-  layer = 0,
-  x = 128,
-  y = 133,
-  treasure_name = "equipment/tunic",
-  treasure_variant = 3,
-  treasure_savegame_variable = "red_mail",
 }
 
 wall{
@@ -1962,39 +1957,39 @@ wall{
 }
 
 enemy{
-  name = "enemy_stalfos_red_F1_ganon_tower_0",
+  name = "enemy_skeleton_red_F1_ganon_tower_0",
   layer = 0,
   x = 312,
   y = 69,
   direction = 3,
-  breed = "dungeons/stalfos_red",
+  breed = "dungeons/skeleton_red",
 }
 
 enemy{
-  name = "enemy_stalfos_red_F1_ganon_tower_1",
+  name = "enemy_skeleton_red_F1_ganon_tower_1",
   layer = 0,
   x = 456,
   y = 197,
   direction = 3,
-  breed = "dungeons/stalfos_red",
+  breed = "dungeons/skeleton_red",
 }
 
 enemy{
-  name = "enemy_stalfos_red_F1_ganon_tower_2",
+  name = "enemy_skeleton_red_F1_ganon_tower_2",
   layer = 0,
   x = 72,
   y = 341,
   direction = 3,
-  breed = "dungeons/stalfos_red",
+  breed = "dungeons/skeleton_red",
 }
 
 enemy{
-  name = "enemy_stalfos_red_F1_ganon_tower_3",
+  name = "enemy_skeleton_red_F1_ganon_tower_3",
   layer = 0,
   x = 184,
   y = 437,
   direction = 3,
-  breed = "dungeons/stalfos_red",
+  breed = "dungeons/skeleton_red",
 }
 
 block{
@@ -2060,6 +2055,28 @@ enemy{
   y = 181,
   direction = 3,
   breed = "dungeons/bari_blue",
+}
+
+destination{
+  name = "dest_stair_up_F1_ganon_tower_0",
+  layer = 0,
+  x = 128,
+  y = 221,
+  direction = 1,
+}
+
+chest{
+  name = "big_chest_F1_ganon_tower",
+  layer = 0,
+  x = 128,
+  y = 77,
+  treasure_name = "equipment/tunic",
+  treasure_variant = 3,
+  treasure_savegame_variable = "red_mail",
+  sprite = "entities/big_chest",
+  opening_method = "interaction_if_savegame_variable",
+  opening_condition = "ganon_tower_big_key",
+  cannot_open_dialog = "NoBigKey",
 }
 
 tile{
@@ -2306,7 +2323,7 @@ destination{
 }
 
 separator{
-  name = "separator_vertical_F1_ganon_tower_0",
+  name = "auto_separator_vertical_F1_ganon_tower_0",
   layer = 2,
   x = 248,
   y = 0,
@@ -2315,10 +2332,10 @@ separator{
 }
 
 separator{
-  name = "separator_horizontal_F1_ganon_tower_0",
+  name = "auto_separator_horizontal_F1_ganon_tower_0",
   layer = 2,
   x = 0,
-  y = 248,
+  y = 240,
   width = 512,
   height = 16,
 }

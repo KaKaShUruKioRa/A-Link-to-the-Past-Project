@@ -9,6 +9,7 @@ map{ id = "A Link to the Past/Dark World/Caves/Fairy/plain_hylia_fairy_cave", de
 map{ id = "A Link to the Past/Dark World/Caves/Fairy/pyramid_fairy_cave", description = "Pyramid Fairy Cave" }
 map{ id = "A Link to the Past/Dark World/Caves/Fairy/river_hylia_north_fairy_cave", description = "River Hylia North Fairy Cave" }
 map{ id = "A Link to the Past/Dark World/Caves/Fairy/swamp_of_evil_fairy_cave", description = "Swamp of Evil Fairy Cave" }
+map{ id = "A Link to the Past/Dark World/Caves/blacksmiths_cave", description = "Blacksmiths Cave" }
 map{ id = "A Link to the Past/Dark World/Caves/deadend_east_cave", description = "Dead End East Fairy Cave" }
 map{ id = "A Link to the Past/Dark World/Caves/deathmountain_west_cave", description = "Death Mountain West Cave" }
 map{ id = "A Link to the Past/Dark World/Caves/great_swamp_cave", description = "Great Swamp Cave" }
@@ -146,7 +147,6 @@ map{ id = "A Link to the Past/Light World/Dungeons/Desert Palace/F2/F2_desert_pa
 map{ id = "A Link to the Past/Light World/Dungeons/Eastern Palace/F1/F1_eastern_palace", description = "F1 Eastern Palace" }
 map{ id = "A Link to the Past/Light World/Dungeons/Eastern Palace/F1/secret_fairy", description = "Secret Fairy" }
 map{ id = "A Link to the Past/Light World/Dungeons/Eastern Palace/F2/F2_eastern_palace", description = "F2 Eastern Palace" }
-map{ id = "A Link to the Past/Light World/Dungeons/Hyrule Castle Tower/F1/F1_hyrule_castle_tower", description = "F1 Hyrule Castle Tower" }
 map{ id = "A Link to the Past/Light World/Dungeons/Hyrule Castle Tower/F2/F2_hyrule_castle_tower", description = "F2 Hyrule Castle Tower" }
 map{ id = "A Link to the Past/Light World/Dungeons/Hyrule Castle Tower/F3/F3_hyrule_castle_tower", description = "F3 Hyrule Castle Tower" }
 map{ id = "A Link to the Past/Light World/Dungeons/Hyrule Castle Tower/F4/F4_hyrule_castle_tower", description = "F4 Hyrule Castle Tower" }
@@ -589,8 +589,11 @@ sprite{ id = "enemies/others/octorok_stone", description = "Octorok's stone" }
 sprite{ id = "enemies/others/rabbit_beam", description = "Rabbit's Beam" }
 sprite{ id = "enemies/others/wizzrobe_beam", description = "Wizzrobe's beam" }
 sprite{ id = "enemies/soldiers/ball", description = "Fléau (boule)" }
+sprite{ id = "enemies/soldiers/ball_gold", description = "Fléau Dorée (Boule)" }
 sprite{ id = "enemies/soldiers/chain", description = "Fléau (chaine)" }
+sprite{ id = "enemies/soldiers/chain_gold", description = "Fléau Dorée (Chaine)" }
 sprite{ id = "enemies/soldiers/knight_chain_and_ball", description = "Chevalier à fléau" }
+sprite{ id = "enemies/soldiers/knight_chain_and_ball_gold", description = "Chevalier à Fléau" }
 sprite{ id = "enemies/soldiers/soldier_archer", description = "Soldier Archer" }
 sprite{ id = "enemies/soldiers/soldier_archer_head", description = "Soldier Archer Head" }
 sprite{ id = "enemies/soldiers/soldier_archer_projectile", description = "Soldier Archer Projectile" }
@@ -638,9 +641,9 @@ sprite{ id = "entities/effect_smoke", description = "Effet de fumee" }
 sprite{ id = "entities/excalibur", description = "Excalibur" }
 sprite{ id = "entities/explosion", description = "Explosion" }
 sprite{ id = "entities/fire", description = "Fire" }
-sprite{ id = "entities/hammer_stake_brown", description = "Hammer Stake Brown" }
-sprite{ id = "entities/hammer_stake_green", description = "Hammer Stake Green" }
-sprite{ id = "entities/hammer_stake_yellow", description = "Hammer Stake Yellow" }
+sprite{ id = "entities/hammer_stake_dark", description = "Hammer Stake Dark" }
+sprite{ id = "entities/hammer_stake_dungeon", description = "Hammer Stake Dungeon" }
+sprite{ id = "entities/hammer_stake_light", description = "Hammer Stake Light" }
 sprite{ id = "entities/hookshot", description = "Hookshot" }
 sprite{ id = "entities/ice_beam", description = "Ice Beam" }
 sprite{ id = "entities/impact", description = "impact" }
@@ -674,6 +677,8 @@ sprite{ id = "hero/sword3", description = "Hero sword 3" }
 sprite{ id = "hero/sword4", description = "Hero sword 4" }
 sprite{ id = "hero/sword_stars1", description = "Hero sword stars 1" }
 sprite{ id = "hero/sword_stars2", description = "Hero sword stars 2" }
+sprite{ id = "hero/sword_stars3", description = "Hero sword stars 3" }
+sprite{ id = "hero/sword_stars4", description = "Hero sword stars 4" }
 sprite{ id = "hero/trail", description = "Hero trail" }
 sprite{ id = "hero/tunic1", description = "Hero tunic 1" }
 sprite{ id = "hero/tunic2", description = "Hero tunic 2" }
@@ -848,8 +853,10 @@ music{ id = "victory", description = "Victory" }
 music{ id = "village", description = "Kakariko Village" }
 music{ id = "zelda", description = "Zelda theme" }
 
+sound{ id = "agahnim_dash", description = "boss_dash" }
 sound{ id = "arrow_hit", description = "arrow_hit" }
 sound{ id = "ball_and_chain", description = "ball_and_chain" }
+sound{ id = "bat_crash", description = "bat_crash" }
 sound{ id = "bomb", description = "bomb" }
 sound{ id = "boomerang", description = "boomerang" }
 sound{ id = "boss_charge", description = "boss_charge" }
@@ -870,12 +877,16 @@ sound{ id = "danger", description = "danger" }
 sound{ id = "door_closed", description = "door_closed" }
 sound{ id = "door_open", description = "door_open" }
 sound{ id = "door_unlocked", description = "door_unlocked" }
+sound{ id = "electrical_shock_1", description = "electrical_shock_1" }
+sound{ id = "electrical_shock_2", description = "electrical_shock_2" }
 sound{ id = "enemy_awake", description = "enemy_awake" }
 sound{ id = "enemy_hurt", description = "enemy_hurt" }
 sound{ id = "enemy_killed", description = "enemy_killed" }
 sound{ id = "explosion", description = "explosion" }
 sound{ id = "external_stairs_down", description = "external_stairs_down" }
 sound{ id = "external_stairs_up", description = "external_stairs_up" }
+sound{ id = "flute", description = "flute" }
+sound{ id = "flute_complet", description = "flute_complet" }
 sound{ id = "hammer", description = "hammer" }
 sound{ id = "hammer_stake", description = "hammer_stake" }
 sound{ id = "heart", description = "heart" }
@@ -896,6 +907,7 @@ sound{ id = "jump", description = "jump" }
 sound{ id = "lantern", description = "lantern" }
 sound{ id = "lift", description = "lift" }
 sound{ id = "lightning", description = "lightning" }
+sound{ id = "link_shocked", description = "link_shocked" }
 sound{ id = "magic_meter", description = "magic_meter" }
 sound{ id = "magic_powder", description = "magic_powder" }
 sound{ id = "message_end", description = "message_end" }
@@ -915,6 +927,7 @@ sound{ id = "quake", description = "quake" }
 sound{ id = "rain_in", description = "rain_in" }
 sound{ id = "rain_out", description = "rain_out" }
 sound{ id = "rat", description = "rat" }
+sound{ id = "ritual_shock", description = "ritual_shock" }
 sound{ id = "running", description = "running" }
 sound{ id = "running_obstacle", description = "running_obstacle" }
 sound{ id = "rupee_counter", description = "rupee_counter" }
@@ -1020,7 +1033,7 @@ enemy{ id = "bosses/blind_the_thief", description = "Blind the Thief" }
 enemy{ id = "bosses/ganon", description = "Ganon" }
 enemy{ id = "bosses/helmasaur_king", description = "Helmasaur King" }
 enemy{ id = "bosses/kholdstare", description = "Kholdstare" }
-enemy{ id = "bosses/lanmola", description = "bosses/lanmola" }
+enemy{ id = "bosses/lanmola", description = "Lanmola" }
 enemy{ id = "bosses/moldorm", description = "Moldorm" }
 enemy{ id = "bosses/mothula", description = "Mothula" }
 enemy{ id = "bosses/vitreous", description = "Vitreous" }
@@ -1089,14 +1102,16 @@ enemy{ id = "others/lynel_flame", description = "Lynel's Flame" }
 enemy{ id = "others/octorok_stone", description = "Octorok Stone" }
 enemy{ id = "others/rabbit_beam", description = "Rabbit's Beam" }
 enemy{ id = "others/wizzrobe_beam", description = "Wizzrobe's Beam" }
-enemy{ id = "soldiers/chain_and_ball", description = "chaine et boule" }
-enemy{ id = "soldiers/knight_chain_and_ball", description = "Chevalier à fléau" }
+enemy{ id = "soldiers/chain_and_ball", description = "Grey Chain&Ball " }
+enemy{ id = "soldiers/chain_and_ball_gold", description = "Golden Chain&Ball " }
+enemy{ id = "soldiers/knight_chain_and_ball", description = "Chain&Ball Grey Knight" }
+enemy{ id = "soldiers/knight_chain_and_ball_gold", description = "Chain&Ball Gold Knight" }
 enemy{ id = "soldiers/soldier_archer", description = "Archer" }
 enemy{ id = "soldiers/soldier_archer_projectile", description = "Archer (projectile)" }
-enemy{ id = "soldiers/soldier_simple_green", description = "Soldat vert simple" }
-enemy{ id = "soldiers/spear_soldier_red", description = "Spear Soldier Red" }
-enemy{ id = "soldiers/sword_soldier_blue", description = "Sword Soldier Blue" }
-enemy{ id = "soldiers/sword_soldier_green", description = "Sword Soldier Green" }
+enemy{ id = "soldiers/soldier_simple_green", description = "Simpe Green Soldier" }
+enemy{ id = "soldiers/spear_soldier_red", description = "Spear Red Soldier" }
+enemy{ id = "soldiers/sword_soldier_blue", description = "Sword Blue Soldier" }
+enemy{ id = "soldiers/sword_soldier_green", description = "Sword Green Soldier" }
 enemy{ id = "traps/beamos", description = "Beamos" }
 enemy{ id = "traps/beamos_laser", description = "Beamos (laser)" }
 enemy{ id = "traps/bumper", description = "Bumper" }
@@ -1225,7 +1240,9 @@ file{ path = "enemies/others/rabbit_beam.lua", author = "Christopho", license = 
 file{ path = "enemies/others/wizzrobe_beam.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/soldiers", author = "Christopho, ZeldoRetro, DarkDavy15", }
 file{ path = "enemies/soldiers/chain_and_ball.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/soldiers/chain_and_ball_gold.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/soldiers/knight_chain_and_ball.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
+file{ path = "enemies/soldiers/knight_chain_and_ball_gold.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/soldiers/soldier_archer.lua", author = "DarkDavy15", license = "GPL v3" }
 file{ path = "enemies/soldiers/soldier_archer_projectile.lua", author = "DarkDavy15", license = "GPL v3" }
 file{ path = "enemies/soldiers/soldier_simple_green.lua", author = "Christopho", license = "GPL v3" }
@@ -1397,6 +1414,8 @@ file{ path = "maps/A Link to the Past/Dark World/Caves/Fairy/river_hylia_north_f
 file{ path = "maps/A Link to the Past/Dark World/Caves/Fairy/river_hylia_north_fairy_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "maps/A Link to the Past/Dark World/Caves/Fairy/swamp_of_evil_fairy_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "maps/A Link to the Past/Dark World/Caves/Fairy/swamp_of_evil_fairy_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
+file{ path = "maps/A Link to the Past/Dark World/Caves/blacksmiths_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link to the Past/Dark World/Caves/blacksmiths_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "maps/A Link to the Past/Dark World/Caves/deadend_east_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "maps/A Link to the Past/Dark World/Caves/deadend_east_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "maps/A Link to the Past/Dark World/Caves/deathmountain_west_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
@@ -1734,9 +1753,6 @@ file{ path = "maps/A Link to the Past/Light World/Dungeons/Eastern Palace/F2/F2_
 file{ path = "maps/A Link to the Past/Light World/Dungeons/Eastern Palace/F2/F2_eastern_palace.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "maps/A Link to the Past/Light World/Dungeons/Hyrule Castle", author = "ZeldoRetro", }
 file{ path = "maps/A Link to the Past/Light World/Dungeons/Hyrule Castle Tower", author = "KaKaShUruKioRa", }
-file{ path = "maps/A Link to the Past/Light World/Dungeons/Hyrule Castle Tower/F1", author = "KaKaShUruKioRa", }
-file{ path = "maps/A Link to the Past/Light World/Dungeons/Hyrule Castle Tower/F1/F1_hyrule_castle_tower.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link to the Past/Light World/Dungeons/Hyrule Castle Tower/F1/F1_hyrule_castle_tower.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "maps/A Link to the Past/Light World/Dungeons/Hyrule Castle Tower/F2", author = "KaKaShUruKioRa", }
 file{ path = "maps/A Link to the Past/Light World/Dungeons/Hyrule Castle Tower/F2/F2_hyrule_castle_tower.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "maps/A Link to the Past/Light World/Dungeons/Hyrule Castle Tower/F2/F2_hyrule_castle_tower.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
@@ -2468,8 +2484,10 @@ file{ path = "shaders/fr_to_normal_colors.frag.glsl", author = "std::gregwar", l
 file{ path = "shaders/normal_to_fr_colors.dat", author = "std::gregwar", license = "GPL v3" }
 file{ path = "shaders/normal_to_fr_colors.frag.glsl", author = "std::gregwar", license = "GPL v3" }
 file{ path = "sounds", author = "Diarandor, Nintendo", }
+file{ path = "sounds/agahnim_dash.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sounds/arrow_hit.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/ball_and_chain.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
+file{ path = "sounds/bat_crash.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sounds/bomb.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/boomerang.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/boss_charge.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
@@ -2490,12 +2508,16 @@ file{ path = "sounds/danger.ogg", author = "Nintendo", license = "Proprietary (F
 file{ path = "sounds/door_closed.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/door_open.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/door_unlocked.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sounds/electrical_shock_1.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sounds/electrical_shock_2.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/enemy_awake.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/enemy_hurt.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/enemy_killed.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/explosion.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/external_stairs_down.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/external_stairs_up.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sounds/flute.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sounds/flute_complet.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/hammer.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/hammer_stake.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/heart.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
@@ -2516,6 +2538,7 @@ file{ path = "sounds/jump.ogg", author = "Nintendo", license = "Proprietary (Fai
 file{ path = "sounds/lantern.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/lift.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/lightning.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sounds/link_shocked.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/magic_meter.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/magic_powder.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/message_end.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
@@ -2535,6 +2558,7 @@ file{ path = "sounds/quake.ogg", author = "Nintendo", license = "Proprietary (Fa
 file{ path = "sounds/rain_in.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/rain_out.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/rat.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
+file{ path = "sounds/ritual_shock.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sounds/running.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/running_obstacle.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/rupee_counter.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
@@ -2832,6 +2856,8 @@ file{ path = "sprites/enemies/soldiers/ball.dat", author = "ZeldoRetro", license
 file{ path = "sprites/enemies/soldiers/chain.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/soldiers/knight_chain_and_ball.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/soldiers/knight_chain_and_ball.png", author = "Nintendo", license = "Proprietary (fair use)" }
+file{ path = "sprites/enemies/soldiers/knight_chain_and_ball_gold.dat", author = "ZeldoRetro, KaKaShUruKioRa", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/soldiers/knight_chain_and_ball_gold.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/soldiers/soldier_archer.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/soldiers/soldier_archer.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/soldiers/soldier_archer_head.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
@@ -2883,7 +2909,7 @@ file{ path = "sprites/enemies/traps/trap.png", author = "Nintendo", license = "P
 file{ path = "sprites/enemies/traps/trap_auto.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/traps/trap_detect.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/traps/trap_fixed.dat", author = "Christopho", license = "CC BY-SA 4.0" }
-file{ path = "sprites/entities", author = "Nintendo, Christopho, Vlag, ZeldoRetro, KaKaShUruKioRa", }
+file{ path = "sprites/entities", author = "Nintendo, Christopho, Vlag, ZeldoRetro, DarkDavy15, KaKaShUruKioRa", }
 file{ path = "sprites/entities/arrow.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/arrow.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/entities/bed.dat", author = "Christopho", license = "CC BY-SA 4.0" }
@@ -2916,9 +2942,9 @@ file{ path = "sprites/entities/explosion.png", author = "Nintendo", license = "P
 file{ path = "sprites/entities/fire.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/fire.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/entities/hammer_stake.png", author = "Nintendo", license = "Proprietary (Fair use)" }
-file{ path = "sprites/entities/hammer_stake_brown.dat", author = "Christopho", license = "CC BY-SA 4.0" }
-file{ path = "sprites/entities/hammer_stake_green.dat", author = "Christopho", license = "CC BY-SA 4.0" }
-file{ path = "sprites/entities/hammer_stake_yellow.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/hammer_stake_dark.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/hammer_stake_dungeon.dat", author = "DarkDavy15, ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/hammer_stake_light.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/hookshot.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/hookshot.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/entities/ice_beam.dat", author = "Christopho", license = "CC BY-SA 4.0" }
@@ -3023,6 +3049,8 @@ file{ path = "sprites/hero/sword3.dat", author = "Christopho", license = "CC BY-
 file{ path = "sprites/hero/sword4.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hero/sword_stars1.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hero/sword_stars2.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/hero/sword_stars3.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/hero/sword_stars4.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hero/sword_tapping.shield.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/hero/sword_tapping.sword.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/hero/sword_tapping.tunic.png", author = "Nintendo", license = "Proprietary (Fair use)" }

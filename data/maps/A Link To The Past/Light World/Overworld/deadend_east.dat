@@ -4830,17 +4830,17 @@ teletransporter{
   destination_map = "A Link to the Past/Dark World/Overworld/H6_deadend_east",
   destination = "_same",
   sprite = "entities/teletransporter_blue",
-  sound = "warp",
+  sound = "world_warp",
 }
 
 destructible{
-  name = "stone_black_deadend_east_0",
+  name = "stone_white_deadend_east_5",
   layer = 0,
   x = 408,
   y = 381,
-  sprite = "destructibles/stone_small_lw_2",
+  sprite = "destructibles/stone_small_lw_1",
   destruction_sound = "stone",
-  weight = 2,
+  weight = 1,
 }
 
 custom_entity{
@@ -4851,7 +4851,7 @@ custom_entity{
   width = 16,
   height = 16,
   direction = 0,
-  sprite = "entities/hammer_stake_brown",
+  sprite = "entities/hammer_stake_light",
   model = "hammer_stake",
 }
 
@@ -4863,7 +4863,7 @@ custom_entity{
   width = 16,
   height = 16,
   direction = 0,
-  sprite = "entities/hammer_stake_brown",
+  sprite = "entities/hammer_stake_light",
   model = "hammer_stake",
 }
 
@@ -4875,7 +4875,7 @@ custom_entity{
   width = 16,
   height = 16,
   direction = 0,
-  sprite = "entities/hammer_stake_brown",
+  sprite = "entities/hammer_stake_light",
   model = "hammer_stake",
 }
 
@@ -4887,7 +4887,7 @@ custom_entity{
   width = 16,
   height = 16,
   direction = 0,
-  sprite = "entities/hammer_stake_brown",
+  sprite = "entities/hammer_stake_light",
   model = "hammer_stake",
 }
 
@@ -4899,7 +4899,7 @@ custom_entity{
   width = 16,
   height = 16,
   direction = 0,
-  sprite = "entities/hammer_stake_brown",
+  sprite = "entities/hammer_stake_light",
   model = "hammer_stake",
 }
 
@@ -4911,7 +4911,7 @@ custom_entity{
   width = 16,
   height = 16,
   direction = 0,
-  sprite = "entities/hammer_stake_brown",
+  sprite = "entities/hammer_stake_light",
   model = "hammer_stake",
 }
 
@@ -4923,7 +4923,7 @@ custom_entity{
   width = 16,
   height = 16,
   direction = 0,
-  sprite = "entities/hammer_stake_brown",
+  sprite = "entities/hammer_stake_light",
   model = "hammer_stake",
 }
 
@@ -4935,7 +4935,7 @@ custom_entity{
   width = 16,
   height = 16,
   direction = 0,
-  sprite = "entities/hammer_stake_brown",
+  sprite = "entities/hammer_stake_light",
   model = "hammer_stake",
 }
 
@@ -4947,7 +4947,7 @@ custom_entity{
   width = 16,
   height = 16,
   direction = 0,
-  sprite = "entities/hammer_stake_brown",
+  sprite = "entities/hammer_stake_light",
   model = "hammer_stake",
 }
 
@@ -4959,7 +4959,7 @@ custom_entity{
   width = 16,
   height = 16,
   direction = 0,
-  sprite = "entities/hammer_stake_brown",
+  sprite = "entities/hammer_stake_light",
   model = "hammer_stake",
 }
 
@@ -4971,7 +4971,7 @@ custom_entity{
   width = 16,
   height = 16,
   direction = 0,
-  sprite = "entities/hammer_stake_brown",
+  sprite = "entities/hammer_stake_light",
   model = "hammer_stake",
 }
 
@@ -4983,7 +4983,7 @@ custom_entity{
   width = 16,
   height = 16,
   direction = 0,
-  sprite = "entities/hammer_stake_brown",
+  sprite = "entities/hammer_stake_light",
   model = "hammer_stake",
 }
 

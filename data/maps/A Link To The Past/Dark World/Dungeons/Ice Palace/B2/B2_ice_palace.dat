@@ -5,7 +5,7 @@ properties{
   height = 512,
   min_layer = 0,
   max_layer = 2,
-  world = "Ice Palace",
+  world = "ice_palace",
   floor = -2,
   tileset = "dungeon/light_blue",
   music = "dark_world_dungeon",
@@ -1947,21 +1947,21 @@ tile{
 }
 
 stairs{
+  name = "stair_up_B2_ice_palace_0",
+  layer = 0,
+  x = 192,
+  y = 328,
+  direction = 1,
+  subtype = 2,
+}
+
+stairs{
   name = "stair_down_B2_ice_palace_0",
   layer = 0,
   x = 120,
   y = 208,
   direction = 3,
   subtype = 3,
-}
-
-stairs{
-  name = "stair_up_B2_ice_palace_0",
-  layer = 0,
-  x = 192,
-  y = 336,
-  direction = 1,
-  subtype = 2,
 }
 
 teletransporter{
@@ -1981,27 +1981,11 @@ teletransporter{
   name = "tp_stair_up_B2_ice_palace_0",
   layer = 0,
   x = 192,
-  y = 336,
+  y = 328,
   width = 16,
   height = 16,
   destination_map = "A Link to the Past/Dark World/Dungeons/Ice Palace/B1/B1_ice_palace",
   destination = "dest_stair_up_B1_ice_palace_0",
-}
-
-destination{
-  name = "dest_stair_down_B2_ice_palace_0",
-  layer = 0,
-  x = 200,
-  y = 365,
-  direction = 3,
-}
-
-destination{
-  name = "dest_stair_up_B2_ice_palace_0",
-  layer = 0,
-  x = 128,
-  y = 205,
-  direction = 1,
 }
 
 teletransporter{
@@ -2084,12 +2068,46 @@ wall{
 }
 
 npc{
-  name = "npc_B2_ice_palace_0",
+  name = "ts.hint_ice_palace_2",
   layer = 0,
   x = 128,
   y = 45,
   direction = 3,
   subtype = 0,
+}
+
+enemy{
+  name = "enemy_stalfos_B2_ice_palace_0",
+  layer = 0,
+  x = 64,
+  y = 77,
+  direction = 0,
+  breed = "dungeons/skeleton_red",
+}
+
+enemy{
+  name = "enemy_stalfos_B2_ice_palace_1",
+  layer = 0,
+  x = 192,
+  y = 189,
+  direction = 0,
+  breed = "dungeons/skeleton_red",
+}
+
+destination{
+  name = "dest_stair_up_B2_ice_palace_0",
+  layer = 0,
+  x = 128,
+  y = 221,
+  direction = 1,
+}
+
+destination{
+  name = "dest_stair_down_B2_ice_palace_0",
+  layer = 0,
+  x = 200,
+  y = 341,
+  direction = 3,
 }
 
 tile{
@@ -2317,7 +2335,7 @@ destination{
 }
 
 separator{
-  name = "separator_vertical_B2_ice_palace_0",
+  name = "auto_separator_vertical_B2_ice_palace_0",
   layer = 2,
   x = 248,
   y = 0,
@@ -2326,10 +2344,10 @@ separator{
 }
 
 separator{
-  name = "separator_horizontal_B2_ice_palace_0",
+  name = "auto_separator_horizontal_B2_ice_palace_0",
   layer = 2,
   x = 0,
-  y = 248,
+  y = 240,
   width = 512,
   height = 16,
 }

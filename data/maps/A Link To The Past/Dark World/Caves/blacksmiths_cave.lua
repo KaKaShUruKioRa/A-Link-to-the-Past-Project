@@ -1,4 +1,4 @@
--- Lua script of map Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/F6/.
+-- Lua script of map A Link to the Past/Dark World/Caves/blacksmiths_cave.
 -- This script is executed every time the hero enters this map.
 
 -- Feel free to modify the code below.

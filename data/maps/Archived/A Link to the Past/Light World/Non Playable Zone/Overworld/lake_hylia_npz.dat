@@ -11690,7 +11690,7 @@ teletransporter{
   height = 16,
   destination_map = "",
   sprite = "entities/teletransporter_blue",
-  sound = "warp",
+  sound = "world_warp",
 }
 
 destructible{

@@ -10,11 +10,20 @@
 local map = ...
 local game = map:get_game()
 
+local door_manager = require("scripts/maps/door_manager")
+door_manager:manage_map(map)
+local chest_manager = require("scripts/maps/chest_manager")
+chest_manager:manage_map(map)
+local separator_manager = require("scripts/maps/separator_manager")
+separator_manager:manage_map(map)
+
 -- Event called at initialization time, as soon as this map is loaded.
 function map:on_started()
-
-  -- You can initialize the movement and sprites of various
-  -- map entities here.
+  if not game:get_value("heart_container_dark_palace") and game:get_value("treasure_hammer_F1_dark_palace_0") then
+      boss_helmasaur_king_0:set_enabled()
+  else 
+    boss_helmasaur_king_0:set_enabled(false)
+  end
 end
 
 -- Event called after the opening transition effect of the map,

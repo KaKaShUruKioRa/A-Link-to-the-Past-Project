@@ -6,8 +6,8 @@ local properties = {
   sprite = "enemies/" .. enemy:get_breed(),
   life = 2,
   damage = 2,
-  normal_speed = 64,
-  faster_speed = 64,
+  normal_speed = 32,
+  faster_speed = 32,
   obstacle_behavior = "swimming",  -- Allow to traverse water.
 }
 

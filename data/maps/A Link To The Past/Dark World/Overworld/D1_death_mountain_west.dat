@@ -24087,26 +24087,6 @@ destructible{
   can_be_cut = true,
 }
 
-destructible{
-  name = "explode_stone_D1_death_mountain_west_1",
-  layer = 0,
-  x = 232,
-  y = 109,
-  sprite = "destructibles/stone_explode_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
-}
-
-destructible{
-  name = "explode_stone_D1_death_mountain_west_2",
-  layer = 0,
-  x = 136,
-  y = 109,
-  sprite = "destructibles/stone_explode_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
-}
-
 destination{
   name = "dest_dungeon_D1_death_mountain_west_0",
   layer = 0,
@@ -24272,6 +24252,63 @@ jumper{
   height = 32,
   direction = 7,
   jump_length = 42,
+}
+
+custom_entity{
+  name = "explode_stone_D1_death_mountain_west_0",
+  layer = 0,
+  x = 136,
+  y = 109,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "destructibles/stone_explode_dw_1",
+  model = "stone_explode",
+}
+
+custom_entity{
+  name = "explode_stone_D1_death_mountain_west_1",
+  layer = 0,
+  x = 232,
+  y = 109,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "destructibles/stone_explode_dw_1",
+  model = "stone_explode",
+}
+
+teletransporter{
+  name = "warp_temp_Dw_to_Lw",
+  layer = 0,
+  x = 504,
+  y = 336,
+  width = 16,
+  height = 16,
+  destination_map = "A Link to the Past/Light World/Overworld/death_mountain_west",
+  destination = "_same",
+  sprite = "entities/teletransporter_blue",
+  sound = "world_warp",
+}
+
+npc{
+  name = "npc_pink_ball_D1_death_moutain_west_0",
+  layer = 0,
+  x = 480,
+  y = 381,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/pink_ball",
+}
+
+npc{
+  name = "npc_cursed_bully_D1_death_moutain_west_0",
+  layer = 0,
+  x = 456,
+  y = 365,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/bully_cursed",
 }
 
 tile{

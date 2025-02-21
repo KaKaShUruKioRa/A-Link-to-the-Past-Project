@@ -1887,16 +1887,6 @@ destructible{
 }
 
 destructible{
-  name = "big_stone_white_A3_entrance_skeleton_forest_0",
-  layer = 0,
-  x = 312,
-  y = 429,
-  sprite = "destructibles/stone_big_dw_2",
-  destruction_sound = "stone",
-  weight = 2,
-}
-
-destructible{
   name = "bush_A3_entrance_skeleton_forest_2",
   layer = 0,
   x = 168,
@@ -2121,6 +2111,31 @@ destructible{
   sprite = "destructibles/bush_purple",
   destruction_sound = "bush",
   can_be_cut = true,
+}
+
+custom_entity{
+  name = "big_stone_black_A3_entrance_skeleton_forest_0",
+  layer = 0,
+  x = 312,
+  y = 429,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "destructibles/stone_big_dw_2",
+  model = "stone_big_black",
+}
+
+teletransporter{
+  name = "warp_temp_Dw_to_Lw",
+  layer = 0,
+  x = 304,
+  y = 384,
+  width = 16,
+  height = 16,
+  destination_map = "A Link to the Past/Light World/Overworld/entrance_lost_wood",
+  destination = "_same",
+  sprite = "entities/teletransporter_blue",
+  sound = "world_warp",
 }
 
 tile{

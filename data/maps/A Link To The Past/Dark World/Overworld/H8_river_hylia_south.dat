@@ -6118,6 +6118,15 @@ enemy{
   breed = "dark_world/ropa",
 }
 
+enemy{
+  name = "enemy_ku_H8_river_hylia_south_0",
+  layer = 0,
+  x = 152,
+  y = 245,
+  direction = 3,
+  breed = "light_world/zora_underwater",
+}
+
 tile{
   layer = 1,
   x = 144,
@@ -8060,15 +8069,6 @@ enemy{
   y = 301,
   direction = 0,
   breed = "light_world/poe",
-}
-
-enemy{
-  name = "enemy_ku_H8_river_hylia_south_0",
-  layer = 0,
-  x = 152,
-  y = 245,
-  direction = 3,
-  breed = "light_world/zora_underwater",
 }
 
 teletransporter{

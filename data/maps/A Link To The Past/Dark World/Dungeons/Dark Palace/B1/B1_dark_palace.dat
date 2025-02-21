@@ -5,7 +5,7 @@ properties{
   height = 512,
   min_layer = 0,
   max_layer = 2,
-  world = "Dark Palace",
+  world = "dark_palace",
   floor = -1,
   tileset = "dungeon/gray",
   music = "dark_world_dungeon",
@@ -994,24 +994,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 88,
-  y = 376,
-  width = 16,
-  height = 16,
-  pattern = "torch_off",
-}
-
-tile{
-  layer = 0,
-  x = 152,
-  y = 376,
-  width = 16,
-  height = 16,
-  pattern = "torch_off",
-}
-
-tile{
-  layer = 0,
   x = 336,
   y = 328,
   width = 96,
@@ -1046,24 +1028,6 @@ tile{
   height = 32,
   pattern = "wall_decor.4-4",
   tileset = "dungeon/gray_yellow",
-}
-
-tile{
-  layer = 0,
-  x = 96,
-  y = 120,
-  width = 16,
-  height = 16,
-  pattern = "torch_off",
-}
-
-tile{
-  layer = 0,
-  x = 160,
-  y = 120,
-  width = 16,
-  height = 16,
-  pattern = "torch_off",
 }
 
 tile{
@@ -1171,7 +1135,7 @@ destination{
   name = "dest_stair_down_B1_dark_palace_0",
   layer = 0,
   x = 56,
-  y = 125,
+  y = 109,
   direction = 3,
 }
 
@@ -1190,7 +1154,7 @@ door{
 destination{
   name = "dest_warp_B1_dark_palace_0",
   layer = 0,
-  x = 376,
+  x = 368,
   y = 149,
   direction = 1,
   sprite = "entities/destination",
@@ -1199,8 +1163,8 @@ destination{
 teletransporter{
   name = "tp_warp_B2_dark_palace_2",
   layer = 0,
-  x = 376,
-  y = 88,
+  x = 392,
+  y = 136,
   width = 16,
   height = 16,
   destination_map = "A Link to the Past/Dark World/Dungeons/Dark Palace/F1/F1_dark_palace",
@@ -1391,7 +1355,6 @@ wall{
   height = 16,
   stops_enemies = true,
   stops_blocks = true,
-  stops_projectiles = true,
 }
 
 wall{
@@ -1403,7 +1366,6 @@ wall{
   height = 112,
   stops_enemies = true,
   stops_blocks = true,
-  stops_projectiles = true,
 }
 
 wall{
@@ -1415,7 +1377,6 @@ wall{
   height = 16,
   stops_enemies = true,
   stops_blocks = true,
-  stops_projectiles = true,
 }
 
 wall{
@@ -1464,13 +1425,99 @@ destination{
   direction = 3,
 }
 
-pickable{
-  name = "treasure_heart_container_B1_dark_palace_0",
+enemy{
+  name = "boss_helmasaur_king_0",
   layer = 0,
   x = 384,
-  y = 117,
+  y = 101,
+  enabled_at_start = false,
+  direction = 3,
+  breed = "bosses/helmasaur_king",
   treasure_name = "consumables/heart_container",
-  treasure_savegame_variable = "treasure_heart_container_B1_dark_palace_0",
+  treasure_savegame_variable = "heart_container_dark_palace",
+}
+
+custom_entity{
+  name = "hammer_stake_dungeon_B1_dark_palace_0",
+  layer = 0,
+  x = 376,
+  y = 205,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hammer_stake_dungeon",
+  model = "hammer_stake",
+}
+
+custom_entity{
+  name = "hammer_stake_dungeon_B1_dark_palace_1",
+  layer = 0,
+  x = 392,
+  y = 205,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/hammer_stake_dungeon",
+  model = "hammer_stake",
+}
+
+wall{
+  layer = 0,
+  x = 368,
+  y = 112,
+  width = 32,
+  height = 8,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+custom_entity{
+  name = "torch_B1_dark_palace_0",
+  layer = 0,
+  x = 104,
+  y = 133,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "torch_B1_dark_palace_1",
+  layer = 0,
+  x = 168,
+  y = 133,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "torch_B1_dark_palace_2",
+  layer = 0,
+  x = 96,
+  y = 389,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "torch_B1_dark_palace_3",
+  layer = 0,
+  x = 160,
+  y = 389,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
 }
 
 tile{
@@ -1663,6 +1710,7 @@ tile{
 }
 
 separator{
+  name = "auto_separator_vertical_B1_dark_palace_0",
   layer = 2,
   x = 248,
   y = 0,
@@ -1671,9 +1719,10 @@ separator{
 }
 
 separator{
+  name = "auto_separator_horizontal_B1_dark_palace_0",
   layer = 2,
   x = 0,
-  y = 248,
+  y = 240,
   width = 512,
   height = 16,
 }

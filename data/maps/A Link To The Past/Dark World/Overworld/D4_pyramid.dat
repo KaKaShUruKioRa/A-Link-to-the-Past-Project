@@ -13,26 +13,8 @@ properties{
 tile{
   layer = 0,
   x = 0,
-  y = 80,
-  width = 1024,
-  height = 80,
-  pattern = "12430",
-}
-
-tile{
-  layer = 0,
-  x = 0,
-  y = 768,
-  width = 1024,
-  height = 256,
-  pattern = "112",
-}
-
-tile{
-  layer = 0,
-  x = 0,
   y = 160,
-  width = 96,
+  width = 48,
   height = 656,
   pattern = "112",
 }
@@ -43,6 +25,52 @@ tile{
   y = 160,
   width = 48,
   height = 440,
+  pattern = "112",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 1024,
+  height = 80,
+  pattern = "12412",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 80,
+  width = 1024,
+  height = 80,
+  pattern = "12430",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 160,
+  width = 872,
+  height = 416,
+  pattern = "14667",
+}
+
+tile{
+  layer = 0,
+  x = 360,
+  y = 424,
+  width = 48,
+  height = 40,
+  pattern = "8266",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 768,
+  width = 1024,
+  height = 256,
   pattern = "112",
 }
 
@@ -745,15 +773,6 @@ tile{
   y = 576,
   width = 864,
   height = 176,
-  pattern = "14667",
-}
-
-tile{
-  layer = 0,
-  x = 72,
-  y = 160,
-  width = 872,
-  height = 416,
   pattern = "14667",
 }
 
@@ -3951,15 +3970,6 @@ tile{
   width = 48,
   height = 16,
   pattern = "1111",
-}
-
-tile{
-  layer = 0,
-  x = 928,
-  y = 656,
-  width = 32,
-  height = 32,
-  pattern = "1375",
 }
 
 tile{
@@ -11309,16 +11319,6 @@ tile{
   width = 8,
   height = 32,
   pattern = "8264",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
-  x = 360,
-  y = 424,
-  width = 48,
-  height = 32,
-  pattern = "8266",
   tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
@@ -29514,15 +29514,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 0,
-  y = 0,
-  width = 1024,
-  height = 80,
-  pattern = "12412",
-}
-
-tile{
-  layer = 0,
   x = 368,
   y = 448,
   width = 8,
@@ -29561,105 +29552,15 @@ tile{
   tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
-tile{
+dynamic_tile{
+  name = "dynamic_tile_bombable_D4_pyramid_0",
   layer = 0,
-  x = 496,
-  y = 112,
-  width = 16,
+  x = 368,
+  y = 448,
+  width = 32,
   height = 8,
-  pattern = "6459",
+  pattern = "8266",
   tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
-  x = 512,
-  y = 112,
-  width = 8,
-  height = 8,
-  pattern = "6461",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
-  x = 496,
-  y = 120,
-  width = 16,
-  height = 16,
-  pattern = "6129",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
-  x = 488,
-  y = 120,
-  width = 8,
-  height = 16,
-  pattern = "6126",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
-  x = 512,
-  y = 120,
-  width = 8,
-  height = 16,
-  pattern = "6127",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
-  x = 488,
-  y = 112,
-  width = 8,
-  height = 8,
-  pattern = "6462",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
-  x = 496,
-  y = 136,
-  width = 16,
-  height = 8,
-  pattern = "6460",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
-  x = 488,
-  y = 136,
-  width = 8,
-  height = 8,
-  pattern = "6463",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-tile{
-  layer = 0,
-  x = 512,
-  y = 136,
-  width = 8,
-  height = 8,
-  pattern = "6464",
-  tileset = "out/outside_darkworld_buildings_ERROR",
-}
-
-teletransporter{
-  name = "tp_dungeon_D4_pyramid_0",
-  layer = 0,
-  x = 496,
-  y = 120,
-  width = 16,
-  height = 16,
-  destination_map = "A Link to the Past/Dark World/Dungeons/Pyramid of Power/F2/F2_pyramid_of_power",
-  destination = "dest_hole_F2_pyramid_of_power_0",
 }
 
 destructible{
@@ -29840,18 +29741,6 @@ destructible{
   sprite = "destructibles/bush_purple",
   destruction_sound = "bush",
   can_be_cut = true,
-}
-
-custom_entity{
-  name = "big_stone_white_D4_pyramid_0",
-  layer = 0,
-  x = 936,
-  y = 669,
-  width = 32,
-  height = 32,
-  direction = 0,
-  sprite = "destructibles/stone_big_dw_1",
-  model = "stone_big_white",
 }
 
 destructible{
@@ -30311,7 +30200,7 @@ destructible{
 }
 
 custom_entity{
-  name = "big_stone_white_D4_pyramid_2",
+  name = "big_stone_white_D4_pyramid_1",
   layer = 0,
   x = 792,
   y = 717,
@@ -30323,7 +30212,7 @@ custom_entity{
 }
 
 custom_entity{
-  name = "big_stone_white_D4_pyramid_1",
+  name = "big_stone_white_D4_pyramid_0",
   layer = 0,
   x = 728,
   y = 717,
@@ -32862,6 +32751,172 @@ enemy{
   y = 381,
   direction = 3,
   breed = "dark_world/ropa",
+}
+
+dynamic_tile{
+  name = "ganon_hole_1",
+  layer = 0,
+  x = 496,
+  y = 112,
+  enabled_at_start = false,
+  width = 16,
+  height = 8,
+  pattern = "6459",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+dynamic_tile{
+  name = "ganon_hole_2",
+  layer = 0,
+  x = 512,
+  y = 112,
+  enabled_at_start = false,
+  width = 8,
+  height = 8,
+  pattern = "6461",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+dynamic_tile{
+  name = "ganon_hole_4",
+  layer = 0,
+  x = 496,
+  y = 120,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  pattern = "6129",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+dynamic_tile{
+  name = "ganon_hole_3",
+  layer = 0,
+  x = 488,
+  y = 120,
+  enabled_at_start = false,
+  width = 8,
+  height = 16,
+  pattern = "6126",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+dynamic_tile{
+  name = "ganon_hole_5",
+  layer = 0,
+  x = 512,
+  y = 120,
+  enabled_at_start = false,
+  width = 8,
+  height = 16,
+  pattern = "6127",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+dynamic_tile{
+  name = "ganon_hole_0",
+  layer = 0,
+  x = 488,
+  y = 112,
+  enabled_at_start = false,
+  width = 8,
+  height = 8,
+  pattern = "6462",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+dynamic_tile{
+  name = "ganon_hole_7",
+  layer = 0,
+  x = 496,
+  y = 136,
+  enabled_at_start = false,
+  width = 16,
+  height = 8,
+  pattern = "6460",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+dynamic_tile{
+  name = "ganon_hole_6",
+  layer = 0,
+  x = 488,
+  y = 136,
+  enabled_at_start = false,
+  width = 8,
+  height = 8,
+  pattern = "6463",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+dynamic_tile{
+  name = "ganon_hole_8",
+  layer = 0,
+  x = 512,
+  y = 136,
+  enabled_at_start = false,
+  width = 8,
+  height = 8,
+  pattern = "6464",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+teletransporter{
+  name = "tp_dungeon_D4_pyramid_0",
+  layer = 0,
+  x = 496,
+  y = 120,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  destination_map = "A Link to the Past/Dark World/Dungeons/Pyramid of Power/F2/F2_pyramid_of_power",
+  destination = "dest_hole_F2_pyramid_of_power_0",
+}
+
+dynamic_tile{
+  name = "dynamic_tile_bombable_D4_pyramid_1",
+  layer = 0,
+  x = 376,
+  y = 448,
+  width = 16,
+  height = 16,
+  pattern = "8270",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+dynamic_tile{
+  name = "dynamic_tile_bombable_D4_pyramid_3",
+  layer = 0,
+  x = 392,
+  y = 456,
+  width = 8,
+  height = 8,
+  pattern = "8268",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+dynamic_tile{
+  name = "dynamic_tile_bombable_D4_pyramid_2",
+  layer = 0,
+  x = 368,
+  y = 456,
+  width = 8,
+  height = 8,
+  pattern = "13707",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+teletransporter{
+  name = "warp_temp_Dw_to_Lw",
+  layer = 0,
+  x = 504,
+  y = 664,
+  width = 16,
+  height = 16,
+  destination_map = "A Link to the Past/Light World/Overworld/hyrule_castle",
+  destination = "_same",
+  sprite = "entities/teletransporter_blue",
+  sound = "world_warp",
 }
 
 tile{

@@ -5024,16 +5024,6 @@ destructible{
   weight = 1,
 }
 
-destructible{
-  name = "big_stone_F4_wooden_bridge_2",
-  layer = 0,
-  x = 392,
-  y = 109,
-  sprite = "destructibles/stone_big_dw_1",
-  destruction_sound = "stone",
-  weight = 1,
-}
-
 enemy{
   name = "enemy_moblin_F4_wooden_bridge_0",
   layer = 0,
@@ -5086,6 +5076,18 @@ enemy{
   y = 261,
   direction = 3,
   breed = "dark_world/taros_blue",
+}
+
+custom_entity{
+  name = "big_stone_white_F4_wooden_bridge_0",
+  layer = 0,
+  x = 392,
+  y = 109,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "destructibles/stone_big_dw_1",
+  model = "stone_big_white",
 }
 
 tile{

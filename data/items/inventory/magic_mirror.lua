@@ -18,6 +18,9 @@ function item:on_using()
   elseif map:get_id() == "A Link to the Past/Light World/Overworld/death_mountain_west" and map:get_tileset() == "out/outside_darkworld_main" then
     sol.audio.play_sound("world_warp")
 
+    game:set_ability("shield", game:get_item("equipment/shield"):get_variant())
+    game:set_ability("lift", game:get_item("equipment/glove"):get_variant())
+
     hero:teleport(game:get_map():get_id(), "_same")
   else
     sol.audio.play_sound("wrong")

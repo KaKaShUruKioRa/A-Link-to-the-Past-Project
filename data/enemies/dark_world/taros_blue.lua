@@ -7,8 +7,8 @@ local properties = {
   sword_sprite = "enemies/" .. enemy:get_breed() .. "_weapon",
   life = 9,
   damage = 8,
-  normal_speed = 64,
-  faster_speed = 64,
+  normal_speed = 32,
+  faster_speed = 32,
 }
 
 behavior:create(enemy, properties)

@@ -4731,7 +4731,7 @@ destructible{
   layer = 0,
   x = 136,
   y = 333,
-  sprite = "entities/sign_brown",
+  sprite = "entities/sign_yellow",
   destruction_sound = "stone",
 }
 
@@ -4743,36 +4743,6 @@ destructible{
   sprite = "destructibles/stone_small_dw_2",
   destruction_sound = "stone",
   weight = 2,
-}
-
-destructible{
-  name = "big_stone_H3_lake_of_ill_omen_south_0",
-  layer = 0,
-  x = 232,
-  y = 301,
-  sprite = "destructibles/stone_explode_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
-}
-
-destructible{
-  name = "big_stone_H3_lake_of_ill_omen_south_1",
-  layer = 0,
-  x = 232,
-  y = 333,
-  sprite = "destructibles/stone_explode_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
-}
-
-destructible{
-  name = "big_stone_H3_lake_of_ill_omen_south_2",
-  layer = 0,
-  x = 200,
-  y = 333,
-  sprite = "destructibles/stone_explode_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
 }
 
 destructible{
@@ -4856,6 +4826,42 @@ enemy{
   y = 93,
   direction = 3,
   breed = "light_world/zora_underwater",
+}
+
+custom_entity{
+  name = "explode_stone_H3_lake_of_ill_omen_south_0",
+  layer = 0,
+  x = 232,
+  y = 301,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "destructibles/stone_explode_dw_1",
+  model = "stone_explode",
+}
+
+custom_entity{
+  name = "explode_stone_H3_lake_of_ill_omen_south_1",
+  layer = 0,
+  x = 200,
+  y = 333,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "destructibles/stone_explode_dw_1",
+  model = "stone_explode",
+}
+
+custom_entity{
+  name = "explode_stone_H3_lake_of_ill_omen_south_2",
+  layer = 0,
+  x = 232,
+  y = 333,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "destructibles/stone_explode_dw_1",
+  model = "stone_explode",
 }
 
 tile{

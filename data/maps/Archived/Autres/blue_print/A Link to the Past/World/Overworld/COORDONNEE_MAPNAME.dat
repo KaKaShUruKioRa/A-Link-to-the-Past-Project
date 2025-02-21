@@ -8557,15 +8557,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 544,
-  y = 200,
-  width = 8,
-  height = 48,
-  pattern = "1452",
-}
-
-tile{
-  layer = 1,
   x = 496,
   y = 248,
   width = 48,

@@ -1289,38 +1289,20 @@ tile{
 
 tile{
   layer = 0,
-  x = 368,
-  y = 216,
-  width = 8,
-  height = 24,
-  pattern = "stairs_inner_up.1.border.1-1",
-}
-
-tile{
-  layer = 0,
-  x = 392,
-  y = 208,
-  width = 8,
-  height = 8,
-  pattern = "stairs_inner_up.1.top.border.2-1",
-}
-
-tile{
-  layer = 0,
   x = 376,
   y = 208,
   width = 16,
   height = 8,
-  pattern = "stairs_inner_up.1.top-1",
+  pattern = "stairs_inner_up.1.top-2",
 }
 
 tile{
   layer = 0,
   x = 368,
-  y = 208,
+  y = 216,
   width = 8,
-  height = 8,
-  pattern = "stairs_inner_up.1.top.border.1-1",
+  height = 24,
+  pattern = "stairs_inner_up.1.border.1-2",
 }
 
 tile{
@@ -1329,7 +1311,7 @@ tile{
   y = 216,
   width = 16,
   height = 24,
-  pattern = "stairs_inner_up.1-1",
+  pattern = "stairs_inner_up.1-2",
 }
 
 tile{
@@ -1338,7 +1320,25 @@ tile{
   y = 216,
   width = 8,
   height = 24,
-  pattern = "stairs_inner_up.1.border.2-1",
+  pattern = "stairs_inner_up.1.border.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 208,
+  width = 8,
+  height = 8,
+  pattern = "stairs_inner_up.1.top.border.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 208,
+  width = 8,
+  height = 8,
+  pattern = "stairs_inner_up.1.top.border.1-2",
 }
 
 wall{

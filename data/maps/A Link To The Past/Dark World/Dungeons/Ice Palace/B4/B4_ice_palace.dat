@@ -5,7 +5,7 @@ properties{
   height = 512,
   min_layer = 0,
   max_layer = 2,
-  world = "Ice Palace",
+  world = "ice_palace",
   floor = -4,
   tileset = "dungeon/light_blue",
   music = "dark_world_dungeon",
@@ -1739,6 +1739,20 @@ tile{
   pattern = "telepathic_stone",
 }
 
+wall{
+  name = "wall_B4_ice_palace_1",
+  layer = 0,
+  x = 56,
+  y = 144,
+  width = 32,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
 stairs{
   name = "stair_up_B4_ice_palace_0",
   layer = 0,
@@ -1770,14 +1784,6 @@ teletransporter{
   height = 16,
   destination_map = "A Link to the Past/Dark World/Dungeons/Ice Palace/B3/B3_ice_palace",
   destination = "dest_stair_up_B3_ice_palace_0",
-}
-
-destination{
-  name = "dest_stair_down_B4_ice_palace_0",
-  layer = 0,
-  x = 72,
-  y = 181,
-  direction = 3,
 }
 
 wall{
@@ -1831,7 +1837,7 @@ enemy{
   name = "enemy_freezor_FLOOR_DUNGEONNAME_0",
   layer = 0,
   x = 128,
-  y = 53,
+  y = 61,
   direction = 3,
   breed = "dungeons/freezor",
 }
@@ -1840,7 +1846,7 @@ enemy{
   name = "enemy_freezor_FLOOR_DUNGEONNAME_1",
   layer = 0,
   x = 184,
-  y = 53,
+  y = 61,
   direction = 3,
   breed = "dungeons/freezor",
 }
@@ -1860,7 +1866,7 @@ enemy{
   name = "enemy_freezor_FLOOR_DUNGEONNAME_2",
   layer = 0,
   x = 184,
-  y = 309,
+  y = 317,
   direction = 3,
   breed = "dungeons/freezor",
 }
@@ -1883,14 +1889,6 @@ teletransporter{
   height = 16,
   destination_map = "A Link to the Past/Dark World/Dungeons/Ice Palace/B5/B5_ice_palace",
   destination = "dest_stair_down_B5_ice_palace_0",
-}
-
-destination{
-  name = "dest_stair_up_B4_ice_palace_0",
-  layer = 0,
-  x = 72,
-  y = 317,
-  direction = 3,
 }
 
 enemy{
@@ -1947,22 +1945,8 @@ enemy{
   breed = "dungeons/pengator",
 }
 
-wall{
-  name = "wall_B4_ice_palace_1",
-  layer = 0,
-  x = 56,
-  y = 144,
-  width = 32,
-  height = 8,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
 npc{
-  name = "npc_B4_ice_palace_0",
+  name = "ts.hint_ice_palace_3",
   layer = 0,
   x = 384,
   y = 45,
@@ -1988,6 +1972,22 @@ block{
   sprite = "entities/block",
   pushable = false,
   pullable = false,
+}
+
+destination{
+  name = "dest_stair_down_B4_ice_palace_0",
+  layer = 0,
+  x = 72,
+  y = 165,
+  direction = 3,
+}
+
+destination{
+  name = "dest_stair_up_B4_ice_palace_0",
+  layer = 0,
+  x = 72,
+  y = 301,
+  direction = 3,
 }
 
 tile{
@@ -2207,7 +2207,7 @@ tile{
 }
 
 separator{
-  name = "separator_vertical_B4_ice_palace_0",
+  name = "auto_separator_vertical_B4_ice_palace_0",
   layer = 2,
   x = 248,
   y = 0,
@@ -2216,10 +2216,10 @@ separator{
 }
 
 separator{
-  name = "separator_horizontal_B4_ice_palace_0",
+  name = "auto_separator_horizontal_B4_ice_palace_0",
   layer = 2,
   x = 0,
-  y = 248,
+  y = 240,
   width = 512,
   height = 16,
 }

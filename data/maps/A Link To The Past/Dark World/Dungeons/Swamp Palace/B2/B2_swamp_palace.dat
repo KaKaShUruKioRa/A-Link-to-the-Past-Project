@@ -5,7 +5,7 @@ properties{
   height = 512,
   min_layer = 0,
   max_layer = 2,
-  world = "Swamp Palace",
+  world = "swamp_palace",
   floor = -2,
   tileset = "dungeon/blue",
   music = "dark_world_dungeon",
@@ -2177,14 +2177,6 @@ teletransporter{
   destination = "dest_stair_up_B1_swamp_palace_0",
 }
 
-destination{
-  name = "dest_stair_down_B2_swamp_palace_0",
-  layer = 0,
-  x = 128,
-  y = 317,
-  direction = 3,
-}
-
 wall{
   name = "wall_B2_swamp_palace_0",
   layer = 0,
@@ -2249,21 +2241,21 @@ enemy{
 }
 
 enemy{
-  name = "enemy_stalfos_blue_B2_swamp_palace_0",
+  name = "enemy_skeleton_blue_B2_swamp_palace_0",
   layer = 0,
   x = 64,
   y = 109,
   direction = 3,
-  breed = "dungeons/stalfos_blue",
+  breed = "dungeons/skeleton_blue",
 }
 
 enemy{
-  name = "enemy_stalfos_red_B2_swamp_palace_0",
+  name = "enemy_skeleton_red_B2_swamp_palace_0",
   layer = 0,
   x = 64,
   y = 165,
   direction = 3,
-  breed = "dungeons/stalfos_red",
+  breed = "dungeons/skeleton_red",
 }
 
 enemy{
@@ -2276,21 +2268,21 @@ enemy{
 }
 
 enemy{
-  name = "enemy_stalfos_blue_B2_swamp_palace_1",
+  name = "enemy_skeleton_blue_B2_swamp_palace_1",
   layer = 0,
   x = 384,
   y = 109,
   direction = 3,
-  breed = "dungeons/stalfos_blue",
+  breed = "dungeons/skeleton_blue",
 }
 
 enemy{
-  name = "enemy_stalfos_red_B2_swamp_palace_1",
+  name = "enemy_skeleton_red_B2_swamp_palace_1",
   layer = 0,
   x = 416,
   y = 125,
   direction = 3,
-  breed = "dungeons/stalfos_red",
+  breed = "dungeons/skeleton_red",
 }
 
 enemy{
@@ -2309,6 +2301,14 @@ enemy{
   y = 93,
   direction = 3,
   breed = "dungeons/bari_blue",
+}
+
+destination{
+  name = "dest_stair_down_B2_swamp_palace_0",
+  layer = 0,
+  x = 128,
+  y = 301,
+  direction = 3,
 }
 
 tile{
@@ -2528,7 +2528,7 @@ destination{
 }
 
 separator{
-  name = "separator_vertical_B2_swamp_palace_0",
+  name = "auto_separator_vertical_B2_swamp_palace_0",
   layer = 2,
   x = 248,
   y = 0,
@@ -2537,10 +2537,10 @@ separator{
 }
 
 separator{
-  name = "separator_horizontal_B2_swamp_palace_0",
+  name = "auto_separator_horizontal_B2_swamp_palace_0",
   layer = 2,
   x = 0,
-  y = 248,
+  y = 240,
   width = 512,
   height = 16,
 }

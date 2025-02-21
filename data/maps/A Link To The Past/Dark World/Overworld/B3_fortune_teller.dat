@@ -3771,7 +3771,7 @@ destructible{
   layer = 0,
   x = 344,
   y = 397,
-  sprite = "entities/sign_brown",
+  sprite = "entities/sign_yellow",
   destruction_sound = "stone",
 }
 
@@ -3811,26 +3811,6 @@ destructible{
   x = 472,
   y = 349,
   sprite = "destructibles/stone_small_dw_1",
-  destruction_sound = "stone",
-  weight = 1,
-}
-
-destructible{
-  name = "explode_stone_B3_fortune_teller_0",
-  layer = 0,
-  x = 136,
-  y = 269,
-  sprite = "destructibles/stone_explode_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
-}
-
-destructible{
-  name = "big_stone_white_B3_fortune_teller_south_1",
-  layer = 0,
-  x = 136,
-  y = 269,
-  sprite = "destructibles/stone_explode_dw_1",
   destruction_sound = "stone",
   weight = 1,
 }
@@ -3877,6 +3857,18 @@ enemy{
   y = 349,
   direction = 3,
   breed = "dark_world/stal",
+}
+
+custom_entity{
+  name = "explode_stone_B3_fortune_teller_0",
+  layer = 0,
+  x = 136,
+  y = 269,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "destructibles/stone_explode_dw_1",
+  model = "stone_explode",
 }
 
 tile{
@@ -4870,8 +4862,8 @@ teletransporter{
 destination{
   name = "dest_secret",
   layer = 2,
-  x = 256,
-  y = 256,
+  x = 408,
+  y = 416,
   direction = 3,
 }
 

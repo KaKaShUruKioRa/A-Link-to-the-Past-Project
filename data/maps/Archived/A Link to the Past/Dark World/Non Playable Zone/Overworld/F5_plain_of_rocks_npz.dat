@@ -2035,7 +2035,7 @@ destructible{
   layer = -2,
   x = 40,
   y = 157,
-  sprite = "entities/sign_brown",
+  sprite = "entities/sign_yellow",
   destruction_sound = "stone",
 }
 

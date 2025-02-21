@@ -7373,9 +7373,10 @@ teletransporter{
 destination{
   name = "dest_secret",
   layer = 2,
-  x = 256,
-  y = 256,
+  x = 264,
+  y = 184,
   direction = 3,
+  default = true,
 }
 
 enemy{

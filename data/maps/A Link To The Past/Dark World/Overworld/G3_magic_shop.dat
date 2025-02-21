@@ -4465,16 +4465,6 @@ destructible{
 }
 
 destructible{
-  name = "big_stone_sorcery_0",
-  layer = 0,
-  x = 392,
-  y = 301,
-  sprite = "destructibles/stone_big_dw_1",
-  destruction_sound = "stone",
-  weight = 1,
-}
-
-destructible{
   name = "stone_white_hylia_lake_111",
   layer = 0,
   x = 328,
@@ -4587,6 +4577,18 @@ enemy{
   y = 157,
   direction = 3,
   breed = "light_world/zora_underwater",
+}
+
+custom_entity{
+  name = "big_stone_white_G3_magic_shop_0",
+  layer = 0,
+  x = 392,
+  y = 301,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "destructibles/stone_big_dw_1",
+  model = "stone_big_white",
 }
 
 tile{
@@ -7360,8 +7362,8 @@ tile{
 destination{
   name = "dest_secret",
   layer = 2,
-  x = 280,
-  y = 269,
+  x = 216,
+  y = 461,
   direction = 3,
 }
 

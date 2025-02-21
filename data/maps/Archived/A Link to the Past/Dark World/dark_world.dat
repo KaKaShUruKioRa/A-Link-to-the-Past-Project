@@ -140213,7 +140213,7 @@ destructible{
   layer = -2,
   x = 328,
   y = 1677,
-  sprite = "entities/sign_brown",
+  sprite = "entities/sign_yellow",
   destruction_sound = "stone",
 }
 
@@ -140222,7 +140222,7 @@ destructible{
   layer = -2,
   x = 904,
   y = 1805,
-  sprite = "entities/sign_brown",
+  sprite = "entities/sign_yellow",
   destruction_sound = "stone",
 }
 
@@ -140231,7 +140231,7 @@ destructible{
   layer = -2,
   x = 952,
   y = 2333,
-  sprite = "entities/sign_brown",
+  sprite = "entities/sign_yellow",
   destruction_sound = "stone",
 }
 
@@ -140490,7 +140490,7 @@ destructible{
   layer = -2,
   x = 232,
   y = 2765,
-  sprite = "entities/sign_brown",
+  sprite = "entities/sign_yellow",
   destruction_sound = "stone",
 }
 
@@ -140949,7 +140949,7 @@ destructible{
   layer = -2,
   x = 856,
   y = 1421,
-  sprite = "entities/sign_brown",
+  sprite = "entities/sign_yellow",
   destruction_sound = "stone",
 }
 
@@ -141668,7 +141668,7 @@ destructible{
   layer = -2,
   x = 1288,
   y = 717,
-  sprite = "entities/sign_brown",
+  sprite = "entities/sign_yellow",
   destruction_sound = "stone",
 }
 
@@ -141927,7 +141927,7 @@ destructible{
   layer = -2,
   x = 1352,
   y = 1389,
-  sprite = "entities/sign_brown",
+  sprite = "entities/sign_yellow",
   destruction_sound = "stone",
 }
 
@@ -147242,7 +147242,7 @@ destructible{
   layer = -2,
   x = 1672,
   y = 3789,
-  sprite = "entities/sign_brown",
+  sprite = "entities/sign_yellow",
   destruction_sound = "stone",
 }
 
@@ -157397,7 +157397,7 @@ destructible{
   layer = -2,
   x = 1976,
   y = 3213,
-  sprite = "entities/hammer_stake_brown",
+  sprite = "entities/hammer_stake_light",
   destruction_sound = "hammer_stake",
   weight = -1,
   damage_on_enemies = 0,
@@ -157408,7 +157408,7 @@ destructible{
   layer = -2,
   x = 1976,
   y = 3229,
-  sprite = "entities/hammer_stake_brown",
+  sprite = "entities/hammer_stake_light",
   destruction_sound = "hammer_stake",
   weight = -1,
   damage_on_enemies = 0,
@@ -157419,7 +157419,7 @@ destructible{
   layer = -2,
   x = 1976,
   y = 3245,
-  sprite = "entities/hammer_stake_brown",
+  sprite = "entities/hammer_stake_light",
   destruction_sound = "hammer_stake",
   weight = -1,
   damage_on_enemies = 0,
@@ -158752,7 +158752,7 @@ destructible{
   layer = -2,
   x = 2600,
   y = 2205,
-  sprite = "entities/sign_brown",
+  sprite = "entities/sign_yellow",
   destruction_sound = "stone",
 }
 
@@ -158821,7 +158821,7 @@ destructible{
   layer = -2,
   x = 2728,
   y = 2957,
-  sprite = "entities/sign_brown",
+  sprite = "entities/sign_yellow",
   destruction_sound = "stone",
 }
 
@@ -159634,7 +159634,7 @@ destructible{
   layer = -2,
   x = 3864,
   y = 717,
-  sprite = "entities/sign_brown",
+  sprite = "entities/sign_yellow",
   destruction_sound = "stone",
 }
 
@@ -159683,7 +159683,7 @@ destructible{
   layer = -2,
   x = 3720,
   y = 1357,
-  sprite = "entities/sign_brown",
+  sprite = "entities/sign_yellow",
   destruction_sound = "stone",
 }
 
@@ -339512,7 +339512,7 @@ custom_entity{
   width = 16,
   height = 16,
   direction = 0,
-  sprite = "entities/hammer_stake_brown",
+  sprite = "entities/hammer_stake_light",
   model = "hammer_stake",
 }
 
@@ -339524,7 +339524,7 @@ custom_entity{
   width = 16,
   height = 16,
   direction = 0,
-  sprite = "entities/hammer_stake_brown",
+  sprite = "entities/hammer_stake_light",
   model = "hammer_stake",
 }
 

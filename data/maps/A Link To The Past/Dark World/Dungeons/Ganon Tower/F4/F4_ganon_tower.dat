@@ -5,7 +5,7 @@ properties{
   height = 512,
   min_layer = 0,
   max_layer = 2,
-  world = "Ganon Tower",
+  world = "ganon_tower",
   floor = 3,
   tileset = "dungeon/gray_pink",
   music = "dark_world_dungeon",
@@ -1110,6 +1110,28 @@ tile{
 }
 
 teletransporter{
+  name = "tp_stair_up_F4_ganon_tower_0",
+  layer = 0,
+  x = 120,
+  y = 288,
+  width = 16,
+  height = 16,
+  destination_map = "A Link to the Past/Dark World/Dungeons/Ganon Tower/F5/F5_ganon_tower",
+  destination = "dest_stair_up_F5_ganon_tower_0",
+}
+
+teletransporter{
+  name = "tp_stair_down_F4_ganon_tower_0",
+  layer = 0,
+  x = 120,
+  y = 208,
+  width = 16,
+  height = 16,
+  destination_map = "A Link to the Past/Dark World/Dungeons/Ganon Tower/F3/F3_ganon_tower",
+  destination = "dest_stair_down_F3_ganon_tower_0",
+}
+
+teletransporter{
   name = "tp_warp_F4_ganon_tower_0",
   layer = 0,
   x = 376,
@@ -1217,17 +1239,6 @@ destination{
   direction = 1,
 }
 
-teletransporter{
-  name = "tp_stair_down_F4_ganon_tower_0",
-  layer = 0,
-  x = 120,
-  y = 208,
-  width = 16,
-  height = 16,
-  destination_map = "A Link to the Past/Dark World/Dungeons/Ganon Tower/F3/F3_ganon_tower",
-  destination = "dest_stair_down_F3_ganon_tower_0",
-}
-
 stairs{
   name = "stair_up_F4_ganon_tower_0",
   layer = 0,
@@ -1237,22 +1248,11 @@ stairs{
   subtype = 2,
 }
 
-teletransporter{
-  name = "tp_stair_up_F4_ganon_tower_0",
-  layer = 0,
-  x = 120,
-  y = 288,
-  width = 16,
-  height = 16,
-  destination_map = "A Link to the Past/Dark World/Dungeons/Ganon Tower/F5/F5_ganon_tower",
-  destination = "dest_stair_up_F5_ganon_tower_0",
-}
-
 destination{
   name = "dest_stair_down_F4_ganon_tower_0",
   layer = 0,
   x = 128,
-  y = 317,
+  y = 301,
   direction = 3,
 }
 
@@ -1293,12 +1293,12 @@ wall{
 }
 
 enemy{
-  name = "boss_lanmolas_B1_ganon_tower_0",
+  name = "boss_lanmolas_F4_ganon_tower_0",
   layer = 0,
-  x = 384,
-  y = 389,
+  x = 336,
+  y = 341,
   direction = 3,
-  breed = "bosses/vitreous",
+  breed = "bosses/lanmola",
   savegame_variable = "boss_lanmolas_F4_ganon_tower_0",
 }
 
@@ -1312,21 +1312,21 @@ enemy{
 }
 
 enemy{
-  name = "enemy_stalfos_red_F4_ganon_tower_0",
+  name = "enemy_skeleton_red_F4_ganon_tower_0",
   layer = 0,
   x = 112,
   y = 389,
   direction = 3,
-  breed = "dungeons/stalfos_red",
+  breed = "dungeons/skeleton_red",
 }
 
 enemy{
-  name = "enemy_stalfos_red_F4_ganon_tower_1",
+  name = "enemy_skeleton_red_F4_ganon_tower_1",
   layer = 0,
   x = 176,
   y = 389,
   direction = 3,
-  breed = "dungeons/stalfos_red",
+  breed = "dungeons/skeleton_red",
 }
 
 enemy{
@@ -1404,6 +1404,26 @@ block{
   sprite = "entities/block",
   pushable = false,
   pullable = false,
+}
+
+enemy{
+  name = "boss_lanmolas_F4_ganon_tower_1",
+  layer = 0,
+  x = 440,
+  y = 341,
+  direction = 3,
+  breed = "bosses/lanmola",
+  savegame_variable = "boss_lanmolas_F4_ganon_tower_1",
+}
+
+enemy{
+  name = "boss_lanmolas_F4_ganon_tower_2",
+  layer = 0,
+  x = 392,
+  y = 445,
+  direction = 3,
+  breed = "bosses/lanmola",
+  savegame_variable = "boss_lanmolas_F4_ganon_tower_2",
 }
 
 tile{
@@ -1641,7 +1661,7 @@ destination{
 }
 
 separator{
-  name = "separator_vertical_F4_ganon_tower_0",
+  name = "auto_separator_vertical_F4_ganon_tower_0",
   layer = 2,
   x = 248,
   y = 0,
@@ -1650,10 +1670,10 @@ separator{
 }
 
 separator{
-  name = "separator_horizontal_F4_ganon_tower_0",
+  name = "auto_separator_horizontal_F4_ganon_tower_0",
   layer = 2,
   x = 0,
-  y = 248,
+  y = 240,
   width = 512,
   height = 16,
 }

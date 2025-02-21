@@ -5,7 +5,7 @@ properties{
   height = 512,
   min_layer = 0,
   max_layer = 2,
-  world = "Dark Palace",
+  world = "dark_palace",
   floor = 0,
   tileset = "dungeon/gray",
   music = "dark_world_dungeon",
@@ -1635,7 +1635,7 @@ tile{
 teletransporter{
   name = "tp_warp_F1_dark_palace_0",
   layer = 0,
-  x = 376,
+  x = 448,
   y = 120,
   width = 16,
   height = 16,
@@ -1715,15 +1715,15 @@ destination{
   name = "dest_stair_up_F1_dark_palace_0",
   layer = 0,
   x = 56,
-  y = 77,
+  y = 93,
   direction = 1,
 }
 
 enemy{
   name = "enemy_terrorpin_F1_dark_palace_1",
   layer = 0,
-  x = 384,
-  y = 181,
+  x = 360,
+  y = 117,
   direction = 3,
   breed = "dungeons/eyegore_red",
 }
@@ -1731,8 +1731,8 @@ enemy{
 enemy{
   name = "enemy_terrorpin_F1_dark_palace_0",
   layer = 0,
-  x = 448,
-  y = 133,
+  x = 400,
+  y = 117,
   direction = 3,
   breed = "dungeons/eyegore_red",
 }
@@ -1776,7 +1776,7 @@ enemy{
 enemy{
   name = "enemy_hardhat_beetle_blue_F1_dark_palace_0",
   layer = 0,
-  x = 328,
+  x = 440,
   y = 133,
   direction = 3,
   breed = "dungeons/hardhat_beetle_blue",
@@ -1847,10 +1847,8 @@ wall{
   y = 120,
   width = 96,
   height = 16,
-  stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
-  stops_projectiles = true,
 }
 
 wall{
@@ -1862,7 +1860,6 @@ wall{
   height = 112,
   stops_enemies = true,
   stops_blocks = true,
-  stops_projectiles = true,
 }
 
 wall{
@@ -1872,10 +1869,8 @@ wall{
   y = 376,
   width = 96,
   height = 16,
-  stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
-  stops_projectiles = true,
 }
 
 pickable{
@@ -1884,6 +1879,7 @@ pickable{
   x = 128,
   y = 133,
   treasure_name = "inventory/hammer",
+  treasure_savegame_variable = "treasure_hammer_F1_dark_palace_0",
 }
 
 tile{
@@ -2112,6 +2108,7 @@ destination{
 }
 
 separator{
+  name = "auto_separator_vertical_F1_dark_palace_0",
   layer = 2,
   x = 248,
   y = 0,
@@ -2120,9 +2117,10 @@ separator{
 }
 
 separator{
+  name = "auto_separator_horizontal_F1_dark_palace_0",
   layer = 2,
   x = 0,
-  y = 248,
+  y = 240,
   width = 512,
   height = 16,
 }

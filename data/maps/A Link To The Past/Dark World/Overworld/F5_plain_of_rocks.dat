@@ -5055,11 +5055,11 @@ destructible{
 }
 
 destructible{
-  name = "sign_F5_plain_of_rocks_10",
+  name = "sign_F5_plain_of_rocks_0",
   layer = 0,
   x = 40,
   y = 157,
-  sprite = "entities/sign_brown",
+  sprite = "entities/sign_yellow",
   destruction_sound = "stone",
 }
 

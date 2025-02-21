@@ -44,21 +44,33 @@ function chest_manager:open_when_enemies_dead(chest)
   local enemies = {}
   local function enemy_on_dead()
     if not chest:is_enabled() and not has_entities_with_prefix_in_region(map, enemy_prefix) then
-      local chest_prefix_x,chest_prefix_y = chest:get_position()
-      sol.audio.play_sound("correct")
-      map:move_camera(chest_prefix_x,chest_prefix_y,256,function()
-        sol.audio.play_sound("chest_appears")
-        map:get_entity(chest_prefix.."_appears_effect"):get_sprite():set_ignore_suspend(true)
-        map:get_entity(chest_prefix.."_appears_effect"):set_enabled(true)
-        sol.timer.start(2000,function()
-          chest:get_sprite():set_ignore_suspend(true)
-          chest:set_enabled(true)
-          chest:get_sprite():fade_in(100,function()
-            sol.audio.play_sound("secret")
-            map:get_entity(chest_prefix.."_appears_effect"):set_enabled(false)
-          end)
-        end)
-      end,1000,5000)
+-- CODE REMPLACANT :
+    sol.audio.play_sound("chest_appears")
+    chest:set_enabled(true)
+
+--   Animation beaucoup trop longue,
+--   Mouvement caméra pas adaptée pour alttp dans Hyrule Castle Tower
+--   TODO : 
+--   - Méthode de `map:get_entity(chest_prefix..*` qui ne marche pas 
+--   - play_sound("correct") n'existe pas
+--   CODE [[
+--      local chest_prefix_x,chest_prefix_y = chest:get_position()
+--      sol.audio.play_sound("correct")
+--      map:move_camera(chest_prefix_x,chest_prefix_y,256,function()
+--        sol.audio.play_sound("chest_appears")
+--        map:get_entity(chest_prefix.."_appears_effect"):get_sprite():set_ignore_suspend(true)
+--        map:get_entity(chest_prefix.."_appears_effect"):set_enabled(true)
+--        sol.timer.start(2000,function()
+--          chest:get_sprite():set_ignore_suspend(true)
+--          chest:set_enabled(true)
+--          chest:get_sprite():fade_in(100,function()
+--            sol.audio.play_sound("secret")
+--            map:get_entity(chest_prefix.."_appears_effect"):set_enabled(false)
+--          end)
+--        end)
+--      end,1000,5000)
+--  ]]
+
     end
   end
 

@@ -6903,8 +6903,8 @@ tile{
 destination{
   name = "dest_secret",
   layer = 1,
-  x = 216,
-  y = 429,
+  x = 464,
+  y = 389,
   direction = 3,
 }
 

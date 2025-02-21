@@ -7538,6 +7538,29 @@ dynamic_tile{
   tileset = "out/outside_lightworld_buildings",
 }
 
+teletransporter{
+  name = "warp_desert_of_mystery_1",
+  layer = 0,
+  x = 304,
+  y = 960,
+  width = 16,
+  height = 16,
+  destination_map = "A Link to the Past/Dark World/Overworld/A7_swamp_of_evil",
+  destination = "_same",
+  sprite = "entities/teletransporter_blue",
+  sound = "world_warp",
+}
+
+destructible{
+  name = "stone_black_desert_of_mystery_2",
+  layer = 0,
+  x = 312,
+  y = 973,
+  sprite = "destructibles/stone_small_lw_2",
+  destruction_sound = "stone",
+  weight = 2,
+}
+
 tile{
   layer = 1,
   x = 408,
@@ -15706,7 +15729,7 @@ teletransporter{
   destination_map = "A Link to the Past/Dark World/Overworld/A7_swamp_of_evil",
   destination = "_same",
   sprite = "entities/teletransporter_blue",
-  sound = "warp",
+  sound = "world_warp",
 }
 
 destructible{

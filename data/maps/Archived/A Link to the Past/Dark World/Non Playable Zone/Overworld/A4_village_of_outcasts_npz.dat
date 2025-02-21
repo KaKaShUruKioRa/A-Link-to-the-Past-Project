@@ -7855,7 +7855,7 @@ destructible{
   layer = -2,
   x = 328,
   y = 141,
-  sprite = "entities/sign_brown",
+  sprite = "entities/sign_yellow",
   destruction_sound = "stone",
 }
 
@@ -7864,7 +7864,7 @@ destructible{
   layer = -2,
   x = 904,
   y = 269,
-  sprite = "entities/sign_brown",
+  sprite = "entities/sign_yellow",
   destruction_sound = "stone",
 }
 
@@ -7873,7 +7873,7 @@ destructible{
   layer = -2,
   x = 952,
   y = 797,
-  sprite = "entities/sign_brown",
+  sprite = "entities/sign_yellow",
   destruction_sound = "stone",
 }
 

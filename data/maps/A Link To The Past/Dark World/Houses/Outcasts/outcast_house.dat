@@ -6,7 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "dungeon/light_brown",
-  music = "beginning",
+  music = "same",
 }
 
 tile{
@@ -477,6 +477,15 @@ tile{
   pattern = "door.2",
 }
 
+tile{
+  layer = 0,
+  x = 120,
+  y = 216,
+  width = 16,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
 destination{
   name = "dest_map_outcast_house_0",
   layer = 0,
@@ -533,7 +542,7 @@ chest{
   y = 77,
   treasure_name = "consumables/rupee",
   treasure_variant = 6,
-  treasure_savegame_variable = "chest_outcast_shelter_0",
+  treasure_savegame_variable = "chest_outcast_house_0",
   sprite = "entities/chest",
 }
 

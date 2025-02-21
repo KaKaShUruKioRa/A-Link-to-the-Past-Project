@@ -4384,6 +4384,15 @@ tile{
   pattern = "1081",
 }
 
+tile{
+  layer = 0,
+  x = 384,
+  y = 96,
+  width = 32,
+  height = 32,
+  pattern = "1375",
+}
+
 wall{
   layer = 0,
   x = 344,
@@ -4811,16 +4820,6 @@ destructible{
   can_be_cut = true,
 }
 
-destructible{
-  name = "stone_white_D6_link_forest_2",
-  layer = 0,
-  x = 392,
-  y = 109,
-  sprite = "destructibles/stone_big_dw_1",
-  destruction_sound = "stone",
-  weight = 1,
-}
-
 enemy{
   name = "enemy_moblin_D6_link_forest_0",
   layer = 0,
@@ -4846,6 +4845,18 @@ enemy{
   y = 157,
   direction = 3,
   breed = "dark_world/ropa",
+}
+
+custom_entity{
+  name = "big_stone_white_D6_link_forest_0",
+  layer = 0,
+  x = 392,
+  y = 109,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "destructibles/stone_big_dw_1",
+  model = "stone_big_white",
 }
 
 tile{

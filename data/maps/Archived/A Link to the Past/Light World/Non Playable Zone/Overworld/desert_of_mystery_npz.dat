@@ -10461,7 +10461,7 @@ teletransporter{
   destination_map = "Non_Playable Zone/Light World/desert_of_mystery_npz",
   destination = "dest_secret",
   sprite = "entities/teletransporter_blue",
-  sound = "warp",
+  sound = "world_warp",
 }
 
 destructible{

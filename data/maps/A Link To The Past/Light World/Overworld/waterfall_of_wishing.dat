@@ -6213,7 +6213,7 @@ wall{
 destination{
   name = "dest_map_waterfall_of_wishing_0",
   layer = 0,
-  x = 360,
+  x = 336,
   y = 13,
   direction = 3,
 }

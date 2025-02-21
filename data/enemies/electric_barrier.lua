@@ -34,7 +34,7 @@ end
 
 function enemy:on_custom_attack_received(attack, sprite)
   if attack == "sword" then
-    if game:get_value("get_master_sword") then enemy:remove_life(1) 
+    if game:get_value("get_master_sword") or game:get_item("equipment/sword"):get_variant() > 1 then enemy:remove_life(1) 
     else
       enemy:get_game():remove_life(3)
       hero:start_hurt(1)

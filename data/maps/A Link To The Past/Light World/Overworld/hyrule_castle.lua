@@ -8,6 +8,10 @@ function map:on_started()
     electric_barrier_wall:set_enabled(false)
   end
 
+  if game:get_value("boss_agahnim_F7_hyrule_castle_tower_0") or game:get_value("hyrule_castle_tower_boss") then
+    tp_warp_hyrule_castle_0:set_enabled(true)
+  end
+
   if not game:get_value("intro_done") then
     red_spear_soldier_hyrule_castle_0:set_enabled(false)
     map:set_entities_enabled("intro_",true)

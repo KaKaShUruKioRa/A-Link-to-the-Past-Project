@@ -5,10 +5,28 @@ properties{
   height = 512,
   min_layer = 0,
   max_layer = 2,
-  world = "Thieves Town",
+  world = "thieves_town",
   floor = -1,
   tileset = "dungeon/gray_blue",
   music = "dark_world_dungeon",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 56,
+  width = 8,
+  height = 432,
+  pattern = "wall_border.4-5",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 312,
+  width = 160,
+  height = 144,
+  pattern = "floor.15-1",
 }
 
 tile{
@@ -23,42 +41,6 @@ tile{
 tile{
   layer = 0,
   x = 304,
-  y = 56,
-  width = 160,
-  height = 144,
-  pattern = "floor.18-1",
-}
-
-tile{
-  layer = 0,
-  x = 48,
-  y = 56,
-  width = 160,
-  height = 144,
-  pattern = "floor.18-1",
-}
-
-tile{
-  layer = 0,
-  x = 208,
-  y = 56,
-  width = 8,
-  height = 432,
-  pattern = "wall_border.4-5",
-}
-
-tile{
-  layer = 0,
-  x = 104,
-  y = 104,
-  width = 304,
-  height = 48,
-  pattern = "floor_border.3",
-}
-
-tile{
-  layer = 0,
-  x = 304,
   y = 312,
   width = 160,
   height = 144,
@@ -67,17 +49,44 @@ tile{
 
 tile{
   layer = 0,
-  x = 48,
-  y = 312,
+  x = 104,
+  y = 360,
+  width = 304,
+  height = 48,
+  pattern = "floor_border.3",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 368,
+  width = 88,
+  height = 32,
+  pattern = "floor_small.1",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 56,
   width = 160,
   height = 144,
-  pattern = "floor.15-1",
+  pattern = "floor.18-1",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 56,
+  width = 160,
+  height = 144,
+  pattern = "floor.18-1",
 }
 
 tile{
   layer = 0,
   x = 104,
-  y = 360,
+  y = 104,
   width = 304,
   height = 48,
   pattern = "floor_border.3",
@@ -233,15 +242,6 @@ tile{
   y = 304,
   width = 32,
   height = 96,
-  pattern = "floor_small.1",
-}
-
-tile{
-  layer = 0,
-  x = 304,
-  y = 368,
-  width = 80,
-  height = 32,
   pattern = "floor_small.1",
 }
 
@@ -1212,14 +1212,6 @@ stairs{
   subtype = 3,
 }
 
-destination{
-  name = "dest_stair_up_B1_thieves_town_0",
-  layer = 0,
-  x = 128,
-  y = 205,
-  direction = 1,
-}
-
 teletransporter{
   name = "tp_stair_down_B1_thieves_town_0",
   layer = 0,
@@ -1277,14 +1269,6 @@ teletransporter{
   height = 16,
   destination_map = "A Link to the Past/Dark World/Dungeons/Thieves Town/F1/F1_thieves_town",
   destination = "dest_stair_up_F1_thieves_town_0",
-}
-
-destination{
-  name = "dest_stair_down_B1_thieves_town_0",
-  layer = 0,
-  x = 128,
-  y = 317,
-  direction = 3,
 }
 
 wall{
@@ -1360,30 +1344,30 @@ enemy{
 }
 
 enemy{
-  name = "enemy_stalfos_blue_B1_thieves_town_0",
+  name = "enemy_skeleton_blue_B1_thieves_town_0",
   layer = 0,
-  x = 128,
-  y = 77,
-  direction = 3,
-  breed = "dungeons/stalfos_blue",
-}
-
-enemy{
-  name = "enemy_stalfos_red_B1_thieves_town_0",
-  layer = 0,
-  x = 128,
-  y = 181,
-  direction = 3,
-  breed = "dungeons/stalfos_red",
-}
-
-enemy{
-  name = "enemy_stalfos_blue_B1_thieves_town_1",
-  layer = 0,
-  x = 168,
+  x = 56,
   y = 133,
   direction = 3,
-  breed = "dungeons/stalfos_blue",
+  breed = "dungeons/skeleton_blue",
+}
+
+enemy{
+  name = "enemy_skeleton_red_B1_thieves_town_0",
+  layer = 0,
+  x = 128,
+  y = 205,
+  direction = 3,
+  breed = "dungeons/skeleton_red",
+}
+
+enemy{
+  name = "enemy_skeleton_blue_B1_thieves_town_1",
+  layer = 0,
+  x = 200,
+  y = 69,
+  direction = 3,
+  breed = "dungeons/skeleton_blue",
 }
 
 enemy{
@@ -1404,13 +1388,76 @@ enemy{
   breed = "dungeons/zazak_blue",
 }
 
-pickable{
-  name = "treasure_heart_container_B1_thieves_town_0",
+enemy{
+  name = "boss_blind_the_thied_0",
   layer = 0,
   x = 128,
-  y = 45,
+  y = 77,
+  direction = 3,
+  breed = "bosses/blind_the_thief",
+  savegame_variable = "boss_blind_the_thied_0",
   treasure_name = "consumables/heart_container",
   treasure_savegame_variable = "treasure_heart_container_B1_thieves_town_0",
+}
+
+destination{
+  name = "dest_stair_down_B1_thieves_town_0",
+  layer = 0,
+  x = 128,
+  y = 301,
+  direction = 3,
+}
+
+destination{
+  name = "dest_stair_up_B1_thieves_town_0",
+  layer = 0,
+  x = 128,
+  y = 221,
+  direction = 1,
+}
+
+wall{
+  layer = 0,
+  x = 184,
+  y = 72,
+  width = 8,
+  height = 120,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+wall{
+  layer = 0,
+  x = 64,
+  y = 72,
+  width = 128,
+  height = 8,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+wall{
+  layer = 0,
+  x = 64,
+  y = 80,
+  width = 8,
+  height = 112,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+wall{
+  layer = 0,
+  x = 72,
+  y = 184,
+  width = 112,
+  height = 8,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
 }
 
 tile{
@@ -1792,7 +1839,7 @@ destination{
 }
 
 separator{
-  name = "separator_vertical_B1_thieves_town_0",
+  name = "auto_separator_vertical_B1_thieves_town_0",
   layer = 2,
   x = 248,
   y = 0,
@@ -1801,10 +1848,10 @@ separator{
 }
 
 separator{
-  name = "separator_horizontal_B1_thieves_town_0",
+  name = "auto_separator_horizontal_B1_thieves_town_0",
   layer = 2,
   x = 0,
-  y = 248,
+  y = 240,
   width = 512,
   height = 16,
 }

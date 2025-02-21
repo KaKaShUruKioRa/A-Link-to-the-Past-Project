@@ -20990,6 +20990,42 @@ tile{
   tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
+tile{
+  layer = 0,
+  x = 48,
+  y = 472,
+  width = 8,
+  height = 8,
+  pattern = "14667_2",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 560,
+  width = 8,
+  height = 8,
+  pattern = "1043",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 472,
+  width = 8,
+  height = 8,
+  pattern = "127",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 928,
+  width = 8,
+  height = 16,
+  pattern = "13892",
+}
+
 jumper{
   name = "jump_F7_ice_lake_34",
   layer = 0,
@@ -21141,7 +21177,7 @@ teletransporter{
   width = 16,
   height = 16,
   destination_map = "A Link to the Past/Dark World/Houses/ice_lake_shop",
-  destination = "dest_map_hylia_shop_0",
+  destination = "dest_map_ice_lake_shop_0",
 }
 
 teletransporter{
@@ -21386,13 +21422,25 @@ enemy{
   breed = "dark_world/ropa",
 }
 
-tile{
-  layer = 1,
-  x = 848,
-  y = 928,
-  width = 8,
+destination{
+  name = "dest_house_F7_ice_lake_0",
+  layer = 0,
+  x = 96,
+  y = 229,
+  direction = 3,
+}
+
+teletransporter{
+  name = "warp_temp_Dw_to_Lw",
+  layer = 0,
+  x = 632,
+  y = 464,
+  width = 16,
   height = 16,
-  pattern = "13892",
+  destination_map = "A Link to the Past/Light World/Overworld/lake_hylia",
+  destination = "_same",
+  sprite = "entities/teletransporter_blue",
+  sound = "world_warp",
 }
 
 tile{
@@ -21438,15 +21486,6 @@ tile{
   width = 32,
   height = 512,
   pattern = "13892",
-}
-
-tile{
-  layer = 1,
-  x = 48,
-  y = 472,
-  width = 8,
-  height = 8,
-  pattern = "14667_2",
 }
 
 tile{
@@ -21782,15 +21821,6 @@ tile{
   width = 8,
   height = 8,
   pattern = "1044",
-}
-
-tile{
-  layer = 1,
-  x = 216,
-  y = 560,
-  width = 8,
-  height = 8,
-  pattern = "1043",
 }
 
 tile{
@@ -23006,15 +23036,6 @@ tile{
   width = 8,
   height = 48,
   pattern = "1032",
-}
-
-tile{
-  layer = 1,
-  x = 48,
-  y = 472,
-  width = 8,
-  height = 8,
-  pattern = "127",
 }
 
 tile{
@@ -26447,14 +26468,6 @@ enemy{
   y = 333,
   direction = 0,
   breed = "light_world/poe",
-}
-
-destination{
-  name = "dest_house_F7_ice_lake_0",
-  layer = 2,
-  x = 96,
-  y = 229,
-  direction = 3,
 }
 
 destination{

@@ -8,11 +8,13 @@ local properties = {
   sprite = "enemies/" .. enemy:get_breed(),
   life = 2,
   damage = 2,
-  normal_speed = 64,
+  normal_speed = 32,
   faster_speed = 64,
   ignore_obstacles = true,
   obstacle_behavior = "flying",
-  waking_distance = 220,
+  waking_distance = 48,
 }
 
 behavior:create(enemy, properties)
+
+enemy:set_layer_independent_collisions(true)

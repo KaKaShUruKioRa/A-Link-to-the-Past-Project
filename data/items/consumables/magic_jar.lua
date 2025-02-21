@@ -17,7 +17,7 @@ end
 
 function item:on_obtaining(variant, savegame_variable)
   local max_magic = game:get_max_magic()
-  local amounts = { max_magic / 8, max_magic / 4 }
+  local amounts = { max_magic / 8, max_magic / 2 }
   local amount = amounts[variant]
   if amount == nil then
     error("Invalid variant '" .. variant .. "' for item 'magic_flask'")

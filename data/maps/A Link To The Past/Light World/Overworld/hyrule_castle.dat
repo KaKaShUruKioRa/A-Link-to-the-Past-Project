@@ -17094,6 +17094,7 @@ teletransporter{
   width = 16,
   height = 16,
   destination_map = "A Link to the Past/Light World/Dungeons/Hyrule Castle/F1/F1_hyrule_castle",
+  destination = "entrance_main",
 }
 
 teletransporter{
@@ -17354,7 +17355,7 @@ enemy{
   x = 136,
   y = 653,
   direction = 3,
-  breed = "soldiers/knight_chain_and_ball",
+  breed = "soldiers/spear_soldier_red",
   treasure_name = "prize_packs/1",
 }
 
@@ -17367,6 +17368,19 @@ enemy{
   direction = 3,
   breed = "soldiers/spear_soldier_red",
   treasure_name = "prize_packs/1",
+}
+
+teletransporter{
+  name = "tp_warp_hyrule_castle_0",
+  layer = 0,
+  x = 480,
+  y = 592,
+  enabled_at_start = false,
+  width = 64,
+  height = 16,
+  destination_map = "A Link to the Past/Dark World/Overworld/D4_pyramid",
+  destination = "_same",
+  sound = "world_warp",
 }
 
 tile{
@@ -19884,7 +19898,8 @@ teletransporter{
   y = 88,
   width = 16,
   height = 16,
-  destination_map = "A Link to the Past/Light World/Dungeons/Hyrule Castle Tower/F1/F1_hyrule_castle_tower",
+  destination_map = "A Link to the Past/Light World/Dungeons/Hyrule Castle Tower/F2/F2_hyrule_castle_tower",
+  destination = "dest_map_F2_hyrule_castle_tower_0",
 }
 
 destination{

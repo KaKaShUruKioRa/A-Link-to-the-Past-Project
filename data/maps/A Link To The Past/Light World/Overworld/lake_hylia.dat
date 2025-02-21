@@ -12,6 +12,24 @@ properties{
 
 tile{
   layer = 0,
+  x = 456,
+  y = 88,
+  width = 16,
+  height = 40,
+  pattern = "14667",
+}
+
+tile{
+  layer = 0,
+  x = 464,
+  y = 88,
+  width = 16,
+  height = 8,
+  pattern = "129",
+}
+
+tile{
+  layer = 0,
   x = 248,
   y = 912,
   width = 144,
@@ -125,15 +143,6 @@ tile{
   width = 32,
   height = 64,
   pattern = "111",
-}
-
-tile{
-  layer = 0,
-  x = 464,
-  y = 88,
-  width = 16,
-  height = 8,
-  pattern = "129",
 }
 
 tile{
@@ -4714,15 +4723,6 @@ tile{
   y = 0,
   width = 256,
   height = 184,
-  pattern = "14667",
-}
-
-tile{
-  layer = 0,
-  x = 456,
-  y = 88,
-  width = 16,
-  height = 40,
   pattern = "14667",
 }
 
@@ -17533,7 +17533,7 @@ teletransporter{
   destination_map = "A Link to the Past/Dark World/Overworld/F7_ice_lake",
   destination = "_same",
   sprite = "entities/teletransporter_blue",
-  sound = "warp",
+  sound = "world_warp",
 }
 
 destructible{

@@ -6,7 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "dungeon/light_brown",
-  music = "beginning",
+  music = "mini_game",
 }
 
 tile{
@@ -496,6 +496,8 @@ chest{
   layer = 0,
   x = 192,
   y = 165,
+  treasure_name = "consumables/piece_of_heart",
+  treasure_savegame_variable = "piece_of_heart_chance_game_house",
   sprite = "entities/chest",
 }
 

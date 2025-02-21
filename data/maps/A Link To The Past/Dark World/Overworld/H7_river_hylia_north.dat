@@ -4238,7 +4238,7 @@ tile{
   width = 32,
   height = 40,
   pattern = "8338",
-  tileset = "out/outside_darkworld_buildings_ERROR",
+  tileset = "out/outside_darkworld_buildings",
 }
 
 tile{
@@ -4248,7 +4248,7 @@ tile{
   width = 16,
   height = 8,
   pattern = "14539",
-  tileset = "out/outside_darkworld_buildings_ERROR",
+  tileset = "out/outside_darkworld_buildings",
 }
 
 tile{
@@ -4258,7 +4258,7 @@ tile{
   width = 16,
   height = 8,
   pattern = "14538",
-  tileset = "out/outside_darkworld_buildings_ERROR",
+  tileset = "out/outside_darkworld_buildings",
 }
 
 tile{
@@ -6131,7 +6131,7 @@ tile{
   width = 16,
   height = 24,
   pattern = "8332",
-  tileset = "out/outside_darkworld_buildings_ERROR",
+  tileset = "out/outside_darkworld_buildings",
 }
 
 tile{
@@ -6141,7 +6141,7 @@ tile{
   width = 16,
   height = 16,
   pattern = "8330",
-  tileset = "out/outside_darkworld_buildings_ERROR",
+  tileset = "out/outside_darkworld_buildings",
 }
 
 tile{
@@ -6151,7 +6151,7 @@ tile{
   width = 16,
   height = 40,
   pattern = "8336",
-  tileset = "out/outside_darkworld_buildings_ERROR",
+  tileset = "out/outside_darkworld_buildings",
 }
 
 tile{
@@ -6161,7 +6161,7 @@ tile{
   width = 32,
   height = 16,
   pattern = "8329",
-  tileset = "out/outside_darkworld_buildings_ERROR",
+  tileset = "out/outside_darkworld_buildings",
 }
 
 tile{
@@ -6171,7 +6171,7 @@ tile{
   width = 16,
   height = 16,
   pattern = "14540",
-  tileset = "out/outside_darkworld_buildings_ERROR",
+  tileset = "out/outside_darkworld_buildings",
 }
 
 tile{
@@ -6181,7 +6181,7 @@ tile{
   width = 16,
   height = 16,
   pattern = "8328",
-  tileset = "out/outside_darkworld_buildings_ERROR",
+  tileset = "out/outside_darkworld_buildings",
 }
 
 tile{
@@ -6191,7 +6191,7 @@ tile{
   width = 16,
   height = 16,
   pattern = "14541",
-  tileset = "out/outside_darkworld_buildings_ERROR",
+  tileset = "out/outside_darkworld_buildings",
 }
 
 tile{
@@ -6201,7 +6201,7 @@ tile{
   width = 16,
   height = 24,
   pattern = "8334",
-  tileset = "out/outside_darkworld_buildings_ERROR",
+  tileset = "out/outside_darkworld_buildings",
 }
 
 tile{
@@ -6211,7 +6211,7 @@ tile{
   width = 16,
   height = 8,
   pattern = "14539",
-  tileset = "out/outside_darkworld_buildings_ERROR",
+  tileset = "out/outside_darkworld_buildings",
 }
 
 tile{
@@ -6221,7 +6221,7 @@ tile{
   width = 16,
   height = 16,
   pattern = "14540",
-  tileset = "out/outside_darkworld_buildings_ERROR",
+  tileset = "out/outside_darkworld_buildings",
 }
 
 tile{
@@ -6231,7 +6231,7 @@ tile{
   width = 16,
   height = 8,
   pattern = "14539",
-  tileset = "out/outside_darkworld_buildings_ERROR",
+  tileset = "out/outside_darkworld_buildings",
 }
 
 tile{
@@ -6241,7 +6241,7 @@ tile{
   width = 8,
   height = 8,
   pattern = "8337",
-  tileset = "out/outside_darkworld_buildings_ERROR",
+  tileset = "out/outside_darkworld_buildings",
 }
 
 tile{
@@ -6476,6 +6476,15 @@ tile{
   width = 8,
   height = 24,
   pattern = "1894",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 128,
+  width = 32,
+  height = 8,
+  pattern = "1892",
 }
 
 destructible{
@@ -6798,16 +6807,6 @@ destructible{
   ground = "grass",
 }
 
-destructible{
-  name = "big_stone_ice_cavern_0",
-  layer = 0,
-  x = 104,
-  y = 141,
-  sprite = "destructibles/stone_big_dw_1",
-  destruction_sound = "stone",
-  weight = 1,
-}
-
 jumper{
   name = "jump_river_hylia_north_7",
   layer = 0,
@@ -7001,7 +7000,7 @@ destination{
 }
 
 stairs{
-  name = "stair_down_F1_death_mountain_east_1",
+  name = "stair_down_C5_blacksmiths_house_0",
   layer = 0,
   x = 104,
   y = 136,
@@ -7024,21 +7023,8 @@ destination{
   name = "dest_cave_H7_river_hylia_north_2",
   layer = 0,
   x = 112,
-  y = 157,
+  y = 173,
   direction = 3,
-}
-
-wall{
-  layer = 0,
-  x = 96,
-  y = 128,
-  width = 32,
-  height = 8,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
 }
 
 enemy{
@@ -7084,6 +7070,18 @@ enemy{
   y = 445,
   direction = 3,
   breed = "light_world/zora_underwater",
+}
+
+custom_entity{
+  name = "big_stone_white_H7_river_hylia_north_0",
+  layer = 0,
+  x = 104,
+  y = 141,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "destructibles/stone_big_dw_1",
+  model = "stone_big_white",
 }
 
 tile{
@@ -7806,24 +7804,6 @@ tile{
   pattern = "991",
 }
 
-tile{
-  layer = 1,
-  x = 96,
-  y = 128,
-  width = 32,
-  height = 8,
-  pattern = "1682",
-}
-
-tile{
-  layer = 1,
-  x = 96,
-  y = 128,
-  width = 32,
-  height = 8,
-  pattern = "1892",
-}
-
 enemy{
   name = "enemy_zirro_blue_H7_river_hylia_north_0",
   layer = 1,
@@ -7872,7 +7852,7 @@ teletransporter{
 destination{
   name = "dest_secret",
   layer = 2,
-  x = 296,
+  x = 368,
   y = 149,
   direction = 3,
 }

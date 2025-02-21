@@ -17866,7 +17866,7 @@ teletransporter{
   destination_map = "A Link to the Past/Dark World/Overworld/D7_great_swamp",
   destination = "_same",
   sprite = "entities/teletransporter_blue",
-  sound = "warp",
+  sound = "world_warp",
 }
 
 teletransporter{
@@ -29009,13 +29009,13 @@ jumper{
 }
 
 destructible{
-  name = "stone_black_great_swamp_0",
+  name = "stone_white_great_swamp_7",
   layer = 0,
   x = 328,
   y = 93,
-  sprite = "destructibles/stone_small_lw_2",
+  sprite = "destructibles/stone_small_lw_1",
   destruction_sound = "stone",
-  weight = 2,
+  weight = 1,
 }
 
 teletransporter{
@@ -29048,7 +29048,7 @@ custom_entity{
   width = 16,
   height = 16,
   direction = 0,
-  sprite = "entities/hammer_stake_brown",
+  sprite = "entities/hammer_stake_light",
   model = "hammer_stake",
 }
 
@@ -29060,7 +29060,7 @@ custom_entity{
   width = 16,
   height = 16,
   direction = 0,
-  sprite = "entities/hammer_stake_brown",
+  sprite = "entities/hammer_stake_light",
   model = "hammer_stake",
 }
 
@@ -29072,7 +29072,7 @@ custom_entity{
   width = 16,
   height = 16,
   direction = 0,
-  sprite = "entities/hammer_stake_brown",
+  sprite = "entities/hammer_stake_light",
   model = "hammer_stake",
 }
 

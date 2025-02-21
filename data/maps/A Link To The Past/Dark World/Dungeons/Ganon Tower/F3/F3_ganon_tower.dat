@@ -5,7 +5,7 @@ properties{
   height = 512,
   min_layer = 0,
   max_layer = 2,
-  world = "Ganon Tower",
+  world = "ganon_tower",
   floor = 2,
   tileset = "dungeon/gray_pink",
   music = "dark_world_dungeon",
@@ -1890,6 +1890,28 @@ tile{
   pattern = "floor.8-1",
 }
 
+teletransporter{
+  name = "tp_stair_up_F3_ganon_tower_0",
+  layer = 1,
+  x = 120,
+  y = 288,
+  width = 16,
+  height = 16,
+  destination_map = "A Link to the Past/Dark World/Dungeons/Ganon Tower/F4/F4_ganon_tower",
+  destination = "dest_stair_up_F4_ganon_tower_0",
+}
+
+teletransporter{
+  name = "tp_stair_down_F3_ganon_tower_0",
+  layer = 1,
+  x = 120,
+  y = 208,
+  width = 16,
+  height = 16,
+  destination_map = "A Link to the Past/Dark World/Dungeons/Ganon Tower/F2/F2_ganon_tower",
+  destination = "dest_stair_down_F2_ganon_tower_0",
+}
+
 wall{
   name = "wall_F3_ganon_tower_0",
   layer = 1,
@@ -2030,19 +2052,8 @@ destination{
   name = "dest_stair_up_F3_ganon_tower_0",
   layer = 1,
   x = 128,
-  y = 205,
+  y = 221,
   direction = 1,
-}
-
-teletransporter{
-  name = "tp_stair_down_F3_ganon_tower_0",
-  layer = 1,
-  x = 120,
-  y = 208,
-  width = 16,
-  height = 16,
-  destination_map = "A Link to the Past/Dark World/Dungeons/Ganon Tower/F2/F2_ganon_tower",
-  destination = "dest_stair_down_F2_ganon_tower_0",
 }
 
 stairs{
@@ -2052,25 +2063,6 @@ stairs{
   y = 288,
   direction = 1,
   subtype = 2,
-}
-
-teletransporter{
-  name = "tp_stair_up_F3_ganon_tower_0",
-  layer = 1,
-  x = 120,
-  y = 288,
-  width = 16,
-  height = 16,
-  destination_map = "A Link to the Past/Dark World/Dungeons/Ganon Tower/F4/F4_ganon_tower",
-  destination = "dest_stair_up_F4_ganon_tower_0",
-}
-
-destination{
-  name = "dest_stair_down_F3_ganon_tower_0",
-  layer = 1,
-  x = 128,
-  y = 317,
-  direction = 3,
 }
 
 jumper{
@@ -2120,6 +2112,14 @@ enemy{
   y = 397,
   direction = 3,
   breed = "dungeons/goriya_green",
+}
+
+destination{
+  name = "dest_stair_down_F3_ganon_tower_0",
+  layer = 1,
+  x = 128,
+  y = 301,
+  direction = 3,
 }
 
 tile{
@@ -2357,7 +2357,7 @@ destination{
 }
 
 separator{
-  name = "separator_vertical_F3_ganon_tower_0",
+  name = "auto_separator_vertical_F3_ganon_tower_0",
   layer = 2,
   x = 248,
   y = 0,
@@ -2366,10 +2366,10 @@ separator{
 }
 
 separator{
-  name = "separator_horizontal_F3_ganon_tower_0",
+  name = "auto_separator_horizontal_F3_ganon_tower_0",
   layer = 2,
   x = 0,
-  y = 248,
+  y = 240,
   width = 512,
   height = 16,
 }

@@ -5,7 +5,7 @@ properties{
   height = 512,
   min_layer = 0,
   max_layer = 2,
-  world = "Swamp Palace",
+  world = "swamp_palace",
   floor = -1,
   tileset = "dungeon/blue",
   music = "dark_world_dungeon",
@@ -2315,6 +2315,15 @@ tile{
   pattern = "floor_low.10-1",
 }
 
+tile{
+  layer = 0,
+  x = 112,
+  y = 64,
+  width = 32,
+  height = 16,
+  pattern = "floor_boss-4",
+}
+
 teletransporter{
   name = "tp_warp_B1_swamp_palace_0",
   layer = 0,
@@ -2335,14 +2344,6 @@ stairs{
   y = 208,
   direction = 3,
   subtype = 3,
-}
-
-destination{
-  name = "dest_stair_up_B1_swamp_palace_0",
-  layer = 0,
-  x = 128,
-  y = 205,
-  direction = 1,
 }
 
 teletransporter{
@@ -2386,14 +2387,6 @@ teletransporter{
   height = 16,
   destination_map = "A Link to the Past/Dark World/Dungeons/Swamp Palace/F1/F1_swamp_palace",
   destination = "dest_stair_up_F1_swamp_palace_0",
-}
-
-destination{
-  name = "dest_stair_down_B1_swamp_palace_0",
-  layer = 0,
-  x = 128,
-  y = 317,
-  direction = 3,
 }
 
 enemy{
@@ -2501,15 +2494,35 @@ pickable{
   x = 128,
   y = 133,
   treasure_name = "inventory/hookshot",
+  treasure_savegame_variable = "treasure_hookshot_B1_swamp_palace_0",
 }
 
-pickable{
-  name = "treasure_heart_container_B1_swamp_palace_0",
+enemy{
+  name = "boss_arrghus_0",
   layer = 0,
   x = 128,
-  y = 61,
+  y = 69,
+  direction = 3,
+  breed = "bosses/arrghus",
+  savegame_variable = "boss_arrghus_0",
   treasure_name = "consumables/heart_container",
   treasure_savegame_variable = "treasure_heart_container_B1_swamp_palace_0",
+}
+
+destination{
+  name = "dest_stair_down_B1_swamp_palace_0",
+  layer = 0,
+  x = 128,
+  y = 301,
+  direction = 3,
+}
+
+destination{
+  name = "dest_stair_up_B1_swamp_palace_0",
+  layer = 0,
+  x = 128,
+  y = 221,
+  direction = 1,
 }
 
 tile{
@@ -2674,20 +2687,11 @@ tile{
   pattern = "door_top.stairs_down.2-1",
 }
 
-tile{
-  layer = 1,
-  x = 112,
-  y = 64,
-  width = 32,
-  height = 16,
-  pattern = "floor_boss-4",
-}
-
 destination{
   name = "dest_hole_B1_swamp_palace_0",
   layer = 1,
-  x = 128,
-  y = 85,
+  x = 192,
+  y = 77,
   direction = 3,
 }
 
@@ -2773,7 +2777,7 @@ destination{
 }
 
 separator{
-  name = "separator_vertical_B1_swamp_palace_0",
+  name = "auto_separator_vertical_B1_swamp_palace_0",
   layer = 2,
   x = 248,
   y = 0,
@@ -2782,10 +2786,10 @@ separator{
 }
 
 separator{
-  name = "separator_horizontal_B1_swamp_palace_0",
+  name = "auto_separator_horizontal_B1_swamp_palace_0",
   layer = 2,
   x = 0,
-  y = 248,
+  y = 240,
   width = 512,
   height = 16,
 }

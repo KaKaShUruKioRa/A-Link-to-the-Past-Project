@@ -6,7 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "dungeon/light_brown",
-  music = "beginning",
+  music = "fortune_teller",
 }
 
 tile{
@@ -663,8 +663,8 @@ teletransporter{
   y = 208,
   width = 16,
   height = 16,
-  destination_map = "A Link to the Past/Dark World/Overworld/A4_village_of_outcasts",
-  destination = "dest_house_village_of_outcast_2",
+  destination_map = "A Link to the Past/Dark World/Overworld/F7_ice_lake",
+  destination = "dest_house_F7_ice_lake_0",
 }
 
 npc{

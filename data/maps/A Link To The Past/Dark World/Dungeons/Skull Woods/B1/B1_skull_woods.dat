@@ -5,7 +5,7 @@ properties{
   height = 512,
   min_layer = 0,
   max_layer = 2,
-  world = "Skull Woods",
+  world = "skull_woods",
   floor = -1,
   tileset = "dungeon/gray_brown",
   music = "dark_world_dungeon",
@@ -1022,7 +1022,7 @@ tile{
 tile{
   layer = 0,
   x = 120,
-  y = 216,
+  y = 224,
   width = 16,
   height = 16,
   pattern = "865",
@@ -1031,7 +1031,7 @@ tile{
 tile{
   layer = 0,
   x = 112,
-  y = 200,
+  y = 208,
   width = 8,
   height = 16,
   pattern = "door_main.2.support.1-1",
@@ -1040,7 +1040,7 @@ tile{
 tile{
   layer = 0,
   x = 136,
-  y = 200,
+  y = 208,
   width = 8,
   height = 16,
   pattern = "door_main.2.support.2-1",
@@ -1049,7 +1049,7 @@ tile{
 tile{
   layer = 0,
   x = 120,
-  y = 200,
+  y = 208,
   width = 16,
   height = 16,
   pattern = "door_main.2-1",
@@ -1058,7 +1058,7 @@ tile{
 tile{
   layer = 0,
   x = 112,
-  y = 176,
+  y = 184,
   width = 32,
   height = 24,
   pattern = "door_main.2.floor.1-1",
@@ -1215,15 +1215,6 @@ tile{
   width = 16,
   height = 32,
   pattern = "vine_wall.1",
-}
-
-tile{
-  layer = 0,
-  x = 368,
-  y = 464,
-  width = 32,
-  height = 24,
-  pattern = "bone_wall.2",
 }
 
 tile{
@@ -2387,6 +2378,96 @@ tile{
   pattern = "spike_trap",
 }
 
+tile{
+  layer = 0,
+  x = 144,
+  y = 200,
+  width = 24,
+  height = 32,
+  pattern = "door_main.2.pillar.2-4",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 200,
+  width = 24,
+  height = 32,
+  pattern = "door_main.2.pillar.1-4",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 456,
+  width = 24,
+  height = 32,
+  pattern = "door_main.2.pillar.2-4",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 456,
+  width = 24,
+  height = 32,
+  pattern = "door_main.2.pillar.1-4",
+}
+
+tile{
+  layer = 0,
+  x = 360,
+  y = 456,
+  width = 24,
+  height = 32,
+  pattern = "door_main.2.pillar.2-4",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 456,
+  width = 24,
+  height = 32,
+  pattern = "door_main.2.pillar.1-4",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 456,
+  width = 24,
+  height = 32,
+  pattern = "door_main.2.pillar.2-4",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 464,
+  width = 32,
+  height = 24,
+  pattern = "bone_wall.2",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 464,
+  width = 32,
+  height = 24,
+  pattern = "bone_wall.2",
+}
+
+tile{
+  layer = 0,
+  x = 384,
+  y = 456,
+  width = 24,
+  height = 32,
+  pattern = "door_main.2.pillar.1-4",
+}
+
 teletransporter{
   name = "tp_warp_B1_skull_woods_0",
   layer = 0,
@@ -2402,10 +2483,10 @@ teletransporter{
 teletransporter{
   name = "tp_hole_B1_skull_woods_0",
   layer = 0,
-  x = 64,
-  y = 120,
-  width = 16,
-  height = 16,
+  x = 56,
+  y = 112,
+  width = 32,
+  height = 32,
   destination_map = "A Link to the Past/Dark World/Dungeons/Skull Woods/B2/B2_skull_woods",
   destination = "dest_hole_B2_skull_woods_0",
 }
@@ -2480,7 +2561,7 @@ destination{
   name = "dest_map_B1_skull_woods_0",
   layer = 0,
   x = 128,
-  y = 213,
+  y = 221,
   direction = 1,
 }
 
@@ -2488,7 +2569,7 @@ teletransporter{
   name = "tp_map_B1_skull_woods_0",
   layer = 0,
   x = 120,
-  y = 216,
+  y = 224,
   width = 16,
   height = 16,
   destination_map = "A Link to the Past/Dark World/Overworld/A1_skeleton_forest",
@@ -2523,12 +2604,12 @@ enemy{
 }
 
 enemy{
-  name = "enemy_stalfos_red_B1_skull_woods_0",
+  name = "enemy_skeleton_red_B1_skull_woods_0",
   layer = 0,
   x = 88,
   y = 325,
   direction = 3,
-  breed = "dungeons/stalfos_red",
+  breed = "dungeons/skeleton_red",
 }
 
 enemy{
@@ -2645,6 +2726,7 @@ pickable{
   x = 128,
   y = 133,
   treasure_name = "inventory/fire_rod",
+  treasure_savegame_variable = "treasure_fire_rod_B1_skull_woods_0",
 }
 
 tile{
@@ -2785,28 +2867,10 @@ tile{
 tile{
   layer = 1,
   x = 112,
-  y = 216,
+  y = 224,
   width = 32,
   height = 8,
   pattern = "door_top.2-5",
-}
-
-tile{
-  layer = 1,
-  x = 144,
-  y = 200,
-  width = 24,
-  height = 32,
-  pattern = "door_main.2.pillar.2-4",
-}
-
-tile{
-  layer = 1,
-  x = 88,
-  y = 200,
-  width = 24,
-  height = 32,
-  pattern = "door_main.2.pillar.1-4",
 }
 
 destination{
@@ -2915,6 +2979,7 @@ destination{
 }
 
 separator{
+  name = "auto_separator_vertical_B1_skull_woods_0",
   layer = 2,
   x = 248,
   y = 0,
@@ -2923,9 +2988,10 @@ separator{
 }
 
 separator{
+  name = "auto_separator_horizontall_B1_skull_woods_0",
   layer = 2,
   x = 0,
-  y = 248,
+  y = 240,
   width = 512,
   height = 16,
 }

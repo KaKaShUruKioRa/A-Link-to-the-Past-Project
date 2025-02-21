@@ -13321,6 +13321,26 @@ tile{
   tileset = "out/outside_lightworld_buildings",
 }
 
+tile{
+  layer = 0,
+  x = 104,
+  y = 896,
+  width = 16,
+  height = 16,
+  pattern = "6008",
+  tileset = "out/outside_darkworld_buildings",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 896,
+  width = 16,
+  height = 16,
+  pattern = "5999",
+  tileset = "out/outside_lightworld_buildings",
+}
+
 teletransporter{
   name = "tp_cave_kakariko_village_0",
   layer = 0,
@@ -15473,6 +15493,7 @@ teletransporter{
   width = 16,
   height = 16,
   destination_map = "A Link to the Past/Light World/Houses/Kakariko/turf_house",
+  destination = "dest_map_turf_house_0",
 }
 
 teletransporter{
@@ -15483,6 +15504,7 @@ teletransporter{
   width = 16,
   height = 16,
   destination_map = "A Link to the Past/Light World/Houses/Kakariko/sick_house",
+  destination = "dest_map_sick_house_0",
 }
 
 teletransporter{
@@ -15695,7 +15717,7 @@ teletransporter{
   width = 16,
   height = 16,
   destination_map = "A Link to the Past/Light World/Houses/Kakariko/kakariko_shop",
-  destination = "dest_kakariko_shop_0",
+  destination = "dest_map_kakariko_shop_0",
 }
 
 teletransporter{
@@ -15706,7 +15728,7 @@ teletransporter{
   width = 16,
   height = 16,
   destination_map = "A Link to the Past/Light World/Houses/Kakariko/rats_house",
-  destination = "dest_rats_house_0",
+  destination = "dest_map_rats_house_0",
 }
 
 teletransporter{
@@ -15728,7 +15750,7 @@ custom_entity{
   width = 16,
   height = 16,
   direction = 0,
-  sprite = "entities/hammer_stake_brown",
+  sprite = "entities/hammer_stake_light",
   model = "hammer_stake",
 }
 
@@ -19745,6 +19767,26 @@ tile{
   width = 32,
   height = 8,
   pattern = "991",
+}
+
+tile{
+  layer = 2,
+  x = 96,
+  y = 896,
+  width = 8,
+  height = 16,
+  pattern = "93",
+  tileset = "out/outside_darkworld_buildings",
+}
+
+tile{
+  layer = 2,
+  x = 120,
+  y = 896,
+  width = 8,
+  height = 16,
+  pattern = "93_2",
+  tileset = "out/outside_darkworld_buildings",
 }
 
 teletransporter{

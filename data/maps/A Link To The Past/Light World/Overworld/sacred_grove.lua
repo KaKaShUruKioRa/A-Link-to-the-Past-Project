@@ -44,7 +44,7 @@ function excalibur:on_interaction()
       for mist in map:get_entities("mist_sacred_grove_") do
           mist:set_enabled(false)
       end
-      game:start_dialog("npc.saharaslara.master_sword", function()
+      game:start_dialog("npc.sahasrahla.master_sword", function()
         sol.audio.play_music("overworld")
         hero:unfreeze()
       end)

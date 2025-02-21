@@ -6,7 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "dungeon/purple",
-  music = "beginning",
+  music = "fortune_teller",
 }
 
 tile{
@@ -396,11 +396,20 @@ tile{
   pattern = "hole",
 }
 
+tile{
+  layer = 0,
+  x = 96,
+  y = 96,
+  width = 64,
+  height = 32,
+  pattern = "fortune_teller_table",
+}
+
 npc{
   name = "fortune_teller",
   layer = 0,
   x = 128,
-  y = 101,
+  y = 93,
   direction = 3,
   subtype = 1,
   sprite = "npc/wizard",
@@ -450,29 +459,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "torch_big.top",
-}
-
-tile{
-  layer = 1,
-  x = 96,
-  y = 96,
-  width = 64,
-  height = 32,
-  pattern = "fortune_teller_table",
-}
-
-wall{
-  name = "wall_fortune_teller_north_0",
-  layer = 1,
-  x = 96,
-  y = 120,
-  width = 64,
-  height = 8,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
 }
 
 tile{

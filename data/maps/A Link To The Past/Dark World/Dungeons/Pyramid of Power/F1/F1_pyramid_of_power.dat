@@ -5,7 +5,7 @@ properties{
   height = 512,
   min_layer = 0,
   max_layer = 2,
-  world = "Pyramid of Power",
+  world = "pyramid_of_power",
   floor = 0,
   tileset = "dungeon/dark_yellow",
   music = "agahnim",
@@ -1412,7 +1412,7 @@ destination{
 }
 
 npc{
-  name = "npc_F1_pyramid_of_power_0",
+  name = "ts.hint_pyramid_of_power",
   layer = 0,
   x = 128,
   y = 301,
@@ -1426,7 +1426,7 @@ tile{
   y = 280,
   width = 32,
   height = 8,
-  pattern = "door_top.1-5",
+  pattern = "door_top.1-2",
 }
 
 tile{
@@ -1435,7 +1435,7 @@ tile{
   y = 224,
   width = 32,
   height = 8,
-  pattern = "door_top.2-5",
+  pattern = "door_top.2-2",
 }
 
 tile{
@@ -1444,7 +1444,7 @@ tile{
   y = 160,
   width = 8,
   height = 32,
-  pattern = "door_top.3-5",
+  pattern = "door_top.3-2",
 }
 
 tile{
@@ -1453,7 +1453,7 @@ tile{
   y = 160,
   width = 8,
   height = 32,
-  pattern = "door_top.4-5",
+  pattern = "door_top.4-2",
 }
 
 tile{
@@ -1462,7 +1462,7 @@ tile{
   y = 400,
   width = 8,
   height = 32,
-  pattern = "door_top.3-5",
+  pattern = "door_top.3-2",
 }
 
 tile{
@@ -1471,7 +1471,7 @@ tile{
   y = 400,
   width = 8,
   height = 32,
-  pattern = "door_top.4-5",
+  pattern = "door_top.4-2",
 }
 
 tile{
@@ -1534,7 +1534,7 @@ tile{
   y = 480,
   width = 32,
   height = 8,
-  pattern = "door_top.2-5",
+  pattern = "door_top.2-2",
 }
 
 tile{
@@ -1655,6 +1655,7 @@ destination{
 }
 
 separator{
+  name = "auto_separator_vertical_F1_pyramid_of_power_0",
   layer = 2,
   x = 248,
   y = 0,
@@ -1663,9 +1664,10 @@ separator{
 }
 
 separator{
+  name = "auto_separator_horizontal_F1_pyramid_of_power_0",
   layer = 2,
   x = 0,
-  y = 248,
+  y = 240,
   width = 512,
   height = 16,
 }

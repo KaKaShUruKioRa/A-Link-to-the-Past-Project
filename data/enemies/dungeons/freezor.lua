@@ -9,8 +9,8 @@ local properties = {
   sprite = "enemies/" .. enemy:get_breed(),
   life = 3,
   damage = 10,
-  normal_speed = 64,
-  faster_speed = 64,
+  normal_speed = 48,
+  faster_speed = 48,
   detection_distance = 220,
 }
 
@@ -26,7 +26,7 @@ enemy:set_attack_consequence("fire", 2)
 -- enemy:set_hammer_reaction("custom")
 -- enemy:set_hookshot_reaction("custom")
 -- TODO : Implement vulnerability to fire
--- enemy:set_fire_reaction(3)
+enemy:set_fire_reaction(3)
 
 function enemy:on_custom_attack_received(attack)
   

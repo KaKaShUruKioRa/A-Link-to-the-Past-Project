@@ -45,6 +45,15 @@ Tu es déjà plein.
 }
 
 dialog{
+  id = "_shop.no_bottle",
+  text = [[
+Non, non, non... je ne peux te vendre
+cette marchandise car tu n'as pas
+de bouteille vide.
+]],
+}
+
+dialog{
   id = "_shop.not_enough_money",
   text = [[
 Tu n'as pas assez d'argent !
@@ -128,7 +137,7 @@ Tu as trouvé 300 Rubis !
 dialog{
   id = "_treasure.dungeons/big_key.1",
   text = [[
-Tu as la Grande Clé ! $0
+Tu as la Grande Clé !$0 
 Elle ouvre les verrous que les
 Petites Clés ne peuvent ouvrir.
 ]],
@@ -165,67 +174,19 @@ fermées à clé !
 }
 
 dialog{
-  id = "_treasure.equipment/bombos_medallion.1",
-  text = [[
-This is the Bombos Medallion! $0
-Its magic makes the ground
-explode with power!
-Watch your Magic Meter!
-]],
-}
-
-dialog{
   id = "_treasure.equipment/book_of_mudora.1",
   text = [[
 Tu as trouvé le Livre de
-Mudora ! Il te permet de
+Mudora !$0  Il te permet de
 déchiffrer l'ancienne langue
 des Hyliens !
 ]],
 }
 
 dialog{
-  id = "_treasure.equipment/cane_of_byrna.1",
-  text = [[
-You got the Cane Of Byrna! $0
-If you swing it once, a ring of
-light will protect you!
-]],
-}
-
-dialog{
-  id = "_treasure.equipment/cane_of_somaria.1",
-  text = [[
-You got the Cane Of Somaria! $0
-It will be very helpful if you
-make proper use of it!
-What a mysterious cane!
-]],
-}
-
-dialog{
-  id = "_treasure.equipment/ether_medallion.1",
-  text = [[
-This is the Ether Medallion! $0
-Its magic controls the upper
-atmosphere and polar wind!
-Watch your Magic Meter!
-]],
-}
-
-dialog{
-  id = "_treasure.equipment/fire_rod.1",
-  text = [[
-You found the Fire Rod! $0
-This rod commands the red fire!
-But watch your Magic Meter!
-]],
-}
-
-dialog{
   id = "_treasure.equipment/flippers.1",
   text = [[
-Tu as trouvé les Palmes !
+Tu as trouvé les Palmes !$0 
 Tu peux maintenant nager en eau
 profonde !
 ]],
@@ -234,9 +195,9 @@ profonde !
 dialog{
   id = "_treasure.equipment/flute.1",
   text = [[
-Oh! Here is the Flute! $0
-Its music surely has some
-mysterious power!
+Oh ! C'est la Flûte !$0
+Sa musique a certainement
+quelque mystérieux pouvoir !
 ]],
 }
 
@@ -252,27 +213,18 @@ la force dans tes mains.
 dialog{
   id = "_treasure.equipment/glove.2",
   text = [[
-You got the Titan's Mitt! $0
-Now you can lift the heaviest
-stones that were once
-impossible to budge.
-]],
-}
-
-dialog{
-  id = "_treasure.equipment/hookshot.1",
-  text = [[
-BOING! This is the Hook Shot! $0
-It extends and contracts and...
-BOING! It can grapple many
-things!
+Tu as la Moufle du Titan !$0 Te
+voilà maintenant capable de
+soulever les lourdes pierres
+noires qu'il était impossible
+d'ébranler.
 ]],
 }
 
 dialog{
   id = "_treasure.equipment/moon_pearl.1",
   text = [[
-Tu as trouvé la Perle de Lune ! $0
+Tu as trouvé la Perle de Lune !$0 
 Elle protége le Héros des
 effets changeants du
 Pouvoir d'Or !
@@ -292,39 +244,22 @@ un court instant.
 }
 
 dialog{
-  id = "_treasure.equipment/quake_medallion.1",
-  text = [[
-This is the Quake Medallion! $0
-Its magic causes the ground
-to shake and defeats
-nearby enemies!
-Watch your Magic Meter!
-]],
-}
-
-dialog{
-  id = "_treasure.equipment/shield.1",
-  text = [[
-Tu as trouvé un Bouclier ! $0
-]],
-}
-
-dialog{
   id = "_treasure.equipment/shield.2",
   text = [[
-Your shield is improved!
-Now you can defend yourself
-against fireballs!
+Ton bouclier s'est amélioré !
+Tu peux désormais te protéger
+des boules de feu !
 ]],
 }
 
 dialog{
   id = "_treasure.equipment/shield.3",
   text = [[
-You found the Mirror Shield!
-You can now reflect beams
-that your old shield
-couldn't block!
+Tu as trouvé le Bouclier
+Miroir !$0  Tu p eux désormais
+réfléchir les rayons que ton
+bouclier ne pouvait arrêter.
+
 ]],
 }
 
@@ -339,16 +274,47 @@ Now hold it!
 dialog{
   id = "_treasure.equipment/sword.4",
   text = [[
-Your sword is stronger!
-You can feel its power
-throbbing in your hand!
+Ton épée est plus forte !
+Tu peux sentir son pouvoir
+couler dans tes mains !
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/tunic.2",
+  text = [[
+Tu as trouvé la Cotte de Maille
+Bleue !$0 Elle réduit les bles-
+sures qui te sont infligées
+par l'ennemi.
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/tunic.3",
+  text = [[
+Tu as trouvé la Cotte de Maille 
+Rouge !$0 Elle t'assure une
+protection supérieure
+à la Cotte de Maille Bleue !
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/bombos_medallion.1",
+  text = [[
+C'est le Médaillon des Flammes !$0
+Ses pouvoirs magiques font
+exploser le sol avec fracas !
+Mais surveille ton Compteur
+Magique !
 ]],
 }
 
 dialog{
   id = "_treasure.inventory/bombs.1",
   text = [[
-Tu as les Bombes !
+Tu as les Bombes !$0 
 Tu peux ramasser et lancer 
 la bombe que tu as placée.
 Appuie sur le bouton Objet.
@@ -358,85 +324,138 @@ Appuie sur le bouton Objet.
 dialog{
   id = "_treasure.inventory/boomerang.1",
   text = [[
-Tu as le Boomerang ! $0Fais un
+Tu as le Boomerang !$0 Fais un
 essai ! Pour choisir un objet,
 appuie sur Pause.
 ]],
 }
 
 dialog{
+  id = "_treasure.inventory/boomerang.2",
+  text = [[
+Tu as le Bommerang Magique !
+Tu peux le lancer plus vite et
+plus loin que le vieux !
+]],
+}
+
+dialog{
   id = "_treasure.inventory/bottle_1.1",
   text = [[
-Tu reçois un bocal vide !
-
-
-Tu peux y stocker des choses
-comme de l'eau, des abeilles, 
-des graines, etc...
-Mais aussi des potions et des fées !
-
-
-Ha... et... il ne fonctionne pas, 
-donc abandonne l'idée de t'en servir.
+C'est le Flacon Magique !$0
+Tu peux y conserver un
+objet pour l'utiliser
+plus tard.
 ]],
 }
 
 dialog{
   id = "_treasure.inventory/bottle_2.1",
   text = [[
-Tu reçois un bocal vide !
-
-
-Tu peux y stocker des choses
-comme de l'eau, des abeilles, 
-des graines, etc...
-Mais aussi des potions et des fées !
+C'est le Flacon Magique !$0
+Tu peux y conserver un
+objet pour l'utiliser
+plus tard.
 ]],
 }
 
 dialog{
   id = "_treasure.inventory/bottle_3.1",
   text = [[
-Tu reçois un bocal vide !
-
-
-Tu peux y stocker des choses
-comme de l'eau, des abeilles, 
-des graines, etc...
-Mais aussi des potions et des fées !
+C'est le Flacon Magique !$0
+Tu peux y conserver un
+objet pour l'utiliser
+plus tard.
 ]],
 }
 
 dialog{
   id = "_treasure.inventory/bottle_4.1",
   text = [[
-Tu reçois un bocal vide !
-
-
-Tu peux y stocker des choses
-comme de l'eau, des abeilles, 
-des graines, etc...
-Mais aussi des potions et des fées !
+C'est le Flacon Magique !$0
+Tu peux y conserver un
+objet pour l'utiliser
+plus tard.
 ]],
 }
 
 dialog{
   id = "_treasure.inventory/bow.1",
   text = [[
-Tu as trouvé l'Arc ! $0
+Tu as trouvé l'Arc !$0 
 Tu peux tirer des Flèches
 jusqu'à ce que tu n'en aies plus.
 ]],
 }
 
 dialog{
+  id = "_treasure.inventory/bow.2",
+  text = [[
+Ce sont les flèches d'argent
+que tu as besoin pour défaire Ganon !
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/cane_of_byrna.1",
+  text = [[
+Tu as la Canne de Byrna !$0 
+Si tu l'utilises, un halo
+de lumière te protégera !
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/cane_of_somaria.1",
+  text = [[
+Tu as la Canne de Somaria !$0 
+Elle est très utile à
+qui sait s'en servir !
+Bien mystérieuse Canne !
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/ether_medallion.1",
+  text = [[
+C'est le Médaillon d'Ether ! !$0
+Ses pouvoirs magiques 
+contrôlent l'atmosphère supé
+-rieure et le Vent Polaire !
+Mais surveille ton Compteur
+Magique !
+
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/fire_rod.1",
+  text = [[
+Tu as trouvé la Baguette de 
+Feu!$0 Elle commande le feu
+rougeoyant ! Mais surveille
+ton Compteur Magique !
+]],
+}
+
+dialog{
   id = "_treasure.inventory/hammer.1",
   text = [[
-You got the Magic Hammer! $0
-You can drive the wooden
-stakes down into the ground!
-You can use it to pound on
-other things too!
+Tu as le Marteau Magique !$0 
+Tu peux enfoncer les piquets
+de bois dans le sol !
+Tu peux aussi t'en servir pour
+pilonner d'autres objets.
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/hookshot.1",
+  text = [[
+Cling! C'est le Grappin !$0
+il se détend et se contracte
+et CLING ! Il peut agripper
+beaucoup d'objets !
 ]],
 }
 
@@ -444,7 +463,7 @@ dialog{
   id = "_treasure.inventory/ice_rod.1",
   text = [[
 Tu as trouvé la Baguette de
-Glace ! $0 Ses bourrasques
+Glace !$0  Ses bourrasques
 magiques glacent l'air.
 Mais surveille ton Compteur 
 Magique !
@@ -455,11 +474,21 @@ dialog{
   id = "_treasure.inventory/lantern.1",
   skip = "all",
   text = [[
-Tu as la Lanterne !
+Tu as la Lanterne !$0 
 Maintenant tu peux allumer les
 torches en appuyant
 sur Objet pour te frayer
 un chemin dans l'obscurité.
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/magic_cape.1",
+  text = [[
+C'est la Cape Magique !$0
+Tu deviens invisible quand tu
+la portes ! Surveille ton
+Compteur Magique !
 ]],
 }
 
@@ -472,6 +501,20 @@ transparent !
 On a l'impression qu'il va 
 nous absorber dans un autre 
 monde.
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/quake_medallion.1",
+  text = [[
+C'est le Médaillon des
+Secousses ! !$0 Ses pouvoirs 
+magiques font trembler la
+terre et abattent
+les ennemis alentours.
+Mais surveille ton Compteur
+Magique !
+
 ]],
 }
 
@@ -496,7 +539,7 @@ dialog{
   id = "_treasure.quest/pendant_of_power.1",
   text = [[
 Tu as gagné le Pendentif du
-Pouvoir ! $0
+Pouvoir !$0 
 ]],
 }
 
@@ -504,7 +547,7 @@ dialog{
   id = "_treasure.quest/pendant_of_wisdom.1",
   text = [[
 Tu as gagné le Pendentif de
-Sagesse ! $0
+Sagesse !$0 
 ]],
 }
 
@@ -559,6 +602,136 @@ dialog{
       |{|}|{|}|{{{{|}|{|}
       |}||{|}|{|}
       |{|}||{|}}{||}
+]],
+}
+
+dialog{
+  id = "end.triforce",
+  text = [[
+Bienvenue, Link.
+Je suis l'Essence de la
+Triforce.
+Le Pouvoir d'Or de la Triforce
+des Dieux, exauce les voeux de
+la personne qui la touche.
+Si une personne au coeur
+d'or la touche, tous ses bons
+voeux seront exaucées.
+Si une personne au coeur
+ténébreux la touche, elle exau-
+cera ses voeux diaboliques.
+Plus le voeu est fort, plus
+puissante est l'expression
+de ce voeu par la Triforce.
+Ganon fit voeu de conquérir le
+Monde. Ce voeu changea la Ter-
+re d'Or en Monde des Ténèbres.
+Ganon ayant développé son
+pouvoir ici, pouvait conquérir
+le Monde de la Lumière.
+Mais tu as maintenant
+anéanti Ganon. Son Monde
+des Ténèbres va s'évanouir.
+La Triforce attend son
+nouveau possesseur. Son pou-
+voir d'Or est entre tes mains.
+Maintenant, touche-la en
+faisant un voeu dans
+ton coeur.
+]],
+}
+
+dialog{
+  id = "enemy.agahnim1.after_ritual",
+  text = [[
+Ah ! Ah Ah ! Maintenant, le
+sceau des 7 Sages est enfin
+rompu. Ce n'est plus qu'une
+question de temps avant que la
+puissance démoniaque contrôle
+ce territoire. Après tout, le
+Héros légendaire ne peut
+nous vaincre, nous la tribu
+des démons, quand nous sommes
+armées du Pouvoir d'Or.
+Bon - A la prochaine !
+]],
+}
+
+dialog{
+  id = "enemy.agahnim1.before_ritual",
+  text = [[
+Ah ah !
+C'est vous que j'attendais !
+Ah ah !
+Je me réjouissais à la pensée
+de faire disparaître Zelda
+sous vos yeux. Assistez aux
+derniers moments de la
+Princesse Zelda !
+]],
+}
+
+dialog{
+  id = "enemy.agahnim1.defeated",
+  text = [[
+Grrrrrr ! Bien joué ! Digne
+du Héros que vous êtes !
+Mais je n'ai pas l'intention
+de me faire vaincre. Je vais
+vous entraîner dans le Monde
+des Ténèbres !
+]],
+}
+
+dialog{
+  id = "enemy.agahnim1.introduction",
+  text = [[
+Sérieusement ? Vous voulez
+vraiment vous faire occire ?
+C'est avec beaucoup de joie
+que je vous contenterai.
+]],
+}
+
+dialog{
+  id = "enemy.agahnim2.introduction",
+  text = [[
+Ah, Ah, ah ! C'est merveilleux
+que vous soyez arrivé
+jusqu'ici. Je suis très heu-
+reux de vous revoir mais
+comprenez bien que c'est
+notre dernière rencontre.
+Préparez-vous à mourir.
+]],
+}
+
+dialog{
+  id = "enemy.ganon.interlude",
+  text = [[
+Vous vous débrouillez pas mal
+mais saurez-vous traverser
+cette technique secrète des
+ténèbres ? En Garde !
+]],
+}
+
+dialog{
+  id = "enemy.ganon.introduction",
+  text = [[
+Je n'aurais jamais pensé qu'un
+gringalet comme vous puisse
+me causer autant de problèmes.
+Je ne peux pas croire que vous
+ayez vaincu par deux fois mon
+alter-ego, Agahnim le sombre
+sorcier ! Mais je ne vous
+donnerai jamais la Triforce. Je
+vais vous détruire pour réali-
+ser, sans tarder, mon rêve de
+conquête des Mondes des
+Ténèbres et de la Lumière.
 ]],
 }
 
@@ -1100,20 +1273,37 @@ normal, n'est-ce pas ?
 }
 
 dialog{
-  id = "npc.saharaslara.master_sword",
+  id = "npc.sahasrahla.dark_world",
   text = [[
-Soudain Sahasrahla te 
-contacte par télépathie.
-{Link}, c'est merveilleux que
-tu aies trouvé Excalibur 
-qui fait battre en retraite le 
-Démon. Avec cette épée étin-
-celante, je pense que tu 
-peux dévier les pouvoirs 
-diaboliques du sorcier.
-Le destin de cette terre est 
-entre tes main.
-Je t'en supplie ! {Link}.
+Link, c'est moi, Sahasrahla.
+Je communique avec toi
+à travers le vide grâce à la
+télépathie. L'endroit où tu te 
+trouves était la Terre d'Or,
+mais une puissance diabolique
+l'a transformée en Monde des
+Ténèbres. Le sorcier a forcé le
+sceau des Sages et a ouvert
+une brèche pour relier le Monde
+des Ténèbres et ce Monde à
+l'entrée du château d'Hyrule.
+Pour sauver ce Monde de la
+Lumière, tu dois reconquérir le 
+Pouvoir d'Or. Tu dois aussi
+sauver les 7 jeunes filles
+qu'Agahnim a envoyées dans le
+Monde des Ténèbres. Etant de
+la même lignée que les Sages,
+elles ont des pouvoirs qui
+t'aideront sûrement. Les
+jeunes filles sont enfermées
+dans des donjons cachées pleins
+de diaboliques créatures et de 
+trappes dangereuses.
+Va au Palais des Ténèbres !
+Link, t'es mon seul espoir ! 
+Donne vie à mon rêve !
+Je t'en supplie !
 ]],
 }
 
@@ -1123,7 +1313,7 @@ dialog{
 Je suis bien Sahasrahla,
 l'Ancien du village, l'un des
 descendants des 7 Sages.
-Je suis surpris, {Link}, qu'un
+Je suis surpris, Link, qu'un
 jeune homme comme toi puisse
 chercher l'Epée du Diable !
 Il n'est pas donné à tout le 
@@ -1176,7 +1366,7 @@ contre le Démon qui éclata
 quand les 7 Sages créèrent leur 
 sceau. Des descendants des
 Chevaliers d'Hyrule, un Héros 
-doit surgir. Bien. {Link}, 
+doit surgir. Bien. Link, 
 je pense que c'est toi !
 Tu devrais récupérer les 
 autres Pendentifs. 
@@ -1194,6 +1384,24 @@ dialog{
 D'autres descendants des 7
 Sages se cachent des gens du
 château. Essaie de les retrouver.
+]],
+}
+
+dialog{
+  id = "npc.sahasrahla.master_sword",
+  text = [[
+Soudain Sahasrahla te 
+contacte par télépathie.
+Link, c'est merveilleux que
+tu aies trouvé Excalibur 
+qui fait battre en retraite le 
+Démon. Avec cette épée étin-
+celante, je pense que tu 
+peux dévier les pouvoirs 
+diaboliques du sorcier.
+Le destin de cette terre est 
+entre tes main.
+Je t'en supplie ! Link.
 ]],
 }
 
@@ -1317,6 +1525,19 @@ Signé : LE ROI
 }
 
 dialog{
+  id = "ts.hint_castle_tower",
+  text = [[
+Ecoute-moi bien, Link.
+Même avec Excalibur,
+tu ne peux infliger aucune
+blessure au sorcier.
+Tu dois trouver un moyen de 
+lui renvoyer son propre
+pouvoir magique.
+]],
+}
+
+dialog{
   id = "ts.hint_desert",
   text = [[
 Link, c'est moi, Sahasrahla.
@@ -1361,6 +1582,67 @@ dans le Monde des Ténèbres.
 Tu dois la trouver avant
 de quitter la Tour !
 N'oublie pas la Perle de Lune !
+]],
+}
+
+dialog{
+  id = "ts.hint_ice_palace_1",
+  text = [[
+Link, les Flammes Magiques
+te protégeront dans ce
+donjon de glace.
+]],
+}
+
+dialog{
+  id = "ts.hint_ice_palace_2",
+  text = [[
+Tu ne peux pas détruire le
+Chevalier Squelette Stalfos
+avec l'épée seul. Quand il
+s'écroule, il est vulnérable
+à une autre arme.
+]],
+}
+
+dialog{
+  id = "ts.hint_ice_palace_3",
+  text = [[
+Link, n'utilise pas tes
+pouvoirs magiques si tu ne
+possèdes pas l'Elixir de Magie.
+Maintenant prépare-toi à
+partir dans les profondeurs
+de ce donjon.
+]],
+}
+
+dialog{
+  id = "ts.hint_misery_mire",
+  text = [[
+Link, c'est moi, Sahasrahla.
+Pour t'ouvrir un chemin,
+allume 4 endroits.
+]],
+}
+
+dialog{
+  id = "ts.hint_pyramid_of_power",
+  text = [[
+Quand Ganon est assomé,
+donne-lui le coup final avec
+une Flèche d'Argent !
+Tu as compris, Link ?
+]],
+}
+
+dialog{
+  id = "ts.hint_thieves_town",
+  text = [[
+Link, c'est moi, Zelda
+Ne te laisse pas égarer
+par la magie d'Aveugle
+le bandit ! Sois prudent !
 ]],
 }
 

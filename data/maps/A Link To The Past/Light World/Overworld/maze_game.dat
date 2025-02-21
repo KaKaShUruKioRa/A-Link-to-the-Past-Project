@@ -3453,7 +3453,7 @@ destructible{
 }
 
 jumper{
-  name = "jump_maze_game_0",
+  name = "jump_maze_game_1",
   layer = 0,
   x = 96,
   y = 328,
@@ -3464,7 +3464,7 @@ jumper{
 }
 
 jumper{
-  name = "jump_maze_game_1",
+  name = "jump_maze_game_2",
   layer = 0,
   x = 384,
   y = 408,
@@ -3575,10 +3575,10 @@ pickable{
 }
 
 jumper{
-  name = "jumper_maze_game_0",
+  name = "jump_maze_game_0",
   layer = 0,
   x = 224,
-  y = 240,
+  y = 232,
   width = 16,
   height = 8,
   direction = 6,

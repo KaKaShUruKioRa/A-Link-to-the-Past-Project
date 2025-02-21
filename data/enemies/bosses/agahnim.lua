@@ -10,7 +10,7 @@ local projectile_prefix = enemy:get_name() .. "_projectile"
 
 function enemy:on_created()
 
-  enemy:set_life(16)
+  enemy:set_life(2)
   enemy:set_damage(4)
   enemy:set_hurt_style("boss")
   enemy:create_sprite("enemies/" .. enemy:get_breed())
