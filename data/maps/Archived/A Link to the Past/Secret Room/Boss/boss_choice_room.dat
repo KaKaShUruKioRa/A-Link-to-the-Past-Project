@@ -9100,6 +9100,501 @@ tile{
   pattern = "ceiling.1",
 }
 
+tile{
+  layer = 1,
+  x = 840,
+  y = 40,
+  width = 16,
+  height = 8,
+  pattern = "2761",
+}
+
+tile{
+  layer = 1,
+  x = 888,
+  y = 40,
+  width = 16,
+  height = 8,
+  pattern = "2761",
+}
+
+tile{
+  layer = 1,
+  x = 936,
+  y = 40,
+  width = 16,
+  height = 8,
+  pattern = "2761",
+}
+
+tile{
+  layer = 1,
+  x = 808,
+  y = 72,
+  width = 8,
+  height = 16,
+  pattern = "2761",
+}
+
+tile{
+  layer = 1,
+  x = 808,
+  y = 120,
+  width = 8,
+  height = 16,
+  pattern = "2761",
+}
+
+tile{
+  layer = 1,
+  x = 808,
+  y = 168,
+  width = 8,
+  height = 16,
+  pattern = "2761",
+}
+
+tile{
+  layer = 1,
+  x = 976,
+  y = 168,
+  width = 8,
+  height = 16,
+  pattern = "2761",
+}
+
+tile{
+  layer = 1,
+  x = 976,
+  y = 120,
+  width = 8,
+  height = 16,
+  pattern = "2761",
+}
+
+tile{
+  layer = 1,
+  x = 976,
+  y = 72,
+  width = 8,
+  height = 16,
+  pattern = "2761",
+}
+
+tile{
+  layer = 1,
+  x = 2888,
+  y = 40,
+  width = 16,
+  height = 8,
+  pattern = "2761",
+}
+
+tile{
+  layer = 1,
+  x = 2936,
+  y = 40,
+  width = 16,
+  height = 8,
+  pattern = "2761",
+}
+
+tile{
+  layer = 1,
+  x = 2984,
+  y = 40,
+  width = 16,
+  height = 8,
+  pattern = "2761",
+}
+
+tile{
+  layer = 1,
+  x = 2856,
+  y = 72,
+  width = 8,
+  height = 16,
+  pattern = "2761",
+}
+
+tile{
+  layer = 1,
+  x = 2856,
+  y = 120,
+  width = 8,
+  height = 16,
+  pattern = "2761",
+}
+
+tile{
+  layer = 1,
+  x = 2856,
+  y = 168,
+  width = 8,
+  height = 16,
+  pattern = "2761",
+}
+
+tile{
+  layer = 1,
+  x = 3024,
+  y = 168,
+  width = 8,
+  height = 16,
+  pattern = "2761",
+}
+
+tile{
+  layer = 1,
+  x = 3024,
+  y = 120,
+  width = 8,
+  height = 16,
+  pattern = "2761",
+}
+
+tile{
+  layer = 1,
+  x = 3024,
+  y = 72,
+  width = 8,
+  height = 16,
+  pattern = "2761",
+}
+
+tile{
+  layer = 1,
+  x = 944,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "lighting.6",
+}
+
+tile{
+  layer = 1,
+  x = 952,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "lighting.6",
+}
+
+tile{
+  layer = 1,
+  x = 928,
+  y = 64,
+  width = 24,
+  height = 8,
+  pattern = "lighting.4",
+}
+
+tile{
+  layer = 1,
+  x = 920,
+  y = 56,
+  width = 24,
+  height = 8,
+  pattern = "lighting.4",
+}
+
+tile{
+  layer = 1,
+  x = 920,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "lighting.7",
+}
+
+tile{
+  layer = 1,
+  x = 912,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "lighting.7",
+}
+
+tile{
+  layer = 1,
+  x = 896,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "lighting.6",
+}
+
+tile{
+  layer = 1,
+  x = 904,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "lighting.6",
+}
+
+tile{
+  layer = 1,
+  x = 880,
+  y = 64,
+  width = 24,
+  height = 8,
+  pattern = "lighting.4",
+}
+
+tile{
+  layer = 1,
+  x = 872,
+  y = 56,
+  width = 24,
+  height = 8,
+  pattern = "lighting.4",
+}
+
+tile{
+  layer = 1,
+  x = 872,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "lighting.7",
+}
+
+tile{
+  layer = 1,
+  x = 864,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "lighting.7",
+}
+
+tile{
+  layer = 1,
+  x = 848,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "lighting.6",
+}
+
+tile{
+  layer = 1,
+  x = 856,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "lighting.6",
+}
+
+tile{
+  layer = 1,
+  x = 848,
+  y = 64,
+  width = 8,
+  height = 16,
+  pattern = "lighting.4",
+}
+
+tile{
+  layer = 1,
+  x = 840,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "lighting.5",
+}
+
+tile{
+  layer = 1,
+  x = 856,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "lighting.8",
+}
+
+tile{
+  layer = 1,
+  x = 840,
+  y = 64,
+  width = 8,
+  height = 24,
+  pattern = "lighting.4",
+}
+
+tile{
+  layer = 1,
+  x = 832,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "lighting.5",
+}
+
+tile{
+  layer = 1,
+  x = 848,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "lighting.8",
+}
+
+tile{
+  layer = 1,
+  x = 832,
+  y = 72,
+  width = 8,
+  height = 16,
+  pattern = "lighting.4",
+}
+
+tile{
+  layer = 1,
+  x = 824,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "lighting.5",
+}
+
+tile{
+  layer = 1,
+  x = 840,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "lighting.8",
+}
+
+tile{
+  layer = 1,
+  x = 824,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "lighting.7",
+}
+
+tile{
+  layer = 1,
+  x = 832,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "lighting.7",
+}
+
+tile{
+  layer = 1,
+  x = 824,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "lighting.6",
+}
+
+tile{
+  layer = 1,
+  x = 832,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "lighting.6",
+}
+
+tile{
+  layer = 1,
+  x = 832,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "lighting.7",
+}
+
+tile{
+  layer = 1,
+  x = 824,
+  y = 176,
+  width = 8,
+  height = 8,
+  pattern = "lighting.7",
+}
+
+tile{
+  layer = 1,
+  x = 832,
+  y = 160,
+  width = 8,
+  height = 24,
+  pattern = "lighting.4",
+}
+
+tile{
+  layer = 1,
+  x = 832,
+  y = 152,
+  width = 8,
+  height = 8,
+  pattern = "lighting.6",
+}
+
+tile{
+  layer = 1,
+  x = 824,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "lighting.6",
+}
+
+tile{
+  layer = 1,
+  x = 824,
+  y = 152,
+  width = 8,
+  height = 24,
+  pattern = "lighting.4",
+}
+
+tile{
+  layer = 1,
+  x = 832,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "lighting.7",
+}
+
+tile{
+  layer = 1,
+  x = 824,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "lighting.7",
+}
+
+tile{
+  layer = 1,
+  x = 832,
+  y = 112,
+  width = 8,
+  height = 24,
+  pattern = "lighting.4",
+}
+
+tile{
+  layer = 1,
+  x = 824,
+  y = 104,
+  width = 8,
+  height = 24,
+  pattern = "lighting.4",
+}
+
 enemy{
   name = "armos_debug",
   layer = 1,
@@ -9116,7 +9611,7 @@ enemy{
   x = 896,
   y = 93,
   enabled_at_start = false,
-  direction = 0,
+  direction = 3,
   breed = "bosses/agahnim",
 }
 
@@ -12221,7 +12716,7 @@ destination{
 destination{
   name = "destination",
   layer = 1,
-  x = 384,
+  x = 2944,
   y = 325,
   direction = 0,
   starting_location_mode = "yes",
@@ -12407,7 +12902,13 @@ enemy{
   x = 2944,
   y = 93,
   enabled_at_start = false,
-  direction = 0,
+  properties = {
+    {
+      key = "variant",
+      value = "2",
+    },
+  },
+  direction = 3,
   breed = "bosses/agahnim",
 }
 

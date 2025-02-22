@@ -21426,7 +21426,7 @@ tile{
   x = 776,
   y = 80,
   width = 8,
-  height = 104,
+  height = 40,
   pattern = "10818",
   tileset = "out/outside_darkworld_buildings_ERROR",
 }
@@ -21436,7 +21436,7 @@ tile{
   x = 752,
   y = 80,
   width = 8,
-  height = 104,
+  height = 40,
   pattern = "10817",
   tileset = "out/outside_darkworld_buildings_ERROR",
 }
@@ -21456,7 +21456,7 @@ tile{
   x = 760,
   y = 88,
   width = 16,
-  height = 104,
+  height = 40,
   pattern = "9477",
   tileset = "out/outside_darkworld_buildings_ERROR",
 }
@@ -23469,23 +23469,63 @@ tile{
   pattern = "3979",
 }
 
-tile{
+dynamic_tile{
+  name = "dynamic_tile_stair_D1_death_mountain_west_3",
   layer = 0,
   x = 752,
   y = 184,
+  enabled_at_start = false,
   width = 8,
   height = 8,
   pattern = "10820",
   tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
-tile{
+dynamic_tile{
+  name = "dynamic_tile_stair_D1_death_mountain_west_4",
   layer = 0,
   x = 776,
   y = 184,
+  enabled_at_start = false,
   width = 8,
   height = 8,
   pattern = "10819",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+dynamic_tile{
+  name = "dynamic_tile_stair_D1_death_mountain_west_1",
+  layer = 0,
+  x = 776,
+  y = 120,
+  enabled_at_start = false,
+  width = 8,
+  height = 64,
+  pattern = "10818",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+dynamic_tile{
+  name = "dynamic_tile_stair_D1_death_mountain_west_0",
+  layer = 0,
+  x = 752,
+  y = 120,
+  enabled_at_start = false,
+  width = 8,
+  height = 64,
+  pattern = "10817",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+dynamic_tile{
+  name = "dynamic_tile_stair_D1_death_mountain_west_2",
+  layer = 0,
+  x = 760,
+  y = 128,
+  enabled_at_start = false,
+  width = 16,
+  height = 64,
+  pattern = "9477",
   tileset = "out/outside_darkworld_buildings_ERROR",
 }
 

@@ -17,23 +17,17 @@ function map:on_started()
       sol.audio.play_sound("bat_crash")
       game:set_value("ganon_crashed_pyramid", true)
     end
-    ganon_hole_0:set_enabled()
-    ganon_hole_1:set_enabled()
-    ganon_hole_2:set_enabled()
-    ganon_hole_3:set_enabled()
-    ganon_hole_4:set_enabled()
-    ganon_hole_5:set_enabled()
-    ganon_hole_6:set_enabled()
-    ganon_hole_7:set_enabled()
-    ganon_hole_8:set_enabled()
-    tp_dungeon_D4_pyramid_0:set_enabled()
+
+    for ganon_hole in map:get_entities("ganon_hole_") do
+      ganon_hole:set_enabled()   
+    end
+      tp_dungeon_D4_pyramid_0:set_enabled()
   end
 
   if game:get_value("boss_vitreous_0") then
-      dynamic_tile_bombable_D4_pyramid_0:set_enabled(false)
-      dynamic_tile_bombable_D4_pyramid_1:set_enabled(false)
-      dynamic_tile_bombable_D4_pyramid_2:set_enabled(false)
-      dynamic_tile_bombable_D4_pyramid_3:set_enabled(false)
+    for bombable_tile in map:get_entities("dynamic_tile_bombable_") do
+      bombable_tile:set_enabled(false)   
+    end
   end
 
 end

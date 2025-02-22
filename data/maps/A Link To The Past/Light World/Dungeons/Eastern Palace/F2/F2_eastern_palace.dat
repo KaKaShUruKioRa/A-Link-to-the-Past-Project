@@ -4,7 +4,7 @@ properties{
   width = 2048,
   height = 2560,
   min_layer = 0,
-  max_layer = 7,
+  max_layer = 2,
   world = "eastern_palace",
   floor = 1,
   tileset = "dungeon/green",

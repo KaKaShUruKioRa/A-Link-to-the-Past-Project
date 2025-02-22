@@ -30851,6 +30851,17 @@ tile{
   pattern = "1689",
 }
 
+jumper{
+  name = "jump_death_mountain_west_64",
+  layer = 0,
+  x = 288,
+  y = 312,
+  width = 8,
+  height = 8,
+  direction = 5,
+  jump_length = 56,
+}
+
 dynamic_tile{
   name = "dynamic_tile_mountain_0",
   layer = 0,
@@ -34156,6 +34167,28 @@ npc{
   y = 77,
   direction = 3,
   subtype = 0,
+}
+
+jumper{
+  name = "jump_death_mountain_west_62",
+  layer = 0,
+  x = 264,
+  y = 312,
+  width = 24,
+  height = 8,
+  direction = 6,
+  jump_length = 56,
+}
+
+jumper{
+  name = "jump_death_mountain_west_63",
+  layer = 0,
+  x = 296,
+  y = 320,
+  width = 24,
+  height = 24,
+  direction = 5,
+  jump_length = 48,
 }
 
 tile{

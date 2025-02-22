@@ -1,0 +1,15 @@
+animation{
+  name = "walking",
+  src_image = "enemies/bosses/agahnim.png",
+  frame_delay = 45,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 280, y = 168, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 4, num_frames = 2, num_columns = 1 },
+    { x = 240, y = 64, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8, num_frames = 2, num_columns = 1 },
+    { x = 224, y = 64, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8, num_frames = 2, num_columns = 1 },
+    { x = 224, y = 64, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8, num_frames = 2, num_columns = 1 },
+    { x = 224, y = 64, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8, num_frames = 2, num_columns = 1 },
+    { x = 224, y = 64, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8, num_frames = 2, num_columns = 1 },
+    { x = 280, y = 160, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 4, num_frames = 2, num_columns = 1 },
+  },
+}

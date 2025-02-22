@@ -19,9 +19,7 @@ separator_manager:manage_map(map)
 
 -- Event called at initialization time, as soon as this map is loaded.
 function map:on_started()
-
-  -- You can initialize the movement and sprites of various
-  -- map entities here.
+  npc_agahnim:get_sprite():set_direction(6)
 end
 
 -- Event called after the opening transition effect of the map,
@@ -59,6 +57,7 @@ function sensor_boss:on_activated()
       m:set_max_distance(16)
       m:set_angle(math.pi / 2)
       m:start(map:get_camera())
+      npc_agahnim:set_enabled(false)
       boss_agahnim_F7_ganon_tower_0:set_enabled(true)
     end)
   end)

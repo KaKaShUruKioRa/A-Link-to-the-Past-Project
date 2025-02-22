@@ -9,6 +9,10 @@
 
 local map = ...
 local game = map:get_game()
+local RNGdrop = require("scripts/meta/random_drop") 
+-------------------------------------------------------------------
+RNGdrop:enemies()
+RNGdrop:destructibles()
 local hero = map:get_hero()
 
 local grandpa = map:create_npc({ 

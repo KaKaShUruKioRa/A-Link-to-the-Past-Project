@@ -13,8 +13,11 @@ local game = map:get_game()
 -- Event called at initialization time, as soon as this map is loaded.
 function map:on_started()
 
-  -- You can initialize the movement and sprites of various
-  -- map entities here.
+  if game:get_value("boss_trinexx_0") and game:get_value("boss_vitreous_0") and game:get_value("boss_kholdstare_0") then
+    for stair_ganon_tower in map:get_entities("dynamic_tile_stair_") do
+      stair_ganon_tower:set_enabled()   
+    end
+  end
 end
 
 -- Event called after the opening transition effect of the map,

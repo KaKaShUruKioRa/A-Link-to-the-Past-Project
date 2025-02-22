@@ -1,0 +1,98 @@
+animation{
+  name = "walking",
+  src_image = "enemies/bosses/agahnim.png",
+  directions = {
+    { x = 224, y = 96, frame_width = 16, frame_height = 8, origin_x = 16, origin_y = 0 },
+    { x = 224, y = 104, frame_width = 16, frame_height = 8, origin_x = 8, origin_y = 0 },
+    { x = 224, y = 112, frame_width = 16, frame_height = 8, origin_x = 0, origin_y = 0 },
+    { x = 224, y = 120, frame_width = 16, frame_height = 8, origin_x = 8, origin_y = 0 },
+    { x = 224, y = 128, frame_width = 16, frame_height = 8, origin_x = 0, origin_y = 0 },
+    { x = 224, y = 136, frame_width = 16, frame_height = 8, origin_x = 8, origin_y = 0 },
+    { x = 224, y = 144, frame_width = 16, frame_height = 8, origin_x = 16, origin_y = 0 },
+    { x = 224, y = 152, frame_width = 16, frame_height = 8, origin_x = 12, origin_y = 0 },
+  },
+}
+animation{
+  name = "0",
+  src_image = "enemies/bosses/agahnim.png",
+  directions = {
+    { x = 224, y = 96, frame_width = 16, frame_height = 8, origin_x = 16, origin_y = 0 },
+    { x = 224, y = 104, frame_width = 16, frame_height = 8, origin_x = 8, origin_y = 0 },
+    { x = 224, y = 112, frame_width = 16, frame_height = 8, origin_x = 0, origin_y = 0 },
+    { x = 224, y = 120, frame_width = 16, frame_height = 8, origin_x = 8, origin_y = 0 },
+    { x = 224, y = 128, frame_width = 16, frame_height = 8, origin_x = 0, origin_y = 0 },
+    { x = 224, y = 136, frame_width = 16, frame_height = 8, origin_x = 8, origin_y = 0 },
+    { x = 224, y = 144, frame_width = 16, frame_height = 8, origin_x = 16, origin_y = 0 },
+    { x = 224, y = 152, frame_width = 16, frame_height = 8, origin_x = 12, origin_y = 0 },
+  },
+}
+animation{
+  name = "1",
+  src_image = "enemies/bosses/agahnim.png",
+  directions = {
+    { x = 240, y = 96, frame_width = 16, frame_height = 8, origin_x = 16, origin_y = 0 },
+    { x = 240, y = 104, frame_width = 16, frame_height = 8, origin_x = 8, origin_y = 0 },
+    { x = 240, y = 112, frame_width = 16, frame_height = 8, origin_x = 0, origin_y = 0 },
+    { x = 240, y = 120, frame_width = 16, frame_height = 8, origin_x = 8, origin_y = 0 },
+    { x = 240, y = 128, frame_width = 16, frame_height = 8, origin_x = 0, origin_y = 0 },
+    { x = 240, y = 136, frame_width = 16, frame_height = 8, origin_x = 8, origin_y = 0 },
+    { x = 240, y = 144, frame_width = 16, frame_height = 8, origin_x = 16, origin_y = 0 },
+    { x = 240, y = 152, frame_width = 16, frame_height = 8, origin_x = 12, origin_y = 0 },
+  },
+}
+animation{
+  name = "2",
+  src_image = "enemies/bosses/agahnim.png",
+  directions = {
+    { x = 256, y = 96, frame_width = 16, frame_height = 8, origin_x = 16, origin_y = 0 },
+    { x = 256, y = 104, frame_width = 16, frame_height = 8, origin_x = 8, origin_y = 0 },
+    { x = 256, y = 112, frame_width = 16, frame_height = 8, origin_x = 0, origin_y = 0 },
+    { x = 256, y = 120, frame_width = 16, frame_height = 8, origin_x = 8, origin_y = 0 },
+    { x = 256, y = 128, frame_width = 16, frame_height = 8, origin_x = 0, origin_y = 0 },
+    { x = 256, y = 136, frame_width = 16, frame_height = 8, origin_x = 8, origin_y = 0 },
+    { x = 256, y = 144, frame_width = 16, frame_height = 8, origin_x = 16, origin_y = 0 },
+    { x = 256, y = 152, frame_width = 16, frame_height = 8, origin_x = 12, origin_y = 0 },
+  },
+}
+animation{
+  name = "3",
+  src_image = "enemies/bosses/agahnim.png",
+  directions = {
+    { x = 272, y = 96, frame_width = 16, frame_height = 8, origin_x = 16, origin_y = 0 },
+    { x = 272, y = 104, frame_width = 16, frame_height = 8, origin_x = 8, origin_y = 0 },
+    { x = 272, y = 112, frame_width = 16, frame_height = 8, origin_x = 0, origin_y = 0 },
+    { x = 272, y = 120, frame_width = 16, frame_height = 8, origin_x = 8, origin_y = 0 },
+    { x = 272, y = 128, frame_width = 16, frame_height = 8, origin_x = 0, origin_y = 0 },
+    { x = 272, y = 136, frame_width = 16, frame_height = 8, origin_x = 8, origin_y = 0 },
+    { x = 272, y = 144, frame_width = 16, frame_height = 8, origin_x = 16, origin_y = 0 },
+    { x = 272, y = 152, frame_width = 16, frame_height = 8, origin_x = 12, origin_y = 0 },
+  },
+}
+animation{
+  name = "4",
+  src_image = "enemies/bosses/agahnim.png",
+  directions = {
+    { x = 224, y = 160, frame_width = 16, frame_height = 8, origin_x = 16, origin_y = 0 },
+    { x = 224, y = 168, frame_width = 16, frame_height = 8, origin_x = 8, origin_y = 0 },
+    { x = 224, y = 176, frame_width = 16, frame_height = 8, origin_x = 0, origin_y = 0 },
+    { x = 224, y = 184, frame_width = 16, frame_height = 8, origin_x = 8, origin_y = 0 },
+    { x = 224, y = 192, frame_width = 16, frame_height = 8, origin_x = 0, origin_y = 0 },
+    { x = 224, y = 200, frame_width = 16, frame_height = 8, origin_x = 8, origin_y = 0 },
+    { x = 224, y = 208, frame_width = 16, frame_height = 8, origin_x = 16, origin_y = 0 },
+    { x = 224, y = 216, frame_width = 16, frame_height = 8, origin_x = 12, origin_y = 0 },
+  },
+}
+animation{
+  name = "5",
+  src_image = "enemies/bosses/agahnim.png",
+  directions = {
+    { x = 240, y = 160, frame_width = 16, frame_height = 8, origin_x = 16, origin_y = 0 },
+    { x = 240, y = 168, frame_width = 16, frame_height = 8, origin_x = 8, origin_y = 0 },
+    { x = 240, y = 176, frame_width = 16, frame_height = 8, origin_x = 0, origin_y = 0 },
+    { x = 240, y = 184, frame_width = 16, frame_height = 8, origin_x = 8, origin_y = 0 },
+    { x = 240, y = 192, frame_width = 16, frame_height = 8, origin_x = 0, origin_y = 0 },
+    { x = 240, y = 200, frame_width = 16, frame_height = 8, origin_x = 8, origin_y = 0 },
+    { x = 240, y = 208, frame_width = 16, frame_height = 8, origin_x = 16, origin_y = 0 },
+    { x = 240, y = 216, frame_width = 16, frame_height = 8, origin_x = 12, origin_y = 0 },
+  },
+}

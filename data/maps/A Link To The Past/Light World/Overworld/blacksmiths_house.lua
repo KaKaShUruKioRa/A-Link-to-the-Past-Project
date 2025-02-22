@@ -9,6 +9,10 @@
 
 local map = ...
 local game = map:get_game()
+local RNGdrop = require("scripts/meta/random_drop") 
+-------------------------------------------------------------------
+RNGdrop:enemies()
+RNGdrop:destructibles()
 
 -- Event called at initialization time, as soon as this map is loaded.
 function map:on_started()

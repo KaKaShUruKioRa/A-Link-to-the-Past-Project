@@ -10,11 +10,10 @@ local properties = {
   damage = 2,
   normal_speed = 32,
   faster_speed = 32,
-  waking_distance = 100,
+  waking_distance = 24,
 }
 
 behavior:create(enemy, properties)
-
 
 enemy:set_attack_consequence("sword", 1)
 enemy:set_attack_consequence("thrown_item", "custom")

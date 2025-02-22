@@ -5716,6 +5716,15 @@ tile{
   pattern = "127",
 }
 
+tile{
+  layer = 0,
+  x = 64,
+  y = 240,
+  width = 16,
+  height = 16,
+  pattern = "1111",
+}
+
 enemy{
   name = "enemy_hinox_F3_wooden_bridge_north_1",
   layer = 0,

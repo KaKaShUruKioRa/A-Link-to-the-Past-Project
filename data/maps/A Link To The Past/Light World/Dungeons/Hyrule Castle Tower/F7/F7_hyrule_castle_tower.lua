@@ -19,6 +19,8 @@ separator_manager:manage_map(map)
 
 -- Event called at initialization time, as soon as this map is loaded.
 function map:on_started()
+  npc_agahnim:get_sprite():set_animation("move_hands")
+  npc_agahnim:get_sprite():set_direction(6)
 
   if game:get_value("ritual_accomplished") then
     npc_agahnim:set_enabled(false)
@@ -98,13 +100,23 @@ function agahnim_back()
   m:set_target(curtain_F7_hyrule_castle_tower_1)
   m:set_ignore_obstacles(true)
   m:set_speed(64)
+
+  -- Modif event de on_direction_changed : s'assure que Agahnim reste face à Link
+  local function on_dir_changed()
+    npc_agahnim:get_sprite():set_direction(6)
+  end
+
+  npc_agahnim:get_sprite().on_direction_changed = on_dir_changed
   
   m:start(npc_agahnim, ritual_accomplished)
+  
 end
 
 -- Etape 5 : Le rituel est accompli, tout est désactivé, le héro peut se balader dans la pièce
 function ritual_accomplished()
-  npc_agahnim:set_enabled(false)
+  npc_agahnim:get_movement():stop()
+  npc_agahnim:set_position(boss_agahnim_F7_hyrule_castle_tower_0:get_position())
+
   game:set_value("ritual_accomplished", true)
   hero:unfreeze()
 end
@@ -115,12 +127,15 @@ function sensor_boss:on_activated()
     hero:freeze()
     sol.timer.start(map,200,function()
       sol.audio.play_music("boss")
-      hero:unfreeze()
+
       local m = sol.movement.create("straight")
       m:set_max_distance(16)
       m:set_angle(math.pi / 2)
       m:start(map:get_camera())
 
+      hero:unfreeze()
+
+      npc_agahnim:set_enabled(false)
       boss_agahnim_F7_hyrule_castle_tower_0:set_enabled(true)
     end)
 end
@@ -129,7 +144,7 @@ end
 function boss_agahnim_F7_hyrule_castle_tower_0:on_dying()
 
   game:start_dialog("enemy.agahnim1.defeated", function()        
-    sol.timer.start(100, function () 
+    sol.timer.start(2000, function () 
       hero:teleport("A Link to the Past/Dark World/Overworld/D4_pyramid", "dest_init_D4_pyramid_0", "fade")
       sol.audio.play_sound("world_warp")
       game:set_value("boss_agahnim_F7_hyrule_castle_tower_0", true)
