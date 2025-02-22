@@ -24,7 +24,7 @@ local inventory_items_names = {
   "bottle_2",
   "bottle_3",
   "bottle_4",
-  -- TODO "cane_of_somaria",
+  "cane_of_somaria",
   -- TODO "cane_of_byrna",
   -- TODO "magic_cape",
   "magic_mirror",

@@ -4627,6 +4627,15 @@ npc{
   sprite = "npc/flute_boy",
 }
 
+pickable{
+  name = "ocarina",
+  layer = 0,
+  x = 240,
+  y = 269,
+  treasure_name = "inventory/ocarina",
+  treasure_savegame_variable = "ocarina",
+}
+
 tile{
   layer = 1,
   x = -24,

@@ -194,15 +194,6 @@ to swim even in deep water!
 }
 
 dialog{
-  id = "_treasure.equipment/flute.1",
-  text = [[
-Oh! Here is the Flute!$0 
-Its music surely has some
-mysterious power!
-]],
-}
-
-dialog{
   id = "_treasure.equipment/glove.1",
   text = [[
 You got the Power Glove!$0 
@@ -229,6 +220,15 @@ You found the Moon Pearl!$0
 This protects The Hero from
 the changing effects of the
 Golden Power.
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/ocarina.1",
+  text = [[
+Oh! Here is the Flute!$0 
+Its music surely has some
+mysterious power!
 ]],
 }
 

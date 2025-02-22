@@ -193,15 +193,6 @@ profonde !
 }
 
 dialog{
-  id = "_treasure.equipment/flute.1",
-  text = [[
-Oh ! C'est la Flûte !$0
-Sa musique a certainement
-quelque mystérieux pouvoir !
-]],
-}
-
-dialog{
   id = "_treasure.equipment/glove.1",
   text = [[
 Tu as récupéré le Gant de la
@@ -228,6 +219,15 @@ Tu as trouvé la Perle de Lune !$0
 Elle protége le Héros des
 effets changeants du
 Pouvoir d'Or !
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/ocarina.1",
+  text = [[
+Oh ! C'est la Flûte !$0
+Sa musique a certainement
+quelque mystérieux pouvoir !
 ]],
 }
 

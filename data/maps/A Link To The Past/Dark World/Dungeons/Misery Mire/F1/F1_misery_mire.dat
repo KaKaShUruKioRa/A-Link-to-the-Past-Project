@@ -2232,6 +2232,15 @@ destination{
   direction = 1,
 }
 
+pickable{
+  name = "treasure_cane_of_somaria_F1_misery_mire_0",
+  layer = 0,
+  x = 128,
+  y = 133,
+  treasure_name = "inventory/cane_of_somaria",
+  treasure_savegame_variable = "treasure_cane_of_somaria_F1_misery_mire_0",
+}
+
 tile{
   layer = 1,
   x = 96,

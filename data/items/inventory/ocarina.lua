@@ -10,7 +10,7 @@ end
 -- Event called when the hero is using this item.
 function item:on_using()
   -- TODO : Import and play the right song
-  sol.audio.play_sound("picked_small_key")
+  sol.audio.play_sound("ocarina")
   
   -- Here you can code the effect of the ocarina
   item:set_finished()

@@ -632,6 +632,7 @@ sprite{ id = "entities/arrow", description = "Arrow" }
 sprite{ id = "entities/bed", description = "lit" }
 sprite{ id = "entities/big_chest", description = "Big chest" }
 sprite{ id = "entities/block", description = "Block" }
+sprite{ id = "entities/block_somaria", description = "block_somaria" }
 sprite{ id = "entities/bomb", description = "Bomb" }
 sprite{ id = "entities/boomerang1", description = "Boomerang 1" }
 sprite{ id = "entities/boomerang2", description = "Boomerang 2" }
@@ -666,6 +667,7 @@ sprite{ id = "entities/teletransporter_vortex", description = "Teletransporter V
 sprite{ id = "entities/teletransporter_yellow", description = "Teletransporter Yellow" }
 sprite{ id = "entities/torch", description = "Torch" }
 sprite{ id = "hero/bunny", description = "Bunny Link" }
+sprite{ id = "hero/cane_of_somaria", description = "Cane of Somaria" }
 sprite{ id = "hero/fire_rod", description = "Fire rod" }
 sprite{ id = "hero/ground1", description = "Grass under hero" }
 sprite{ id = "hero/ground2", description = "Shallow water under hero" }
@@ -888,8 +890,6 @@ sound{ id = "enemy_killed", description = "enemy_killed" }
 sound{ id = "explosion", description = "explosion" }
 sound{ id = "external_stairs_down", description = "external_stairs_down" }
 sound{ id = "external_stairs_up", description = "external_stairs_up" }
-sound{ id = "flute", description = "flute" }
-sound{ id = "flute_complet", description = "flute_complet" }
 sound{ id = "hammer", description = "hammer" }
 sound{ id = "hammer_stake", description = "hammer_stake" }
 sound{ id = "heart", description = "heart" }
@@ -918,6 +918,8 @@ sound{ id = "message_letter", description = "message_letter" }
 sound{ id = "moldorm", description = "moldorm" }
 sound{ id = "monkey", description = "monkey" }
 sound{ id = "monster_hurt", description = "monster_hurt" }
+sound{ id = "ocarina", description = "ocarina" }
+sound{ id = "ocarina_complet", description = "ocarina_complet" }
 sound{ id = "octorok", description = "octorok" }
 sound{ id = "ok", description = "ok" }
 sound{ id = "pause_closed", description = "pause_closed" }
@@ -1001,6 +1003,7 @@ item{ id = "inventory/bottle_2", description = "Bottle 2" }
 item{ id = "inventory/bottle_3", description = "Bottle 3" }
 item{ id = "inventory/bottle_4", description = "Bottle 4" }
 item{ id = "inventory/bow", description = "Bow (level 1 / level 2)" }
+item{ id = "inventory/cane_of_somaria", description = "Cane of Somaria" }
 item{ id = "inventory/fire_rod", description = "Fire Rod" }
 item{ id = "inventory/hammer", description = "Hammer" }
 item{ id = "inventory/hookshot", description = "Hookshot" }
@@ -1136,10 +1139,12 @@ enemy{ id = "traps/trap_auto", description = "Mooving trap" }
 enemy{ id = "traps/trap_detect", description = "Trap detecting the hero proximity" }
 enemy{ id = "traps/trap_fixed", description = "Fixed trap" }
 
+entity{ id = "block" }
 entity{ id = "fire", description = "Fire" }
 entity{ id = "follower", description = "Suiveux" }
 entity{ id = "hammer_stake", description = "Hammer Stake" }
 entity{ id = "ice_beam", description = "Ice Beam" }
+entity{ id = "lib/carriable", description = "lib carriable" }
 entity{ id = "powder", description = "Powder" }
 entity{ id = "stone_big_black", description = "Big Stone Black" }
 entity{ id = "stone_big_white", description = "Big Stone White" }
@@ -1278,10 +1283,13 @@ file{ path = "enemies/traps/trap_auto.lua", author = "Christopho", license = "GP
 file{ path = "enemies/traps/trap_detect.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/traps/trap_fixed.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "entities", author = "Christopho, KaKaShUruKioRa", }
+file{ path = "entities/block.lua", author = "DarkDavy15", license = "GPL v3" }
 file{ path = "entities/fire.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "entities/follower.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "entities/hammer_stake.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "entities/ice_beam.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "entities/lib", author = "Vlag", license = "GPL v3" }
+file{ path = "entities/lib/carriable.lua", author = "Vlag", license = "GPL v3" }
 file{ path = "entities/powder.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "entities/stone_big_black.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "entities/stone_big_white.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
@@ -1328,6 +1336,7 @@ file{ path = "items/inventory/bottle_2.lua", author = "Christopho", license = "G
 file{ path = "items/inventory/bottle_3.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/inventory/bottle_4.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/inventory/bow.lua", author = "Christopho, Mehdi Khelifi", license = "GPL v3" }
+file{ path = "items/inventory/cane_of_somaria.lua", author = "Christopho, Zakarisz, DarkDavy15", license = "GPL v3" }
 file{ path = "items/inventory/fire_rod.lua", author = "Christopho, Zakarisz", license = "GPL v3" }
 file{ path = "items/inventory/hammer.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/inventory/hookshot.lua", author = "Christopho, Mehdi Khelifi", license = "GPL v3" }
@@ -2489,6 +2498,8 @@ file{ path = "scripts/meta/npc.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "scripts/meta/sensor.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "scripts/meta/teletransporter.lua", author = "PhoenixII54, ZeldoRetro", license = "GPL v3" }
 file{ path = "scripts/multi_events.lua", author = "Christopho, std::gregwar", license = "GPL v3" }
+file{ path = "scripts/states", author = "Vlag, Christopho", license = "GPL v3" }
+file{ path = "scripts/states/carrying.lua", author = "Vlag, Christopho", license = "GPL v3" }
 file{ path = "shaders", author = "std::gregwar", }
 file{ path = "shaders/fr_to_normal_colors.dat", author = "std::gregwar", license = "GPL v3" }
 file{ path = "shaders/fr_to_normal_colors.frag.glsl", author = "std::gregwar", license = "GPL v3" }
@@ -2527,8 +2538,6 @@ file{ path = "sounds/enemy_killed.ogg", author = "Nintendo", license = "Propriet
 file{ path = "sounds/explosion.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/external_stairs_down.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/external_stairs_up.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
-file{ path = "sounds/flute.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
-file{ path = "sounds/flute_complet.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/hammer.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/hammer_stake.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/heart.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
@@ -2557,6 +2566,8 @@ file{ path = "sounds/message_letter.ogg", author = "Nintendo", license = "Propri
 file{ path = "sounds/moldorm.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sounds/monkey.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/monster_hurt.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sounds/ocarina.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sounds/ocarina_complet.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/octorok.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/ok.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/pause_closed.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
@@ -2930,6 +2941,8 @@ file{ path = "sprites/entities/bed.dat", author = "Christopho", license = "CC BY
 file{ path = "sprites/entities/bed.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/entities/big_chest.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/block.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/block_somaria.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/block_somaria.png", author = "DarkDavy15", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/bomb.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/bomb.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/entities/boomerang.png", author = "Nintendo", license = "Proprietary (Fair use)" }
@@ -2995,6 +3008,8 @@ file{ path = "sprites/hero/boomerang.tunic.png", author = "Nintendo", license = 
 file{ path = "sprites/hero/bow.tunic.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/hero/brandish.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/hero/bunny.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
+file{ path = "sprites/hero/cane_of_somaria.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/hero/cane_of_somaria.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/hero/carrying.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/hero/dying.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/hero/falling.png", author = "Nintendo", license = "Proprietary (Fair use)" }
