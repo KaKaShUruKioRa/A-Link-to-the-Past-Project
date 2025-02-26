@@ -1631,12 +1631,12 @@ block{
 }
 
 enemy{
-  name = "enemy_assassin_blue_soldier_F3_hyrule_castle_tower_0",
+  name = "enemy_sword_knight_F3_hyrule_castle_tower_0",
   layer = 0,
   x = 336,
   y = 181,
   direction = 3,
-  breed = "soldiers/sword_soldier_blue",
+  breed = "soldiers/sword_knight",
   treasure_name = "prize_packs/1",
 }
 
@@ -1744,22 +1744,22 @@ door{
 }
 
 enemy{
-  name = "enemy_assassin_blue_soldier_F3_hyrule_castle_tower_1",
+  name = "enemy_sword_knight_F3_hyrule_castle_tower_1",
   layer = 0,
   x = 432,
   y = 365,
   direction = 3,
-  breed = "soldiers/sword_soldier_blue",
+  breed = "soldiers/sword_knight",
   treasure_name = "prize_packs/1",
 }
 
 enemy{
-  name = "enemy_assassin_blue_soldier_F3_hyrule_castle_tower_2",
+  name = "enemy_sword_knight_F3_hyrule_castle_tower_2",
   layer = 0,
   x = 416,
   y = 389,
   direction = 3,
-  breed = "soldiers/sword_soldier_blue",
+  breed = "soldiers/sword_knight",
   treasure_name = "prize_packs/1",
 }
 

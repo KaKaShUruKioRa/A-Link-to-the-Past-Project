@@ -224,15 +224,6 @@ Golden Power.
 }
 
 dialog{
-  id = "_treasure.inventory/ocarina.1",
-  text = [[
-Oh! Here is the Flute!$0 
-Its music surely has some
-mysterious power!
-]],
-}
-
-dialog{
   id = "_treasure.equipment/pegasus_shoes.1",
   text = [[
 He gives you the Pegasus
@@ -483,6 +474,15 @@ This mirror is blue, clear and
 beautiful...
 You feel like it is going to
 absorb you into another world...
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/ocarina.1",
+  text = [[
+Oh! Here is the Flute!$0 
+Its music surely has some
+mysterious power!
 ]],
 }
 
@@ -1262,6 +1262,21 @@ are you?
 }
 
 dialog{
+  id = "npc.priest.dying",
+  text = [[
+Link! You are a second too
+late. I have failed... Zelda...
+The soldiers have
+abducted her.
+They have taken her to
+the castle.
+You must find her before the
+wizard works his magic.
+Please...You are our only hope...
+]],
+}
+
+dialog{
   id = "npc.sahasrahla.dark_world",
   text = [[
 Link, it is I, Sahasrahla.
@@ -1420,6 +1435,16 @@ dialog{
   id = "npc.thief.it_s_a_secret",
   text = [[
 It is a secret
+]],
+}
+
+dialog{
+  id = "npc.zelda.call_for_help",
+  text = [[
+Link! Help! The soldiers
+are coming to Sanctuary!
+AIEEEEEEE!
+... ... ...
 ]],
 }
 

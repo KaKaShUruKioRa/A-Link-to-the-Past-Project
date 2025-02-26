@@ -12309,6 +12309,16 @@ enemy{
   treasure_name = "prize_packs/1",
 }
 
+sensor{
+  name = "sensor_zelda_call_for_help",
+  layer = 0,
+  x = 152,
+  y = 229,
+  enabled_at_start = false,
+  width = 48,
+  height = 16,
+}
+
 tile{
   layer = 1,
   x = 40,

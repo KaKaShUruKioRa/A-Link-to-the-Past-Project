@@ -223,15 +223,6 @@ Pouvoir d'Or !
 }
 
 dialog{
-  id = "_treasure.inventory/ocarina.1",
-  text = [[
-Oh ! C'est la Flûte !$0
-Sa musique a certainement
-quelque mystérieux pouvoir !
-]],
-}
-
-dialog{
   id = "_treasure.equipment/pegasus_shoes.1",
   text = [[
 Il t'a donné les Bottes de 
@@ -256,7 +247,7 @@ dialog{
   id = "_treasure.equipment/shield.3",
   text = [[
 Tu as trouvé le Bouclier
-Miroir !$0  Tu p eux désormais
+Miroir !$0  Tu peux désormais
 réfléchir les rayons que ton
 bouclier ne pouvait arrêter.
 
@@ -501,6 +492,15 @@ transparent !
 On a l'impression qu'il va 
 nous absorber dans un autre 
 monde.
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/ocarina.1",
+  text = [[
+Oh ! C'est la Flûte !$0
+Sa musique a certainement
+quelque mystérieux pouvoir !
 ]],
 }
 
@@ -1273,6 +1273,22 @@ normal, n'est-ce pas ?
 }
 
 dialog{
+  id = "npc.priest.dying",
+  text = [[
+Link, tu l'as ratée d'une
+minute. J'ai échoué ! Zelda !
+Les soldats l'ont enlevée. Ils
+l'ont sans doute emmenée dans 
+la plus haute tour du château.
+Tu dois la retrouver avant que
+le sorcier n'accomplisse son
+sortilège et la sacrifie.
+Je t'en supp..lie, tu es
+not.. seul... espoir...
+]],
+}
+
+dialog{
   id = "npc.sahasrahla.dark_world",
   text = [[
 Link, c'est moi, Sahasrahla.
@@ -1428,6 +1444,15 @@ dialog{
   text = [[
 
 C'est un secret !
+]],
+}
+
+dialog{
+  id = "npc.zelda.call_for_help",
+  text = [[
+Link ! A l'aide ! Les soldats 
+se rendent au Sanctuaire !
+Aieeeeee ...!
 ]],
 }
 

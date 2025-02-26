@@ -601,8 +601,12 @@ sprite{ id = "enemies/soldiers/soldier_archer", description = "Soldier Archer" }
 sprite{ id = "enemies/soldiers/soldier_archer_head", description = "Soldier Archer Head" }
 sprite{ id = "enemies/soldiers/soldier_archer_projectile", description = "Soldier Archer Projectile" }
 sprite{ id = "enemies/soldiers/soldier_simple_green", description = "Simple Simple Soldier" }
+sprite{ id = "enemies/soldiers/spear_knight", description = "Spear Knight" }
+sprite{ id = "enemies/soldiers/spear_knight_weapon", description = "Spear Knight Weapon" }
 sprite{ id = "enemies/soldiers/spear_soldier_red", description = "Red Spear Soldier" }
 sprite{ id = "enemies/soldiers/spear_soldier_red_weapon", description = "Red Spear Soldier Weapon" }
+sprite{ id = "enemies/soldiers/sword_knight", description = "Sword Knight" }
+sprite{ id = "enemies/soldiers/sword_knight_weapon", description = "Sword Knight Weapon" }
 sprite{ id = "enemies/soldiers/sword_soldier_blue", description = "Blue Sword Soldier" }
 sprite{ id = "enemies/soldiers/sword_soldier_blue_weapon", description = "Blue Sword Soldier Weapon" }
 sprite{ id = "enemies/soldiers/sword_soldier_green", description = "Green Sword Soldier" }
@@ -1119,7 +1123,10 @@ enemy{ id = "soldiers/knight_chain_and_ball_gold", description = "Chain&Ball Gol
 enemy{ id = "soldiers/soldier_archer", description = "Archer" }
 enemy{ id = "soldiers/soldier_archer_projectile", description = "Archer (projectile)" }
 enemy{ id = "soldiers/soldier_simple_green", description = "Simpe Green Soldier" }
+enemy{ id = "soldiers/spear_knight", description = "Spear Knight" }
+enemy{ id = "soldiers/spear_knight_projectile", description = "Spear Knight Projectile" }
 enemy{ id = "soldiers/spear_soldier_red", description = "Spear Red Soldier" }
+enemy{ id = "soldiers/sword_knight", description = "Sword Knight" }
 enemy{ id = "soldiers/sword_soldier_blue", description = "Sword Blue Soldier" }
 enemy{ id = "soldiers/sword_soldier_green", description = "Sword Green Soldier" }
 enemy{ id = "traps/beamos", description = "Beamos" }
@@ -1163,7 +1170,7 @@ shader{ id = "fr_to_normal_colors", description = "French to normal colors" }
 shader{ id = "normal_to_fr_colors", description = "Normal to French colors" }
 
 file{ path = "enemies", author = "Christopho, Franck Jousseaume, Vlag, ZeldoRetro, DarkDavy15, Adenothe", }
-file{ path = "enemies/bosses", author = "Christopho, Vlag, DarkDavy15, Zeldoretro, Adenothe", }
+file{ path = "enemies/bosses", author = "Christopho, Vlag, DarkDavy15, Zeldoretro, Adenothe, KaKaShUruKioRa", }
 file{ path = "enemies/bosses/agahnim.lua", author = "DarkDavy15", license = "GPL v3" }
 file{ path = "enemies/bosses/agahnim_old.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/bosses/agahnim_projo_1.lua", author = "Christopho, DarkDavy15", license = "GPL v3" }
@@ -1173,7 +1180,7 @@ file{ path = "enemies/bosses/armos_knight.lua", author = "DarkDavy15", license =
 file{ path = "enemies/bosses/armos_knight_separated.lua", author = "DarkDavy15", license = "GPL v3" }
 file{ path = "enemies/bosses/arrghus.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/bosses/blind_the_thief.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "enemies/bosses/ganon.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/bosses/ganon.lua", author = "Christopho, KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "enemies/bosses/helmasaur_king.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/bosses/kholdstare.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/bosses/lanmola.lua", author = "DarkDavy15, Zeldoretro, Adenothe", license = "GPL v3" }
@@ -1254,7 +1261,7 @@ file{ path = "enemies/others/lynel_flame.lua", author = "Christopho", license = 
 file{ path = "enemies/others/octorok_stone.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/others/rabbit_beam.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/others/wizzrobe_beam.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "enemies/soldiers", author = "Christopho, ZeldoRetro, DarkDavy15", }
+file{ path = "enemies/soldiers", author = "Christopho, ZeldoRetro, DarkDavy15, KaKaShUruKioRa", }
 file{ path = "enemies/soldiers/chain_and_ball.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/soldiers/chain_and_ball_gold.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/soldiers/knight_chain_and_ball.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
@@ -1262,7 +1269,10 @@ file{ path = "enemies/soldiers/knight_chain_and_ball_gold.lua", author = "Christ
 file{ path = "enemies/soldiers/soldier_archer.lua", author = "DarkDavy15", license = "GPL v3" }
 file{ path = "enemies/soldiers/soldier_archer_projectile.lua", author = "DarkDavy15", license = "GPL v3" }
 file{ path = "enemies/soldiers/soldier_simple_green.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/soldiers/spear_knight.lua", author = "Christopho, KaKaShUruKioRa", license = "GPL v3" }
+file{ path = "enemies/soldiers/spear_knight_projectile.lua", author = "Christopho, KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "enemies/soldiers/spear_soldier_red.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/soldiers/sword_knight.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "enemies/soldiers/sword_soldier_blue.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/soldiers/sword_soldier_green.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/traps", author = "Christopho, Vlag, ZeldoRetro, DarkDavy15, Adenothe", }
@@ -2455,7 +2465,7 @@ file{ path = "scripts/console.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/debug.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
 file{ path = "scripts/dungeons.lua", author = "Christopho, Mehdi Khelifi", license = "GPL v3" }
 file{ path = "scripts/dungeons_info.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
-file{ path = "scripts/features.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "scripts/features.lua", author = "Christopho, KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "scripts/game_manager.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/hud", author = "Christopho", }
 file{ path = "scripts/hud/arrows.lua", author = "Christopho", license = "GPL v3" }
@@ -2495,6 +2505,7 @@ file{ path = "scripts/meta/camera.lua", author = "Christopho", license = "GPL v3
 file{ path = "scripts/meta/enemy.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/meta/map.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "scripts/meta/npc.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "scripts/meta/random_drop.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "scripts/meta/sensor.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "scripts/meta/teletransporter.lua", author = "PhoenixII54, ZeldoRetro", license = "GPL v3" }
 file{ path = "scripts/multi_events.lua", author = "Christopho, std::gregwar", license = "GPL v3" }
@@ -2876,9 +2887,11 @@ file{ path = "sprites/enemies/others/rabbit_beam.dat", author = "Christopho", li
 file{ path = "sprites/enemies/others/rabbit_beam.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/others/wizzrobe_beam.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/others/wizzrobe_beam.png", author = "Nintendo", license = "Proprietary (Fair use)" }
-file{ path = "sprites/enemies/soldiers", author = "Nintendo, Christopho, ZeldoRetro, DarkDavy15", }
+file{ path = "sprites/enemies/soldiers", author = "Nintendo, Christopho, ZeldoRetro, DarkDavy15, KaKaShUruKioRa", }
 file{ path = "sprites/enemies/soldiers/ball.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/soldiers/ball_gold.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/soldiers/chain.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/soldiers/chain_gold.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/soldiers/knight_chain_and_ball.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/soldiers/knight_chain_and_ball.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/soldiers/knight_chain_and_ball_gold.dat", author = "ZeldoRetro, KaKaShUruKioRa", license = "CC BY-SA 4.0" }
@@ -2889,9 +2902,15 @@ file{ path = "sprites/enemies/soldiers/soldier_archer_head.dat", author = "DarkD
 file{ path = "sprites/enemies/soldiers/soldier_archer_projectile.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/soldiers/soldier_simple_green.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/soldiers/soldier_simple_green.png", author = "Nintendo", license = "Proprietary (fair use)" }
+file{ path = "sprites/enemies/soldiers/spear_knight.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/soldiers/spear_knight.png", author = "Nintendo", license = "Proprietary (fair use)" }
+file{ path = "sprites/enemies/soldiers/spear_knight_weapon.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/soldiers/spear_soldier_red.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/soldiers/spear_soldier_red.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/soldiers/spear_soldier_red_weapon.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/soldiers/sword_knight.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/soldiers/sword_knight.png", author = "Nintendo", license = "Proprietary (fair use)" }
+file{ path = "sprites/enemies/soldiers/sword_knight_weapon.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/soldiers/sword_soldier_blue.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/soldiers/sword_soldier_blue.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/soldiers/sword_soldier_blue_weapon.dat", author = "Christopho", license = "CC BY-SA 4.0" }
@@ -2969,9 +2988,9 @@ file{ path = "sprites/entities/explosion.png", author = "Nintendo", license = "P
 file{ path = "sprites/entities/fire.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/fire.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/entities/hammer_stake.png", author = "Nintendo", license = "Proprietary (Fair use)" }
-file{ path = "sprites/entities/hammer_stake_dark.dat", author = "Christopho", license = "CC BY-SA 4.0" }
-file{ path = "sprites/entities/hammer_stake_dungeon.dat", author = "DarkDavy15, ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "sprites/entities/hammer_stake_light.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/hammer_stake_dark.dat", author = "Christopho, KaKaShUruKioRa", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/hammer_stake_dungeon.dat", author = "DarkDavy15, ZeldoRetro, KaKaShUruKioRa", license = "CC BY-SA 4.0" }
+file{ path = "sprites/entities/hammer_stake_light.dat", author = "Christopho, KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/hookshot.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/entities/hookshot.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/entities/ice_beam.dat", author = "Christopho", license = "CC BY-SA 4.0" }
@@ -3078,8 +3097,8 @@ file{ path = "sprites/hero/sword3.dat", author = "Christopho", license = "CC BY-
 file{ path = "sprites/hero/sword4.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hero/sword_stars1.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hero/sword_stars2.dat", author = "Christopho", license = "CC BY-SA 4.0" }
-file{ path = "sprites/hero/sword_stars3.dat", author = "Christopho", license = "CC BY-SA 4.0" }
-file{ path = "sprites/hero/sword_stars4.dat", author = "Christopho", license = "CC BY-SA 4.0" }
+file{ path = "sprites/hero/sword_stars3.dat", author = "Christopho, KaKaShUruKioRa", license = "CC BY-SA 4.0" }
+file{ path = "sprites/hero/sword_stars4.dat", author = "Christopho, KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hero/sword_tapping.shield.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/hero/sword_tapping.sword.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/hero/sword_tapping.tunic.png", author = "Nintendo", license = "Proprietary (Fair use)" }

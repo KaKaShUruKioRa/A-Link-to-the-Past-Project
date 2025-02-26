@@ -812,12 +812,12 @@ block{
 }
 
 enemy{
-  name = "enemy_spear_red_soldier_F6_hyrule_castle_tower_0",
+  name = "enemy_spear_knight_F6_hyrule_castle_tower_0",
   layer = 0,
   x = 440,
   y = 389,
   direction = 3,
-  breed = "soldiers/spear_soldier_red",
+  breed = "soldiers/spear_knight",
   treasure_name = "prize_packs/1",
 }
 

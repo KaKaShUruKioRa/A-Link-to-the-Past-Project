@@ -24,6 +24,14 @@ function map:on_started()
     sol.timer.start(12000, function() sol.audio.play_music(music_tmp) end)
   end
 
+  local function hero_on_state_changed(state)
+    if state == "treasure" then 
+      sol.timer.start(300, function() sol.audio.play_sound("warp") end)
+      flute_boy:get_sprite():fade_out(80, function() flute_boy:set_enabled(false) end)
+    end
+  end
+  
+  hero.on_stated_changed = hero_on_state_changed
 end
 
 -- Event called after the opening transition effect of the map,
@@ -32,9 +40,3 @@ function map:on_opening_transition_finished()
 
 end
 
-function hero:on_state_changed(state)
-  if state == "treasure" then 
-      sol.timer.start(2000, function() 
-      sol.audio.play_sound("warp") flute_boy:set_enabled(false) end)
-  end
-end

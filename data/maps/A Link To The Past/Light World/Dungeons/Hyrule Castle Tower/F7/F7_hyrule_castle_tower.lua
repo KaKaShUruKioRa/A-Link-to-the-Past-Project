@@ -32,9 +32,6 @@ function map:on_started()
     boss_agahnim_F7_hyrule_castle_tower_0:set_enabled(false)
     sensor_boss:set_enabled(false)
   end
-
-  -- You can initialize the movement and sprites of various
-  -- map entities here.
 end
 
 -- Event called after the opening transition effect of the map,
@@ -123,27 +120,28 @@ end
 
 --BOSS : Activation Agahnim 1
 function sensor_boss:on_activated()
-    self:set_enabled(false)
-    hero:freeze()
-    sol.timer.start(map,200,function()
+  self:set_enabled(false)
+  hero:freeze()
+  sol.timer.start(map,200,function()
+
+    local m = sol.movement.create("straight")
+    m:set_max_distance(16)
+    m:set_angle(math.pi / 2)
+    m:start(map:get_camera())
+
+    game:start_dialog("enemy.agahnim1.introduction", function()      
       sol.audio.play_music("boss")
-
-      local m = sol.movement.create("straight")
-      m:set_max_distance(16)
-      m:set_angle(math.pi / 2)
-      m:start(map:get_camera())
-
-      hero:unfreeze()
-
       npc_agahnim:set_enabled(false)
       boss_agahnim_F7_hyrule_castle_tower_0:set_enabled(true)
+      hero:unfreeze()
     end)
+  end)
 end
 
 --BOSS : Mort Agahnim 1, dialogue et téléportation dans le Dark World
 function boss_agahnim_F7_hyrule_castle_tower_0:on_dying()
 
-  game:start_dialog("enemy.agahnim1.defeated", function()        
+  game:start_dialog("enemy.agahnim1.defeated", function()
     sol.timer.start(2000, function () 
       hero:teleport("A Link to the Past/Dark World/Overworld/D4_pyramid", "dest_init_D4_pyramid_0", "fade")
       sol.audio.play_sound("world_warp")

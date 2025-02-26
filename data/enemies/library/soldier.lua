@@ -54,6 +54,9 @@ function behavior:create(enemy, properties)
   if properties.hurt_style == nil then
     properties.hurt_style = "normal"
   end
+  if properties.waking_distance == nil then
+    properties.waking_distance = 100
+  end
 
   function enemy:on_created()
 
@@ -88,7 +91,7 @@ function behavior:create(enemy, properties)
     local _, _, layer = enemy:get_position()
     local _, _, hero_layer = hero:get_position()
     local near_hero = layer == hero_layer
-        and enemy:get_distance(hero) < 100
+        and enemy:get_distance(hero) < properties.waking_distance
         and enemy:is_in_same_region(hero)
 
     if near_hero and not going_hero then

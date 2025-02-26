@@ -1303,7 +1303,7 @@ block{
 }
 
 enemy{
-  name = "auto_enemy_auto_door_1_spear_red_soldier_hyrule_castle_0",
+  name = "auto_enemy_auto_door_1_spear_knight_hyrule_castle_0",
   layer = 0,
   x = 120,
   y = 133,
@@ -1313,7 +1313,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_auto_door_1_spear_red_soldier_hyrule_castle_1",
+  name = "auto_enemy_auto_door_1_spear_knight_hyrule_castle_1",
   layer = 0,
   x = 88,
   y = 189,
@@ -1342,22 +1342,22 @@ npc{
 }
 
 enemy{
-  name = "auto_enemy_auto_door_2_spear_red_soldier_F5_hyrule_castle_tower_0",
+  name = "auto_enemy_auto_door_2_spear_knight_F5_hyrule_castle_tower_0",
   layer = 0,
   x = 328,
   y = 133,
   direction = 3,
-  breed = "soldiers/spear_soldier_red",
+  breed = "soldiers/spear_knight",
   treasure_name = "prize_packs/1",
 }
 
 enemy{
-  name = "auto_enemy_auto_door_2_spear_red_soldier_F5_hyrule_castle_tower_1",
+  name = "auto_enemy_auto_door_2_spear_knight_F5_hyrule_castle_tower_1",
   layer = 0,
   x = 440,
   y = 141,
   direction = 0,
-  breed = "soldiers/spear_soldier_red",
+  breed = "soldiers/spear_knight",
   treasure_name = "prize_packs/1",
 }
 
@@ -1382,7 +1382,7 @@ teletransporter{
 }
 
 enemy{
-  name = "auto_enemy_auto_door_3_spear_red_soldier_hyrule_castle_2",
+  name = "auto_enemy_auto_door_3_spear_knight_hyrule_castle_2",
   layer = 0,
   x = 104,
   y = 357,
@@ -1392,7 +1392,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_auto_door_3_spear_red_soldier_hyrule_castle_3",
+  name = "auto_enemy_auto_door_3_spear_knight_hyrule_castle_3",
   layer = 0,
   x = 128,
   y = 381,
@@ -1546,22 +1546,22 @@ door{
 }
 
 enemy{
-  name = "enemy_assassin_blue_soldier_hyrule_castle_0",
+  name = "enemy_sword_knight_hyrule_castle_0",
   layer = 0,
   x = 440,
   y = 421,
   direction = 0,
-  breed = "soldiers/sword_soldier_blue",
+  breed = "soldiers/sword_knight",
   treasure_name = "prize_packs/1",
 }
 
 enemy{
-  name = "enemy_spear_red_soldier_F5_hyrule_castle_tower_2",
+  name = "enemy_spear_knight_F5_hyrule_castle_tower_2",
   layer = 0,
   x = 376,
   y = 453,
   direction = 3,
-  breed = "soldiers/spear_soldier_red",
+  breed = "soldiers/spear_knight",
   treasure_name = "prize_packs/1",
 }
 

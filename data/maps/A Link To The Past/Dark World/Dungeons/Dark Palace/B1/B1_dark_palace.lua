@@ -26,6 +26,13 @@ function map:on_started()
   end
 end
 
+function dest_warp_B1_dark_palace_0:on_activated()
+  if not game:get_value("heart_container_dark_palace") and game:get_value("treasure_hammer_F1_dark_palace_0") then
+    boss_helmasaur_king_0:set_enabled()
+  else 
+    boss_helmasaur_king_0:set_enabled(false)
+  end
+end
 -- Event called after the opening transition effect of the map,
 -- that is, when the player takes control of the hero.
 function map:on_opening_transition_finished()

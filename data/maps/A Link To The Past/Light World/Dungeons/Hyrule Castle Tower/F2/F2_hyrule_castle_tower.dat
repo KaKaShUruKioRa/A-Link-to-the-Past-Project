@@ -1262,7 +1262,7 @@ enemy{
   x = 424,
   y = 101,
   direction = 3,
-  breed = "soldiers/sword_soldier_blue",
+  breed = "soldiers/sword_knight",
   treasure_name = "prize_packs/1",
 }
 
@@ -1282,7 +1282,7 @@ enemy{
   x = 424,
   y = 149,
   direction = 3,
-  breed = "soldiers/sword_soldier_blue",
+  breed = "soldiers/sword_knight",
   treasure_name = "prize_packs/1",
 }
 

@@ -44,13 +44,15 @@ Pour les joueurs qui découvriraient ce titre ou même la série entière (ou si
 
 Ce jeu est actuellement en développement. Cependant, vous pourrez tout de même jouer à des versions démo à chaque mise à jour.
 
-##### **v0.4.x**
+##### **v0.5.x**
 Cette version inclut :
-- La carte du **Light OverWorld**, avec des sauteurs, sans ennemis, et comprenant des grottes, des maisons, et des donjons génériques…
-  - *Carte créée entièrement par **KaKaShUruKioRa**.*
-- **L’introduction** du jeu avec **l’Oncle**, **Zelda**, le **Château d'Hyrule**, et son **Passage Secret** dans les **Égouts**.
-- Trois donjons jouable en jeu, à savoir le **Palais de l'Est**, le **Palais du Désert** et la **Tour d'Héra**, où vous pouvez obtenir des objets majeurs et combattre des **Boss Mémorables**.  
-  Cependant, il n’y aura pas encore de **Carte** ni de **Boussole**.
-  - *Carte créée par **ZeldoRetro** et **Boss** développé par **DarkDavy15**.*
-  - *Des **Objets** et certains **Comportements d'Ennemis** par **Adenothe**.*
-  - Ajouts de PNJs, Ennemies, Dialogues et Features à l'Overworld par  **KaKaShUruKioRa**
+- Les maps du **Light** et du **Dark** **Overworld**, comprenant les ennemies, des grottes, des maisons, et des donjons (certains sont génériques).
+  - *Maps créée entièrement par **KaKaShUruKioRa**.*
+- L’**Introduction** du jeu avec **l’Oncle**, **Zelda**, le **Château d'Hyrule**, et son **Passage Secret** dans les **Égouts**.
+- Trois donjons jouable : **Palais de l'Est**, le **Palais du Désert** et la **Tour d'Héra**, où vous pouvez obtenir des objets majeurs et combattre des **Boss Mémorables**.
+  - *Maps créées par **ZeldoRetro**.*
+- Le Dernier Donjon du **Light World** : La **Tour du Château d'Hyrule**
+  - *Map créée par **KaKaShUruKioRa**.*
+Cependant, il n’y aura pas encore de **Carte** ni de **Boussole**.
+  - *Des **Objets** et certains **Comportements d'Ennemis** par **Adenothe**.
+  - *Les **Boss** sont développés par **DarkDavy15**.*

@@ -52,6 +52,23 @@ function map:on_started(destination)
   if game:get_value("zelda_rescued_dialog_4") then sensor_zelda_dialog:set_enabled(false) end
   if game:get_value("zelda_rescued_dialog_5") then sensor_zelda_dialog_2:set_enabled(false) end
   
+  if game:get_value("zelda_called_for_help") and game:get_value("get_master_sword") then
+    zelda:set_enabled(false)
+    priest:set_enabled(false)
+    if not game:get_value("priest_dead") then
+      npc_priest_dying:set_enabled(true)
+    end
+  end
+end
+
+function npc_priest_dying:on_interaction()
+  game:start_dialog("npc.priest.dying",function() 
+    sol.timer.start(300, function() sol.audio.play_sound("warp") end)
+    npc_priest_dying:get_sprite():fade_out(80, function() 
+      npc_priest_dying:set_enabled(false) 
+      game:set_value("priest_dead",true)     
+    end)
+  end)
 end
 
 function map:on_finished()

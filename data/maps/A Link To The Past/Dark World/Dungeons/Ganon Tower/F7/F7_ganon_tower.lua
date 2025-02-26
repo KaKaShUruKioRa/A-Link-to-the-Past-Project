@@ -67,7 +67,7 @@ end
 function boss_agahnim_F7_ganon_tower_0:on_dying()  
   sol.audio.stop_music()     
   sol.timer.start(6000, function ()
-    sol.audio.play_sound("flute")
+    sol.audio.play_sound("ocarina")
     sol.timer.start(2000, function ()
       hero:teleport("A Link to the Past/Dark World/Overworld/D4_pyramid", "dest_init_D4_pyramid_0", "fade")
       game:set_value("boss_agahnim_F7_ganon_tower_0", true)
