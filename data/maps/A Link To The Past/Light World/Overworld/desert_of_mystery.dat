@@ -15499,16 +15499,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 880,
-  y = 688,
-  width = 32,
-  height = 16,
-  pattern = "7832",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
   x = 928,
   y = 656,
   width = 16,
@@ -16088,6 +16078,38 @@ enemy{
   treasure_name = "prize_packs/1",
 }
 
+dynamic_tile{
+  name = "dynamic_tile_bombos_stele_desert_of_mystery_2",
+  layer = 1,
+  x = 880,
+  y = 688,
+  enabled_at_start = false,
+  width = 32,
+  height = 16,
+  pattern = "7832",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+dynamic_tile{
+  name = "dynamic_tile_bombos_stele_desert_of_mystery_1",
+  layer = 1,
+  x = 880,
+  y = 688,
+  width = 32,
+  height = 16,
+  pattern = "7833",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+npc{
+  name = "npc_bombos_stele_desert_of_mystery_0",
+  layer = 1,
+  x = 896,
+  y = 701,
+  direction = 3,
+  subtype = 1,
+}
+
 tile{
   layer = 2,
   x = 296,
@@ -16232,5 +16254,16 @@ destination{
   y = 520,
   direction = 3,
   default = true,
+}
+
+dynamic_tile{
+  name = "dynamic_tile_bombos_stele_desert_of_mystery_0",
+  layer = 2,
+  x = 880,
+  y = 672,
+  width = 32,
+  height = 16,
+  pattern = "7834",
+  tileset = "out/outside_lightworld_buildings",
 }
 

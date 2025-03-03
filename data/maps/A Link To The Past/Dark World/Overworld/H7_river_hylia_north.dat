@@ -6487,6 +6487,17 @@ tile{
   pattern = "1892",
 }
 
+teletransporter{
+  name = "tp_cave_H7_river_hylia_north_2",
+  layer = 0,
+  x = 104,
+  y = 144,
+  width = 16,
+  height = 16,
+  destination_map = "A Link to the Past/Dark World/Caves/river_hylia_north_secret_cave",
+  destination = "dest_map_river_hylia_north_secret_cave_0",
+}
+
 destructible{
   name = "stone_white_H7_river_hylia_north_29",
   layer = 0,
@@ -7003,20 +7014,9 @@ stairs{
   name = "stair_down_C5_blacksmiths_house_0",
   layer = 0,
   x = 104,
-  y = 136,
+  y = 144,
   direction = 1,
   subtype = 3,
-}
-
-teletransporter{
-  name = "tp_cave_H7_river_hylia_north_2",
-  layer = 0,
-  x = 104,
-  y = 136,
-  width = 16,
-  height = 16,
-  destination_map = "A Link to the Past/Dark World/Caves/river_hylia_north_secret_cave",
-  destination = "dest_map_river_hylia_north_secret_cave_0",
 }
 
 destination{
@@ -7847,6 +7847,18 @@ teletransporter{
   transition = "scrolling",
   destination_map = "A Link to the Past/Dark World/Overworld/H6_deadend_east",
   destination = "_side",
+}
+
+teletransporter{
+  name = "link_warp_world_H7_river_hylia_north_0",
+  layer = 2,
+  x = 0,
+  y = 0,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  destination_map = "A Link to the Past/Light World/Overworld/river_hylia_north",
+  destination = "dest_secret",
 }
 
 destination{

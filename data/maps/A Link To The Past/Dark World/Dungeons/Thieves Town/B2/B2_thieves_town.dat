@@ -1316,19 +1316,6 @@ tile{
   pattern = "barrier_big.border.2-3",
 }
 
-teletransporter{
-  name = "tp_warp_B2_thieves_town_0",
-  layer = 0,
-  x = 376,
-  y = 120,
-  width = 16,
-  height = 16,
-  destination_map = "A Link to the Past/Dark World/Dungeons/Thieves Town/B1/B1_thieves_town",
-  destination = "dest_warp_B1_thieves_town_0",
-  sprite = "entities/teletransporter_blue",
-  sound = "warp",
-}
-
 stairs{
   name = "stair_up_B2_thieves_town_0",
   layer = 0,

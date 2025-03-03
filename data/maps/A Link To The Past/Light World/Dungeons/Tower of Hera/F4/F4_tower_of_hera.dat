@@ -12,16 +12,6 @@ properties{
 }
 
 tile{
-  layer = 0,
-  x = -512,
-  y = -1024,
-  width = 1024,
-  height = 2048,
-  pattern = "tower_of_hera_blueprint",
-  tileset = "blueprint/tower_of_hera",
-}
-
-tile{
   layer = 1,
   x = 48,
   y = 64,

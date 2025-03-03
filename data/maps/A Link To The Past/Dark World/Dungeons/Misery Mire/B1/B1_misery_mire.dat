@@ -2090,19 +2090,6 @@ tile{
   pattern = "torch_big.bottom",
 }
 
-teletransporter{
-  name = "tp_warp_B2_misery_mire_0",
-  layer = 0,
-  x = 416,
-  y = 104,
-  width = 16,
-  height = 16,
-  destination_map = "A Link to the Past/Dark World/Dungeons/Misery Mire/F1/F1_misery_mire",
-  destination = "dest_warp_F1_misery_mire_0",
-  sprite = "entities/teletransporter_blue",
-  sound = "warp",
-}
-
 stairs{
   name = "stair_up_B1_misery_mire_0",
   layer = 0,
@@ -2231,20 +2218,17 @@ enemy{
   layer = 0,
   x = 128,
   y = 69,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
   direction = 3,
   breed = "bosses/vitreous",
   savegame_variable = "boss_vitreous_0",
   treasure_name = "consumables/heart_container",
-  treasure_savegame_variable = "treasure_heart_container_B1_misery_mire_0",
-}
-
-pickable{
-  name = "treasure_cane_of_somaria_B1_misery_mire_0",
-  layer = 0,
-  x = 416,
-  y = 413,
-  treasure_name = "inventory/ice_rod",
-  treasure_savegame_variable = "treasure_cane_of_somaria_B1_misery_mire_0",
+  treasure_savegame_variable = "heart_container_misery_mire",
 }
 
 destination{
@@ -2261,6 +2245,43 @@ destination{
   x = 128,
   y = 221,
   direction = 1,
+}
+
+custom_entity{
+  name = "key_item_spot",
+  layer = 0,
+  x = 128,
+  y = 77,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "shadow",
+  layer = 0,
+  x = 128,
+  y = 77,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/shadow",
+}
+
+pickable{
+  name = "treasure_cane_of_somaria_F1_misery_mire_0",
+  layer = 0,
+  x = 416,
+  y = 413,
+  treasure_name = "inventory/cane_of_somaria",
+  treasure_savegame_variable = "treasure_cane_of_somaria_F1_misery_mire_0",
 }
 
 tile{

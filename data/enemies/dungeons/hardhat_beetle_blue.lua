@@ -14,6 +14,7 @@ function enemy:on_created()
   enemy:set_life(3)
   enemy:set_damage(4)
   enemy:set_attack_consequence("thrown_item",4)
+  enemy:set_attack_consequence("boomerang","protected")
   enemy:create_sprite("enemies/" .. enemy:get_breed())
   if self:get_treasure() == nil then self:set_treasure("prize_packs/6") end
   enemy:set_push_hero_on_sword(true)

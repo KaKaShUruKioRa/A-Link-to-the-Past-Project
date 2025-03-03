@@ -3997,6 +3997,19 @@ custom_entity{
   model = "hammer_stake",
 }
 
+teletransporter{
+  name = "warp_temp_Dw_to_Lw",
+  layer = 0,
+  x = 48,
+  y = 256,
+  width = 16,
+  height = 16,
+  destination_map = "A Link to the Past/Light World/Overworld/plain_of_ruins_south",
+  destination = "_same",
+  sprite = "entities/teletransporter_blue",
+  sound = "world_warp",
+}
+
 tile{
   layer = 1,
   x = 304,
@@ -6056,6 +6069,18 @@ tile{
   width = 8,
   height = 8,
   pattern = "1044",
+}
+
+teletransporter{
+  name = "link_warp_world_C8_plain_of_ruins_south_0",
+  layer = 2,
+  x = 0,
+  y = 0,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  destination_map = "A Link to the Past/Light World/Overworld/plain_of_ruins_south",
+  destination = "dest_secret",
 }
 
 destination{

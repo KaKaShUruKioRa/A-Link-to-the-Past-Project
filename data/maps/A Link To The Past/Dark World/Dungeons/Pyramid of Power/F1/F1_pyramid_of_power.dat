@@ -1370,19 +1370,6 @@ tile{
   pattern = "door_main.2.pillar.1-8",
 }
 
-teletransporter{
-  name = "tp_warp_B2_pyramid_of_power_0",
-  layer = 0,
-  x = 448,
-  y = 160,
-  width = 16,
-  height = 16,
-  destination_map = "A Link to the Past/Dark World/Dungeons/Pyramid of Power/F1/F1_pyramid_of_power",
-  destination = "dest_warp_F1_pyramid_of_power_0",
-  sprite = "entities/teletransporter_blue",
-  sound = "warp",
-}
-
 destination{
   name = "dest_map_F1_pyramid_of_power_0",
   layer = 0,
@@ -1400,15 +1387,6 @@ teletransporter{
   height = 16,
   destination_map = "A Link to the Past/Dark World/Overworld/D4_pyramid",
   destination = "dest_dungeon_D4_pyramid_0",
-}
-
-destination{
-  name = "dest_warp_F1_pyramid_of_power_0",
-  layer = 0,
-  x = 200,
-  y = 453,
-  direction = 1,
-  sprite = "entities/destination",
 }
 
 npc{

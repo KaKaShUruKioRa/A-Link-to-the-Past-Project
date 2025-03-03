@@ -4,7 +4,7 @@ local enemy = ...
 local game = enemy:get_game()
 
 function enemy:on_created()
-  local dialog_interlude_read = false
+  dialog_interlude_read = false
   enemy:set_life(100)
   enemy:set_damage(20)
   enemy:set_hurt_style("boss")
@@ -13,7 +13,9 @@ function enemy:on_created()
   enemy:set_size(16, 16)
   enemy:set_origin(8, 13)
 
+  enemy:set_invincible()
   enemy:set_attack_consequence("sword", "protected")
+  enemy:set_attack_consequence("boomerang", "protected")
   enemy:set_attack_consequence("arrow", "custom")
 end
 
@@ -25,11 +27,13 @@ function enemy:on_restarted()
     movement:set_speed(48)
     movement:start(enemy)
 
+    enemy:set_invincible()
     enemy:set_attack_consequence("sword", "protected")
+    enemy:set_attack_consequence("boomerang", "protected")
     enemy:set_attack_consequence("arrow", "custom")
 end
 
-function enemy:on_custom_attack_received(attack, sprite) 
+function enemy:on_custom_attack_received(attack, sprite)
   
   if attack == "arrow" and not enemy:is_immobilized() then
     if game:get_item("inventory/bow"):get_variant() > 1 then
@@ -39,7 +43,7 @@ function enemy:on_custom_attack_received(attack, sprite)
       enemy:get_sprite():set_animation("immobilized")
       enemy:set_attack_consequence("arrow", "protected")
       enemy:set_attack_consequence("sword", "custom")
-      sol.timer.start(3500, function() enemy:restart() end)
+      sol.timer.start(2500, function() enemy:restart() end)
     end
   end
   
@@ -52,8 +56,7 @@ function enemy:on_custom_attack_received(attack, sprite)
       game:start_dialog("enemy.ganon.interlude", function()
         dialog_interlude_read = true
       end)
+      enemy:restart()
     end
-    
-    sol.timer.start(1500, function() enemy:restart() end)
   end
 end

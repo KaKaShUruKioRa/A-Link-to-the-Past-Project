@@ -30,5 +30,18 @@ function map:on_started()
     end
   end
 
+  if game:get_value("demo_part_4_dialog_ok") then
+    sensor_demo_part_four_ended:set_enabled(false)
+  end
+
+end
+
+function sensor_demo_part_four_ended:on_activated()
+    self:set_enabled(false)
+    if game:get_value("get_pendant_of_power") then
+    local dialog_box = game:get_dialog_box()
+      dialog_box:set_style("empty")
+      game:start_dialog("demo.part_four",function() dialog_box:set_style("box") game:set_value("demo_part_4_dialog_ok",true) end)
+  end
 end
 

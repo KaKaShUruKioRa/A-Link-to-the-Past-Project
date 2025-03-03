@@ -1140,37 +1140,25 @@ destination{
 }
 
 door{
-  name = "door_bigkey_F7_ganon_tower_0",
+  name = "door_bigkey_B1_dark_palace_0",
   layer = 0,
   x = 376,
   y = 32,
   direction = 1,
   sprite = "doors/door_d1_big_key",
-  savegame_variable = "door_bigkey_F7_ganon_tower_0",
+  savegame_variable = "door_bigkey_B1_dark_palace_0",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "bigkey_dungeon_name",
+  opening_condition = "bigkey_dark_palace",
+  cannot_open_dialog = "NoBigKey",
 }
 
 destination{
   name = "dest_warp_B1_dark_palace_0",
   layer = 0,
-  x = 368,
+  x = 384,
   y = 149,
   direction = 1,
   sprite = "entities/destination",
-}
-
-teletransporter{
-  name = "tp_warp_B2_dark_palace_2",
-  layer = 0,
-  x = 392,
-  y = 136,
-  width = 16,
-  height = 16,
-  destination_map = "A Link to the Past/Dark World/Dungeons/Dark Palace/F1/F1_dark_palace",
-  destination = "dest_warp_F1_dark_palace_0",
-  sprite = "entities/teletransporter_blue",
-  sound = "warp",
 }
 
 teletransporter{
@@ -1431,6 +1419,12 @@ enemy{
   x = 384,
   y = 101,
   enabled_at_start = false,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
   direction = 3,
   breed = "bosses/helmasaur_king",
   treasure_name = "consumables/heart_container",
@@ -1518,6 +1512,34 @@ custom_entity{
   direction = 0,
   sprite = "entities/torch",
   model = "torch",
+}
+
+custom_entity{
+  name = "key_item_spot",
+  layer = 0,
+  x = 384,
+  y = 125,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "shadow",
+  layer = 0,
+  x = 384,
+  y = 125,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/shadow",
 }
 
 tile{

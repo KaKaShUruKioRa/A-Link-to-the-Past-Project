@@ -707,7 +707,7 @@ tile{
 tile{
   layer = 0,
   x = 472,
-  y = 168,
+  y = 176,
   width = 24,
   height = 32,
   pattern = "window.4-1",
@@ -716,7 +716,7 @@ tile{
 tile{
   layer = 0,
   x = 472,
-  y = 56,
+  y = 48,
   width = 24,
   height = 32,
   pattern = "window.4-1",
@@ -1135,15 +1135,6 @@ teletransporter{
   height = 16,
   destination_map = "A Link to the Past/Light World/Overworld/hyrule_castle",
   destination = "dest_dungeon_hyrule_castle_2",
-}
-
-destination{
-  name = "dest_warp_F2_hyrule_castle_tower_0",
-  layer = 0,
-  x = 200,
-  y = 453,
-  direction = 1,
-  sprite = "entities/destination",
 }
 
 stairs{

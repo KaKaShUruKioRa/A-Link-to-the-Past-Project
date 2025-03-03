@@ -12,16 +12,6 @@ properties{
 }
 
 tile{
-  layer = 0,
-  x = -1024,
-  y = 256,
-  width = 2304,
-  height = 1280,
-  pattern = "desert_palace_blueprint",
-  tileset = "blueprint/desert_palace",
-}
-
-tile{
   layer = 1,
   x = 552,
   y = 1240,

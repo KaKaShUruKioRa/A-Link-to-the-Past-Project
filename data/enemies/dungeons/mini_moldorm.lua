@@ -94,6 +94,7 @@ enemy:register_event("on_created", function(enemy)
   enemy:set_origin(8, 8)
   enemy:set_hookshot_reaction(6)
   enemy:set_attack_consequence("boomerang","protected")
+  enemy:set_attack_consequence("thrown_item",4)
 
   if enemy:get_treasure() == nil then enemy:set_treasure("prize_packs/2") end
   

@@ -7024,7 +7024,7 @@ teletransporter{
   name = "tp_cave_river_hylia_north_0",
   layer = 0,
   x = 104,
-  y = 136,
+  y = 144,
   width = 16,
   height = 16,
   destination_map = "A Link to the Past/Light World/Caves/river_hylia_lake_north_cave",

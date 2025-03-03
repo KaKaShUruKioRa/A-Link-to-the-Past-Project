@@ -18,9 +18,14 @@ local statue_moved = false
 
 -- Event called at initialization time, as soon as this map is loaded.
 function map:on_started()
-
   -- You can initialize the movement and sprites of various
-  -- map entities here.
+  -- map entities here. if destination == dest_dungeon_eastern_ruins_0 then
+      if game:get_value("demo_part_3_dialog_ok") then return end
+      if game:get_value("get_pendant_of_power") then
+      local dialog_box = game:get_dialog_box()
+        dialog_box:set_style("empty")
+        game:start_dialog("demo.part_three",function() dialog_box:set_style("box") game:set_value("demo_part_3_dialog_ok",true) end)
+  end
 end
 
 -- Event called after the opening transition effect of the map,
@@ -58,5 +63,13 @@ function crypted_stone_desert_of_mystery_0:on_interaction()
     end)
   else
       game:start_dialog("crypted.desert_stone")
+  end  
+end
+
+function npc_bombos_stele_desert_of_mystery_0:on_interaction()
+  if game:has_item("equipment/book_of_mudora") then
+    game:start_dialog("uncrypted.bombos_stele")
+  else
+    game:start_dialog("crypted.bombos_stele")
   end  
 end

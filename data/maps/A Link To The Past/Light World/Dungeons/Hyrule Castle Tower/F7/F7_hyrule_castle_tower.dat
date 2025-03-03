@@ -1606,6 +1606,12 @@ enemy{
   x = 128,
   y = 109,
   enabled_at_start = false,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
   direction = 3,
   breed = "bosses/agahnim",
 }

@@ -2469,18 +2469,6 @@ tile{
 }
 
 teletransporter{
-  name = "tp_warp_B1_skull_woods_0",
-  layer = 0,
-  x = 376,
-  y = 120,
-  width = 16,
-  height = 16,
-  destination_map = "A Link to the Past/Dark World/Dungeons/Skull Woods/B1/B1_skull_woods",
-  destination = "dest_warp_B2_skull_woods_0",
-  sprite = "entities/teletransporter_blue",
-}
-
-teletransporter{
   name = "tp_hole_B1_skull_woods_0",
   layer = 0,
   x = 56,
@@ -2508,15 +2496,6 @@ teletransporter{
   height = 16,
   destination_map = "A Link to the Past/Dark World/Overworld/A1_skeleton_forest",
   destination = "dest_dungeon_A1_skeleton_forest_1",
-}
-
-destination{
-  name = "dest_warp_B2_skull_woods_0",
-  layer = 0,
-  x = 200,
-  y = 453,
-  direction = 1,
-  sprite = "entities/destination",
 }
 
 destination{

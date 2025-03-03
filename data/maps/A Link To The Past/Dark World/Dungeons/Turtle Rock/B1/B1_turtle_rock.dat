@@ -2462,20 +2462,6 @@ teletransporter{
   destination_map = "A Link to the Past/Dark World/Dungeons/Turtle Rock/F1/F1_turtle_rock",
   destination = "dest_stair_up_F1_turtle_rock_0",
 }
-
-teletransporter{
-  name = "tp_warp_B3_turtle_rock_0",
-  layer = 0,
-  x = 432,
-  y = 424,
-  width = 16,
-  height = 16,
-  destination_map = "A Link to the Past/Dark World/Dungeons/Turtle Rock/F1/F1_turtle_rock",
-  destination = "dest_warp_F1_turtle_rock_0",
-  sprite = "entities/teletransporter_blue",
-  sound = "warp",
-}
-
 wall{
   layer = 0,
   x = 344,

@@ -23,7 +23,8 @@ function map:on_started()
   npc_agahnim:get_sprite():set_direction(6)
 
   if game:get_value("ritual_accomplished") then
-    npc_agahnim:set_enabled(false)
+    local agah_boss_pos_x, agah_boss_pos_y = boss_agahnim_F7_hyrule_castle_tower_0:get_position()
+    npc_agahnim:set_position(agah_boss_pos_x, agah_boss_pos_y)
     sensor_ritual:set_enabled(false)
     npc_zelda_sleeping:set_enabled(false)
   end
@@ -106,7 +107,24 @@ function agahnim_back()
   npc_agahnim:get_sprite().on_direction_changed = on_dir_changed
   
   m:start(npc_agahnim, ritual_accomplished)
-  
+
+  --Agahnim clignote semi-transparent
+  local i = 0
+  sol.timer.start(100, function() 
+    i = i + 1
+    
+    if i%2 == 0 then 
+      npc_agahnim:get_sprite():set_opacity(255)
+    elseif i%2 == 1 then 
+      npc_agahnim:get_sprite():set_opacity(100)
+    end
+
+    if i < 12 then 
+      return true
+    else
+      return false
+    end
+  end)
 end
 
 -- Etape 5 : Le rituel est accompli, tout est désactivé, le héro peut se balader dans la pièce

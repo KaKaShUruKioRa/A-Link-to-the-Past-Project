@@ -18,7 +18,7 @@ function map:on_started()
       return true
     end):set_suspended_with_map(false)
   else
-    for entity in map:get_entities("blue_soldier_link_forest_") do
+    for entity in map:get_entities("green_soldier_link_forest_") do
       entity:set_enabled()
     end
 

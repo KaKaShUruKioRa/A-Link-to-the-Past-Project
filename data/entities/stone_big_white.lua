@@ -98,6 +98,8 @@ function self:on_interaction()
       hero:set_animation("carrying_stopped")
       stone_big_white_sprite:set_animation("stopped")
     end)
+  else 
+    hero:start_grabbing()
   end
 end
 

@@ -164,19 +164,6 @@ tile{
   pattern = "wall_border.corner.4-4",
 }
 
-teletransporter{
-  name = "tp_warp_B7_ice_palace_0",
-  layer = 0,
-  x = 192,
-  y = 208,
-  width = 16,
-  height = 16,
-  destination_map = "A Link to the Past/Dark World/Dungeons/Ice Palace/F1/F1_ice_palace",
-  destination = "dest_warp_F1_ice_palace_0",
-  sprite = "entities/teletransporter_blue",
-  sound = "warp",
-}
-
 destination{
   name = "dest_hole_B7_ice_palace_0",
   layer = 0,
@@ -190,11 +177,45 @@ enemy{
   layer = 0,
   x = 128,
   y = 93,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
   direction = 3,
   breed = "bosses/kholdstare",
   savegame_variable = "boss_kholdstare_0",
   treasure_name = "consumables/heart_container",
-  treasure_savegame_variable = "treasure_heart_container_B7_ice_palace_0",
+  treasure_savegame_variable = "heart_container_ice_palace",
+}
+
+custom_entity{
+  name = "key_item_spot",
+  layer = 0,
+  x = 128,
+  y = 141,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "shadow",
+  layer = 0,
+  x = 128,
+  y = 141,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/shadow",
 }
 
 tile{

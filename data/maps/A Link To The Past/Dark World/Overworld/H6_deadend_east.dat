@@ -5004,19 +5004,6 @@ custom_entity{
   model = "hammer_stake",
 }
 
-teletransporter{
-  name = "warp_temp_Dw_to_Lw",
-  layer = 0,
-  x = 104,
-  y = 104,
-  width = 16,
-  height = 16,
-  destination_map = "A Link to the Past/Light World/Overworld/deadend_east",
-  destination = "_same",
-  sprite = "entities/teletransporter_blue",
-  sound = "world_warp",
-}
-
 tile{
   layer = 1,
   x = 0,
@@ -6923,6 +6910,18 @@ enemy{
   y = 205,
   direction = 0,
   breed = "dungeons/chasupa",
+}
+
+teletransporter{
+  name = "link_warp_world_H6_deadend_east_0",
+  layer = 2,
+  x = 0,
+  y = 0,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  destination_map = "A Link to the Past/Light World/Overworld/deadend_east",
+  destination = "dest_secret",
 }
 
 destination{

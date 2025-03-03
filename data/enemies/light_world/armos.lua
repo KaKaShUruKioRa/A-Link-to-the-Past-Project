@@ -15,3 +15,4 @@ local properties = {
 
 behavior:create(enemy, properties)
 enemy:set_attacking_collision_mode("overlapping")
+enemy:set_attack_consequence("thrown_item",4)

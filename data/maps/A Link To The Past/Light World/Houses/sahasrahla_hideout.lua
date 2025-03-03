@@ -27,17 +27,13 @@ end
   function sahasrahla:on_interaction()
   -- On a les bottes, dirige vers la suite
   if game:get_value("possession_pegasus_boots") then 
-    if game:get_value("possession_ice_rod") then 
-      game:start_dialog("npc.sahasrahla.ice_rod")
-    else
-      game:start_dialog("npc.sahasrahla.pegasus_gifted")
-    end
+      game:start_dialog("demo.sahasrahla.hint_repeat")
   -- On a trouvé le Pendentif, donne les bottes et dirige vers la suite
   elseif game:get_value("get_pendant_of_courage") then
     game:start_dialog("npc.sahasrahla.first_meeting", function()
       game:start_dialog("npc.sahasrahla.give_courage_pendent",function()
         hero:start_treasure("equipment/pegasus_shoes", 1, "get_pegasus_shoes", function()
-        game:start_dialog("npc.sahasrahla.pegasus_gifted") 
+        game:start_dialog("demo.sahasrahla.hint_dungeon2_and_3") 
       end)
     end)
   end)

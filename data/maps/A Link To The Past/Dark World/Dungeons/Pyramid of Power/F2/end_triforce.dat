@@ -1,0 +1,80 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 256,
+  height = 256,
+  min_layer = 0,
+  max_layer = 2,
+  world = "pyramid_of_power",
+  floor = 1,
+  tileset = "end/end",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 256,
+  height = 256,
+  pattern = "1",
+}
+
+custom_entity{
+  name = "link_start_pos",
+  layer = 0,
+  x = 128,
+  y = 213,
+  width = 16,
+  height = 16,
+  direction = 3,
+}
+
+custom_entity{
+  name = "link_last_pos",
+  layer = 0,
+  x = 128,
+  y = 173,
+  width = 16,
+  height = 16,
+  direction = 3,
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 0,
+  width = 256,
+  height = 256,
+  pattern = "2",
+}
+
+destination{
+  name = "dest_dungeon_end_triforce_0",
+  layer = 1,
+  x = 128,
+  y = 245,
+  direction = 1,
+}
+
+custom_entity{
+  name = "triforce",
+  layer = 1,
+  x = 40,
+  y = 37,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "menus/title_screen/triforce",
+}
+
+teletransporter{
+  name = "tp_end_triforce_0",
+  layer = 1,
+  x = 80,
+  y = 240,
+  width = 96,
+  height = 16,
+  destination_map = "A Link to the Past/Dark World/Dungeons/Pyramid of Power/F2/F2_pyramid_of_power",
+  destination = "dest_dungeon_F2_pyramid_of_power_0",
+}
+

@@ -6,6 +6,23 @@ animation{
   },
 }
 animation{
+  name = "flotting",
+  src_image = "menus/title_screen/triforce.png",
+  frame_delay = 75,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 960, frame_width = 176, frame_height = 160, origin_x = 0, origin_y = 0, num_frames = 25, num_columns = 8 },
+  },
+}
+animation{
+  name = "introduction",
+  src_image = "menus/title_screen/triforce.png",
+  frame_delay = 75,
+  directions = {
+    { x = 0, y = 0, frame_width = 176, frame_height = 160, origin_x = 0, origin_y = 0, num_frames = 48, num_columns = 8 },
+  },
+}
+animation{
   name = "moving",
   src_image = "menus/title_screen/triforce.png",
   frame_delay = 75,
@@ -18,5 +35,13 @@ animation{
   src_image = "menus/title_screen/triforce.png",
   directions = {
     { x = 1232, y = 1600, frame_width = 176, frame_height = 160, origin_x = 0, origin_y = 0 },
+  },
+}
+animation{
+  name = "to_static",
+  src_image = "menus/title_screen/triforce.png",
+  frame_delay = 75,
+  directions = {
+    { x = 0, y = 1440, frame_width = 176, frame_height = 160, origin_x = 0, origin_y = 0, num_frames = 16, num_columns = 8 },
   },
 }

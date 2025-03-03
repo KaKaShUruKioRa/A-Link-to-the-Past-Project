@@ -128,9 +128,9 @@ local dungeons_info = {
     lowest_floor = -2,
     highest_floor = 0,
     maps = {
-      "A Link to the Past/Dark World/Dungeons/Tower of Hera/B2/B2_swamp_palace",
-      "A Link to the Past/Dark World/Dungeons/Tower of Hera/B1/B1_swamp_palace",
-      "A Link to the Past/Dark World/Dungeons/Tower of Hera/F1/F1_swamp_palace",
+      "A Link to the Past/Dark World/Dungeons/Swamp Palace/B2/B2_swamp_palace",
+      "A Link to the Past/Dark World/Dungeons/Swamp Palace/B1/B1_swamp_palace",
+      "A Link to the Past/Dark World/Dungeons/Swamp Palace/F1/F1_swamp_palace",
     },
     boss = {
       floor = -1,
@@ -144,8 +144,8 @@ local dungeons_info = {
     lowest_floor = -1,
     highest_floor = -2,
     maps = {
-      "A Link to the Past/Dark World/Dungeons/Tower of Hera/B2/B2_skull_woods",
-      "A Link to the Past/Dark World/Dungeons/Tower of Hera/B1/B1_skull_woods"
+      "A Link to the Past/Dark World/Dungeons/Skull Woods/B2/B2_skull_woods",
+      "A Link to the Past/Dark World/Dungeons/Skull Woods/B1/B1_skull_woods"
     },
     boss = {
       floor = -2,
@@ -159,9 +159,9 @@ local dungeons_info = {
     lowest_floor = -2,
     highest_floor = 0,
     maps = {
-      "A Link to the Past/Dark World/Dungeons/Thieves Rown/B2/B2_thieves_town",
-      "A Link to the Past/Dark World/Dungeons/Thieves Rown/B1/B1_thieves_town",
-      "A Link to the Past/Dark World/Dungeons/Thieves Rown/F1/F1_thieves_town",
+      "A Link to the Past/Dark World/Dungeons/Thieves Town/B2/B2_thieves_town",
+      "A Link to the Past/Dark World/Dungeons/Thieves Town/B1/B1_thieves_town",
+      "A Link to the Past/Dark World/Dungeons/Thieves Town/F1/F1_thieves_town",
     },
     boss = {
       floor = -1,
@@ -244,22 +244,7 @@ local dungeons_info = {
       x = 960,
       y = 480 + 224,
     },
-  },  ["pyramid_of_power"] = {
-    floor_width = 512,
-    floor_height = 512,
-    lowest_floor = 0,
-    highest_floor = 1,
-    maps = {
-      "A Link to the Past/Dark World/Dungeons/Pyramid of Power/F1/F1_pyramid_of_power",
-      "A Link to the Past/Dark World/Dungeons/Pyramid of Power/F2/F2_pyramid_of_power",
-    },
-    boss = {
-      floor = 1,
-      savegame_variable = "pyramid_of_power_boss",
-      x = 960,
-      y = 480 + 224,
-    },
-  },
+  }, 
 }
 
 return dungeons_info

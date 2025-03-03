@@ -13679,6 +13679,50 @@ tile{
   pattern = "5485",
 }
 
+npc{
+  name = "npc_end_credits_zelda",
+  layer = 0,
+  x = 528,
+  y = 376,
+  enabled_at_start = false,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/zelda",
+}
+
+npc{
+  name = "npc_end_credits_soldier_1",
+  layer = 0,
+  x = 564,
+  y = 314,
+  enabled_at_start = false,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/soldier_blue",
+}
+
+npc{
+  name = "npc_end_credits_soldier_3",
+  layer = 0,
+  x = 528,
+  y = 314,
+  enabled_at_start = false,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/soldier_blue",
+}
+
+npc{
+  name = "npc_end_credits_soldier_2",
+  layer = 0,
+  x = 496,
+  y = 314,
+  enabled_at_start = false,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/soldier_blue",
+}
+
 dynamic_tile{
   name = "castle_door_1_closed",
   layer = 0,
@@ -17284,86 +17328,10 @@ npc{
 }
 
 enemy{
-  name = "blue_soldier_hyrule_castle_0",
-  layer = 0,
-  x = 888,
-  y = 317,
-  enabled_at_start = false,
-  direction = 3,
-  breed = "soldiers/sword_soldier_blue",
-  treasure_name = "prize_packs/1",
-}
-
-enemy{
-  name = "blue_soldier_hyrule_castle_1",
-  layer = 0,
-  x = 904,
-  y = 669,
-  enabled_at_start = false,
-  direction = 3,
-  breed = "soldiers/sword_soldier_blue",
-  treasure_name = "prize_packs/1",
-}
-
-enemy{
-  name = "blue_soldier_hyrule_castle_2",
-  layer = 0,
-  x = 528,
-  y = 733,
-  enabled_at_start = false,
-  direction = 3,
-  breed = "soldiers/sword_soldier_blue",
-  treasure_name = "prize_packs/1",
-}
-
-enemy{
-  name = "green_soldier_hyrule_castle_0",
-  layer = 0,
-  x = 504,
-  y = 701,
-  enabled_at_start = false,
-  direction = 3,
-  breed = "soldiers/sword_soldier_green",
-  treasure_name = "prize_packs/1",
-}
-
-enemy{
   name = "red_soldier_hyrule_castle_0",
   layer = 0,
-  x = 104,
-  y = 221,
-  enabled_at_start = false,
-  direction = 3,
-  breed = "soldiers/spear_soldier_red",
-  treasure_name = "prize_packs/1",
-}
-
-enemy{
-  name = "red_soldier_hyrule_castle_1",
-  layer = 0,
-  x = 504,
-  y = 429,
-  enabled_at_start = false,
-  direction = 3,
-  breed = "soldiers/spear_soldier_red",
-  treasure_name = "prize_packs/1",
-}
-
-enemy{
-  name = "red_spear_soldier_hyrule_castle_0",
-  layer = 0,
-  x = 136,
-  y = 653,
-  direction = 3,
-  breed = "soldiers/spear_soldier_red",
-  treasure_name = "prize_packs/1",
-}
-
-enemy{
-  name = "red_soldier_hyrule_castle_2",
-  layer = 0,
-  x = 536,
-  y = 821,
+  x = 152,
+  y = 293,
   enabled_at_start = false,
   direction = 3,
   breed = "soldiers/spear_soldier_red",
@@ -17381,6 +17349,157 @@ teletransporter{
   destination_map = "A Link to the Past/Dark World/Overworld/D4_pyramid",
   destination = "_same",
   sound = "world_warp",
+}
+
+npc{
+  name = "npc_end_credits_girl_4",
+  layer = 0,
+  x = 544,
+  y = 349,
+  enabled_at_start = false,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/woman_green",
+}
+
+npc{
+  name = "npc_end_credits_girl_3",
+  layer = 0,
+  x = 480,
+  y = 349,
+  enabled_at_start = false,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/woman_blue",
+}
+
+npc{
+  name = "npc_end_credits_girl_2",
+  layer = 0,
+  x = 524,
+  y = 338,
+  enabled_at_start = false,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/young_girl_red",
+}
+
+npc{
+  name = "npc_end_credits_girl_1",
+  layer = 0,
+  x = 464,
+  y = 365,
+  enabled_at_start = false,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/young_girl_red",
+}
+
+npc{
+  name = "npc_end_credits_girl_0",
+  layer = 0,
+  x = 500,
+  y = 338,
+  enabled_at_start = false,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/woman_yellow",
+}
+
+npc{
+  name = "npc_end_credits_girl_5",
+  layer = 0,
+  x = 560,
+  y = 365,
+  enabled_at_start = false,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/woman_yellow",
+}
+
+npc{
+  name = "npc_end_credits_soldier_4",
+  layer = 0,
+  x = 460,
+  y = 314,
+  enabled_at_start = false,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/soldier_blue",
+}
+
+destination{
+  name = "dest_end_credits",
+  layer = 0,
+  x = 496,
+  y = 380,
+  direction = 3,
+}
+
+enemy{
+  name = "red_soldier_hyrule_castle_1",
+  layer = 0,
+  x = 168,
+  y = 309,
+  enabled_at_start = false,
+  direction = 3,
+  breed = "soldiers/spear_soldier_red",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "blue_soldier_hyrule_castle_0",
+  layer = 0,
+  x = 504,
+  y = 429,
+  enabled_at_start = false,
+  direction = 1,
+  breed = "soldiers/sword_soldier_blue",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "blue_soldier_hyrule_castle_1",
+  layer = 0,
+  x = 520,
+  y = 429,
+  enabled_at_start = false,
+  direction = 1,
+  breed = "soldiers/sword_soldier_blue",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "green_soldier_hyrule_castle_0",
+  layer = 0,
+  x = 320,
+  y = 733,
+  enabled_at_start = false,
+  direction = 0,
+  breed = "soldiers/sword_soldier_green",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "spear_knight_hyrule_castle_0",
+  layer = 0,
+  x = 584,
+  y = 733,
+  enabled_at_start = false,
+  direction = 3,
+  breed = "soldiers/spear_knight",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "spear_knight_hyrule_castle_1",
+  layer = 0,
+  x = 536,
+  y = 805,
+  enabled_at_start = false,
+  direction = 3,
+  breed = "soldiers/spear_knight",
+  treasure_name = "prize_packs/1",
 }
 
 tile{
@@ -20004,6 +20123,39 @@ wall{
   stops_blocks = true,
 }
 
+enemy{
+  name = "bomb_knight_hyrule_castle_0",
+  layer = 1,
+  x = 232,
+  y = 421,
+  enabled_at_start = false,
+  direction = 3,
+  breed = "soldiers/spear_knight",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "bomb_knight_hyrule_castle_2",
+  layer = 1,
+  x = 232,
+  y = 605,
+  enabled_at_start = false,
+  direction = 3,
+  breed = "soldiers/spear_knight",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "bomb_knight_hyrule_castle_1",
+  layer = 1,
+  x = 792,
+  y = 421,
+  enabled_at_start = false,
+  direction = 3,
+  breed = "soldiers/spear_knight",
+  treasure_name = "prize_packs/1",
+}
+
 tile{
   layer = 2,
   x = 728,
@@ -20193,8 +20345,8 @@ teletransporter{
 destination{
   name = "dest_secret",
   layer = 2,
-  x = 512,
-  y = 512,
+  x = 720,
+  y = 612,
   direction = 3,
 }
 

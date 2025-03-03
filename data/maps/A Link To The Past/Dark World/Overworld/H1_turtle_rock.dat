@@ -8082,19 +8082,6 @@ destination{
   direction = 3,
 }
 
-teletransporter{
-  name = "warp_temp_Dw_to_Lw",
-  layer = 0,
-  x = 264,
-  y = 216,
-  width = 16,
-  height = 16,
-  destination_map = "A Link to the Past/Light World/Overworld/death_mountain_east",
-  destination = "_same",
-  sprite = "entities/teletransporter_blue",
-  sound = "world_warp",
-}
-
 tile{
   layer = 1,
   x = 0,
@@ -8195,6 +8182,18 @@ tile{
   height = 16,
   pattern = "8191",
   tileset = "out/outside_darkworld_buildings",
+}
+
+teletransporter{
+  name = "link_warp_world_H1_turtle_rock_0",
+  layer = 2,
+  x = 0,
+  y = 0,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  destination_map = "A Link to the Past/Light World/Overworld/turtle_rock",
+  destination = "dest_secret",
 }
 
 destination{

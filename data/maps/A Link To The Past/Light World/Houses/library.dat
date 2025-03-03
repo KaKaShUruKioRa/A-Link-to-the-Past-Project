@@ -12,15 +12,6 @@ properties{
 tile{
   layer = 0,
   x = 40,
-  y = 184,
-  width = 176,
-  height = 24,
-  pattern = "wall.2-1",
-}
-
-tile{
-  layer = 0,
-  x = 40,
   y = 56,
   width = 176,
   height = 144,

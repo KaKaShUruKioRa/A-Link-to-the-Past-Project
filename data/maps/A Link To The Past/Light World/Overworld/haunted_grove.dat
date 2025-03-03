@@ -4633,7 +4633,16 @@ pickable{
   x = 240,
   y = 269,
   treasure_name = "inventory/ocarina",
-  treasure_savegame_variable = "ocarina",
+  treasure_savegame_variable = "get_ocarina",
+}
+
+sensor{
+  name = "sensor_flute_boy",
+  layer = 0,
+  x = 72,
+  y = 333,
+  width = 400,
+  height = 16,
 }
 
 tile{

@@ -980,7 +980,7 @@ tile{
   width = 64,
   height = 32,
   pattern = "6201_2",
-  tileset = "out/outside_darkworld_buildings_ERROR",
+  tileset = "out/outside_darkworld_buildings",
 }
 
 tile{
@@ -4672,6 +4672,18 @@ teletransporter{
   transition = "scrolling",
   destination_map = "A Link to the Past/Dark World/Overworld/A4_village_of_outcasts",
   destination = "_side",
+}
+
+teletransporter{
+  name = "link_warp_world_A6_shovel_game_0",
+  layer = 2,
+  x = 0,
+  y = 0,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  destination_map = "A Link to the Past/Light World/Overworld/maze_game",
+  destination = "dest_secret",
 }
 
 destination{

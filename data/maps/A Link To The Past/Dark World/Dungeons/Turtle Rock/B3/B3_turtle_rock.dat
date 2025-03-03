@@ -2315,19 +2315,6 @@ tile{
   pattern = "door_stairs.straight_up.1",
 }
 
-teletransporter{
-  name = "tp_warp_B3_turtle_rock_0",
-  layer = 0,
-  x = 376,
-  y = 120,
-  width = 16,
-  height = 16,
-  destination_map = "A Link to the Past/Dark World/Dungeons/Turtle Rock/F1/F1_turtle_rock",
-  destination = "dest_warp_F1_turtle_rock_0",
-  sprite = "entities/teletransporter_blue",
-  sound = "warp",
-}
-
 door{
   name = "door_bigkey_B3_turtle_rock_0",
   layer = 0,
@@ -2401,11 +2388,17 @@ enemy{
   layer = 0,
   x = 128,
   y = 93,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
   direction = 3,
   breed = "bosses/helmasaur_king",
   savegame_variable = "boss_trinexx_0",
   treasure_name = "consumables/heart_container",
-  treasure_savegame_variable = "treasure_heart_container_B3_turtle_rock_0",
+  treasure_savegame_variable = "heart_container_turtle_rock",
 }
 
 destination{
@@ -2560,6 +2553,34 @@ tile{
   width = 16,
   height = 8,
   pattern = "door_top.stairs_down.2-2",
+}
+
+custom_entity{
+  name = "key_item_spot",
+  layer = 0,
+  x = 128,
+  y = 77,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "shadow",
+  layer = 0,
+  x = 128,
+  y = 77,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/shadow",
 }
 
 tile{

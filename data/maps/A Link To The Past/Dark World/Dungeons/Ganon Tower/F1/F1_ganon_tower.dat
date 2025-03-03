@@ -13,6 +13,60 @@ properties{
 
 tile{
   layer = 0,
+  x = 392,
+  y = 224,
+  width = 8,
+  height = 64,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 224,
+  width = 8,
+  height = 64,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 392,
+  width = 48,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 368,
+  width = 48,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 136,
+  width = 48,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 112,
+  width = 48,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 0,
   x = 304,
   y = 56,
   width = 160,
@@ -1757,10 +1811,208 @@ tile{
   pattern = "hole.corner.4",
 }
 
+tile{
+  layer = 0,
+  x = 120,
+  y = 120,
+  width = 40,
+  height = 8,
+  pattern = "barrier.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 144,
+  width = 80,
+  height = 8,
+  pattern = "barrier.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-2",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-2",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 80,
+  width = 88,
+  height = 8,
+  pattern = "barrier.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-2",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 168,
+  width = 24,
+  height = 8,
+  pattern = "barrier.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-2",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-2",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 128,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 88,
+  width = 8,
+  height = 24,
+  pattern = "barrier.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 144,
+  width = 8,
+  height = 24,
+  pattern = "barrier.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-2",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-2",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-2",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-2",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 136,
+  width = 24,
+  height = 8,
+  pattern = "barrier.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "barrier_big.border.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 96,
+  width = 16,
+  height = 8,
+  pattern = "barrier_big.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 104,
+  width = 16,
+  height = 24,
+  pattern = "barrier_big.border.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-2",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 120,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2-2",
+}
+
 wall{
   layer = 0,
-  x = 112,
-  y = 56,
+  x = 368,
+  y = 80,
   width = 32,
   height = 24,
   stops_hero = true,
@@ -1790,97 +2042,6 @@ teletransporter{
   height = 16,
   destination_map = "A Link to the Past/Dark World/Dungeons/Ganon Tower/B1/B1_ganon_tower",
   destination = "dest_stair_down_B1_ganon_tower_0",
-}
-
-teletransporter{
-  name = "tp_warp_F1_ganon_tower_0",
-  layer = 0,
-  x = 376,
-  y = 96,
-  width = 16,
-  height = 16,
-  destination_map = "A Link to the Past/Dark World/Dungeons/Ganon Tower/F2/F2_ganon_tower",
-  destination = "dest_warp_F2_ganon_tower_0",
-  sprite = "entities/teletransporter_blue",
-  sound = "warp",
-}
-
-wall{
-  layer = 0,
-  x = 240,
-  y = 112,
-  width = 32,
-  height = 8,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 0,
-  x = 240,
-  y = 136,
-  width = 32,
-  height = 8,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 0,
-  x = 240,
-  y = 368,
-  width = 32,
-  height = 8,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 0,
-  x = 240,
-  y = 392,
-  width = 32,
-  height = 8,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 0,
-  x = 368,
-  y = 232,
-  width = 8,
-  height = 48,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 0,
-  x = 392,
-  y = 232,
-  width = 8,
-  height = 48,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
 }
 
 stairs{
@@ -2003,7 +2164,7 @@ block{
 }
 
 block{
-  name = "bloc_F1_ganon_tower_1",
+  name = "bloc_F1_ganon_tower_6",
   layer = 0,
   x = 408,
   y = 205,
@@ -2042,8 +2203,8 @@ enemy{
 enemy{
   name = "enemy_bari_blue_F1_ganon_tower_0",
   layer = 0,
-  x = 72,
-  y = 85,
+  x = 88,
+  y = 165,
   direction = 3,
   breed = "dungeons/bari_blue",
 }
@@ -2051,8 +2212,8 @@ enemy{
 enemy{
   name = "enemy_bari_blue_F1_ganon_tower_1",
   layer = 0,
-  x = 72,
-  y = 181,
+  x = 136,
+  y = 101,
   direction = 3,
   breed = "dungeons/bari_blue",
 }
@@ -2068,8 +2229,8 @@ destination{
 chest{
   name = "big_chest_F1_ganon_tower",
   layer = 0,
-  x = 128,
-  y = 77,
+  x = 384,
+  y = 101,
   treasure_name = "equipment/tunic",
   treasure_variant = 3,
   treasure_savegame_variable = "red_mail",
@@ -2077,6 +2238,57 @@ chest{
   opening_method = "interaction_if_savegame_variable",
   opening_condition = "ganon_tower_big_key",
   cannot_open_dialog = "NoBigKey",
+}
+
+block{
+  name = "bloc_F1_ganon_tower_5",
+  layer = 0,
+  x = 160,
+  y = 205,
+  sprite = "entities/block",
+  pushable = true,
+  pullable = false,
+  max_moves = 1,
+}
+
+block{
+  name = "bloc_F1_ganon_tower_3",
+  layer = 0,
+  x = 144,
+  y = 189,
+  sprite = "entities/block",
+  pushable = false,
+  pullable = false,
+}
+
+block{
+  name = "bloc_F1_ganon_tower_2",
+  layer = 0,
+  x = 128,
+  y = 189,
+  sprite = "entities/block",
+  pushable = false,
+  pullable = false,
+}
+
+block{
+  name = "bloc_F1_ganon_tower_1",
+  layer = 0,
+  x = 112,
+  y = 189,
+  sprite = "entities/block",
+  pushable = false,
+  pullable = false,
+}
+
+block{
+  name = "bloc_F1_ganon_tower_4",
+  layer = 0,
+  x = 112,
+  y = 205,
+  sprite = "entities/block",
+  pushable = false,
+  pullable = false,
 }
 
 tile{
@@ -2316,8 +2528,8 @@ tile{
 destination{
   name = "dest_secret",
   layer = 2,
-  x = 128,
-  y = 133,
+  x = 104,
+  y = 101,
   direction = 3,
   default = true,
 }

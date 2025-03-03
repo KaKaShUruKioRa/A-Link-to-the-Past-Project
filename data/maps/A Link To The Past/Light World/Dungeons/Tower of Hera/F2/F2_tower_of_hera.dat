@@ -3,22 +3,12 @@ properties{
   y = 0,
   width = 512,
   height = 512,
-  min_layer = -1,
+  min_layer = 0,
   max_layer = 2,
   world = "tower_of_hera",
   floor = 1,
   tileset = "dungeon/pink",
   music = "light_world_dungeon",
-}
-
-tile{
-  layer = -1,
-  x = 0,
-  y = -512,
-  width = 1024,
-  height = 2048,
-  pattern = "tower_of_hera_blueprint",
-  tileset = "blueprint/tower_of_hera",
 }
 
 tile{
