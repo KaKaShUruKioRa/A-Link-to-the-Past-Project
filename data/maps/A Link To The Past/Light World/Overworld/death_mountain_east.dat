@@ -33467,6 +33467,19 @@ enemy{
   treasure_name = "prize_packs/1",
 }
 
+teletransporter{
+  name = "warp_temp_Lw_to_Dw",
+  layer = 0,
+  x = 760,
+  y = 96,
+  width = 16,
+  height = 16,
+  destination_map = "A Link to the Past/Dark World/Overworld/F1_death_mountain_east",
+  destination = "_same",
+  sprite = "entities/teletransporter_blue",
+  sound = "world_warp",
+}
+
 tile{
   layer = 1,
   x = 0,

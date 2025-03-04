@@ -1159,7 +1159,7 @@ chest{
   x = 424,
   y = 245,
   treasure_name = "consumables/piece_of_heart",
-  treasure_savegame_variable = "chest_desert_of_mystery_cave_0",
+  treasure_savegame_variable = "piece_of_heart_desert_of_mystery_cave_0",
   sprite = "entities/chest",
 }
 
@@ -1169,15 +1169,6 @@ tile{
   y = 224,
   width = 48,
   height = 40,
-  pattern = "ceiling.2",
-}
-
-tile{
-  layer = 1,
-  x = 232,
-  y = 232,
-  width = 48,
-  height = 32,
   pattern = "ceiling.2",
 }
 

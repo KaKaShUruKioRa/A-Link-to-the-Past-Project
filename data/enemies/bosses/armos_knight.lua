@@ -51,7 +51,6 @@ function enemy:on_created()
   enemy:set_can_attack(false)
   enemy:set_invincible()
   local x_1, y_1, layer = enemy:get_position()
-  if not enemy:get_game():get_value("eastern_palace_heart_container") then
     for i = 1, 6 do
       local y_2
       if i < 4 then
@@ -70,7 +69,6 @@ function enemy:on_created()
       armos_id[i] = ("armosknight_"..tostring(enemy).."_"..i)
       map:get_entity(armos_id[i]):change_palet(palet_armos_1)
     end
-  end
 end
 
 function enemy:on_update()

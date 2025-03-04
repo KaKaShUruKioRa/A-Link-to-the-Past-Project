@@ -6850,6 +6850,18 @@ tile{
   pattern = "127",
 }
 
+teletransporter{
+  name = "link_warp_world_H2_lake_of_ill_omen_0",
+  layer = 2,
+  x = 0,
+  y = 0,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  destination_map = "A Link to the Past/Light World/Overworld/waterfall_of_wishing",
+  destination = "dest_secret",
+}
+
 destination{
   name = "dest_secret",
   layer = 2,

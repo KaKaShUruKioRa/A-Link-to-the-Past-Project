@@ -21,6 +21,33 @@ tile{
 
 tile{
   layer = 0,
+  x = 384,
+  y = 328,
+  width = 128,
+  height = 24,
+  pattern = "112",
+}
+
+tile{
+  layer = 0,
+  x = 464,
+  y = 320,
+  width = 16,
+  height = 16,
+  pattern = "913",
+}
+
+tile{
+  layer = 0,
+  x = 400,
+  y = 320,
+  width = 16,
+  height = 16,
+  pattern = "913",
+}
+
+tile{
+  layer = 0,
   x = 360,
   y = 256,
   width = 152,
@@ -3437,7 +3464,7 @@ tile{
   width = 32,
   height = 32,
   pattern = "8306",
-  tileset = "out/outside_darkworld_buildings_ERROR",
+  tileset = "out/outside_darkworld_buildings",
 }
 
 tile{
@@ -3447,7 +3474,7 @@ tile{
   width = 32,
   height = 32,
   pattern = "8306",
-  tileset = "out/outside_darkworld_buildings_ERROR",
+  tileset = "out/outside_darkworld_buildings",
 }
 
 tile{
@@ -3457,7 +3484,7 @@ tile{
   width = 32,
   height = 32,
   pattern = "8306",
-  tileset = "out/outside_darkworld_buildings_ERROR",
+  tileset = "out/outside_darkworld_buildings",
 }
 
 tile{
@@ -3467,7 +3494,7 @@ tile{
   width = 32,
   height = 32,
   pattern = "8306",
-  tileset = "out/outside_darkworld_buildings_ERROR",
+  tileset = "out/outside_darkworld_buildings",
 }
 
 tile{
@@ -3477,7 +3504,7 @@ tile{
   width = 32,
   height = 32,
   pattern = "8306",
-  tileset = "out/outside_darkworld_buildings_ERROR",
+  tileset = "out/outside_darkworld_buildings",
 }
 
 tile{
@@ -3487,7 +3514,7 @@ tile{
   width = 32,
   height = 32,
   pattern = "8306",
-  tileset = "out/outside_darkworld_buildings_ERROR",
+  tileset = "out/outside_darkworld_buildings",
 }
 
 tile{
@@ -4419,15 +4446,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 384,
-  y = 328,
-  width = 128,
-  height = 24,
-  pattern = "112",
-}
-
-tile{
-  layer = 0,
   x = 424,
   y = 368,
   width = 88,
@@ -4959,15 +4977,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 400,
-  y = 320,
-  width = 16,
-  height = 16,
-  pattern = "913",
-}
-
-tile{
-  layer = 0,
   x = 480,
   y = 280,
   width = 16,
@@ -5009,15 +5018,6 @@ tile{
   width = 16,
   height = 8,
   pattern = "914",
-}
-
-tile{
-  layer = 0,
-  x = 464,
-  y = 320,
-  width = 16,
-  height = 16,
-  pattern = "913",
 }
 
 tile{
@@ -5210,7 +5210,7 @@ enemy{
 }
 
 custom_entity{
-  name = "hammer_stake_dark_secret_room_0",
+  name = "hammer_stake_F6_stone_bridge_0",
   layer = 0,
   x = 264,
   y = 285,
@@ -5222,7 +5222,7 @@ custom_entity{
 }
 
 custom_entity{
-  name = "hammer_stake_dark_secret_room_1",
+  name = "hammer_stake_F6_stone_bridge_1",
   layer = 0,
   x = 280,
   y = 285,
@@ -5234,7 +5234,7 @@ custom_entity{
 }
 
 custom_entity{
-  name = "hammer_stake_dark_secret_room_2",
+  name = "hammer_stake_F6_stone_bridge_2",
   layer = 0,
   x = 296,
   y = 285,
@@ -5246,7 +5246,7 @@ custom_entity{
 }
 
 custom_entity{
-  name = "hammer_stake_dark_secret_room_3",
+  name = "hammer_stake_F6_stone_bridge_3",
   layer = 0,
   x = 264,
   y = 301,
@@ -5258,7 +5258,7 @@ custom_entity{
 }
 
 custom_entity{
-  name = "hammer_stake_dark_secret_room_4",
+  name = "hammer_stake_F6_stone_bridge_4",
   layer = 0,
   x = 280,
   y = 301,
@@ -5270,7 +5270,7 @@ custom_entity{
 }
 
 custom_entity{
-  name = "hammer_stake_dark_secret_room_5",
+  name = "hammer_stake_F6_stone_bridge_5",
   layer = 0,
   x = 296,
   y = 301,
@@ -5282,7 +5282,7 @@ custom_entity{
 }
 
 custom_entity{
-  name = "hammer_stake_dark_secret_room_6",
+  name = "hammer_stake_F6_stone_bridge_6",
   layer = 0,
   x = 264,
   y = 317,
@@ -5294,7 +5294,7 @@ custom_entity{
 }
 
 custom_entity{
-  name = "hammer_stake_dark_secret_room_7",
+  name = "hammer_stake_F6_stone_bridge_7",
   layer = 0,
   x = 280,
   y = 317,
@@ -5306,7 +5306,7 @@ custom_entity{
 }
 
 custom_entity{
-  name = "hammer_stake_dark_secret_room_8",
+  name = "hammer_stake_F6_stone_bridge_8",
   layer = 0,
   x = 296,
   y = 317,
@@ -5873,7 +5873,7 @@ tile{
   width = 32,
   height = 16,
   pattern = "8305",
-  tileset = "out/outside_darkworld_buildings_ERROR",
+  tileset = "out/outside_darkworld_buildings",
 }
 
 tile{
@@ -5883,7 +5883,7 @@ tile{
   width = 32,
   height = 16,
   pattern = "8305",
-  tileset = "out/outside_darkworld_buildings_ERROR",
+  tileset = "out/outside_darkworld_buildings",
 }
 
 tile{
@@ -5893,7 +5893,7 @@ tile{
   width = 32,
   height = 16,
   pattern = "8305",
-  tileset = "out/outside_darkworld_buildings_ERROR",
+  tileset = "out/outside_darkworld_buildings",
 }
 
 tile{
@@ -5903,7 +5903,7 @@ tile{
   width = 32,
   height = 16,
   pattern = "8305",
-  tileset = "out/outside_darkworld_buildings_ERROR",
+  tileset = "out/outside_darkworld_buildings",
 }
 
 tile{
@@ -5913,7 +5913,7 @@ tile{
   width = 32,
   height = 16,
   pattern = "8305",
-  tileset = "out/outside_darkworld_buildings_ERROR",
+  tileset = "out/outside_darkworld_buildings",
 }
 
 tile{
@@ -5923,7 +5923,7 @@ tile{
   width = 32,
   height = 16,
   pattern = "8305",
-  tileset = "out/outside_darkworld_buildings_ERROR",
+  tileset = "out/outside_darkworld_buildings",
 }
 
 teletransporter{
@@ -5972,6 +5972,18 @@ teletransporter{
   transition = "scrolling",
   destination_map = "A Link to the Past/Dark World/Overworld/F5_plain_of_rocks",
   destination = "_side",
+}
+
+teletransporter{
+  name = "link_warp_world_F6_stone_bridge_0",
+  layer = 2,
+  x = 0,
+  y = 0,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  destination_map = "A Link to the Past/Light World/Overworld/stone_bridge",
+  destination = "dest_secret",
 }
 
 destination{

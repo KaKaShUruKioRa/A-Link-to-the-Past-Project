@@ -1955,19 +1955,6 @@ tile{
   pattern = "barrier.2-1",
 }
 
-teletransporter{
-  name = "tp_warp_F1_turtle_rock_0",
-  layer = 0,
-  x = 376,
-  y = 120,
-  width = 16,
-  height = 16,
-  destination_map = "A Link to the Past/Dark World/Dungeons/Turtle Rock/F1/F1_turtle_rock",
-  destination = "dest_warp_F1_turtle_rock_0",
-  sprite = "entities/teletransporter_blue",
-  sound = "warp",
-}
-
 stairs{
   name = "stair_down_F1_turtle_rock_0",
   layer = 0,
@@ -2005,15 +1992,6 @@ teletransporter{
   height = 16,
   destination_map = "A Link to the Past/Dark World/Overworld/H1_turtle_rock",
   destination = "dest_dungeon_H1_turtle_rock_0",
-}
-
-destination{
-  name = "dest_warp_F1_turtle_rock_0",
-  layer = 0,
-  x = 152,
-  y = 453,
-  direction = 1,
-  sprite = "entities/destination",
 }
 
 enemy{

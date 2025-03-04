@@ -1190,17 +1190,15 @@ tile{
   pattern = "torch_big.bottom",
 }
 
-teletransporter{
-  name = "tp_warp_B1_thieves_town_0",
+wall{
   layer = 0,
-  x = 376,
-  y = 120,
+  x = 88,
+  y = 64,
   width = 16,
-  height = 16,
-  destination_map = "A Link to the Past/Dark World/Dungeons/Thieves Town/B1/B1_thieves_town",
-  destination = "dest_warp_B1_thieves_town_0",
-  sprite = "entities/teletransporter_blue",
-  sound = "warp",
+  height = 24,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
 }
 
 stairs{
@@ -1240,15 +1238,6 @@ teletransporter{
   height = 16,
   destination_map = "A Link to the Past/Dark World/Overworld/A4_village_of_outcasts",
   destination = "dest_dungeon_A4_village_of_outcasts_0",
-}
-
-destination{
-  name = "dest_warp_B1_thieves_town_0",
-  layer = 0,
-  x = 200,
-  y = 453,
-  direction = 1,
-  sprite = "entities/destination",
 }
 
 stairs{
@@ -1393,11 +1382,17 @@ enemy{
   layer = 0,
   x = 128,
   y = 77,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
   direction = 3,
   breed = "bosses/blind_the_thief",
   savegame_variable = "boss_blind_the_thied_0",
   treasure_name = "consumables/heart_container",
-  treasure_savegame_variable = "treasure_heart_container_B1_thieves_town_0",
+  treasure_savegame_variable = "heart_container_thieves_town",
 }
 
 destination{
@@ -1416,12 +1411,40 @@ destination{
   direction = 1,
 }
 
+custom_entity{
+  name = "key_item_spot",
+  layer = 0,
+  x = 128,
+  y = 133,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "shadow",
+  layer = 0,
+  x = 128,
+  y = 133,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/shadow",
+}
+
 wall{
   layer = 0,
-  x = 184,
-  y = 72,
-  width = 8,
-  height = 120,
+  x = 152,
+  y = 64,
+  width = 16,
+  height = 24,
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
@@ -1429,10 +1452,10 @@ wall{
 
 wall{
   layer = 0,
-  x = 64,
-  y = 72,
-  width = 128,
-  height = 8,
+  x = 176,
+  y = 88,
+  width = 16,
+  height = 24,
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
@@ -1440,10 +1463,10 @@ wall{
 
 wall{
   layer = 0,
-  x = 64,
-  y = 80,
-  width = 8,
-  height = 112,
+  x = 176,
+  y = 152,
+  width = 16,
+  height = 24,
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
@@ -1451,10 +1474,32 @@ wall{
 
 wall{
   layer = 0,
-  x = 72,
-  y = 184,
-  width = 112,
-  height = 8,
+  x = 152,
+  y = 176,
+  width = 16,
+  height = 24,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+wall{
+  layer = 0,
+  x = 88,
+  y = 176,
+  width = 16,
+  height = 24,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+wall{
+  layer = 0,
+  x = 88,
+  y = 120,
+  width = 16,
+  height = 24,
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
@@ -1833,7 +1878,7 @@ destination{
   name = "dest_secret",
   layer = 2,
   x = 128,
-  y = 133,
+  y = 149,
   direction = 3,
   default = true,
 }

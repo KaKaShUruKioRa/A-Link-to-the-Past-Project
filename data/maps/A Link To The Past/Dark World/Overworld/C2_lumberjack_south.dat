@@ -5641,7 +5641,7 @@ wall{
 }
 
 destructible{
-  name = "sign_C2_C2_lumberjack_south_0",
+  name = "sign_C2_lumberjack_south_0",
   layer = 0,
   x = 264,
   y = 205,
@@ -5649,14 +5649,16 @@ destructible{
   destruction_sound = "stone",
 }
 
-destructible{
-  name = "big_stone_white_C2_C2_lumberjack_south_0",
+custom_entity{
+  name = "big_stone_white_C2_lumberjack_south_0",
   layer = 0,
   x = 392,
   y = 237,
+  width = 32,
+  height = 32,
+  direction = 0,
   sprite = "destructibles/stone_big_dw_1",
-  destruction_sound = "stone",
-  weight = 1,
+  model = "stone_big_white",
 }
 
 destination{
@@ -7318,6 +7320,18 @@ teletransporter{
   transition = "scrolling",
   destination_map = "A Link to the Past/Dark World/Overworld/C1_lumberjack",
   destination = "_side",
+}
+
+teletransporter{
+  name = "link_warp_world_C2_lumberjack_south_0",
+  layer = 2,
+  x = 0,
+  y = 0,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  destination_map = "A Link to the Past/Light World/Overworld/lumberjack_south",
+  destination = "dest_secret",
 }
 
 destination{

@@ -257,8 +257,10 @@ bouclier ne pouvait arrêter.
 dialog{
   id = "_treasure.equipment/sword.3",
   text = [[
-Your sword is tempered-up!
-Now hold it!
+Génial ! Ton épée est plus
+puissante ! Sens la fabuleuse
+force qui coule dans tes
+veines.
 ]],
 }
 
@@ -515,6 +517,240 @@ les ennemis alentours.
 Mais surveille ton Compteur
 Magique !
 
+]],
+}
+
+dialog{
+  id = "_treasure.quest/crystal_1.1",
+  text = [[
+Link, grâce à toi, je peux
+m'échapper des griffes de
+ces monstres diabloliques. Merci !
+Ce Monde était autrefois la
+Terre d'Or où la Triforce
+était cachée. Mais à cause du
+voeux que fit Ganon quand il
+s'en empara, voilà ce qu'il
+advint de ce Monde.
+Ganon rassemble ses forces
+pour conquérir aussi notre
+Monde de la Lumière après
+avoir établi son pouvoir ici.
+Il veut rompre le sceau à
+l'aide des pouvoirs que nous
+les 7 jeunes filles avons
+hérités des Sages et ouvrir
+une brèche plus large entre les
+Mondes. Mais la brèche n'est
+pas encore suffisamment large.
+Tout n'est pas perdu !
+Si nous les 7 jeunes filles,
+nous unissons nos efforts,
+nous pouvons casser la
+barrière qui entoure la
+cachette de Ganon.
+Je vais te dire où les autres
+jeunes filles sont retenues. Je
+suis sûre que tu détruiras
+Ganon. Nous retrouverons alors
+notre aspect d'origine.
+
+
+Tu as compris ?
+$? Oui.
+$? Non pas du tout !
+]],
+}
+
+dialog{
+  id = "_treasure.quest/crystal_2.1",
+  text = [[
+Link, grâce à toi, je peux
+m'échapper des griffes de
+ces monstres diabloliques. Merci !
+La Triforce exauce les
+voeux de clui qui la touche
+toute sa vie durant. C'est la
+raison pour laquelle elle était
+cachée dans la Terre d'Or.
+Seul quelques élus connais-
+saient son emplacement.
+Mais à un moment, cette
+connaissance se perdit. C'est
+un bandit de grand chemin,
+nommé Ganondorf qui redécou-
+vrit la Terre d'Or. Par chance,
+il n'a pas trouvé moyen de re-
+venir au Monde de la Lumière.
+N'oublie pas que tu as le
+Miroir Magique, dont seul le
+Héros peut tirer parti. Il y a
+d'autres points Téléporteurs
+Magiques comme celui que tu as
+ vu sur la Montagne de la Mort.
+En les utilisant, tu peux
+passer d'un monde à l'autre
+et trouver les démons cachés
+dans le Monde des Ténèbres. Tu
+es le seul qui puisse détruire
+Ganondorf, le bandit  - non,
+Ganon, le Roi diabolique des
+Ténèbres.
+
+
+Tu as compris ?
+$? Oui.
+$? Non pas du tout !
+]],
+}
+
+dialog{
+  id = "_treasure.quest/crystal_3.1",
+  text = [[
+Link, grâce à toi, je peux
+m'échapper des griffes de
+ces monstres diabloliques. Merci !
+Connais-tu la prophétie du
+Grand Cataclysme ?
+Voici ce que j'en ai entendu :
+si une persone au coeur
+diabolique s'empare de la
+Triforce, un Héros apparaîtra
+et lui seul pourra affronter
+celui qui a provoqué le Grand
+Cataclysme.
+Si ce Démon détruit le
+Héros, rien ne pourra sauver le
+monde de son règne satanique.
+Seul un descendant de ces Che-
+valiers d'Hyrule, défenseurs du
+Royaume d'Hylia, peut devenir
+le  Héros. Tu es de leur sang,
+n'est-ce pas ? Alors tu dois
+sauver Zelda à tout prix.
+Tu as compris ?
+$? Oui.
+$? Non pas du tout !
+]],
+}
+
+dialog{
+  id = "_treasure.quest/crystal_4.1",
+  text = [[
+Link, grâce à toi, je peux
+m'échapper des griffes de
+ces monstres diabloliques. Merci !
+Alors que les Sages scellaient
+le chemin qui mène au Monde
+des Ténèbres, les Chevaliers
+d'Hyrule les protégeaient des
+attaques des monstres. J'ai
+oui-dire que les Chevaliers
+d'Hyrule furent presque tous
+décimés dans cette bataille.
+Tu es peut-être le dernier
+maillon de cette lignée de
+Chevaliers. Quelle ironie du
+sort que le dernier de la lignée
+ait le potentiel pour devenir
+le Héros de la légende. Tu peux
+sûrement détruit Ganon !
+Tu as compris ?
+$? Oui.
+$? Non pas du tout !
+]],
+}
+
+dialog{
+  id = "_treasure.quest/crystal_5.1",
+  text = [[
+Link, grâce à toi, je peux
+m'échapper des griffes de
+ces monstres diabloliques. Merci !
+Ils disent que les Hyliens
+ont de mystérieux pouvoirs
+comme les 7 Sages.
+Mais le sang des Hyliens s'est
+appauvri avec le temps. Nous
+qui sommes de la lignée des 7
+Sages, nous ne disposons plus
+nous-mêmes de pouvoirs déve-
+loppés. Nos pouvoirs augmen-
+teront si nous allions le
+courage des Chevaliers à la
+sagesse des Sages. Il reste
+encore peu de temps avant que
+la brèche entre les Mondes de
+la Lumière et des Ténèbres ne
+s'élargisse. Si tu vaincs
+Ganon, ce Monde disparaîtra et
+la Triforce attendra son nou-
+veau possesseur. J'ai foi en
+toi ! Courage !
+
+Tu as compris ?
+$? Oui.
+$? Non pas du tout !
+]],
+}
+
+dialog{
+  id = "_treasure.quest/crystal_6.1",
+  text = [[
+Link, grâce à toi, je peux
+m'échapper des griffes de
+ces monstres diabloliques.
+Merci ! Ganon nous a capturées
+parce qu'il ne pouvait rompre
+le sceau des 7 Sages par son
+seul pouvoir. Ainsi utilisant
+le sorcier Agahnim, il nous a
+attirées dans le Monde des
+Ténèbres. Après avoir rompu le
+sceau grâce à nos pouvoirs, il
+nous a enfermés dans ces
+Crystaux. Puis il nous a
+confiées à ses loyaux
+monstres. Mais Ganon t'a
+sous-estimé. Il ne pensait
+pas que tu irais si loin.
+Maintenant la Princesse Zelda
+t'attends à l'intérieur du
+Rocher de la Tortue.
+Dépêche-toi !
+Tu as compris ?
+$? Oui.
+$? Non pas du tout !
+]],
+}
+
+dialog{
+  id = "_treasure.quest/crystal_7.1",
+  text = [[
+Merci d'avoir franchi tant
+d'obstacles pour me sauver.
+Ainsi que je le pensais, tu es
+le Héros légendaire. Dès notre
+première rencontre, je l'ai
+senti.
+Ganon attend dans sa 
+tour que la brèche entre les
+deux Mondes s'aggrandisent.
+Si Ganon entre dans le
+Monde de la Lumière, il y a peu
+de chance que quelqu'un
+l'arrête. Mais s'il reste dans
+l'espace confiné de ce Monde,
+tu peux le retrouver partout
+où il s'échappe. Pars main-
+tenant avec les 7 Cristaux à la
+Tour de Ganon ! Nous utilise-
+rons nos pouvoirs combinés
+pour briser la barrière.
+Rendons la paix au pays !
+Tu as compris ?
+$? Oui.
+$? Non pas du tout !
 ]],
 }
 
@@ -1072,6 +1308,14 @@ Pars à la recherche du dernier !
 }
 
 dialog{
+  id = "misc.sage_end",
+  text = [[
+Puisse son chemin mener le
+Héros à la Triforce !
+]],
+}
+
+dialog{
   id = "npc.aginah.after_pendant",
   text = [[
 Ton épreuve t'a rendu plus
@@ -1243,6 +1487,74 @@ dans une quête aussi folle.
 }
 
 dialog{
+  id = "npc.kiki.following_question",
+  text = [[
+Je suis le singe Kiki !
+J'aime les rubis plus que tout.
+Tu peux me filer 10 rubis ?
+Que décides-tu ?
+$? je te file 10 rubis.
+$? Cours toujours !
+]],
+}
+
+dialog{
+  id = "npc.kiki.following_no",
+  text = [[
+Ki ki! GRRR ! On n'a plus rien à 
+se dire dans ce cas.
+Aussi, salut ! Kik ki ki!
+]],
+}
+
+dialog{
+  id = "npc.kiki.following_yes",
+  text = [[
+Ki ki ki ki ki! Bon choix ! Je
+t'accompagnerai un moment !
+kiki kiki !
+]],
+}
+
+dialog{
+  id = "npc.kiki.no_entry",
+  text = [[
+Pas question d'entrer 
+avec moi !
+]],
+}
+
+dialog{
+  id = "npc.kiki.opening_no",
+  text = [[
+Ki ! Ki ! Ki ! Hum !
+Alors, fais-le toi même, radin !
+Ki ! Ki ! Ki !
+]],
+}
+
+dialog{
+  id = "npc.kiki.opening_question",
+  text = [[
+Ki ! Ki ! Si tu me donnes 100
+rubis, je t'ouvrirai
+l'entrée. Ki, ki, ki !
+Que décides-tu ?
+$? Ouvre-la moi !
+$? Je l'ouvrirai tout seul !
+]],
+}
+
+dialog{
+  id = "npc.kiki.opening_yes",
+  text = [[
+Ki ! Ki ! Ki ! Bon choix ! Je te
+prends 100 rubis. Ki ! Ki ! Ki !
+]],
+}
+
+
+dialog{
   id = "npc.pink_ball.meeting",
   text = [[
 Oh ! Tu as été transformé en
@@ -1285,6 +1597,33 @@ le sorcier n'accomplisse son
 sortilège et la sacrifie.
 Je t'en supp..lie, tu es
 not.. seul... espoir...
+]],
+}
+
+dialog{
+  id = "npc.purple_mad.after_demi_magic",
+  text = [[
+Eh, Eh, Eh ! Bien fait pour toi !
+Pardon, c'est pas ce que je
+voulais dire ! Maintenant ton
+Pouvoir Magique diminuera
+deux fois moins vite !
+Félicitation ! Maintenant,
+fais de ton mieux, mais à mon
+avis, ce ne sera pas suffi-
+sant. Mauvaise journée ! Salut.
+]],
+}
+
+dialog{
+  id = "npc.purple_mad.before_demi_magic",
+  text = [[
+Maudit sois-tu qui me tires de
+mon profond sommeil !
+Euh, pardon, j'voulais dire
+merci ! Je vais me venger !
+Euh, pardon, c'est pas ce que
+je voulais dire.
 ]],
 }
 
@@ -1674,9 +2013,9 @@ le bandit ! Sois prudent !
 dialog{
   id = "uncrypted.bombos_stele",
   text = [[
-Hold up the Master Sword and
-you will get the magic of
-Bombos.
+Lève Excalibur et
+tu obtiendras la Magie des
+Flammes.
 ]],
 }
 

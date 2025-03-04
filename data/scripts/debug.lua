@@ -43,7 +43,7 @@ function debug:on_key_pressed(key, modifiers)
     elseif key == "o" then
       game:add_money(50)
     elseif key == "l" then
-      game:add_money(15)
+      game:remove_money(50)
     elseif key == "i" then
       game:add_magic(10)
     elseif key == "k" then
@@ -51,9 +51,9 @@ function debug:on_key_pressed(key, modifiers)
     elseif key == "kp 7" then
       game:set_max_magic(0)
     elseif key == "kp 8" then
-      game:set_max_magic(42)
+      game:set_max_magic(32)
     elseif key == "kp 9" then
-      game:set_max_magic(84)
+      game:set_max_magic(64)
     elseif key == "kp 1" then
       local tunic = game:get_item("equipment/tunic")
       local variant = math.max(1, tunic:get_variant() - 1)

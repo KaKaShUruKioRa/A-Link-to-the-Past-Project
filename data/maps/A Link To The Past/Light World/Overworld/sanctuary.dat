@@ -3455,7 +3455,7 @@ teletransporter{
   name = "sanctuary_1",
   layer = 0,
   x = 56,
-  y = 168,
+  y = 176,
   width = 16,
   height = 16,
   destination_map = "A Link to the Past/Light World/Caves/sanctuary_cave",

@@ -77,7 +77,7 @@ local function throw_big_stone()
 end
 
 function self:on_interaction() 
-  if game:has_item("equipment/glove") then
+  if game:has_item("equipment/glove") and game:get_ability("lift") > 1 then
     local x_hero, y_hero, layer_hero = hero:get_position()
     local x_origin_hero, y_origin_hero = hero:get_origin()
 
@@ -98,6 +98,8 @@ function self:on_interaction()
       hero:set_animation("carrying_stopped")
       stone_big_white_sprite:set_animation("stopped")
     end)
+  else 
+    hero:start_grabbing()
   end
 end
 

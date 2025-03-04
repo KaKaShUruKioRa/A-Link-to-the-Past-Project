@@ -7094,6 +7094,18 @@ teletransporter{
   destination = "_side",
 }
 
+teletransporter{
+  name = "link_warp_world_C3_sanctuary_lake_0",
+  layer = 2,
+  x = 0,
+  y = 0,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  destination_map = "A Link to the Past/Light World/Overworld/sanctuary_lake",
+  destination = "dest_secret",
+}
+
 destination{
   name = "dest_secret",
   layer = 2,

@@ -23,6 +23,7 @@ __------------------------------------------------------------------------------
 
 🗺**Pyramide du Pouvoir**
   * **Ganon** avec un pattern unique en attendant le vrai combat d'**Alttp**.
+  * **Scene de Fin** avec la **Triforce** et son dialogue, et début de la **Scene de Crédit**.
 
 - __Monde de la Lumière__:
   * Ajout de la parallaxe dans la **Montagne de la Mort**.
@@ -42,6 +43,7 @@ __------------------------------------------------------------------------------
 - **Baguette de Feu** : Crée une **boule de feu qui fait des dégats** aux ennemis, et **permet d'allumer des torches à distance**.
 - **Moufle du Titan** : Permet de soulever les **Pierres Noires** (plus lourde).
 - **Tuniques Rouge** et **Bleu** : **Réduit les dégats** des ennemis infligés à **Link**
+- **Demi Magie** : Réduit le coût des **Objets Magiques**.
 - **Epée Trempée et Dorée** : **Augmente les dégats infligés** par **Link**
 - **Fléches d'Argent** et son **Carquois** : Indispensable pour combattre **Ganon**.
 - **Bouclier Miroir** : Ne fait rien de plus pour le moment.
@@ -54,7 +56,7 @@ __------------------------------------------------------------------------------
 - **Taros Bleu** et **Rouge** : Chevalier des Ténèbres, charge avec un Lance **Link**
 - **Stals** : Crâne qui se cache parmis de vrai crâne et attaque **quand on s'approche de lui**.
 - **Hinox** : Un **Monstre Géant** qui **balance des bombes**. (pas encore fonctionnel)
-- **Moblin** : Un **Homme Cochon** qui se balade et **jète des Lances**. (pas encore fonctionnel)
+- **Moblin** : Un **Homme Cochon** qui se balade et **jète des Lances**.
 - **Dragon Claquant** : Ennemi à **Grande Mâchoire** qui **se balade en diagonale**.
 - **Bari Bleu** : **Méduse électrique** qui flotte et se déplace aléatoire, elle **s'électrifie quelques instants** la rendant risqué à attaquer.
 - **Goriya Vert** et **Rouge** : Se déplace en **Miroir de Link**. Le **Rouge** crache des Flammes.
@@ -81,6 +83,15 @@ __------------------------------------------------------------------------------
 - **Médaillon de Tremblement de Terre** : Obtention de l'Objet : *_treasure.inventory/quake_medallion.1*
 - **Stèle du Médaillon de Feu** : Lire sans et avec le **Livre de Mudora** : *crypted.bombos_stele* et *uncrypted.bombos_stele*
 - **Stèle du Médaillon de l'Ether** : Lire sans et avec le **Livre de Mudora** : *crypted.ether_stele* et *uncrypted.ether_stele*
+- **Demi-Magie** : Dialogues du **Vampire** qui donne la **Demi-Magie** : *npc.purple_mad.after_demi_magic* et *npc.purple_mad.before_demi_magic*
+- **7 Cristaux** : Différents Dialogues :
+  * Dialogue du **Sage 1** à la fin du **Palais des Ténèbres** : *_treasure.quest/crystal_1.1*
+  * Dialogue du **Sage 2** à la fin du **Palais des Marécages** : *_treasure.quest/crystal_2.1*
+  * Dialogue du **Sage 3** à la fin du **Palais des Squelettes** : *_treasure.quest/crystal_3.1*
+  * Dialogue du **Sage 4** à la fin du **Palais des Gargouilles** : *_treasure.quest/crystal_4.1*
+  * Dialogue du **Sage 5** à la fin du **Palais des Glaces** : *_treasure.quest/crystal_5.1*
+  * Dialogue du **Sage 6** à la fin du **Palais des Démons** : *_treasure.quest/crystal_6.1*
+  * Dialogue de **Zelda** à la fin de **Palais du Rocher de la Tortue** : *_treasure.quest/crystal_7.1*
 - **Zelda** : La **Princesse Zelda** se fait **capturer au Sanctuaire** juste après avoir obtenu **Excalibur** : *npc.zelda.call_for_help*
 - **Prêtre** : Le Prêtre est sur le point de mourir après **la capture de Zelda** : *npc.priest.dying*
 - **Sahasrahla** : Différents Dialogues :
@@ -89,11 +100,15 @@ __------------------------------------------------------------------------------
   * **Pierre Télépathique** du **Palais des Glaces** : *ts.hint_ice_palace_1*, *ts.hint_ice_palace_2* et *ts.hint_ice_palace_3*
   * **Pierre Télépathique** du **Palais des Démons** : *ts.hint_misery_mire*
   * **Pierre Télépathique** de la **Pyramide du Pouvoir** : *ts.hint_pyramid_of_power*
-- **Agahnim de Lumière** : 
+- **Kiki** : Différents Dialogues :
+  * Le Singe **échange 10 Rubis** pour nous suivre : *npc.kiki.following_question*, *npc.kiki.following_no* and *npc.kiki.following_yes*
+  * Le Singe **échange 100 Rubis** pour ouvrir le **Palais des Ténèbres** : *npc.kiki.opening_question*, *npc.kiki.opening_no*and *npc.kiki.opening_yes*
+  * Le Singe ne veut pas entrée dans la **Cachette Sombre** : *npc.kiki.no_entry*
+- **Agahnim de Lumière** : Différents Dialogues :
   * Juste avant et après le **Rituel** sur la **Princesse Zelda** : *enemy.agahnim1.after_ritual* et *enemy.agahnim1.after_ritual*, 
   * **Introduction** et **Fin de Combat** au **Sommet de la Tour d'Hyrule** : *enemy.agahnim1.introduction* et *enemy.agahnim1.defeated*
 - **Agahnim des Ténèbres** : **Introduction** **Sommet de la Tour de Ganon** : *agahnim2.introduction*,
-- **Ganon** : **Introduction au Combat** et **Interlude du Combat** : *enemy.ganon.*,
+- **Ganon** : **Introduction au Combat** et **Interlude du Combat** : *enemy.ganon.introduction* et *enemy.ganon.interlude* 
 - **Trifoce** : Dialogue de **Fin Jeu** : *end.triforce*
 
 🖼️**Sprites**
@@ -101,14 +116,17 @@ __------------------------------------------------------------------------------
 - Ajout des Sprites **Chain& Ball Golden Knight** : *agahnim_projo_1.dat*, *agahnim_projo_2.dat* et *agahnim_projo_3.dat*
 - Ajout des Sprites pour l'**Epée 3 et 4** : *sword_star3.dat*, *sword_star4.dat*
 - Modification et Ajout des **Pieux du Monde des Ténèbres et des Donjons** : *hammer_stake_dark.dat*, *hammer_stake_dungeon.dat* et *hammer_stake_light.dat*
+- Ajout d'Animation pour la **Triforce** : *triforce.dat*
 
 🎵**Sons et Musiques**
 - Ajout des sons **Electriques** pour **Agahnim** : *electrical_shock_1.ogg*, *electrical_shock_2.ogg*, *ritual_shock.ogg* et *link_shocked.ogg*
 - Ajout des sons pour **Ganon** et **Agahnim** : *agahnim_dash.ogg** et *bat_crash.ogg*
 - Ajout des sons pour l'**Ocarina** : *ocarina.ogg* et *ocarina_complet.ogg*
+- Ajout du son des **Cristaux** et de **Sauvegarde et Quitter** : *savequit.ogg*
 
 📱**HUD**
-- Modification du **Game Over Anglais**.
+- Modification du **Game Over** pour la version **Anglaise**.
+- Texte "**The End**" à la fin du Jeu
 
 ☠️**Corrections Ennemis**
 - Correction de la **Vitesse de Déplacement** de certains **Ennemis**
@@ -119,7 +137,7 @@ __------------------------------------------------------------------------------
 - Edition du __dungeon_infos.lua__ pour la **Carte et Boussole** dans le futur
 - Ajout de __random_drop.lua__ (randomisation des loots dans les Overworlds et donjons génériques)
 
-🗃**Organization** (Développeur seulement)
+🗃**Organisation**
 - Ajout de **place_holder/store_blueprint** d'**Overworld** : *Archived/Autres/blue_print/A Link to the Past/World/Overworld/COORDONNEE_MAPNAME* (Développeur seulement)
 - Ajout de **place_holder/store_blueprint** de **Maison** : *Archived/Autres/blue_print/A Link to the Past/World/Houses/HOUSENAME* (Développeur seulement)
 - Ajout de **place_holder/store_blueprint** de **Grotte** : *Archived/Autres/blue_print/A Link to the Past/World/Caves/CAVENAME* (Développeur seulement)
@@ -316,7 +334,7 @@ __------------------------------------------------------------------------------
 - __Boss Room__: Téléportation dans une **Pièce Secrète** pour les Boss avec la touche "=" (Développeur seulement)
 - __Enemies Room__: Téléportation dans une **Pièce Secrète** pour les Ennemis avec la touche ")" (Développeur seulement)
 
-🗃**Organization**
+🗃**Organisation**
 - Ajout d'une **Salle des Boss** *Secret Room/Boss/boss_choiche_room* (Développeur seulement)
 - Ajout d'une **Salle des Ennemis** *Secret Room/Enemies/enemies_choiche_room* (Développeur seulement)
 

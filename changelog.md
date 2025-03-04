@@ -22,6 +22,7 @@ __------------------------------------------------------------------------------
 
 🗺**Pyramid of Power**
   * **Ganon** with a unique pattern while awaiting the real **Alttp** battle.
+  * **Triforce End** scene, with the dialogue & **The End** scene.
 
 - __Light World__:
   * Added parallax effect in **Death Mountain**.
@@ -40,6 +41,7 @@ __------------------------------------------------------------------------------
 - **Hookshot**: **Grabs certain objects** (blocks, vases) allowing access to certain places in the game.
 - **Fire Rod**: Creates a **fireball that damages** enemies and **lights torches from a distance**.
 - **Titan’s Mitt**: Allows the player to lift **Black Stones** (heavier).
+- **Half Magic**: Reduces the cost of **Magic Items**.
 - **Red and Blue Tunics**: **Reduces damage** taken from enemies by **Link**.
 - **Tempered and Golden Sword**: **Increases damage dealt** by **Link**.
 - **Silver Arrows** and their **Quiver**: Essential for fighting **Ganon**.
@@ -53,7 +55,7 @@ __------------------------------------------------------------------------------
 - **Blue and Red Taros**: Dark Knight, charges with a Spear at **Link**.
 - **Stals**: Skull that hides among real skulls and attacks **when approached**.
 - **Hinox**: A **Giant Monster** that **throws bombs**. (Not functional yet)
-- **Moblin**: A **Pig-Man** that roams and **throws Spears**. (Not functional yet)
+- **Moblin**: A **Pig-Man** that roams and **throws Spears**.
 - **Snap Dragon**: Enemy with a **Large Jaw** that **moves diagonally**.
 - **Blue Bari**: **Electric Medusa** that floats and moves randomly, it **electrifies for a short time**, making it risky to attack.
 - **Green and Red Goriya**: Moves in **Mirror of Link**. The **Red** one spits **Flames**.
@@ -80,6 +82,15 @@ __------------------------------------------------------------------------------
 - **Earthquake Medallion**: Item acquisition: *_treasure.inventory/quake_medallion.1*
 - **Fire Medallion Stele**: Read with and without the **Book of Mudora**: *crypted.bombos_stele* and *uncrypted.bombos_stele*
 - **Ether Medallion Stele**: Read with and without the **Book of Mudora**: *crypted.ether_stele* and *uncrypted.ether_stele*
+- **Half Magic**: **Vampire's dialog** for the **Half Magic**: *npc.purple_mad.after_demi_magic* and *npc.purple_mad.before_demi_magic*
+- **7 Cristaux**: Various dialogues:
+  * Dialog of the **Sage 1** at the end of **Palace of Darkness**: *_treasure.quest/crystal_1.1*
+  * Dialog of the **Sage 2** at the end of **Swamp Palace**: *_treasure.quest/crystal_2.1*
+  * Dialog of the **Sage 3** at the end of **Skull Woods**: *_treasure.quest/crystal_3.1*
+  * Dialog of the **Sage 4** at the end of **Thieves town**: *_treasure.quest/crystal_4.1*
+  * Dialog of the **Sage 5** at the end of **Ice Palace**: *_treasure.quest/crystal_5.1*
+  * Dialog of the **Sage 6** at the end of **Misery Mire**: *_treasure.quest/crystal_6.1*
+  * Dialog of **Zelda** at the end of **Turtle Rock**: *_treasure.quest/crystal_7.1*
 - **Zelda**: **Princess Zelda** gets **captured at the Sanctuary** right after acquiring **Master Sword**: *npc.zelda.call_for_help*
 - **Priest**: The Priest is dying after **Zelda’s capture**: *npc.priest.dying*
 - **Sahasrahla**: Various dialogues:
@@ -88,26 +99,33 @@ __------------------------------------------------------------------------------
   * **Telepathic Stone** at the **Ice Palace**: *ts.hint_ice_palace_1*, *ts.hint_ice_palace_2*, and *ts.hint_ice_palace_3*
   * **Telepathic Stone** at the **Misery Mire**: *ts.hint_misery_mire*
   * **Telepathic Stone** at the **Pyramid of Power**: *ts.hint_pyramid_of_power*
-- **Light Agahnim**:
+- **Kiki**: Various dialogues:
+  * Monkey **trade 10 Rupees** to follow us: *npc.kiki.following_question*, *npc.kiki.following_no* and *npc.kiki.following_yes*
+  * Monkey **trade 100 Rupees** to open the **Palace of Darkness**: *npc.kiki.opening_question*, *npc.kiki.opening_no* and *npc.kiki.opening_yes*
+  * Monkey don't wank to go in the **Dark Hideout**: *npc.kiki.no_entry*
+- **Light Agahnim**: Various dialogues:
   * Just before and after the **Ritual** on **Princess Zelda**: *enemy.agahnim1.after_ritual* and *enemy.agahnim1.after_ritual*
   * **Introduction** and **End of Combat** at the **Top of Hyrule Tower**: *enemy.agahnim1.introduction* and *enemy.agahnim1.defeated*
-- **Dark Agahnim**: **Introduction** at the **Top of Ganon’s Tower**: *agahnim2.introduction*.
-- **Ganon**: **Combat Introduction** and **Combat Interlude**: *enemy.ganon.*.
+- **Dark Agahnim**: **Introduction** at the **Top of Ganon’s Tower**: *agahnim2.introduction*
+- **Ganon**: **Combat Introduction** and **Combat Interlude**: *enemy.ganon.introduction* and *enemy.ganon.interlude* 
 - **Triforce**: Endgame Dialogue: *end.triforce*
 
 🖼️**Sprites**
-- Added **Agahnim Projection** Sprites: *agahnim_projo_1.dat*, *agahnim_projo_2.dat*, and *agahnim_projo_3.dat*.
-- Added **Chain& Ball Golden Knight** Sprites: *agahnim_projo_1.dat*, *agahnim_projo_2.dat*, and *agahnim_projo_3.dat*.
-- Added Sprites for **Sword 3 and 4**: *sword_star3.dat*, *sword_star4.dat*.
-- Modified and Added **Dark World and Dungeon Stakes**: *hammer_stake_dark.dat*, *hammer_stake_dungeon.dat*, and *hammer_stake_light.dat*.
+- Added **Agahnim Projection** Sprites: *agahnim_projo_1.dat*, *agahnim_projo_2.dat*, and *agahnim_projo_3.dat*
+- Added **Chain& Ball Golden Knight** Sprites: *agahnim_projo_1.dat*, *agahnim_projo_2.dat*, and *agahnim_projo_3.dat*
+- Added Sprites for **Sword 3 and 4**: *sword_star3.dat*, *sword_star4.dat*
+- Modified and Added **Dark World and Dungeon Stakes**: *hammer_stake_dark.dat*, *hammer_stake_dungeon.dat*, and *hammer_stake_light.dat*
+- Added Animation for the **Triforce** : *triforce.dat*
 
 🎵**Sounds and Music**
-- Added **Electric Sounds** for **Agahnim**: *electrical_shock_1.ogg*, *electrical_shock_2.ogg*, *ritual_shock.ogg*, and *link_shocked.ogg*.
-- Added sounds for **Ganon** and **Agahnim**: *agahnim_dash.ogg* and *bat_crash.ogg*.
-- Added sounds for **Ocarina**: *ocarina.ogg* and *ocarina_complet.ogg*.
+- Added **Electric Sounds** for **Agahnim**: *electrical_shock_1.ogg*, *electrical_shock_2.ogg*, *ritual_shock.ogg*, and *link_shocked.ogg*
+- Added sounds for **Ganon** and **Agahnim**: *agahnim_dash.ogg* and *bat_crash.ogg*
+- Added sounds for **Ocarina**: *ocarina.ogg* and *ocarina_complet.ogg*
+- Added sounds for **Crystal** & **Save and Quit** : *savequit.ogg*
 
 📱**HUD**
 - Modified the **Game Over screen in English**.
+- "**The End**" text at the **End of the Game**.
 
 ☠️**Enemy Fixes**
 - Fixed **Movement Speed** of certain **Enemies**.
@@ -118,7 +136,7 @@ __------------------------------------------------------------------------------
 - Edited __dungeon_infos.lua__ for **Map and Compass** in the future.
 - Added __random_drop.lua__ (randomization of loot in Overworld and generic dungeons).
 
-🗃**Organization** (Developer only)
+🗃**Organization**
 - Added **place_holder/store_blueprint** for **Overworld**: *Archived/Other/blue_print/A Link to the Past/World/Overworld/COORDONNEE_MAPNAME* (Developer only).
 - Added **place_holder/store_blueprint** for **House**: *Archived/Other/blue_print/A Link to the Past/World/Houses/HOUSENAME* (Developer only).
 - Added **place_holder/store_blueprint** for **Cave**: *Archived/Other/blue_print/A Link to the Past/World/Caves/CAVENAME* (Developer only).
@@ -293,16 +311,16 @@ __------------------------------------------------------------------------------
   * **Telepathic Stone** for the **Tower of Hera**: *ts.hint_hera1* and *ts.hint_hera_2*
 
 🖼️**Sprites**
-- Added **Blue Archer Soldier** : *soldier_archer.dat* and *soldier_archer_projectile.dat*
-- Added **Green** & **Purple Leevers** : *leever_green.dat* and *leever_red.dat*
-- Added **Mini Moldorm** : *mini_moldorm.dat* and *mini_moldorm_tail.dat*
-- Added **Beemos** : *beemos.dat* and *beemos_laser.dat*
-- Added **Blue** & **Red Hardhat Beetles** : *hardhat_beetle_blue.dat* and *hardhat_beetle_red.dat*
-- Added **Red Skeletons** : *skeleton_red.dat* and *skeleton_bone.dat*
-- Added **Kodongo** : *kodongo.dat* and *kodondo_flame.dat*
-- Added **Quicksand**, **Red Devalant** & **Purple** : *quicksand.dat*, *devalant_blue.dat* and *devalant_red.dat*
-- Added **Spark** and **Fire Bar** : *spark.dat* and *fire_bar.dat*
-- Added **Bumper** and **Star Switch** : *bumber.dat* and **switch_star.dat*
+- Added **Blue Archer Soldier**: *soldier_archer.dat* and *soldier_archer_projectile.dat*
+- Added **Green** & **Purple Leevers**: *leever_green.dat* and *leever_red.dat*
+- Added **Mini Moldorm**: *mini_moldorm.dat* and *mini_moldorm_tail.dat*
+- Added **Beemos**: *beemos.dat* and *beemos_laser.dat*
+- Added **Blue** & **Red Hardhat Beetles**: *hardhat_beetle_blue.dat* and *hardhat_beetle_red.dat*
+- Added **Red Skeletons**: *skeleton_red.dat* and *skeleton_bone.dat*
+- Added **Kodongo**: *kodongo.dat* and *kodondo_flame.dat*
+- Added **Quicksand**, **Red Devalant** & **Purple**: *quicksand.dat*, *devalant_blue.dat* and *devalant_red.dat*
+- Added **Spark** and **Fire Bar**: *spark.dat* and *fire_bar.dat*
+- Added **Bumper** and **Star Switch**: *bumber.dat* and **switch_star.dat*
 
 ☠️**Enemy Fixes**
 - Fixed issues with the timing of **EyeGores** sleep and detection.

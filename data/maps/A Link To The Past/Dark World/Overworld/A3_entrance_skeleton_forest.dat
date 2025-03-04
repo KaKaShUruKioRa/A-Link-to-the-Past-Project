@@ -2125,19 +2125,6 @@ custom_entity{
   model = "stone_big_black",
 }
 
-teletransporter{
-  name = "warp_temp_Dw_to_Lw",
-  layer = 0,
-  x = 304,
-  y = 384,
-  width = 16,
-  height = 16,
-  destination_map = "A Link to the Past/Light World/Overworld/entrance_lost_wood",
-  destination = "_same",
-  sprite = "entities/teletransporter_blue",
-  sound = "world_warp",
-}
-
 tile{
   layer = 1,
   x = 208,
@@ -3578,6 +3565,18 @@ teletransporter{
   destination = "_side",
 }
 
+teletransporter{
+  name = "link_warp_world_A3_entrance_skeleton_forest_0",
+  layer = 2,
+  x = 0,
+  y = 0,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  destination_map = "A Link to the Past/Light World/Overworld/entrance_lost_wood",
+  destination = "dest_secret",
+}
+
 destination{
   name = "dest_secret",
   layer = 2,
@@ -3585,4 +3584,3 @@ destination{
   y = 253,
   direction = 3,
 }
-

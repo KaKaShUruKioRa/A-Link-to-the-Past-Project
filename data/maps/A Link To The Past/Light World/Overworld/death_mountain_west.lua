@@ -62,6 +62,8 @@ local function change_world(to_dark)
     sol.audio.play_music("overworld")    
 
     hero:set_tunic_sprite_id("hero/tunic1")
+    game:set_ability("shield", game:get_item("equipment/shield"):get_variant())
+    game:set_ability("lift", game:get_item("equipment/glove"):get_variant())
 
     sol.video.set_shader(nil)
     --Transformation du Héro en Lapin et du Monde en Dark World (Sombre Shaders) 
@@ -195,17 +197,13 @@ function map:on_finished()
 end
 
 function cursed_bully_death_moutain_west_0:on_interaction()
-  if not game:has_item("equipment/moon_pearl") then  
-    game:start_dialog("npc.cursed_bully.meeting")
-  else
+  if game:has_item("equipment/moon_pearl") then 
     game:start_dialog("npc.cursed_bully.moon_pearl")
   end
 end
 
 function pink_ball_death_moutain_west_0:on_interaction()
-  if not game:has_item("equipment/moon_pearl") then  
-    game:start_dialog("npc.pink_ball.meeting")
-  else
+  if game:has_item("equipment/moon_pearl") then  
     game:start_dialog("npc.pink_ball.moon_pearl")
   end
 end

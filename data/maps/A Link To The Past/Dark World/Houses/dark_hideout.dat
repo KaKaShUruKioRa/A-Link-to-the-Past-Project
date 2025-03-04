@@ -690,6 +690,7 @@ destructible{
   layer = 0,
   x = 96,
   y = 149,
+  treasure_name = "consumables/heart",
   sprite = "destructibles/vase_skull",
   destruction_sound = "stone",
 }
@@ -699,6 +700,7 @@ destructible{
   layer = 0,
   x = 112,
   y = 149,
+  treasure_name = "consumables/heart",
   sprite = "destructibles/vase_skull",
   destruction_sound = "stone",
 }
@@ -708,6 +710,7 @@ destructible{
   layer = 0,
   x = 144,
   y = 149,
+  treasure_name = "consumables/heart",
   sprite = "destructibles/vase_skull",
   destruction_sound = "stone",
 }
@@ -717,6 +720,7 @@ destructible{
   layer = 0,
   x = 160,
   y = 149,
+  treasure_name = "consumables/heart",
   sprite = "destructibles/vase_skull",
   destruction_sound = "stone",
 }

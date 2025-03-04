@@ -1362,19 +1362,6 @@ stairs{
 }
 
 teletransporter{
-  name = "tp_warp_B6_ice_palace_0",
-  layer = 0,
-  x = 448,
-  y = 184,
-  width = 16,
-  height = 16,
-  destination_map = "A Link to the Past/Dark World/Dungeons/Ice Palace/F1/F1_ice_palace",
-  destination = "dest_warp_F1_ice_palace_0",
-  sprite = "entities/teletransporter_blue",
-  sound = "warp",
-}
-
-teletransporter{
   name = "tp_stair_up_B6_ice_palace_0",
   layer = 0,
   x = 120,

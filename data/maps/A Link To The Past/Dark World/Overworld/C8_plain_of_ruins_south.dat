@@ -6058,6 +6058,18 @@ tile{
   pattern = "1044",
 }
 
+teletransporter{
+  name = "link_warp_world_C8_plain_of_ruins_south_0",
+  layer = 2,
+  x = 0,
+  y = 0,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  destination_map = "A Link to the Past/Light World/Overworld/plain_of_ruins_south",
+  destination = "dest_secret",
+}
+
 destination{
   name = "dest_secret",
   layer = 1,

@@ -498,6 +498,234 @@ Watch your Magic Meter!
 }
 
 dialog{
+  id = "_treasure.quest/crystal_1.1",
+  text = [[
+Link, because of you, I can
+escape from the clutches of
+the evil monsters. Thank you!
+...This world used to be the
+Golden Land where the Triforce
+was hidden.
+But because Ganon, the boss
+of thieves, wished it the world
+was transformed...
+I'm sure he's intending to
+conquer even our Light World
+after building his power here.
+He is trying to open a larger
+gate between worlds near the
+castle using our powers.
+But the gate is not open
+completely yet...
+If we seven maidens come
+together, we can break the
+barrier around Ganon's hiding
+place.
+I will tell you where the other
+girls are held. I believe you
+will destroy Ganon.
+I will return to my original
+form at that time.
+ ... ... ... ... ...
+Do you understand?
+$? Yes
+$? Not at all
+]],
+}
+
+dialog{
+  id = "_treasure.quest/crystal_2.1",
+  text = [[
+Link, because of you, I can
+escape from the clutches of
+the evil monsters. Thank you!
+...The Triforce will grant the
+wishes of whoever touches it,
+as long as that person lives...
+That is why it was hidden in
+the Golden Land. Only a select
+few knew of its location,
+but at some point that
+knowledge was lost...
+The person who rediscovered
+the Golden Land was
+Ganondorf the evil thief.
+Luckily, he couldn't figure out
+how to return to the Light
+World...
+...Well, remember that you
+have magical powers, which only
+The Hero can make the most of!
+There are some other magical
+warping points like the one you
+saw on Death Mountain.
+By using them you can go
+between the two worlds and
+find the evils hidden in the
+Dark World. You are the only
+one who can destroy
+Ganondorf, the thief-no,
+Ganon, the evil King Of
+Darkness!
+
+
+Do you understand?
+$? Yes
+$? Not at all
+]],
+}
+
+dialog{
+  id = "_treasure.quest/crystal_3.1",
+  text = [[
+Link, because of you, I can
+escape from the clutches of
+the evil monsters. Thank you!
+...Do you know the prophecy of
+the Great Cataclysm?
+This is the way I heard it...
+If a person who has an evil
+heart gets the Triforce, a Hero
+is destined to appear...
+...and he alone must face the
+person who began the Great
+Cataclysm.
+If the evil one destroys the
+Hero, nothing can save the
+world from his wicked reign.
+Only a person of the Knights Of
+Hyrule, who protected the
+royalty of Hylia, can become
+the Hero... You are of their
+blood-line, aren't you? Then
+you must rescue
+Zelda without fail.
+
+
+Do you understand?
+$? Yes
+$? Not at all
+]],
+}
+
+dialog{
+  id = "_treasure.quest/crystal_4.1",
+  text = [[
+Link, because of you, I can
+escape from the clutches of
+the evil monsters. Thank you!
+As the wise men sealed the way
+to the Dark World, the Knights
+Of Hyrule defended them from
+the attacks of evil monsters.
+I heard that the Knights Of
+Hyrule were nearly wiped out in
+that battle...
+You are perhaps the last one
+to carry on the blood-line of
+the Knights...
+It is ironic that the last one in
+the line has the potential to
+become the Hero of legend.
+Surely you can destroy Ganon!
+
+Do you understand?
+$? Yes
+$? Not at all
+]],
+}
+
+dialog{
+  id = "_treasure.quest/crystal_5.1",
+  text = [[
+Link, because of you, I can
+escape from the clutches of
+the evil monsters. Thank you!
+They say the Hylia people
+controlled mysterious powers,
+as did the seven wise men.
+But the blood of the Hylia has
+become thin over time. We who
+carry the blood of the seven
+wise men do not possess strong
+power any more, either.
+Our powers will increase if we
+mix the courage of the Knights
+with the wisdom of the wise
+men. Only a short time remains
+until the gate at the castle
+linking the worlds opens
+completely. If you defeat
+Ganon, this world will vanish
+and the Triforce will wait for
+a new holder.
+I believe in you...
+Good luck!
+
+Do you understand?
+$? Yes
+$? Not at all
+]],
+}
+
+dialog{
+  id = "_treasure.quest/crystal_6.1",
+  text = [[
+Link, because of you, I can
+escape from the clutches of
+the evil monsters. Thank you!
+Ganon captured us because he
+couldn't break the seal of the
+wise men with his power alone.
+And then, using the wizard
+Agahnim as his pawn, he drew us
+to the Dark World.
+After cracking the seal with
+our powers, he sealed us inside
+of these crystals.
+He then gave us to his loyal
+monsters. But Ganon didn't
+plan on your getting this far.
+Now, Princess Zelda is waiting
+for you inside of Turtle Rock.
+Please hurry!
+Do you understand?
+$? Yes
+$? Not at all
+]],
+}
+
+dialog{
+  id = "_treasure.quest/crystal_7.1",
+  text = [[
+I appreciate your coming so far
+to rescue me. As I thought,
+you are the legendary Hero.
+I have felt this from the first
+time we met.
+... ... ...
+Ganon is waiting inside of his
+tower to pass through the
+gate linking the two worlds.
+Once Ganon enters the Light
+World, it is unlikely that
+anyone can stop him.
+But if he stays in the closed
+space of this world, you can
+find him wherever he runs.
+Now, go to the Tower Of
+Ganon! We will use our
+combined powers to break the
+barrier. Let's return peace to
+the country without fail...
+... ... ...
+Do you understand?
+$? Yes
+$? Not at all
+]],
+}
+
+dialog{
   id = "_treasure.quest/mushroom.1",
   text = [[
 This Mushroom smells like sweet
@@ -522,9 +750,6 @@ dialog{
   id = "_treasure.quest/pendant_of_power.1",
   text = [[
 You won the Pendant Of Power!
-Your goal of finding three
-Pendants is in sight!
-Go for the last one!$0 
 ]],
 }
 
@@ -532,10 +757,6 @@ dialog{
   id = "_treasure.quest/pendant_of_wisdom.1",
   text = [[
 You won the Pendant Of Wisdom!
-With this, you have collected
-all three Pendants! Go now to
-the Lost Woods to get
-the Master Sword!
 ]],
 }
 
@@ -597,13 +818,13 @@ dialog{
   text = [[
 Welcome, Link...
 I  am  the  Essence  Of  The
-Triforce.
+Triforce. 
+
 ...  ...  ... 
  
 The Triforce will grant the
 wishes in the heart and mind of
 the person who touches it. 
- 
 If a person with a good heart
 touches it, it will make his good
 wishes come true... If an evil-
@@ -613,25 +834,21 @@ grants his evil wishes.
 The stronger the wish, the
 more powerful the Triforce's
 expression of that wish. 
- 
 Ganon's wish was to conquer
 the world. That wish changed
-the Golden Land to the Dark
-World. 
- 
+the Golden Land to the Dark World. 
 Ganon was building up his
 power here so he could conquer
 the Light World and make his
 wish come completely true. 
- 
+
+
 But now, you have totally
 destroyed Ganon. His Dark
 World will vanish. 
- 
 The Triforce is waiting for a
 new owner. Its Golden Power is
 in your hands... 
- 
 Now, touch it with a wish in
 your heart.
 ... ... ... ...
@@ -782,7 +999,7 @@ I will mark his house on your
 map. But watch your every
 move! I am certain that the
 castle soldiers will be looking
-for you now! .........*7t
+for you now! .........
 I will hide Princess Zelda here.
 Do not worry! Seek the elder!
 .........
@@ -799,7 +1016,7 @@ dialog{
   skip = "none",
   text = [[
 Help me...
-B
+
 Please help me...
 I am a prisoner in the dungeon
 of the castle.
@@ -934,7 +1151,6 @@ by our people...
 Link, you can do it!
 Save the Princess...
 Zelda is your...$0 ...$0 ...
-
 ]],
 }
 
@@ -1050,7 +1266,6 @@ first floor. Let's  go!
 dialog{
   id = "misc.pendants_all",
   text = [[
-You won the Pendant Of Wisdom!
 With this, you have collected
 all three Pendants! Go now to
 the Lost Woods to get
@@ -1064,6 +1279,14 @@ dialog{
 Your goal of finding three
 Pendants is in sight!
 Go for the last one!$0 
+]],
+}
+
+dialog{
+  id = "misc.sage_end",
+  text = [[
+May the way of the Hero lead
+to the Triforce.
 ]],
 }
 
@@ -1236,6 +1459,77 @@ looking for the Golden Power.
 }
 
 dialog{
+  id = "npc.kiki.following_no",
+  text = [[
+Ki ki! Harumph! I have no
+reason to talk to you, then.
+Bye bye! Kik ki ki!
+]],
+}
+
+dialog{
+  id = "npc.kiki.following_question",
+  text = [[
+I'm Kiki the monkey ki ki!
+I love Rupees more than
+anything.
+Can you spare me
+10 Rupees?
+
+
+ What will you do?
+$? Give him 10 Rupees
+$? Never give him anything
+]],
+}
+
+dialog{
+  id = "npc.kiki.following_yes",
+  text = [[
+Ki ki ki ki! Good choice! I
+will accompany you for a while.
+Kik kiki!
+]],
+}
+
+dialog{
+  id = "npc.kiki.no_entry",
+  text = [[
+Ki ki? What are you doing?
+I don't want to go there!
+]],
+}
+
+dialog{
+  id = "npc.kiki.opening_no",
+  text = [[
+Ki ki ki! Hmph!
+Do it yourself, then!
+Kik ki ki!
+]],
+}
+
+dialog{
+  id = "npc.kiki.opening_question",
+  text = [[
+Ki ki ki! If you give me 100
+Rupees, I will open the
+entrance for you. Ki ki ki!
+ What will you do?
+$? Ask him to open it
+$? Try to open it yourself
+]],
+}
+
+dialog{
+  id = "npc.kiki.opening_yes",
+  text = [[
+Ki ki! Good choice! Then I get
+100 of your Rupees. Kik ki ki!
+]],
+}
+
+dialog{
   id = "npc.pink_ball.meeting",
   text = [[
 Oh? Who are you, Mr. Bunny?
@@ -1277,6 +1571,32 @@ Please...You are our only hope...
 }
 
 dialog{
+  id = "npc.purple_mad.after_demi_magic",
+  text = [[
+Heh heh heh! I laugh at your
+misfortune! Now your magic
+power will drop by one half!
+Congratulations!
+Now, do your best, even though
+I'm sure it won't be enough!
+Have a nice day! See you!
+]],
+}
+
+dialog{
+  id = "npc.purple_mad.before_demi_magic",
+  text = [[
+Hey! Blast you for waking me
+from my deep, dark sleep!
+...I mean, thanks a lot, sir!
+But now I will get my revenge
+on you. Get ready for it!
+...Err, is that OK with you,
+sir?
+]],
+}
+
+dialog{
   id = "npc.sahasrahla.dark_world",
   text = [[
 Link, it is I, Sahasrahla.
@@ -1303,7 +1623,7 @@ The maidens are locked in
 hidden dungeons full of evil
 creatures and dangerous traps.
 The Palace of Darkness should
-be your first goal in this world!*7t
+be your first goal in this world!
 Link, I can rely on only
 you. Please make this old
 man's wishes come true.
@@ -1336,7 +1656,7 @@ retrieve the Pendant Of
 Courage from the East Palace?
 If you bring it here, I will tell
 you more of the legend and
-give you a magical artifact.*7t
+give you a magical artifact.
 Now, go forward to the palace.
 ]],
 }
@@ -1606,7 +1926,7 @@ dungeon.
 dialog{
   id = "ts.hint_ice_palace_2",
   text = [[
-CYou cannot destroy the
+You cannot destroy the
 Skeleton Knight with the sword
 alone. When he collapses, he is
 vulnerable to another weapon.
@@ -1637,7 +1957,7 @@ the way forward.
 dialog{
   id = "ts.hint_pyramid_of_power",
   text = [[
-BAbracadabra alakazam!
+Abracadabra alakazam!
 You will need Silver Arrows to
 give Ganon his last moment.
 ]],

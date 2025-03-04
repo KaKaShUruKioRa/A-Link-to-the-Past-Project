@@ -1368,6 +1368,15 @@ tile{
   pattern = "stairs_inner_up.1.top.border.2-2",
 }
 
+tile{
+  layer = 0,
+  x = 232,
+  y = 232,
+  width = 48,
+  height = 32,
+  pattern = "ceiling.2",
+}
+
 wall{
   layer = 0,
   x = 208,

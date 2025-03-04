@@ -42,6 +42,7 @@ map{ id = "A Link to the Past/Dark World/Dungeons/Misery Mire/B2/B2_misery_mire"
 map{ id = "A Link to the Past/Dark World/Dungeons/Misery Mire/F1/F1_misery_mire", description = "F1 Misery Mire" }
 map{ id = "A Link to the Past/Dark World/Dungeons/Pyramid of Power/F1/F1_pyramid_of_power", description = "F1 Pyramid of Power" }
 map{ id = "A Link to the Past/Dark World/Dungeons/Pyramid of Power/F2/F2_pyramid_of_power", description = "F2 Pyramid of Power" }
+map{ id = "A Link to the Past/Dark World/Dungeons/Pyramid of Power/F2/end_triforce", description = "End Triforce Scene" }
 map{ id = "A Link to the Past/Dark World/Dungeons/Skull Woods/B1/B1_skull_woods", description = "B1 Skull Woods" }
 map{ id = "A Link to the Past/Dark World/Dungeons/Skull Woods/B2/B2_skull_woods", description = "B2 Skull Woods" }
 map{ id = "A Link to the Past/Dark World/Dungeons/Swamp Palace/B1/B1_swamp_palace", description = "B1 Swamp Palace" }
@@ -431,6 +432,7 @@ tileset{ id = "dungeon/light_green", description = "Light green dungeon" }
 tileset{ id = "dungeon/pink", description = "Pink dungeon" }
 tileset{ id = "dungeon/purple", description = "Purple dungeon" }
 tileset{ id = "dungeon/yellow", description = "Yellow dungeon" }
+tileset{ id = "end/end", description = "End" }
 tileset{ id = "out/outside_buildings", description = "Outside buildings" }
 tileset{ id = "out/outside_darkworld_buildings", description = "Ouside DarkWorld Buildings" }
 tileset{ id = "out/outside_darkworld_buildings_ERROR", description = "Ouside DarkWorld Buildings ERRORCHECK" }
@@ -941,6 +943,7 @@ sound{ id = "running", description = "running" }
 sound{ id = "running_obstacle", description = "running_obstacle" }
 sound{ id = "rupee_counter", description = "rupee_counter" }
 sound{ id = "rupee_counter_end", description = "rupee_counter_end" }
+sound{ id = "savequit", description = "savequit" }
 sound{ id = "secret", description = "secret" }
 sound{ id = "shield", description = "shield" }
 sound{ id = "solarus_logo/solarus_logo", description = "Solarus logo" }
@@ -1338,7 +1341,7 @@ file{ path = "items/equipment/piece_of_heart_counter.lua", author = "Mehdi Kheli
 file{ path = "items/equipment/shield.lua", author = "Mehdi Khelifi", license = "GPL v3" }
 file{ path = "items/equipment/sword.lua", author = "Mehdi Khelifi", license = "GPL v3" }
 file{ path = "items/equipment/tunic.lua", author = "Mehdi Khelifi", license = "GPL v3" }
-file{ path = "items/inventory", author = "Christopho, Mehdi Khelifi, Zakarisz, ZeldoRetro", }
+file{ path = "items/inventory", author = "Christopho, Mehdi Khelifi, Zakarisz, ZeldoRetro, KaKaShUruKioRa", }
 file{ path = "items/inventory/bombs.lua", author = "Christopho, Mehdi Khelifi, Zakarisz", license = "GPL v3" }
 file{ path = "items/inventory/boomerang.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/inventory/bottle_1.lua", author = "Christopho", license = "GPL v3" }
@@ -1358,7 +1361,7 @@ file{ path = "items/inventory/library/hookshot_config.lua", author = "Christopho
 file{ path = "items/inventory/library/magic_item.lua", author = "Zakarisz", license = "GPL v3" }
 file{ path = "items/inventory/magic_mirror.lua", author = "Zakarisz, KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "items/inventory/magic_powder.lua", author = "Christopho, Zakarisz", license = "GPL v3" }
-file{ path = "items/inventory/ocarina.lua", author = "Mehdi Khelifi", license = "GPL v3" }
+file{ path = "items/inventory/ocarina.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "items/prize_packs", author = "ZeldoRetro", }
 file{ path = "items/prize_packs/1.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "items/prize_packs/2.lua", author = "ZeldoRetro", license = "GPL v3" }
@@ -1380,11 +1383,11 @@ file{ path = "items/quest/pendant_of_courage.lua", author = "Mehdi Khelifi", lic
 file{ path = "items/quest/pendant_of_power.lua", author = "Mehdi Khelifi", license = "GPL v3" }
 file{ path = "items/quest/pendant_of_wisdom.lua", author = "Mehdi Khelifi", license = "GPL v3" }
 file{ path = "languages", author = "???, Oclero, ZeldoRetro, KaKaShUruKioRa", }
-file{ path = "languages/en", author = "???", }
+file{ path = "languages/en", author = "???, KaKaShUruKioRa", }
 file{ path = "languages/en/images", author = "???", }
 file{ path = "languages/en/images/action_icon.png", author = "???", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "languages/en/images/floors.png", author = "???", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "languages/en/images/gameover_menu.png", author = "???", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "languages/en/images/gameover_menu.png", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "languages/en/images/pause_icon.png", author = "???", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "languages/en/images/pause_submenus.png", author = "???", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "languages/en/images/sword_icon.png", author = "???", license = "GPL v3, CC BY-SA 4.0" }
@@ -1539,6 +1542,8 @@ file{ path = "maps/A Link to the Past/Dark World/Dungeons/Pyramid of Power/F1/F1
 file{ path = "maps/A Link to the Past/Dark World/Dungeons/Pyramid of Power/F2", author = "KaKaShUruKioRa", }
 file{ path = "maps/A Link to the Past/Dark World/Dungeons/Pyramid of Power/F2/F2_pyramid_of_power.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "maps/A Link to the Past/Dark World/Dungeons/Pyramid of Power/F2/F2_pyramid_of_power.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
+file{ path = "maps/A Link to the Past/Dark World/Dungeons/Pyramid of Power/F2/end_triforce.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link to the Past/Dark World/Dungeons/Pyramid of Power/F2/end_triforce.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "maps/A Link to the Past/Dark World/Dungeons/Skull Woods", author = "KaKaShUruKioRa", }
 file{ path = "maps/A Link to the Past/Dark World/Dungeons/Skull Woods/B1", author = "KaKaShUruKioRa", }
 file{ path = "maps/A Link to the Past/Dark World/Dungeons/Skull Woods/B1/B1_skull_woods.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
@@ -2596,6 +2601,7 @@ file{ path = "sounds/running.ogg", author = "Nintendo", license = "Proprietary (
 file{ path = "sounds/running_obstacle.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/rupee_counter.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/rupee_counter_end.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sounds/savequit.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/secret.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/shield.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/solarus_logo", author = "Diarandor", }
@@ -3435,6 +3441,9 @@ file{ path = "tilesets/dungeon/purple.tiles.png", author = "Nintendo, FFomega", 
 file{ path = "tilesets/dungeon/yellow.dat", author = "FFomega", license = "CC BY-SA 4.0" }
 file{ path = "tilesets/dungeon/yellow.entities.png", author = "Nintendo, FFomega", license = "Proprietary (Fair use)" }
 file{ path = "tilesets/dungeon/yellow.tiles.png", author = "Nintendo, FFomega", license = "Proprietary (Fair use)" }
+file{ path = "tilesets/end", author = "Nintendo, KaKaShUruKioRa", }
+file{ path = "tilesets/end/end.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
+file{ path = "tilesets/end/end.tiles.png", author = "Nintendo, KaKaShUruKioRa", license = "Proprietary (Fair use)" }
 file{ path = "tilesets/out", author = "Nintendo, FFomega, KaKaShUruKioRa", }
 file{ path = "tilesets/out/outside_buildings.dat", author = "FFomega, KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "tilesets/out/outside_buildings.tiles.png", author = "Nintendo, FFomega, KaKaShUruKioRa", license = "Proprietary (Fair use)" }

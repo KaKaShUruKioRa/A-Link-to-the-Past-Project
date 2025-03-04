@@ -452,29 +452,22 @@ tile{
   pattern = "spike_trap",
 }
 
-teletransporter{
-  name = "tp_warp_B2_skull_woods_0",
-  layer = 0,
-  x = 184,
-  y = 184,
-  width = 16,
-  height = 16,
-  destination_map = "A Link to the Past/Dark World/Dungeons/Skull Woods/B1/B1_skull_woods",
-  destination = "dest_warp_B2_skull_woods_0",
-  sprite = "entities/teletransporter_blue",
-  sound = "warp",
-}
-
 enemy{
   name = "boss_mothula_0",
   layer = 0,
   x = 128,
   y = 69,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
   direction = 3,
   breed = "bosses/mothula",
   savegame_variable = "boss_mothula_0",
   treasure_name = "consumables/heart_container",
-  treasure_savegame_variable = "heart_container_B2_skull_woods_0",
+  treasure_savegame_variable = "heart_container_skull_woods",
 }
 
 tile{
@@ -517,8 +510,36 @@ destination{
   name = "dest_hole_B2_skull_woods_0",
   layer = 1,
   x = 128,
-  y = 133,
+  y = 141,
   direction = 3,
+}
+
+custom_entity{
+  name = "key_item_spot",
+  layer = 0,
+  x = 128,
+  y = 125,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "shadow",
+  layer = 0,
+  x = 128,
+  y = 125,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/shadow",
 }
 
 tile{
