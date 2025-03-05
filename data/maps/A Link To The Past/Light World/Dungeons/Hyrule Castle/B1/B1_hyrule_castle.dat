@@ -3071,7 +3071,7 @@ teletransporter{
   y = 64,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Dungeons/Hyrule Castle/B2/B2_hyrule_castle",
+  destination_map = "A Link to the Past/Light World/Dungeons/Hyrule Castle/B2/B2_hyrule_castle",
   destination = "stair_e",
 }
 
@@ -5644,7 +5644,7 @@ teletransporter{
   y = 64,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Dungeons/Hyrule Castle/F1/F1_hyrule_castle",
+  destination_map = "A Link to the Past/Light World/Dungeons/Hyrule Castle/F1/F1_hyrule_castle",
   destination = "stair_cellar",
 }
 
@@ -6377,5 +6377,14 @@ separator{
   y = -8,
   width = 16,
   height = 1040,
+}
+
+destination{
+  name = "dest_secret",
+  layer = 2,
+  x = 424,
+  y = 637,
+  direction = 3,
+  default = true,
 }
 

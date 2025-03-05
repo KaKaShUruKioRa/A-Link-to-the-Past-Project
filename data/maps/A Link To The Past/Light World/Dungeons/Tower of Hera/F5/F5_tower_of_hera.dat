@@ -2285,7 +2285,7 @@ teletransporter{
   enabled_at_start = false,
   width = 32,
   height = 32,
-  destination_map = "A Link To The Past/Light World/Dungeons/Tower of Hera/F4/F4_tower_of_hera",
+  destination_map = "A Link to the Past/Light World/Dungeons/Tower of Hera/F4/F4_tower_of_hera",
   destination = "_same",
 }
 
@@ -2314,7 +2314,7 @@ teletransporter{
   y = 120,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Dungeons/Tower of Hera/F6/F6_tower_of_hera",
+  destination_map = "A Link to the Past/Light World/Dungeons/Tower of Hera/F6/F6_tower_of_hera",
   destination = "stair_ne",
 }
 
@@ -2351,7 +2351,7 @@ teletransporter{
   y = 120,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Dungeons/Tower of Hera/F4/F4_tower_of_hera",
+  destination_map = "A Link to the Past/Light World/Dungeons/Tower of Hera/F4/F4_tower_of_hera",
   destination = "stair_nw",
 }
 
@@ -2631,7 +2631,7 @@ teletransporter{
   y = 176,
   width = 24,
   height = 192,
-  destination_map = "A Link To The Past/Light World/Dungeons/Tower of Hera/F4/F4_tower_of_hera",
+  destination_map = "A Link to the Past/Light World/Dungeons/Tower of Hera/F4/F4_tower_of_hera",
   destination = "_same",
 }
 
@@ -2641,7 +2641,7 @@ teletransporter{
   y = 144,
   width = 32,
   height = 32,
-  destination_map = "A Link To The Past/Light World/Dungeons/Tower of Hera/F4/F4_tower_of_hera",
+  destination_map = "A Link to the Past/Light World/Dungeons/Tower of Hera/F4/F4_tower_of_hera",
   destination = "_same",
 }
 
@@ -2651,7 +2651,7 @@ teletransporter{
   y = 384,
   width = 32,
   height = 32,
-  destination_map = "A Link To The Past/Light World/Dungeons/Tower of Hera/F4/F4_tower_of_hera",
+  destination_map = "A Link to the Past/Light World/Dungeons/Tower of Hera/F4/F4_tower_of_hera",
   destination = "_same",
 }
 
@@ -2661,7 +2661,7 @@ teletransporter{
   y = 224,
   width = 48,
   height = 48,
-  destination_map = "A Link To The Past/Light World/Dungeons/Tower of Hera/F4/F4_tower_of_hera",
+  destination_map = "A Link to the Past/Light World/Dungeons/Tower of Hera/F4/F4_tower_of_hera",
   destination = "_same",
 }
 
@@ -2671,7 +2671,7 @@ teletransporter{
   y = 224,
   width = 32,
   height = 32,
-  destination_map = "A Link To The Past/Light World/Dungeons/Tower of Hera/F4/F4_tower_of_hera",
+  destination_map = "A Link to the Past/Light World/Dungeons/Tower of Hera/F4/F4_tower_of_hera",
   destination = "_same",
 }
 
@@ -2681,7 +2681,7 @@ teletransporter{
   y = 320,
   width = 32,
   height = 32,
-  destination_map = "A Link To The Past/Light World/Dungeons/Tower of Hera/F4/F4_tower_of_hera",
+  destination_map = "A Link to the Past/Light World/Dungeons/Tower of Hera/F4/F4_tower_of_hera",
   destination = "_same",
 }
 
@@ -2691,7 +2691,7 @@ teletransporter{
   y = 304,
   width = 32,
   height = 32,
-  destination_map = "A Link To The Past/Light World/Dungeons/Tower of Hera/F4/F4_tower_of_hera",
+  destination_map = "A Link to the Past/Light World/Dungeons/Tower of Hera/F4/F4_tower_of_hera",
   destination = "_same",
 }
 
@@ -2701,7 +2701,7 @@ teletransporter{
   y = 104,
   width = 24,
   height = 32,
-  destination_map = "A Link To The Past/Light World/Dungeons/Tower of Hera/F4/F4_tower_of_hera",
+  destination_map = "A Link to the Past/Light World/Dungeons/Tower of Hera/F4/F4_tower_of_hera",
   destination = "_same",
 }
 
@@ -2711,7 +2711,7 @@ teletransporter{
   y = 72,
   width = 16,
   height = 32,
-  destination_map = "A Link To The Past/Light World/Dungeons/Tower of Hera/F4/F4_tower_of_hera",
+  destination_map = "A Link to the Past/Light World/Dungeons/Tower of Hera/F4/F4_tower_of_hera",
   destination = "fairy_hole",
 }
 
@@ -2752,7 +2752,7 @@ teletransporter{
   y = 208,
   width = 32,
   height = 32,
-  destination_map = "A Link To The Past/Light World/Dungeons/Tower of Hera/F4/F4_tower_of_hera",
+  destination_map = "A Link to the Past/Light World/Dungeons/Tower of Hera/F4/F4_tower_of_hera",
   destination = "_same",
 }
 
@@ -2793,7 +2793,7 @@ teletransporter{
   y = 320,
   width = 32,
   height = 32,
-  destination_map = "A Link To The Past/Light World/Dungeons/Tower of Hera/F4/F4_tower_of_hera",
+  destination_map = "A Link to the Past/Light World/Dungeons/Tower of Hera/F4/F4_tower_of_hera",
   destination = "_same",
 }
 
@@ -2849,7 +2849,7 @@ teletransporter{
   enabled_at_start = false,
   width = 32,
   height = 32,
-  destination_map = "A Link To The Past/Light World/Dungeons/Tower of Hera/F4/F4_tower_of_hera",
+  destination_map = "A Link to the Past/Light World/Dungeons/Tower of Hera/F4/F4_tower_of_hera",
   destination = "_same",
 }
 
@@ -2902,7 +2902,7 @@ teletransporter{
   enabled_at_start = false,
   width = 32,
   height = 32,
-  destination_map = "A Link To The Past/Light World/Dungeons/Tower of Hera/F4/F4_tower_of_hera",
+  destination_map = "A Link to the Past/Light World/Dungeons/Tower of Hera/F4/F4_tower_of_hera",
   destination = "_same",
 }
 
@@ -3351,5 +3351,14 @@ tile{
   width = 16,
   height = 16,
   pattern = "ceiling.1",
+}
+
+destination{
+  name = "dest_secret",
+  layer = 2,
+  x = 432,
+  y = 173,
+  direction = 3,
+  default = true,
 }
 

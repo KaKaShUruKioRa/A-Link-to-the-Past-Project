@@ -6491,7 +6491,7 @@ teletransporter{
   y = 256,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Houses/link_house",
+  destination_map = "A Link to the Past/Light World/Houses/link_house",
   destination = "dest_map_link_house_0",
 }
 
@@ -6701,10 +6701,20 @@ tile{
 
 tile{
   layer = 1,
-  x = 160,
+  x = 152,
   y = 176,
-  width = 64,
-  height = 8,
+  width = 80,
+  height = 80,
+  pattern = "7494",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 184,
+  width = 96,
+  height = 64,
   pattern = "7494",
   tileset = "out/outside_lightworld_buildings",
 }
@@ -7515,7 +7525,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/link_forest",
+  destination_map = "A Link to the Past/Light World/Overworld/link_forest",
   destination = "_side",
 }
 
@@ -7527,7 +7537,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/great_swamp",
+  destination_map = "A Link to the Past/Light World/Overworld/great_swamp",
   destination = "_side",
 }
 
@@ -7539,7 +7549,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/stone_bridge",
+  destination_map = "A Link to the Past/Light World/Overworld/stone_bridge",
   destination = "_side",
 }
 
@@ -7551,16 +7561,17 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/hyrule_castle",
+  destination_map = "A Link to the Past/Light World/Overworld/hyrule_castle",
   destination = "_side",
 }
 
 destination{
   name = "dest_secret",
   layer = 2,
-  x = 256,
-  y = 256,
+  x = 264,
+  y = 248,
   direction = 3,
+  default = true,
 }
 
 custom_entity{

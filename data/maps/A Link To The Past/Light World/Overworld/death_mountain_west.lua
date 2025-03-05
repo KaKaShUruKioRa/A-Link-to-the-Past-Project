@@ -9,6 +9,10 @@
 
 local map = ...
 local game = map:get_game()
+local RNGdrop = require("scripts/meta/random_drop") 
+-------------------------------------------------------------------
+RNGdrop:enemies()
+RNGdrop:destructibles()
 local hero = map:get_hero()
 
 local grandpa = map:create_npc({ 
@@ -58,6 +62,8 @@ local function change_world(to_dark)
     sol.audio.play_music("overworld")    
 
     hero:set_tunic_sprite_id("hero/tunic1")
+    game:set_ability("shield", game:get_item("equipment/shield"):get_variant())
+    game:set_ability("lift", game:get_item("equipment/glove"):get_variant())
 
     sol.video.set_shader(nil)
     --Transformation du Héro en Lapin et du Monde en Dark World (Sombre Shaders) 
@@ -90,7 +96,9 @@ local function change_world(to_dark)
   -- Faire Apparaitre/Disparaitre des Murret au changement de Monde(Dark/Light)
   for dynamic_tile in map:get_entities_by_type("dynamic_tile") do
       if dynamic_tile:get_name() ~= nil then
-        dynamic_tile:set_enabled(to_dark)
+        if not string.match(dynamic_tile:get_name(), "protected_") then -- si la tile n'est pas protected
+          dynamic_tile:set_enabled(to_dark)
+        end
       elseif dynamic_tile:get_name() == nil then
         dynamic_tile:set_enabled(not to_dark)    
       end
@@ -141,32 +149,45 @@ function grandpa_dialog_arrived:on_activated()
 end
 
 function warp_death_mountain_west_0:on_activated()
-  warp_death_mountain_west_0:set_enabled(false)
-  sol.audio.play_sound("world_warp")
-  hero:teleport(game:get_map():get_id(), "_same", "fade")
+  if not game:has_item("equipment/moon_pearl") then  
+    warp_death_mountain_west_0:set_enabled(false)
+    sol.audio.play_sound("world_warp")
+    hero:teleport(game:get_map():get_id(), "_same", "fade")
+  end
+end
+
+function npc_ether_stele_death_mountain_west_0:on_interaction()
+  if game:has_item("equipment/book_of_mudora") then
+    game:start_dialog("uncrypted.ether_stele")
+  else
+    game:start_dialog("crypted.ether_stele")
+  end  
 end
 
 -- Event called after the opening transition effect of the map,
 -- that is, when the player takes control of the hero.
 function map:on_opening_transition_finished(destination)
   --Si à la fin d'une transistion, on est dans le Light World, on transoforme la Map en Light World 
-  if destination == nil then
-    local pos_hero_x = hero:get_position() 
-    if map:get_tileset() == "out/outside_darkworld_main" then
-      --Si on est dans un Mur (Représanté par les Sensor Mirror_warp_protect*) On retourne dans le Dark World    
-      change_world(false)
 
-      for sensor_mirror_warp_protect in map:get_entities("sensor_mirror_warp_protect_") do
-        if sensor_mirror_warp_protect:overlaps(hero) then
-          sol.audio.play_sound("world_warp")
-          hero:teleport(game:get_map():get_id(), "_same", "fade")
+  if not game:has_item("equipment/moon_pearl") then  
+    if destination == nil then
+      local pos_hero_x = hero:get_position() 
+      if map:get_tileset() == "out/outside_darkworld_main" then
+        --Si on est dans un Mur (Représanté par les Sensor Mirror_warp_protect*) On retourne dans le Dark World    
+        change_world(false)
+
+        for sensor_mirror_warp_protect in map:get_entities("sensor_mirror_warp_protect_") do
+          if sensor_mirror_warp_protect:overlaps(hero) then
+            sol.audio.play_sound("world_warp")
+            hero:teleport(game:get_map():get_id(), "_same", "fade")
+          end
         end
+
+      --Si à la fin d'une Transistion, on est dans le Dark World, on transoforme la Map en Dark World
+      elseif map:get_tileset() == "out/outside_lightworld_main" and pos_hero_x < 944  then 
+        change_world(true)
+
       end
-
-    --Si à la fin d'une Transistion, on est dans le Dark World, on transoforme la Map en Dark World
-    elseif map:get_tileset() == "out/outside_lightworld_main" and pos_hero_x < 944  then 
-      change_world(true)
-
     end
   end
 end
@@ -176,17 +197,13 @@ function map:on_finished()
 end
 
 function cursed_bully_death_moutain_west_0:on_interaction()
-  if not game:has_item("equipment/moon_pearl") then  
-    game:start_dialog("npc.cursed_bully.meeting")
-  else
+  if game:has_item("equipment/moon_pearl") then 
     game:start_dialog("npc.cursed_bully.moon_pearl")
   end
 end
 
 function pink_ball_death_moutain_west_0:on_interaction()
-  if not game:has_item("equipment/moon_pearl") then  
-    game:start_dialog("npc.pink_ball.meeting")
-  else
+  if game:has_item("equipment/moon_pearl") then  
     game:start_dialog("npc.pink_ball.moon_pearl")
   end
 end

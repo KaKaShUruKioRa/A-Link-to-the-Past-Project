@@ -1,4 +1,4 @@
--- Lua script of map A Link To The Past/Light World/House/link_house.
+-- Lua script of map A Link to the Past\Dark World\Caves\bomb_shop.
 -- This script is executed every time the hero enters this map.
 
 -- Feel free to modify the code below.

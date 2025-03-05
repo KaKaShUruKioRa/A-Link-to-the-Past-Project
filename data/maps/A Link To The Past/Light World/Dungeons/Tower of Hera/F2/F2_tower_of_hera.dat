@@ -2187,7 +2187,7 @@ teletransporter{
   y = 464,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/death_mountain_west",
+  destination_map = "A Link to the Past/Light World/Overworld/death_mountain_west",
   destination = "dest_dungeon_death_mountain_west_0",
 }
 
@@ -2510,7 +2510,7 @@ teletransporter{
   y = 336,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Dungeons/Tower of Hera/F1/F1_tower_of_hera",
+  destination_map = "A Link to the Past/Light World/Dungeons/Tower of Hera/F1/F1_tower_of_hera",
   destination = "stair_sw",
 }
 
@@ -2547,7 +2547,7 @@ teletransporter{
   y = 64,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Dungeons/Tower of Hera/F1/F1_tower_of_hera",
+  destination_map = "A Link to the Past/Light World/Dungeons/Tower of Hera/F1/F1_tower_of_hera",
   destination = "stair_nw",
 }
 
@@ -2597,7 +2597,7 @@ teletransporter{
   y = 336,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Dungeons/Tower of Hera/F3/F3_tower_of_hera",
+  destination_map = "A Link to the Past/Light World/Dungeons/Tower of Hera/F3/F3_tower_of_hera",
   destination = "stair_se",
 }
 
@@ -2615,7 +2615,7 @@ teletransporter{
   y = 88,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Dungeons/Tower of Hera/F1/secret_fairy",
+  destination_map = "A Link to the Past/Light World/Dungeons/Tower of Hera/F1/secret_fairy",
   destination = "_same",
 }
 
@@ -5307,5 +5307,14 @@ dynamic_tile{
   width = 32,
   height = 48,
   pattern = "2761",
+}
+
+destination{
+  name = "dest_secret",
+  layer = 2,
+  x = 256,
+  y = 181,
+  direction = 3,
+  default = true,
 }
 

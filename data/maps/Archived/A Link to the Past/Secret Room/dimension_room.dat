@@ -3,8 +3,8 @@ properties{
   y = 0,
   width = 496,
   height = 496,
-  min_layer = -8,
-  max_layer = 7,
+  min_layer = 0,
+  max_layer = 2,
   world = "Secret Room",
   tileset = "dungeon/brown",
   music = "sanctuary",
@@ -4093,6 +4093,17 @@ wall{
   height = 16,
   stops_enemies = true,
   stops_blocks = true,
+}
+
+teletransporter{
+  name = "tp_blueprint_placeholder_map",
+  layer = 0,
+  x = 448,
+  y = 240,
+  width = 16,
+  height = 16,
+  destination_map = "Archived/Autres/blue_print/A Link to the Past/World/Overworld/COORDONNEE_MAPNAME",
+  destination = "dest_secret",
 }
 
 tile{

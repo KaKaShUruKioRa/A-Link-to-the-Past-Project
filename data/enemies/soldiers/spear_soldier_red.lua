@@ -13,4 +13,3 @@ local properties = {
 }
 
 behavior:create(enemy, properties)
-enemy:set_attack_consequence("thrown_item",2)

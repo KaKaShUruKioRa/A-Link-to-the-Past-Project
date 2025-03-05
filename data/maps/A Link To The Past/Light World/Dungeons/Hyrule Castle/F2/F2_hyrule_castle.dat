@@ -423,7 +423,7 @@ teletransporter{
   y = 448,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Dungeons/Hyrule Castle/F1/F1_hyrule_castle",
+  destination_map = "A Link to the Past/Light World/Dungeons/Hyrule Castle/F1/F1_hyrule_castle",
   destination = "stair_throne",
 }
 
@@ -1785,7 +1785,7 @@ teletransporter{
   y = 0,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Dungeons/Secret Passage/F2/F2_secret_passage",
+  destination_map = "A Link to the Past/Light World/Dungeons/Secret Passage/F2/F2_secret_passage",
   destination = "secret_passage",
 }
 
@@ -2227,5 +2227,14 @@ dynamic_tile{
   width = 32,
   height = 8,
   pattern = "door_top.1-2",
+}
+
+destination{
+  name = "dest_secret",
+  layer = 2,
+  x = 768,
+  y = 293,
+  direction = 3,
+  default = true,
 }
 

@@ -4938,10 +4938,10 @@ teletransporter{
   name = "tp_cave_link_forest_0",
   layer = 0,
   x = 392,
-  y = 104,
+  y = 112,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/Fairy/link_forest_fairy_cave",
+  destination_map = "A Link to the Past/Light World/Caves/Fairy/link_forest_fairy_cave",
   destination = "dest_map_link_forest_fairy_cave_0",
 }
 
@@ -6258,7 +6258,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/great_swamp",
+  destination_map = "A Link to the Past/Light World/Overworld/great_swamp",
   destination = "_side",
 }
 
@@ -6270,7 +6270,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/link_house",
+  destination_map = "A Link to the Past/Light World/Overworld/link_house",
   destination = "_side",
 }
 
@@ -6282,16 +6282,17 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/haunted_grove",
+  destination_map = "A Link to the Past/Light World/Overworld/haunted_grove",
   destination = "_side",
 }
 
 destination{
   name = "dest_secret",
   layer = 2,
-  x = 256,
-  y = 256,
+  x = 336,
+  y = 168,
   direction = 3,
+  default = true,
 }
 
 teletransporter{
@@ -6302,7 +6303,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/hyrule_castle",
+  destination_map = "A Link to the Past/Light World/Overworld/hyrule_castle",
   destination = "_side",
 }
 

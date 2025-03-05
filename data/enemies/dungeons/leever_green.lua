@@ -8,6 +8,7 @@ function enemy:on_created()
   self:create_sprite("enemies/" .. enemy:get_breed())
   self:set_size(16, 16)
   self:set_origin(8, 13)
+  self:set_attack_consequence("thrown_item", 2)
   enemy:set_property("is_major","true")
   if self:get_treasure() == nil then self:set_treasure("prize_packs/1") end
 end

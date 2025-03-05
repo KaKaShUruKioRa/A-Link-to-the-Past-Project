@@ -1,4 +1,4 @@
--- Lua script of map A Link To The Past/Light World/Overworld/sacred grove.
+-- Lua script of map A Link to the Past/Light World/Overworld/sacred grove.
 -- This script is executed every time the hero enters this map.
 
 -- Feel free to modify the code below.
@@ -44,7 +44,7 @@ function excalibur:on_interaction()
       for mist in map:get_entities("mist_sacred_grove_") do
           mist:set_enabled(false)
       end
-      game:start_dialog("npc.saharaslara.master_sword", function()
+      game:start_dialog("npc.sahasrahla.master_sword", function()
         sol.audio.play_music("overworld")
         hero:unfreeze()
       end)

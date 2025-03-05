@@ -11,6 +11,16 @@ animation{
   },
 }
 animation{
+  name = "aiming",
+  src_image = "enemies/dark_world/moblin.png",
+  directions = {
+    { x = 192, y = 0, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 29 },
+    { x = 192, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 29 },
+    { x = 192, y = 96, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 29 },
+    { x = 192, y = 144, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 29 },
+  },
+}
+animation{
   name = "hurt",
   src_image = "enemies/dark_world/moblin.png",
   frame_delay = 50,

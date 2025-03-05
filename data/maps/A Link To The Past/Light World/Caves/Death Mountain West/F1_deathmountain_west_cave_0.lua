@@ -1,4 +1,4 @@
--- Lua script of map A Link To The Past/Light World/Caves/lost_wood_cave - Copie (2).
+-- Lua script of map A Link to the Past/Light World/Caves/Death Mountain West/F1_deathmoutain_west_cave_0.
 -- This script is executed every time the hero enters this map.
 
 -- Feel free to modify the code below.

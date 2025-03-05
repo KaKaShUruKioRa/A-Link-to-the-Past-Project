@@ -1427,7 +1427,7 @@ teletransporter{
   y = 464,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/waterfall_of_wishing",
+  destination_map = "A Link to the Past/Light World/Overworld/waterfall_of_wishing",
   destination = "dest_cave_waterfall_of_wishing_0",
 }
 
@@ -1483,6 +1483,16 @@ pickable{
   x = 384,
   y = 117,
   treasure_name = "consumables/fairy",
+}
+
+pickable{
+  name = "treasure_red_shield_waterfall_pond_0",
+  layer = 0,
+  x = 384,
+  y = 189,
+  treasure_name = "equipment/shield",
+  treasure_variant = 2,
+  treasure_savegame_variable = "red_shield",
 }
 
 tile{
@@ -1605,9 +1615,10 @@ tile{
 destination{
   name = "dest_secret",
   layer = 2,
-  x = 256,
+  x = 384,
   y = 253,
   direction = 3,
+  default = true,
 }
 
 separator{

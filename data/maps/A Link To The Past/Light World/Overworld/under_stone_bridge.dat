@@ -1772,7 +1772,7 @@ teletransporter{
   y = 80,
   width = 16,
   height = 144,
-  destination_map = "A Link To The Past/Light World/Overworld/stone_bridge",
+  destination_map = "A Link to the Past/Light World/Overworld/stone_bridge",
   destination = "dest_map_stone_bridge_0",
 }
 
@@ -1889,5 +1889,14 @@ tile{
   width = 512,
   height = 80,
   pattern = "12429",
+}
+
+destination{
+  name = "dest_secret",
+  layer = 2,
+  x = 128,
+  y = 101,
+  direction = 3,
+  default = true,
 }
 

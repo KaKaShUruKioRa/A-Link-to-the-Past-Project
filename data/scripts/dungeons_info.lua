@@ -6,7 +6,11 @@ local dungeons_info = {
     lowest_floor = 0,
     highest_floor = 1,
     maps = {
-      "A Link To The Past/Light World/Dungeons/Hyrule Castle/F1/F1_hyrule_castle","A Link To The Past/Light World/Dungeons/Hyrule Castle/F2/F2_hyrule_castle", "A Link To The Past/Light World/Dungeons/Hyrule Castle/B1/B1_hyrule_castle", "A Link To The Past/Light World/Dungeons/Hyrule Castle/B2/B2_hyrule_castle", "A Link To The Past/Light World/Dungeons/Hyrule Castle/B3/B3_hyrule_castle"
+      "A Link to the Past/Light World/Dungeons/Hyrule Castle/B3/B3_hyrule_castle",
+      "A Link to the Past/Light World/Dungeons/Hyrule Castle/B2/B2_hyrule_castle",
+      "A Link to the Past/Light World/Dungeons/Hyrule Castle/B1/B1_hyrule_castle",
+      "A Link to the Past/Light World/Dungeons/Hyrule Castle/F1/F1_hyrule_castle",
+      "A Link to the Past/Light World/Dungeons/Hyrule Castle/F2/F2_hyrule_castle",
     },
     boss = {
       floor = 1,
@@ -21,7 +25,9 @@ local dungeons_info = {
     lowest_floor = 0,
     highest_floor = 1,
     maps = {
-      "A Link To The Past/Light World/Dungeons/Secret Passage/F2/F2_secret_passage","A Link To The Past/Light World/Dungeons/Secret Passage/F1/F1_secret_passage", "A Link To The Past/Light World/Dungeons/Secret Passage/B1/B1_secret_passage"
+      "A Link to the Past/Light World/Dungeons/Secret Passage/B1/B1_secret_passage",
+      "A Link to the Past/Light World/Dungeons/Secret Passage/F1/F1_secret_passage",
+      "A Link to the Past/Light World/Dungeons/Secret Passage/F2/F2_secret_passage",
     },
     boss = {
       floor = 1,
@@ -36,7 +42,8 @@ local dungeons_info = {
     lowest_floor = 0,
     highest_floor = 1,
     maps = {
-      "A Link To The Past/Light World/Dungeons/Eastern Palace/F1/F1_eastern_palace","A Link To The Past/Light World/Dungeons/Eastern Palace/F2/F2_eastern_palace",
+      "A Link to the Past/Light World/Dungeons/Eastern Palace/F1/F1_eastern_palace",
+      "A Link to the Past/Light World/Dungeons/Eastern Palace/F2/F2_eastern_palace",
     },
     boss = {
       floor = 1,
@@ -51,10 +58,12 @@ local dungeons_info = {
     lowest_floor = -1,
     highest_floor = 1,
     maps = {
-      "A Link To The Past/Light World/Dungeons/Desert Palace/B1/B1_desert_palace","A Link To The Past/Light World/Dungeons/Desert Palace/F1/F1_desert_palace","A Link To The Past/Light World/Dungeons/Desert Palace/F2/F2_desert_palace"
+      "A Link to the Past/Light World/Dungeons/Desert Palace/B1/B1_desert_palace",
+      "A Link to the Past/Light World/Dungeons/Desert Palace/F1/F1_desert_palace",
+      "A Link to the Past/Light World/Dungeons/Desert Palace/F2/F2_desert_palace",
     },
     boss = {
-      floor = 1,
+      floor = 2,
       savegame_variable = "desert_boss",
       x = 960,
       y = 480 + 224,
@@ -66,15 +75,176 @@ local dungeons_info = {
     lowest_floor = 0,
     highest_floor = 5,
     maps = {
-      "A Link To The Past/Light World/Dungeons/Tower of Hera/F1/F1_tower_of_hera","A Link To The Past/Light World/Dungeons/Tower of Hera/F2/F2_tower_of_hera","A Link To The Past/Light World/Dungeons/Tower of Hera/F3/F3_tower_of_hera","A Link To The Past/Light World/Dungeons/Tower of Hera/F4/F4_tower_of_hera","A Link To The Past/Light World/Dungeons/Tower of Hera/F5/F5_tower_of_hera","A Link To The Past/Light World/Dungeons/Tower of Hera/F6/F6_tower_of_hera"
+      "A Link to the Past/Light World/Dungeons/Tower of Hera/F1/F1_tower_of_hera",
+      "A Link to the Past/Light World/Dungeons/Tower of Hera/F2/F2_tower_of_hera",
+      "A Link to the Past/Light World/Dungeons/Tower of Hera/F3/F3_tower_of_hera",
+      "A Link to the Past/Light World/Dungeons/Tower of Hera/F4/F4_tower_of_hera",
+      "A Link to the Past/Light World/Dungeons/Tower of Hera/F5/F5_tower_of_hera",
+      "A Link to the Past/Light World/Dungeons/Tower of Hera/F6/F6_tower_of_hera",
     },
     boss = {
-      floor = 1,
+      floor = 5,
       savegame_variable = "tower_of_hera_boss",
       x = 960,
       y = 480 + 224,
     },
-  },
+  },  ["hyrule_castle_tower"] = {
+    floor_width = 512,
+    floor_height = 512,
+    lowest_floor = 1,
+    highest_floor = 6,
+    maps = {
+      "A Link to the Past/Light World/Dungeons/Hyrule Castle Tower/F2/F2_hyrule_castle_tower",
+      "A Link to the Past/Light World/Dungeons/Hyrule Castle Tower/F3/F3_hyrule_castle_tower",
+      "A Link to the Past/Light World/Dungeons/Hyrule Castle Tower/F4/F4_hyrule_castle_tower",
+      "A Link to the Past/Light World/Dungeons/Hyrule Castle Tower/F5/F5_hyrule_castle_tower",
+      "A Link to the Past/Light World/Dungeons/Hyrule Castle Tower/F6/F6_hyrule_castle_tower",
+      "A Link to the Past/Light World/Dungeons/Hyrule Castle Tower/F7/F7_hyrule_castle_tower",
+    },
+    boss = {
+      floor = 6,
+      savegame_variable = "hyrule_castle_tower_boss",
+      x = 960,
+      y = 480 + 224,
+    },
+  },  ["dark_palace"] = {
+    floor_width = 512,
+    floor_height = 512,
+    lowest_floor = -1,
+    highest_floor = 0,
+    maps = {
+      "A Link to the Past/Dark World/Dungeons/Dark Palace/B1/B1_dark_palace",
+      "A Link to the Past/Dark World/Dungeons/Dark Palace/F1/F1_dark_palace",
+    },
+    boss = {
+      floor = -1,
+      savegame_variable = "dark_palace_boss",
+      x = 960,
+      y = 480 + 224,
+    },
+  },  ["swamp_palace"] = {
+    floor_width = 512,
+    floor_height = 512,
+    lowest_floor = -2,
+    highest_floor = 0,
+    maps = {
+      "A Link to the Past/Dark World/Dungeons/Swamp Palace/B2/B2_swamp_palace",
+      "A Link to the Past/Dark World/Dungeons/Swamp Palace/B1/B1_swamp_palace",
+      "A Link to the Past/Dark World/Dungeons/Swamp Palace/F1/F1_swamp_palace",
+    },
+    boss = {
+      floor = -1,
+      savegame_variable = "swamp_palace_boss",
+      x = 960,
+      y = 480 + 224,
+    },
+  },  ["skull_woods"] = {
+    floor_width = 512,
+    floor_height = 512,
+    lowest_floor = -1,
+    highest_floor = -2,
+    maps = {
+      "A Link to the Past/Dark World/Dungeons/Skull Woods/B2/B2_skull_woods",
+      "A Link to the Past/Dark World/Dungeons/Skull Woods/B1/B1_skull_woods"
+    },
+    boss = {
+      floor = -2,
+      savegame_variable = "skull_woods_boss",
+      x = 960,
+      y = 480 + 224,
+    },
+  },  ["thieves_town"] = {
+    floor_width = 512,
+    floor_height = 512,
+    lowest_floor = -2,
+    highest_floor = 0,
+    maps = {
+      "A Link to the Past/Dark World/Dungeons/Thieves Town/B2/B2_thieves_town",
+      "A Link to the Past/Dark World/Dungeons/Thieves Town/B1/B1_thieves_town",
+      "A Link to the Past/Dark World/Dungeons/Thieves Town/F1/F1_thieves_town",
+    },
+    boss = {
+      floor = -1,
+      savegame_variable = "thieves_town_boss",
+      x = 960,
+      y = 480 + 224,
+    },
+  },  ["ice_palace"] = {
+    floor_width = 512,
+    floor_height = 512,
+    lowest_floor = -7,
+    highest_floor = 0,
+    maps = {
+      "A Link to the Past/Dark World/Dungeons/Ice Palace/B7/B7_ice_palace",
+      "A Link to the Past/Dark World/Dungeons/Ice Palace/B6/B6_ice_palace",
+      "A Link to the Past/Dark World/Dungeons/Ice Palace/B5/B5_ice_palace",
+      "A Link to the Past/Dark World/Dungeons/Ice Palace/B4/B4_ice_palace",
+      "A Link to the Past/Dark World/Dungeons/Ice Palace/B3/B3_ice_palace",
+      "A Link to the Past/Dark World/Dungeons/Ice Palace/B2/B2_ice_palace",
+      "A Link to the Past/Dark World/Dungeons/Ice Palace/B1/B1_ice_palace",
+      "A Link to the Past/Dark World/Dungeons/Ice Palace/F1/F1_ice_palace",
+    },
+    boss = {
+      floor = -7,
+      savegame_variable = "ice_palace_boss",
+      x = 960,
+      y = 480 + 224,
+    },
+  },  ["misery_mire"] = {
+    floor_width = 512,
+    floor_height = 512,
+    lowest_floor = -2,
+    highest_floor = 0,
+    maps = {
+      "A Link to the Past/Dark World/Dungeons/Misery Mire/B2/B2_misery_mire",
+      "A Link to the Past/Dark World/Dungeons/Misery Mire/B1/B1_misery_mire",
+      "A Link to the Past/Dark World/Dungeons/Misery Mire/F1/F1_misery_mire",
+    },
+    boss = {
+      floor = -1,
+      savegame_variable = "misery_mire_boss",
+      x = 960,
+      y = 480 + 224,
+    },
+  },  ["turtle_rock"] = {
+    floor_width = 512,
+    floor_height = 512,
+    lowest_floor = -3,
+    highest_floor = 0,
+    maps = {
+      "A Link to the Past/Dark World/Dungeons/Turtle Rock/B3/B3_turtle_rock",
+      "A Link to the Past/Dark World/Dungeons/Turtle Rock/B2/B2_turtle_rock",
+      "A Link to the Past/Dark World/Dungeons/Turtle Rock/B1/B1_turtle_rock",
+      "A Link to the Past/Dark World/Dungeons/Turtle Rock/F1/F1_turtle_rock",
+    },
+    boss = {
+      floor = -3,
+      savegame_variable = "turtle_rock_boss",
+      x = 960,
+      y = 480 + 224,
+    },
+  },  ["ganon_tower"] = {
+    floor_width = 768,
+    floor_height = 768,
+    lowest_floor = -1,
+    highest_floor = 6,
+    maps = {
+      "A Link to the Past/Dark World/Dungeons/Ganon Tower/B1/B1_ganon_tower",
+      "A Link to the Past/Dark World/Dungeons/Ganon Tower/F1/F1_ganon_tower",
+      "A Link to the Past/Dark World/Dungeons/Ganon Tower/F2/F2_ganon_tower",
+      "A Link to the Past/Dark World/Dungeons/Ganon Tower/F3/F3_ganon_tower",
+      "A Link to the Past/Dark World/Dungeons/Ganon Tower/F4/F4_ganon_tower",
+      "A Link to the Past/Dark World/Dungeons/Ganon Tower/F5/F5_ganon_tower",
+      "A Link to the Past/Dark World/Dungeons/Ganon Tower/F6/F6_ganon_tower",
+      "A Link to the Past/Dark World/Dungeons/Ganon Tower/F7/F7_ganon_tower"
+    },
+    boss = {
+      floor = 6,
+      savegame_variable = "ganon_tower_boss",
+      x = 960,
+      y = 480 + 224,
+    },
+  }, 
 }
 
 return dungeons_info

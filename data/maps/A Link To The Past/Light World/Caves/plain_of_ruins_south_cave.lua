@@ -1,4 +1,4 @@
--- Lua script of map A Link To The Past/Light World/Caves/plain_of_ruins_south_cave.
+-- Lua script of map A Link to the Past/Light World/Caves/plain_of_ruins_south_cave.
 -- This script is executed every time the hero enters this map.
 
 -- Feel free to modify the code below.

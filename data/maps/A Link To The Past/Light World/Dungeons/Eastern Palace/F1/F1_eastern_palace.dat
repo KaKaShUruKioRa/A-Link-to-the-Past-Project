@@ -4,7 +4,7 @@ properties{
   width = 2048,
   height = 2560,
   min_layer = 0,
-  max_layer = 7,
+  max_layer = 2,
   world = "eastern_palace",
   floor = 0,
   tileset = "dungeon/green",
@@ -3888,7 +3888,7 @@ teletransporter{
   y = 1144,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Dungeons/Eastern Palace/F1/F1_secret_fairy",
+  destination_map = "A Link to the Past/Light World/Dungeons/Eastern Palace/F1/secret_fairy",
   destination = "_same",
 }
 
@@ -3898,7 +3898,7 @@ teletransporter{
   y = 1144,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Dungeons/Eastern Palace/F1/F1_secret_fairy",
+  destination_map = "A Link to the Past/Light World/Dungeons/Eastern Palace/F1/secret_fairy",
   destination = "_same",
 }
 
@@ -14012,7 +14012,7 @@ teletransporter{
   y = 2536,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/eastern_ruins",
+  destination_map = "A Link to the Past/Light World/Overworld/eastern_ruins",
   destination = "dest_dungeon_eastern_ruins_0",
 }
 
@@ -15214,7 +15214,7 @@ teletransporter{
   y = 808,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Dungeons/Eastern Palace/F2/F2_eastern_palace",
+  destination_map = "A Link to the Past/Light World/Dungeons/Eastern Palace/F2/F2_eastern_palace",
   destination = "stair_n",
 }
 
@@ -15361,7 +15361,7 @@ teletransporter{
   y = 1024,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Dungeons/Eastern Palace/F1/F1_eastern_palace",
+  destination_map = "A Link to the Past/Light World/Dungeons/Eastern Palace/F1/F1_eastern_palace",
   destination = "dark_room_n",
 }
 
@@ -15372,7 +15372,7 @@ teletransporter{
   y = 1008,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Dungeons/Eastern Palace/F1/F1_eastern_palace",
+  destination_map = "A Link to the Past/Light World/Dungeons/Eastern Palace/F1/F1_eastern_palace",
   destination = "light_room_n",
 }
 
@@ -15399,7 +15399,7 @@ teletransporter{
   y = 1664,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Dungeons/Eastern Palace/F1/F1_eastern_palace",
+  destination_map = "A Link to the Past/Light World/Dungeons/Eastern Palace/F1/F1_eastern_palace",
   destination = "dark_room_s",
 }
 
@@ -15410,7 +15410,7 @@ teletransporter{
   y = 1664,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Dungeons/Eastern Palace/F1/F1_eastern_palace",
+  destination_map = "A Link to the Past/Light World/Dungeons/Eastern Palace/F1/F1_eastern_palace",
   destination = "light_room_s",
 }
 
@@ -15437,7 +15437,7 @@ teletransporter{
   y = 1520,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Dungeons/Eastern Palace/F1/F1_eastern_palace",
+  destination_map = "A Link to the Past/Light World/Dungeons/Eastern Palace/F1/F1_eastern_palace",
   destination = "dark_room_s_2",
 }
 
@@ -15448,7 +15448,7 @@ teletransporter{
   y = 1536,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Dungeons/Eastern Palace/F1/F1_eastern_palace",
+  destination_map = "A Link to the Past/Light World/Dungeons/Eastern Palace/F1/F1_eastern_palace",
   destination = "light_room_s_2",
 }
 
@@ -17785,5 +17785,14 @@ separator{
   y = 520,
   width = 16,
   height = 240,
+}
+
+destination{
+  name = "dest_secret",
+  layer = 2,
+  x = 1280,
+  y = 1101,
+  direction = 3,
+  default = true,
 }
 

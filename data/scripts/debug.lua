@@ -43,7 +43,7 @@ function debug:on_key_pressed(key, modifiers)
     elseif key == "o" then
       game:add_money(50)
     elseif key == "l" then
-      game:add_money(15)
+      game:remove_money(50)
     elseif key == "i" then
       game:add_magic(10)
     elseif key == "k" then
@@ -51,31 +51,27 @@ function debug:on_key_pressed(key, modifiers)
     elseif key == "kp 7" then
       game:set_max_magic(0)
     elseif key == "kp 8" then
-      game:set_max_magic(42)
+      game:set_max_magic(32)
     elseif key == "kp 9" then
-      game:set_max_magic(84)
+      game:set_max_magic(64)
     elseif key == "kp 1" then
       local tunic = game:get_item("equipment/tunic")
       local variant = math.max(1, tunic:get_variant() - 1)
       tunic:set_variant(variant)
       game:set_ability("tunic", variant)
-      game:set_value("defense",game:get_value("defense") - 1)
     elseif key == "kp 4" then
       local tunic = game:get_item("equipment/tunic")
-      local variant = math.min(4, tunic:get_variant() + 1)
+      local variant = math.min(3, tunic:get_variant() + 1)
       tunic:set_variant(variant)
       game:set_ability("tunic", variant)
-      game:set_value("defense",game:get_value("defense") + 1)
     elseif key == "kp 2" then
       local sword = game:get_item("equipment/sword")
       local variant = math.max(1, sword:get_variant() - 1)
       sword:set_variant(variant)
-      game:set_value("force",game:get_value("force") - 1)
     elseif key == "kp 5" then
       local sword = game:get_item("equipment/sword")
       local variant = math.min(4, sword:get_variant() + 1)
       sword:set_variant(variant)
-      game:set_value("force",game:get_value("force") + 1)
     elseif key == "kp 3" then
       local shield = game:get_item("equipment/shield")
       local variant = math.max(1, shield:get_variant() - 1)

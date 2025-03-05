@@ -5978,7 +5978,7 @@ teletransporter{
   y = 168,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Dungeons/Secret Passage/B1/B1_secret_passage",
+  destination_map = "A Link to the Past/Light World/Dungeons/Secret Passage/B1/B1_secret_passage",
   destination = "dest_map_B1_secret_passage_0",
 }
 
@@ -5989,7 +5989,7 @@ teletransporter{
   y = 184,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/cemetery_tomb",
+  destination_map = "A Link to the Past/Light World/Caves/cemetery_tomb",
   destination = "dest_map_cemetery_tomb_0",
 }
 
@@ -6021,12 +6021,12 @@ enemy{
 }
 
 enemy{
-  name = "red_spear_soldier_cemetry_0",
+  name = "spear_knight_cemetry_0",
   layer = 0,
   x = 344,
   y = 301,
   direction = 3,
-  breed = "soldiers/spear_soldier_red",
+  breed = "soldiers/spear_knight",
   treasure_name = "prize_packs/1",
 }
 
@@ -6820,7 +6820,7 @@ teletransporter{
   y = 88,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/cemetry_cave",
+  destination_map = "A Link to the Past/Light World/Caves/cemetry_cave",
   destination = "dest_map_cemetery_cave_0",
 }
 
@@ -6849,7 +6849,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/sanctuary",
+  destination_map = "A Link to the Past/Light World/Overworld/sanctuary",
   destination = "_side",
 }
 
@@ -6861,7 +6861,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/hyrule_castle",
+  destination_map = "A Link to the Past/Light World/Overworld/hyrule_castle",
   destination = "_side",
 }
 
@@ -6873,7 +6873,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/wooden_bridge_north",
+  destination_map = "A Link to the Past/Light World/Overworld/wooden_bridge_north",
   destination = "_side",
 }
 
@@ -6885,15 +6885,16 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/death_mountain_west",
+  destination_map = "A Link to the Past/Light World/Overworld/death_mountain_west",
   destination = "_side",
 }
 
 destination{
   name = "dest_secret",
   layer = 2,
-  x = 256,
-  y = 256,
+  x = 152,
+  y = 400,
   direction = 3,
+  default = true,
 }
 

@@ -1,720 +1,845 @@
 properties{
   x = 0,
   y = 0,
-  width = 512,
-  height = 512,
+  width = 256,
+  height = 256,
   min_layer = 0,
-  max_layer = 7,
-  world = "Dungeon1",
-  floor = -1,
+  max_layer = 2,
+  world = "pyramid_of_power",
+  floor = 1,
   tileset = "dungeon/dark_yellow",
+  music = "ganon_battle",
 }
 
 tile{
   layer = 0,
-  x = 48,
-  y = 312,
-  width = 160,
-  height = 144,
-  pattern = "floor.18-1",
+  x = 8,
+  y = 24,
+  width = 248,
+  height = 224,
+  pattern = "hole",
 }
 
 tile{
   layer = 0,
-  x = 304,
-  y = 312,
-  width = 160,
-  height = 144,
-  pattern = "floor.18-1",
+  x = 24,
+  y = 16,
+  width = 208,
+  height = 24,
+  pattern = "wall.1-2",
 }
 
 tile{
   layer = 0,
-  x = 48,
+  x = 40,
   y = 56,
-  width = 160,
-  height = 144,
-  pattern = "floor.18-1",
+  width = 176,
+  height = 160,
+  pattern = "floor_low.20-2",
 }
 
 tile{
   layer = 0,
-  x = 304,
-  y = 56,
-  width = 160,
-  height = 144,
-  pattern = "floor.18-1",
-}
-
-tile{
-  layer = 0,
-  x = 232,
-  y = 120,
-  width = 48,
-  height = 16,
-  pattern = "865",
-}
-
-tile{
-  layer = 1,
-  x = 48,
-  y = 456,
-  width = 448,
-  height = 8,
-  pattern = "wall_low_border.1-2",
-}
-
-tile{
-  layer = 1,
-  x = 48,
-  y = 304,
-  width = 448,
-  height = 8,
-  pattern = "wall_low_border.2-2",
-}
-
-tile{
-  layer = 1,
-  x = 464,
-  y = 56,
-  width = 8,
-  height = 432,
-  pattern = "wall_low_border.3-2",
-}
-
-tile{
-  layer = 1,
-  x = 296,
-  y = 56,
-  width = 8,
-  height = 432,
-  pattern = "wall_low_border.4-2",
-}
-
-tile{
-  layer = 1,
-  x = 208,
-  y = 56,
-  width = 8,
-  height = 432,
-  pattern = "wall_low_border.3-2",
-}
-
-tile{
-  layer = 1,
-  x = 40,
-  y = 56,
-  width = 8,
-  height = 432,
-  pattern = "wall_low_border.4-2",
-}
-
-tile{
-  layer = 1,
-  x = 48,
-  y = 200,
-  width = 448,
-  height = 8,
-  pattern = "wall_low_border.1-2",
-}
-
-tile{
-  layer = 1,
-  x = 48,
-  y = 48,
-  width = 448,
-  height = 8,
-  pattern = "wall_low_border.2-2",
-}
-
-tile{
-  layer = 1,
-  x = 464,
-  y = 456,
-  width = 8,
-  height = 8,
-  pattern = "wall_low_border.corner_reverse.1-2",
-}
-
-tile{
-  layer = 1,
-  x = 40,
-  y = 456,
-  width = 8,
-  height = 8,
-  pattern = "wall_low_border.corner_reverse.2-2",
-}
-
-tile{
-  layer = 1,
-  x = 464,
-  y = 304,
-  width = 8,
-  height = 8,
-  pattern = "wall_low_border.corner_reverse.3-2",
-}
-
-tile{
-  layer = 1,
-  x = 40,
-  y = 304,
-  width = 8,
-  height = 8,
-  pattern = "wall_low_border.corner_reverse.4-2",
-}
-
-tile{
-  layer = 1,
-  x = 208,
-  y = 456,
-  width = 8,
-  height = 8,
-  pattern = "wall_low_border.corner_reverse.1-2",
-}
-
-tile{
-  layer = 1,
-  x = 208,
-  y = 304,
-  width = 8,
-  height = 8,
-  pattern = "wall_low_border.corner_reverse.3-2",
-}
-
-tile{
-  layer = 1,
-  x = 296,
-  y = 456,
-  width = 8,
-  height = 8,
-  pattern = "wall_low_border.corner_reverse.2-2",
-}
-
-tile{
-  layer = 1,
-  x = 296,
-  y = 304,
-  width = 8,
-  height = 8,
-  pattern = "wall_low_border.corner_reverse.4-2",
-}
-
-tile{
-  layer = 1,
-  x = 464,
-  y = 48,
-  width = 8,
-  height = 8,
-  pattern = "wall_low_border.corner_reverse.3-2",
-}
-
-tile{
-  layer = 1,
-  x = 40,
-  y = 48,
-  width = 8,
-  height = 8,
-  pattern = "wall_low_border.corner_reverse.4-2",
-}
-
-tile{
-  layer = 1,
-  x = 464,
-  y = 200,
-  width = 8,
-  height = 8,
-  pattern = "wall_low_border.corner_reverse.1-2",
-}
-
-tile{
-  layer = 1,
-  x = 40,
-  y = 200,
-  width = 8,
-  height = 8,
-  pattern = "wall_low_border.corner_reverse.2-2",
-}
-
-tile{
-  layer = 1,
-  x = 208,
-  y = 48,
-  width = 8,
-  height = 8,
-  pattern = "wall_low_border.corner_reverse.3-2",
-}
-
-tile{
-  layer = 1,
-  x = 208,
-  y = 200,
-  width = 8,
-  height = 8,
-  pattern = "wall_low_border.corner_reverse.1-2",
-}
-
-tile{
-  layer = 1,
-  x = 296,
-  y = 48,
-  width = 8,
-  height = 8,
-  pattern = "wall_low_border.corner_reverse.4-2",
-}
-
-tile{
-  layer = 1,
-  x = 296,
-  y = 200,
-  width = 8,
-  height = 8,
-  pattern = "wall_low_border.corner_reverse.2-2",
-}
-
-tile{
-  layer = 1,
-  x = 376,
-  y = 224,
-  width = 16,
+  x = 88,
+  y = 104,
+  width = 80,
   height = 64,
-  pattern = "865",
+  pattern = "floor.18-2",
 }
 
 tile{
-  layer = 3,
-  x = 40,
-  y = 280,
-  width = 432,
-  height = 24,
-  pattern = "wall.1-2",
-}
-
-tile{
-  layer = 3,
-  x = 40,
-  y = 24,
-  width = 432,
-  height = 24,
-  pattern = "wall.1-2",
-}
-
-tile{
-  layer = 3,
-  x = 216,
-  y = 40,
-  width = 24,
-  height = 448,
-  pattern = "wall.4-2",
-}
-
-tile{
-  layer = 3,
-  x = 272,
-  y = 40,
-  width = 24,
-  height = 448,
-  pattern = "wall.3-2",
-}
-
-tile{
-  layer = 3,
-  x = 472,
-  y = 40,
-  width = 24,
-  height = 448,
-  pattern = "wall.4-2",
-}
-
-tile{
-  layer = 3,
-  x = 16,
-  y = 40,
-  width = 24,
-  height = 448,
-  pattern = "wall.3-2",
-}
-
-tile{
-  layer = 3,
-  x = 16,
-  y = 464,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner.3-2",
-}
-
-tile{
-  layer = 3,
-  x = 472,
-  y = 24,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner.2-2",
-}
-
-tile{
-  layer = 3,
-  x = 16,
-  y = 24,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner.1-2",
-}
-
-tile{
-  layer = 3,
-  x = 40,
-  y = 464,
-  width = 432,
+  layer = 0,
+  x = 24,
+  y = 232,
+  width = 208,
   height = 24,
   pattern = "wall.2-2",
 }
 
 tile{
-  layer = 3,
-  x = 16,
-  y = 208,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner.3-2",
-}
-
-tile{
-  layer = 3,
-  x = 16,
-  y = 280,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner.1-2",
-}
-
-tile{
-  layer = 3,
-  x = 272,
-  y = 464,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner.3-2",
-}
-
-tile{
-  layer = 3,
-  x = 272,
-  y = 24,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner.1-2",
-}
-
-tile{
-  layer = 3,
-  x = 216,
-  y = 464,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner.4-2",
-}
-
-tile{
-  layer = 3,
-  x = 216,
-  y = 24,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner.2-2",
-}
-
-tile{
-  layer = 3,
-  x = 40,
-  y = 208,
-  width = 432,
-  height = 24,
-  pattern = "wall.2-2",
-}
-
-tile{
-  layer = 3,
-  x = 272,
-  y = 208,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner.3-2",
-}
-
-tile{
-  layer = 3,
-  x = 272,
-  y = 280,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner.1-2",
-}
-
-tile{
-  layer = 3,
-  x = 216,
-  y = 208,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner.4-2",
-}
-
-tile{
-  layer = 3,
-  x = 216,
-  y = 280,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner.2-2",
-}
-
-tile{
-  layer = 3,
-  x = 472,
-  y = 208,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner.4-2",
-}
-
-tile{
-  layer = 3,
-  x = 472,
-  y = 280,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner.2-2",
-}
-
-tile{
-  layer = 3,
-  x = 472,
-  y = 464,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner.4-2",
-}
-
-tile{
-  layer = 3,
-  x = 368,
-  y = 288,
-  width = 8,
-  height = 16,
-  pattern = "door.1.support.1-1",
-}
-
-tile{
-  layer = 3,
-  x = 392,
-  y = 288,
-  width = 8,
-  height = 16,
-  pattern = "door.1.support.2-1",
-}
-
-tile{
-  layer = 3,
-  x = 392,
-  y = 208,
-  width = 8,
-  height = 16,
-  pattern = "door.2.support.2-1",
-}
-
-tile{
-  layer = 3,
-  x = 368,
-  y = 208,
-  width = 8,
-  height = 16,
-  pattern = "door.2.support.1-1",
-}
-
-tile{
-  layer = 3,
-  x = 376,
-  y = 288,
-  width = 16,
-  height = 16,
-  pattern = "door.1",
-}
-
-tile{
-  layer = 3,
-  x = 376,
-  y = 208,
-  width = 16,
-  height = 16,
-  pattern = "door.2",
-}
-
-tile{
-  layer = 3,
-  x = 368,
-  y = 280,
-  width = 32,
-  height = 8,
-  pattern = "door_top.1-2",
-}
-
-tile{
-  layer = 3,
-  x = 368,
-  y = 224,
-  width = 32,
-  height = 8,
-  pattern = "door_top.2-2",
-}
-
-tile{
-  layer = 3,
-  x = 216,
-  y = 120,
-  width = 16,
-  height = 16,
-  pattern = "door.4",
-}
-
-tile{
-  layer = 3,
-  x = 216,
-  y = 112,
-  width = 16,
-  height = 8,
-  pattern = "door.4.support.1-1",
-}
-
-tile{
-  layer = 3,
-  x = 216,
-  y = 136,
-  width = 16,
-  height = 8,
-  pattern = "door.4.support.2-1",
-}
-
-tile{
-  layer = 3,
-  x = 272,
-  y = 112,
-  width = 8,
-  height = 32,
-  pattern = "door_top.3-2",
-}
-
-tile{
-  layer = 3,
+  layer = 0,
   x = 232,
-  y = 112,
-  width = 8,
-  height = 32,
-  pattern = "door_top.4-2",
+  y = 40,
+  width = 24,
+  height = 192,
+  pattern = "wall.4-2",
 }
 
 tile{
-  layer = 3,
-  x = 280,
-  y = 120,
-  width = 16,
-  height = 16,
-  pattern = "door.3",
-}
-
-tile{
-  layer = 3,
-  x = 280,
-  y = 136,
-  width = 16,
-  height = 8,
-  pattern = "door.3.support.2-1",
-}
-
-tile{
-  layer = 3,
-  x = 280,
-  y = 112,
-  width = 16,
-  height = 8,
-  pattern = "door.3.support.1-1",
-}
-
-tile{
-  layer = 4,
+  layer = 0,
   x = 0,
-  y = 0,
-  width = 512,
-  height = 24,
-  pattern = "ceiling.1",
+  y = 40,
+  width = 24,
+  height = 192,
+  pattern = "wall.3-2",
 }
 
 tile{
-  layer = 4,
-  x = 0,
-  y = 0,
-  width = 16,
-  height = 512,
-  pattern = "ceiling.1",
-}
-
-tile{
-  layer = 4,
-  x = 496,
-  y = 0,
-  width = 16,
-  height = 512,
-  pattern = "ceiling.1",
-}
-
-tile{
-  layer = 4,
-  x = 240,
-  y = 0,
-  width = 32,
-  height = 512,
-  pattern = "ceiling.1",
-}
-
-tile{
-  layer = 4,
+  layer = 0,
   x = 0,
   y = 232,
-  width = 512,
-  height = 48,
-  pattern = "ceiling.1",
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3-2",
 }
 
 tile{
-  layer = 4,
-  x = 0,
-  y = 488,
-  width = 512,
+  layer = 0,
+  x = 232,
+  y = 16,
+  width = 24,
   height = 24,
+  pattern = "wall.corner.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 232,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 56,
+  width = 24,
+  height = 32,
+  pattern = "wall_decor.4-6",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 56,
+  width = 24,
+  height = 32,
+  pattern = "wall_decor.3-6",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 120,
+  width = 24,
+  height = 32,
+  pattern = "wall_decor.4-6",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 184,
+  width = 24,
+  height = 32,
+  pattern = "wall_decor.3-6",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "torch",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "torch",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 120,
+  width = 24,
+  height = 32,
+  pattern = "wall_decor.3-6",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 184,
+  width = 24,
+  height = 32,
+  pattern = "wall_decor.4-6",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 16,
+  width = 64,
+  height = 24,
+  pattern = "full_wall_decor.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 16,
+  width = 64,
+  height = 24,
+  pattern = "full_wall_decor.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 16,
+  width = 64,
+  height = 24,
+  pattern = "full_wall_decor.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 112,
+  width = 32,
+  height = 24,
+  pattern = "triforce.tile-1",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 136,
+  width = 32,
+  height = 24,
+  pattern = "triforce.tile-2",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 136,
+  width = 32,
+  height = 24,
+  pattern = "triforce.tile-2",
+}
+
+teletransporter{
+  name = "tp_hole_F2_pyramid_of_power_0",
+  layer = 0,
+  x = 24,
+  y = 40,
+  enabled_at_start = false,
+  width = 72,
+  height = 16,
+  destination_map = "A Link to the Past/Dark World/Dungeons/Pyramid of Power/F1/F1_pyramid_of_power",
+  destination = "dest_hole_F1_pyramid_of_power_0",
+}
+
+teletransporter{
+  name = "tp_hole_F2_pyramid_of_power_1",
+  layer = 0,
+  x = 96,
+  y = 40,
+  enabled_at_start = false,
+  width = 64,
+  height = 16,
+  destination_map = "A Link to the Past/Dark World/Dungeons/Pyramid of Power/F1/F1_pyramid_of_power",
+  destination = "dest_hole_F1_pyramid_of_power_0",
+}
+
+teletransporter{
+  name = "tp_hole_F2_pyramid_of_power_2",
+  layer = 0,
+  x = 160,
+  y = 40,
+  enabled_at_start = false,
+  width = 56,
+  height = 16,
+  destination_map = "A Link to the Past/Dark World/Dungeons/Pyramid of Power/F1/F1_pyramid_of_power",
+  destination = "dest_hole_F1_pyramid_of_power_0",
+}
+
+teletransporter{
+  name = "tp_hole_F2_pyramid_of_power_3",
+  layer = 0,
+  x = 216,
+  y = 40,
+  enabled_at_start = false,
+  width = 16,
+  height = 176,
+  destination_map = "A Link to the Past/Dark World/Dungeons/Pyramid of Power/F1/F1_pyramid_of_power",
+  destination = "dest_hole_F1_pyramid_of_power_2",
+}
+
+teletransporter{
+  name = "tp_hole_F2_pyramid_of_power_5",
+  layer = 0,
+  x = 40,
+  y = 216,
+  enabled_at_start = false,
+  width = 192,
+  height = 16,
+  destination_map = "A Link to the Past/Dark World/Dungeons/Pyramid of Power/F1/F1_pyramid_of_power",
+  destination = "dest_hole_F1_pyramid_of_power_3",
+}
+
+teletransporter{
+  name = "tp_hole_F2_pyramid_of_power_4",
+  layer = 0,
+  x = 24,
+  y = 56,
+  enabled_at_start = false,
+  width = 16,
+  height = 176,
+  destination_map = "A Link to the Past/Dark World/Dungeons/Pyramid of Power/F1/F1_pyramid_of_power",
+  destination = "dest_hole_F1_pyramid_of_power_1",
+}
+
+teletransporter{
+  name = "tp_end_triforce",
+  layer = 0,
+  x = 112,
+  y = 8,
+  width = 32,
+  height = 16,
+  destination_map = "A Link to the Past/Dark World/Dungeons/Pyramid of Power/F2/end_triforce",
+  destination = "dest_dungeon_end_triforce_0",
+}
+
+dynamic_tile{
+  name = "dynamic_tile_ground_0",
+  layer = 0,
+  x = 24,
+  y = 40,
+  width = 192,
+  height = 16,
+  pattern = "floor_low.20-2",
+}
+
+dynamic_tile{
+  name = "dynamic_tile_ground_1",
+  layer = 0,
+  x = 216,
+  y = 40,
+  width = 16,
+  height = 176,
+  pattern = "floor_low.20-2",
+}
+
+dynamic_tile{
+  name = "dynamic_tile_ground_2",
+  layer = 0,
+  x = 40,
+  y = 216,
+  width = 192,
+  height = 16,
+  pattern = "floor_low.20-2",
+}
+
+dynamic_tile{
+  name = "dynamic_tile_ground_3",
+  layer = 0,
+  x = 24,
+  y = 56,
+  width = 16,
+  height = 176,
+  pattern = "floor_low.20-2",
+}
+
+dynamic_tile{
+  name = "dynamic_tile_end_stair_1",
+  layer = 0,
+  x = 96,
+  y = 40,
+  enabled_at_start = false,
+  width = 8,
+  height = 16,
+  pattern = "steps.1",
+}
+
+dynamic_tile{
+  name = "dynamic_tile_end_stair_2",
+  layer = 0,
+  x = 152,
+  y = 40,
+  enabled_at_start = false,
+  width = 8,
+  height = 16,
+  pattern = "steps.1",
+}
+
+dynamic_tile{
+  name = "dynamic_tile_end_stair_0",
+  layer = 0,
+  x = 104,
+  y = 24,
+  enabled_at_start = false,
+  width = 48,
+  height = 32,
+  pattern = "steps.1",
+}
+
+dynamic_tile{
+  name = "dynamic_tile_end_light_1",
+  layer = 0,
+  x = 112,
+  y = 24,
+  enabled_at_start = false,
+  width = 32,
+  height = 32,
+  pattern = "lighting.3",
+}
+
+dynamic_tile{
+  name = "dynamic_tile_end_light_2",
+  layer = 0,
+  x = 144,
+  y = 24,
+  enabled_at_start = false,
+  width = 8,
+  height = 8,
+  pattern = "lighting.6",
+}
+
+dynamic_tile{
+  name = "dynamic_tile_end_light_0",
+  layer = 0,
+  x = 104,
+  y = 24,
+  enabled_at_start = false,
+  width = 8,
+  height = 8,
+  pattern = "lighting.5",
+}
+
+wall{
+  layer = 0,
+  x = 144,
+  y = 16,
+  width = 8,
+  height = 24,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 104,
+  y = 16,
+  width = 8,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+dynamic_tile{
+  name = "dynamic_tile_end_ground_0",
+  layer = 0,
+  x = 112,
+  y = 8,
+  width = 32,
+  height = 16,
+  pattern = "ceiling.2",
+}
+
+sensor{
+  name = "sensor_boss",
+  layer = 0,
+  x = 128,
+  y = 213,
+  width = 16,
+  height = 16,
+}
+
+dynamic_tile{
+  name = "dynamic_tile_end_light_4",
+  layer = 0,
+  x = 112,
+  y = 24,
+  enabled_at_start = false,
+  width = 32,
+  height = 8,
+  pattern = "lighting.3",
+}
+
+dynamic_tile{
+  name = "dynamic_tile_end_light_5",
+  layer = 0,
+  x = 144,
+  y = 24,
+  enabled_at_start = false,
+  width = 8,
+  height = 8,
+  pattern = "lighting.6",
+}
+
+dynamic_tile{
+  name = "dynamic_tile_end_light_3",
+  layer = 0,
+  x = 104,
+  y = 24,
+  enabled_at_start = false,
+  width = 8,
+  height = 8,
+  pattern = "lighting.5",
+}
+
+dynamic_tile{
+  name = "dynamic_tile_end_light_18",
+  layer = 0,
+  x = 104,
+  y = 32,
+  enabled_at_start = false,
+  width = 48,
+  height = 24,
+  pattern = "lighting.3",
+}
+
+dynamic_tile{
+  name = "dynamic_tile_end_light_6",
+  layer = 0,
+  x = 112,
+  y = 24,
+  enabled_at_start = false,
+  width = 32,
+  height = 8,
+  pattern = "lighting.3",
+}
+
+dynamic_tile{
+  name = "dynamic_tile_end_light_7",
+  layer = 0,
+  x = 144,
+  y = 24,
+  enabled_at_start = false,
+  width = 8,
+  height = 8,
+  pattern = "lighting.6",
+}
+
+dynamic_tile{
+  name = "dynamic_tile_end_light_8",
+  layer = 0,
+  x = 104,
+  y = 24,
+  enabled_at_start = false,
+  width = 8,
+  height = 8,
+  pattern = "lighting.5",
+}
+
+dynamic_tile{
+  name = "dynamic_tile_end_light_19",
+  layer = 0,
+  x = 104,
+  y = 32,
+  enabled_at_start = false,
+  width = 48,
+  height = 16,
+  pattern = "lighting.3",
+}
+
+dynamic_tile{
+  name = "dynamic_tile_end_light_9",
+  layer = 0,
+  x = 112,
+  y = 24,
+  enabled_at_start = false,
+  width = 32,
+  height = 8,
+  pattern = "lighting.3",
+}
+
+dynamic_tile{
+  name = "dynamic_tile_end_light_10",
+  layer = 0,
+  x = 144,
+  y = 24,
+  enabled_at_start = false,
+  width = 8,
+  height = 8,
+  pattern = "lighting.6",
+}
+
+dynamic_tile{
+  name = "dynamic_tile_end_light_11",
+  layer = 0,
+  x = 104,
+  y = 24,
+  enabled_at_start = false,
+  width = 8,
+  height = 8,
+  pattern = "lighting.5",
+}
+
+dynamic_tile{
+  name = "dynamic_tile_end_light_20",
+  layer = 0,
+  x = 104,
+  y = 32,
+  enabled_at_start = false,
+  width = 48,
+  height = 8,
+  pattern = "lighting.3",
+}
+
+dynamic_tile{
+  name = "dynamic_tile_end_light_12",
+  layer = 0,
+  x = 112,
+  y = 24,
+  enabled_at_start = false,
+  width = 32,
+  height = 8,
+  pattern = "lighting.3",
+}
+
+dynamic_tile{
+  name = "dynamic_tile_end_light_13",
+  layer = 0,
+  x = 144,
+  y = 24,
+  enabled_at_start = false,
+  width = 8,
+  height = 8,
+  pattern = "lighting.6",
+}
+
+dynamic_tile{
+  name = "dynamic_tile_end_light_14",
+  layer = 0,
+  x = 104,
+  y = 24,
+  enabled_at_start = false,
+  width = 8,
+  height = 8,
+  pattern = "lighting.5",
+}
+
+dynamic_tile{
+  name = "dynamic_tile_end_light_15",
+  layer = 0,
+  x = 112,
+  y = 24,
+  enabled_at_start = false,
+  width = 32,
+  height = 8,
+  pattern = "lighting.3",
+}
+
+dynamic_tile{
+  name = "dynamic_tile_end_light_16",
+  layer = 0,
+  x = 144,
+  y = 24,
+  enabled_at_start = false,
+  width = 8,
+  height = 8,
+  pattern = "lighting.6",
+}
+
+dynamic_tile{
+  name = "dynamic_tile_end_light_17",
+  layer = 0,
+  x = 104,
+  y = 24,
+  enabled_at_start = false,
+  width = 8,
+  height = 8,
+  pattern = "lighting.5",
+}
+
+dynamic_tile{
+  name = "dynamic_tile_end_light_21",
+  layer = 0,
+  x = 144,
+  y = 24,
+  enabled_at_start = false,
+  width = 8,
+  height = 8,
+  pattern = "lighting.6",
+}
+
+dynamic_tile{
+  name = "dynamic_tile_end_light_22",
+  layer = 0,
+  x = 104,
+  y = 24,
+  enabled_at_start = false,
+  width = 8,
+  height = 8,
+  pattern = "lighting.5",
+}
+
+dynamic_tile{
+  name = "dynamic_tile_end_light_23",
+  layer = 0,
+  x = 144,
+  y = 24,
+  enabled_at_start = false,
+  width = 8,
+  height = 8,
+  pattern = "lighting.6",
+}
+
+dynamic_tile{
+  name = "dynamic_tile_end_light_24",
+  layer = 0,
+  x = 104,
+  y = 24,
+  enabled_at_start = false,
+  width = 8,
+  height = 8,
+  pattern = "lighting.5",
+}
+
+dynamic_tile{
+  name = "dynamic_tile_end_light_25",
+  layer = 0,
+  x = 144,
+  y = 24,
+  enabled_at_start = false,
+  width = 8,
+  height = 8,
+  pattern = "lighting.6",
+}
+
+dynamic_tile{
+  name = "dynamic_tile_end_light_26",
+  layer = 0,
+  x = 104,
+  y = 24,
+  enabled_at_start = false,
+  width = 8,
+  height = 8,
+  pattern = "lighting.5",
+}
+
+enemy{
+  name = "boss_ganon",
+  layer = 0,
+  x = 128,
+  y = 69,
+  enabled_at_start = false,
+  direction = 3,
+  breed = "bosses/ganon",
+}
+
+wall{
+  layer = 0,
+  x = 24,
+  y = 40,
+  width = 72,
+  height = 16,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 0,
+  x = 160,
+  y = 40,
+  width = 72,
+  height = 16,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 0,
+  x = 24,
+  y = 56,
+  width = 16,
+  height = 176,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 0,
+  x = 40,
+  y = 216,
+  width = 192,
+  height = 16,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 0,
+  x = 216,
+  y = 56,
+  width = 16,
+  height = 160,
+  stops_enemies = true,
+}
+
+destination{
+  name = "dest_dungeon_F2_pyramid_of_power_0",
+  layer = 0,
+  x = 128,
+  y = 29,
+  direction = 3,
+}
+
+npc{
+  name = "npc_ganon",
+  layer = 0,
+  x = 128,
+  y = 69,
+  direction = 3,
+  subtype = 1,
+  sprite = "enemies/bosses/ganon",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 0,
+  width = 256,
+  height = 16,
   pattern = "ceiling.1",
 }
 
-separator{
-  layer = 7,
-  x = 248,
-  y = 0,
-  width = 16,
-  height = 512,
+dynamic_tile{
+  name = "dynamic_tile_end_door_top_0",
+  layer = 1,
+  x = 112,
+  y = 16,
+  width = 32,
+  height = 8,
+  pattern = "door_top.1-7",
 }
 
-separator{
-  layer = 7,
-  x = 0,
-  y = 224,
-  width = 512,
-  height = 16,
+destination{
+  name = "dest_secret",
+  layer = 2,
+  x = 128,
+  y = 149,
+  direction = 3,
+  default = true,
 }
 
-separator{
-  layer = 7,
-  x = 0,
-  y = 480,
-  width = 512,
-  height = 16,
+destination{
+  name = "dest_hole_F2_pyramid_of_power_0",
+  layer = 2,
+  x = 128,
+  y = 213,
+  direction = 3,
 }
 

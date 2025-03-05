@@ -1,4 +1,4 @@
--- Lua script of map A Link To The Past/Light World/Houses/Kakariko/sick_house.
+-- Lua script of map A Link to the Past/Light World/Houses/Kakariko/sick_house.
 -- This script is executed every time the hero enters this map.
 
 -- Feel free to modify the code below.

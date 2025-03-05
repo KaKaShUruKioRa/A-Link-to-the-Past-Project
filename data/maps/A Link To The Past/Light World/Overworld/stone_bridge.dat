@@ -1318,15 +1318,6 @@ tile{
 tile{
   layer = 0,
   x = 176,
-  y = 88,
-  width = 8,
-  height = 8,
-  pattern = "118",
-}
-
-tile{
-  layer = 0,
-  x = 176,
   y = 96,
   width = 8,
   height = 8,
@@ -5959,20 +5950,20 @@ tile{
 
 tile{
   layer = 0,
+  x = 104,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "4034",
+}
+
+tile{
+  layer = 0,
   x = 88,
   y = 96,
   width = 8,
   height = 16,
   pattern = "4030",
-}
-
-tile{
-  layer = 0,
-  x = 96,
-  y = 88,
-  width = 16,
-  height = 8,
-  pattern = "4027",
 }
 
 tile{
@@ -5986,26 +5977,26 @@ tile{
 
 tile{
   layer = 0,
-  x = 96,
-  y = 112,
+  x = 176,
+  y = 88,
   width = 8,
   height = 8,
-  pattern = "4034",
+  pattern = "118",
 }
 
 tile{
   layer = 0,
-  x = 112,
+  x = 96,
   y = 88,
-  width = 16,
+  width = 32,
   height = 8,
   pattern = "4027",
 }
 
 tile{
   layer = 0,
-  x = 104,
-  y = 120,
+  x = 96,
+  y = 112,
   width = 8,
   height = 8,
   pattern = "4034",
@@ -6035,7 +6026,7 @@ teletransporter{
   y = 256,
   width = 16,
   height = 64,
-  destination_map = "A Link To The Past/Light World/Overworld/under_stone_bridge",
+  destination_map = "A Link to the Past/Light World/Overworld/under_stone_bridge",
   destination = "dest_map_under_stone_bridge_0",
 }
 
@@ -6733,7 +6724,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/link_house",
+  destination_map = "A Link to the Past/Light World/Overworld/link_house",
   destination = "_side",
 }
 
@@ -6745,7 +6736,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/lake_hylia",
+  destination_map = "A Link to the Past/Light World/Overworld/lake_hylia",
   destination = "_side",
 }
 
@@ -6757,7 +6748,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/plain_hylia",
+  destination_map = "A Link to the Past/Light World/Overworld/plain_hylia",
   destination = "_side",
 }
 
@@ -6769,15 +6760,16 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "A Link To The Past/Light World/Overworld/plain_of_rocks",
+  destination_map = "A Link to the Past/Light World/Overworld/plain_of_rocks",
   destination = "_side",
 }
 
 destination{
   name = "dest_secret",
   layer = 2,
-  x = 280,
-  y = 224,
+  x = 312,
+  y = 128,
   direction = 3,
+  default = true,
 }
 

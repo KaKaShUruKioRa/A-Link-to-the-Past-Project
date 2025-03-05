@@ -1339,7 +1339,7 @@ teletransporter{
   y = 464,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/plain_of_ruins_south",
+  destination_map = "A Link to the Past/Light World/Overworld/plain_of_ruins_south",
   destination = "dest_cave_plain_of_ruins_south_1",
 }
 
@@ -1489,9 +1489,10 @@ tile{
 destination{
   name = "dest_secret",
   layer = 2,
-  x = 256,
-  y = 256,
+  x = 384,
+  y = 176,
   direction = 3,
+  default = true,
 }
 
 separator{

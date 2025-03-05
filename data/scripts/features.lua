@@ -19,4 +19,8 @@ require("scripts/meta/npc.lua")
 require("scripts/meta/sensor.lua")
 require("scripts/meta/teletransporter.lua")
 
+require("scripts/meta/random_drop.lua")
+RNGdrop:destructibles()
+RNGdrop:enemies()
+
 return true

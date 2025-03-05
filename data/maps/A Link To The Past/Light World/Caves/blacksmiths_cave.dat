@@ -1339,7 +1339,7 @@ teletransporter{
   y = 464,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/blacksmiths_house",
+  destination_map = "A Link to the Past/Light World/Overworld/blacksmiths_house",
   destination = "dest_cave_blacksmiths_house_0",
 }
 
@@ -1367,6 +1367,16 @@ wall{
   stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
+}
+
+npc{
+  name = "npc_purple_mad_better_0",
+  layer = 0,
+  x = 384,
+  y = 141,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/mad_batter_purple",
 }
 
 tile{
@@ -1417,9 +1427,9 @@ tile{
 tile{
   layer = 1,
   x = 272,
-  y = 216,
+  y = 200,
   width = 24,
-  height = 80,
+  height = 96,
   pattern = "wall.3-3",
 }
 
@@ -1489,16 +1499,17 @@ tile{
 destination{
   name = "dest_secret",
   layer = 2,
-  x = 256,
-  y = 256,
+  x = 384,
+  y = 200,
   direction = 3,
+  default = true,
 }
 
 destination{
   name = "dest_hole_blacksmiths_cave_0",
   layer = 2,
-  x = 376,
-  y = 173,
+  x = 384,
+  y = 165,
   direction = 3,
 }
 

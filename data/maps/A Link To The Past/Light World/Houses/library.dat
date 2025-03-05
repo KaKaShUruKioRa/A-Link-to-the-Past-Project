@@ -717,7 +717,7 @@ teletransporter{
   y = 208,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/library",
+  destination_map = "A Link to the Past/Light World/Overworld/library",
   destination = "dest_house_library_0",
 }
 
@@ -798,5 +798,6 @@ destination{
   x = 128,
   y = 152,
   direction = 3,
+  default = true,
 }
 

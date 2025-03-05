@@ -1,4 +1,4 @@
--- Lua script of map A Link To The Past/Light World/Caves/cemetry_cave_1.
+-- Lua script of map A Link to the Past/Light World/Caves/cemetry_cave.
 -- This script is executed every time the hero enters this map.
 
 -- Feel free to modify the code below.

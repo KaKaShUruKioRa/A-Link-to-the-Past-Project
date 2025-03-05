@@ -8,16 +8,14 @@ local properties = {
   sprite = "enemies/" .. enemy:get_breed(),
   life = 1,
   damage = 2,
-  normal_speed = 64,
-  faster_speed = 64,
-  waking_distance = 100,
+  normal_speed = 32,
+  faster_speed = 32,
+  waking_distance = 24,
 }
 
 behavior:create(enemy, properties)
 
--- Only the hammer can hurt this enemy.
-enemy:set_invincible()
-enemy:set_attack_consequence("sword", "custom")
+enemy:set_attack_consequence("sword", 1)
 enemy:set_attack_consequence("thrown_item", "custom")
 enemy:set_attack_consequence("boomerang", "custom")
 -- enemy:set_arrow_reaction("custom")

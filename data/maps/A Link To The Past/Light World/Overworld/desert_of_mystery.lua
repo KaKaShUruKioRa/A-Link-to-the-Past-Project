@@ -9,6 +9,10 @@
 
 local map = ...
 local game = map:get_game()
+local RNGdrop = require("scripts/meta/random_drop") 
+-------------------------------------------------------------------
+RNGdrop:enemies()
+RNGdrop:destructibles()
 
 local statue_moved = false
 
@@ -54,5 +58,13 @@ function crypted_stone_desert_of_mystery_0:on_interaction()
     end)
   else
       game:start_dialog("crypted.desert_stone")
+  end  
+end
+
+function npc_bombos_stele_desert_of_mystery_0:on_interaction()
+  if game:has_item("equipment/book_of_mudora") then
+    game:start_dialog("uncrypted.bombos_stele")
+  else
+    game:start_dialog("crypted.bombos_stele")
   end  
 end
