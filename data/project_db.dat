@@ -1561,36 +1561,36 @@ file{ path = "maps/A Link To The Past/Dark World/Overworld/wooden_bridge.dat", a
 file{ path = "maps/A Link To The Past/Dark World/Overworld/wooden_bridge.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "maps/A Link To The Past/Dark World/Overworld/wooden_bridge_north.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Dark World/Overworld/wooden_bridge_north.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World", author = "KaKaShUruKioRa", }
-file{ path = "maps/A Link To The Past/Light World/Caves", author = "KaKaShUruKioRa", }
-file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain East", author = "KaKaShUruKioRa", }
-file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain East/B1_deathmountain_east_cave_0.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain East/B1_deathmountain_east_cave_0.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain East/F1_deathmountain_east_cave_0.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain East/F1_deathmountain_east_cave_0.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain East/F1_deathmountain_east_middle_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain East/F1_deathmountain_east_middle_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain East/F1_spiral_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain East/F1_spiral_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain East/F2_deathmountain_east_cave_0.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain East/F2_deathmountain_east_cave_0.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain East/F2_deathmountain_east_middle_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain East/F2_deathmountain_east_middle_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain East/F2_spiral_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain East/F2_spiral_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain East/turtle_rock_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain East/turtle_rock_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain West", author = "KaKaShUruKioRa", }
-file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain West/F1_deathmountain_west_cave_0.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain West/F1_deathmountain_west_cave_0.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain West/F2_deathmountain_west_cave_0.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain West/F2_deathmountain_west_cave_0.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain West/grandpa_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain West/grandpa_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain West/in_deathmountain_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain West/in_deathmountain_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain West/out_deathmountain_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain West/out_deathmountain_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World", author = "Mixed", }
+file{ path = "maps/A Link To The Past/Light World/Caves", author = "KaKaShUruKioRa, ZeldoRetro, DarkDavy15", }
+file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain East", author = "ZeldoRetro", }
+file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain East/B1_deathmountain_east_cave_0.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain East/B1_deathmountain_east_cave_0.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain East/F1_deathmountain_east_cave_0.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain East/F1_deathmountain_east_cave_0.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain East/F1_deathmountain_east_middle_cave.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain East/F1_deathmountain_east_middle_cave.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain East/F1_spiral_cave.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain East/F1_spiral_cave.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain East/F2_deathmountain_east_cave_0.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain East/F2_deathmountain_east_cave_0.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain East/F2_deathmountain_east_middle_cave.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain East/F2_deathmountain_east_middle_cave.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain East/F2_spiral_cave.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain East/F2_spiral_cave.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain East/turtle_rock_cave.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain East/turtle_rock_cave.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain West", author = "ZeldoRetro", }
+file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain West/F1_deathmountain_west_cave_0.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain West/F1_deathmountain_west_cave_0.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain West/F2_deathmountain_west_cave_0.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain West/F2_deathmountain_west_cave_0.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain West/grandpa_cave.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain West/grandpa_cave.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain West/in_deathmountain_cave.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain West/in_deathmountain_cave.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain West/out_deathmountain_cave.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain West/out_deathmountain_cave.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "maps/A Link To The Past/Light World/Caves/Fairy", author = "ZeldoRetro, DarkDavy15", }
 file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/deadend_east_fairy_cave.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/deadend_east_fairy_cave.lua", author = "ZeldoRetro", license = "GPL v3" }
@@ -1642,7 +1642,7 @@ file{ path = "maps/A Link To The Past/Light World/Caves/sanctuary_cave.dat", aut
 file{ path = "maps/A Link To The Past/Light World/Caves/sanctuary_cave.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "maps/A Link To The Past/Light World/Caves/wooden_bridge_north_cave.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Caves/wooden_bridge_north_cave.lua", author = "ZeldoRetro", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Dungeons", author = "ZeldoRetro, DarkDavy15", }
+file{ path = "maps/A Link To The Past/Light World/Dungeons", author = "KaKaShUruKioRa, ZeldoRetro, DarkDavy15", }
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Desert Palace", author = "ZeldoRetro", }
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Desert Palace/B1", author = "ZeldoRetro", }
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Desert Palace/B1/B1_desert_palace.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }

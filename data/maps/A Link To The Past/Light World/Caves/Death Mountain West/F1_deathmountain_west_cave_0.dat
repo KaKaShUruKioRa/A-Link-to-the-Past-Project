@@ -11,16 +11,6 @@ properties{
 
 tile{
   layer = -1,
-  x = 512,
-  y = 0,
-  width = 512,
-  height = 512,
-  pattern = "1_13",
-  tileset = "blueprint/caves_light",
-}
-
-tile{
-  layer = -1,
   x = 0,
   y = 0,
   width = 512,
